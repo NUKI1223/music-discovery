@@ -1,0 +1,198 @@
+{
+  "snapshot_id": "synthetic-demo-v1-2026-10-28",
+  "taxonomy_version": "demo-v1",
+  "as_of": "2026-10-28",
+  "is_fixture": true,
+  "release_count": 336,
+  "scope_reports": {
+    "hip-hop": {
+      "status": "limited",
+      "release_count": 288,
+      "artist_count": 288,
+      "family_counts": {
+        "experimental": 48,
+        "abstract": 48,
+        "boom-bap": 48,
+        "jazz-rap": 48,
+        "hardcore": 48,
+        "trap": 48
+      },
+      "confirmed_genre_coverage": 0.0,
+      "usable_popularity_coverage": 0.9791666666666666,
+      "provenance_coverage": 0.0,
+      "reasons": [
+        "synthetic_data_is_not_product_evidence",
+        "release_count_below_genre_requirement",
+        "independent_genre_review_below_95_percent",
+        "missing_provenance",
+        "source_access_not_verified_in_manifest"
+      ],
+      "cohorts": [
+        {
+          "genre_id": "abstract",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 47,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 18,
+          "rare_artist_count": 18,
+          "status": "available"
+        },
+        {
+          "genre_id": "boom-bap",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 47,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 18,
+          "rare_artist_count": 18,
+          "status": "available"
+        },
+        {
+          "genre_id": "experimental",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 47,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 18,
+          "rare_artist_count": 18,
+          "status": "available"
+        },
+        {
+          "genre_id": "hardcore",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 47,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 18,
+          "rare_artist_count": 18,
+          "status": "available"
+        },
+        {
+          "genre_id": "hip-hop",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 288,
+          "usable_observation_count": 282,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 108,
+          "rare_artist_count": 108,
+          "status": "available"
+        },
+        {
+          "genre_id": "jazz-rap",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 47,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 18,
+          "rare_artist_count": 18,
+          "status": "available"
+        },
+        {
+          "genre_id": "trap",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 47,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 18,
+          "rare_artist_count": 18,
+          "status": "available"
+        }
+      ]
+    },
+    "jazz": {
+      "status": "limited",
+      "release_count": 96,
+      "artist_count": 96,
+      "family_counts": {
+        "jazz-rap": 48,
+        "modal-jazz": 48
+      },
+      "confirmed_genre_coverage": 0.0,
+      "usable_popularity_coverage": 0.9791666666666666,
+      "provenance_coverage": 0.0,
+      "reasons": [
+        "genre_product_requirements_not_configured",
+        "synthetic_data_is_not_product_evidence",
+        "independent_genre_review_below_95_percent",
+        "missing_provenance",
+        "source_access_not_verified_in_manifest"
+      ],
+      "cohorts": [
+        {
+          "genre_id": "jazz",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 96,
+          "usable_observation_count": 94,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 36,
+          "rare_artist_count": 36,
+          "status": "available"
+        },
+        {
+          "genre_id": "jazz-rap",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 47,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 18,
+          "rare_artist_count": 18,
+          "status": "available"
+        },
+        {
+          "genre_id": "modal-jazz",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 47,
+          "coverage": 0.9791666666666666,
+          "rare_release_count": 18,
+          "rare_artist_count": 18,
+          "status": "available"
+        }
+      ]
+    },
+    "rnb": {
+      "status": "limited",
+      "release_count": 12,
+      "artist_count": 12,
+      "family_counts": {},
+      "confirmed_genre_coverage": 0.0,
+      "usable_popularity_coverage": 1.0,
+      "provenance_coverage": 0.0,
+      "reasons": [
+        "genre_product_requirements_not_configured",
+        "synthetic_data_is_not_product_evidence",
+        "independent_genre_review_below_95_percent",
+        "missing_provenance",
+        "source_access_not_verified_in_manifest",
+        "one_or_more_comparison_groups_limited"
+      ],
+      "cohorts": [
+        {
+          "genre_id": "rnb",
+          "source": "synthetic-demo",
+          "age_group": "over-5",
+          "release_count": 12,
+          "usable_observation_count": 12,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        }
+      ]
+    }
+  },
+  "g0_status": "limited",
+  "measurement_scope": "local_catalogue_not_global_popularity",
+  "invalid_review_release_ids": []
+}

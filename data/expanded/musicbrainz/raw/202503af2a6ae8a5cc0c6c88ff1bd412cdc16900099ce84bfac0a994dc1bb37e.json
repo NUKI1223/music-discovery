@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/70c21324-620c-41ef-aed3-d98e2b843c78",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/70c21324-620c-41ef-aed3-d98e2b843c78?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:05.470633+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "The Presence",
+        "artist": {
+          "sort-name": "Presence, The",
+          "name": "The Presence",
+          "tags": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "id": "9b7e4456-3983-4859-bb99-32e58781c4f8",
+          "country": "US",
+          "disambiguation": "NY underground rap duo Nasa & Cirrus",
+          "type": "Group"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "alternative hip hop"
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "underground hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+        "disambiguation": "",
+        "count": 1,
+        "name": "alternative hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "underground hip hop",
+        "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "id": "70c21324-620c-41ef-aed3-d98e2b843c78",
+    "title": "Members Only EP",
+    "first-release-date": "2004-10-21",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": ""
+  }
+}

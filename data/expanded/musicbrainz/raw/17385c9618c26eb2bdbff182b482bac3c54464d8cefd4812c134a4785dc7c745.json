@@ -1,0 +1,136 @@
+{
+  "endpoint": "release-group/ad27074e-ff51-4998-a45d-30b42b5421ea",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ad27074e-ff51-4998-a45d-30b42b5421ea?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:01.648101+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "beatboxing",
+        "count": 1,
+        "disambiguation": "",
+        "id": "33354c9b-2d74-440a-89c3-d4c311a3a8fb"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "title": "S.A.I.N (Sounds Acquired In Nature)",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2022-10-15",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Mr Phormula",
+        "joinphrase": " & ",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Phormula, Mr",
+          "id": "20354877-e492-48fd-aa50-84fe653bdb25",
+          "genres": [
+            {
+              "name": "hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "country": "GB",
+          "name": "Mr Phormula",
+          "disambiguation": "welsh language beat boxer / rap artist",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "beatboxer"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip-hop"
+            },
+            {
+              "count": 1,
+              "name": "rapper"
+            },
+            {
+              "name": "uk",
+              "count": 1
+            },
+            {
+              "name": "wales",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "Lord Willin",
+        "joinphrase": " as ",
+        "artist": {
+          "type": null,
+          "sort-name": "Lord Willin",
+          "id": "c39d860d-f9d5-41fe-86ea-a68325374d3b",
+          "genres": [],
+          "country": null,
+          "name": "Lord Willin",
+          "type-id": null,
+          "disambiguation": "",
+          "tags": []
+        }
+      },
+      {
+        "artist": {
+          "tags": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "name": "Hel Clecs",
+          "country": null,
+          "genres": [],
+          "id": "f343bd58-23bf-4daf-aac9-a5f7eb24eaea",
+          "sort-name": "Hel Clecs",
+          "type": "Group"
+        },
+        "joinphrase": "",
+        "name": "Hel Clecs"
+      }
+    ],
+    "id": "ad27074e-ff51-4998-a45d-30b42b5421ea",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "beatboxing"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

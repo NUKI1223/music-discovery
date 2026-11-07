@@ -1,0 +1,150 @@
+{
+  "endpoint": "release-group/7d2b67e2-869c-34d6-b5bc-238f7997fdac",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7d2b67e2-869c-34d6-b5bc-238f7997fdac?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:24.293721+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Onomatopoeia",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "conscious hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "glitch hop"
+      },
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 1,
+        "name": "political hip hop"
+      }
+    ],
+    "first-release-date": "2001-06-15",
+    "disambiguation": "",
+    "genres": [
+      {
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+        "name": "conscious hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "aa3215ae-28e6-4993-908e-ed3807e1ce54",
+        "name": "glitch hop"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 2,
+        "disambiguation": ""
+      },
+      {
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a",
+        "name": "political hip hop"
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "genres": [
+            {
+              "count": 3,
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "id": "5fdbe79f-e728-4caa-81d3-669f1c6e4de2",
+              "name": "hopepunk",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "sort-name": "Flobots",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "US",
+          "type": "Group",
+          "disambiguation": "",
+          "name": "Flobots",
+          "id": "7892c869-1e2b-4b38-8540-4caff7dd2b49",
+          "tags": [
+            {
+              "name": "conscious hip hop",
+              "count": 3
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hopepunk"
+            },
+            {
+              "name": "political",
+              "count": 1
+            }
+          ]
+        },
+        "name": "Flobots"
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "7d2b67e2-869c-34d6-b5bc-238f7997fdac"
+  }
+}

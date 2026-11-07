@@ -1,0 +1,94 @@
+{
+  "endpoint": "release-group/d2952e8b-8874-4fa2-b797-d2c26e4de7d8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d2952e8b-8874-4fa2-b797-d2c26e4de7d8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:32.154758+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "2016-10-07",
+    "secondary-types": [],
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz",
+        "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "jazz rap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+      }
+    ],
+    "secondary-type-ids": [],
+    "title": "That Yonder",
+    "id": "d2952e8b-8874-4fa2-b797-d2c26e4de7d8",
+    "primary-type": "EP",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "jazz"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "type": "Person",
+          "id": "ca303e69-3667-4be2-bb6f-45a84737a5f9",
+          "country": "US",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            }
+          ],
+          "sort-name": "Staples, Barrett",
+          "name": "Barrett Staples"
+        },
+        "joinphrase": "",
+        "name": "Barrett Staples"
+      }
+    ]
+  }
+}

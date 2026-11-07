@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/3996195d-b605-4741-81b5-7fc9388e057f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3996195d-b605-4741-81b5-7fc9388e057f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:50.738666+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2020-05-11",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "id": "3996195d-b605-4741-81b5-7fc9388e057f",
+    "primary-type": "EP",
+    "title": "Early Morning Music",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "id": "50f73d1b-56b0-4cb2-b5d5-181f34fdb4ff",
+          "country": null,
+          "type": null,
+          "disambiguation": "Beatmaker",
+          "type-id": null,
+          "genres": [],
+          "sort-name": "The SOULution",
+          "name": "The SOULution",
+          "tags": []
+        },
+        "name": "The SOULution"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ]
+  }
+}

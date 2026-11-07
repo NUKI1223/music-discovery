@@ -1,0 +1,66 @@
+{
+  "endpoint": "release-group/c1b91b94-45ae-4fb0-b809-a6096867ae78",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c1b91b94-45ae-4fb0-b809-a6096867ae78?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:59.453578+00:00",
+  "response": {
+    "title": "Beat Punisher 2",
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2021-01-18",
+    "genres": [
+      {
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1,
+        "disambiguation": "",
+        "name": "instrumental hip hop"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Stu Bangas",
+        "artist": {
+          "disambiguation": "US hip hop producer",
+          "country": "US",
+          "sort-name": "Bangas, Stu",
+          "type": "Person",
+          "name": "Stu Bangas",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "id": "79de9ad6-104b-47b9-ae58-38efee573d8a",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "id": "c1b91b94-45ae-4fb0-b809-a6096867ae78"
+  }
+}

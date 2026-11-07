@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/b45267ef-f6e9-3cf9-871b-1153f5895241",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b45267ef-f6e9-3cf9-871b-1153f5895241?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:11.459495+00:00",
+  "response": {
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "title": "Govedina",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2002",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Beogradski Sindikat",
+        "artist": {
+          "country": null,
+          "name": "Beogradski Sindikat",
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [],
+          "type": "Group",
+          "sort-name": "Beogradski Sindikat",
+          "id": "3142e757-b0a0-41ce-9822-84ab0ede241d",
+          "genres": []
+        }
+      }
+    ],
+    "id": "b45267ef-f6e9-3cf9-871b-1153f5895241",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

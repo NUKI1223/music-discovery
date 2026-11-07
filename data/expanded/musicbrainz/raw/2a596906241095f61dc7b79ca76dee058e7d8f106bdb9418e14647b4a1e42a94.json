@@ -1,0 +1,124 @@
+{
+  "endpoint": "release-group/048bbe6a-273d-420a-b066-fab416c8b478",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/048bbe6a-273d-420a-b066-fab416c8b478?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:55.799076+00:00",
+  "response": {
+    "title": "Le cabinet des curiosités, Vol. 1",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "id": "048bbe6a-273d-420a-b066-fab416c8b478",
+    "disambiguation": "",
+    "first-release-date": "2021-07-02",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Al’tarba",
+        "artist": {
+          "sort-name": "Al’Tarba",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "name": "abstract hip hop"
+            },
+            {
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "name": "electronic",
+              "count": 2,
+              "disambiguation": ""
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "3832a068-e169-40cb-9638-d0b04342f3a3",
+              "name": "experimental electronic"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "count": 2,
+              "disambiguation": ""
+            }
+          ],
+          "country": "FR",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "French abstract / hip hop / electronic beatmaker",
+          "name": "Al’Tarba",
+          "tags": [
+            {
+              "name": "abstract hip hop",
+              "count": 1
+            },
+            {
+              "name": "beatmaking",
+              "count": 1
+            },
+            {
+              "name": "beats",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "electronic"
+            },
+            {
+              "name": "experimental electronic",
+              "count": 2
+            },
+            {
+              "name": "hip hop",
+              "count": 2
+            }
+          ],
+          "id": "19e7f2b3-8331-414c-906b-4869daa0eeba"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album"
+  }
+}

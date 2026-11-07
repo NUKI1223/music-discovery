@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/a8525336-2c51-4917-9c2a-3051c9336670",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a8525336-2c51-4917-9c2a-3051c9336670?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:51.238258+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2020-07-03",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "zavet",
+          "name": "zavet",
+          "tags": [],
+          "type-id": null,
+          "genres": [],
+          "country": null,
+          "id": "bbb1d20c-b3ec-4b48-9a90-206289d92047",
+          "type": null,
+          "disambiguation": ""
+        },
+        "name": "zavet"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "title": "Velvet Heaven",
+    "id": "a8525336-2c51-4917-9c2a-3051c9336670",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "experimental hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      }
+    ]
+  }
+}

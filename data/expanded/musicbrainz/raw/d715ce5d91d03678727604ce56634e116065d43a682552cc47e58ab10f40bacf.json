@@ -1,0 +1,123 @@
+{
+  "endpoint": "release-group/aa942b4e-b450-4c3f-a8a1-908b7e6b7ceb",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/aa942b4e-b450-4c3f-a8a1-908b7e6b7ceb?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:14.728000+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2021-06-29",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "aa942b4e-b450-4c3f-a8a1-908b7e6b7ceb",
+    "primary-type": "EP",
+    "title": "BIG tiny Planet",
+    "genres": [
+      {
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "count": 1,
+        "disambiguation": "",
+        "name": "experimental"
+      },
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": " feat. ",
+        "artist": {
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "aka Jason Moore, rapper from Virginia, USA",
+          "country": "US",
+          "id": "9eab745b-a9f1-4af7-9423-37369e2893d8",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "name": "Raw Poetic",
+          "sort-name": "Raw Poetic"
+        },
+        "name": "Raw Poetic"
+      },
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "underground hip hop",
+              "count": 1
+            }
+          ],
+          "name": "Damu the Fudgemunk",
+          "sort-name": "Damu the Fudgemunk",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "name": "underground hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "",
+          "country": "US",
+          "id": "c0170663-daf4-4445-8ee8-64e0415d38a8"
+        },
+        "name": "Damu the Fudgemunk"
+      }
+    ]
+  }
+}

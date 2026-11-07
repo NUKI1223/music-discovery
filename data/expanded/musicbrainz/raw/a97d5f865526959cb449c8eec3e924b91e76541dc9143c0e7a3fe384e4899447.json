@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/92cde637-21e8-4eda-875d-37ac10bb290e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/92cde637-21e8-4eda-875d-37ac10bb290e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:29.939865+00:00",
+  "response": {
+    "title": "ADC",
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "trap",
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": ""
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2023-09-11",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Freeze Corleone",
+          "type": "Person",
+          "genres": [
+            {
+              "name": "hip hop",
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            }
+          ],
+          "id": "c715bbba-fe0f-4cb1-be89-40aa8d2117f9",
+          "name": "Freeze Corleone",
+          "country": "FR",
+          "tags": [
+            {
+              "count": 2,
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "French rapper, 667/LDO"
+        },
+        "joinphrase": "",
+        "name": "Freeze Corleone"
+      }
+    ],
+    "id": "92cde637-21e8-4eda-875d-37ac10bb290e",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

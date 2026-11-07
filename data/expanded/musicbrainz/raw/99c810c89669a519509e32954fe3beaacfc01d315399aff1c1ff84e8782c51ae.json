@@ -1,0 +1,145 @@
+{
+  "endpoint": "release-group/8c2d455e-aa05-463f-a1e8-d3f62883275a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8c2d455e-aa05-463f-a1e8-d3f62883275a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:20.496990+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 2,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "8c2d455e-aa05-463f-a1e8-d3f62883275a",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Elucid",
+          "type": "Person",
+          "genres": [
+            {
+              "count": 2,
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "disambiguation": "",
+              "name": "abstract hip hop"
+            },
+            {
+              "disambiguation": "",
+              "id": "608b0471-7531-4854-a348-e698c69cb699",
+              "count": 1,
+              "name": "ambient"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 2,
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+            },
+            {
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": "",
+              "count": 2,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "sound collage",
+              "disambiguation": "",
+              "id": "dd5ad210-043c-4af3-86bd-91bedd9ca827",
+              "count": 1
+            }
+          ],
+          "id": "1206c904-9282-494d-b9c7-49e8fb201e69",
+          "name": "Elucid",
+          "country": "US",
+          "tags": [
+            {
+              "count": 2,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 1,
+              "name": "ambient"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "east coast hip-hop"
+            },
+            {
+              "count": 2,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 1
+            },
+            {
+              "name": "sound collage",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rapper"
+        },
+        "joinphrase": " & ",
+        "name": "Elucid"
+      },
+      {
+        "name": "Sebb Bash",
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "type-id": null,
+          "disambiguation": "",
+          "name": "Sebb Bash",
+          "country": null,
+          "genres": [],
+          "id": "e34fef2d-2d3e-4847-b904-a6ec4c7e3f32",
+          "sort-name": "Bash, Sebb",
+          "type": null
+        }
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2026-03-13",
+    "title": "I Guess U Had to Be There",
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 2,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": ""
+      }
+    ]
+  }
+}

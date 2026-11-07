@@ -1,0 +1,31 @@
+<!doctype html>
+<!-- SYNTHETIC TEST FIXTURE. Not a downloaded AOTY page or real music data.
+     Selector names checked against the published AOTY-api album parser:
+     https://github.com/edideaur/AOTY-api/blob/f32a042f5c146f447fefaf98cd43f569a9cc97da/src/scrapers/album.ts
+     The values and HTML arrangement below are authored for these unit tests. -->
+<html><head>
+<link rel="canonical" href="https://www.albumoftheyear.org/album/987654-synthetic-artist-test-release.php">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MusicAlbum","name":"Test & Signal",
+ "url":"https://www.albumoftheyear.org/album/987654-synthetic-artist-test-release.php",
+ "byArtist":{"@type":"MusicGroup","name":"Synthetic Artist"},
+ "datePublished":"2023-05-19","genre":["Experimental Hip Hop","Abstract Hip Hop"],
+ "aggregateRating":{"@type":"AggregateRating","ratingValue":91,"ratingCount":17,"bestRating":100}}
+</script></head><body>
+<div class="albumCriticScoreBox">
+  <div class="albumCriticScore"><a title="91.25">91</a></div>
+  <div class="text numReviews">Based on <a>17 reviews</a></div>
+</div>
+<div class="albumUserScoreBox">
+  <div class="albumUserScore"><a title="88.45">88</a></div>
+  <div class="text numReviews">Based on <a>1,234 ratings</a></div>
+</div>
+<div class="albumTopBox info">
+  <div class="detailRow">May 19, 2023 / Release Date</div>
+  <div class="detailRow"><a href="/genre/1-test/"><div>Experimental Hip Hop</div></a>
+    <a href="/genre/2-test/"><div class="secondary">Abstract Hip Hop</div></a></div>
+</div>
+<!-- These unrelated values must not contaminate album aggregate counts. -->
+<div class="trackRating"><span title="9,999 ratings">99</span></div>
+<div class="text numReviews">777 reviews</div>
+</body></html>

@@ -1,0 +1,536 @@
+{
+  "endpoint": "artist/",
+  "params": {
+    "query": "artist:\"Kanye West\" OR alias:\"Kanye West\"",
+    "fmt": "json",
+    "limit": 5
+  },
+  "url": "https://musicbrainz.org/ws/2/artist/?query=artist%3A%22Kanye+West%22+OR+alias%3A%22Kanye+West%22&fmt=json&limit=5",
+  "captured_at": "2026-10-28T12:31:39.924247+00:00",
+  "response": {
+    "created": "2026-10-28T12:31:39.860Z",
+    "count": 4,
+    "offset": 0,
+    "artists": [
+      {
+        "id": "164f0d73-1234-4e2c-8743-d77bf2191051",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "score": 100,
+        "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+        "name": "Ye",
+        "sort-name": "Ye",
+        "gender": "male",
+        "country": "US",
+        "area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "begin-area": {
+          "id": "26e0e534-19ea-4645-bfb3-1aa4e83a4046",
+          "type": "City",
+          "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+          "name": "Atlanta",
+          "sort-name": "Atlanta",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "disambiguation": "formerly Kanye West",
+        "ipis": [
+          "00335677734",
+          "00451108296"
+        ],
+        "isnis": [
+          "0000000116557565"
+        ],
+        "life-span": {
+          "begin": "1977-06-08",
+          "ended": null
+        },
+        "aliases": [
+          {
+            "sort-name": "Ye",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Ye",
+            "locale": "en",
+            "type": "Artist name",
+            "primary": true,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "KanYeWest",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "name": "KanYeWest",
+            "locale": null,
+            "type": "Search hint",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Donda",
+            "name": "Donda",
+            "locale": null,
+            "type": null,
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Kanye",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Kanye",
+            "locale": null,
+            "type": "Artist name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "K. West",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "name": "K. West",
+            "locale": null,
+            "type": "Search hint",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Kayne West",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "name": "Kayne West",
+            "locale": null,
+            "type": "Search hint",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "West, Kanye",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Kanye West",
+            "locale": null,
+            "type": "Artist name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": "2024"
+          },
+          {
+            "sort-name": "Ye",
+            "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+            "name": "Ye",
+            "locale": null,
+            "type": "Legal name",
+            "primary": null,
+            "begin-date": "2021-10-18",
+            "end-date": null
+          },
+          {
+            "sort-name": "Yeezy",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Yeezy",
+            "locale": null,
+            "type": "Artist name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "West, Kanye",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Kanye West",
+            "locale": "zh",
+            "type": "Artist name",
+            "primary": true,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "West, Kanye Omari",
+            "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+            "name": "Kanye Omari West",
+            "locale": "en",
+            "type": "Legal name",
+            "primary": null,
+            "begin-date": "1977-06-08",
+            "end-date": "2021-10-18"
+          },
+          {
+            "sort-name": "カニエ・ウェスト",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "カニエ・ウェスト",
+            "locale": "ja",
+            "type": "Artist name",
+            "primary": true,
+            "begin-date": null,
+            "end-date": null
+          }
+        ],
+        "tags": [
+          {
+            "count": -2,
+            "name": "synthpop"
+          },
+          {
+            "count": 5,
+            "name": "pop"
+          },
+          {
+            "count": 0,
+            "name": "rap"
+          },
+          {
+            "count": 2,
+            "name": "house"
+          },
+          {
+            "count": 0,
+            "name": "american"
+          },
+          {
+            "count": 0,
+            "name": "hip-hop"
+          },
+          {
+            "count": 31,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "songwriter"
+          },
+          {
+            "count": 1,
+            "name": "deep house"
+          },
+          {
+            "count": 1,
+            "name": "electropop"
+          },
+          {
+            "count": 3,
+            "name": "producer"
+          },
+          {
+            "count": 0,
+            "name": "southern hip hop"
+          },
+          {
+            "count": 0,
+            "name": "2000s"
+          },
+          {
+            "count": 0,
+            "name": "gospel"
+          },
+          {
+            "count": 14,
+            "name": "pop rap"
+          },
+          {
+            "count": 0,
+            "name": "english"
+          },
+          {
+            "count": 0,
+            "name": "rapper"
+          },
+          {
+            "count": -1,
+            "name": "us"
+          },
+          {
+            "count": 1,
+            "name": "composers"
+          },
+          {
+            "count": 0,
+            "name": "god"
+          },
+          {
+            "count": -2,
+            "name": "hip hop rnb and dance hall"
+          },
+          {
+            "count": 0,
+            "name": "christian rap"
+          },
+          {
+            "count": 1,
+            "name": "gospel music"
+          },
+          {
+            "count": 6,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 0,
+            "name": "sxsw"
+          },
+          {
+            "count": 1,
+            "name": "singers"
+          },
+          {
+            "count": 0,
+            "name": "antisemite"
+          },
+          {
+            "count": 0,
+            "name": "nazi"
+          },
+          {
+            "count": 0,
+            "name": "top 100"
+          },
+          {
+            "count": 0,
+            "name": "grammy winner"
+          },
+          {
+            "count": 3,
+            "name": "christian hip hop"
+          },
+          {
+            "count": 1,
+            "name": "r&b"
+          },
+          {
+            "count": 1,
+            "name": "contemporary r&b"
+          },
+          {
+            "count": 1,
+            "name": "midwest rap"
+          },
+          {
+            "count": 0,
+            "name": "2010s"
+          },
+          {
+            "count": 2,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 0,
+            "name": "art pop"
+          },
+          {
+            "count": -1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 2,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "future bass"
+          },
+          {
+            "count": 0,
+            "name": "top 10"
+          },
+          {
+            "count": -1,
+            "name": "luxury rap"
+          },
+          {
+            "count": -2,
+            "name": "fascist"
+          },
+          {
+            "count": -1,
+            "name": "relic inn"
+          },
+          {
+            "count": 1,
+            "name": "progressive rap"
+          },
+          {
+            "count": 1,
+            "name": "chipmunk soul"
+          },
+          {
+            "count": 2,
+            "name": "contemporary rap"
+          },
+          {
+            "count": 0,
+            "name": "pro trump"
+          },
+          {
+            "count": 1,
+            "name": "rap musicians"
+          },
+          {
+            "count": 1,
+            "name": "singstimme"
+          },
+          {
+            "count": 1,
+            "name": "sound recording executives and producers"
+          },
+          {
+            "count": 1,
+            "name": "musikproduzent"
+          },
+          {
+            "count": 1,
+            "name": "businesspeople"
+          },
+          {
+            "count": 1,
+            "name": "african american musicians"
+          },
+          {
+            "count": 1,
+            "name": "fashion designers"
+          },
+          {
+            "count": 1,
+            "name": "rapmusiker"
+          },
+          {
+            "count": 1,
+            "name": "regisseur"
+          },
+          {
+            "count": 1,
+            "name": "modeschöpfer"
+          }
+        ]
+      },
+      {
+        "id": "58daf317-be5f-439f-a04d-0d6727f1a3b2",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "score": 88,
+        "name": "¥$",
+        "sort-name": "¥$",
+        "country": "US",
+        "area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "begin-area": {
+          "id": "8dc97297-ac95-4d33-82bc-e07fab26fb5f",
+          "type": "Subdivision",
+          "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+          "name": "Tokyo",
+          "sort-name": "Tokyo",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "disambiguation": "Ye & Ty Dolla $ign",
+        "isnis": [
+          "0000000513926715"
+        ],
+        "life-span": {
+          "begin": "2023",
+          "ended": null
+        },
+        "aliases": [
+          {
+            "sort-name": "Dollar, Yen",
+            "name": "Yen Dollar",
+            "locale": null,
+            "type": null,
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "YS",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "name": "YS",
+            "locale": null,
+            "type": "Search hint",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "¥$",
+            "name": "¥$, Kanye West & Ty Dolla $ign",
+            "locale": null,
+            "type": null,
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          }
+        ],
+        "tags": [
+          {
+            "count": 4,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hip house"
+          }
+        ]
+      },
+      {
+        "id": "0eb17834-1d29-47ef-a422-9dc68d73c5e4",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "score": 77,
+        "name": "Kanye West Tribute Band",
+        "sort-name": "West, Kanye, Tribute Band",
+        "life-span": {
+          "ended": null
+        }
+      },
+      {
+        "id": "48c25fb5-480f-48ca-86f3-8aba60bc6ce9",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "score": 72,
+        "name": "Kanye West & Hatsune Miku",
+        "sort-name": "Kanye & Miku",
+        "country": "US",
+        "area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "begin-area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "life-span": {
+          "begin": "2025-01-01",
+          "ended": null
+        }
+      }
+    ]
+  }
+}

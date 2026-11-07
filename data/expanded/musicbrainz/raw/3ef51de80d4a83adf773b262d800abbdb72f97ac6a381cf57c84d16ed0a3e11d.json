@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/23f3048a-9ac7-4a96-9d50-64bf1f6e5268",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/23f3048a-9ac7-4a96-9d50-64bf1f6e5268?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:27.260663+00:00",
+  "response": {
+    "id": "23f3048a-9ac7-4a96-9d50-64bf1f6e5268",
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Concrete Click",
+          "id": "db0109b9-b050-4cf7-86e8-8327ecaed468",
+          "tags": [],
+          "genres": [],
+          "sort-name": "Concrete Click",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "type": "Group",
+          "country": "US",
+          "disambiguation": ""
+        },
+        "name": "Concrete Click"
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2020-03-21",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Authentic Left Overs",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

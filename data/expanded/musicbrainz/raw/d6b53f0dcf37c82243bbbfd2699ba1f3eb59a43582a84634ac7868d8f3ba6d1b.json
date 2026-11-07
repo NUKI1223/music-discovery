@@ -1,0 +1,3070 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"hardcore hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22hardcore+hip+hop%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2020-01-01+TO+2026-10-28%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:33.445033+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:33.254Z",
+    "count": 233,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "e929f05a-77ff-41e2-ba91-3c2d066a3c54",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 100,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "811eb688-eda1-36b1-8e00-ebe502fcb035",
+        "count": 1,
+        "title": "The Resurrection",
+        "first-release-date": "2021-08-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Son of Noise",
+            "artist": {
+              "id": "2cfe0dbd-c108-4831-88d3-dc762e826891",
+              "name": "Son of Noise",
+              "sort-name": "Son of Noise",
+              "disambiguation": "British hip hop band"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "20647a2f-bacc-4442-8520-b67914475275",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Resurrection",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1089368f-e8fa-46ff-9209-af285e749e87",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 97,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "781f0b29-e18a-313b-b94b-5d4fd4291fca",
+        "count": 1,
+        "title": "Mauvais Augure",
+        "first-release-date": "2020-02-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Djamhellvice",
+            "artist": {
+              "id": "2ce21808-783b-4952-b09f-eba1d512a08f",
+              "name": "Djamhellvice",
+              "sort-name": "Djamhellvice"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e1455f53-8b46-4889-a6a7-69aaa8668573",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mauvais Augure",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "60c83513-7bc0-4080-a834-a52d40ee27cd",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 97,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d2665e8a-e69a-3122-9b03-5ab01e93fd5a",
+        "count": 1,
+        "title": "Seismograph",
+        "first-release-date": "2021-02-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Skunkz",
+            "artist": {
+              "id": "f132cb46-e605-4063-84b4-f8f41bdaddd9",
+              "name": "Skunkz",
+              "sort-name": "Skunkz",
+              "disambiguation": "Hip Hop from Dorchester, Boston area"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4ae2a9ae-e6d4-45d2-952a-475e438deae0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Seismograph",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "eb2c3d6a-1473-4de2-8e0d-22ab49a5c1d5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 97,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a96472f3-f1c2-30ba-8bde-d114027cd19f",
+        "count": 1,
+        "title": "ΙΙΙ",
+        "first-release-date": "2021-05-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Τα παιδιά της Ρόζμαρι",
+            "artist": {
+              "id": "8158c3f8-fdde-45e2-8b75-5422e1387bf6",
+              "name": "Τα παιδιά της Ρόζμαρι",
+              "sort-name": "Ta paidiá tis Rózmari",
+              "disambiguation": "Greek DIY hip-hop crew"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5bfcf70f-126a-4ff9-9d87-4d23c8dbba39",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ΙΙΙ",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3d95cbc5-97a9-4b53-9a1a-7da3399ba446",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 97,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9324ee03-6c22-41ef-bcf1-dd85280f5d74",
+        "count": 1,
+        "title": "ODA SUPLEMENT",
+        "first-release-date": "2024-05-17",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kwiatek Haze",
+            "artist": {
+              "id": "09fe601a-d3d0-4537-844c-195487996284",
+              "name": "Kwiatek Haze",
+              "sort-name": "Haze, Kwiatek",
+              "disambiguation": "Dominik Kwiatkowski",
+              "aliases": [
+                {
+                  "sort-name": "Dominik Kwiatkowski",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Dominik Kwiatkowski",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8d93ad17-a5d2-4c27-84bb-a4701ff0d17c",
+            "title": "ODA SUPLEMENT"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "9fe7b864-9c8d-411a-a1ec-2524e7f227a7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 97,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ec423938-c584-3304-8c09-1c23b5eb2389",
+        "count": 1,
+        "title": "Typhon",
+        "first-release-date": "2021-07-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Cr7z",
+            "artist": {
+              "id": "5b489c65-20c7-4a40-b769-a2c0ff6212ce",
+              "name": "Cr7z",
+              "sort-name": "Cr7z",
+              "disambiguation": "German rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ccec0aab-b28e-4945-aecf-8c089201084a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Typhon",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "7b1f48b0-1fe8-4cf0-8366-9b9e87ef3e4b",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 92,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "5d38ac6c-ad6a-47fa-b6cf-1fa230a845fc",
+        "count": 2,
+        "title": "CVLT",
+        "first-release-date": "2023-11-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Salmo",
+            "artist": {
+              "id": "8691d44e-7143-4edb-a72c-1cbc7d1a0867",
+              "name": "Salmo",
+              "sort-name": "Salmo",
+              "disambiguation": "Italian rapper",
+              "aliases": [
+                {
+                  "sort-name": "Pisciottu, Maurizio",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Maurizio Pisciottu",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Noyz Narcos",
+            "artist": {
+              "id": "a2c7987d-1461-4829-8f1b-0424058e17e1",
+              "name": "Noyz Narcos",
+              "sort-name": "Noyz Narcos",
+              "aliases": [
+                {
+                  "sort-name": "Frasca, Emanuele",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Emanuele Frasca",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c92373cb-677b-464e-924a-de31d730b9b6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "CVLT - HELLRAISERS",
+            "status": "Official"
+          },
+          {
+            "id": "151f8cf4-0abd-4a2c-abef-f23f1da9e3cd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "CVLT",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "92cde637-21e8-4eda-875d-37ac10bb290e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 92,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "69a7656f-55a7-31a9-9de5-bb800c607cff",
+        "count": 3,
+        "title": "ADC",
+        "first-release-date": "2023-09-11",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Freeze Corleone",
+            "artist": {
+              "id": "c715bbba-fe0f-4cb1-be89-40aa8d2117f9",
+              "name": "Freeze Corleone",
+              "sort-name": "Freeze Corleone",
+              "disambiguation": "French rapper, 667/LDO",
+              "aliases": [
+                {
+                  "sort-name": "M.O.I",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "M.O.I",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Chen Zen",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Chen Zen",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diakhaté, Issa Lorenzo",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Issa Lorenzo Diakhaté",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "72eb5c19-f587-4708-8071-f1db26e1144e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ADC (version CD)",
+            "status": "Official"
+          },
+          {
+            "id": "72face52-d120-4f04-ada8-368a64c73bfe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ADC",
+            "status": "Official"
+          },
+          {
+            "id": "42ad49f8-c5eb-4785-befd-22f94860b383",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ADC",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "9412e526-73cb-420f-977a-646ac835582d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 91,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "781f0b29-e18a-313b-b94b-5d4fd4291fca",
+        "count": 1,
+        "title": "Grabuge",
+        "first-release-date": "2021-05-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Djamhellvice",
+            "artist": {
+              "id": "2ce21808-783b-4952-b09f-eba1d512a08f",
+              "name": "Djamhellvice",
+              "sort-name": "Djamhellvice"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6ff5af6a-fc2d-4bfe-b272-154445c287c9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Grabuge",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "chiptune"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "31fbb6ac-ef84-49e4-ab1d-95f93e7a64a7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 91,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "4ed9617c-f87d-321f-af9f-a92fe6ed39e4",
+        "count": 1,
+        "title": "Absolut Horror",
+        "first-release-date": "2023",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Necro",
+            "artist": {
+              "id": "b57db116-5947-462e-aa7b-3dd1ecb5be45",
+              "name": "Necro",
+              "sort-name": "Necro",
+              "disambiguation": "US rapper/producer",
+              "aliases": [
+                {
+                  "sort-name": "Braunstein, Ron",
+                  "name": "Ron Braunstein",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Braunstein, Ron Raphael",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ron Raphael Braunstein",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2e305cb9-15d7-4496-bdba-9298454e87bf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Absolut Horror",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "dfa9d466-866c-43d2-af17-22e0b6349889",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7aa61d67-b58c-3a32-94ff-219ebadd840e",
+        "count": 1,
+        "title": "Hindsight",
+        "first-release-date": "2020-05-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "MC Zappa",
+            "artist": {
+              "id": "0b1c4ca0-0ac8-481a-982d-646cec9eb5f6",
+              "name": "MC Zappa",
+              "sort-name": "Zappa, MC",
+              "disambiguation": "American hip hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "481c4bd7-acf7-4053-8615-eaa0f85e1660",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hindsight",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "db2b931b-353a-44da-a3ce-6cd017734595",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c459fb85-a651-3c8e-a73c-ca54201aeca1",
+        "count": 1,
+        "title": "Μοναστηρίου Rap Sessions",
+        "first-release-date": "2021-03-09",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Sedatephobia Rap Collective",
+            "artist": {
+              "id": "91da0a28-0cdb-4854-b6a0-627e37c36c30",
+              "name": "Sedatephobia",
+              "sort-name": "Sedatephobia"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b62387ee-d473-4b31-a3aa-f1900f98abc7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Μοναστηρίου Rap Sessions",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "538ef75c-7f57-4633-9da4-768e2ec25d5e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "87fb896c-c5bd-3af3-a985-ca9a5db5f334",
+        "count": 2,
+        "title": "Before Noon",
+        "first-release-date": "2020-04-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "A$AP Twelvyy",
+            "artist": {
+              "id": "95f35260-5f18-4185-9926-9a4d191d737d",
+              "name": "A$AP Twelvyy",
+              "sort-name": "ASAP Twelvyy",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Phillips, Jamel Da'Shawn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jamel Da'Shawn Phillips",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "A$AP Twelvyy",
+                  "name": "A$AP Twelvyy",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "ASAP Twelvy",
+                  "name": "ASAP Twelvy",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8fda7fce-8ada-44d1-a484-91a55cca2ab1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Before Noon",
+            "status": "Official"
+          },
+          {
+            "id": "d25d5689-61bd-4e78-9a8b-689d8b8062c7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Before Noon",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "2b563549-976a-41b3-809a-5bcbf4b0773f",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "a5a6eb47-7a06-3108-94c5-9cec29083f46",
+        "count": 1,
+        "title": "Lost Treasures",
+        "first-release-date": "2020-02-07",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "Onyx",
+            "artist": {
+              "id": "fc0fa262-6197-4c29-8e22-22f0e369856a",
+              "name": "Onyx",
+              "sort-name": "Onyx",
+              "disambiguation": "New York hardcore rap group",
+              "aliases": [
+                {
+                  "sort-name": "Onyx",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Onyx",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d8960fe3-88ba-46a9-91f4-e350be74bce7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lost Treasures",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6d7ec018-bb13-49c0-80e0-64740e8b61a8",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6064c88c-7fe4-3fd7-b8a7-10ded5d485d3",
+        "count": 1,
+        "title": "Adebesi Hat Recut",
+        "first-release-date": "2020",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Da Buze Bruvaz",
+            "artist": {
+              "id": "1bd5052a-2f2d-40ee-9b5f-4fc0bfdcd2c4",
+              "name": "Da Buze Bruvaz",
+              "sort-name": "Buze Bruvaz, Da"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7b359247-72fb-4e50-89ee-79e623d451e6",
+            "title": "Adebesi Hat Recut"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5ddce4fa-d750-4aa1-a3dd-b5895beca9d6",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "18169354-f481-3fb7-af07-34a77063dcf9",
+        "count": 2,
+        "title": "Gevat in 16 Bars",
+        "first-release-date": "2020-09-18",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Def P",
+            "artist": {
+              "id": "c168a027-da9a-48d1-9019-930628a0918e",
+              "name": "Def P",
+              "sort-name": "Def P",
+              "disambiguation": "Dutch rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "565f57b5-e6d3-468b-8ddd-2f9f41dbf85f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Gevat in 16 Bars",
+            "status": "Official"
+          },
+          {
+            "id": "5124e2b9-e972-4e5a-ae0f-e3b2d3ffec7f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Gevat in 16 Bars",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4a04a70c-1b1c-42b6-b5c8-96f5b7e44daf",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "34788cc9-30b3-3cde-82de-b5be7cde9e44",
+        "count": 1,
+        "title": "A Martyr’s Reward",
+        "first-release-date": "2021-08-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Ka",
+            "artist": {
+              "id": "e7d4f00b-2938-4049-aa44-e69a59a7b3da",
+              "name": "Ka",
+              "sort-name": "Ka",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Ryan, Kaseem",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Kaseem Ryan",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "af35ec05-c32c-46f1-8cb4-48d58e0c1805",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Martyr’s Reward",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "69b4013d-606d-4847-a4fe-ff8fcdfd1d62",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e327ec1a-0135-3cc1-9799-5b8866de1fa3",
+        "count": 1,
+        "title": "Fenix",
+        "first-release-date": "2021-06-08",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Sentino",
+            "artist": {
+              "id": "f62fb41f-51e8-4eed-b91b-67d3369bce8e",
+              "name": "Sentino",
+              "sort-name": "Sentino"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ce2fe302-694a-4b0c-9160-76827192e0fb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fenix",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d426f349-88a4-4799-bf9b-6bd2cd41f7b1",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "5fd8a872-232c-36f0-b104-f19426c153ac",
+        "count": 1,
+        "title": "Hell's Angels & Heaven's Demons",
+        "first-release-date": "2021-09-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "IAMGAWD",
+            "artist": {
+              "id": "988e5108-4f6f-43e4-9bc7-51579ca00b1a",
+              "name": "IAMGAWD",
+              "sort-name": "IAMGAWD",
+              "disambiguation": "US underground rapper from Chicago",
+              "aliases": [
+                {
+                  "sort-name": "TtheGAWD",
+                  "name": "TtheGAWD",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Getting Ahead Without Devolving",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Getting Ahead Without Devolving",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Doc Da Mindbenda",
+            "artist": {
+              "id": "027c9f17-ec1a-49dc-b6d5-c2a3acca6319",
+              "name": "Doc Da Mindbenda",
+              "sort-name": "Doc Da Mindbenda",
+              "disambiguation": "Chicago-based hip hop producer and engineer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "06cb3251-e73f-4c4c-afbc-ed06d587136d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hell's Angels & Heaven's Demons",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5bfefdca-cdb3-49d2-ba8e-f77ea42c670f",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1b162da1-610d-335b-b9b1-cce53347e812",
+        "count": 1,
+        "title": "Chiodi",
+        "first-release-date": "2022-06-14",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Kaos One",
+            "artist": {
+              "id": "96f72ebc-0a8e-4f97-813c-35a9f2de22eb",
+              "name": "Kaos One",
+              "sort-name": "Kaos One",
+              "disambiguation": "Italian rapper",
+              "aliases": [
+                {
+                  "sort-name": "Kaos",
+                  "name": "Kaos",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Marco Fiorito",
+                  "name": "Marco Fiorito",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "be7808d1-ce6a-4c80-9174-59bea1ee2626",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Chiodi",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "abb34146-7c30-405a-afeb-e2f5f8603fb7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "758714a0-4812-47f6-9722-c1fd17e93c4a",
+        "count": 1,
+        "title": "Yellow Tape n Shell Casez",
+        "disambiguation": "also credited to Crime Cuzzinz",
+        "first-release-date": "2023-04-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " ft. ",
+            "name": "Da Buze Bruvaz",
+            "artist": {
+              "id": "1bd5052a-2f2d-40ee-9b5f-4fc0bfdcd2c4",
+              "name": "Da Buze Bruvaz",
+              "sort-name": "Buze Bruvaz, Da"
+            }
+          },
+          {
+            "joinphrase": " and ",
+            "name": "Him Lo",
+            "artist": {
+              "id": "6d00913d-36dd-4c05-8db2-84ce5c1c6666",
+              "name": "Him-Lo",
+              "sort-name": "Him-Lo",
+              "disambiguation": "US rapper"
+            }
+          },
+          {
+            "name": "Big Nawz",
+            "artist": {
+              "id": "dfb9fd51-a77d-4ff6-9ac5-47e2fb87ad3c",
+              "name": "Big Nawz",
+              "sort-name": "Big Nawz",
+              "disambiguation": "hip-hop, member of Crime Cuzzinz"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e8cd63e9-ff7b-4f16-98ae-640689a3a993",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Yellow Tape n Shell Casez",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b75a3e17-5648-4f9d-9e94-3b1b97a8bf57",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "753d4ee1-251f-31cb-b155-bafe7917d6c0",
+        "count": 2,
+        "title": "Pray for Paris",
+        "first-release-date": "2020-04-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Westside Gunn",
+            "artist": {
+              "id": "9f42ba3d-3cfc-499c-ba16-7226f56b622f",
+              "name": "Westside Gunn",
+              "sort-name": "Westside Gunn",
+              "aliases": [
+                {
+                  "sort-name": "Worthy, Alvin Lamar",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Alvin Lamar Worthy",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "WestsideGunn",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "WestsideGunn",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bdcc3f9a-2686-4e1d-9401-e0dcbb76edc7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pray for Paris",
+            "status": "Official"
+          },
+          {
+            "id": "c83434b5-d3ae-4307-9efa-cb99b04b03cd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pray for Paris",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "a7e2e382-0e6c-4fb4-bf43-c62c23dfb2ab",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "240b2237-0f1b-462f-89ad-8fdbe2685321",
+        "count": 2,
+        "title": "Super Beast",
+        "first-release-date": "2022-05-20",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Mad Child",
+            "artist": {
+              "id": "9d952001-c886-4ed3-b971-568e79d83607",
+              "name": "Madchild",
+              "sort-name": "Madchild",
+              "disambiguation": "Canadian rapper, member of Swollen Members",
+              "aliases": [
+                {
+                  "sort-name": "Shane Ralph",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Shane Ralph",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Madchild",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Madchild",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Mad Child",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Mad Child",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Bunting, Shane",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Shane Bunting",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "51728d0b-e497-407d-8b95-f77fa8371c9c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Super Beast",
+            "status": "Official"
+          },
+          {
+            "id": "395307ba-3b80-48ed-bbdc-05c54048afdd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Super Beast",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "01a2104a-2be7-4729-a5b1-fca2b9c540f0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "5d2b021e-2dfa-3371-9423-99d37bb68e2b",
+        "count": 1,
+        "title": "Concrete Jungle 1995",
+        "first-release-date": "2022-04-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Tucka Da Huntaman",
+            "artist": {
+              "id": "6e9d1b7d-7662-4e55-88c5-a7e66a6bdac3",
+              "name": "Tucka Da Huntaman",
+              "sort-name": "Tucka Da Huntaman"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "cfec965e-7ca5-43d4-9ea0-2a297e7f0c47",
+            "title": "Concrete Jungle 1995"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "01beb121-1d70-48d7-8da8-2e5eb02eecd5",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "995ac84d-4756-483a-b161-e0c5fbe94522",
+        "count": 1,
+        "title": "Blut oder Gold",
+        "first-release-date": "2020-12-18",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "MaKss Damage",
+            "artist": {
+              "id": "1bbeff49-e7f9-4db4-8a68-57eaa0e27889",
+              "name": "MKD",
+              "sort-name": "MKD",
+              "disambiguation": "German rapper",
+              "aliases": [
+                {
+                  "sort-name": "MaKss Damage",
+                  "name": "MaKss Damage",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "MKD",
+                  "name": "MKD",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Fritsch, Julian",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Julian Fritsch",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "fd22a72b-4f42-4db4-8879-d79cb1e4d56f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blut oder Gold",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "955bf943-cb3e-4306-8d41-086caeff5322",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ccd20834-bb33-486e-949d-da7de05becb5",
+        "count": 1,
+        "title": "Criminal Street Slang - The Album",
+        "first-release-date": "2024",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Killin' Field",
+            "artist": {
+              "id": "895ad85d-c853-4cbc-b8b2-60409ad40331",
+              "name": "Killin' Field",
+              "sort-name": "Killin' Field"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9542e060-4a2c-4511-8a2e-0d77fff96581",
+            "title": "Criminal Street Slang - The Album"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e9ea5dfe-bc6c-4e20-aac8-acb30523e9ab",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6b1522fe-4e2a-3344-b323-22f9de434e76",
+        "count": 2,
+        "title": "The Rear View",
+        "first-release-date": "2022-08-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Diamond D",
+            "artist": {
+              "id": "c4c0397c-0599-45e0-8de8-536807f21d3d",
+              "name": "Diamond D",
+              "sort-name": "Diamond D",
+              "disambiguation": "US hip-hop producer and MC",
+              "aliases": [
+                {
+                  "sort-name": "Kirkland, Joseph, Davis",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Joseph Davis Kirkland",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Kirkland, Joseph",
+                  "name": "Joseph Kirkland",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "834e5a87-04b2-4944-8cf5-772125689156",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "ec3dad1d-890b-4fd9-9091-546e413686e6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Rear View",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "661a3bb9-04e1-4adb-ace1-7695c28b7f24",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "a05aeb0f-bda6-3c8f-af4d-2606f0bb7bfb",
+        "count": 2,
+        "title": "Forever Underrated",
+        "first-release-date": "2022-06-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Kogz",
+            "artist": {
+              "id": "b3aa38de-da47-4545-9dfc-752cd174fdd0",
+              "name": "Kogz",
+              "sort-name": "Kogz"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a6973b43-4ec1-4265-aa8f-6b9b549cfc40",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Forever Underrated",
+            "status": "Official"
+          },
+          {
+            "id": "d5da7eeb-fc4c-48dd-ae1e-753540487bd2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Forever Underrated",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f3e315b2-0929-4e8f-b260-abf48f03a233",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "a5a6eb47-7a06-3108-94c5-9cec29083f46",
+        "count": 3,
+        "title": "Onyx 4 Life",
+        "first-release-date": "2021-03-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Onyx",
+            "artist": {
+              "id": "fc0fa262-6197-4c29-8e22-22f0e369856a",
+              "name": "Onyx",
+              "sort-name": "Onyx",
+              "disambiguation": "New York hardcore rap group",
+              "aliases": [
+                {
+                  "sort-name": "Onyx",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Onyx",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1ac51160-d33a-46ed-ae01-849c08695c11",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Onyx 4 Life",
+            "status": "Official"
+          },
+          {
+            "id": "e3e23eba-a94e-42af-aeed-f09b3fc27ab1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ONYX 4 LIFE",
+            "status": "Official"
+          },
+          {
+            "id": "5c5ad24e-3541-4858-bf04-4cd7d8d9dfc8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Onyx 4 Life",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c8366f9f-d77c-4840-b17d-ddc0f1c8eded",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "df1cf250-4d44-4562-addc-6def3081e5af",
+        "count": 1,
+        "title": "Novecento",
+        "first-release-date": "2021-05-20",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Chef Ragoo",
+            "artist": {
+              "id": "659f9e7c-42f8-4bf2-a97b-06a163278df6",
+              "name": "Chef Ragoo",
+              "sort-name": "Chef Ragoo",
+              "disambiguation": "Italian rapper Paolo Martinelli"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a1bbf3bd-0d4e-4d0c-b0b8-eda5bca3b1d0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Novecento",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "9e19f59e-eeab-40da-bfaa-78d242943795",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "08c6bbec-36a0-3da1-a609-a3fdd5b22873",
+        "count": 1,
+        "title": "Rap Inferno",
+        "first-release-date": "2021",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Aban",
+            "artist": {
+              "id": "931d8f31-ae2e-4c5b-8508-5c989d964afb",
+              "name": "Aban",
+              "sort-name": "Aban",
+              "disambiguation": "Italian rapper",
+              "aliases": [
+                {
+                  "sort-name": "Morelli, Paolo",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Paolo Morelli",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "34c3c72c-1da9-475e-b5ac-352afa2b4111",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Rap Inferno",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "abeb42a4-b94d-4999-915c-219a574cde5a",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ab82b462-ee23-375a-84b8-c0b08e8c5c2f",
+        "count": 2,
+        "title": "MellowLOvation Music",
+        "first-release-date": "2023-03-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Rittz",
+            "artist": {
+              "id": "8b4fdcc3-6897-44b9-bd27-5fda2b926a62",
+              "name": "Rittz",
+              "sort-name": "Rittz",
+              "aliases": [
+                {
+                  "sort-name": "McCollum, Jonathan Matthew",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jonathan Matthew McCollum",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ritz the Rapper",
+                  "name": "Ritz the Rapper",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2404d488-a2a6-4d18-a55c-770f1066d57e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "MellowLOvation Music",
+            "status": "Official"
+          },
+          {
+            "id": "d8f29a56-fa3f-4315-ad88-af2c479c6b40",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "MellowLOvation Music",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "2d4c974d-8fb9-4e05-a4f9-009fcf7671e7",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ab82b462-ee23-375a-84b8-c0b08e8c5c2f",
+        "count": 1,
+        "title": "White Jesus Loosies, Vol. 3",
+        "first-release-date": "2024-04-01",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "Rittz",
+            "artist": {
+              "id": "8b4fdcc3-6897-44b9-bd27-5fda2b926a62",
+              "name": "Rittz",
+              "sort-name": "Rittz",
+              "aliases": [
+                {
+                  "sort-name": "McCollum, Jonathan Matthew",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jonathan Matthew McCollum",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ritz the Rapper",
+                  "name": "Ritz the Rapper",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4032f946-d1f7-49cd-b37d-487dd6c92ef5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "White Jesus Loosies, Vol. 3",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4947a485-cf84-432c-b85a-b3418a9c4dc5",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "94a82844-f465-4408-904c-67597b653eda",
+        "count": 2,
+        "title": "Killing The Classics",
+        "first-release-date": "2021-12-02",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Cheloo",
+            "artist": {
+              "id": "b494f348-7cdb-499c-866a-1eb364b2377f",
+              "name": "Cheloo",
+              "sort-name": "Cheloo",
+              "disambiguation": "Romanian artist"
+            }
+          },
+          {
+            "name": "Lazar",
+            "artist": {
+              "id": "6978dfa8-d936-414c-abf8-485a062b027f",
+              "name": "Lazar",
+              "sort-name": "Lazar",
+              "disambiguation": "Romanian artist",
+              "aliases": [
+                {
+                  "sort-name": "Daniel Lazar",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Daniel Lazar",
+                  "locale": "ro",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "cc8b2784-dc7a-40c7-a4bf-e1901d2e53e7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Killing The Classics",
+            "status": "Official"
+          },
+          {
+            "id": "58fa1b1c-0d56-4640-9755-f18a3250649e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Killing The Classics",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6054a7c2-f396-4a3e-b372-31515c851a06",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4b16a0f8-7a62-3f52-a5f2-65ac402d2182",
+        "count": 1,
+        "title": "Magneto was right - Issue #3",
+        "first-release-date": "2021-07-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Raz Fresco",
+            "artist": {
+              "id": "c472e917-19c3-4da3-a874-a7a38eff7055",
+              "name": "Raz Fresco",
+              "sort-name": "Raz Fresco",
+              "disambiguation": "Canadian rapper & producer",
+              "aliases": [
+                {
+                  "sort-name": "Johnson, Rasquiz Alfred",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Rasquiz Alfred Johnson",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "53aa4cba-452c-48e2-b33c-55905d985a80",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Magneto was right - Issue #3",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4fc5e5c0-dec7-4cae-8e8d-04fd7f9e7a5d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ccf34620-bb1e-3493-b340-b938d1341c30",
+        "count": 3,
+        "title": "Manifest",
+        "first-release-date": "2021-03-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "King Orgasmus One",
+            "artist": {
+              "id": "786b89d8-c94f-42d6-a50e-08ebc08e7961",
+              "name": "King Orgasmus One",
+              "sort-name": "King Orgasmus One",
+              "aliases": [
+                {
+                  "sort-name": "Orgi69",
+                  "name": "Orgi69",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "King Orgasmus",
+                  "name": "King Orgasmus",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Orgasmus",
+                  "name": "Orgasmus",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Orgi 69",
+                  "name": "Orgi 69",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "14a45ee5-567f-4cc3-9387-9ba36264c6cb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Manifest",
+            "status": "Official"
+          },
+          {
+            "id": "472eb2fc-e827-44eb-ba38-cc1cb52a2d63",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Manifest",
+            "status": "Official"
+          },
+          {
+            "id": "ac4ce6e4-aec1-49f3-a6ac-e231bd36997c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Manifest",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "95749b0e-10e6-47d5-9458-ac4697c307a3",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "3bc35374-633a-3c2d-af0f-b5352c065e66",
+        "count": 1,
+        "title": "Martyr's Prayer",
+        "first-release-date": "2020-02-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Elcamino",
+            "artist": {
+              "id": "dd9204c2-a39d-4239-9155-8fa37038397e",
+              "name": "Elcamino",
+              "sort-name": "Elcamino",
+              "disambiguation": "Buffalo-based rapper",
+              "aliases": [
+                {
+                  "sort-name": "Camino, El",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "El Camino",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Elcamino",
+                  "name": "Elcamino",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "38 Spesh",
+            "artist": {
+              "id": "3e63ef4f-93c5-48a6-b4d0-18dfb9e5a706",
+              "name": "38 Spesh",
+              "sort-name": "38 Spesh",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Harrell, Justin",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Justin Harrell",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a661abe1-af73-43f0-b5fb-0c021af407c9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Martyr's Prayer",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "87b55f9a-58ae-4fa5-9461-e4bb12532ecd",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f9e46317-066f-359a-977b-0b30a375e9f6",
+        "count": 2,
+        "title": "Camisa de Fuerza",
+        "first-release-date": "2026-06-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Kase.O",
+            "artist": {
+              "id": "3ef162aa-8497-4062-b6d1-a063f0cbf1ae",
+              "name": "Kase.O",
+              "sort-name": "Kase.O",
+              "disambiguation": "Spanish rapper, composer and producer",
+              "aliases": [
+                {
+                  "sort-name": "Kase.O Jazz Magnetism",
+                  "name": "Kase.O Jazz Magnetism",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "KASE.O",
+                  "name": "Kase.O",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Kase-O",
+                  "name": "Kase-O",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ibarra Ramos, Javier",
+                  "name": "Javier Ibarra Ramos",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "KaseO",
+                  "name": "KaseO",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Kase O",
+                  "name": "Kase O",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Javat",
+                  "name": "Javat",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ce90280e-9cb3-4cb0-8879-7bbfa4222879",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Camisa de Fuerza",
+            "status": "Official"
+          },
+          {
+            "id": "8b9d739e-c6c9-46a5-af0a-9939931b6686",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Camisa de Fuerza",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "41efdf4a-ea04-4fd9-8a74-2f628eb87560",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "738431e5-804a-3e92-8f24-ab0b23f5077b",
+        "count": 2,
+        "title": "Partitions oubliées",
+        "first-release-date": "2021-03-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Swift Guad",
+            "artist": {
+              "id": "607a36bb-e965-486d-b9ae-f635ba53c1b4",
+              "name": "Swift Guad",
+              "sort-name": "Guad, Swift",
+              "disambiguation": "French rapper",
+              "aliases": [
+                {
+                  "sort-name": "Swift Gad",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Swift Gad",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "SwiftGad",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "SwiftGad",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "SwiftGuad",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "SwiftGuad",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Marletta, François Yvan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "François Yvan Marletta",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Al'Tarba",
+            "artist": {
+              "id": "19e7f2b3-8331-414c-906b-4869daa0eeba",
+              "name": "Al’Tarba",
+              "sort-name": "Al’Tarba",
+              "disambiguation": "French abstract / hip hop / electronic beatmaker",
+              "aliases": [
+                {
+                  "sort-name": "AlTarba",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "AlTarba",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AL TARBA",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "AL TARBA",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rigaud, Jules",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jules Rigaud",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "fa8195cf-68b0-480d-a0cb-aa0ab90061f8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Partitions oubliées",
+            "status": "Official"
+          },
+          {
+            "id": "17ec95f1-273d-418b-bb53-d8b1cbaa7435",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Partitions oubliées",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "69e8d03c-4714-43cc-abee-482818250818",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "17a22876-82c6-34a1-a094-e1e9e5f4a9af",
+        "count": 8,
+        "title": "UNLOCKED",
+        "first-release-date": "2020-02-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Kenny Beats",
+            "artist": {
+              "id": "22ba00db-f132-4f3c-ab06-4ddaa4cc066b",
+              "name": "Kenny Beats",
+              "sort-name": "Beats, Kenny",
+              "aliases": [
+                {
+                  "sort-name": "Blume, Kenneth Charles III",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Kenneth Charles Blume III",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Blume, Kenneth",
+                  "name": "Kenneth Blume",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4561630b-7f68-4da5-89c1-91fe93e24308",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED",
+            "status": "Official"
+          },
+          {
+            "id": "2f942b94-79bf-4adc-ab87-3e5468f7c67f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED (instrumentals)",
+            "status": "Official"
+          },
+          {
+            "id": "da77b88c-a2e4-452b-9d45-64dae63bc95b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED (instrumentals)",
+            "status": "Official"
+          },
+          {
+            "id": "972502aa-4ace-41d0-9fdd-dc50e58c73cd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED (instrumentals)",
+            "status": "Official"
+          },
+          {
+            "id": "7d6c8af9-596c-49e4-987e-8ebfad971d13",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED",
+            "status": "Official"
+          },
+          {
+            "id": "489422dc-8b9b-423d-8d7d-2d06e6825fa6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Unlocked",
+            "status": "Official"
+          },
+          {
+            "id": "d042371e-ee00-4a3e-afcc-392452943cdd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED",
+            "status": "Official"
+          },
+          {
+            "id": "436cf929-3d77-46f8-8f3d-de6ea53b741f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 4,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "241923e6-8ccb-45f0-8e16-aca80c0d2482",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "76a3f305-cfec-3c82-a576-c630b835e789",
+        "count": 1,
+        "title": "Habit of a Lifetime",
+        "first-release-date": "2020",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "DJ M-1",
+            "artist": {
+              "id": "918dea5d-b2bb-4924-a2a0-9124673de9a1",
+              "name": "DJ M-1",
+              "sort-name": "DJ M-1",
+              "disambiguation": "IRELAND PRODUCUER",
+              "aliases": [
+                {
+                  "sort-name": "M1, DJ",
+                  "name": "Dj M1",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c3e96fef-aaeb-4d2e-a302-c0bd1bd51121",
+            "title": "Habit of a Lifetime"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "59dbc5fd-1d04-49cf-8ba8-a31a447bfa93",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "864208ad-fef7-3657-9e56-bece25a9bac2",
+        "count": 2,
+        "title": "3-m",
+        "first-release-date": "2021-07-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Newt Grundy",
+            "artist": {
+              "id": "e5007687-529c-4b64-8ad8-5da201a96c15",
+              "name": "Newt Grundy",
+              "sort-name": "Grundy, Newt",
+              "disambiguation": "Avant-folk artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "07f14884-4d3d-4b16-a960-51c3b483a916",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "3-m",
+            "status": "Official"
+          },
+          {
+            "id": "cadf3d0c-5b71-404a-839f-8d92cb1f3034",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "3-m",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "grime"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8fa152a8-4772-482d-add6-17696621c624",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6213896a-c43f-337e-af73-3d588b2beb21",
+        "count": 1,
+        "title": "Drop 6",
+        "first-release-date": "2020-05-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Little Simz",
+            "artist": {
+              "id": "3cdb40fe-a63e-4bb9-b40d-17cda5f50979",
+              "name": "Little Simz",
+              "sort-name": "Little Simz",
+              "aliases": [
+                {
+                  "sort-name": "リトル・シムズ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "リトル・シムズ",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lil Simz",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Lil Simz",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ad0dc7d9-95ba-43a6-8e3a-44fd583a8d8e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Drop 6",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e9412342-3c85-4c7b-8ff0-1d1e7b523dad",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2e5abe7f-ba1c-3021-b6fc-ed92e493e3db",
+        "count": 1,
+        "title": "SweetFaceKillah",
+        "first-release-date": "2025-09-17",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Infinite Coles",
+            "artist": {
+              "id": "b9ec5fe4-1d5e-4d94-958d-98badb08f419",
+              "name": "Infinite Coles",
+              "sort-name": "Infinite Coles",
+              "disambiguation": "son of Ghostface Killah"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2a75bc3f-fa27-4666-9396-601e4b467cd3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SweetFaceKillah",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "pop rap"
+          },
+          {
+            "count": 1,
+            "name": "hip house"
+          },
+          {
+            "count": 1,
+            "name": "ballroom"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b9e6004d-7794-4093-80bd-c1a72d52dc48",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "3a6e77b1-0160-32b9-9392-51842dee02b2",
+        "count": 1,
+        "title": "Bodboy",
+        "first-release-date": "2022-08-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Bobby Shmurda",
+            "artist": {
+              "id": "4ec3b7d8-efbb-4672-8067-5e72bd8dba3e",
+              "name": "Bobby Shmurda",
+              "sort-name": "Shmurda, Bobby",
+              "aliases": [
+                {
+                  "sort-name": "Ackquille Jean Pollard",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ackquille Jean Pollard",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Bobby Schmurda",
+                  "name": "Bobby Schmurda",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a6f3f303-90c6-4388-8ec1-49f50fca4acd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bodboy",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "east coast hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "3453c100-f920-4af6-9ab4-b13aa02bc252",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 80,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "953758da-bd3e-380a-9c09-895cc188a30e",
+        "count": 1,
+        "title": "Sous Scellé",
+        "first-release-date": "2021-01-12",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "AZ42",
+            "artist": {
+              "id": "4497e6aa-c92d-42d5-9c75-f9210b881c42",
+              "name": "AZ42",
+              "sort-name": "AZ42"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "105299a7-ebe2-4bb3-96e7-0ba027d10886",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Sous Scellé",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d5a1ed03-ffca-4195-8ab3-41d001446f29",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 80,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e517d293-f196-4639-ae01-9d94efd13a8a",
+        "count": 2,
+        "title": "Recess",
+        "first-release-date": "2025-08-15",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "That Mexican OT",
+            "artist": {
+              "id": "115dc8c9-cb04-4dd6-859e-39739eb57215",
+              "name": "That Mexican OT",
+              "sort-name": "That Mexican OT",
+              "disambiguation": "US rapper from Texas",
+              "aliases": [
+                {
+                  "sort-name": "Gazca, Virgil René",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Virgil René Gazca",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Pablo Wall",
+                  "name": "Pablo Wall",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "827d79d3-d0a5-4894-add2-7dc91a767fe9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Recess",
+            "status": "Official"
+          },
+          {
+            "id": "c7c9d511-366a-45a3-a83c-45558b9a5c2e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Recess",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "03735b31-a0c4-4eba-91a7-aa30e1a1a8b8",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 80,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6f72fbe3-ea25-4917-9937-f80dcd49d5f7",
+        "count": 1,
+        "title": "Звукова бариера",
+        "first-release-date": "2024-04-02",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "АБСТАКТ",
+            "artist": {
+              "id": "09647ab5-282b-4a65-a104-c442a64308fb",
+              "name": "АБСТАКТ",
+              "sort-name": "ABSTACT",
+              "disambiguation": "Bulgarian hardcore hip-hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3d62f5f5-080f-4499-8574-97e39bf3d07b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Звукова бариера",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0d4af3d1-0937-4408-b075-ac57d4ba897e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 80,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2c29656d-9b3c-48a2-8ce0-43f4bfb674ef",
+        "count": 1,
+        "title": "FC DNB",
+        "first-release-date": "2023-05-23",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "FC DNB",
+            "artist": {
+              "id": "3fdac8df-c06f-4bcd-ad7b-20f6ecb8cf37",
+              "name": "FC DNB",
+              "sort-name": "FC DNB"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "005dc8d3-b6d6-484c-ad23-d1e32f685090",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "FC DNB",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f3cf80d2-2564-4aee-b993-e0a4670e9d62",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 80,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2f6bebb7-00b5-4f3d-ac5d-81e4439c750c",
+        "count": 1,
+        "title": "Devils and Demons",
+        "first-release-date": "2020-07-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Danny Diablo",
+            "artist": {
+              "id": "2eb02f8c-8dfa-49dc-a224-11051ec45a42",
+              "name": "Danny Diablo",
+              "sort-name": "Danny Diablo",
+              "disambiguation": "American hardcore punk and hip hop artist",
+              "aliases": [
+                {
+                  "sort-name": "Lord Ezec",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Lord Ezec",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Mars",
+            "artist": {
+              "id": "b069bb7b-2d91-4829-8216-a70f3c6f7f1d",
+              "name": "Mars",
+              "sort-name": "Mars",
+              "disambiguation": "US horrorcore rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a108b3f1-add1-4a56-be12-b57ac5f02aa6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Devils and Demons",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      }
+    ]
+  }
+}

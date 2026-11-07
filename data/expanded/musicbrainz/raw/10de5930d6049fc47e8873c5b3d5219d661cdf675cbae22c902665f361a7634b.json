@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/7d42ab08-6197-45e9-b69a-04a4df333006",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7d42ab08-6197-45e9-b69a-04a4df333006?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:28.089515+00:00",
+  "response": {
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1
+      },
+      {
+        "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+        "count": 1,
+        "name": "pop rap",
+        "disambiguation": ""
+      }
+    ],
+    "id": "7d42ab08-6197-45e9-b69a-04a4df333006",
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "name": "pop rap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "title": "Abhi vs the Universe",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2021-09-01",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "US",
+          "tags": [
+            {
+              "name": "alternative hip hop",
+              "count": 1
+            },
+            {
+              "name": "pop rap",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "a0ef58f1-11b8-4c13-af60-98ad0c0da364",
+          "sort-name": "Abhi the Nomad",
+          "type": "Person",
+          "genres": [
+            {
+              "disambiguation": "",
+              "name": "alternative hip hop",
+              "count": 1,
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e"
+            },
+            {
+              "name": "pop rap",
+              "disambiguation": "",
+              "count": 1,
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237"
+            }
+          ],
+          "disambiguation": "",
+          "name": "Abhi the Nomad"
+        },
+        "joinphrase": "",
+        "name": "Abhi the Nomad"
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  }
+}

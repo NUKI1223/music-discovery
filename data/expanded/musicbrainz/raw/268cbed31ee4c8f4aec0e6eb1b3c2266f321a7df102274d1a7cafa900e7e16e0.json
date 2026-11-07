@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/273e94dd-a22c-4e09-a4db-a83e408d4985",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/273e94dd-a22c-4e09-a4db-a83e408d4985?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:17.187546+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "273e94dd-a22c-4e09-a4db-a83e408d4985",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Plumbers Incorporated",
+        "artist": {
+          "tags": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "Comedy Rap duo from Las Vegas",
+          "name": "Plumbers Incorporated",
+          "country": "US",
+          "genres": [],
+          "id": "2b35e92b-d960-40c3-9407-53a9f65f4874",
+          "sort-name": "Plumbers Incorporated",
+          "type": "Group"
+        }
+      }
+    ],
+    "first-release-date": "2021-02-27",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Live at Friend's House",
+    "genres": [
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ]
+  }
+}

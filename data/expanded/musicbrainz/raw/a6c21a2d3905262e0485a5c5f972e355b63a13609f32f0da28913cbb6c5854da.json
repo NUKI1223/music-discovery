@@ -1,0 +1,178 @@
+{
+  "endpoint": "release-group/f4e3c9f6-7ae4-4a8b-a11c-be9fd2e5c3f2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f4e3c9f6-7ae4-4a8b-a11c-be9fd2e5c3f2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:50.241944+00:00",
+  "response": {
+    "first-release-date": "2024-07-19",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "Denzel Curry",
+        "artist": {
+          "type": "Person",
+          "disambiguation": "US rapper",
+          "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+          "country": "US",
+          "genres": [
+            {
+              "name": "cloud rap",
+              "count": 1,
+              "disambiguation": "",
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733"
+            },
+            {
+              "disambiguation": "",
+              "count": 3,
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 4,
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+            },
+            {
+              "name": "hip hop",
+              "count": 8,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "2f38ceb3-0ed0-475d-9ebd-bee14a2ca28e",
+              "name": "memphis rap"
+            },
+            {
+              "name": "southern hip hop",
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "count": 3,
+              "disambiguation": ""
+            },
+            {
+              "count": 6,
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "260d1450-1055-4c5c-9c78-863253349a5a",
+              "name": "trap metal"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "cloud rap",
+              "count": 1
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 3
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 4
+            },
+            {
+              "name": "hip hop",
+              "count": 8
+            },
+            {
+              "count": 1,
+              "name": "memphis rap"
+            },
+            {
+              "name": "rap",
+              "count": 2
+            },
+            {
+              "name": "southern hip hop",
+              "count": 3
+            },
+            {
+              "name": "trap",
+              "count": 6
+            },
+            {
+              "count": 1,
+              "name": "trap metal"
+            },
+            {
+              "count": 1,
+              "name": "underground"
+            }
+          ],
+          "sort-name": "Curry, Denzel",
+          "name": "Denzel Curry"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "memphis rap"
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "id": "f4e3c9f6-7ae4-4a8b-a11c-be9fd2e5c3f2",
+    "primary-type": "Album",
+    "title": "King of the Mischievous South, Vol. 2",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "memphis rap",
+        "id": "2f38ceb3-0ed0-475d-9ebd-bee14a2ca28e",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      }
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ]
+  }
+}

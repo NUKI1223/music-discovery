@@ -1,0 +1,106 @@
+{
+  "endpoint": "release-group/f85e1ded-7638-4ca4-8a50-4e95b69cd380",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f85e1ded-7638-4ca4-8a50-4e95b69cd380?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:40.708449+00:00",
+  "response": {
+    "first-release-date": "2018-02-20",
+    "disambiguation": "",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "horrorcore",
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e"
+      }
+    ],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Trunchell, Etc.",
+          "id": "01a57d77-df6b-433f-9275-8b0b8279f6fd",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "horrorcore",
+              "count": 1
+            },
+            {
+              "name": "rapcore",
+              "count": 1
+            }
+          ],
+          "disambiguation": "",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "hardcore hip hop",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "horrorcore",
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e"
+            },
+            {
+              "name": "rapcore",
+              "id": "2cd7891d-c012-45f1-b1a1-86e34793f7fa",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "sort-name": "Trunchell, Etc.",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "IT"
+        },
+        "name": "Trunchell, Etc.",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "f85e1ded-7638-4ca4-8a50-4e95b69cd380",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Inauguration of the Mechanical Nest",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "horrorcore",
+        "count": 1
+      }
+    ]
+  }
+}

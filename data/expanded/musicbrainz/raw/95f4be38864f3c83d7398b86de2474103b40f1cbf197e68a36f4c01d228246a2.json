@@ -1,0 +1,106 @@
+{
+  "endpoint": "release-group/0b5d1515-3418-4b1d-95ae-19aa03d077fb",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0b5d1515-3418-4b1d-95ae-19aa03d077fb?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:12.760552+00:00",
+  "response": {
+    "id": "0b5d1515-3418-4b1d-95ae-19aa03d077fb",
+    "primary-type": "EP",
+    "title": "Morfeo",
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "horrorcore",
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "name": "hardcore hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "horrorcore"
+            },
+            {
+              "count": 1,
+              "name": "rapcore"
+            }
+          ],
+          "sort-name": "Trunchell, Etc.",
+          "name": "Trunchell, Etc.",
+          "genres": [
+            {
+              "name": "hardcore hip hop",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "horrorcore",
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "2cd7891d-c012-45f1-b1a1-86e34793f7fa",
+              "count": 1,
+              "disambiguation": "",
+              "name": "rapcore"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "type": "Person",
+          "country": "IT",
+          "id": "01a57d77-df6b-433f-9275-8b0b8279f6fd"
+        },
+        "name": "Trunchell, Etc."
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "horrorcore",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2018-07-31",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

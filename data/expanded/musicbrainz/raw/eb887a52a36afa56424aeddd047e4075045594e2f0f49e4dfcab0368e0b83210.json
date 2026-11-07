@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/81198f52-aa71-3eab-829a-81d081f16c72",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/81198f52-aa71-3eab-829a-81d081f16c72?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:25.866672+00:00",
+  "response": {
+    "first-release-date": "1991-09-03",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Pure Poverty",
+    "genres": [
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 3
+      },
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Poor Righteous Teachers",
+        "artist": {
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "count": 3,
+              "name": "hip hop"
+            }
+          ],
+          "country": "US",
+          "name": "Poor Righteous Teachers",
+          "id": "b46cb508-b3be-4f6d-beac-a168127444b1",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 3,
+              "name": "hip hop"
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Poor Righteous Teachers"
+        }
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "81198f52-aa71-3eab-829a-81d081f16c72",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 3
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ]
+  }
+}

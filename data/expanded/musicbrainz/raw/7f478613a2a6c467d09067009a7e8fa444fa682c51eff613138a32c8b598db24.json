@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/eeb45eb0-d216-45f6-b782-43444a48a3d6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/eeb45eb0-d216-45f6-b782-43444a48a3d6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:18.763623+00:00",
+  "response": {
+    "first-release-date": "2019-07-17",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "Dillom",
+        "joinphrase": "",
+        "artist": {
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "Argentine punk-rap singer",
+          "type": "Person",
+          "country": "AR",
+          "id": "bd212fd1-abe7-47c6-9f6f-97d0330f4b74",
+          "tags": [],
+          "sort-name": "Dillom",
+          "name": "Dillom"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "eeb45eb0-d216-45f6-b782-43444a48a3d6",
+    "primary-type": "EP",
+    "title": "Drippin"
+  }
+}

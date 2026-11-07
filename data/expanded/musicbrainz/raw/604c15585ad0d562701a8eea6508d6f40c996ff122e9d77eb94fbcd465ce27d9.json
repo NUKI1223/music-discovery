@@ -1,0 +1,122 @@
+{
+  "endpoint": "release-group/0ebb4cdc-d084-32c5-a773-4dd6264c527a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0ebb4cdc-d084-32c5-a773-4dd6264c527a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:42.461748+00:00",
+  "response": {
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "id": "0ebb4cdc-d084-32c5-a773-4dd6264c527a",
+    "title": "Mirror Mirror",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "",
+          "type": "Group",
+          "country": "US",
+          "id": "cbf882cd-5fb3-4324-b212-32ed0b985ba8",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "id": "7983ff25-ddf9-411e-a7f9-6cca238bff79",
+              "disambiguation": "",
+              "count": 1,
+              "name": "alternative metal"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "disambiguation": "",
+              "count": 3,
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+              "name": "horrorcore"
+            },
+            {
+              "name": "trip hop",
+              "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "count": 1,
+              "name": "_add series"
+            },
+            {
+              "name": "alternative hip hop",
+              "count": 1
+            },
+            {
+              "name": "alternative metal",
+              "count": 1
+            },
+            {
+              "name": "american",
+              "count": 3
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "name": "hip-hop",
+              "count": 2
+            },
+            {
+              "count": 3,
+              "name": "horrorcore"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            },
+            {
+              "count": 1,
+              "name": "trip hop"
+            }
+          ],
+          "sort-name": "Twiztid",
+          "name": "Twiztid"
+        },
+        "name": "Twiztid"
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2002-04-09",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

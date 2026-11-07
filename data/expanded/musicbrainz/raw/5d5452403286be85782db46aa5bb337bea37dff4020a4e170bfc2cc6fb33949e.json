@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/03660f12-95af-3689-806d-dce5d2526ea3",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/03660f12-95af-3689-806d-dce5d2526ea3?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:10.083235+00:00",
+  "response": {
+    "id": "03660f12-95af-3689-806d-dce5d2526ea3",
+    "genres": [
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "name": "hardcore hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2000-04-07",
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "Westberlin Maskulin",
+        "artist": {
+          "disambiguation": "",
+          "country": "DE",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "sort-name": "Westberlin Maskulin",
+          "type": "Group",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "Westberlin Maskulin",
+          "id": "a31e743d-cad1-4a32-b7cb-c60eaf592080"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "title": "Battlekings"
+  }
+}

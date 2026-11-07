@@ -1,0 +1,27 @@
+{
+  "source": "wikidata",
+  "license": "CC0-1.0",
+  "license_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "fetched_at": "2026-10-28T12:10:07Z",
+  "files": {
+    "raw/albums.json": {
+      "bytes": 96621,
+      "sha256": "6ed2d5def8205ed9a6e2c8fd223b7f9de8bad4dc0f0978e3b3223d664cfbc22c"
+    },
+    "raw/dependencies.json": {
+      "bytes": 162866,
+      "sha256": "3e78f84f1466bcefeec5ba93a2b082828f4cdfa33aa8c5b904879aedd35b5c0a"
+    },
+    "raw/lookup.json": {
+      "bytes": 3096,
+      "sha256": "d9f4fa4daf15ea888dd53c59b5ab2bb2c3eb10cf803bbbeb517090a325f26e67"
+    },
+    "raw/lookup.rq": {
+      "bytes": 1366,
+      "sha256": "f4d168ee94bead75dbae43d42d09128f9ff395fcde92688f0c3b814646041984"
+    }
+  },
+  "acquisition": "Official SPARQL P436 lookup and MediaWiki wbgetentities; saved successful responses before subsequent HTTP 403.",
+  "subsequent_refresh_status": "blocked_http_403_no_bypass",
+  "personal_labels": 0
+}

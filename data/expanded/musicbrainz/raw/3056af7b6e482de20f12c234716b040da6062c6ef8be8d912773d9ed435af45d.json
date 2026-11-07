@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/b4a750d5-1eb1-4515-a58d-33622dc89ae9",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b4a750d5-1eb1-4515-a58d-33622dc89ae9?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:39.780300+00:00",
+  "response": {
+    "disambiguation": "",
+    "title": "Keep an Eye Out",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "id": "b4a750d5-1eb1-4515-a58d-33622dc89ae9",
+    "secondary-types": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "first-release-date": "1993",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "CA",
+          "name": "Shades of Culture",
+          "disambiguation": "",
+          "id": "552d84b5-8de5-4eff-b9d0-91af08fdd2a0",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "sort-name": "Shades of Culture",
+          "type": "Group",
+          "genres": [
+            {
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "disambiguation": ""
+            }
+          ]
+        },
+        "joinphrase": "",
+        "name": "Shades of Culture"
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

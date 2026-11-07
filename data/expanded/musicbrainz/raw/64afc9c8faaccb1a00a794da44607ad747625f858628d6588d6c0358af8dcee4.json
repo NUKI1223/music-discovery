@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/6bdc3852-e6b1-416b-9b78-4cb3e20b23bd",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6bdc3852-e6b1-416b-9b78-4cb3e20b23bd?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:57.279885+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "id": "6bdc3852-e6b1-416b-9b78-4cb3e20b23bd",
+    "title": "Raw Soul",
+    "artist-credit": [
+      {
+        "name": "Raw Soul",
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Raw Soul",
+          "name": "Raw Soul",
+          "tags": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "country": "US",
+          "id": "8a5ac819-2ee0-4fce-9cc3-e04b714bb9b0",
+          "disambiguation": "90s California rap group",
+          "type": "Group"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "1996",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

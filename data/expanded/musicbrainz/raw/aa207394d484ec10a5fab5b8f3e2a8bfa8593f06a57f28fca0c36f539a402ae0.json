@@ -1,0 +1,128 @@
+{
+  "endpoint": "release-group/1ca26ecf-2116-435b-883c-9bfc9e890067",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1ca26ecf-2116-435b-883c-9bfc9e890067?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:40.447464+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "Dolàn Xakò",
+        "joinphrase": "",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Xakò, Dolàn",
+          "id": "fd6cfbbd-dce1-4815-9616-334a92b372c3",
+          "genres": [
+            {
+              "name": "experimental",
+              "count": 1,
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+              "count": 1,
+              "name": "instrumental"
+            },
+            {
+              "name": "trip hop",
+              "disambiguation": "",
+              "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+              "count": 1
+            }
+          ],
+          "country": "FR",
+          "name": "Dolàn Xakò",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "abstract beats",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "abstract hip-hop"
+            },
+            {
+              "count": 1,
+              "name": "experimental"
+            },
+            {
+              "count": 1,
+              "name": "instrumental"
+            },
+            {
+              "count": 1,
+              "name": "music for film"
+            },
+            {
+              "name": "trip hop",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "name": "abstract hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "count": 1,
+        "name": "experimental"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "name": "instrumental"
+      },
+      {
+        "name": "trip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc"
+      }
+    ],
+    "title": "Vertiges",
+    "first-release-date": "2016-11-10",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental"
+      },
+      {
+        "count": 1,
+        "name": "instrumental"
+      },
+      {
+        "count": 1,
+        "name": "trip hop"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "1ca26ecf-2116-435b-883c-9bfc9e890067",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

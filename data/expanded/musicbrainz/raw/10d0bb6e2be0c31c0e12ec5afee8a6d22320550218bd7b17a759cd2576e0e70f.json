@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/a30a65bc-b1b9-45cf-8f6a-5e36b585a254",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a30a65bc-b1b9-45cf-8f6a-5e36b585a254?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:16.242424+00:00",
+  "response": {
+    "id": "a30a65bc-b1b9-45cf-8f6a-5e36b585a254",
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Killa Kidz",
+        "artist": {
+          "name": "Killa Kidz",
+          "id": "2e3d87dc-5b27-4772-b13b-366af7efae9a",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "sort-name": "Killa Kidz",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "US",
+          "type": "Group",
+          "disambiguation": "QB hip hop group"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "name": "hardcore hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2019-07",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "In the Mental Demos EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

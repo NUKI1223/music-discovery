@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/8fcb730a-bdff-4de5-91b4-dbeee11b2edc",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8fcb730a-bdff-4de5-91b4-dbeee11b2edc?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:36.948568+00:00",
+  "response": {
+    "title": "UV",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Frankenstein",
+        "artist": {
+          "disambiguation": "Canadian rapper/hip hop producer",
+          "country": "CA",
+          "tags": [],
+          "type": "Person",
+          "sort-name": "Frankenstein",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "f3365160-25f3-4de9-9d21-eec3ea65bb88",
+          "name": "Frankenstein"
+        }
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "id": "8fcb730a-bdff-4de5-91b4-dbeee11b2edc",
+    "first-release-date": "1997",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

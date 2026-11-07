@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/10c95c63-a9ad-4d7d-96bf-a33a90e3731b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/10c95c63-a9ad-4d7d-96bf-a33a90e3731b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:22.101012+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "title": "The Girl, The Cat and The Tree",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2018-06-19",
+    "id": "10c95c63-a9ad-4d7d-96bf-a33a90e3731b",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "",
+          "country": "GB",
+          "tags": [],
+          "type": "Person",
+          "sort-name": "LAUSSE THE CAT",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "d261ed6f-11ca-4a35-bc26-e3d6fd1815b7",
+          "name": "LAUSSE THE CAT"
+        },
+        "name": "LAUSSE THE CAT"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": ""
+  }
+}

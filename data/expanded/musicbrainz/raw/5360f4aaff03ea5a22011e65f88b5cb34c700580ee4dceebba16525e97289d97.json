@@ -1,0 +1,94 @@
+{
+  "endpoint": "release-group/abb34146-7c30-405a-afeb-e2f5f8603fb7",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/abb34146-7c30-405a-afeb-e2f5f8603fb7?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:12.739728+00:00",
+  "response": {
+    "first-release-date": "2023-04-07",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "also credited to Crime Cuzzinz",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": null,
+          "genres": [],
+          "id": "1bd5052a-2f2d-40ee-9b5f-4fc0bfdcd2c4",
+          "country": null,
+          "disambiguation": "",
+          "type": null,
+          "sort-name": "Buze Bruvaz, Da",
+          "name": "Da Buze Bruvaz",
+          "tags": []
+        },
+        "joinphrase": " ft. ",
+        "name": "Da Buze Bruvaz"
+      },
+      {
+        "name": "Him Lo",
+        "artist": {
+          "sort-name": "Him-Lo",
+          "name": "Him-Lo",
+          "tags": [],
+          "country": "US",
+          "id": "6d00913d-36dd-4c05-8db2-84ce5c1c6666",
+          "type": "Person",
+          "disambiguation": "US rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": []
+        },
+        "joinphrase": " and "
+      },
+      {
+        "artist": {
+          "sort-name": "Big Nawz",
+          "name": "Big Nawz",
+          "tags": [],
+          "id": "dfb9fd51-a77d-4ff6-9ac5-47e2fb87ad3c",
+          "country": null,
+          "type": "Person",
+          "disambiguation": "hip-hop, member of Crime Cuzzinz",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": []
+        },
+        "joinphrase": "",
+        "name": "Big Nawz"
+      }
+    ],
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "Album",
+    "id": "abb34146-7c30-405a-afeb-e2f5f8603fb7",
+    "title": "Yellow Tape n Shell Casez"
+  }
+}

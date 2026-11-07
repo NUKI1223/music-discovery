@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/2ae771a4-7d56-4ee9-87cd-e2b8702afbaa",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/2ae771a4-7d56-4ee9-87cd-e2b8702afbaa?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:58.363758+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "BPMF",
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "disambiguation": "Rap fr",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "BPMF",
+          "country": null,
+          "genres": [],
+          "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+          "sort-name": "BPMF",
+          "type": "Person"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "title": "遇見的人們 (002)",
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "first-release-date": "2017-11-20",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "2ae771a4-7d56-4ee9-87cd-e2b8702afbaa",
+    "secondary-type-ids": [],
+    "secondary-types": []
+  }
+}

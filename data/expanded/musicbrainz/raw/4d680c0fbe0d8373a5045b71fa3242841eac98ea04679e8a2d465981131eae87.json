@@ -1,0 +1,136 @@
+{
+  "endpoint": "release-group/ee5bc85f-775f-433e-9678-72e01cf4dd4c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ee5bc85f-775f-433e-9678-72e01cf4dd4c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:49.493798+00:00",
+  "response": {
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "country": "US",
+          "disambiguation": "rapper",
+          "type": "Person",
+          "sort-name": "Joey Badass",
+          "tags": [
+            {
+              "name": "boom bap",
+              "count": 5
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 1
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 4
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 1
+            },
+            {
+              "count": 5,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "jazz rap"
+            }
+          ],
+          "id": "9757ae7d-44b1-4d63-81ce-b463fe27b9ae",
+          "name": "Joey Bada$$",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "boom bap",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "count": 5,
+              "disambiguation": ""
+            },
+            {
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 4,
+              "name": "east coast hip hop",
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86"
+            },
+            {
+              "name": "hardcore hip hop",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 5
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "jazz rap",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+            }
+          ]
+        },
+        "name": "Joey Bada$$"
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "east coast hip hop",
+        "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "id": "ee5bc85f-775f-433e-9678-72e01cf4dd4c",
+    "first-release-date": "2017-07-03",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Too Lit",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "count": 1,
+        "name": "east coast hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
+  }
+}

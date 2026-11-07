@@ -1,0 +1,7 @@
+{
+  "minimum_labels": 60,
+  "minimum_minority": 15,
+  "seed": 17,
+  "taxonomy_version": "mb-tags-v2",
+  "feature_version": "genre-tags-v1"
+}

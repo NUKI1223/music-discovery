@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/9c1962c8-76f7-3e7f-a01e-f200f12722d3",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9c1962c8-76f7-3e7f-a01e-f200f12722d3?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:15.433805+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "9c1962c8-76f7-3e7f-a01e-f200f12722d3",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Stetsasonic",
+        "artist": {
+          "id": "2d84d1c0-f6fe-4af0-848c-fffdc1e080dc",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "name": "boom bap"
+            },
+            {
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 2
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Stetsasonic",
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            }
+          ],
+          "country": "US",
+          "name": "Stetsasonic"
+        }
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "1986",
+    "genres": [
+      {
+        "count": 2,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "name": "jazz rap"
+      }
+    ],
+    "title": "On Fire"
+  }
+}

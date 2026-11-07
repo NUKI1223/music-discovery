@@ -1,0 +1,79 @@
+{
+  "endpoint": "release-group/0e4bfb17-60f7-4032-9ac3-3f64e580dc5b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0e4bfb17-60f7-4032-9ac3-3f64e580dc5b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:24.071531+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [],
+          "id": "8e9cf9c5-b69e-4673-8373-58e3e5350126",
+          "sort-name": "Masked Avengers",
+          "type": null,
+          "tags": [],
+          "type-id": null,
+          "disambiguation": "",
+          "name": "Masked Avengers",
+          "country": null
+        },
+        "name": "Masked Avengers",
+        "joinphrase": " & "
+      },
+      {
+        "name": "Maylay Sparks",
+        "joinphrase": "",
+        "artist": {
+          "id": "e3716a06-21a5-4983-ab73-5d9d6ff3b639",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "Sparks, Maylay",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "Philadelphia MC Rahsheed",
+          "tags": [],
+          "country": "DK",
+          "name": "Maylay Sparks"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": ""
+      }
+    ],
+    "title": "So Wonderful EP",
+    "first-release-date": "2004",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "0e4bfb17-60f7-4032-9ac3-3f64e580dc5b",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

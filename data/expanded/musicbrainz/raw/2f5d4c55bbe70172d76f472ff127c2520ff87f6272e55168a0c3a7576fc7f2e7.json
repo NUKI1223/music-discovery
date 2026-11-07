@@ -1,0 +1,154 @@
+{
+  "endpoint": "release-group/3b426413-5b99-36b4-9ee9-19064b1a144c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3b426413-5b99-36b4-9ee9-19064b1a144c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:50.693342+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      }
+    ],
+    "secondary-types": [],
+    "id": "3b426413-5b99-36b4-9ee9-19064b1a144c",
+    "primary-type": "EP",
+    "title": "Clear Lake Audiotorium",
+    "artist-credit": [
+      {
+        "name": "De La Soul",
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "De La Soul",
+          "name": "De La Soul",
+          "tags": [
+            {
+              "count": 1,
+              "name": "alternative hip hop"
+            },
+            {
+              "name": "boom bap",
+              "count": 3
+            },
+            {
+              "count": 4,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 4
+            },
+            {
+              "name": "golden age hip hop",
+              "count": 2
+            },
+            {
+              "name": "hip hop",
+              "count": 11
+            },
+            {
+              "name": "jazz rap",
+              "count": 6
+            },
+            {
+              "name": "pop rap",
+              "count": 1
+            },
+            {
+              "name": "progressive rap",
+              "count": 1
+            }
+          ],
+          "country": "US",
+          "id": "a8ebde98-7e91-46c7-992c-90039ba42017",
+          "type": "Group",
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "name": "alternative hip hop"
+            },
+            {
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "disambiguation": "",
+              "count": 3,
+              "name": "boom bap"
+            },
+            {
+              "disambiguation": "",
+              "count": 4,
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "east coast hip hop",
+              "disambiguation": "",
+              "count": 4,
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 11,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "name": "jazz rap",
+              "disambiguation": "",
+              "count": 6,
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+            },
+            {
+              "name": "pop rap",
+              "count": 1,
+              "disambiguation": "",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237"
+            }
+          ]
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "1994",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "endpoint": "artist/",
+  "params": {
+    "query": "artist:\"Denzel Curry\"",
+    "fmt": "json",
+    "limit": 5
+  },
+  "url": "https://musicbrainz.org/ws/2/artist/?query=artist%3A%22Denzel+Curry%22&fmt=json&limit=5",
+  "captured_at": "2026-10-28T12:16:56.592092+00:00",
+  "response": {
+    "created": "2026-10-28T12:16:56.521Z",
+    "count": 1,
+    "offset": 0,
+    "artists": [
+      {
+        "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "score": 100,
+        "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+        "name": "Denzel Curry",
+        "sort-name": "Curry, Denzel",
+        "gender": "male",
+        "country": "US",
+        "area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "begin-area": {
+          "id": "bf0f2274-a68a-49ce-ab54-379cb1ee15d0",
+          "type": "District",
+          "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+          "name": "Carol City",
+          "sort-name": "Carol City",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "disambiguation": "US rapper",
+        "ipis": [
+          "00705317174"
+        ],
+        "isnis": [
+          "0000000460012214"
+        ],
+        "life-span": {
+          "begin": "1995-02-16",
+          "ended": null
+        },
+        "aliases": [
+          {
+            "sort-name": "Klan Raven",
+            "name": "Klan Raven",
+            "locale": null,
+            "type": null,
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Curry, Denzel Aquarius Killa",
+            "name": "Denzel Aquarius Killa Curry",
+            "locale": null,
+            "type": null,
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Denzel Aquarius’killa",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Denzel Aquarius’killa",
+            "locale": null,
+            "type": "Artist name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Curry, Denzel Aquarius’killa",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Denzel Aquarius’killa Curry",
+            "locale": null,
+            "type": "Artist name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "DENZELCURRYPH",
+            "name": "DENZELCURRYPH",
+            "locale": null,
+            "type": null,
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Curry, Denzel Rae Don",
+            "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+            "name": "Denzel Rae Don Curry",
+            "locale": null,
+            "type": "Legal name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "rap"
+          },
+          {
+            "count": 8,
+            "name": "hip hop"
+          },
+          {
+            "count": 3,
+            "name": "southern hip hop"
+          },
+          {
+            "count": 0,
+            "name": "pop rap"
+          },
+          {
+            "count": 1,
+            "name": "underground"
+          },
+          {
+            "count": 0,
+            "name": "drill"
+          },
+          {
+            "count": 0,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 1,
+            "name": "memphis rap"
+          },
+          {
+            "count": 3,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 4,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 6,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          },
+          {
+            "count": 1,
+            "name": "trap metal"
+          }
+        ]
+      }
+    ]
+  }
+}

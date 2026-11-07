@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "dataset_kind": "unified_music_catalog",
+  "is_fixture": false,
+  "catalog_path": "catalog.json",
+  "catalog_snapshot_id": "community-unified-f89dbca2dd28372f",
+  "catalog_sha256": "3e9df7a2490ee9eb781736568b7a974eede67e52deb823cfe88f6b2ab16cda60",
+  "taxonomy_version": "community-taxonomy-v2+975073b40a21",
+  "base_snapshot_id": "community-unified-124eb53426422c2f",
+  "base_catalog_sha256": "9450a94eacd18669ef2bead05a0b0dc29ac208718c147eb464324eba24e801e6",
+  "source_manifests": {
+    "aoty": {
+      "sha256": "445135c642e6249a4479f8b65e19437c12801c7d10ef94536d10bc211d7d820c",
+      "manifest": {
+        "schema_version": 1,
+        "normalizer_version": "community-historical-v1",
+        "dataset_kind": "historical_community_metadata",
+        "source": "aoty",
+        "is_fixture": false,
+        "personal_labels": 0,
+        "live_scrape": false,
+        "normalized_at": "2026-11-03T17:03:18.918360+00:00",
+        "observed_at": null,
+        "input_file": "artifacts/source-research/genre-expansion-20261103/albums.jsonl",
+        "input_sha256": "7b844e34cdfe23fdf16a25f2835ec9171734f4e35f9adf4e389117bbe3cccae8",
+        "records_file": "releases.jsonl",
+        "records_sha256": "9261f7fa601b495992ad9b98033dfa7353a6ef553c50cc2f7f75df3080dfb675",
+        "input_rows": 8,
+        "accepted_rows": 8,
+        "quarantined_rows": 0,
+        "unique_source_ids": 8,
+        "duplicate_source_ids": 0,
+        "with_genres": 8,
+        "with_ratings": 0,
+        "with_integer_counts": 0,
+        "genre_counts": {
+          "Gospel": 2,
+          "New Age": 2,
+          "Contemporary Folk": 1,
+          "CCM": 1,
+          "Indie Pop": 1,
+          "Alternative R&B": 1,
+          "Urban Contemporary Gospel": 1,
+          "Ambient": 1,
+          "Industrial Techno": 1,
+          "Neoclassical New Age": 1,
+          "Reggae": 1,
+          "Hymns": 1,
+          "Singer-Songwriter": 1,
+          "Epic Collage": 1
+        },
+        "acquisition_provenance": {
+          "source": "aoty",
+          "is_fixture": false,
+          "retrieved_at": "2026-11-03T17:02:44.667036+00:00",
+          "method": "Reviewed album Details from web readable captures; cached age retained in batch evidence",
+          "files": {
+            "albums.jsonl": {
+              "sha256": "7b844e34cdfe23fdf16a25f2835ec9171734f4e35f9adf4e389117bbe3cccae8"
+            }
+          },
+          "scope": "Eight album Details; no reviews or ratings copied; hidden Vibes not inferred"
+        },
+        "limitations": [
+          "Publisher snapshots are historical and are not independently verified live observations.",
+          "Retrieval/commit dates do not establish source capture time.",
+          "Chart-selected datasets are biased toward popular or highly rated releases.",
+          "No automatic MusicBrainz identity or internal genre-taxonomy mapping is performed.",
+          "Community aggregates are not personal preference labels or current obscurity evidence.",
+          "Public availability does not establish redistribution rights; see acquisition provenance."
+        ]
+      }
+    }
+  },
+  "source_manifest_entries": [
+    {
+      "sha256": "445135c642e6249a4479f8b65e19437c12801c7d10ef94536d10bc211d7d820c",
+      "manifest": {
+        "schema_version": 1,
+        "normalizer_version": "community-historical-v1",
+        "dataset_kind": "historical_community_metadata",
+        "source": "aoty",
+        "is_fixture": false,
+        "personal_labels": 0,
+        "live_scrape": false,
+        "normalized_at": "2026-11-03T17:03:18.918360+00:00",
+        "observed_at": null,
+        "input_file": "artifacts/source-research/genre-expansion-20261103/albums.jsonl",
+        "input_sha256": "7b844e34cdfe23fdf16a25f2835ec9171734f4e35f9adf4e389117bbe3cccae8",
+        "records_file": "releases.jsonl",
+        "records_sha256": "9261f7fa601b495992ad9b98033dfa7353a6ef553c50cc2f7f75df3080dfb675",
+        "input_rows": 8,
+        "accepted_rows": 8,
+        "quarantined_rows": 0,
+        "unique_source_ids": 8,
+        "duplicate_source_ids": 0,
+        "with_genres": 8,
+        "with_ratings": 0,
+        "with_integer_counts": 0,
+        "genre_counts": {
+          "Gospel": 2,
+          "New Age": 2,
+          "Contemporary Folk": 1,
+          "CCM": 1,
+          "Indie Pop": 1,
+          "Alternative R&B": 1,
+          "Urban Contemporary Gospel": 1,
+          "Ambient": 1,
+          "Industrial Techno": 1,
+          "Neoclassical New Age": 1,
+          "Reggae": 1,
+          "Hymns": 1,
+          "Singer-Songwriter": 1,
+          "Epic Collage": 1
+        },
+        "acquisition_provenance": {
+          "source": "aoty",
+          "is_fixture": false,
+          "retrieved_at": "2026-11-03T17:02:44.667036+00:00",
+          "method": "Reviewed album Details from web readable captures; cached age retained in batch evidence",
+          "files": {
+            "albums.jsonl": {
+              "sha256": "7b844e34cdfe23fdf16a25f2835ec9171734f4e35f9adf4e389117bbe3cccae8"
+            }
+          },
+          "scope": "Eight album Details; no reviews or ratings copied; hidden Vibes not inferred"
+        },
+        "limitations": [
+          "Publisher snapshots are historical and are not independently verified live observations.",
+          "Retrieval/commit dates do not establish source capture time.",
+          "Chart-selected datasets are biased toward popular or highly rated releases.",
+          "No automatic MusicBrainz identity or internal genre-taxonomy mapping is performed.",
+          "Community aggregates are not personal preference labels or current obscurity evidence.",
+          "Public availability does not establish redistribution rights; see acquisition provenance."
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "base_releases": 45635,
+    "source_rows": 8,
+    "included_source_rows": 8,
+    "pending_source_rows": 0,
+    "catalog_releases": 45643,
+    "artists": 17921,
+    "genres": 463,
+    "without_primary_genre": 6035,
+    "historical_observations": 64251
+  },
+  "matching_summary": {
+    "source_rows": 8,
+    "new_entities": 8,
+    "statuses": {
+      "unmatched": 8
+    },
+    "rules": {
+      "independent_source_release_v1": 8
+    }
+  },
+  "mapping_status_counts": {
+    "unmatched": 8
+  },
+  "historical_ratings_used_for_current_popularity": false,
+  "personal_labels": 0,
+  "identity_note": "Accepted metadata-rule links are documented in matching.json; they are not independent source MBID claims.",
+  "limitations": [
+    "Historical community capture timestamps and count semantics remain unknown.",
+    "Pending identity links are retained outside serving until review.",
+    "Unmapped genre labels remain in source_metadata and taxonomy report.",
+    "Chart selection is not representative of underground releases."
+  ],
+  "remapping_report": "remapping.json",
+  "coverage_report": "coverage.json",
+  "remapped_base_snapshot_id": "community-remapped-56621f28e7881151"
+}

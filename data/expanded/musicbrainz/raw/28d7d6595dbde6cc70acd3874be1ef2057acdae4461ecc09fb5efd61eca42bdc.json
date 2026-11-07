@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/60c83513-7bc0-4080-a834-a52d40ee27cd",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/60c83513-7bc0-4080-a834-a52d40ee27cd?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:46.918400+00:00",
+  "response": {
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "title": "Seismograph",
+    "artist-credit": [
+      {
+        "name": "Skunkz",
+        "artist": {
+          "disambiguation": "Hip Hop from Dorchester, Boston area",
+          "country": "US",
+          "type": "Person",
+          "sort-name": "Skunkz",
+          "name": "Skunkz",
+          "tags": [],
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "f132cb46-e605-4063-84b4-f8f41bdaddd9"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "id": "60c83513-7bc0-4080-a834-a52d40ee27cd",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "first-release-date": "2021-02-19",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

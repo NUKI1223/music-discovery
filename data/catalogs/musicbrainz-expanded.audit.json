@@ -1,0 +1,499 @@
+{
+  "snapshot_id": "musicbrainz-expanded-734966342ead63ce",
+  "taxonomy_version": "mb-tags-v2",
+  "as_of": "2026-10-28",
+  "is_fixture": false,
+  "release_count": 520,
+  "scope_reports": {
+    "hip-hop": {
+      "status": "limited",
+      "release_count": 463,
+      "artist_count": 369,
+      "family_counts": {
+        "experimental": 101,
+        "abstract": 72,
+        "industrial-hip-hop": 65,
+        "hardcore": 92,
+        "jazz-rap": 60,
+        "boom-bap": 68,
+        "trap": 45,
+        "instrumental-hip-hop": 57
+      },
+      "confirmed_genre_coverage": 0.0,
+      "usable_popularity_coverage": 1.0,
+      "provenance_coverage": 1.0,
+      "reasons": [
+        "independent_genre_review_below_95_percent",
+        "one_or_more_comparison_groups_limited"
+      ],
+      "cohorts": [
+        {
+          "genre_id": "abstract",
+          "source": "musicbrainz",
+          "age_group": "under-1",
+          "release_count": 2,
+          "usable_observation_count": 2,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "abstract",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 15,
+          "usable_observation_count": 15,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "abstract",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 55,
+          "usable_observation_count": 55,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "boom-bap",
+          "source": "musicbrainz",
+          "age_group": "under-1",
+          "release_count": 1,
+          "usable_observation_count": 1,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "boom-bap",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 15,
+          "usable_observation_count": 15,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "boom-bap",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 52,
+          "usable_observation_count": 52,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "experimental",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 25,
+          "usable_observation_count": 25,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "experimental",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 76,
+          "usable_observation_count": 76,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "hardcore",
+          "source": "musicbrainz",
+          "age_group": "under-1",
+          "release_count": 1,
+          "usable_observation_count": 1,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "hardcore",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 20,
+          "usable_observation_count": 20,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "hardcore",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 71,
+          "usable_observation_count": 71,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "hip-hop",
+          "source": "musicbrainz",
+          "age_group": "under-1",
+          "release_count": 6,
+          "usable_observation_count": 6,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "hip-hop",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 102,
+          "usable_observation_count": 102,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "hip-hop",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 355,
+          "usable_observation_count": 355,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "industrial-hip-hop",
+          "source": "musicbrainz",
+          "age_group": "under-1",
+          "release_count": 1,
+          "usable_observation_count": 1,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "industrial-hip-hop",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 16,
+          "usable_observation_count": 16,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "industrial-hip-hop",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 48,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "instrumental-hip-hop",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 9,
+          "usable_observation_count": 9,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "instrumental-hip-hop",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 48,
+          "usable_observation_count": 48,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "jazz-rap",
+          "source": "musicbrainz",
+          "age_group": "under-1",
+          "release_count": 2,
+          "usable_observation_count": 2,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "jazz-rap",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 17,
+          "usable_observation_count": 17,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "jazz-rap",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 41,
+          "usable_observation_count": 41,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "trap",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 9,
+          "usable_observation_count": 9,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "trap",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 36,
+          "usable_observation_count": 36,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        }
+      ]
+    },
+    "jazz": {
+      "status": "limited",
+      "release_count": 63,
+      "artist_count": 62,
+      "family_counts": {
+        "jazz-rap": 60,
+        "modal-jazz": 0
+      },
+      "confirmed_genre_coverage": 0.0,
+      "usable_popularity_coverage": 1.0,
+      "provenance_coverage": 1.0,
+      "reasons": [
+        "genre_product_requirements_not_configured",
+        "independent_genre_review_below_95_percent",
+        "one_or_more_comparison_groups_limited"
+      ],
+      "cohorts": [
+        {
+          "genre_id": "jazz",
+          "source": "musicbrainz",
+          "age_group": "under-1",
+          "release_count": 2,
+          "usable_observation_count": 2,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "jazz",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 18,
+          "usable_observation_count": 18,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "jazz",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 43,
+          "usable_observation_count": 43,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "jazz-rap",
+          "source": "musicbrainz",
+          "age_group": "under-1",
+          "release_count": 2,
+          "usable_observation_count": 2,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "jazz-rap",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 17,
+          "usable_observation_count": 17,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "jazz-rap",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 41,
+          "usable_observation_count": 41,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        }
+      ]
+    },
+    "rnb": {
+      "status": "limited",
+      "release_count": 12,
+      "artist_count": 4,
+      "family_counts": {},
+      "confirmed_genre_coverage": 0.0,
+      "usable_popularity_coverage": 1.0,
+      "provenance_coverage": 1.0,
+      "reasons": [
+        "genre_product_requirements_not_configured",
+        "independent_genre_review_below_95_percent",
+        "one_or_more_comparison_groups_limited"
+      ],
+      "cohorts": [
+        {
+          "genre_id": "rnb",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 4,
+          "usable_observation_count": 4,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "rnb",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 8,
+          "usable_observation_count": 8,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        }
+      ]
+    },
+    "electronic": {
+      "status": "limited",
+      "release_count": 66,
+      "artist_count": 48,
+      "family_counts": {},
+      "confirmed_genre_coverage": 0.0,
+      "usable_popularity_coverage": 1.0,
+      "provenance_coverage": 1.0,
+      "reasons": [
+        "genre_product_requirements_not_configured",
+        "independent_genre_review_below_95_percent",
+        "one_or_more_comparison_groups_limited"
+      ],
+      "cohorts": [
+        {
+          "genre_id": "electronic",
+          "source": "musicbrainz",
+          "age_group": "1-5",
+          "release_count": 17,
+          "usable_observation_count": 17,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "electronic",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 49,
+          "usable_observation_count": 49,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        }
+      ]
+    },
+    "rock": {
+      "status": "limited",
+      "release_count": 7,
+      "artist_count": 3,
+      "family_counts": {},
+      "confirmed_genre_coverage": 0.0,
+      "usable_popularity_coverage": 1.0,
+      "provenance_coverage": 1.0,
+      "reasons": [
+        "genre_product_requirements_not_configured",
+        "independent_genre_review_below_95_percent",
+        "one_or_more_comparison_groups_limited"
+      ],
+      "cohorts": [
+        {
+          "genre_id": "rock",
+          "source": "musicbrainz",
+          "age_group": "under-1",
+          "release_count": 1,
+          "usable_observation_count": 1,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        },
+        {
+          "genre_id": "rock",
+          "source": "musicbrainz",
+          "age_group": "over-5",
+          "release_count": 6,
+          "usable_observation_count": 6,
+          "coverage": 1.0,
+          "rare_release_count": 0,
+          "rare_artist_count": 0,
+          "status": "limited"
+        }
+      ]
+    }
+  },
+  "g0_status": "limited",
+  "measurement_scope": "local_catalogue_not_global_popularity",
+  "invalid_review_release_ids": []
+}

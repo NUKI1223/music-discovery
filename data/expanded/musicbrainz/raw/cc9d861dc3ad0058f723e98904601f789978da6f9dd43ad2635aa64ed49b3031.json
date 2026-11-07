@@ -1,0 +1,120 @@
+{
+  "endpoint": "release-group/24a388db-f5e3-4893-b8df-13c80a3bf832",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/24a388db-f5e3-4893-b8df-13c80a3bf832?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:27.485231+00:00",
+  "response": {
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "artist-credit": [
+      {
+        "name": "Gucci Mane",
+        "joinphrase": "",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "36494952-f434-45d8-a958-8b4acdbcf8a8",
+          "tags": [
+            {
+              "name": "crunk",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "dirty south"
+            },
+            {
+              "count": 8,
+              "name": "hip hop"
+            },
+            {
+              "name": "southern hip hop",
+              "count": 2
+            },
+            {
+              "name": "trap",
+              "count": 7
+            }
+          ],
+          "genres": [
+            {
+              "name": "crunk",
+              "disambiguation": "",
+              "count": 1,
+              "id": "44c375ed-1041-4aa7-a2a0-05fb28135da3"
+            },
+            {
+              "disambiguation": "",
+              "name": "dirty south",
+              "count": 1,
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 8,
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "name": "southern hip hop",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "name": "trap",
+              "count": 7,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Gucci Mane",
+          "disambiguation": "US rapper",
+          "name": "Gucci Mane",
+          "country": "US"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2007-06-20",
+    "title": "Ice Attack, Part Two",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "id": "24a388db-f5e3-4893-b8df-13c80a3bf832",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1
+      }
+    ]
+  }
+}

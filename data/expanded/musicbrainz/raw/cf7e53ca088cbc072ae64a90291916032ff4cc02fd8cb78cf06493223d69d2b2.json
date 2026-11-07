@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/c749c4d9-df94-42cc-8303-79892e33b495",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c749c4d9-df94-42cc-8303-79892e33b495?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:56.764430+00:00",
+  "response": {
+    "title": "Kullikka",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2005",
+    "tags": [
+      {
+        "name": "edm",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "edm",
+        "id": "3976e9ba-16d0-461d-b732-99408a0374ba",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1,
+        "disambiguation": "",
+        "name": "trap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "a8fa7329-85c7-404a-9e54-058589466972",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": "",
+              "name": "hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Lavis",
+          "country": "FI",
+          "disambiguation": "Finnish rap artist",
+          "name": "Lavis"
+        },
+        "name": "Lavis"
+      }
+    ],
+    "id": "c749c4d9-df94-42cc-8303-79892e33b495"
+  }
+}

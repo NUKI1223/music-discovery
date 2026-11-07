@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/e99e62a6-a833-4caa-a0fd-8741dd747396",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e99e62a6-a833-4caa-a0fd-8741dd747396?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:53.862223+00:00",
+  "response": {
+    "title": "Bon message, mauvais messager",
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2026-08-21",
+    "genres": [
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "id": "e99e62a6-a833-4caa-a0fd-8741dd747396",
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": "",
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "f8e30083-6339-49d7-a5f5-4cd306686971",
+          "disambiguation": "French rapper",
+          "country": "FR",
+          "type": "Person",
+          "sort-name": "Eloquence",
+          "name": "Eloquence"
+        },
+        "joinphrase": "",
+        "name": "Eloquence"
+      }
+    ]
+  }
+}

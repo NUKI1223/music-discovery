@@ -1,0 +1,406 @@
+{
+  "version": 1,
+  "status": "wired_to_user_recommendations_runner",
+  "source": {
+    "filename": "testsoptions.docx",
+    "sha256": "4982d00ab294de189fd8138915b1e683fa94bd3de31c5a0e08f3da914ac0a0bf",
+    "received_on": "2026-10-31"
+  },
+  "scope": "Request-specific artist examples, not account feedback or universal artist labels",
+  "grading": "Deterministic structural checks and request-specific negative examples; non-exhaustive positive examples are diagnostic. Fame labels and musical relevance require human review.",
+  "release_examples_pending": true,
+  "cases": [
+    {
+      "id": "kendrick-less-singing",
+      "status": "ready_for_diagnostic_run",
+      "expectation_source": "user_authored",
+      "request": "Хочу похожих артистов на Kendrick Lamar, но хочется меньше мелодичности и больше именно рэп читки, а не чего то поющего, как это бывает у кендрика",
+      "context": "Слушал Baby Keem, нравится J.Cole, Tyler The Creator",
+      "positive_artists_text": "Freddie Gibbs, 2pac, Benny The butcher, Westside Gunn, Lupe Fiasco, Demetrius",
+      "positive_rationale": "У них всех очень мало напевок от самих себя, максимум их используют в каком то сэмпле или бите. При этом у них очень много читки и рэпа, биты остаются в пределах жанра, в котором работает Kendrick Lamar, то есть, я могу спокойно представить, что на них он действительно может тоже зачитать рэп, в них нету излишней электро деталей и нет слишком r&b",
+      "negative_artists_text": "Future, Drake, Swae Lee, Lil Tjay, JPEGMAFIA",
+      "negative_rationale": "Биты слишком отличаются и являются более трэповыми или попсовыми, у артистов бывает много поющего вокала, у артистов бывает мягкая читка в купе с максимально мягким и в какой то мере попсовым битом, из за чего песня не звучит как полноценный хип хоп трек, так же артисты вроде Drake и Future слишком популярные, рекомендовать таких популярных артистов не нужно, JPEGMAFIA же имеет наоборот слишком эксперементальные биты и звучание, его песни уже отходят от привычного хип хопа в сторону эксперементальщины.",
+      "positive_artists": [
+        "Freddie Gibbs",
+        "2pac",
+        "Benny The butcher",
+        "Westside Gunn",
+        "Lupe Fiasco",
+        "Demetrius"
+      ],
+      "negative_artists": [
+        "Future",
+        "Drake",
+        "Swae Lee",
+        "Lil Tjay",
+        "JPEGMAFIA"
+      ],
+      "review_notes": [
+        "Уточнено пользователем 2026-10-31: известные исполнители допустимы, максимум два из пяти вариантов. 2pac допустим; отрицательные примеры остаются привязаны к условиям этого запроса.",
+        "Негативный JPEGMAFIA относится к этому запросу, а не ко всему профилю."
+      ],
+      "confirmed_artist_references": [
+        {
+          "name": "Demetrius",
+          "status": "identity_confirmed_by_user_link",
+          "confirmed_on": "2026-10-31",
+          "external_ids": {
+            "aoty_artist": "741527",
+            "apple_music_artist": "1524906281"
+          },
+          "user_provided_url": "https://www.albumoftheyear.org/artist/741527-demetrius/",
+          "verified_urls": [
+            "https://www.albumoftheyear.org/artist/741527-demetrius/",
+            "https://music.apple.com/us/artist/demetrius/1524906281"
+          ],
+          "cross_platform_match_basis": "AOTY and Apple share WESTx2, 2026-06-05, Golden Mile Studios; Apple credits Demetrius & Session 600. Apple artist link followed from album.",
+          "discovered_releases": [
+            {
+              "title": "WESTx2",
+              "year": 2026,
+              "aoty_url": "https://www.albumoftheyear.org/album/1990166-demetrius-westx2.php",
+              "apple_music_url": "https://music.apple.com/us/album/westx2/6774955025",
+              "user_endorsed_release": false
+            }
+          ],
+          "rym_status": "not_verified_search_no_confirmed_match",
+          "evaluation_eligibility": "included"
+        }
+      ],
+      "listener_artist_names": [
+        "Baby Keem",
+        "J. Cole",
+        "Tyler, the Creator"
+      ],
+      "expectations": {
+        "count": 5,
+        "genre_scope_id": "hip-hop",
+        "required_release_genre_id": null,
+        "mode": null
+      }
+    },
+    {
+      "id": "rage-compatible",
+      "status": "ready_for_diagnostic_run",
+      "expectation_source": "user_authored",
+      "request": "Хочу получить какого то жесткого звука, вроде это называется Rage rap",
+      "context": "человек слушает Playboi Carti, The weeknd, Kendrick Lamar, Future, PARTYNEXTDOOT, Young Thug",
+      "positive_artists_text": "slayr, Che, Lucy Bedroque, Slug, Nettspend",
+      "positive_rationale": "эти артисты имеют в какой то мере схожее звучание, при этом имеет зачастую сильно шумящие биты, что и относится к Rage жанру, у этих артистов можно найти как и жесткие rage песни на подобии play boi carti, так и более мягкие, а исходя из partynextdoor и the weeknd можно предположить, что человек любит вайб музыку, которое имеет мягкое звучание, в данном случае мягкость переплетается с трепэвостью жанра и шумящим битом, при этом он остается мягче, чем остальные действительно жесткие rage песни",
+      "negative_artists_text": "Ken Carson, Destroy Lonely, Danny Brown, Denzel Curry",
+      "negative_rationale": "Ken Carson и Destroy Lonely очень близки к Playboi Carti, так как у них есть совместные песни, Danny Brown уходит в более эксперементальное хип хоп и электро звучание, Denzel Curry хоть и похож на Kendrick Lamar и PARTYNEXTDOOR, это не Rage Рэп, у него именно привычное хип хоп звучание и местами трэп с осмысленными текстами и рифмами.",
+      "positive_artists": [
+        "slayr",
+        "Che",
+        "Lucy Bedroque",
+        "Nettspend"
+      ],
+      "negative_artists": [
+        "Ken Carson",
+        "Destroy Lonely",
+        "Danny Brown",
+        "Denzel Curry"
+      ],
+      "review_notes": [
+        "Близость Ken Carson/Destroy Lonely к Playboi Carti — причина нежелательности в примере, не доказательство того, что слушатель их знает.",
+        "Slug исключён из учитываемых примеров по уточнению пользователя: подтверждён только Apple Music. Исходное упоминание в документе сохранено.",
+        "PARTYNEXTDOOT в исходном контексте трактуется как опечатка PARTYNEXTDOOR только для поиска тестовых ориентиров; исходный текст сохранён."
+      ],
+      "confirmed_artist_references": [
+        {
+          "name": "Slug",
+          "status": "identity_confirmed_by_user_link",
+          "confirmed_on": "2026-10-31",
+          "external_ids": {
+            "apple_music_artist": "1790158336"
+          },
+          "user_provided_url": "https://music.apple.com/ua/artist/slug/1790158336",
+          "verified_urls": [
+            "https://music.apple.com/us/artist/slug/1790158336"
+          ],
+          "verification_note": "User supplied Ukraine storefront; US storefront with identical artist ID opened successfully. Do not merge with other Slug artists by name.",
+          "discovered_releases": [
+            {
+              "title": "SLUGMANIA",
+              "format": "EP",
+              "year": 2025,
+              "apple_music_url": "https://music.apple.com/us/album/slugmania-ep/1838173027",
+              "user_endorsed_release": false
+            },
+            {
+              "title": "LOADING CONSCIOUSNESS",
+              "format": "Single",
+              "year": 2025,
+              "apple_music_url": "https://music.apple.com/us/album/loading-consciousness-single/1838187321",
+              "user_endorsed_release": false
+            }
+          ],
+          "aoty_status": "not_verified_search_no_confirmed_match",
+          "rym_status": "not_verified_search_no_confirmed_match",
+          "evaluation_eligibility": "excluded_pending_aoty_or_rym"
+        }
+      ],
+      "excluded_examples": [
+        {
+          "name": "Slug",
+          "polarity": "positive",
+          "reason": "no_verified_aoty_or_rym_page",
+          "status": "excluded_pending_qualifying_source",
+          "source": "user_artist_source_policy",
+          "original_source_text_preserved": true
+        }
+      ],
+      "listener_artist_names": [
+        "Playboi Carti",
+        "The Weeknd",
+        "Kendrick Lamar",
+        "Future",
+        "PARTYNEXTDOOR",
+        "Young Thug"
+      ],
+      "expectations": {
+        "count": 5,
+        "genre_scope_id": "hip-hop",
+        "required_release_genre_id": "rage",
+        "mode": null
+      }
+    },
+    {
+      "id": "rage-boundaries",
+      "status": "ready_for_diagnostic_run",
+      "expectation_source": "user_authored",
+      "request": "Хочу получить рейдж рэп, какой то жесткий звук, именно то, что меня может удивить, даже если оно мне может не понравится, хочу понять рамки этого жанра",
+      "context": "человек слушает Playboi Carti, The weeknd, Kendrick Lamar, Future, PARTYNEXTDOOT, Young Thug",
+      "positive_artists_text": "2slimey, bleood, osamason, che",
+      "positive_rationale": "эти артисты имеет в какой то мере очень неприятное и жесткое звучание и отлично вписываются в жанр rage rap",
+      "negative_artists_text": "Ken Carson, Destroy Lonely, Danny Brown, Nine Vicious",
+      "negative_rationale": "Ken Carson и Destroy Lonely очень близки к Playboi Carti, так как у них есть совместные песни, Danny Brown уходит в более эксперементальное хип хоп и электро звучание, Denzel Curry хоть и похож на Kendrick Lamar и PARTYNEXTDOOR, это не Rage Рэп, у него именно привычное хип хоп звучание и местами трэп с осмысленными текстами и рифмами. Nine Vicious в какой то мере является представителем жанра rage rap, но его звучание сильно граничит с трэпом, для понимания жанра rage такой артисты уж точно не подойдет, в отличие от che.",
+      "positive_artists": [
+        "2slimey",
+        "bleood",
+        "osamason",
+        "che"
+      ],
+      "negative_artists": [
+        "Ken Carson",
+        "Destroy Lonely",
+        "Danny Brown",
+        "Nine Vicious"
+      ],
+      "review_notes": [
+        "В отрицательном объяснении упомянут Denzel Curry, но в списке отрицательных примеров его нет; не добавлять автоматически.",
+        "Непривычность и исследование границ важнее вероятности немедленного лайка.",
+        "PARTYNEXTDOOT в исходном контексте трактуется как опечатка PARTYNEXTDOOR только для поиска тестовых ориентиров; исходный текст сохранён."
+      ],
+      "listener_artist_names": [
+        "Playboi Carti",
+        "The Weeknd",
+        "Kendrick Lamar",
+        "Future",
+        "PARTYNEXTDOOR",
+        "Young Thug"
+      ],
+      "expectations": {
+        "count": 5,
+        "genre_scope_id": "hip-hop",
+        "required_release_genre_id": "rage",
+        "mode": "surprise"
+      }
+    }
+  ],
+  "clarifications": [
+    {
+      "date": "2026-10-31",
+      "source": "user_message",
+      "text": "Известные артисты допустимы, однако их точно не должно быть большинстве в ответе от бота, максимум 1-2 из 5 вариантов"
+    }
+  ],
+  "shared_expectations": {
+    "fame_mix": {
+      "status": "user_confirmed_grader_requires_labels",
+      "scope": "This user-authored evaluation set; not automatically applied to other accounts",
+      "recommendation_count": 5,
+      "max_widely_known_options": 2,
+      "min_widely_known_options": 0,
+      "criterion": "В подборке из пяти вариантов не более двух относятся к широко известным исполнителям. Известные исполнители допустимы, но не обязательны.",
+      "classification": "Human labels or verified artist-level evidence required; no popularity threshold agreed yet. Personal familiarity is separate.",
+      "unknown_policy": "Unknown fame does not establish that an artist is lesser-known; incomplete labels cannot produce an automatic pass.",
+      "other_slate_sizes": "Not specified by user"
+    }
+  },
+  "artist_source_policy": {
+    "source": "user_clarification",
+    "date": "2026-10-31",
+    "required_any_of": [
+      "aoty",
+      "rym"
+    ],
+    "rule": "Учитывать исполнителя при наличии подтверждённой страницы хотя бы на AOTY или RYM. Одной страницы музыкальной площадки недостаточно.",
+    "unverified_handling": "Исключать из оценки до подтверждения; отсутствие найденной страницы не доказывает, что её не существует.",
+    "scope": "User recommendation evaluation examples; source DOCX and account feedback remain unchanged.",
+    "remaining_artist_checks": "All active positive and negative artist names have a recorded AOTY artist page. Slug remains excluded."
+  },
+  "artist_references": [
+    {
+      "name": "Freddie Gibbs",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/936-freddie-gibbs/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "2pac",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/2908-2pac/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Benny The butcher",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/46810-benny-the-butcher/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Westside Gunn",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/21320-westside-gunn/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Lupe Fiasco",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/208-lupe-fiasco/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Demetrius",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/741527-demetrius/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Future",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/2389-future/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Drake",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/719-drake/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Swae Lee",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/37105-swae-lee/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Lil Tjay",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/61308-lil-tjay/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "JPEGMAFIA",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/28766-jpegmafia/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "slayr",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/402185-slayr/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Che",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/169991-che/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Lucy Bedroque",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/179906-lucy-bedroque/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Nettspend",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/245906-nettspend/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Ken Carson",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/91699-ken-carson/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Destroy Lonely",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/91344-destroy-lonely/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Danny Brown",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/1948-danny-brown/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Denzel Curry",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/4961-denzel-curry/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "2slimey",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/332543-2slimey/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "bleood",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/320410-bleood/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "osamason",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/233718-osamason/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    },
+    {
+      "name": "Nine Vicious",
+      "source": "aoty",
+      "url": "https://www.albumoftheyear.org/artist/428257-nine-vicious/",
+      "verified_on": "2026-10-31",
+      "status": "verified"
+    }
+  ]
+}

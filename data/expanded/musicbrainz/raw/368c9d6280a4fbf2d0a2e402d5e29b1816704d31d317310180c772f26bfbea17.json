@@ -1,0 +1,224 @@
+{
+  "endpoint": "artist/",
+  "params": {
+    "query": "artist:\"JPEGMAFIA\"",
+    "fmt": "json",
+    "limit": 5
+  },
+  "url": "https://musicbrainz.org/ws/2/artist/?query=artist%3A%22JPEGMAFIA%22&fmt=json&limit=5",
+  "captured_at": "2026-10-28T12:17:01.141044+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:01.054Z",
+    "count": 3,
+    "offset": 0,
+    "artists": [
+      {
+        "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "score": 100,
+        "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+        "name": "JPEGMAFIA",
+        "sort-name": "JPEGMAFIA",
+        "gender": "male",
+        "country": "US",
+        "area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "begin-area": {
+          "id": "49a18344-3e78-4bdd-a32e-030ecd89bee1",
+          "type": "City",
+          "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+          "name": "Flatbush",
+          "sort-name": "Flatbush",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "ipis": [
+          "00792343619",
+          "00792343717"
+        ],
+        "isnis": [
+          "0000000466526056"
+        ],
+        "life-span": {
+          "begin": "1989-10-22",
+          "ended": null
+        },
+        "aliases": [
+          {
+            "sort-name": "DJ SNITCH BITCH",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "DJ SNITCH BITCH",
+            "locale": null,
+            "type": "Artist name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Hendricks, Barrington DeVaughn",
+            "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+            "name": "Barrington DeVaughn Hendricks",
+            "locale": null,
+            "type": "Legal name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Hendricks, Barrington",
+            "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+            "name": "Barrington Hendricks",
+            "locale": null,
+            "type": "Legal name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Peggy",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Peggy",
+            "locale": null,
+            "type": "Artist name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "pop"
+          },
+          {
+            "count": 1,
+            "name": "dance"
+          },
+          {
+            "count": 1,
+            "name": "house"
+          },
+          {
+            "count": 2,
+            "name": "experimental"
+          },
+          {
+            "count": 10,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "electronica"
+          },
+          {
+            "count": 1,
+            "name": "breakbeat"
+          },
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "breaks"
+          },
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 2,
+            "name": "glitch hop"
+          },
+          {
+            "count": 12,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 3,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "east coast hip hop"
+          },
+          {
+            "count": 3,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 2,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 3,
+            "name": "cloud rap"
+          },
+          {
+            "count": 1,
+            "name": "future bass"
+          },
+          {
+            "count": 1,
+            "name": "lo-fi music"
+          },
+          {
+            "count": 0,
+            "name": "poggers"
+          },
+          {
+            "count": 1,
+            "name": "psychedelic rap"
+          }
+        ]
+      },
+      {
+        "id": "fd93af72-2840-45b8-9afa-44bd58f0759c",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "score": 57,
+        "name": "Album by JPEGMAFIA • 2019",
+        "sort-name": "Album by JPEGMAFIA • 2019",
+        "disambiguation": "on ABSOLUTE TRASH MEDIA label",
+        "life-span": {
+          "ended": null
+        }
+      },
+      {
+        "id": "9e523bf2-5bd6-45e6-9c12-e72b4be330aa",
+        "score": 53,
+        "name": "Anthony Fantano and Jpegmafia are friends :^)",
+        "sort-name": "Anthony Fantano and Jpegmafia are friends :^)",
+        "life-span": {
+          "ended": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/ac48414f-61dc-4636-b269-03d0bd10ccf4",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ac48414f-61dc-4636-b269-03d0bd10ccf4?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:23.839961+00:00",
+  "response": {
+    "title": "Tru Dat / New & Improved",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "1995",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "id": "ac48414f-61dc-4636-b269-03d0bd10ccf4",
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Puppets of Chaos",
+          "sort-name": "Puppets of Chaos",
+          "type": null,
+          "country": null,
+          "disambiguation": "",
+          "id": "2875e79b-db84-409a-91ec-714c52ac89cd",
+          "type-id": null,
+          "genres": [],
+          "tags": []
+        },
+        "joinphrase": "",
+        "name": "Puppets of Chaos"
+      }
+    ]
+  }
+}

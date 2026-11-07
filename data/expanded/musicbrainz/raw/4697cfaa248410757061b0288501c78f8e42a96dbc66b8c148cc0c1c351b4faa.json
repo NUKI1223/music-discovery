@@ -1,0 +1,78 @@
+{
+  "endpoint": "release-group/2119f6d3-d11e-4c38-b5ed-c4b2a1076129",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/2119f6d3-d11e-4c38-b5ed-c4b2a1076129?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:18.862890+00:00",
+  "response": {
+    "id": "2119f6d3-d11e-4c38-b5ed-c4b2a1076129",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Wish You Were Fentanyl...",
+    "genres": [
+      {
+        "name": "trap",
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2019-08-06",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "NV$TY PX$H aka BIG OUNCE",
+        "joinphrase": "",
+        "artist": {
+          "name": "NV$TY PX$H aka BIG OUNCE",
+          "country": "US",
+          "tags": [
+            {
+              "name": "hip-hop",
+              "count": 1
+            },
+            {
+              "name": "rap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            }
+          ],
+          "disambiguation": "Hip-Hop/Rap/Trap",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "NV$TY PX$H aka BIG OUNCE",
+          "type": "Person",
+          "genres": [
+            {
+              "name": "trap",
+              "count": 1,
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+            }
+          ],
+          "id": "756675fd-49a4-4f86-b077-a2b135afdade"
+        }
+      }
+    ]
+  }
+}

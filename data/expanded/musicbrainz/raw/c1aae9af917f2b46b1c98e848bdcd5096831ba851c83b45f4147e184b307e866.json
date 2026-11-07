@@ -1,0 +1,151 @@
+{
+  "endpoint": "release-group/9a803d88-7779-45ee-8cfd-d0484bf7e738",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9a803d88-7779-45ee-8cfd-d0484bf7e738?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:00.306426+00:00",
+  "response": {
+    "title": "WestCity",
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": " X ",
+        "artist": {
+          "name": "AshTreJinkins",
+          "id": "084314a0-45e4-4730-a3a9-612d3ad27486",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "AshTreJinkins",
+          "type": "Person",
+          "tags": [],
+          "country": "US",
+          "disambiguation": ""
+        },
+        "name": "AshTreJinkins"
+      },
+      {
+        "joinphrase": "",
+        "name": "Black Ant",
+        "artist": {
+          "disambiguation": "",
+          "country": null,
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "name": "boom bap",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "chillwave",
+              "id": "18d52a87-bbbf-42f0-8338-189c8c314523",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "downtempo",
+              "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "name": "instrumental",
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "name": "instrumental hip hop"
+            },
+            {
+              "name": "lo-fi",
+              "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "id": "d92aaf30-5941-4a65-b741-d9d48c80772a",
+              "name": "lo-fi hip hop",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "id": "84ce1fb0-c521-4929-96e6-747ed5302e74",
+          "name": "Black Ant",
+          "tags": [
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "name": "chillwave",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "downtempo"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "instrumental",
+              "count": 1
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "lo-fi"
+            },
+            {
+              "count": 1,
+              "name": "lo-fi hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Black Ant"
+        }
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "first-release-date": "2013",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      }
+    ],
+    "id": "9a803d88-7779-45ee-8cfd-d0484bf7e738"
+  }
+}

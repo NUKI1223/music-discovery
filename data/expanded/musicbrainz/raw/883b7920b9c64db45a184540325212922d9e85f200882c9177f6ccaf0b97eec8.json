@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/43869de9-c35c-4c5a-8434-742ce9ab7740",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/43869de9-c35c-4c5a-8434-742ce9ab7740?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:26.314246+00:00",
+  "response": {
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "name": "hardcore hip hop"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "43869de9-c35c-4c5a-8434-742ce9ab7740",
+    "primary-type": "EP",
+    "title": "Soul Intent",
+    "artist-credit": [
+      {
+        "name": "Soul Intent",
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Soul Intent",
+          "name": "Soul Intent",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "id": "5f440044-6d6a-495b-b69a-b2158d2ab172",
+          "country": "US",
+          "type": "Group",
+          "disambiguation": "short-lived US hip-hop group, key members Eminem and Proof"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "1994",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "endpoint": "release-group/6e4af384-78f5-434c-83f1-9d1e13525833",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6e4af384-78f5-434c-83f1-9d1e13525833?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:39.163120+00:00",
+  "response": {
+    "title": "Hell’s Road",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "artist": {
+          "country": "US",
+          "disambiguation": "",
+          "name": "Hell Razah",
+          "id": "dee1055d-2e42-455c-a94e-37c7e86dedf4",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "Hell Razah",
+          "type": "Person",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ]
+        },
+        "name": "Hell Razah"
+      },
+      {
+        "joinphrase": "",
+        "name": "RoadsArt",
+        "artist": {
+          "id": "77c443ef-ba10-43d4-aa15-da913f48cd83",
+          "name": "RoadsArt",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "RoadsArt",
+          "tags": [],
+          "country": "US",
+          "disambiguation": "hip hop producer/engineer"
+        }
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "6e4af384-78f5-434c-83f1-9d1e13525833",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2022-09-09"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "endpoint": "release-group/38eb119a-aee4-4d6f-819f-a1a5d419c43a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/38eb119a-aee4-4d6f-819f-a1a5d419c43a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:21.222883+00:00",
+  "response": {
+    "title": "Gasol Sauce",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "first-release-date": "2018-06-01",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Sauce Heist",
+          "type": "Person",
+          "genres": [],
+          "id": "0ba20ae9-7bb7-485f-8dcb-438dee1e9588",
+          "name": "Sauce Heist",
+          "country": null,
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US Rapper"
+        },
+        "name": "Sauce Heist",
+        "joinphrase": " & "
+      },
+      {
+        "joinphrase": "",
+        "name": "Jamal Gasol",
+        "artist": {
+          "name": "Jamal Gasol",
+          "country": "US",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rapper",
+          "sort-name": "Jamal Gasol",
+          "type": "Person",
+          "genres": [],
+          "id": "5b88b4d7-53df-49c1-a16a-968d421b85e9"
+        }
+      }
+    ],
+    "id": "38eb119a-aee4-4d6f-819f-a1a5d419c43a",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/90b912fc-66a0-4c0a-a749-a35e4c17b093",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/90b912fc-66a0-4c0a-a749-a35e4c17b093?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:00.685233+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "90b912fc-66a0-4c0a-a749-a35e4c17b093",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "jazz",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2019-03-06",
+    "genres": [
+      {
+        "name": "jazz",
+        "disambiguation": "",
+        "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+        "count": 1
+      },
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "title": "Jazz Cookin'",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Winterplay",
+        "artist": {
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "c88a8b97-ba4b-4d45-916f-4c4a779ccd89",
+              "name": "jazz pop"
+            }
+          ],
+          "id": "08606ff0-9819-4bb6-aca4-0e6d379b696d",
+          "sort-name": "Winterplay",
+          "type": "Group",
+          "tags": [
+            {
+              "name": "jazz pop",
+              "count": 1
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "name": "Winterplay",
+          "country": "KR"
+        }
+      }
+    ],
+    "primary-type": "Album"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/52ee0222-e0ec-3b52-b573-5ac2c5c905e6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/52ee0222-e0ec-3b52-b573-5ac2c5c905e6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:45.261154+00:00",
+  "response": {
+    "first-release-date": "1991-02-04",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 3
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Dream Warriors",
+        "joinphrase": "",
+        "artist": {
+          "type": "Group",
+          "disambiguation": "Canadian hip hop",
+          "country": "CA",
+          "id": "34d59c27-28cd-4715-9f6f-4b5d9f343c2a",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 2
+            }
+          ],
+          "name": "Dream Warriors",
+          "sort-name": "Dream Warriors"
+        }
+      }
+    ],
+    "id": "52ee0222-e0ec-3b52-b573-5ac2c5c905e6",
+    "primary-type": "Album",
+    "title": "And Now the Legacy Begins",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 3,
+        "disambiguation": ""
+      },
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "disambiguation": "",
+        "name": "jazz rap"
+      }
+    ],
+    "secondary-types": []
+  }
+}

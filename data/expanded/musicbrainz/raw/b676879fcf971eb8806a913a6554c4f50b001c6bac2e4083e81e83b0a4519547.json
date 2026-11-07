@@ -1,0 +1,91 @@
+{
+  "endpoint": "release-group/677a5332-2ecd-4e6c-b0fd-46a7f43161c1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/677a5332-2ecd-4e6c-b0fd-46a7f43161c1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:48.378875+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Irrlicht",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "first-release-date": "2018-11-16",
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "id": "ffa2357d-a689-4cf7-8b51-3c35f24a3cd9",
+          "name": "Clip",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "country": "DE",
+          "sort-name": "Clip",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "disambiguation": "German rapper"
+        },
+        "name": "Clip",
+        "joinphrase": " & "
+      },
+      {
+        "joinphrase": "",
+        "name": "Tarot",
+        "artist": {
+          "disambiguation": "German artist",
+          "sort-name": "Tarot",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "country": "DE",
+          "name": "Tarot",
+          "tags": [],
+          "id": "d68d96e6-4dc6-4ca3-b655-ce0ea00111cf"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "677a5332-2ecd-4e6c-b0fd-46a7f43161c1"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/cce2ac3f-50a5-49ca-8548-76994a32b118",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/cce2ac3f-50a5-49ca-8548-76994a32b118?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:54.119438+00:00",
+  "response": {
+    "genres": [
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "id": "260d1450-1055-4c5c-9c78-863253349a5a",
+        "disambiguation": "",
+        "count": 1,
+        "name": "trap metal"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "cce2ac3f-50a5-49ca-8548-76994a32b118",
+    "primary-type": "Album",
+    "title": "Made In Hell",
+    "tags": [
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "trap metal",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Scarlxrd",
+        "artist": {
+          "tags": [
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "name": "trap",
+              "count": 2
+            },
+            {
+              "count": 4,
+              "name": "trap metal"
+            }
+          ],
+          "sort-name": "Scarlxrd",
+          "name": "Scarlxrd",
+          "genres": [
+            {
+              "name": "boom bap",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "count": 2,
+              "name": "trap"
+            },
+            {
+              "name": "trap metal",
+              "id": "260d1450-1055-4c5c-9c78-863253349a5a",
+              "disambiguation": "",
+              "count": 4
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "rapper",
+          "country": "GB",
+          "id": "f03c0c1d-eca8-4386-bdf7-566b6f950c3a"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2023-07-21",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

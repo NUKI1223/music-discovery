@@ -1,0 +1,106 @@
+{
+  "endpoint": "release-group/9c9158f5-a313-41cc-9dd6-e750987f0e55",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9c9158f5-a313-41cc-9dd6-e750987f0e55?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:40.703168+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "first-release-date": "2025-12-19",
+    "artist-credit": [
+      {
+        "name": "10Pieces",
+        "joinphrase": "",
+        "artist": {
+          "country": "US",
+          "disambiguation": "",
+          "name": "10Pieces",
+          "tags": [
+            {
+              "name": "abstract hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "lo-fi hip hop"
+            }
+          ],
+          "id": "74727f01-1245-41da-87f2-200923726da4",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "sort-name": "10Pieces",
+          "genres": [
+            {
+              "disambiguation": "",
+              "name": "abstract hip hop",
+              "count": 1,
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c"
+            },
+            {
+              "disambiguation": "",
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "id": "d92aaf30-5941-4a65-b741-d9d48c80772a",
+              "disambiguation": "",
+              "name": "lo-fi hip hop"
+            }
+          ]
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Melody Makes Me Nauseous... ...3 in the Dirty",
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c"
+      },
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "name": "lo-fi hip hop",
+        "disambiguation": "",
+        "id": "d92aaf30-5941-4a65-b741-d9d48c80772a",
+        "count": 1
+      }
+    ],
+    "id": "9c9158f5-a313-41cc-9dd6-e750987f0e55",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "lo-fi hip hop",
+        "count": 1
+      }
+    ]
+  }
+}

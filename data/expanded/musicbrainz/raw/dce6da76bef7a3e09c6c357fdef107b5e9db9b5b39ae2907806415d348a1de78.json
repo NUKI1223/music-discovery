@@ -1,0 +1,110 @@
+{
+  "endpoint": "release-group/9e778d77-6c3a-4e7b-bd43-a56813f8f5b0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9e778d77-6c3a-4e7b-bd43-a56813f8f5b0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:15.251937+00:00",
+  "response": {
+    "genres": [
+      {
+        "id": "6d12e828-40a5-4ebc-a5b0-aa5506e2efd0",
+        "count": 1,
+        "disambiguation": "",
+        "name": "digital hardcore"
+      },
+      {
+        "name": "electro-industrial",
+        "id": "6e2e809f-8c54-4e0f-aca0-0642771ab3cf",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "hardcore punk",
+        "id": "055a6e4d-d929-42ac-ba7a-9d063b254ea5",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "id": "9e778d77-6c3a-4e7b-bd43-a56813f8f5b0",
+    "title": "Cyber Cop",
+    "tags": [
+      {
+        "count": 1,
+        "name": "digital hardcore"
+      },
+      {
+        "count": 1,
+        "name": "electro-industrial"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "hardcore punk",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "name": "synth punk",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "name": "punk rap",
+              "count": 1,
+              "disambiguation": "",
+              "id": "3385bb64-94ae-42bd-b43b-b8785835cfe7"
+            }
+          ],
+          "id": "e0458faa-82b2-4011-b851-6a0ed1f5a0e6",
+          "country": "US",
+          "disambiguation": "",
+          "type": "Group",
+          "sort-name": "Ho99o9",
+          "name": "Ho99o9",
+          "tags": [
+            {
+              "count": 1,
+              "name": "punk rap"
+            }
+          ]
+        },
+        "name": "Ho99o9"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2018-11-30",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

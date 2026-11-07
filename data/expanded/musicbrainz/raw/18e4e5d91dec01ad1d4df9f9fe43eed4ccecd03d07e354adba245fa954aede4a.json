@@ -1,0 +1,124 @@
+{
+  "endpoint": "release-group/2720725d-7da8-48bc-b80e-eb3a5011796d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/2720725d-7da8-48bc-b80e-eb3a5011796d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:52.492898+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "name": "jazz rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "name": "abstract hip hop"
+            },
+            {
+              "name": "boom bap",
+              "disambiguation": "",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "count": 1
+            },
+            {
+              "name": "experimental hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "disambiguation": "",
+              "name": "underground hip hop"
+            }
+          ],
+          "tags": [
+            {
+              "name": "abstract hip hop",
+              "count": 1
+            },
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "name": "canadian hip hop",
+              "count": 1
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "prairie hip hop"
+            },
+            {
+              "count": 1,
+              "name": "underground hip hop"
+            }
+          ],
+          "id": "373701dd-346b-48ad-b098-c1ffe00f9df7",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "CA",
+          "disambiguation": "hip-hop, alias of Daniel Denton",
+          "sort-name": "Moka Only",
+          "type": "Person",
+          "name": "Moka Only"
+        },
+        "name": "Moka Only"
+      }
+    ],
+    "id": "2720725d-7da8-48bc-b80e-eb3a5011796d",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2016-01-22",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Brutal"
+  }
+}

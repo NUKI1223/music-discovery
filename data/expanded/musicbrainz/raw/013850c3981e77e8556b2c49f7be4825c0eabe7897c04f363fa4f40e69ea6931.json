@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/9101cc00-dca1-42f9-b98b-1972b4118ea0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9101cc00-dca1-42f9-b98b-1972b4118ea0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:28.476977+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Pastels EP",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "id": "9101cc00-dca1-42f9-b98b-1972b4118ea0",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type-id": null,
+          "id": "c2bb3d3c-a015-43fa-948d-663d2229e61e",
+          "tags": [],
+          "genres": [],
+          "type": null,
+          "sort-name": "Palette",
+          "disambiguation": "Producer from Brisbane, Australia",
+          "country": null,
+          "name": "Palette"
+        },
+        "name": "Palette"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2016-10-15"
+  }
+}

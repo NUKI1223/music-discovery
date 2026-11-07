@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/ce5a8c25-057e-440f-919a-6b183fb092e4",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ce5a8c25-057e-440f-919a-6b183fb092e4?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:53.886432+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "first-release-date": "2021-04-16",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Laty",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "",
+          "name": "Laty",
+          "tags": [],
+          "type-id": null,
+          "id": "32aef2b0-695b-4f1e-a278-fcfc9e21e2b1",
+          "sort-name": "Laty",
+          "type": null,
+          "genres": [],
+          "country": null
+        }
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Laty",
+    "genres": [
+      {
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap",
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "name": "hip hop",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "id": "ce5a8c25-057e-440f-919a-6b183fb092e4",
+    "secondary-types": []
+  }
+}

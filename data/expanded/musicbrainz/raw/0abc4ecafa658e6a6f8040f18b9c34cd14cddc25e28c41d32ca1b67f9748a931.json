@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/a89e8943-23cb-45e9-8f79-47ec5a8f8d47",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a89e8943-23cb-45e9-8f79-47ec5a8f8d47?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:27.069637+00:00",
+  "response": {
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [],
+          "id": "0b6a7db8-9dd6-4d8a-8ad0-857b327adcf3",
+          "type-id": null,
+          "sort-name": "Alfonso X.",
+          "type": null,
+          "genres": [],
+          "name": "Alfonso X.",
+          "disambiguation": "",
+          "country": "US"
+        },
+        "name": "Alfonso X.",
+        "joinphrase": ""
+      }
+    ],
+    "first-release-date": "2012-03-07",
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-types": [],
+    "id": "a89e8943-23cb-45e9-8f79-47ec5a8f8d47",
+    "tags": [
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "genres": [
+      {
+        "name": "instrumental hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Equilibrium EP",
+    "disambiguation": ""
+  }
+}

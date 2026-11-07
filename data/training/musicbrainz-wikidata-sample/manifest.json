@@ -1,0 +1,37 @@
+{
+  "dataset_kind": "catalog_metadata_not_personal_labels",
+  "schema_version": 1,
+  "catalog_snapshot_id": "musicbrainz-sample-c92b2e00e84d43cd",
+  "catalog_hash": "b0410732c46c5a9cacf8dd7f0953621607c076d108fe2439f7a24fc3f22d77ab",
+  "taxonomy_version": "mb-tags-v1",
+  "is_fixture": false,
+  "rows": 33,
+  "personal_labels": 0,
+  "enrichment": {
+    "source": "wikidata",
+    "license": "CC0-1.0",
+    "license_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+    "matched_rows": 10,
+    "sidecar_sha256": "49a7e1ff5db8b18c9c3b2d9cfda40d1bd44878cd9789990ed9059e361dc088de",
+    "note": "Additional source features, not personal labels or fresh popularity."
+  },
+  "records_file": "releases.jsonl",
+  "records_sha256": "0e78f71592ebe0585ddfcf1f067c5634af80ce507716ae6d12a0be96857a8ac6",
+  "sources": [
+    "musicbrainz"
+  ],
+  "access_basis": [
+    "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+  ],
+  "coverage": {
+    "releases_with_genres": 32,
+    "releases_with_community_rating": 1,
+    "releases_with_vote_count": 1
+  },
+  "limitations": [
+    "Source selection bias remains; rows are not a representative music sample.",
+    "Community ratings must not be used as this user's likes or dislikes.",
+    "Observation timestamps and source scales are preserved; no freshness is inferred.",
+    "This dataset is not an input to the personal-label supervised training CLI."
+  ]
+}

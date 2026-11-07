@@ -1,0 +1,126 @@
+{
+  "endpoint": "release-group/4cea5b2b-f9e2-4d80-9d79-0afe3e5064b3",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4cea5b2b-f9e2-4d80-9d79-0afe3e5064b3?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:43.758591+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Dary Hezz",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "8963eca0-e0f6-420e-b457-d328b9a2af47",
+          "tags": [
+            {
+              "count": 1,
+              "name": "dancehall"
+            },
+            {
+              "count": 1,
+              "name": "reggaeton"
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            },
+            {
+              "name": "trap latino",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "name": "dancehall",
+              "disambiguation": "",
+              "id": "6c3503e3-bae3-42de-9e4c-7861f2053fbe",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "name": "reggaeton",
+              "count": 1,
+              "id": "bb14fb18-af6b-4547-9130-47fc4b208f48"
+            },
+            {
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "count": 1,
+              "disambiguation": "",
+              "name": "trap"
+            },
+            {
+              "count": 1,
+              "id": "2e4f4062-4d77-4d35-934b-a2c3ed44328b",
+              "disambiguation": "",
+              "name": "trap latino"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Dary Hezz",
+          "name": "Dary Hezz",
+          "disambiguation": "El Hezz De Las Baby's",
+          "country": "DO"
+        }
+      }
+    ],
+    "first-release-date": "2021-05-03",
+    "title": "El Hezz De Las Baby's",
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "dancehall",
+        "count": 1
+      },
+      {
+        "name": "drill",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      },
+      {
+        "count": 1,
+        "name": "trap latino"
+      }
+    ],
+    "secondary-types": [],
+    "id": "4cea5b2b-f9e2-4d80-9d79-0afe3e5064b3",
+    "genres": [
+      {
+        "name": "dancehall",
+        "disambiguation": "",
+        "id": "6c3503e3-bae3-42de-9e4c-7861f2053fbe",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "id": "1e5e18e5-4e70-4a73-942a-c6c79c1aefe2",
+        "disambiguation": "",
+        "name": "drill"
+      },
+      {
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap",
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "id": "2e4f4062-4d77-4d35-934b-a2c3ed44328b",
+        "disambiguation": "",
+        "name": "trap latino"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/10a0405f-ec75-3882-83e8-3cda5e1bf228",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/10a0405f-ec75-3882-83e8-3cda5e1bf228?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:33.369643+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Laveerre",
+          "name": "Laveerre",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "country": "FI",
+          "id": "8c0e9116-1df8-4122-bb46-6aed9ec66973",
+          "disambiguation": "",
+          "type": "Person"
+        },
+        "name": "Laveerre"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "name": "trap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "secondary-types": [],
+    "id": "10a0405f-ec75-3882-83e8-3cda5e1bf228",
+    "primary-type": "Album",
+    "title": "Lazyfatboy 4 Life",
+    "first-release-date": "2003-02-02",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": ""
+  }
+}

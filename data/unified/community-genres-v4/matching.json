@@ -1,0 +1,305 @@
+{
+  "version": "conservative-identity-v1",
+  "links": [
+    {
+      "source_row_id": "aoty:7b844e34cdfe23fd:1",
+      "release_id": "community:ab8af7dd01fe504deca70731",
+      "status": "unmatched",
+      "rule": "independent_source_release_v1",
+      "evidence": {
+        "pair_decisions": {},
+        "source_entity_rows": [
+          "aoty:7b844e34cdfe23fd:1"
+        ],
+        "identity_key": {
+          "artist_credit": "john boldt",
+          "title": "um tal chamado pedro",
+          "year": 2026
+        },
+        "source_identity": [
+          "aoty",
+          "1838094"
+        ],
+        "same_identity_source_rows": [
+          "aoty:7b844e34cdfe23fd:1"
+        ],
+        "same_source_entity_counts": {
+          "aoty": 1
+        },
+        "independently_verified": false
+      },
+      "candidate_ids": []
+    },
+    {
+      "source_row_id": "aoty:7b844e34cdfe23fd:2",
+      "release_id": "community:2564ba606f211d0860346c32",
+      "status": "unmatched",
+      "rule": "independent_source_release_v1",
+      "evidence": {
+        "pair_decisions": {},
+        "source_entity_rows": [
+          "aoty:7b844e34cdfe23fd:2"
+        ],
+        "identity_key": {
+          "artist_credit": "weathrman & hollyn",
+          "title": "theology of beauty: winter",
+          "year": 2026
+        },
+        "source_identity": [
+          "aoty",
+          "1658421"
+        ],
+        "same_identity_source_rows": [
+          "aoty:7b844e34cdfe23fd:2"
+        ],
+        "same_source_entity_counts": {
+          "aoty": 1
+        },
+        "independently_verified": false
+      },
+      "candidate_ids": []
+    },
+    {
+      "source_row_id": "aoty:7b844e34cdfe23fd:3",
+      "release_id": "community:377312ce4c6c6bc6b7094410",
+      "status": "unmatched",
+      "rule": "independent_source_release_v1",
+      "evidence": {
+        "pair_decisions": {},
+        "source_entity_rows": [
+          "aoty:7b844e34cdfe23fd:3"
+        ],
+        "identity_key": {
+          "artist_credit": "khaidar",
+          "title": "ambient tapes vol. 1",
+          "year": 2026
+        },
+        "source_identity": [
+          "aoty",
+          "1923573"
+        ],
+        "same_identity_source_rows": [
+          "aoty:7b844e34cdfe23fd:3"
+        ],
+        "same_source_entity_counts": {
+          "aoty": 1
+        },
+        "independently_verified": false
+      },
+      "candidate_ids": []
+    },
+    {
+      "source_row_id": "aoty:7b844e34cdfe23fd:4",
+      "release_id": "community:184dee3a2aef0fc1b35c330e",
+      "status": "unmatched",
+      "rule": "independent_source_release_v1",
+      "evidence": {
+        "pair_decisions": {},
+        "source_entity_rows": [
+          "aoty:7b844e34cdfe23fd:4"
+        ],
+        "identity_key": {
+          "artist_credit": "khrønøs velæn‡h",
+          "title": "deus otio suspectus.",
+          "year": 2026
+        },
+        "source_identity": [
+          "aoty",
+          "2078584"
+        ],
+        "same_identity_source_rows": [
+          "aoty:7b844e34cdfe23fd:4"
+        ],
+        "same_source_entity_counts": {
+          "aoty": 1
+        },
+        "independently_verified": false
+      },
+      "candidate_ids": []
+    },
+    {
+      "source_row_id": "aoty:7b844e34cdfe23fd:5",
+      "release_id": "community:0e335406406cab755762cbec",
+      "status": "unmatched",
+      "rule": "independent_source_release_v1",
+      "evidence": {
+        "pair_decisions": {},
+        "source_entity_rows": [
+          "aoty:7b844e34cdfe23fd:5"
+        ],
+        "identity_key": {
+          "artist_credit": "protoje",
+          "title": "the art of acceptance",
+          "year": 2026
+        },
+        "source_identity": [
+          "aoty",
+          "1688395"
+        ],
+        "same_identity_source_rows": [
+          "aoty:7b844e34cdfe23fd:5"
+        ],
+        "same_source_entity_counts": {
+          "aoty": 1
+        },
+        "independently_verified": false
+      },
+      "candidate_ids": []
+    },
+    {
+      "source_row_id": "aoty:7b844e34cdfe23fd:6",
+      "release_id": "community:ac0a0c40501c129e5e8d9473",
+      "status": "unmatched",
+      "rule": "independent_source_release_v1",
+      "evidence": {
+        "pair_decisions": {},
+        "source_entity_rows": [
+          "aoty:7b844e34cdfe23fd:6"
+        ],
+        "identity_key": {
+          "artist_credit": "susanne sundfør & kit downes",
+          "title": "revelations of divine love",
+          "year": 2026
+        },
+        "source_identity": [
+          "aoty",
+          "1957350"
+        ],
+        "same_identity_source_rows": [
+          "aoty:7b844e34cdfe23fd:6"
+        ],
+        "same_source_entity_counts": {
+          "aoty": 1
+        },
+        "independently_verified": false
+      },
+      "candidate_ids": []
+    },
+    {
+      "source_row_id": "aoty:7b844e34cdfe23fd:7",
+      "release_id": "community:c67b256ffbdc96d03dd1cc96",
+      "status": "unmatched",
+      "rule": "independent_source_release_v1",
+      "evidence": {
+        "pair_decisions": {},
+        "source_entity_rows": [
+          "aoty:7b844e34cdfe23fd:7"
+        ],
+        "identity_key": {
+          "artist_credit": "marcy firelife",
+          "title": "sade’s garden",
+          "year": 2026
+        },
+        "source_identity": [
+          "aoty",
+          "1825859"
+        ],
+        "same_identity_source_rows": [
+          "aoty:7b844e34cdfe23fd:7"
+        ],
+        "same_source_entity_counts": {
+          "aoty": 1
+        },
+        "independently_verified": false
+      },
+      "candidate_ids": []
+    },
+    {
+      "source_row_id": "aoty:7b844e34cdfe23fd:8",
+      "release_id": "community:37209db9ebf6475ff6a03c66",
+      "status": "unmatched",
+      "rule": "independent_source_release_v1",
+      "evidence": {
+        "pair_decisions": {},
+        "source_entity_rows": [
+          "aoty:7b844e34cdfe23fd:8"
+        ],
+        "identity_key": {
+          "artist_credit": "cory henry",
+          "title": "devotion",
+          "year": 2026
+        },
+        "source_identity": [
+          "aoty",
+          "2002561"
+        ],
+        "same_identity_source_rows": [
+          "aoty:7b844e34cdfe23fd:8"
+        ],
+        "same_source_entity_counts": {
+          "aoty": 1
+        },
+        "independently_verified": false
+      },
+      "candidate_ids": []
+    }
+  ],
+  "entities": [
+    {
+      "id": "community:0e335406406cab755762cbec",
+      "source_row_ids": [
+        "aoty:7b844e34cdfe23fd:5"
+      ],
+      "representative_row_id": "aoty:7b844e34cdfe23fd:5"
+    },
+    {
+      "id": "community:184dee3a2aef0fc1b35c330e",
+      "source_row_ids": [
+        "aoty:7b844e34cdfe23fd:4"
+      ],
+      "representative_row_id": "aoty:7b844e34cdfe23fd:4"
+    },
+    {
+      "id": "community:2564ba606f211d0860346c32",
+      "source_row_ids": [
+        "aoty:7b844e34cdfe23fd:2"
+      ],
+      "representative_row_id": "aoty:7b844e34cdfe23fd:2"
+    },
+    {
+      "id": "community:37209db9ebf6475ff6a03c66",
+      "source_row_ids": [
+        "aoty:7b844e34cdfe23fd:8"
+      ],
+      "representative_row_id": "aoty:7b844e34cdfe23fd:8"
+    },
+    {
+      "id": "community:377312ce4c6c6bc6b7094410",
+      "source_row_ids": [
+        "aoty:7b844e34cdfe23fd:3"
+      ],
+      "representative_row_id": "aoty:7b844e34cdfe23fd:3"
+    },
+    {
+      "id": "community:ab8af7dd01fe504deca70731",
+      "source_row_ids": [
+        "aoty:7b844e34cdfe23fd:1"
+      ],
+      "representative_row_id": "aoty:7b844e34cdfe23fd:1"
+    },
+    {
+      "id": "community:ac0a0c40501c129e5e8d9473",
+      "source_row_ids": [
+        "aoty:7b844e34cdfe23fd:6"
+      ],
+      "representative_row_id": "aoty:7b844e34cdfe23fd:6"
+    },
+    {
+      "id": "community:c67b256ffbdc96d03dd1cc96",
+      "source_row_ids": [
+        "aoty:7b844e34cdfe23fd:7"
+      ],
+      "representative_row_id": "aoty:7b844e34cdfe23fd:7"
+    }
+  ],
+  "summary": {
+    "source_rows": 8,
+    "new_entities": 8,
+    "statuses": {
+      "unmatched": 8
+    },
+    "rules": {
+      "independent_source_release_v1": 8
+    }
+  }
+}

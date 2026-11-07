@@ -1,0 +1,70 @@
+{
+  "endpoint": "release-group/4038a13b-c11e-43c5-a72e-d6faff5bc370",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4038a13b-c11e-43c5-a72e-d6faff5bc370?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:50.670359+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "4038a13b-c11e-43c5-a72e-d6faff5bc370",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "name": "Nitro",
+        "joinphrase": "",
+        "artist": {
+          "id": "824c59f0-9ae2-4197-a7b6-2da485ee8386",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Nitro",
+          "disambiguation": "Italian rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "rap",
+              "count": 1
+            }
+          ],
+          "country": "IT",
+          "name": "Nitro"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "title": "Danger",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2013-07-16"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "seeds": [17, 29, 43],
+  "episodes": 4000,
+  "evaluation_episodes": 100,
+  "genre_scope_id": "hip-hop"
+}

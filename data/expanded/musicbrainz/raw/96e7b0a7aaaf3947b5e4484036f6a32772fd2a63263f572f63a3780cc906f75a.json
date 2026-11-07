@@ -1,0 +1,79 @@
+{
+  "endpoint": "release-group/2cd9d25e-29ad-4c7b-8cf5-3bbb779fb922",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/2cd9d25e-29ad-4c7b-8cf5-3bbb779fb922?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:44.072206+00:00",
+  "response": {
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "name": "R.A.P. Ferreira",
+        "artist": {
+          "country": "US",
+          "disambiguation": "",
+          "name": "R.A.P. Ferreira",
+          "id": "38c740a4-f3bf-4c40-ad0c-5b73c8f24a12",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "Ferreira, R.A.P.",
+          "type": "Person",
+          "tags": []
+        },
+        "joinphrase": " & "
+      },
+      {
+        "artist": {
+          "disambiguation": "",
+          "country": "JP",
+          "tags": [],
+          "sort-name": "Tamura, Fumitake",
+          "type": "Person",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Fumitake Tamura",
+          "id": "5edebc27-5ae3-4e22-831a-18852377ebb8"
+        },
+        "name": "Fumitake Tamura",
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "id": "2cd9d25e-29ad-4c7b-8cf5-3bbb779fb922",
+    "first-release-date": "2024-01-26",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "the First Fist to Make Contact When We Dap",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
+  }
+}

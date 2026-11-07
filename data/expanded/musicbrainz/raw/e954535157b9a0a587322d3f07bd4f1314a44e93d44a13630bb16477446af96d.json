@@ -1,0 +1,104 @@
+{
+  "endpoint": "release-group/f275bf8e-8b45-4829-85da-a861670594d1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f275bf8e-8b45-4829-85da-a861670594d1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:11.889511+00:00",
+  "response": {
+    "id": "f275bf8e-8b45-4829-85da-a861670594d1",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "industrial",
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "d4df54b5-67b4-4fb7-8f73-79e71717a501",
+        "name": "industrial metal",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "cc28f5aa-5e19-487c-88e1-e56b022f1fdd",
+        "name": "metal"
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "Canadian industrial hip hop",
+          "country": "CA",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "type": "Group",
+          "genres": [],
+          "sort-name": "Twitch",
+          "tags": [],
+          "id": "1cac3f93-abb3-45b5-b96f-3f2115dfb7ad",
+          "name": "Twitch"
+        },
+        "name": "Twitch",
+        "joinphrase": ""
+      }
+    ],
+    "first-release-date": "2024-03-15",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "industrial",
+        "count": 1
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "industrial metal",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "metal"
+      }
+    ],
+    "title": "The Underground Confessions",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

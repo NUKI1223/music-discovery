@@ -1,0 +1,219 @@
+{
+  "endpoint": "release-group/352083a9-6e8b-3b1b-9d15-9584c2cd3bfb",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/352083a9-6e8b-3b1b-9d15-9584c2cd3bfb?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:28.687757+00:00",
+  "response": {
+    "id": "352083a9-6e8b-3b1b-9d15-9584c2cd3bfb",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "disambiguation": ""
+      },
+      {
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1,
+        "name": "trap",
+        "disambiguation": ""
+      }
+    ],
+    "title": "Can’t Ban the Snowman",
+    "rating": {
+      "votes-count": 1,
+      "value": 5
+    },
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "US",
+          "id": "de23d637-20df-4b15-ae63-263dd5a34f10",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "crunk",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "dirty south"
+            },
+            {
+              "name": "hip hop",
+              "count": 3
+            },
+            {
+              "name": "r&b",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "id": "44c375ed-1041-4aa7-a2a0-05fb28135da3",
+              "count": 1,
+              "disambiguation": "",
+              "name": "crunk"
+            },
+            {
+              "name": "dirty south",
+              "disambiguation": "",
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641",
+              "count": 1
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 3,
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "disambiguation": "",
+              "name": "r&b",
+              "count": 1,
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Drama, DJ",
+          "name": "DJ Drama",
+          "disambiguation": "US rap mixtape DJ Tyree Cinque Simmons"
+        },
+        "name": "DJ Drama",
+        "joinphrase": " & "
+      },
+      {
+        "artist": {
+          "country": "US",
+          "type": "Person",
+          "genres": [
+            {
+              "count": 1,
+              "id": "8a2e8d9c-3402-4e83-b35d-a23e8016461a",
+              "name": "chopped and screwed",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "name": "gangsta rap",
+              "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c",
+              "count": 4
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 5,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "name": "hyphy",
+              "disambiguation": "",
+              "count": 1,
+              "id": "0822d395-7bf7-4b43-b944-54c4457f76c1"
+            },
+            {
+              "disambiguation": "",
+              "name": "southern hip hop",
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "count": 4
+            },
+            {
+              "disambiguation": "",
+              "name": "trap",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "count": 2
+            }
+          ],
+          "sort-name": "Jeezy",
+          "tags": [
+            {
+              "count": 1,
+              "name": "chopped and screwed"
+            },
+            {
+              "count": 4,
+              "name": "gangsta rap"
+            },
+            {
+              "name": "god",
+              "count": 1
+            },
+            {
+              "count": 5,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "name": "hustle"
+            },
+            {
+              "name": "hyphy",
+              "count": 1
+            },
+            {
+              "name": "rap",
+              "count": 1
+            },
+            {
+              "name": "self made millionaire",
+              "count": 1
+            },
+            {
+              "count": 4,
+              "name": "southern hip hop"
+            },
+            {
+              "count": 1,
+              "name": "sxsw"
+            },
+            {
+              "name": "top 100",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "trap"
+            },
+            {
+              "name": "trap music",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "trap rap"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "dcad99e7-3c3e-4c78-bf8a-68203e17da48",
+          "disambiguation": "US rapper Jay W Jenkins, f/k/a Young Jeezy",
+          "name": "Jeezy"
+        },
+        "joinphrase": "",
+        "name": "Young Jeezy"
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2006-05-06",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

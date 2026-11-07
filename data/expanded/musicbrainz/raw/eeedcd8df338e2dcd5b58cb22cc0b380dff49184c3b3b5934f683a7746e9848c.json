@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/bab3b5ca-5342-41df-aa03-25ab904d9b93",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/bab3b5ca-5342-41df-aa03-25ab904d9b93?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:17.797350+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "hip hop",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "secondary-types": [],
+    "id": "bab3b5ca-5342-41df-aa03-25ab904d9b93",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Der Anfang Vom Anfang (Albumsampler)",
+    "first-release-date": "2009-10-20",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": null,
+          "name": "Stef der Crashtest",
+          "disambiguation": "",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "16a31268-2ebe-4da4-b650-f21dd991a8bf",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "Stef der Crashtest"
+        },
+        "joinphrase": "",
+        "name": "Stef der Crashtest"
+      }
+    ],
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": []
+  }
+}

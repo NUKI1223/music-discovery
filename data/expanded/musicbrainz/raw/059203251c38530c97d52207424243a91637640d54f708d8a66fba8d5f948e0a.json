@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/538ef75c-7f57-4633-9da4-768e2ec25d5e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/538ef75c-7f57-4633-9da4-768e2ec25d5e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:19.653342+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "US",
+          "name": "A$AP Twelvyy",
+          "disambiguation": "US rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 2,
+              "name": "hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "ASAP Twelvyy",
+          "id": "95f35260-5f18-4185-9926-9a4d191d737d",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 2
+            }
+          ]
+        },
+        "name": "A$AP Twelvyy",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2020-04-03",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Before Noon",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": ""
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "538ef75c-7f57-4633-9da4-768e2ec25d5e"
+  }
+}

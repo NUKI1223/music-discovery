@@ -1,0 +1,214 @@
+{
+  "endpoint": "release-group/770c44e3-7856-4b2a-b917-865cfd649af1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/770c44e3-7856-4b2a-b917-865cfd649af1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:42.630759+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental"
+      },
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "harsh noise",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "name": "noise",
+        "count": 2
+      }
+    ],
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": ""
+      },
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1,
+        "disambiguation": "",
+        "name": "electronic"
+      },
+      {
+        "name": "experimental",
+        "count": 1,
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "disambiguation": ""
+      },
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "harsh noise",
+        "disambiguation": "",
+        "id": "5c61cf56-7dcd-4bd8-87e4-b5bb0c25255a",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "name": "industrial hip hop"
+      },
+      {
+        "name": "noise",
+        "disambiguation": "",
+        "count": 2,
+        "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222"
+      }
+    ],
+    "id": "770c44e3-7856-4b2a-b917-865cfd649af1",
+    "artist-credit": [
+      {
+        "name": "clipping.",
+        "artist": {
+          "name": "clipping.",
+          "type": "Group",
+          "sort-name": "clipping.",
+          "country": "US",
+          "disambiguation": "US experimental hip-hop",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "84ca8fa4-7cca-4948-a90a-cb44db29853d",
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "name": "electronic",
+              "count": 5
+            },
+            {
+              "count": 5,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 1
+            },
+            {
+              "name": "harsh noise",
+              "count": 1
+            },
+            {
+              "count": 4,
+              "name": "hip hop"
+            },
+            {
+              "name": "horrorcore",
+              "count": 2
+            },
+            {
+              "name": "industrial hip hop",
+              "count": 7
+            },
+            {
+              "count": 1,
+              "name": "noise rap"
+            },
+            {
+              "count": 2,
+              "name": "rap"
+            }
+          ],
+          "genres": [
+            {
+              "count": 1,
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "disambiguation": "",
+              "name": "abstract hip hop"
+            },
+            {
+              "name": "electronic",
+              "disambiguation": "",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "count": 5
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 5,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 1,
+              "id": "5c61cf56-7dcd-4bd8-87e4-b5bb0c25255a",
+              "disambiguation": "",
+              "name": "harsh noise"
+            },
+            {
+              "disambiguation": "",
+              "count": 4,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "disambiguation": "",
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+              "count": 2,
+              "name": "horrorcore"
+            },
+            {
+              "disambiguation": "",
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+              "count": 7,
+              "name": "industrial hip hop"
+            }
+          ]
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2012-07-17",
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "Face"
+  }
+}

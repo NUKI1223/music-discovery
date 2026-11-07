@@ -1,0 +1,140 @@
+{
+  "endpoint": "release-group/5fca6141-4644-4907-bf18-19c0f9357a06",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5fca6141-4644-4907-bf18-19c0f9357a06?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:35.787120+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2018-06-07",
+    "title": "F.R.E.A.K.S",
+    "genres": [
+      {
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+        "disambiguation": "",
+        "count": 1,
+        "name": "horrorcore"
+      },
+      {
+        "disambiguation": "",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Backxwash",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "Montreal industrial rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 2,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "name": "horrorcore"
+            },
+            {
+              "name": "industrial hip hop",
+              "count": 2
+            },
+            {
+              "name": "industrial metal",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "transgender"
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            }
+          ],
+          "country": "CA",
+          "name": "Backxwash",
+          "id": "859ba379-1201-4ed0-8a57-d31650cc36f1",
+          "genres": [
+            {
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": "",
+              "count": 2,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "name": "horrorcore",
+              "disambiguation": "",
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+              "count": 2
+            },
+            {
+              "name": "industrial hip hop",
+              "count": 2,
+              "disambiguation": "",
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "d4df54b5-67b4-4fb7-8f73-79e71717a501",
+              "name": "industrial metal"
+            },
+            {
+              "name": "trap",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Backxwash"
+        }
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "5fca6141-4644-4907-bf18-19c0f9357a06",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "name": "horrorcore",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "disambiguation": ""
+  }
+}

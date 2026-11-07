@@ -1,0 +1,116 @@
+{
+  "endpoint": "release-group/980353d9-d444-3151-8194-08c5830c1896",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/980353d9-d444-3151-8194-08c5830c1896?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:04.899118+00:00",
+  "response": {
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "name": "3 Melancholy Gypsys",
+        "artist": {
+          "disambiguation": "3MG",
+          "sort-name": "3 Melancholy Gypsys",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "name": "abstract hip hop"
+            },
+            {
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "name": "underground hip hop",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "149a3524-0fd3-4bdc-9876-0361dfee8908",
+              "name": "west coast hip hop",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "US",
+          "name": "3 Melancholy Gypsys",
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "underground hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "west coast hip hop"
+            }
+          ],
+          "id": "e3b222f8-a3e2-4bee-9d4a-246d8b120bcc"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+        "name": "underground hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "149a3524-0fd3-4bdc-9876-0361dfee8908",
+        "name": "west coast hip hop"
+      }
+    ],
+    "first-release-date": "1998",
+    "disambiguation": "",
+    "id": "980353d9-d444-3151-8194-08c5830c1896",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "underground hip hop"
+      },
+      {
+        "count": 1,
+        "name": "west coast hip hop"
+      }
+    ],
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    },
+    "title": "Gypsy's Luck"
+  }
+}

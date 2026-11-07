@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/b4ff9ef0-e543-4a57-9732-c8353bb1ca9a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b4ff9ef0-e543-4a57-9732-c8353bb1ca9a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:48.577780+00:00",
+  "response": {
+    "primary-type": "EP",
+    "id": "b4ff9ef0-e543-4a57-9732-c8353bb1ca9a",
+    "title": "Blodtørstig",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+        "name": "horrorcore"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "horrorcore",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "sort-name": "Blodsport",
+          "name": "Blodsport",
+          "disambiguation": "",
+          "type": "Group",
+          "country": "DK",
+          "id": "d45683ee-33dd-47bb-9eee-c16e1a3e6c91",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+        },
+        "name": "Blodsport"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2014-05-01",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

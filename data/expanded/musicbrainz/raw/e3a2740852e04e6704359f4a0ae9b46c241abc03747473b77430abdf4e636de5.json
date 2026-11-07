@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/11fcb821-ad46-4887-aa03-e01324e9ffe8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/11fcb821-ad46-4887-aa03-e01324e9ffe8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:06.671990+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2011-08-28",
+    "genres": [
+      {
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "name": "electronic"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      }
+    ],
+    "title": "おなかいたEP",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "mononomonooto",
+        "joinphrase": "",
+        "artist": {
+          "name": "mononomonooto",
+          "country": "JP",
+          "tags": [],
+          "disambiguation": "",
+          "type-id": null,
+          "sort-name": "mononomonooto",
+          "type": null,
+          "genres": [],
+          "id": "f4c851a7-0a9f-4d1b-92ae-46e0fa363bae"
+        }
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "11fcb821-ad46-4887-aa03-e01324e9ffe8",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": ""
+  }
+}

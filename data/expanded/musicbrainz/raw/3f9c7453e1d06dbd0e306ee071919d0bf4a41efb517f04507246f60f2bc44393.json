@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/e829d435-1310-4e57-9dc5-cd10322dbe5c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e829d435-1310-4e57-9dc5-cd10322dbe5c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:02.847679+00:00",
+  "response": {
+    "title": "TCHNLGY",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2021-04-15",
+    "genres": [
+      {
+        "name": "dubstep",
+        "id": "1b50083b-1afa-4778-82c8-548b309af783",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "name": "hybrid trap",
+        "id": "93dbdf64-39ab-4956-9f4c-550692d2cc2b",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "trap",
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "dubstep",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "hybrid trap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "MCHNWRLD",
+        "artist": {
+          "genres": [],
+          "tags": [],
+          "id": "da9116aa-7f49-49dc-8d7b-5e53cb47bccc",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "country": "US",
+          "sort-name": "MCHNWRLD",
+          "type": "Person",
+          "name": "MCHNWRLD"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "id": "e829d435-1310-4e57-9dc5-cd10322dbe5c"
+  }
+}

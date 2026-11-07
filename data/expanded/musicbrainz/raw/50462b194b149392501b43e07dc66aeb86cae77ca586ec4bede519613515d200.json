@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/e06c1a4f-621a-3ebf-a6eb-68afda6cf5e8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e06c1a4f-621a-3ebf-a6eb-68afda6cf5e8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:48.813908+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "id": "e06c1a4f-621a-3ebf-a6eb-68afda6cf5e8",
+    "first-release-date": "1997-08-19",
+    "disambiguation": "",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "count": 2,
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 2
+            },
+            {
+              "name": "hip hop",
+              "count": 4
+            }
+          ],
+          "id": "f804d8c0-bf16-4e15-92db-e3642d629f95",
+          "name": "O.C.",
+          "country": "US",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "sort-name": "O.C.",
+          "genres": [
+            {
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "name": "boom bap",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "east coast hip hop",
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "disambiguation": "",
+              "count": 4,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "disambiguation": "East-Coast US rapper Omar Credle"
+        },
+        "name": "O.C."
+      }
+    ],
+    "title": "Jewelz",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 2
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

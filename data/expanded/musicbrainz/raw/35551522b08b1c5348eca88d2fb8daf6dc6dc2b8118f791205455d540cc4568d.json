@@ -1,0 +1,3361 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "arid:5f95440d-7737-4a36-9bcf-c05337f7129b AND (primarytype:album OR primarytype:ep)",
+    "fmt": "json",
+    "limit": 100,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=arid%3A5f95440d-7737-4a36-9bcf-c05337f7129b+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29&fmt=json&limit=100&offset=0",
+  "captured_at": "2026-10-28T12:17:09.640760+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:09.563Z",
+    "count": 27,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "4fcb49f2-5a26-4a38-94a6-65e1453b9450",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 2,
+        "title": "TA13OO: Act 2",
+        "first-release-date": "2018-07-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3cfc1ea7-2ecd-454c-a17a-d07a76aab08c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TA13OO: Act 2",
+            "status": "Official"
+          },
+          {
+            "id": "aecd3971-f0f1-49c5-be72-b704da839e04",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TA13OO: Act 2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "acd4fa5c-e680-4228-8321-89a73dc0fa60",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 2,
+        "title": "BLACK BALLOONS | 13LACK 13ALLOONZ (Love Below Remixes)",
+        "first-release-date": "2019-03-29",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a9d6fd7f-10e0-4d1c-9353-c05a70d5afd3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BLACK BALLOONS | 13LACK 13ALLOONZ (Love Below Remixes)",
+            "status": "Official"
+          },
+          {
+            "id": "34f328b7-dc57-480f-b3fe-6715c7ec9cb6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BLACK BALLOONS | 13LACK 13ALLOONZ (Love Below Remixes)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "downtempo"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "neo soul"
+          },
+          {
+            "count": 1,
+            "name": "hip house"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "8b41de7a-4095-4122-81d7-69fc0fa43e72",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 1,
+        "title": "TA13OO: Act 3",
+        "first-release-date": "2018-09-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b4fc1f6b-9f17-4d9f-9b3c-e81102d12ec0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TA13OO: Act 3",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "2ec6bcf8-53a5-4ab0-926d-5524ddc76672",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 1,
+        "title": "13",
+        "first-release-date": "2017-06-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "39780023-82fe-474a-944b-2cee1e93ada1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "13",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "southern hip hop"
+          },
+          {
+            "count": 0,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 0,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "trap metal"
+          }
+        ]
+      },
+      {
+        "id": "f3a12c4d-5f9b-4f1e-a72a-5977624123fb",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 1,
+        "title": "32 Zel",
+        "first-release-date": "2017-09-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "75c90182-e56b-4370-bbf2-432fe82d6837",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "32 Zel",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hip-hop/rap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "d6fe21b8-a7dd-46dd-9562-4286ace62479",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 2,
+        "title": "TA13OO: Act 1",
+        "first-release-date": "2018-07-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b8f9f249-87a9-497f-9968-f986e8f640c6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TA13OO: Act 1",
+            "status": "Official"
+          },
+          {
+            "id": "4f7df74a-9d86-4c00-9fb9-930c4817cef2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TA13OO: Act 1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "40ebfb3d-9531-487f-a4ca-94f7af8f2fd2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 2,
+        "title": "Live at Electric Lady",
+        "first-release-date": "2023-05-05",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Live"
+        ],
+        "secondary-type-ids": [
+          "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "66a98e7e-9cb7-48af-8ae6-f4649968c7c5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Live at Electric Lady",
+            "status": "Official"
+          },
+          {
+            "id": "23b9d30d-c83c-4ca3-bb4e-4c8df4ece374",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Live at Electric Lady",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e07907e9-c6fe-4d48-9e2d-1b7a1d36d2a8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "efd1c37b-00b0-3087-abe5-5a73fbd23b67",
+        "count": 1,
+        "title": "Babylon (remixes)",
+        "first-release-date": "2017-10-06",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "joinphrase": " feat. ",
+            "name": "Ekali",
+            "artist": {
+              "id": "f62a6ac4-664b-4035-9ab1-0b3ab8e1773e",
+              "name": "Ekali",
+              "sort-name": "Ekali",
+              "disambiguation": "Canadian trap / future bass producer",
+              "aliases": [
+                {
+                  "sort-name": "Shaw, Nathan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Nathan Shaw",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a9c416fa-d003-427d-aa72-e74450f48e06",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Babylon (remixes)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          }
+        ]
+      },
+      {
+        "id": "d1e2c9b4-eba3-4e49-9282-4c5f17efce72",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "17a22876-82c6-34a1-a094-e1e9e5f4a9af",
+        "count": 5,
+        "title": "UNLOCKED 1.5",
+        "first-release-date": "2021-03-05",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Kenny Beats",
+            "artist": {
+              "id": "22ba00db-f132-4f3c-ab06-4ddaa4cc066b",
+              "name": "Kenny Beats",
+              "sort-name": "Beats, Kenny",
+              "aliases": [
+                {
+                  "sort-name": "Blume, Kenneth Charles III",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Kenneth Charles Blume III",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Blume, Kenneth",
+                  "name": "Kenneth Blume",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "eb46d569-07f0-464e-ad9b-03908be54bb8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED 1.5",
+            "status": "Official"
+          },
+          {
+            "id": "9d928da4-10b0-4e31-b555-49b92675b358",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED 1.5",
+            "status": "Official"
+          },
+          {
+            "id": "32ae21aa-17c8-4469-ba4a-4634526f6098",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED 1.5",
+            "status": "Official"
+          },
+          {
+            "id": "c7f68625-fea4-4387-ad68-0c60c9b97c72",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED 1.5",
+            "status": "Official"
+          },
+          {
+            "id": "7e698437-b267-42cd-ac00-128721c15e62",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED 1.5",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "contemporary r&b"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "68bfb717-2c94-4a67-957a-0727604fc1f2",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 8,
+        "title": "Imperial",
+        "first-release-date": "2016-03-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1a46a923-48ed-490a-a117-80f1a0af184e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Imperial",
+            "status": "Official"
+          },
+          {
+            "id": "b9a461c7-1f8a-40a5-98fa-4df321fc21ce",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Imperial",
+            "status": "Official"
+          },
+          {
+            "id": "36863b16-1c88-46e5-88c2-6514c7d6bdda",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Imperial",
+            "status": "Official"
+          },
+          {
+            "id": "f6d9456c-2229-4775-8c4e-86df0571a1dd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Imperial",
+            "status": "Official"
+          },
+          {
+            "id": "f9fa8ab4-b7a8-47ce-a411-7c6d886dea51",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Imperial",
+            "status": "Official"
+          },
+          {
+            "id": "d2fdb2c5-2379-44ff-a5e9-9b19d5763d4b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Imperial",
+            "status": "Official"
+          },
+          {
+            "id": "124bff48-c864-470b-80a0-59460022a086",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Imperial",
+            "status": "Official"
+          },
+          {
+            "id": "89f6b961-1163-4f23-8eb5-e749143507de",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Imperial",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "southern hip hop"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 2,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "94e8db5e-21c7-4c6d-8680-e264be93c825",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1d68b702-baec-4ac3-936c-63f75b4ed412",
+        "count": 1,
+        "title": "Curry Wuz Here",
+        "first-release-date": "2011-01-16",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "PH. CuRRy",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "81a0cd1f-c132-43b2-8a53-d635b7962555",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Curry Wuz Here",
+            "status": "Official"
+          }
+        ]
+      },
+      {
+        "id": "69a761f2-a6db-494b-be74-50ebff647597",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 1,
+        "title": "Strictly 4 My R.V.I.D.X.R.Z. (1993)",
+        "first-release-date": "2012-05-13",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4d8ebf40-6eb2-4ba0-bf6c-ded91330b423",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Strictly 4 My R.V.I.D.X.R.Z. (1993)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          },
+          {
+            "count": 1,
+            "name": "phonk"
+          }
+        ]
+      },
+      {
+        "id": "03961b3f-23aa-4331-91dc-5598a3f3b0e6",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 3,
+        "title": "ZUU",
+        "first-release-date": "2019-05-31",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "05f14bbe-6e9b-409b-bf09-7acd57c5d8f6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ZUU",
+            "status": "Official"
+          },
+          {
+            "id": "0732044d-e8ab-4737-a219-8ce6094b7834",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ZUU",
+            "status": "Official"
+          },
+          {
+            "id": "bc67802f-82a0-4a86-9f61-67f02fb18999",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ZUU",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          }
+        ]
+      },
+      {
+        "id": "86478f82-953d-4447-882c-39a3688ab9a4",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 2,
+        "title": "King of the Mischievous South, Vol. 1",
+        "first-release-date": "2012-01-22",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a2ec463b-c505-4268-8641-56f24cd2bcad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "King of the Mischievious South, Vol. 1 (Underground Tape 1996)",
+            "status": "Official"
+          },
+          {
+            "id": "c9c96bda-999f-40ed-a41c-0f7bf8ba654a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "King of the Mischievous South, Vol. 1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "phonk"
+          },
+          {
+            "count": 1,
+            "name": "skull on cover"
+          }
+        ]
+      },
+      {
+        "id": "929a8d68-11f7-424a-a780-a4a47098cda6",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 1,
+        "title": "King Remembered Underground Tape: 1991 - 1995",
+        "first-release-date": "2011-09-24",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "960bbed4-803b-496f-b26f-e98fedc7344f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "King Remembered Underground Tape: 1991 - 1995",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "phonk"
+          }
+        ]
+      },
+      {
+        "id": "4aa06541-40c5-40a4-9f60-5df78a351c6e",
+        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 1,
+        "title": "Nostalgic 64 (Chopped Not Slopped by Slim K)",
+        "first-release-date": "2014-01-30",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "25b0174a-14bb-4d12-832f-4c5b03db634e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nostalgic 64 (Chopped Not Slopped by Slim K)",
+            "status": "Official"
+          }
+        ]
+      },
+      {
+        "id": "34dc9a45-487f-4ea7-8b39-3e8ad825c314",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 4,
+        "title": "TA13OO",
+        "first-release-date": "2018-07-27",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bdac6361-b286-48d4-8979-2ae6d3c94be1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TA13OO",
+            "status": "Official"
+          },
+          {
+            "id": "6becb4af-397c-4c4a-8f2a-a9072761005c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TA13OO",
+            "status": "Official"
+          },
+          {
+            "id": "2da72cb7-16d4-4dca-8818-a355b074a977",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TA13OO",
+            "status": "Official"
+          },
+          {
+            "id": "ad102967-0055-4634-8432-f0e7a2512a6e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TA13OO",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 6,
+            "name": "hip hop"
+          },
+          {
+            "count": 2,
+            "name": "southern hip hop"
+          },
+          {
+            "count": 1,
+            "name": "pop rap"
+          },
+          {
+            "count": 0,
+            "name": "drill"
+          },
+          {
+            "count": 2,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 5,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "trap metal"
+          }
+        ]
+      },
+      {
+        "id": "4a4cab84-403d-48be-851a-354beae418f4",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "06adc00e-72ba-4d35-8bf5-ed9141c73624",
+        "count": 4,
+        "title": "Strictly 4 the Scythe",
+        "first-release-date": "2026-03-06",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Scythe",
+            "artist": {
+              "id": "985b1d91-4176-4135-b40d-be94c14796b7",
+              "name": "The Scythe",
+              "sort-name": "Scythe, The",
+              "disambiguation": "Hip hop collective featuring A$AP Ferg, Denzel Curry, and others"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7cd4bcf5-a9f9-495e-908d-ad869e7043cd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Strictly 4 The Scythe",
+            "status": "Official"
+          },
+          {
+            "id": "c9812a05-d6b1-417c-869e-5963132b056e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Strictly 4 The Scythe",
+            "status": "Official"
+          },
+          {
+            "id": "23133d7d-cd0c-411a-ae57-a27cba7b2bf1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Strictly 4 The Scythe",
+            "status": "Official"
+          },
+          {
+            "id": "a20485f7-9d16-42c3-9610-2349e02c7a47",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Strictly 4 the Scythe",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "laut.de"
+          }
+        ]
+      },
+      {
+        "id": "b283adfb-df4e-4773-ad71-cb3a4cca6727",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8c2055c9-4097-3e06-886b-7b460dd03411",
+        "count": 1,
+        "title": "Mental Vendetta",
+        "first-release-date": "2012-12-31",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "joinphrase": " x ",
+            "name": "Denzel Aquarius Killa Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Lofty 3 O Fukkin 5",
+            "artist": {
+              "id": "162e9662-ff34-48f5-9198-6c06fb2af5d2",
+              "name": "Lofty305",
+              "sort-name": "Lofty305",
+              "disambiguation": "US rapper, producer",
+              "aliases": [
+                {
+                  "sort-name": "Thompson, Robert Anthony",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Robert Anthony Thompson",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lofty 3 O Fukkin 5",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Lofty 3 O Fukkin 5",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lofty 305",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Lofty 305",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c2c12784-a15a-4bc5-b0fd-d701bec4efc8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mental Vendetta",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "pop rap"
+          },
+          {
+            "count": 1,
+            "name": "drill"
+          },
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "299a1b9f-7cdd-46da-a5ea-77571ce04009",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 8,
+        "title": "Melt My Eyez See Your Future",
+        "first-release-date": "2022-03-25",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3d5dc19d-d099-4397-98b4-41fd319c6ccd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Melt My Eyez See Your Future",
+            "status": "Official"
+          },
+          {
+            "id": "30cc3c7c-0618-453c-bf70-376ab7cc3164",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Melt My Eyez See Your Future",
+            "status": "Official"
+          },
+          {
+            "id": "8a4f8280-fb00-475a-811b-6933c96f26f9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Melt My Eyez See Your Future (The Extended Edition)",
+            "status": "Official"
+          },
+          {
+            "id": "48d51091-50a8-4e8c-9c02-0f40e4d1ca06",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Melt My Eyez See Your Future (The Extended Edition)",
+            "status": "Official"
+          },
+          {
+            "id": "29f25100-8f1c-48d0-bd85-6fb1ca85c6e9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Melt My Eyez See Your Future",
+            "status": "Official"
+          },
+          {
+            "id": "2199f6a3-7f17-4d62-a916-21556d5a7aba",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Melt My Eyez See Your Future",
+            "status": "Official"
+          },
+          {
+            "id": "dd6e4b09-024a-4281-ac2b-cd64413a6b87",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Melt My Eyez See Your Future (The Extended Edition)",
+            "status": "Official"
+          },
+          {
+            "id": "eaf098cb-22ce-43e5-87a1-97a454c2adff",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Melt My Eyez See Your Future",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 3,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "southern hip hop"
+          },
+          {
+            "count": 1,
+            "name": "english"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hiphop/rap/r&b"
+          },
+          {
+            "count": 1,
+            "name": "laut.de"
+          },
+          {
+            "count": 1,
+            "name": "plattentests.de"
+          },
+          {
+            "count": 1,
+            "name": "ph_temp_checken"
+          }
+        ]
+      },
+      {
+        "id": "f4e3c9f6-7ae4-4a8b-a11c-be9fd2e5c3f2",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 9,
+        "title": "King of the Mischievous South, Vol. 2",
+        "first-release-date": "2024-07-19",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f8611090-d92f-499c-b1e2-52acfd75b013",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "King of the Mischievous South, Vol. 2",
+            "status": "Official"
+          },
+          {
+            "id": "26507442-fbbf-4538-a790-7b2621a01984",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "King of the Mischievous South, Vol. 2",
+            "status": "Official"
+          },
+          {
+            "id": "b0340ec7-af3e-4c5e-98f8-9c1132ced911",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "King of the Mischievous South, Vol. 2",
+            "status": "Official"
+          },
+          {
+            "id": "fa51437c-b552-4289-8e87-f7e998ff35d0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "KING OF THE MISCHIEVOUS SOUTH",
+            "status": "Official"
+          },
+          {
+            "id": "052ca187-0a88-4812-aadf-84f3f42656a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "KING OF THE MISCHIEVOUS SOUTH",
+            "status": "Official"
+          },
+          {
+            "id": "835fdd03-d087-4fb0-b27e-d95dcf6209c5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "KING OF THE MISCHIEVOUS SOUTH",
+            "status": "Official"
+          },
+          {
+            "id": "8dd048ea-8f2b-409a-9cd0-ab5ecc001463",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "KING OF THE MISCHIEVOUS SOUTH",
+            "status": "Official"
+          },
+          {
+            "id": "380b5ece-5bfc-4148-baec-6a8c8391368f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "King of the Mischievous South, Vol. 2",
+            "status": "Official"
+          },
+          {
+            "id": "b44e1055-d901-4020-9ba2-ca577fb00ddf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "King of the Mischievous South, Vol. 2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "memphis rap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "1c969b74-2c73-4907-a799-acbd2190e563",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 1,
+        "title": "Nostalgic 64",
+        "first-release-date": "2013-09-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "173f50b9-a7fe-4f80-b5ec-bf18277acbb6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nostalgic 64",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 0,
+            "name": "nsfw cover art"
+          }
+        ]
+      },
+      {
+        "id": "69e8d03c-4714-43cc-abee-482818250818",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "17a22876-82c6-34a1-a094-e1e9e5f4a9af",
+        "count": 8,
+        "title": "UNLOCKED",
+        "first-release-date": "2020-02-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Kenny Beats",
+            "artist": {
+              "id": "22ba00db-f132-4f3c-ab06-4ddaa4cc066b",
+              "name": "Kenny Beats",
+              "sort-name": "Beats, Kenny",
+              "aliases": [
+                {
+                  "sort-name": "Blume, Kenneth Charles III",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Kenneth Charles Blume III",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Blume, Kenneth",
+                  "name": "Kenneth Blume",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4561630b-7f68-4da5-89c1-91fe93e24308",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED",
+            "status": "Official"
+          },
+          {
+            "id": "2f942b94-79bf-4adc-ab87-3e5468f7c67f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED (instrumentals)",
+            "status": "Official"
+          },
+          {
+            "id": "da77b88c-a2e4-452b-9d45-64dae63bc95b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED (instrumentals)",
+            "status": "Official"
+          },
+          {
+            "id": "972502aa-4ace-41d0-9fdd-dc50e58c73cd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED (instrumentals)",
+            "status": "Official"
+          },
+          {
+            "id": "7d6c8af9-596c-49e4-987e-8ebfad971d13",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED",
+            "status": "Official"
+          },
+          {
+            "id": "489422dc-8b9b-423d-8d7d-2d06e6825fa6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Unlocked",
+            "status": "Official"
+          },
+          {
+            "id": "d042371e-ee00-4a3e-afcc-392452943cdd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED",
+            "status": "Official"
+          },
+          {
+            "id": "436cf929-3d77-46f8-8f3d-de6ea53b741f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "UNLOCKED",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 4,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "a4ea9974-cd74-429a-b961-bba9c46bd62f",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "17a22876-82c6-34a1-a094-e1e9e5f4a9af",
+        "count": 3,
+        "title": "ii",
+        "first-release-date": "2026-08-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Kenny Beats",
+            "artist": {
+              "id": "22ba00db-f132-4f3c-ab06-4ddaa4cc066b",
+              "name": "Kenny Beats",
+              "sort-name": "Beats, Kenny",
+              "aliases": [
+                {
+                  "sort-name": "Blume, Kenneth Charles III",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Kenneth Charles Blume III",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Blume, Kenneth",
+                  "name": "Kenneth Blume",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "42cdaa43-c1bf-4ddb-8295-de0b9ced6b41",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ii",
+            "status": "Official"
+          },
+          {
+            "id": "950c6a1a-4018-458c-866f-9442effadeef",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ii",
+            "status": "Official"
+          },
+          {
+            "id": "9b7c46ab-d53b-4a4d-8eb8-afd95e5f5ca9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ii",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "boom bap"
+          },
+          {
+            "count": 2,
+            "name": "jazz rap"
+          },
+          {
+            "count": 2,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b075615a-d7f5-4f2b-a60a-86ecbb2ce3a4",
+        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "88274de3-3ec5-4997-8bc4-7b6c789deba5",
+        "count": 1,
+        "title": "MADTRON",
+        "first-release-date": "2026-09-13",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry & Madlib",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2cd6cc27-5dd7-45c9-bbd0-27cfad0f3c1f",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "MADTRON",
+            "status": "Bootleg"
+          }
+        ]
+      },
+      {
+        "id": "bdc5a96c-19ff-43cd-9064-edd1fb71a1af",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 1,
+        "title": "32 Zel / Planet Shrooms",
+        "first-release-date": "2015-06-09",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a8b43844-8f1e-402b-9481-0c899a0e83e5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "32 Zel / Planet Shrooms",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "southern hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hip-hop/rap"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "f655e919-c8e6-4c15-b7e1-a5c2e8b5b232",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8f36975b-9226-3c2a-a1f2-9141d004f651",
+        "count": 1,
+        "title": "13LOOD 1N + 13LOOD OUT MIXX",
+        "first-release-date": "2020-01-06",
+        "primary-type": "Album",
+        "secondary-types": [
+          "DJ-mix"
+        ],
+        "secondary-type-ids": [
+          "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+        ],
+        "artist-credit": [
+          {
+            "name": "Denzel Curry",
+            "artist": {
+              "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+              "name": "Denzel Curry",
+              "sort-name": "Curry, Denzel",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Klan Raven",
+                  "name": "Klan Raven",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius Killa",
+                  "name": "Denzel Aquarius Killa Curry",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Aquarius’killa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Denzel Aquarius’killa Curry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DENZELCURRYPH",
+                  "name": "DENZELCURRYPH",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Curry, Denzel Rae Don",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Denzel Rae Don Curry",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3e348c27-6840-4134-a8d2-693c824041d5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "13LOOD 1N + 13LOOD OUT MIXX",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "southern hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      }
+    ]
+  }
+}

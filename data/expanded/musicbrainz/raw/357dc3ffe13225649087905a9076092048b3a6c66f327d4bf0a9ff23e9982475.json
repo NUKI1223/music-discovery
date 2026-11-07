@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/582c9e91-d7e7-4d63-b3e8-1dbd4ca34be1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/582c9e91-d7e7-4d63-b3e8-1dbd4ca34be1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:08.864252+00:00",
+  "response": {
+    "id": "582c9e91-d7e7-4d63-b3e8-1dbd4ca34be1",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "the ONE",
+    "genres": [
+      {
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      }
+    ],
+    "first-release-date": "2020-03-05",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "HAWA",
+          "country": "US",
+          "tags": [],
+          "disambiguation": "Berlin born, NYC-based artist",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "HAWA",
+          "type": "Person",
+          "genres": [],
+          "id": "173c065d-fb25-4659-bddd-b95db7978902"
+        },
+        "joinphrase": "",
+        "name": "HAWA"
+      }
+    ],
+    "primary-type": "Album"
+  }
+}

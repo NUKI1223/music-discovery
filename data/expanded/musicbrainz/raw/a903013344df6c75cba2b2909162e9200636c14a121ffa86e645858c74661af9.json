@@ -1,0 +1,146 @@
+{
+  "endpoint": "release-group/0da93d32-71d0-49fb-b643-6be46cf416af",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0da93d32-71d0-49fb-b643-6be46cf416af?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:38.095372+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "HedNod Five",
+    "tags": [
+      {
+        "name": "dub",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "illbient"
+      }
+    ],
+    "genres": [
+      {
+        "name": "dub",
+        "disambiguation": "",
+        "count": 1,
+        "id": "c72a5d45-75a8-4b35-9f48-67e49eb4b5e5"
+      },
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "da52c9d1-73f2-456e-a0d0-94bd854cb338",
+        "count": 1,
+        "name": "illbient"
+      }
+    ],
+    "id": "0da93d32-71d0-49fb-b643-6be46cf416af",
+    "artist-credit": [
+      {
+        "name": "Mick Harris",
+        "joinphrase": "",
+        "artist": {
+          "name": "Mick Harris",
+          "type": "Person",
+          "sort-name": "Harris, Mick",
+          "disambiguation": "ex Napalm Death drummer",
+          "country": "GB",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "3e52449a-fa44-4fbc-918d-5d6b27e96d94",
+          "tags": [
+            {
+              "count": 1,
+              "name": "dark ambient"
+            },
+            {
+              "name": "electronic",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "electronica"
+            },
+            {
+              "name": "experimental electronic",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "illbient"
+            },
+            {
+              "name": "techno",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "name": "dark ambient",
+              "disambiguation": "",
+              "id": "01ecf8e4-7f7a-4145-ae97-504d3109633d",
+              "count": 1
+            },
+            {
+              "name": "electronic",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "53a3cea3-17af-4421-a07a-5824b540aeb5",
+              "name": "electronica"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "3832a068-e169-40cb-9638-d0b04342f3a3",
+              "name": "experimental electronic"
+            },
+            {
+              "disambiguation": "",
+              "id": "da52c9d1-73f2-456e-a0d0-94bd854cb338",
+              "count": 1,
+              "name": "illbient"
+            },
+            {
+              "disambiguation": "",
+              "id": "41fe3260-fcc1-450b-bd5a-803886c56912",
+              "count": 1,
+              "name": "techno"
+            }
+          ]
+        }
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2021-01-05"
+  }
+}

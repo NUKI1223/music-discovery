@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/19315791-d392-3b39-a296-1810c063e6d2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/19315791-d392-3b39-a296-1810c063e6d2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:29.285645+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2005-11-15",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "id": "19315791-d392-3b39-a296-1810c063e6d2",
+    "title": "The Standard",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Psyche Origami",
+        "artist": {
+          "name": "Psyche Origami",
+          "sort-name": "Psyche Origami",
+          "tags": [],
+          "id": "622ef2ce-20d9-4e42-b0b3-7382f3dfced9",
+          "country": "US",
+          "type": "Group",
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": []
+        },
+        "joinphrase": ""
+      }
+    ]
+  }
+}

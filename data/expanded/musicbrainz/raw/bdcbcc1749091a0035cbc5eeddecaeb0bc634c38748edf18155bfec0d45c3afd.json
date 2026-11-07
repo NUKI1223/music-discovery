@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/b57a165c-7498-465d-b5c0-e33d6be9000f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b57a165c-7498-465d-b5c0-e33d6be9000f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:11.054687+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "b57a165c-7498-465d-b5c0-e33d6be9000f",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "FrivolousShara",
+        "joinphrase": "",
+        "artist": {
+          "genres": [],
+          "id": "5fc280e7-a352-408b-ad9c-d82a4c1dadda",
+          "sort-name": "FrivolousShara",
+          "type": "Person",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "name": "FrivolousShara",
+          "country": null
+        }
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2015-11-26",
+    "title": "Feel Good Vibes",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "name": "hip hop"
+      }
+    ]
+  }
+}

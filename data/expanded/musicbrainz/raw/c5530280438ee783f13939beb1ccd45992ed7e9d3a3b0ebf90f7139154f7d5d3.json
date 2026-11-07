@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/dc20bbac-b8a4-4ed4-8c29-4ea851a18489",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/dc20bbac-b8a4-4ed4-8c29-4ea851a18489?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:50.822977+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "dc20bbac-b8a4-4ed4-8c29-4ea851a18489",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "LAUSSE THE CAT",
+        "artist": {
+          "genres": [],
+          "id": "d261ed6f-11ca-4a35-bc26-e3d6fd1815b7",
+          "sort-name": "LAUSSE THE CAT",
+          "type": "Person",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "name": "LAUSSE THE CAT",
+          "country": "GB"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "title": "The Mocking Stars",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2025-11-06"
+  }
+}

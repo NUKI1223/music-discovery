@@ -1,0 +1,145 @@
+{
+  "endpoint": "release-group/8e4b154f-acd1-43df-958f-9ad2ad313870",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8e4b154f-acd1-43df-958f-9ad2ad313870?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:10.395753+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "8e4b154f-acd1-43df-958f-9ad2ad313870",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "drumless"
+      },
+      {
+        "name": "gangsta rap",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2024-12-13",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c",
+        "name": "gangsta rap"
+      },
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "title": "The Skeleton Key",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "name": "Roc Marciano",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Marciano, Roc",
+          "id": "9b14ef6d-119b-47b8-9d06-fc72901451e2",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "country": "US",
+          "name": "Roc Marciano",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US Hip Hop artist",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "artist": {
+          "country": "US",
+          "name": "The Alchemist",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "hip hop DJ & producer",
+          "tags": [
+            {
+              "count": 1,
+              "name": "drumless hip hop"
+            },
+            {
+              "count": 5,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip-hop"
+            },
+            {
+              "count": 2,
+              "name": "instrumental hip hop"
+            },
+            {
+              "count": 3,
+              "name": "producer"
+            },
+            {
+              "count": 1,
+              "name": "underground hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Alchemist, The",
+          "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+          "genres": [
+            {
+              "name": "drumless hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "9e4c8b90-75d8-4dc9-a5a8-0d09285773dd"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 5,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "name": "instrumental hip hop"
+            },
+            {
+              "name": "underground hip hop",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "disambiguation": "",
+              "count": 1
+            }
+          ]
+        },
+        "joinphrase": "",
+        "name": "The Alchemist"
+      }
+    ]
+  }
+}

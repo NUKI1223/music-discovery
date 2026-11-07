@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "boundary": "offline_confirmed_filters_not_language_understanding",
+  "source_recording": "artifacts/evals/user-cases-current-data-20261101.json",
+  "source_recording_sha256": "815dde7f023a88c195ec7a3b08ab69e90f9f05df6ea182e7db554844888d6a0a",
+  "cases": [
+    {
+      "id": "kendrick-less-singing",
+      "filters": {
+        "genre_scope_id": "hip-hop",
+        "mode": "explore",
+        "obscurity": "prefer",
+        "locked_subgenre_ids": [],
+        "exclude_known_artists": false,
+        "reference_artist_ids": [
+          "381086ea-f511-4aba-bdf9-71c753dc5077"
+        ],
+        "excluded_artist_ids": [
+          "381086ea-f511-4aba-bdf9-71c753dc5077"
+        ],
+        "preferred_descriptors": [
+          "rhythmic"
+        ],
+        "avoided_descriptors": [
+          "melodic"
+        ]
+      },
+      "confirmed_in_source": true
+    },
+    {
+      "id": "rage-compatible",
+      "filters": {
+        "genre_scope_id": "hip-hop",
+        "mode": "explore",
+        "obscurity": "prefer",
+        "locked_subgenre_ids": [
+          "rage"
+        ],
+        "exclude_known_artists": false,
+        "reference_artist_ids": [],
+        "excluded_artist_ids": [],
+        "preferred_descriptors": [
+          "aggressive",
+          "energetic"
+        ],
+        "avoided_descriptors": []
+      },
+      "confirmed_in_source": true
+    },
+    {
+      "id": "rage-boundaries",
+      "filters": {
+        "genre_scope_id": "hip-hop",
+        "mode": "surprise",
+        "obscurity": "prefer",
+        "locked_subgenre_ids": [
+          "rage"
+        ],
+        "exclude_known_artists": false,
+        "reference_artist_ids": [],
+        "excluded_artist_ids": [],
+        "preferred_descriptors": [
+          "aggressive",
+          "noisy",
+          "futuristic",
+          "ominous"
+        ],
+        "avoided_descriptors": []
+      },
+      "confirmed_in_source": true
+    }
+  ],
+  "as_of": "2026-11-01"
+}

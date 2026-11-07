@@ -1,0 +1,112 @@
+{
+  "endpoint": "release-group/db2b931b-353a-44da-a3ce-6cd017734595",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/db2b931b-353a-44da-a3ce-6cd017734595?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:51.228638+00:00",
+  "response": {
+    "id": "db2b931b-353a-44da-a3ce-6cd017734595",
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2021-03-09",
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a",
+              "name": "political hip hop",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "Sedatephobia",
+          "id": "91da0a28-0cdb-4854-b6a0-627e37c36c30",
+          "tags": [
+            {
+              "count": 1,
+              "name": "diy"
+            },
+            {
+              "count": 1,
+              "name": "greek"
+            },
+            {
+              "name": "greek rap",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "political hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            }
+          ],
+          "sort-name": "Sedatephobia",
+          "type": "Group",
+          "disambiguation": "",
+          "country": "GR"
+        },
+        "name": "Sedatephobia Rap Collective",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "title": "Μοναστηρίου Rap Sessions"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/20ee818c-0215-4e01-8816-076f6ff53c69",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/20ee818c-0215-4e01-8816-076f6ff53c69?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:51.689324+00:00",
+  "response": {
+    "id": "20ee818c-0215-4e01-8816-076f6ff53c69",
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "1999",
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Raid",
+          "type": "Group",
+          "tags": [],
+          "name": "Raid",
+          "id": "1fddd04d-2769-43c3-b066-d1e2ef3a31ca",
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "DE",
+          "disambiguation": "German rap group"
+        },
+        "name": "Raid",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "title": "Geh-Heim-Tip"
+  }
+}

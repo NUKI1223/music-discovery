@@ -1,0 +1,121 @@
+{
+  "endpoint": "release-group/2ae57c35-2196-4117-8be9-cce55cbe8caa",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/2ae57c35-2196-4117-8be9-cce55cbe8caa?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:22.524716+00:00",
+  "response": {
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "title": "Substantial/Burns",
+    "id": "2ae57c35-2196-4117-8be9-cce55cbe8caa",
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 2
+            }
+          ],
+          "tags": [
+            {
+              "count": 2,
+              "name": "hip hop"
+            }
+          ],
+          "id": "38cdd71c-344b-4c54-bac2-19709da7140d",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rapper Stan Robinson",
+          "country": "US",
+          "sort-name": "Substantial",
+          "type": "Person",
+          "name": "Substantial"
+        },
+        "joinphrase": " & ",
+        "name": "Substantial"
+      },
+      {
+        "artist": {
+          "tags": [],
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "90e8e6ef-4c67-4e91-ac29-86793fd09b01",
+          "name": "Burns",
+          "country": "US",
+          "disambiguation": "US hip-hop producer from Pittsburgh, PA",
+          "type": "Person",
+          "sort-name": "Burns"
+        },
+        "joinphrase": "",
+        "name": "Burns"
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "instrumental",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1,
+        "disambiguation": "",
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      },
+      {
+        "name": "instrumental",
+        "disambiguation": "",
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "count": 1
+      },
+      {
+        "name": "instrumental hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      }
+    ],
+    "first-release-date": "2009-10-20",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

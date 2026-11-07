@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/0a4a96e9-66dc-4537-b8e5-d1c3f169a2d6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0a4a96e9-66dc-4537-b8e5-d1c3f169a2d6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:00.955494+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [],
+          "sort-name": "Dae Booche",
+          "name": "Dae Booche",
+          "type": "Person",
+          "disambiguation": "French electronic",
+          "country": "FR",
+          "id": "b049c5ad-5c90-46af-b3a5-f76f0f2d7c35",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "joinphrase": "",
+        "name": "GUY"
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "0a4a96e9-66dc-4537-b8e5-d1c3f169a2d6",
+    "primary-type": "EP",
+    "title": "TIGRE PEUT ETRE",
+    "first-release-date": "2018-01-01",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": ""
+  }
+}

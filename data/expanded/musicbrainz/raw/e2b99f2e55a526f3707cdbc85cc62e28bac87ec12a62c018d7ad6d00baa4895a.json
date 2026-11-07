@@ -1,0 +1,116 @@
+{
+  "endpoint": "release-group/a326495c-d6c1-4db5-9e09-1d17222767e6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a326495c-d6c1-4db5-9e09-1d17222767e6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:50.172590+00:00",
+  "response": {
+    "first-release-date": "2023-08-09",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "name": "jazz rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "KID HEXX",
+          "name": "KID HEXX",
+          "tags": [
+            {
+              "count": 1,
+              "name": "alternative hip hop"
+            },
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "jazz rap",
+              "count": 1
+            }
+          ],
+          "country": "AU",
+          "id": "af771b29-e406-441c-aa84-86de2b316e6c",
+          "disambiguation": "Rapper",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "name": "boom bap"
+            },
+            {
+              "name": "hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "name": "jazz rap",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "disambiguation": "",
+              "count": 1
+            }
+          ]
+        },
+        "name": "KID HEXX"
+      }
+    ],
+    "primary-type": "EP",
+    "id": "a326495c-d6c1-4db5-9e09-1d17222767e6",
+    "title": "INTROVERT (Beat Tape)",
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      },
+      {
+        "name": "hip hop",
+        "count": 2,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "jazz rap",
+        "disambiguation": "",
+        "count": 2,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": []
+  }
+}

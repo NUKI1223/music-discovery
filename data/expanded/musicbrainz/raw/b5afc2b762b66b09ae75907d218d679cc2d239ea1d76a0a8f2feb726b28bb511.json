@@ -1,0 +1,133 @@
+{
+  "endpoint": "release-group/b43ca523-b753-4381-8630-19a21fc4c527",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b43ca523-b753-4381-8630-19a21fc4c527?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:10.130090+00:00",
+  "response": {
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "instrumental hip hop",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+      },
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "US rapper Stan Robinson",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "country": "US",
+          "sort-name": "Substantial",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "count": 2,
+              "disambiguation": ""
+            }
+          ],
+          "id": "38cdd71c-344b-4c54-bac2-19709da7140d",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 2
+            }
+          ],
+          "name": "Substantial"
+        },
+        "name": "Substantial",
+        "joinphrase": " & "
+      },
+      {
+        "name": "Marcus D",
+        "artist": {
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "count": 2,
+              "disambiguation": ""
+            },
+            {
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "name": "instrumental hip hop",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "d92aaf30-5941-4a65-b741-d9d48c80772a",
+              "name": "lo-fi hip hop",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "sort-name": "Marcus D",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "US",
+          "type": "Person",
+          "disambiguation": "",
+          "name": "Marcus D",
+          "id": "105ed38e-9493-4bf5-b222-bc8ed5545b7f",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 2
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1
+            },
+            {
+              "name": "lo-fi hip hop",
+              "count": 1
+            }
+          ]
+        },
+        "joinphrase": ""
+      }
+    ],
+    "first-release-date": "2016-05-27",
+    "disambiguation": "",
+    "id": "b43ca523-b753-4381-8630-19a21fc4c527",
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "title": "Present"
+  }
+}

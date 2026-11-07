@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/6bffcfbf-6fce-4a24-b2bc-a9723989dbfb",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6bffcfbf-6fce-4a24-b2bc-a9723989dbfb?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:43.645144+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "tags": [
+      {
+        "count": 1,
+        "name": "alternative hip hop"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "rap rock",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "rapcore"
+      }
+    ],
+    "secondary-types": [],
+    "title": "Искушение святого простолюдина",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "6bffcfbf-6fce-4a24-b2bc-a9723989dbfb",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+        "name": "alternative hip hop"
+      },
+      {
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "rap rock",
+        "id": "b4b184b7-6224-478e-a273-f9da9ee30136",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "rapcore",
+        "id": "2cd7891d-c012-45f1-b1a1-86e34793f7fa"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Лёд 9",
+        "artist": {
+          "disambiguation": "Lyod 9",
+          "genres": [],
+          "sort-name": "9, Лёд",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "RU",
+          "type": "Group",
+          "name": "Лёд 9",
+          "tags": [],
+          "id": "8177ab74-6141-486a-8c2a-0d226749f494"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "disambiguation": "",
+    "first-release-date": "2013-09"
+  }
+}

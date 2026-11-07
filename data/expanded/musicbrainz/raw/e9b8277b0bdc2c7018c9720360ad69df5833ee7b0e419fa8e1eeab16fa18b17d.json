@@ -1,0 +1,102 @@
+{
+  "endpoint": "release-group/22c04afc-9e34-48ca-86ef-500515014dfc",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/22c04afc-9e34-48ca-86ef-500515014dfc?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:53.030290+00:00",
+  "response": {
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 1,
+      "value": 5
+    },
+    "first-release-date": "2018-05-24",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "electro",
+        "disambiguation": "",
+        "count": 1,
+        "id": "60f00d05-df4d-496e-8f5a-c45c03a56ad4"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "name": "industrial",
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+        "name": "noise"
+      }
+    ],
+    "title": "Par Traîtrise",
+    "primary-type": "EP",
+    "id": "22c04afc-9e34-48ca-86ef-500515014dfc",
+    "tags": [
+      {
+        "name": "electro",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "industrial",
+        "count": 1
+      },
+      {
+        "name": "industrial hip-hop",
+        "count": 1
+      },
+      {
+        "name": "noise",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "noise rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Traître Câlin",
+        "artist": {
+          "type": "Group",
+          "disambiguation": "",
+          "country": "FR",
+          "id": "4c0ccf62-4c4d-489c-989a-2d172310bc1f",
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [],
+          "sort-name": "Traître Câlin",
+          "name": "Traître Câlin"
+        },
+        "joinphrase": ""
+      }
+    ]
+  }
+}

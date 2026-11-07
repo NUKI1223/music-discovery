@@ -1,0 +1,146 @@
+{
+  "endpoint": "release-group/55c3c5d5-923a-41c8-ae1f-ceb649ad591e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/55c3c5d5-923a-41c8-ae1f-ceb649ad591e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:40.259220+00:00",
+  "response": {
+    "first-release-date": "2024-02-23",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "Lil Yachty",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "cloud rap",
+              "count": 1,
+              "disambiguation": "",
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733"
+            },
+            {
+              "name": "hip hop",
+              "count": 3,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "count": 1,
+              "disambiguation": "",
+              "name": "pop rap"
+            },
+            {
+              "name": "psychedelic rock",
+              "count": 1,
+              "disambiguation": "",
+              "id": "146ef761-5ad9-48b4-b0b3-483104f7da48"
+            },
+            {
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "count": 2,
+              "disambiguation": "",
+              "name": "southern hip hop"
+            },
+            {
+              "name": "trap",
+              "count": 3,
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+            }
+          ],
+          "id": "a668565b-41b8-44a8-9d5c-8e609dbf69fc",
+          "country": "US",
+          "disambiguation": "US rapper",
+          "type": "Person",
+          "name": "Lil Yachty",
+          "sort-name": "Lil Yachty",
+          "tags": [
+            {
+              "count": 1,
+              "name": "cloud rap"
+            },
+            {
+              "name": "hip hop",
+              "count": 3
+            },
+            {
+              "count": 1,
+              "name": "pop rap"
+            },
+            {
+              "name": "psychedelic rock",
+              "count": 1
+            },
+            {
+              "name": "southern hip hop",
+              "count": 2
+            },
+            {
+              "name": "trap",
+              "count": 3
+            }
+          ]
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "glitch hop",
+        "count": 1
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "rage",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "glitch hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "aa3215ae-28e6-4993-908e-ed3807e1ce54"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+      },
+      {
+        "name": "rage",
+        "count": 1,
+        "disambiguation": "",
+        "id": "dc2b0a66-0cf9-440c-8723-8540b23a94ec"
+      },
+      {
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1,
+        "disambiguation": "",
+        "name": "trap"
+      }
+    ],
+    "secondary-types": [],
+    "id": "55c3c5d5-923a-41c8-ae1f-ceb649ad591e",
+    "primary-type": "EP",
+    "title": "Something Ether"
+  }
+}

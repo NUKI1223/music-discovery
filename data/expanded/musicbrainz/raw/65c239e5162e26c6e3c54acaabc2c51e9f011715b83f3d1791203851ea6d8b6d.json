@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/1b2f6d1d-123a-4f47-a67e-fb50559588ab",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1b2f6d1d-123a-4f47-a67e-fb50559588ab?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:51.170180+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "1995-06-26",
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "name": "jazz rap"
+      }
+    ],
+    "title": "Riverside Pictures",
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "name": "jazz rap"
+            }
+          ],
+          "id": "a14d6aa2-858d-4c5a-8562-edfea906a9f3",
+          "sort-name": "Walkin’ Large",
+          "type": "Group",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "jazz rap",
+              "count": 1
+            }
+          ],
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "Walkin’ Large",
+          "country": "DE"
+        },
+        "name": "Walkin’ Large",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "1b2f6d1d-123a-4f47-a67e-fb50559588ab",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ]
+  }
+}

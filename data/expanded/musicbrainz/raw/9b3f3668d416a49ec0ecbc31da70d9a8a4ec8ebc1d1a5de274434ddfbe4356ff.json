@@ -1,0 +1,89 @@
+{
+  "endpoint": "release-group/af225572-9f63-4da7-8652-a9b1ce373bc2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/af225572-9f63-4da7-8652-a9b1ce373bc2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:19.393624+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "beat music",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "electronic"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "af225572-9f63-4da7-8652-a9b1ce373bc2",
+    "artist-credit": [
+      {
+        "name": "Prof. Logik",
+        "joinphrase": " X ",
+        "artist": {
+          "name": "Prof. Logik",
+          "country": "US",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "sort-name": "Prof. Logik",
+          "type": "Person",
+          "genres": [],
+          "id": "7eb2deb8-5ad0-48f0-9628-5278350985e8"
+        }
+      },
+      {
+        "artist": {
+          "type": "Person",
+          "sort-name": "Ackryte",
+          "id": "0c55a5c7-893a-45cf-a6f8-ef68a0b445bb",
+          "genres": [],
+          "country": "US",
+          "name": "Ackryte",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": []
+        },
+        "joinphrase": "",
+        "name": "Ackryte"
+      }
+    ],
+    "primary-type": "EP",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2011-12-13",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "decc967b-5b70-453b-9107-0b4e7a00505f",
+        "count": 1,
+        "name": "beat music"
+      },
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1,
+        "name": "electronic"
+      }
+    ],
+    "title": "BrushStrokes"
+  }
+}

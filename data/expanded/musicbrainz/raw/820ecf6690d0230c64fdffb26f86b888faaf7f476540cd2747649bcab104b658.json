@@ -1,0 +1,94 @@
+{
+  "endpoint": "release-group/aefb30ce-7994-497c-99f9-64486ad124c7",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/aefb30ce-7994-497c-99f9-64486ad124c7?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:49.040832+00:00",
+  "response": {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "downtempo",
+        "count": 1,
+        "disambiguation": "",
+        "id": "cc38aba3-48ed-439a-83b9-f81a34a66598"
+      },
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "848ecccf-e7fa-4439-a8ab-9dd3c31b4cf6",
+        "count": 1,
+        "disambiguation": "",
+        "name": "nu jazz"
+      },
+      {
+        "name": "trip hop",
+        "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "title": "Ame One and the Depressed Robot",
+    "primary-type": "EP",
+    "id": "aefb30ce-7994-497c-99f9-64486ad124c7",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "name": "Ame One",
+          "sort-name": "Ame One",
+          "disambiguation": "",
+          "type": "Person",
+          "country": "US",
+          "id": "2830f881-2850-4049-b08b-9282163f78f2",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "name": "Ame One"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "downtempo"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "nu jazz"
+      },
+      {
+        "name": "trip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "2009-10-01"
+  }
+}

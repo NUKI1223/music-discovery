@@ -1,0 +1,131 @@
+{
+  "endpoint": "release-group/12da4a6a-2856-49e6-afda-cf1ff57faf0c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/12da4a6a-2856-49e6-afda-cf1ff57faf0c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:15.369651+00:00",
+  "response": {
+    "secondary-types": [],
+    "genres": [
+      {
+        "name": "dub",
+        "id": "c72a5d45-75a8-4b35-9f48-67e49eb4b5e5",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "experimental hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "name": "political hip hop",
+        "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "f6d8cadd-6a5e-4ec9-9c2b-996b5332a639",
+        "name": "post-punk"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "dd5ad210-043c-4af3-86bd-91bedd9ca827",
+        "name": "sound collage"
+      }
+    ],
+    "secondary-type-ids": [],
+    "title": "Crime Waves",
+    "id": "12da4a6a-2856-49e6-afda-cf1ff57faf0c",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": " x ",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "name": "Moor Mother",
+          "sort-name": "Moor Mother",
+          "disambiguation": "",
+          "type": "Person",
+          "country": "US",
+          "id": "16610cf1-5ed5-4770-89b4-bf7e7aca7ebf",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "name": "Moor"
+      },
+      {
+        "name": "Jewelry",
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "name": "Mental Jewelry",
+          "sort-name": "Mental Jewelry",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "",
+          "id": "2a07935d-a2d1-43f7-961d-83a42cad75ae",
+          "country": null
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "dub",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "political hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "post-punk"
+      },
+      {
+        "name": "sound collage",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "value": 4,
+      "votes-count": 1
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "2017-06-16"
+  }
+}

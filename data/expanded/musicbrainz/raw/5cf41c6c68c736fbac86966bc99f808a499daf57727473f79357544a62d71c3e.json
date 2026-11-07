@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/ac4f9415-5b5d-47be-a0fe-8dd45518c6fa",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ac4f9415-5b5d-47be-a0fe-8dd45518c6fa?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:54.574863+00:00",
+  "response": {
+    "title": "Insufficient Fare",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "secondary-types": [],
+    "id": "ac4f9415-5b5d-47be-a0fe-8dd45518c6fa",
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": null,
+          "disambiguation": "",
+          "name": "Dech and Musi",
+          "tags": [],
+          "id": "4a55d0ee-0f72-4a87-9732-89b54d1234e0",
+          "type-id": null,
+          "type": null,
+          "sort-name": "Dech and Musi",
+          "genres": []
+        },
+        "joinphrase": "",
+        "name": "Dech and Musi"
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2021-06-04"
+  }
+}

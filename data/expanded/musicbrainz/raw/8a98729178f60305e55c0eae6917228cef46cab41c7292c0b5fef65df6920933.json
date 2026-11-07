@@ -1,0 +1,184 @@
+{
+  "endpoint": "release-group/7798e0e7-b9ad-3cc2-9221-436ba4cb2fe9",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7798e0e7-b9ad-3cc2-9221-436ba4cb2fe9?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:54.548184+00:00",
+  "response": {
+    "id": "7798e0e7-b9ad-3cc2-9221-436ba4cb2fe9",
+    "primary-type": "Album",
+    "title": "Phoenix Metabolism",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "breakcore",
+        "disambiguation": "",
+        "count": 1,
+        "id": "8aad8a03-be38-48e4-aa43-5ca0f826c569"
+      },
+      {
+        "count": 2,
+        "disambiguation": "",
+        "id": "462f9321-6103-49c9-b6db-96219bce6f62",
+        "name": "drum and bass"
+      },
+      {
+        "count": 2,
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "name": "experimental"
+      },
+      {
+        "name": "hip hop",
+        "count": 2,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [
+            {
+              "name": "breakcore",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "crossbreed"
+            },
+            {
+              "name": "darkstep",
+              "count": 2
+            },
+            {
+              "count": 3,
+              "name": "drum and bass"
+            },
+            {
+              "name": "industrial techno",
+              "count": 1
+            },
+            {
+              "name": "techstep",
+              "count": 1
+            }
+          ],
+          "name": "The Panacea",
+          "sort-name": "Panacea, The",
+          "disambiguation": "drum ’n bass artist Mathis Mootz",
+          "type": "Person",
+          "id": "1087a691-35da-4450-b6bd-5d18d4304b97",
+          "country": "DE",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "8aad8a03-be38-48e4-aa43-5ca0f826c569",
+              "name": "breakcore"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "a9417ed2-3276-4b0f-b5b3-33f88d33c5fc",
+              "name": "crossbreed"
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "8a51f0fd-1c24-4938-8e6a-e70c6e95b629",
+              "name": "darkstep"
+            },
+            {
+              "name": "drum and bass",
+              "disambiguation": "",
+              "count": 3,
+              "id": "462f9321-6103-49c9-b6db-96219bce6f62"
+            },
+            {
+              "name": "industrial techno",
+              "count": 1,
+              "disambiguation": "",
+              "id": "39b5ca66-873c-4a3d-94a3-3d31176b545e"
+            },
+            {
+              "id": "de706214-32bb-4b52-9bb4-463aec11bcd3",
+              "disambiguation": "",
+              "count": 1,
+              "name": "techstep"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "joinphrase": "",
+        "name": "Panacea"
+      }
+    ],
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "breakcore",
+        "count": 1
+      },
+      {
+        "name": "cut-up dj",
+        "count": 1
+      },
+      {
+        "name": "drum and bass",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "name": "experimental"
+      },
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip-hop"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "1999-09-11",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

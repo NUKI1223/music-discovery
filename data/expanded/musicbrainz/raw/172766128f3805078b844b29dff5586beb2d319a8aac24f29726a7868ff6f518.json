@@ -1,0 +1,146 @@
+{
+  "endpoint": "release-group/8f82daed-3783-45a5-9fe0-b14f0186cc14",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8f82daed-3783-45a5-9fe0-b14f0186cc14?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:46.182777+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "Cope",
+    "tags": [
+      {
+        "name": "digital hardcore",
+        "count": 1
+      },
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "name": "glitch",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 1,
+        "name": "post-industrial"
+      },
+      {
+        "count": 1,
+        "name": "punk"
+      },
+      {
+        "name": "punk rap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "digital hardcore",
+        "count": 1,
+        "id": "6d12e828-40a5-4ebc-a5b0-aa5506e2efd0",
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "disambiguation": "",
+        "name": "experimental"
+      },
+      {
+        "count": 1,
+        "id": "18b010d7-7d85-4445-a4a8-1889a4688308",
+        "disambiguation": "",
+        "name": "glitch"
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 1,
+        "disambiguation": "",
+        "name": "industrial hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "53ceafec-ced4-4bec-ac57-d00cbf3a0c29",
+        "count": 1,
+        "name": "post-industrial"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "8cc9b280-230b-4a3a-b1e2-8acab0744dd3",
+        "name": "punk"
+      },
+      {
+        "count": 1,
+        "id": "3385bb64-94ae-42bd-b43b-b8785835cfe7",
+        "disambiguation": "",
+        "name": "punk rap"
+      }
+    ],
+    "id": "8f82daed-3783-45a5-9fe0-b14f0186cc14",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Nailbreaker",
+          "type": null,
+          "sort-name": "Nailbreaker",
+          "country": "GB",
+          "disambiguation": "digital hardcore noise hop fusion",
+          "type-id": null,
+          "id": "626a6d19-92b0-49e2-8ccd-b2e4f37cad40",
+          "tags": [
+            {
+              "name": "digital hardcore",
+              "count": 1
+            },
+            {
+              "name": "noise",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "punk"
+            }
+          ],
+          "genres": [
+            {
+              "id": "6d12e828-40a5-4ebc-a5b0-aa5506e2efd0",
+              "count": 1,
+              "disambiguation": "",
+              "name": "digital hardcore"
+            },
+            {
+              "disambiguation": "",
+              "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+              "count": 1,
+              "name": "noise"
+            },
+            {
+              "name": "punk",
+              "disambiguation": "",
+              "count": 1,
+              "id": "8cc9b280-230b-4a3a-b1e2-8acab0744dd3"
+            }
+          ]
+        },
+        "name": "Nailbreaker"
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2022-04-25"
+  }
+}

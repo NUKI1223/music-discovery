@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/af2d33ff-0d4c-4e1a-a132-26f0c38f46d6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/af2d33ff-0d4c-4e1a-a132-26f0c38f46d6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:10.535027+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "Bugz",
+        "joinphrase": "",
+        "artist": {
+          "genres": [
+            {
+              "name": "hip hop",
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            }
+          ],
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 2
+            }
+          ],
+          "id": "1b97a22d-3222-4773-be86-fdc4002e33c2",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "US",
+          "disambiguation": "US rapper, member of D12",
+          "sort-name": "Bugz",
+          "type": "Person",
+          "name": "Bugz"
+        }
+      }
+    ],
+    "id": "af2d33ff-0d4c-4e1a-a132-26f0c38f46d6",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "first-release-date": "1999",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "title": "These Streets EP"
+  }
+}

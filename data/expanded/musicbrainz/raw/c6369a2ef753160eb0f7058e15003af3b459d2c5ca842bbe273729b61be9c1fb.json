@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/1ac647ff-f406-4302-a178-5218f8027012",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1ac647ff-f406-4302-a178-5218f8027012?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:17.153822+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "The Constructus Corporation",
+        "artist": {
+          "disambiguation": "",
+          "type": "Group",
+          "id": "3d5a4dd1-c311-4775-a99b-10fdacba2918",
+          "country": "ZA",
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [],
+          "sort-name": "Constructus Corporation, The",
+          "name": "The Constructus Corporation"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "name": "experimental"
+      },
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "disambiguation": "",
+        "name": "jazz rap"
+      }
+    ],
+    "secondary-types": [],
+    "id": "1ac647ff-f406-4302-a178-5218f8027012",
+    "primary-type": "Album",
+    "title": "From the Vault II: A Space Odyssey",
+    "first-release-date": "2022-06-21",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": ""
+  }
+}

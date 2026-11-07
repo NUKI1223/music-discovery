@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/f92a10bc-515f-428b-856c-68e761a2374d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f92a10bc-515f-428b-856c-68e761a2374d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:01.062687+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2023-03-03",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "id": "f92a10bc-515f-428b-856c-68e761a2374d",
+    "title": "the lil ket tape",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1,
+        "disambiguation": "",
+        "name": "trap"
+      }
+    ],
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "3614b5a7-c9d2-4746-b19e-12dff6615e1f",
+          "country": "AU",
+          "disambiguation": "",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "name": "Lil Ket",
+          "sort-name": "Lil Ket",
+          "tags": []
+        },
+        "joinphrase": "",
+        "name": "Lil Ket"
+      }
+    ]
+  }
+}

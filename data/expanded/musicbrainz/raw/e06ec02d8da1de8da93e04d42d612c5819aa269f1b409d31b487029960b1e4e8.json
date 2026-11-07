@@ -1,0 +1,91 @@
+{
+  "endpoint": "release-group/f3d8d665-68b9-43ea-91e9-877655284448",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f3d8d665-68b9-43ea-91e9-877655284448?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:31.506073+00:00",
+  "response": {
+    "first-release-date": "2022-10-17",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "American hip-hop recording artist",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "US",
+          "type": "Person",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 2,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "sort-name": "Awon",
+          "tags": [
+            {
+              "count": 2,
+              "name": "hip hop"
+            }
+          ],
+          "id": "d3ef6795-d3cc-44aa-974a-c460d53f0cf2",
+          "name": "Awon"
+        },
+        "name": "Awon",
+        "joinphrase": " & "
+      },
+      {
+        "joinphrase": "",
+        "name": "Soul.Dope.95",
+        "artist": {
+          "disambiguation": "",
+          "genres": [],
+          "sort-name": "Soul.Dope.95",
+          "country": "US",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "name": "Soul.Dope.95",
+          "id": "6185a0e4-e891-4902-aaa8-26df053260a6",
+          "tags": []
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+        "name": "underground hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "f3d8d665-68b9-43ea-91e9-877655284448",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Infinite Wisdom",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "jazz rap"
+      },
+      {
+        "name": "underground hip hop",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

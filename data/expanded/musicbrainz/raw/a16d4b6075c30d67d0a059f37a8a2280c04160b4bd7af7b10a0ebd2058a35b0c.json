@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/183d58ea-8460-4043-b51c-491cf1820fbc",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/183d58ea-8460-4043-b51c-491cf1820fbc?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:47.373678+00:00",
+  "response": {
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Plumbers Incorporated",
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Plumbers Incorporated",
+          "type": "Group",
+          "disambiguation": "Comedy Rap duo from Las Vegas",
+          "country": "US",
+          "name": "Plumbers Incorporated",
+          "id": "2b35e92b-d960-40c3-9407-53a9f65f4874",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "tags": []
+        }
+      }
+    ],
+    "id": "183d58ea-8460-4043-b51c-491cf1820fbc",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2021-07-07",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Plumbers Incinerated"
+  }
+}

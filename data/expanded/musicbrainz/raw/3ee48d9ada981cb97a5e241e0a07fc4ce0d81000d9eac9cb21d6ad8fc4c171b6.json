@@ -1,0 +1,81 @@
+{
+  "endpoint": "release-group/55097b5d-965b-4089-8a19-7506e1caf959",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/55097b5d-965b-4089-8a19-7506e1caf959?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:52.588511+00:00",
+  "response": {
+    "genres": [
+      {
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "title": "Jos sanat vois tappaa",
+    "first-release-date": "2004",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "id": "a8fa7329-85c7-404a-9e54-058589466972",
+          "sort-name": "Lavis",
+          "type": "Person",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "disambiguation": "Finnish rap artist",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Lavis",
+          "country": "FI"
+        },
+        "joinphrase": " & ",
+        "name": "Lavis"
+      },
+      {
+        "joinphrase": "",
+        "name": "Tommy Darkflow",
+        "artist": {
+          "sort-name": "Tommy Darkflow",
+          "type": "Person",
+          "genres": [],
+          "id": "6bfcdb1b-e1d9-4f88-ba85-8c560499b320",
+          "name": "Tommy Darkflow",
+          "country": "FI",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": ""
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "id": "55097b5d-965b-4089-8a19-7506e1caf959",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

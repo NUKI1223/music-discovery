@@ -1,0 +1,66 @@
+{
+  "endpoint": "release-group/d0764ab5-f82d-410e-be6a-d1bf7ad9e53c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d0764ab5-f82d-410e-be6a-d1bf7ad9e53c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:12.300986+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "Yassin",
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "name": "Yassin",
+          "sort-name": "Yassin",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "German rapper",
+          "type": "Person",
+          "id": "85ec6868-f1cf-4339-8274-1423f8f73146",
+          "country": "DE"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "d0764ab5-f82d-410e-be6a-d1bf7ad9e53c",
+    "primary-type": "Album",
+    "title": "Kreiseck",
+    "first-release-date": "2014-10-17",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": ""
+  }
+}

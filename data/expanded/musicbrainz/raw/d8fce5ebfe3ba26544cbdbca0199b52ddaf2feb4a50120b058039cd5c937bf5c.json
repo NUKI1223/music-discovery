@@ -1,0 +1,201 @@
+{
+  "endpoint": "release-group/6c53590b-3b17-4688-a695-762160d251db",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6c53590b-3b17-4688-a695-762160d251db?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:02.273491+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "instrumental hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+      }
+    ],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "id": "6c53590b-3b17-4688-a695-762160d251db",
+    "title": "IMMA. THROWAWAY.",
+    "artist-credit": [
+      {
+        "name": "Latbiu Hookt",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "alternative hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "instrumental"
+            },
+            {
+              "count": 1,
+              "name": "instrumental hip hop"
+            },
+            {
+              "name": "nerdcore",
+              "count": 1
+            }
+          ],
+          "sort-name": "Latbiu Hookt",
+          "name": "Latbiu Hookt",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+              "name": "instrumental"
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "9c8ba153-740e-4b88-b7ff-31d004944c95",
+              "name": "nerdcore"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "type": "Person",
+          "id": "d41ccba7-ea15-48f0-b4d3-8e76801e80c4",
+          "country": "US"
+        },
+        "joinphrase": " & "
+      },
+      {
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "drift phonk"
+            },
+            {
+              "count": 1,
+              "name": "east coast hip hop"
+            },
+            {
+              "count": 1,
+              "name": "edm"
+            },
+            {
+              "name": "electronic",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "electronic rap"
+            },
+            {
+              "name": "instrumental",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "instrumental electronic"
+            },
+            {
+              "count": 1,
+              "name": "phonk"
+            },
+            {
+              "name": "pop rap",
+              "count": 1
+            }
+          ],
+          "sort-name": "Crodie, Young",
+          "name": "Young Crodie",
+          "genres": [
+            {
+              "name": "drift phonk",
+              "id": "5a401ed0-7024-40e5-981d-4aed335fe2f4",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "east coast hip hop",
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "3976e9ba-16d0-461d-b732-99408a0374ba",
+              "disambiguation": "",
+              "count": 1,
+              "name": "edm"
+            },
+            {
+              "name": "electronic",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+              "count": 1,
+              "disambiguation": "",
+              "name": "instrumental"
+            },
+            {
+              "id": "38dd5ce2-96d8-4202-b477-75a857d78adb",
+              "count": 1,
+              "disambiguation": "older style, a.k.a. rare phonk",
+              "name": "phonk"
+            },
+            {
+              "name": "pop rap",
+              "disambiguation": "",
+              "count": 1,
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "Rapper & Producer From Pennsylvania",
+          "id": "0b29d96f-01f4-4e0a-9701-ab71ebfde645",
+          "country": "US"
+        },
+        "joinphrase": "",
+        "name": "Young Crodie"
+      }
+    ],
+    "tags": [
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2025-03-28",
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

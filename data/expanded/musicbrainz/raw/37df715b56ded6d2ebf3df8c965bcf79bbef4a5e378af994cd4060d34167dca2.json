@@ -1,0 +1,163 @@
+{
+  "endpoint": "artist/",
+  "params": {
+    "query": "artist:\"Death Grips\"",
+    "fmt": "json",
+    "limit": 5
+  },
+  "url": "https://musicbrainz.org/ws/2/artist/?query=artist%3A%22Death+Grips%22&fmt=json&limit=5",
+  "captured_at": "2026-10-28T12:16:54.316579+00:00",
+  "response": {
+    "created": "2026-10-28T12:16:54.247Z",
+    "count": 2,
+    "offset": 0,
+    "artists": [
+      {
+        "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "score": 100,
+        "name": "Death Grips",
+        "sort-name": "Death Grips",
+        "country": "US",
+        "area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "begin-area": {
+          "id": "21879fba-fe4e-4dbc-99e8-cad9142e5618",
+          "type": "City",
+          "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+          "name": "Sacramento",
+          "sort-name": "Sacramento",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "isnis": [
+          "0000000470851708"
+        ],
+        "life-span": {
+          "begin": "2010-12-21",
+          "ended": null
+        },
+        "aliases": [
+          {
+            "sort-name": "dthgrps",
+            "name": "dthgrps",
+            "locale": null,
+            "type": null,
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          }
+        ],
+        "tags": [
+          {
+            "count": 6,
+            "name": "electronic"
+          },
+          {
+            "count": 3,
+            "name": "digital hardcore"
+          },
+          {
+            "count": 11,
+            "name": "industrial"
+          },
+          {
+            "count": 2,
+            "name": "noise"
+          },
+          {
+            "count": 1,
+            "name": "punk"
+          },
+          {
+            "count": 12,
+            "name": "experimental"
+          },
+          {
+            "count": 10,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch"
+          },
+          {
+            "count": 1,
+            "name": "electropunk"
+          },
+          {
+            "count": 0,
+            "name": "k-pop"
+          },
+          {
+            "count": 1,
+            "name": "rap rock"
+          },
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 3,
+            "name": "glitch hop"
+          },
+          {
+            "count": 13,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "west coast hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 3,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 3,
+            "name": "punk rap"
+          },
+          {
+            "count": 1,
+            "name": "post-industrial music"
+          },
+          {
+            "count": 1,
+            "name": "nasty prostitute"
+          },
+          {
+            "count": 1,
+            "name": "left-field rap"
+          }
+        ]
+      },
+      {
+        "id": "cfa7731c-e0f8-4054-9e74-2361ce5f7f8c",
+        "score": 74,
+        "name": "Death Grips 2",
+        "sort-name": "Death Grips 2",
+        "life-span": {
+          "ended": null
+        }
+      }
+    ]
+  }
+}

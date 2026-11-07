@@ -1,0 +1,104 @@
+{
+  "endpoint": "release-group/03bebdc9-7762-4b8f-bece-06f044b54789",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/03bebdc9-7762-4b8f-bece-06f044b54789?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:57.287872+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "electronic",
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      },
+      {
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial"
+      },
+      {
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "name": "industrial hip hop"
+      },
+      {
+        "name": "industrial metal",
+        "id": "d4df54b5-67b4-4fb7-8f73-79e71717a501",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "metal",
+        "count": 1,
+        "disambiguation": "",
+        "id": "cc28f5aa-5e19-487c-88e1-e56b022f1fdd"
+      }
+    ],
+    "title": "Architects of the Future",
+    "first-release-date": "2023-10-06",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "CA",
+          "name": "Twitch",
+          "disambiguation": "Canadian industrial hip hop",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [],
+          "type": "Group",
+          "sort-name": "Twitch",
+          "id": "1cac3f93-abb3-45b5-b96f-3f2115dfb7ad",
+          "genres": []
+        },
+        "name": "Twitch",
+        "joinphrase": ""
+      }
+    ],
+    "id": "03bebdc9-7762-4b8f-bece-06f044b54789",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "industrial",
+        "count": 1
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial metal"
+      },
+      {
+        "name": "metal",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

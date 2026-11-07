@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/736944d4-9c60-4520-8957-ba1ab8f09a90",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/736944d4-9c60-4520-8957-ba1ab8f09a90?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:52.690771+00:00",
+  "response": {
+    "id": "736944d4-9c60-4520-8957-ba1ab8f09a90",
+    "genres": [
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2014-04-08",
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Bop Alloy",
+        "artist": {
+          "disambiguation": "Substantial & Marcus D",
+          "country": "US",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "Bop Alloy",
+          "id": "573378a6-15a3-4a6c-b63c-388cbd1e8fea",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "sort-name": "Bop Alloy",
+          "type": "Group"
+        }
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "title": "Another Day in the Life of…"
+  }
+}

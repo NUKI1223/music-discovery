@@ -1,0 +1,3396 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "arid:c42e60f4-4520-4954-b6e4-82bbdf532c11 AND (primarytype:album OR primarytype:ep)",
+    "fmt": "json",
+    "limit": 100,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=arid%3Ac42e60f4-4520-4954-b6e4-82bbdf532c11+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29&fmt=json&limit=100&offset=0",
+  "captured_at": "2026-10-28T12:17:11.904434+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:11.824Z",
+    "count": 23,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "97f81612-5d23-4954-99a3-5d1bd795a271",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6f02c748-6369-481c-8cb8-57ff47df1a10",
+        "count": 4,
+        "title": "SCARING THE HOES: DLC PACK",
+        "first-release-date": "2023-07-11",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Danny Brown",
+            "artist": {
+              "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+              "name": "Danny Brown",
+              "sort-name": "Brown, Danny",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sewell, Daniel Dewan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Daniel Dewan Sewell",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "606b4b22-ff7a-4684-b578-d9d5bffa9189",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES: DLC PACK",
+            "status": "Official"
+          },
+          {
+            "id": "e93d37d9-5203-4e99-89bc-1c3a24b9a15a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES: DLC PACK",
+            "status": "Official"
+          },
+          {
+            "id": "ba5cedf6-c93e-4761-8007-eb13ffe57841",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "SCARING THE HOES: DLC PACK",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "70a0aeab-3583-415f-9dff-380fc9284bb9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES: DLC PACK",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 2,
+            "name": "boom bap"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 2,
+            "name": "chipmunk soul"
+          }
+        ]
+      },
+      {
+        "id": "2922b099-93c6-43cf-ab52-5d3f4c5b5759",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5f4c5c6b-a304-465a-b6e1-a9af247d2657",
+        "count": 1,
+        "title": "The Wolf Returns EP",
+        "first-release-date": "2017-02-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " FT. ",
+            "name": "Bounge",
+            "artist": {
+              "id": "e3faa351-0573-4eb1-a996-204de5d71afd",
+              "name": "Bounge",
+              "sort-name": "Bounge"
+            }
+          },
+          {
+            "name": "JPEGMAFIA as \"The Wolf\"",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "72826ee6-1cb4-456a-a17a-335d3a5e1619",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Wolf Returns EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "synth-pop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "37526a90-7f4f-42e5-a985-138cb5055b10",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 1,
+        "title": "Darkskin Manson EP",
+        "first-release-date": "2018",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4d19463d-beab-47b5-a39a-bbbdb765d07a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Darkskin Manson EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "political hip hop"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "bd8069a9-3c24-4936-97f7-8a36be1129f0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 1,
+        "title": "THE ROCKWOOD EP",
+        "first-release-date": "2015",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "dcbfa6be-242c-4aed-8a56-aa10d92502c3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "THE ROCKWOOD EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "945fbb85-ee10-44c8-a425-857d574e3e13",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 2,
+        "title": "NOT ON VETERAN!",
+        "first-release-date": "2017-07-22",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c01b2054-cd44-47f8-999a-347afd4085de",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "NOT ON VETERAN!",
+            "status": "Official"
+          },
+          {
+            "id": "0de25de9-011b-4cad-abca-4d6d4cb4c657",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "NOT ON VETERAN!",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "political hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "0e387810-d075-40c6-b758-400c401f10d2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 1,
+        "title": "freestyles",
+        "first-release-date": "2022-02-23",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e0e76f80-2e9e-4568-9688-2328ca5f68aa",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "freestyles",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "pop rap"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "f16b861e-791c-4e8b-825f-97f77c271b0e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 2,
+        "title": "OFFLINE",
+        "first-release-date": "2022-02-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5e6455a2-d87f-42d1-af6e-8ad8a74d28a7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "OFFLINE",
+            "status": "Official"
+          },
+          {
+            "id": "1fd3b168-2e39-4630-ad16-6329a2c2712a",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "OFFLINE!",
+            "status": "Withdrawn"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "c2e32b33-946a-4ba1-aa29-d5df249028e7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c36ebb26-46ab-45ba-8688-7d06a55aa104",
+        "count": 2,
+        "title": "We Live in a Society",
+        "first-release-date": "2025-05-02",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Flume",
+            "artist": {
+              "id": "35fd8d42-b4a6-4414-9827-8766bd0daa3c",
+              "name": "Flume",
+              "sort-name": "Flume",
+              "disambiguation": "Australian DJ and producer",
+              "aliases": [
+                {
+                  "sort-name": "Streten, Harley",
+                  "name": "Harley Streten",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Streten, Harley Edward",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Harley Edward Streten",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Streten, Harley Edward",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Harley Edward Streten",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4d5301d3-b8fa-4e60-aed5-5acdf518a731",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "We Live in a Society",
+            "status": "Official"
+          },
+          {
+            "id": "13f303aa-0e70-4ad3-8583-9ffea8a1c849",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "We Live in a Society",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "electronica"
+          },
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "wonky"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 3,
+            "name": "future bass"
+          }
+        ]
+      },
+      {
+        "id": "5b320eb9-821d-4b05-b815-af565607c596",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "12b67338-4189-439e-8bc6-addcd26e117c",
+        "count": 10,
+        "title": "The 2nd Amendment",
+        "first-release-date": "2016-06-18",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " × ",
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Freaky",
+            "artist": {
+              "id": "2371f42f-6646-4f19-ad73-70da1a5a6d2d",
+              "name": "Freaky",
+              "sort-name": "Freaky",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "FREAKYMAFIACULT",
+                  "name": "FREAKYMAFIACULT",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5b2835d1-171b-4a05-9edc-e905e460584c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          },
+          {
+            "id": "4d377e79-a7f9-49ae-b662-7e7428e810a8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          },
+          {
+            "id": "33050ac6-02cf-4451-a84c-21479a1e087a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          },
+          {
+            "id": "764e62ae-16c0-490e-95f2-46a0de4c5432",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          },
+          {
+            "id": "7cca571a-497c-44f0-b46e-f0cfdde0e66f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          },
+          {
+            "id": "699efff5-517c-4c22-b3d6-5f2e7546990a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          },
+          {
+            "id": "b453fc73-e393-46e8-b9ec-37923c7fef9d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          },
+          {
+            "id": "2667ee89-3a33-4e71-9072-2a356ba8a732",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          },
+          {
+            "id": "bb38de87-dbc0-4c7e-bc62-5629ce83307f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          },
+          {
+            "id": "c67f2fdc-a439-4324-8fca-b1498437202b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 2nd Amendment",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "sound collage"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "political hip hop"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "f395e7ec-4ecf-4403-a241-800b25ef267d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 3,
+        "title": "EP2!",
+        "first-release-date": "2021-02-12",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "496f4b16-bd4d-4686-bfab-544718f3fff9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EP2!",
+            "status": "Official"
+          },
+          {
+            "id": "22f762e7-7801-464d-8f28-f9cc6a301a2b",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "EP2!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "3139cdcc-6992-49f9-adad-f797b87b7b6e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EP2!",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "pop rap"
+          },
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 3,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "r&b"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 2,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "480fd72f-73e8-40fa-948b-002e95850a5a",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 9,
+        "title": "EP!",
+        "first-release-date": "2020-02-17",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3cc1a04e-b3ce-4db0-a9f9-b51d7ede6d4b",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "EP!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "c8d9c463-aff9-4ac3-af90-2890e8807741",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EP!",
+            "status": "Official"
+          },
+          {
+            "id": "4d70979e-a4e7-4d7d-ab45-c9da386abc32",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "EP!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "9987495a-1852-48f1-b002-a652d9f6151b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EP!",
+            "status": "Official"
+          },
+          {
+            "id": "b48b3863-154a-411b-ac5d-5eab40d016e7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EP!",
+            "status": "Official"
+          },
+          {
+            "id": "bfe64f8c-68d7-41b2-86da-d3c31dbd5db0",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "EP",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "1750e383-741f-459d-b034-ace2dd6004e9",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "EP!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "38c4f63a-b1fd-42fd-8b85-d38fe1eec998",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EP!",
+            "status": "Official"
+          },
+          {
+            "id": "0df6bd71-3581-4006-ac6a-e1e185d319a1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "三",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "punk"
+          },
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 3,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "ec4235ba-7fbb-4ed6-8e1d-c3ea1a93d9f5",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 1,
+        "title": "ALLCAPSNOSPACES",
+        "first-release-date": "2019-09-26",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "42429804-0919-4e4a-9c07-b1765f8649fa",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "ALLCAPSNOSPACES",
+            "status": "Bootleg"
+          }
+        ]
+      },
+      {
+        "id": "eb686e9b-654c-43d2-9f26-b61306f93f7f",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 1,
+        "title": "Beware of Veteran +",
+        "first-release-date": "2026-01-31",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "49304876-2330-42ee-bcfd-7f53afc47bd6",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Beware of Veteran +",
+            "status": "Bootleg"
+          }
+        ]
+      },
+      {
+        "id": "a63d8f11-b8db-4255-80e0-50bdafd67252",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 5,
+        "title": "Darkskin Manson",
+        "first-release-date": "2015-05-15",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f4d60a58-ab34-4b10-aa3a-3a717b2380ad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Darkskin Manson",
+            "status": "Official"
+          },
+          {
+            "id": "a81d9508-f3d1-4dfe-92db-4d81ca179682",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Darkskin Manson",
+            "status": "Official"
+          },
+          {
+            "id": "ab0ef2f5-c942-44ec-9e01-1537e4c29afe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Darkskin Manson",
+            "status": "Official"
+          },
+          {
+            "id": "0223b6bb-7aef-493e-96ff-fe1912e70912",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Darkskin Manson",
+            "status": "Official"
+          },
+          {
+            "id": "6bee9bba-3c85-4ce6-81ea-941782cd0d16",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Darkskin Manson",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "political hip hop"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "4dca0a1a-c7a4-453a-8ae1-543cae89c5df",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 22,
+        "title": "Veteran",
+        "first-release-date": "2018-01-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4f8ddd74-85bb-4b7b-adb1-d8b296a8d681",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "c5a210f6-30bb-4fd0-877b-98b6e07702c9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran: Director’s Cut",
+            "status": "Official"
+          },
+          {
+            "id": "4ab2bd22-e233-43e2-a2a2-bb0875be50d9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran: Director’s Cut",
+            "status": "Official"
+          },
+          {
+            "id": "14c600b2-805f-41ab-ba24-5ebd2db049b8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran: Director’s Cut",
+            "status": "Official"
+          },
+          {
+            "id": "cd77b81e-d298-4a06-a9ad-7008189ca9c0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "b618df80-fbca-49a0-bcc1-e346c2a1d037",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "2ffc0fb3-99e9-46b8-920b-50e8bed98de4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BEWARE OF VETERAN",
+            "status": "Official"
+          },
+          {
+            "id": "26bbaf2f-00ab-4b1a-96eb-984d1dc86d19",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BEWARE OF VETERAN",
+            "status": "Official"
+          },
+          {
+            "id": "f2cb46b1-b57d-4aea-a12e-8713b370a193",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BEWARE OF VETERAN",
+            "status": "Official"
+          },
+          {
+            "id": "b51808cb-0b7f-45db-86a5-ed93291a3388",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BEWARE OF VETERAN",
+            "status": "Official"
+          },
+          {
+            "id": "cefc077e-dbec-4758-94c4-d5fad2a8d39c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BEWARE OF VETERAN",
+            "status": "Official"
+          },
+          {
+            "id": "0ff43ce5-69b4-4082-9bff-1471a5075464",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BEWARE OF VETERAN",
+            "status": "Official"
+          },
+          {
+            "id": "bcab4b52-4e52-4228-ae7b-9b395c35a864",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BEWARE OF VETERAN",
+            "status": "Official"
+          },
+          {
+            "id": "e4d5f000-7129-496b-88a4-aa32b9de1d6b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "eb87d565-cdbf-4fa7-9ceb-ca54db8de90e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "c21f6b8f-6680-4ec8-947d-04590a35be5b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "97c85c85-b76a-479e-bdd8-59ca90cb016b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "67ea40b1-ad38-4f6e-9275-006fd76969c3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "e97f5ba0-5b12-4cfb-b8dd-ac7cff3e8937",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "ba5078aa-69a6-4b69-b81e-cfb0b7aa74a3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "2f04b360-da19-4378-8974-22f36fdea0a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Veteran",
+            "status": "Official"
+          },
+          {
+            "id": "428b4993-76ee-4998-8dd4-d947e78fba4f",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Veteran",
+            "status": "Withdrawn"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 3,
+            "name": "hip hop"
+          },
+          {
+            "count": 2,
+            "name": "glitch hop"
+          },
+          {
+            "count": 4,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 2,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 2,
+            "name": "political hip hop"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "64c36440-3737-4292-a0d4-972405200bc2",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 15,
+        "title": "Communist Slow Jams",
+        "first-release-date": "2015-04-06",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ec9d8106-22b0-46bc-a7aa-cffc18b8f73c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          },
+          {
+            "id": "53ce2b97-eb3e-461d-8599-211215540a8f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          },
+          {
+            "id": "7a81ee4a-4b7c-41de-9b98-0c7b24717cbd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          },
+          {
+            "id": "36f0d0c7-c081-48a4-9e9e-23ba6f0842e5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          },
+          {
+            "id": "78ffe517-75b9-4868-8e79-d6caebe0b7a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams_",
+            "status": "Official"
+          },
+          {
+            "id": "9d43b1f9-8e72-4457-bdc8-ead7a2d4f388",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          },
+          {
+            "id": "38edc925-0dfd-4992-b7b2-9f8032c77656",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams_",
+            "status": "Official"
+          },
+          {
+            "id": "a6505ecc-1a67-436f-9a45-6b9117c0f046",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          },
+          {
+            "id": "a4e23b51-e32a-483d-9baa-2e51139d1e27",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          },
+          {
+            "id": "5b2e1505-ea85-4dc4-88ab-1bf728b51832",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "communist slow jams",
+            "status": "Official"
+          },
+          {
+            "id": "19f656db-3861-440d-8687-c2c9863121b3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          },
+          {
+            "id": "850b61fc-b5b0-43f9-9182-f9ed9a4685b2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          },
+          {
+            "id": "862fc12a-2e58-47c1-9518-4d5cbe6073ba",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "communist slow jams_",
+            "status": "Official"
+          },
+          {
+            "id": "f3231817-f820-4bdf-9b9a-5222d734786b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "communist slow jams_",
+            "status": "Official"
+          },
+          {
+            "id": "d4201e43-f7e5-4a12-bc19-f46a636f5c9c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Communist Slow Jams",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "spoken word"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "chopped and screwed"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 1,
+            "name": "political hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "vaporwave"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "1e9e8f2b-febc-4c81-b067-77e595b5d5ba",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 10,
+        "title": "I LAY DOWN MY LIFE FOR YOU",
+        "first-release-date": "2024-08-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "818f6547-bae1-4492-b6f5-9c9132dec9cf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU (DIRECTOR'S CUT)",
+            "status": "Official"
+          },
+          {
+            "id": "28d6aea6-c0de-49df-a1ba-d3d4918ab96e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU (DIRECTORS CUT)",
+            "status": "Official"
+          },
+          {
+            "id": "7555d01d-04a4-4f2e-8175-59af3555dbca",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU (DIRECTOR'S CUT)",
+            "status": "Official"
+          },
+          {
+            "id": "40b7f897-b05e-4504-b9f0-85283174bee9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU",
+            "status": "Official"
+          },
+          {
+            "id": "78ac9655-4a6b-4a6a-80ad-7651e21aeffd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU (DIRECTORS CUT)",
+            "status": "Official"
+          },
+          {
+            "id": "86213e28-839b-4d8e-b220-457c0577a369",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU (DIRECTORS CUT)",
+            "status": "Official"
+          },
+          {
+            "id": "8c509610-bbd8-4d1c-91c2-865e81b9edac",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU (DIRECTORS CUT)",
+            "status": "Official"
+          },
+          {
+            "id": "0481bb01-4cc6-4b47-acad-4b289d18d5fc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU",
+            "status": "Official"
+          },
+          {
+            "id": "dc85794f-ff7d-4132-80d6-73343f5de108",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU",
+            "status": "Official"
+          },
+          {
+            "id": "023044f8-f3ac-45e8-a595-debc17179886",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I LAY DOWN MY LIFE FOR YOU",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "industrial metal"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "rap metal"
+          },
+          {
+            "count": 1,
+            "name": "rap rock"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c35a4a3f-d584-42fc-ac0f-b9592aedd3b2",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 9,
+        "title": "All My Heroes Are Cornballs",
+        "first-release-date": "2019-09-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6ccae282-bbff-4cce-a57f-8c92468f2ccf",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "All My Heroes Are Cornballs",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "b830ffb1-3141-4fdd-9d2f-8863686150c8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "All My Heroes Are Cornballs (Directors Cut)",
+            "status": "Official"
+          },
+          {
+            "id": "52c0ab04-b171-41ae-bdb0-839386d7094f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "All My Heroes Are Cornballs.",
+            "status": "Official"
+          },
+          {
+            "id": "d26d4f4e-1401-4a3d-94b0-bd25f2131f4b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "All My Heroes Are Cornballs",
+            "status": "Official"
+          },
+          {
+            "id": "577602c2-e728-4673-834b-341ee3a54431",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "All My Heroes Are Cornballs",
+            "status": "Official"
+          },
+          {
+            "id": "a4bd9823-b341-4992-99c2-19b0f0cdcfde",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "All My Heroes Are Cornballs",
+            "status": "Official"
+          },
+          {
+            "id": "ab788818-35f2-4751-a26f-374fe97146f5",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "All My Heroes Are Cornballs",
+            "status": "Promotion"
+          },
+          {
+            "id": "0708f595-c841-4a97-86f0-cf8b2dfa5613",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "All My Heroes Are Cornballs",
+            "status": "Official"
+          },
+          {
+            "id": "3cff00ff-1b48-4af2-8d55-0671cf705df7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "All My Heroes Are Cornballs",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "punk"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "neo-psychedelia"
+          },
+          {
+            "count": 1,
+            "name": "pop rap"
+          },
+          {
+            "count": 1,
+            "name": "sound collage"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 4,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "contemporary r&b"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 2,
+            "name": "cloud rap"
+          },
+          {
+            "count": 1,
+            "name": "punk rap"
+          }
+        ]
+      },
+      {
+        "id": "6bb871f4-08ec-4a70-9fb3-c1c2b481e090",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6f02c748-6369-481c-8cb8-57ff47df1a10",
+        "count": 20,
+        "title": "SCARING THE HOES",
+        "first-release-date": "2023-03-24",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Danny Brown",
+            "artist": {
+              "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+              "name": "Danny Brown",
+              "sort-name": "Brown, Danny",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sewell, Daniel Dewan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Daniel Dewan Sewell",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ae2f68f3-5864-4b45-ad05-a0184eb7786f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES: DIRECTORS CUT",
+            "status": "Official"
+          },
+          {
+            "id": "693d8207-9012-4518-bd03-bcd79b21e35a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES: DIRECTOR’S CUT",
+            "status": "Official"
+          },
+          {
+            "id": "171666f2-fa21-45d1-8459-24112a118a25",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "SCARING THE HOES: DIRECTOR’S CUT",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "e36a3d8f-dee6-46ec-bcd5-d47bcd1fba7a",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "SCARING THE HOES: DIRECTOR’S CUT",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "60a29f55-0181-481c-9b4a-fb7d36f8a6a0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scaring The Hoes",
+            "status": "Official"
+          },
+          {
+            "id": "550d2856-5413-476f-8793-8b8fc5c3274d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "7dc6535d-f5ef-45d2-b282-f1104911414e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scaring The Hoes",
+            "status": "Official"
+          },
+          {
+            "id": "79a7281d-5cf4-49d4-a841-8233fba69184",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scaring The Hoes",
+            "status": "Official"
+          },
+          {
+            "id": "3b8f1454-e870-48b1-beea-0962a1733880",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "578567d7-0e53-4d57-b7eb-78b2821858ba",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "f040541a-0852-45ad-859d-1ac347e67c48",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES VAPE EDITION",
+            "status": "Official"
+          },
+          {
+            "id": "f3339854-66be-42a1-a2f6-9919cfc46a1c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "ff6ffd67-e703-48bc-aaab-54f1539a88ea",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "b17d47b0-97bc-4a1a-b1cc-6b0c2d2c87f5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "6403ba52-ae3f-43db-b809-773112b6eaa6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "26fbd9c2-dc62-43a6-a063-bcba17406a69",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "4c5f3753-9015-4e7d-830e-1c4af9614752",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "7a542439-d193-476c-b8f6-cdd6c53c3280",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "f75f76c2-32e4-4201-8f23-f52997f1eeea",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          },
+          {
+            "id": "56d7440e-dba2-413d-9d11-6a14d80d4f94",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SCARING THE HOES",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 0,
+            "name": "drum and bass"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 4,
+            "name": "hip hop"
+          },
+          {
+            "count": 2,
+            "name": "edm"
+          },
+          {
+            "count": 3,
+            "name": "glitch hop"
+          },
+          {
+            "count": 3,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 2,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 2,
+            "name": "jazz rap"
+          },
+          {
+            "count": 3,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 3,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "de388665-8561-474b-b8f3-7c7569d5ce97",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 1,
+        "title": "UNRELEASED",
+        "first-release-date": "2021-07-21",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "83e5fa88-fdc5-40ba-9969-3ad03d3beeaa",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "UNRELEASED",
+            "status": "Bootleg"
+          }
+        ]
+      },
+      {
+        "id": "c95a2f0f-29fe-48a2-93a3-5cbefaa8df5a",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 19,
+        "title": "Black Ben Carson",
+        "first-release-date": "2016-02-15",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8d74e845-9bf9-425a-8214-9695204c0690",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Black Ben Carson",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "b1f68bcb-a6a6-4a79-8146-8ce0a76d8739",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "d3e17fc2-0364-4272-93bc-cbefe2ff9d24",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "93ad4814-6d9a-4bbe-b462-3e626bf1dab6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "82ebb6c3-248b-4c91-948d-86e3c8cf319b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "f6536a16-e923-4887-b323-92af0b7b84a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "cd43108e-d143-4342-b991-fa02a326035e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "c455dfee-9713-415c-abee-0e252cb65904",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Black Ben Carson",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "6cd7bf25-8393-465c-8152-203e4fa28e9e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "ea217c71-3528-4cc7-b912-f273365d489a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "5e3f0f14-76c1-4c3d-ab3d-1087854e56de",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "b90aa665-93f4-4731-9e2e-39a1f3a40f01",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "1abfc2b3-c75e-4ad5-a4a4-8a0c3f85b2b1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "3ca98698-091d-4701-b81d-715672fb0677",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson + Instrumentals",
+            "status": "Official"
+          },
+          {
+            "id": "4f2323a6-76d9-4727-ad12-55eab41f515f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "10050173-fac4-4d02-86cc-9323b2f79ff2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "abc13b4a-c902-48fc-a8a3-29a92a68d307",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          },
+          {
+            "id": "858eab3c-0519-477d-ac5b-a689d1053073",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson + Instrumentals",
+            "status": "Official"
+          },
+          {
+            "id": "711a5483-6ba1-45cc-80ed-2814ed125e8e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Ben Carson",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "political hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "c89e9cff-c0c9-4e34-95e7-185056956caf",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 20,
+        "title": "LP!",
+        "first-release-date": "2021-10-22",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4cfcf8d0-eca7-4c36-b697-3af53ad998ed",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "OFFLINE!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "6e6bc39d-c2d7-4fef-a324-876e7b5b29da",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "OFFLINE!",
+            "status": "Official"
+          },
+          {
+            "id": "15fb9bdd-8fcc-4309-869a-9ec1bbc6d598",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "LP!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "bd64e9f5-389f-4a9a-95c3-0957b31340cc",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "I HAVE FULFILLED MY CONTRACT!",
+            "status": "Bootleg"
+          },
+          {
+            "id": "9eeb5025-7f5e-4bdb-ac90-075faaf28c2b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LP!",
+            "status": "Official"
+          },
+          {
+            "id": "f03aea17-4d32-43dd-9b29-336d4af7a373",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LP!",
+            "status": "Official"
+          },
+          {
+            "id": "f4c5c174-2189-4d9f-bd62-829cbc70c6c0",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "OFFLINE!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "980c3258-4cc6-4def-b830-c53de742f144",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "LP!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "8c804e8e-a76a-4076-9092-e15f234f4be5",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "LP!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "80ae9f2d-5b95-4032-aa99-3da3bb04964b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LP! OFFLINE",
+            "status": "Official"
+          },
+          {
+            "id": "716eec4f-6dc9-4950-8c86-192dd18fcc2a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LP! OFFLINE",
+            "status": "Official"
+          },
+          {
+            "id": "6308816a-3d56-473e-aaac-a99497a9bf2a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LP! OFFLINE",
+            "status": "Official"
+          },
+          {
+            "id": "c609c557-2add-418b-ae77-333b8ae9a3a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LP! OFFLINE",
+            "status": "Official"
+          },
+          {
+            "id": "9f262c33-d22f-4061-b1cb-c64dda73f10d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LP! OFFLINE",
+            "status": "Official"
+          },
+          {
+            "id": "7f851b46-24de-4a07-a697-e558356eaad3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LP! OFFLINE",
+            "status": "Official"
+          },
+          {
+            "id": "42d43962-b6cd-49a2-934e-c54e737185f9",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "OFFLINE! (DELUXE)",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "4ca0892e-dc40-480b-a314-b36c20a8cea9",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "LP!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "358b2033-aef1-46e5-b378-97e32c703e92",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "LP!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "5732cb17-7575-437e-871d-8b8e9180c9ae",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "LP!",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "3482f5d3-6c7c-4ef5-ba0a-c4d1e562a043",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LP! OFFLINE",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "experimental"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": -1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "abstract"
+          },
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 5,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "funk / soul"
+          },
+          {
+            "count": 1,
+            "name": "contemporary r&b"
+          },
+          {
+            "count": 5,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 2,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "a24bbe58-6a26-48fb-b3c5-992565cc456d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 8,
+        "title": "EXPERIMENTAL RAP",
+        "first-release-date": "2026-05-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "27d4575d-3669-4c52-90a9-ac3dcf527391",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EXPERIMENTAL RAP",
+            "status": "Official"
+          },
+          {
+            "id": "9d1e1a1d-fe96-426b-9b29-1996c191c25b",
+            "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+            "title": "EXPERIMENTAL RAP",
+            "status": "Pseudo-Release"
+          },
+          {
+            "id": "3f577131-6d71-41b8-b478-498331c3129a",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "EXPERIMENTAL RAP",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "d5df7552-008b-475a-83b6-17d33277e172",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EXPERIMENTAL RAP",
+            "status": "Official"
+          },
+          {
+            "id": "e762d935-2f60-4c79-b8af-278fe6c077a3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EXPERIMENTAL RAP",
+            "status": "Official"
+          },
+          {
+            "id": "2cbcffba-beef-4fca-a823-073f09910ef7",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "EXPERIMENTAL RAP",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "bc28943a-6f26-46c5-ad89-4a579a6bdf0a",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "EXPERIMENTAL RAP",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "937c304b-c8d2-447b-b7fd-8016f1e5b8d5",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "EXPERIMENTAL RAP",
+            "status": "Withdrawn"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "soul"
+          },
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "alternative hip-hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip-hop"
+          },
+          {
+            "count": 1,
+            "name": "united states"
+          },
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hip-hop/rap"
+          },
+          {
+            "count": 1,
+            "name": "experimental rap"
+          }
+        ]
+      }
+    ]
+  }
+}

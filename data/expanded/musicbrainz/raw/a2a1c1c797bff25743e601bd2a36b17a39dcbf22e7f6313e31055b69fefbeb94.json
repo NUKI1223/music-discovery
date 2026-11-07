@@ -1,0 +1,114 @@
+{
+  "endpoint": "release-group/a5aba97e-ff57-3bcf-80b2-8cb50b4cfe58",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a5aba97e-ff57-3bcf-80b2-8cb50b4cfe58?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:44.637385+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2007-02-23",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "chipmunk soul"
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "hip hop DJ & producer",
+          "type": "Person",
+          "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+          "country": "US",
+          "genres": [
+            {
+              "name": "drumless hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "9e4c8b90-75d8-4dc9-a5a8-0d09285773dd"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 5,
+              "name": "hip hop"
+            },
+            {
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "disambiguation": "",
+              "count": 2,
+              "name": "instrumental hip hop"
+            },
+            {
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "disambiguation": "",
+              "count": 1,
+              "name": "underground hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "drumless hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 5
+            },
+            {
+              "count": 1,
+              "name": "hip-hop"
+            },
+            {
+              "count": 2,
+              "name": "instrumental hip hop"
+            },
+            {
+              "count": 3,
+              "name": "producer"
+            },
+            {
+              "count": 1,
+              "name": "underground hip hop"
+            }
+          ],
+          "name": "The Alchemist",
+          "sort-name": "Alchemist, The"
+        },
+        "name": "The Alchemist"
+      }
+    ],
+    "secondary-types": [],
+    "genres": [
+      {
+        "name": "chipmunk soul",
+        "disambiguation": "",
+        "count": 1,
+        "id": "cec1580a-ef3c-4928-b302-58015335c7b0"
+      },
+      {
+        "name": "instrumental hip hop",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "title": "Rapper's Best Friend: An Instrumental Series",
+    "primary-type": "Album",
+    "id": "a5aba97e-ff57-3bcf-80b2-8cb50b4cfe58"
+  }
+}

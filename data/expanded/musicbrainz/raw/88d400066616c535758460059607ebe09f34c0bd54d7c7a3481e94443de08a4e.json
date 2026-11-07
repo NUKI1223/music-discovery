@@ -1,0 +1,80 @@
+{
+  "endpoint": "release-group/6b721fe7-753b-4044-a28f-a1be2f19bc6a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6b721fe7-753b-4044-a28f-a1be2f19bc6a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:15.053972+00:00",
+  "response": {
+    "first-release-date": "2002",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "121 Crew",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "German Rap Crew",
+          "type": "Group",
+          "id": "005b3779-e488-4123-ad39-f9561272f9c9",
+          "country": "DE",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "count": 1,
+              "name": "alternative hip hop"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            }
+          ],
+          "sort-name": "121 Crew",
+          "name": "121 Crew"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "id": "6b721fe7-753b-4044-a28f-a1be2f19bc6a",
+    "primary-type": "EP",
+    "title": "Unsere Steaks sind Highz",
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": []
+  }
+}

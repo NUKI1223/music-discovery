@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/30431c99-1ee4-4036-8fe6-232022dc49fd",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/30431c99-1ee4-4036-8fe6-232022dc49fd?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:03.519598+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "30431c99-1ee4-4036-8fe6-232022dc49fd",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "30f3aa66-f0d9-4415-b7dc-2255e00a79b3",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "dobbro",
+          "disambiguation": "hip-hop artist",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [],
+          "country": "UA",
+          "name": "dobbro"
+        },
+        "joinphrase": "",
+        "name": "dobbro"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2013-02-21",
+    "genres": [
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "title": "kosmohachkala"
+  }
+}

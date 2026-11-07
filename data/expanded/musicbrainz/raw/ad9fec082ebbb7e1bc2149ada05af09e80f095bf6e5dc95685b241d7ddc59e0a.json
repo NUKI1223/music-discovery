@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/fd73d367-9794-4120-b0e0-bd12142c45ef",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/fd73d367-9794-4120-b0e0-bd12142c45ef?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:45.319074+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "COSMIC BROWNIE",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "6d12e828-40a5-4ebc-a5b0-aa5506e2efd0",
+        "name": "digital hardcore"
+      },
+      {
+        "disambiguation": "",
+        "id": "6e2e809f-8c54-4e0f-aca0-0642771ab3cf",
+        "count": 1,
+        "name": "electro-industrial"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 1,
+        "disambiguation": "",
+        "name": "industrial hip hop"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "digital hardcore"
+      },
+      {
+        "count": 1,
+        "name": "electro-industrial"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "LustSickPuppy",
+        "joinphrase": "",
+        "artist": {
+          "genres": [],
+          "tags": [],
+          "id": "842cfb88-786e-405f-8351-c5c80644caff",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "LustSickPuppy",
+          "country": "US",
+          "disambiguation": "",
+          "sort-name": "LustSickPuppy",
+          "type": "Person"
+        }
+      }
+    ],
+    "id": "fd73d367-9794-4120-b0e0-bd12142c45ef",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2020-06-01"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "endpoint": "release-group/d426f349-88a4-4799-bf9b-6bd2cd41f7b1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d426f349-88a4-4799-bf9b-6bd2cd41f7b1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:19.628051+00:00",
+  "response": {
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Hell's Angels & Heaven's Demons",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "d426f349-88a4-4799-bf9b-6bd2cd41f7b1",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "name": "IAMGAWD",
+        "artist": {
+          "name": "IAMGAWD",
+          "tags": [],
+          "id": "988e5108-4f6f-43e4-9bc7-51579ca00b1a",
+          "disambiguation": "US underground rapper from Chicago",
+          "genres": [],
+          "sort-name": "IAMGAWD",
+          "country": "US",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person"
+        }
+      },
+      {
+        "artist": {
+          "id": "027c9f17-ec1a-49dc-b6d5-c2a3acca6319",
+          "tags": [],
+          "name": "Doc Da Mindbenda",
+          "disambiguation": "Chicago-based hip hop producer and engineer",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "country": "US",
+          "sort-name": "Doc Da Mindbenda",
+          "genres": []
+        },
+        "name": "Doc Da Mindbenda",
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "first-release-date": "2021-09-03",
+    "disambiguation": ""
+  }
+}

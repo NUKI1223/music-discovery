@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/b86da12d-4a1b-4558-a596-f5c76d4ad7d4",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b86da12d-4a1b-4558-a596-f5c76d4ad7d4?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:30.773760+00:00",
+  "response": {
+    "title": "Keskel metsää ep",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      }
+    ],
+    "first-release-date": "2018-01-28",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "ea2b4c06-93e4-4b73-96b8-1c4d111f053f",
+          "genres": [
+            {
+              "name": "dance",
+              "count": 1,
+              "disambiguation": "",
+              "id": "e5bba957-8c91-496a-a675-c6d0c6b51c33"
+            },
+            {
+              "name": "hardstyle",
+              "id": "4a74a604-f702-424c-984f-93c5b04360ea",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Jumal Velho",
+          "disambiguation": "Finnish hardstyle artist",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "dance"
+            },
+            {
+              "name": "hardstyle",
+              "count": 1
+            }
+          ],
+          "country": "FI",
+          "name": "Jumal Velho"
+        },
+        "joinphrase": "",
+        "name": "Jumal Velho"
+      }
+    ],
+    "id": "b86da12d-4a1b-4558-a596-f5c76d4ad7d4",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

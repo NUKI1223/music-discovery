@@ -1,0 +1,158 @@
+{
+  "endpoint": "release-group/929a8d68-11f7-424a-a780-a4a47098cda6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/929a8d68-11f7-424a-a780-a4a47098cda6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:44.741736+00:00",
+  "response": {
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "genres": [
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "38dd5ce2-96d8-4202-b477-75a857d78adb",
+        "disambiguation": "older style, a.k.a. rare phonk",
+        "count": 1,
+        "name": "phonk"
+      }
+    ],
+    "title": "King Remembered Underground Tape: 1991 - 1995",
+    "id": "929a8d68-11f7-424a-a780-a4a47098cda6",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+          "country": "US",
+          "type": "Person",
+          "disambiguation": "US rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+              "disambiguation": "",
+              "count": 1,
+              "name": "cloud rap"
+            },
+            {
+              "name": "conscious hip hop",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": "",
+              "count": 3
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 4,
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 8,
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "2f38ceb3-0ed0-475d-9ebd-bee14a2ca28e",
+              "name": "memphis rap"
+            },
+            {
+              "disambiguation": "",
+              "count": 3,
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "name": "southern hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 6,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            },
+            {
+              "id": "260d1450-1055-4c5c-9c78-863253349a5a",
+              "count": 1,
+              "disambiguation": "",
+              "name": "trap metal"
+            }
+          ],
+          "name": "Denzel Curry",
+          "sort-name": "Curry, Denzel",
+          "tags": [
+            {
+              "count": 1,
+              "name": "cloud rap"
+            },
+            {
+              "count": 3,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 4,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 8,
+              "name": "hip hop"
+            },
+            {
+              "name": "memphis rap",
+              "count": 1
+            },
+            {
+              "name": "rap",
+              "count": 2
+            },
+            {
+              "name": "southern hip hop",
+              "count": 3
+            },
+            {
+              "name": "trap",
+              "count": 6
+            },
+            {
+              "count": 1,
+              "name": "trap metal"
+            },
+            {
+              "count": 1,
+              "name": "underground"
+            }
+          ]
+        },
+        "joinphrase": "",
+        "name": "Denzel Curry"
+      }
+    ],
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "phonk",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2011-09-24"
+  }
+}

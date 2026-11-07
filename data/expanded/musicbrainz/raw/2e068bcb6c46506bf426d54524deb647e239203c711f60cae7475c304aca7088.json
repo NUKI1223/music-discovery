@@ -1,0 +1,148 @@
+{
+  "endpoint": "release-group/26df8813-b5d2-476a-bee2-5d9f362de465",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/26df8813-b5d2-476a-bee2-5d9f362de465?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:01.320774+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop"
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "4f2c4842-f90f-476e-95d3-8e868ae4d745",
+          "tags": [
+            {
+              "name": "abstract hip-hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "name": "dark ambient"
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "experimental hip-hop"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "name": "industrial hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "noise"
+            },
+            {
+              "name": "political hip hop",
+              "count": 1
+            }
+          ],
+          "name": "Dälek",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "US",
+          "sort-name": "Dälek",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "conscious hip hop",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "01ecf8e4-7f7a-4145-ae97-504d3109633d",
+              "name": "dark ambient"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+              "name": "industrial hip hop",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "noise",
+              "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "political hip hop",
+              "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a"
+            }
+          ],
+          "disambiguation": "American experimental hip hop group"
+        },
+        "name": "Dälek",
+        "joinphrase": ""
+      }
+    ],
+    "first-release-date": "2026-03-27",
+    "disambiguation": "",
+    "id": "26df8813-b5d2-476a-bee2-5d9f362de465",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "bookmark",
+        "count": 1
+      },
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "title": "Brilliance of a Falling Moon"
+  }
+}

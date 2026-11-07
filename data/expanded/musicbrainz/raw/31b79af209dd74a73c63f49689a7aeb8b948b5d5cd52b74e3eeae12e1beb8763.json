@@ -1,0 +1,160 @@
+{
+  "endpoint": "release-group/c69d502a-a0a1-4896-b2b5-6f23223df84d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c69d502a-a0a1-4896-b2b5-6f23223df84d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:16.685773+00:00",
+  "response": {
+    "title": "Memory Bomb",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2026-09-24",
+    "tags": [
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1,
+        "disambiguation": "",
+        "name": "instrumental hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "id": "c69d502a-a0a1-4896-b2b5-6f23223df84d",
+    "artist-credit": [
+      {
+        "name": "Kiefer",
+        "artist": {
+          "country": "US",
+          "disambiguation": "LA-based jazz pianist & beat maker",
+          "type": "Person",
+          "sort-name": "Kiefer",
+          "name": "Kiefer",
+          "tags": [
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "name": "chillwave",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "downtempo"
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "instrumental",
+              "count": 1
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1
+            },
+            {
+              "name": "jazz",
+              "count": 1
+            },
+            {
+              "name": "lo-fi",
+              "count": 1
+            },
+            {
+              "name": "lo-fi hip hop",
+              "count": 2
+            },
+            {
+              "name": "united states",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "count": 1,
+              "disambiguation": "",
+              "name": "boom bap"
+            },
+            {
+              "id": "18d52a87-bbbf-42f0-8338-189c8c314523",
+              "count": 1,
+              "disambiguation": "",
+              "name": "chillwave"
+            },
+            {
+              "name": "downtempo",
+              "disambiguation": "",
+              "count": 1,
+              "id": "cc38aba3-48ed-439a-83b9-f81a34a66598"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+              "count": 1,
+              "name": "instrumental"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "name": "instrumental hip hop"
+            },
+            {
+              "name": "jazz",
+              "count": 1,
+              "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+              "disambiguation": ""
+            },
+            {
+              "name": "lo-fi",
+              "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "lo-fi hip hop",
+              "disambiguation": "",
+              "count": 2,
+              "id": "d92aaf30-5941-4a65-b741-d9d48c80772a"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "a2252be6-2f4f-40d2-a54d-da93c9dfb649"
+        },
+        "joinphrase": ""
+      }
+    ]
+  }
+}

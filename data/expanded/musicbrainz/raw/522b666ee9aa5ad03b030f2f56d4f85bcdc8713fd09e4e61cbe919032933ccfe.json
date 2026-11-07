@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/c2c37857-010b-46c8-b7d2-49ca3805e535",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c2c37857-010b-46c8-b7d2-49ca3805e535?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:17.560965+00:00",
+  "response": {
+    "title": "Indictment Papers",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "first-release-date": "2007",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [],
+          "tags": [],
+          "id": "4245b44f-78e6-404f-8fed-a7bc2a223a57",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Blood Raw",
+          "country": null,
+          "disambiguation": "",
+          "sort-name": "Blood Raw",
+          "type": "Person"
+        },
+        "joinphrase": "",
+        "name": "Blood Raw"
+      }
+    ],
+    "id": "c2c37857-010b-46c8-b7d2-49ca3805e535",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1
+      }
+    ]
+  }
+}

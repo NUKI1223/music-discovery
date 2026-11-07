@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/d518193d-e3b2-4f03-ae04-d4da5094d129",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d518193d-e3b2-4f03-ae04-d4da5094d129?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:45.179027+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "id": "d518193d-e3b2-4f03-ae04-d4da5094d129",
+    "first-release-date": "2025-03-21",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "country": null,
+          "disambiguation": "",
+          "id": "759f2e77-81f5-4452-b936-6bea5920e63c",
+          "name": "Goya Gumbani",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "Gumbani, Goya",
+          "tags": []
+        },
+        "name": "Goya Gumbani"
+      }
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "title": "Warlord of the Weejuns"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "endpoint": "release-group/8fad1bfa-3826-4b9b-a70c-46c1454ac7f0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8fad1bfa-3826-4b9b-a70c-46c1454ac7f0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:08.662995+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "name": "Euro",
+        "artist": {
+          "type": null,
+          "sort-name": "Wintercastle",
+          "id": "c130962e-5d03-4a30-ae55-a021737fce76",
+          "genres": [],
+          "country": null,
+          "name": "Wintercastle",
+          "disambiguation": "",
+          "type-id": null,
+          "tags": []
+        }
+      },
+      {
+        "joinphrase": "",
+        "name": "octi",
+        "artist": {
+          "tags": [],
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "octi",
+          "country": "IS",
+          "genres": [],
+          "id": "3740bbc6-e96f-4caa-b8a6-c7955e45799f",
+          "sort-name": "octi",
+          "type": "Person"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "1e5e18e5-4e70-4a73-942a-c6c79c1aefe2",
+        "name": "drill"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      },
+      {
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "name": "trap"
+      }
+    ],
+    "title": "ToonTown",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2021-05-06",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "drill"
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "8fad1bfa-3826-4b9b-a70c-46c1454ac7f0",
+    "secondary-type-ids": [],
+    "secondary-types": []
+  }
+}

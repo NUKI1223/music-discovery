@@ -1,0 +1,208 @@
+{
+  "endpoint": "release-group/08c611e6-fc28-4798-b276-e9d0f6a85d06",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/08c611e6-fc28-4798-b276-e9d0f6a85d06?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:50.770248+00:00",
+  "response": {
+    "id": "08c611e6-fc28-4798-b276-e9d0f6a85d06",
+    "primary-type": "Album",
+    "title": "Ice Attack",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "genres": [
+      {
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "christian hip hop"
+            },
+            {
+              "name": "christian rap",
+              "count": 1
+            },
+            {
+              "name": "dirty south",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "gospel rap"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "holy hip hop"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            },
+            {
+              "name": "trap",
+              "count": 3
+            }
+          ],
+          "name": "Zaytoven",
+          "sort-name": "Zaytoven",
+          "type": "Person",
+          "disambiguation": "producer",
+          "country": "US",
+          "id": "81600da3-6054-434c-8dfc-696debe6bf7f",
+          "genres": [
+            {
+              "name": "christian hip hop",
+              "id": "0db33693-8ae5-4749-af7a-20895395dc82",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "dirty south",
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "trap",
+              "disambiguation": "",
+              "count": 3,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "name": "Zaytoven"
+      },
+      {
+        "joinphrase": " presents ",
+        "artist": {
+          "sort-name": "Dutty Laundry",
+          "name": "Dutty Laundry",
+          "tags": [],
+          "country": null,
+          "id": "e8097fd2-e18a-44b8-989f-f500ffb3ab9a",
+          "disambiguation": "",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": []
+        },
+        "name": "Dutty Laundry"
+      },
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Gucci Mane",
+          "sort-name": "Gucci Mane",
+          "tags": [
+            {
+              "name": "crunk",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "dirty south"
+            },
+            {
+              "name": "hip hop",
+              "count": 8
+            },
+            {
+              "count": 2,
+              "name": "southern hip hop"
+            },
+            {
+              "name": "trap",
+              "count": 7
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "crunk",
+              "id": "44c375ed-1041-4aa7-a2a0-05fb28135da3",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641",
+              "disambiguation": "",
+              "count": 1,
+              "name": "dirty south"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 8,
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "name": "southern hip hop"
+            },
+            {
+              "count": 7,
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            }
+          ],
+          "country": "US",
+          "id": "36494952-f434-45d8-a958-8b4acdbcf8a8",
+          "disambiguation": "US rapper",
+          "type": "Person"
+        },
+        "name": "Gucci Mane"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2007-02-28",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 1,
+      "value": 5
+    }
+  }
+}

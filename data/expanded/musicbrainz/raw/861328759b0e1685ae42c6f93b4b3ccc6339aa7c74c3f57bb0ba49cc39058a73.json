@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/53d7a860-c533-4c69-a720-73812cf590a6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/53d7a860-c533-4c69-a720-73812cf590a6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:05.090612+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "secondary-types": [],
+    "id": "53d7a860-c533-4c69-a720-73812cf590a6",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "噩夢 (004)",
+    "first-release-date": "2018-05-31",
+    "artist-credit": [
+      {
+        "name": "BPMF",
+        "joinphrase": "",
+        "artist": {
+          "country": null,
+          "tags": [],
+          "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "BPMF",
+          "type": "Person",
+          "genres": [],
+          "name": "BPMF",
+          "disambiguation": "Rap fr"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": []
+  }
+}

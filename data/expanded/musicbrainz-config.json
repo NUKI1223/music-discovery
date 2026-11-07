@@ -1,0 +1,159 @@
+{
+  "workspace": "data/expanded/musicbrainz",
+  "output": "data/catalogs/musicbrainz-expanded.json",
+  "manifest": "data/manifests/musicbrainz-expanded.json",
+  "max_releases": 520,
+  "seed_artist_names": [
+    "Death Grips",
+    "Kendrick Lamar",
+    "Denzel Curry",
+    "JPEGMAFIA",
+    "Kanye West"
+  ],
+  "queries": [
+    {
+      "label": "experimental hip hop:classic",
+      "query": "tag:\"experimental hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[1980-01-01 TO 2009-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "experimental hip hop:2010s",
+      "query": "tag:\"experimental hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "experimental hip hop:recent",
+      "query": "tag:\"experimental hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "abstract hip hop:classic",
+      "query": "tag:\"abstract hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[1980-01-01 TO 2009-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "abstract hip hop:2010s",
+      "query": "tag:\"abstract hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "abstract hip hop:recent",
+      "query": "tag:\"abstract hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "industrial hip hop:classic",
+      "query": "tag:\"industrial hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[1980-01-01 TO 2009-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "industrial hip hop:2010s",
+      "query": "tag:\"industrial hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "industrial hip hop:recent",
+      "query": "tag:\"industrial hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "hardcore hip hop:classic",
+      "query": "tag:\"hardcore hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[1980-01-01 TO 2009-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "hardcore hip hop:2010s",
+      "query": "tag:\"hardcore hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "hardcore hip hop:recent",
+      "query": "tag:\"hardcore hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "jazz rap:classic",
+      "query": "tag:\"jazz rap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[1980-01-01 TO 2009-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "jazz rap:2010s",
+      "query": "tag:\"jazz rap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "jazz rap:recent",
+      "query": "tag:\"jazz rap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "boom bap:classic",
+      "query": "tag:\"boom bap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[1980-01-01 TO 2009-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "boom bap:2010s",
+      "query": "tag:\"boom bap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "boom bap:recent",
+      "query": "tag:\"boom bap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "trap:classic",
+      "query": "tag:\"trap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[1980-01-01 TO 2009-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "trap:2010s",
+      "query": "tag:\"trap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "trap:recent",
+      "query": "tag:\"trap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "instrumental hip hop:classic",
+      "query": "tag:\"instrumental hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[1980-01-01 TO 2009-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "instrumental hip hop:2010s",
+      "query": "tag:\"instrumental hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+      "limit": 50,
+      "offset": 0
+    },
+    {
+      "label": "instrumental hip hop:recent",
+      "query": "tag:\"instrumental hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+      "limit": 50,
+      "offset": 0
+    }
+  ]
+}

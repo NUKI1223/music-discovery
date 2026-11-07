@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/f1ad6bc4-a3c2-4543-b108-42d206db9038",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f1ad6bc4-a3c2-4543-b108-42d206db9038?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:24.401156+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Wolf-e-Wolf",
+          "type": "Person",
+          "genres": [],
+          "tags": [],
+          "id": "485cc855-23d6-4c04-b288-c62b8c06138a",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Wolf-e-Wolf",
+          "disambiguation": "",
+          "country": "US"
+        },
+        "name": "Wolf-e-Wolf",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "first-release-date": "2013-02-26",
+    "title": "Next Level",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "id": "f1ad6bc4-a3c2-4543-b108-42d206db9038",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1
+      }
+    ]
+  }
+}

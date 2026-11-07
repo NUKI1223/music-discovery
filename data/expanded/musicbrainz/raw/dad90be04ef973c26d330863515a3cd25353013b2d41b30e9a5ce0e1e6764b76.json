@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/c405bc27-e741-372e-bff9-25674edcb1e4",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c405bc27-e741-372e-bff9-25674edcb1e4?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:47.964971+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "1991",
+    "title": "Blood, Sweat & No Tears",
+    "genres": [
+      {
+        "name": "hip hop",
+        "count": 2,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Stetsasonic",
+        "artist": {
+          "genres": [
+            {
+              "name": "boom bap",
+              "count": 1,
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "disambiguation": ""
+            },
+            {
+              "name": "conscious hip hop",
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            }
+          ],
+          "id": "2d84d1c0-f6fe-4af0-848c-fffdc1e080dc",
+          "sort-name": "Stetsasonic",
+          "type": "Group",
+          "tags": [
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            }
+          ],
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "Stetsasonic",
+          "country": "US"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "c405bc27-e741-372e-bff9-25674edcb1e4",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "disambiguation": ""
+  }
+}

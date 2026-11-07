@@ -1,0 +1,69 @@
+{
+  "endpoint": "release-group/046166d9-e64a-4dec-b5bd-330d5c9e6f35",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/046166d9-e64a-4dec-b5bd-330d5c9e6f35?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:01.186172+00:00",
+  "response": {
+    "first-release-date": "2019-03-08",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "name": "Recognize Ali",
+        "joinphrase": " & ",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "8fbd6da3-5344-4c1f-8936-06d171f44ea9",
+          "tags": [],
+          "genres": [],
+          "type": "Person",
+          "sort-name": "Recognize Ali",
+          "country": null,
+          "disambiguation": "",
+          "name": "Recognize Ali"
+        }
+      },
+      {
+        "name": "IconCurties",
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "cc4a414c-ab2b-4564-99d7-3187207ba6e1",
+          "name": "IconCurties",
+          "disambiguation": "",
+          "country": "IT",
+          "type": "Person",
+          "sort-name": "IconCurties"
+        }
+      }
+    ],
+    "id": "046166d9-e64a-4dec-b5bd-330d5c9e6f35",
+    "genres": [
+      {
+        "name": "instrumental hip hop",
+        "disambiguation": "",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1
+      }
+    ],
+    "tags": [
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "title": "Ghost Protocol",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

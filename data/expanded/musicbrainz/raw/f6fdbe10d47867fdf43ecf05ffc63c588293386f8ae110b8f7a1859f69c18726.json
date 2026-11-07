@@ -1,0 +1,164 @@
+{
+  "endpoint": "release-group/c1f79e51-4010-45fa-8f38-a8850172ed94",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c1f79e51-4010-45fa-8f38-a8850172ed94?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:19.783614+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop soul"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "De La Soul",
+        "artist": {
+          "sort-name": "De La Soul",
+          "name": "De La Soul",
+          "tags": [
+            {
+              "name": "alternative hip hop",
+              "count": 1
+            },
+            {
+              "count": 3,
+              "name": "boom bap"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 4
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 4
+            },
+            {
+              "count": 2,
+              "name": "golden age hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 11
+            },
+            {
+              "count": 6,
+              "name": "jazz rap"
+            },
+            {
+              "count": 1,
+              "name": "pop rap"
+            },
+            {
+              "name": "progressive rap",
+              "count": 1
+            }
+          ],
+          "id": "a8ebde98-7e91-46c7-992c-90039ba42017",
+          "country": "US",
+          "disambiguation": "",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e"
+            },
+            {
+              "name": "boom bap",
+              "disambiguation": "",
+              "count": 3,
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+            },
+            {
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 4,
+              "disambiguation": "",
+              "name": "conscious hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 4,
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "name": "east coast hip hop"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 11,
+              "name": "hip hop"
+            },
+            {
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "disambiguation": "",
+              "count": 6,
+              "name": "jazz rap"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "name": "pop rap"
+            }
+          ]
+        },
+        "joinphrase": ""
+      }
+    ],
+    "title": "More Supa Sweet Stakes, Baby",
+    "primary-type": "EP",
+    "id": "c1f79e51-4010-45fa-8f38-a8850172ed94",
+    "secondary-types": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "hip hop soul",
+        "id": "e031ab53-f85c-4d6a-a932-4000666e54de",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "1996",
+    "disambiguation": ""
+  }
+}

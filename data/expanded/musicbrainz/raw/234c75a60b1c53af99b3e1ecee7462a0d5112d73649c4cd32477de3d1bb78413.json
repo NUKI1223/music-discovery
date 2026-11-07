@@ -1,0 +1,91 @@
+{
+  "endpoint": "release-group/91c9021b-f671-46e1-ae0b-908eacd8914b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/91c9021b-f671-46e1-ae0b-908eacd8914b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:18.897119+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "instrumental"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "Pearly Gates",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2016-12-01",
+    "id": "91c9021b-f671-46e1-ae0b-908eacd8914b",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "name": "instrumental"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "artist": {
+          "country": null,
+          "disambiguation": "Beatmaker",
+          "type": "Person",
+          "sort-name": "Raw Saïtama",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "id": "92294bc7-2f27-468e-ad93-1f95f2904bb2",
+          "name": "Raw Saïtama",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            }
+          ]
+        },
+        "name": "Raw Saïtama"
+      },
+      {
+        "joinphrase": "",
+        "artist": {
+          "country": "US",
+          "disambiguation": "US rapper",
+          "id": "86b6f589-4938-44ae-9605-dfe3209ab21e",
+          "name": "Milez Grimez",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "Grimez, Milez",
+          "tags": []
+        },
+        "name": "Milez Grimez"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": ""
+  }
+}

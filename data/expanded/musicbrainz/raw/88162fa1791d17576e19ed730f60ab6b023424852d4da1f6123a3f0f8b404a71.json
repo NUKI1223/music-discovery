@@ -1,0 +1,120 @@
+{
+  "endpoint": "release-group/ae09f731-1842-4fb2-b8f1-b5ac8e5e739b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ae09f731-1842-4fb2-b8f1-b5ac8e5e739b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:13.176667+00:00",
+  "response": {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2021-06-10",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "downtempo"
+      },
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "trip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "name": "abstract hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+        "name": "downtempo"
+      },
+      {
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "name": "electronic"
+      },
+      {
+        "name": "trip hop",
+        "disambiguation": "",
+        "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Grumpy",
+        "artist": {
+          "id": "f5e229b1-f5cb-4014-a532-5ae48db83dc0",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+              "count": 1,
+              "name": "downtempo"
+            },
+            {
+              "name": "electronic",
+              "disambiguation": "",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "count": 1
+            },
+            {
+              "name": "trip hop",
+              "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip-hop"
+            },
+            {
+              "count": 1,
+              "name": "downtempo"
+            },
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "name": "trip hop",
+              "count": 1
+            }
+          ],
+          "sort-name": "Grumpy",
+          "type": "Person",
+          "country": "FR",
+          "disambiguation": "beatmaker from La Rochelle, France",
+          "name": "Grumpy"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "id": "ae09f731-1842-4fb2-b8f1-b5ac8e5e739b",
+    "title": "Heartspeak",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

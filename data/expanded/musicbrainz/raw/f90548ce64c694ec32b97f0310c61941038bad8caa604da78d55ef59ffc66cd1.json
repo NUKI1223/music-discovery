@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/3a3954ab-3e20-4aea-b863-d6517c049afb",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3a3954ab-3e20-4aea-b863-d6517c049afb?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:11.521063+00:00",
+  "response": {
+    "first-release-date": "2024-08-30",
+    "artist-credit": [
+      {
+        "name": "Marco Mello",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "",
+          "name": "Marco Mello",
+          "genres": [],
+          "type": null,
+          "sort-name": "Marco Mello",
+          "tags": [],
+          "id": "eca8e64c-3655-48ef-a451-c59a261e08f0",
+          "type-id": null,
+          "country": null
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      },
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "disambiguation": "",
+        "name": "jazz rap"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "id": "3a3954ab-3e20-4aea-b863-d6517c049afb",
+    "disambiguation": "",
+    "title": "Galactic Cadillac",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

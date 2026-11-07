@@ -1,0 +1,7 @@
+{
+  "minimum_labels": 60,
+  "minimum_minority": 15,
+  "seed": 17,
+  "taxonomy_version": "community-taxonomy-v1+06b69fe6e555",
+  "feature_version": "genre-tags-v2-artist-frequency"
+}

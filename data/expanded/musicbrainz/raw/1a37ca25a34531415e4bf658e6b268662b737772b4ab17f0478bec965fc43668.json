@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/af37403b-c83c-429a-97c1-0e3777ef6396",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/af37403b-c83c-429a-97c1-0e3777ef6396?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:53.319691+00:00",
+  "response": {
+    "id": "af37403b-c83c-429a-97c1-0e3777ef6396",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "name": "trap edm",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Bleach",
+    "genres": [
+      {
+        "count": 1,
+        "id": "a21ea484-efba-4119-8120-429b26f98728",
+        "disambiguation": "",
+        "name": "trap edm"
+      }
+    ],
+    "rating": {
+      "value": 3,
+      "votes-count": 1
+    },
+    "first-release-date": "2023-06-16",
+    "artist-credit": [
+      {
+        "name": "Godlands",
+        "joinphrase": "",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Godlands",
+          "id": "2ee7d715-f6b0-4746-9b51-d271a8afa098",
+          "genres": [],
+          "country": "AU",
+          "name": "Godlands",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": []
+        }
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

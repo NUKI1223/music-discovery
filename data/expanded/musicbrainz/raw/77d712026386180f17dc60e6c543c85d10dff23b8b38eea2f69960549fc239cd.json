@@ -1,0 +1,186 @@
+{
+  "endpoint": "release-group/8247e354-7a65-480b-9c10-0d13aaed9dee",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8247e354-7a65-480b-9c10-0d13aaed9dee?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:56.173615+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "Common",
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "count": 3,
+              "name": "alternative hip hop"
+            },
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "chipmunk soul"
+            },
+            {
+              "count": 3,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 1
+            },
+            {
+              "count": 6,
+              "name": "hip hop"
+            },
+            {
+              "name": "jazz rap",
+              "count": 1
+            },
+            {
+              "name": "neo soul",
+              "count": 1
+            },
+            {
+              "name": "political hip hop",
+              "count": 1
+            },
+            {
+              "name": "pop rap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "soul"
+            },
+            {
+              "name": "underground hip hop",
+              "count": 1
+            }
+          ],
+          "sort-name": "Common",
+          "name": "Common",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "count": 3,
+              "disambiguation": "",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e"
+            },
+            {
+              "name": "boom bap",
+              "disambiguation": "",
+              "count": 1,
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+            },
+            {
+              "name": "chipmunk soul",
+              "disambiguation": "",
+              "count": 1,
+              "id": "cec1580a-ef3c-4928-b302-58015335c7b0"
+            },
+            {
+              "name": "conscious hip hop",
+              "disambiguation": "",
+              "count": 3,
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+            },
+            {
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 1,
+              "disambiguation": "",
+              "name": "hardcore hip hop"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 6,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "disambiguation": "",
+              "count": 1,
+              "name": "jazz rap"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "286f9168-9c46-4e41-94a1-1aa4aeb93b8c",
+              "name": "neo soul"
+            },
+            {
+              "name": "political hip hop",
+              "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "pop rap",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "1b5e7b16-336b-473e-a364-5120413a9827",
+              "name": "soul"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "name": "underground hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "US rapper",
+          "country": "US",
+          "id": "c0a1179b-b14a-4d68-a3c1-1fdab16ed602"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 2,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "Album",
+    "id": "8247e354-7a65-480b-9c10-0d13aaed9dee",
+    "title": "A Beautiful Revolution, Pt. 1",
+    "first-release-date": "2020-10-30",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": ""
+  }
+}

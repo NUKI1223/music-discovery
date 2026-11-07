@@ -1,0 +1,354 @@
+{
+  "endpoint": "release-group/c95a2f0f-29fe-48a2-93a3-5cbefaa8df5a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c95a2f0f-29fe-48a2-93a3-5cbefaa8df5a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:22.642757+00:00",
+  "response": {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "c95a2f0f-29fe-48a2-93a3-5cbefaa8df5a",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "name": "cloud rap",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "glitch hop"
+      },
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 1,
+        "name": "political hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 2,
+      "value": 4
+    },
+    "first-release-date": "2016-02-15",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+        "name": "cloud rap"
+      },
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": ""
+      },
+      {
+        "name": "glitch hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "aa3215ae-28e6-4993-908e-ed3807e1ce54"
+      },
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "name": "industrial hip hop"
+      },
+      {
+        "name": "political hip hop",
+        "disambiguation": "",
+        "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a",
+        "count": 1
+      }
+    ],
+    "title": "Black Ben Carson",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "disambiguation": "",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "count": 1
+            },
+            {
+              "name": "alternative r&b",
+              "count": 2,
+              "id": "4e03fb35-d571-4111-824d-88c9f8a3d0c9",
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "3b8f3f65-6caa-47c8-b076-fa59dfb69c43",
+              "name": "breakbeat"
+            },
+            {
+              "name": "breaks",
+              "id": "63eddc75-dbad-4a05-a365-e30d1e87bca8",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "count": 3,
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+              "disambiguation": "",
+              "name": "cloud rap"
+            },
+            {
+              "name": "dance",
+              "disambiguation": "",
+              "id": "e5bba957-8c91-496a-a675-c6d0c6b51c33",
+              "count": 1
+            },
+            {
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "disambiguation": "",
+              "count": 1,
+              "name": "east coast hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "53a3cea3-17af-4421-a07a-5824b540aeb5",
+              "name": "electronica"
+            },
+            {
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+              "disambiguation": "",
+              "count": 2,
+              "name": "experimental"
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 12,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": ""
+            },
+            {
+              "name": "future bass",
+              "count": 1,
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71",
+              "disambiguation": ""
+            },
+            {
+              "id": "aa3215ae-28e6-4993-908e-ed3807e1ce54",
+              "disambiguation": "",
+              "count": 2,
+              "name": "glitch hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 3,
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+            },
+            {
+              "name": "hip hop",
+              "count": 10,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "disambiguation": "",
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+              "count": 1,
+              "name": "house"
+            },
+            {
+              "disambiguation": "",
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+              "count": 3,
+              "name": "industrial hip hop"
+            },
+            {
+              "disambiguation": "",
+              "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011",
+              "count": 1,
+              "name": "lo-fi"
+            },
+            {
+              "name": "pop",
+              "disambiguation": "",
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "d698ece0-6fed-4262-b446-42c98b73b65a",
+              "name": "psychedelic"
+            },
+            {
+              "disambiguation": "",
+              "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+              "count": 1,
+              "name": "rock"
+            },
+            {
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "count": 1,
+              "name": "trap"
+            },
+            {
+              "name": "underground hip hop",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+          "sort-name": "JPEGMAFIA",
+          "type": "Person",
+          "tags": [
+            {
+              "count": 1,
+              "name": "alternative hip hop"
+            },
+            {
+              "count": 2,
+              "name": "alternative r&b"
+            },
+            {
+              "count": 1,
+              "name": "breakbeat"
+            },
+            {
+              "count": 1,
+              "name": "breaks"
+            },
+            {
+              "count": 3,
+              "name": "cloud rap"
+            },
+            {
+              "name": "dance",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "east coast hip hop"
+            },
+            {
+              "name": "electronica",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "experimental"
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 12
+            },
+            {
+              "count": 1,
+              "name": "future bass"
+            },
+            {
+              "name": "glitch hop",
+              "count": 2
+            },
+            {
+              "count": 3,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 10,
+              "name": "hip hop"
+            },
+            {
+              "name": "house",
+              "count": 1
+            },
+            {
+              "count": 3,
+              "name": "industrial hip hop"
+            },
+            {
+              "count": 1,
+              "name": "lo-fi"
+            },
+            {
+              "count": 1,
+              "name": "lo-fi music"
+            },
+            {
+              "name": "pop",
+              "count": 1
+            },
+            {
+              "name": "psychedelic",
+              "count": 1
+            },
+            {
+              "name": "psychedelic rap",
+              "count": 1
+            },
+            {
+              "name": "rock",
+              "count": 1
+            },
+            {
+              "name": "trap",
+              "count": 1
+            },
+            {
+              "name": "underground hip hop",
+              "count": 1
+            }
+          ],
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "JPEGMAFIA",
+          "country": "US"
+        },
+        "joinphrase": "",
+        "name": "JPEGMAFIA"
+      }
+    ]
+  }
+}

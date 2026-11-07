@@ -1,0 +1,104 @@
+{
+  "endpoint": "release-group/1e85e321-98a9-4461-bbcf-e812fe053747",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1e85e321-98a9-4461-bbcf-e812fe053747?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:52.976218+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "1e85e321-98a9-4461-bbcf-e812fe053747",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "RU",
+          "name": "Он Юн",
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "name": "abstract hip hop",
+              "count": 2
+            },
+            {
+              "name": "alternative hip hop",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "name": "indie hip hop"
+            },
+            {
+              "name": "post rap",
+              "count": 2
+            }
+          ],
+          "type": "Group",
+          "sort-name": "On Yun",
+          "id": "034f67a1-30b5-4525-a46e-c26b0cc00655",
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "disambiguation": "",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "disambiguation": "",
+              "name": "alternative hip hop"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 2
+            }
+          ]
+        },
+        "joinphrase": "",
+        "name": "Он Юн"
+      }
+    ],
+    "first-release-date": "2014-01-15",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "title": "Мой личный штат Чьяпас"
+  }
+}

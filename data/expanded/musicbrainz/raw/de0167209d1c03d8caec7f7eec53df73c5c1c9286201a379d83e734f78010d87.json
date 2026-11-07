@@ -1,0 +1,106 @@
+{
+  "endpoint": "release-group/ecb1a9fb-9fc9-4f34-a51f-4c4128016cdc",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ecb1a9fb-9fc9-4f34-a51f-4c4128016cdc?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:21.991260+00:00",
+  "response": {
+    "first-release-date": "2023-10-12",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "conscious hip hop"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "name": "Łona",
+          "sort-name": "Łona",
+          "genres": [
+            {
+              "name": "hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "Polish rapper Adam Zieliński",
+          "id": "1c25cfa7-037e-4d82-a7b9-1df62fb6d9c7",
+          "country": "PL"
+        },
+        "joinphrase": " x ",
+        "name": "Łona"
+      },
+      {
+        "name": "Konieczny",
+        "artist": {
+          "disambiguation": "",
+          "type": null,
+          "country": "PL",
+          "id": "6ee72cb8-8f58-4720-bd69-cea724d85928",
+          "genres": [],
+          "type-id": null,
+          "tags": [],
+          "sort-name": "Konieczny, Andrzej",
+          "name": "Andrzej Konieczny"
+        },
+        "joinphrase": " x "
+      },
+      {
+        "joinphrase": "",
+        "artist": {
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "",
+          "country": "PL",
+          "id": "c577e6fe-d6cb-47ae-8ed1-ba9aa03f8c73",
+          "tags": [],
+          "name": "Kacper Krupa",
+          "sort-name": "Krupa, Kacper"
+        },
+        "name": "Krupa"
+      }
+    ],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+        "count": 1,
+        "disambiguation": "",
+        "name": "conscious hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "disambiguation": "",
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+      }
+    ],
+    "secondary-types": [],
+    "id": "ecb1a9fb-9fc9-4f34-a51f-4c4128016cdc",
+    "primary-type": "Album",
+    "title": "Taxi"
+  }
+}

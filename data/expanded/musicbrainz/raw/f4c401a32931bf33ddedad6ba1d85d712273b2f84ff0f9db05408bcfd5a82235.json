@@ -1,0 +1,214 @@
+{
+  "endpoint": "release-group/d11d8ee3-745c-4149-9dca-979d22bf52f5",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d11d8ee3-745c-4149-9dca-979d22bf52f5?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:20.547359+00:00",
+  "response": {
+    "title": "Wriggle",
+    "rating": {
+      "votes-count": 2,
+      "value": 3
+    },
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "footwork"
+      },
+      {
+        "name": "ghettotech",
+        "count": 1
+      },
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 2,
+        "name": "noise"
+      }
+    ],
+    "secondary-types": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "id": "d11d8ee3-745c-4149-9dca-979d22bf52f5",
+    "disambiguation": "",
+    "first-release-date": "2016-06-14",
+    "genres": [
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "405b97cf-e1d9-48aa-97cd-53212730589c",
+        "name": "footwork"
+      },
+      {
+        "id": "511a3aa8-abdb-4e63-b11c-2d50ab19b373",
+        "name": "ghettotech",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 2
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+        "name": "noise",
+        "count": 2,
+        "disambiguation": ""
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "clipping.",
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 5,
+              "name": "electronic"
+            },
+            {
+              "count": 5,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            },
+            {
+              "name": "harsh noise",
+              "count": 1
+            },
+            {
+              "count": 4,
+              "name": "hip hop"
+            },
+            {
+              "name": "horrorcore",
+              "count": 2
+            },
+            {
+              "count": 7,
+              "name": "industrial hip hop"
+            },
+            {
+              "name": "noise rap",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "rap"
+            }
+          ],
+          "id": "84ca8fa4-7cca-4948-a90a-cb44db29853d",
+          "disambiguation": "US experimental hip-hop",
+          "genres": [
+            {
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "name": "abstract hip hop",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 5,
+              "name": "electronic",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+            },
+            {
+              "disambiguation": "",
+              "count": 5,
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "hardcore hip hop",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+            },
+            {
+              "id": "5c61cf56-7dcd-4bd8-87e4-b5bb0c25255a",
+              "name": "harsh noise",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 4
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "name": "horrorcore",
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e"
+            },
+            {
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+              "name": "industrial hip hop",
+              "count": 7,
+              "disambiguation": ""
+            }
+          ],
+          "sort-name": "clipping.",
+          "country": "US",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "type": "Group"
+        },
+        "name": "clipping.",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

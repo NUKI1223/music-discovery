@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/3c24d88e-1ca3-41f3-8dce-1ec1a09c2f25",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3c24d88e-1ca3-41f3-8dce-1ec1a09c2f25?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:42.014827+00:00",
+  "response": {
+    "id": "3c24d88e-1ca3-41f3-8dce-1ec1a09c2f25",
+    "primary-type": "EP",
+    "title": "Rough Draft EP",
+    "genres": [
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "instrumental hip hop",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "KeyGenn",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "b7ac7f76-d4d4-4ff7-8383-87baf41dba5a",
+          "country": "US",
+          "type": "Person",
+          "disambiguation": "",
+          "name": "KeyGenn",
+          "sort-name": "KeyGenn",
+          "tags": []
+        },
+        "joinphrase": ""
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2021-08-27",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "endpoint": "release-group/9710e9b6-7e9d-4593-9c2e-f9a3ed62f582",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9710e9b6-7e9d-4593-9c2e-f9a3ed62f582?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:58.942097+00:00",
+  "response": {
+    "disambiguation": "",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": " and ",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "f7a098a6-fb82-4c34-9c86-bb5320e771a8",
+          "name": "DJ Folk",
+          "tags": [],
+          "type": "Person",
+          "sort-name": "DJ Folk",
+          "disambiguation": "associated with Jeezy / Cash Money",
+          "country": "US"
+        },
+        "name": "DJ Folk"
+      },
+      {
+        "name": "Young Jeezy",
+        "artist": {
+          "genres": [
+            {
+              "id": "8a2e8d9c-3402-4e83-b35d-a23e8016461a",
+              "name": "chopped and screwed",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 4,
+              "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c",
+              "name": "gangsta rap"
+            },
+            {
+              "count": 5,
+              "disambiguation": "",
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "id": "0822d395-7bf7-4b43-b944-54c4457f76c1",
+              "name": "hyphy",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "name": "southern hip hop",
+              "count": 4,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Jeezy",
+          "id": "dcad99e7-3c3e-4c78-bf8a-68203e17da48",
+          "tags": [
+            {
+              "count": 1,
+              "name": "chopped and screwed"
+            },
+            {
+              "name": "gangsta rap",
+              "count": 4
+            },
+            {
+              "count": 1,
+              "name": "god"
+            },
+            {
+              "name": "hip hop",
+              "count": 5
+            },
+            {
+              "name": "hustle",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "hyphy"
+            },
+            {
+              "name": "rap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "self made millionaire"
+            },
+            {
+              "name": "southern hip hop",
+              "count": 4
+            },
+            {
+              "count": 1,
+              "name": "sxsw"
+            },
+            {
+              "name": "top 100",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "trap"
+            },
+            {
+              "count": 1,
+              "name": "trap music"
+            },
+            {
+              "count": 2,
+              "name": "trap rap"
+            }
+          ],
+          "sort-name": "Jeezy",
+          "type": "Person",
+          "disambiguation": "US rapper Jay W Jenkins, f/k/a Young Jeezy",
+          "country": "US"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "id": "9710e9b6-7e9d-4593-9c2e-f9a3ed62f582",
+    "first-release-date": "2009-05-22",
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    },
+    "title": "Trappin' Ain't Dead",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "endpoint": "release-group/1ad8a8f8-a787-482e-94dd-5c3de73f23e3",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1ad8a8f8-a787-482e-94dd-5c3de73f23e3?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:30.873979+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "trap",
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": ""
+      }
+    ],
+    "title": "Pírdula",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2016-05-01",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Bejo",
+        "artist": {
+          "id": "634d4044-77e3-4d92-813a-ae63734f4378",
+          "genres": [
+            {
+              "name": "pop rap",
+              "count": 1,
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "disambiguation": ""
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Bejo",
+          "disambiguation": "Spanish rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "pop rap",
+              "count": 1
+            }
+          ],
+          "country": "ES",
+          "name": "Bejo"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "id": "1ad8a8f8-a787-482e-94dd-5c3de73f23e3",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

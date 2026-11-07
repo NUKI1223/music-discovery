@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/59fc4402-7cfe-4dcd-b68b-63268d4b6914",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/59fc4402-7cfe-4dcd-b68b-63268d4b6914?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:00.496051+00:00",
+  "response": {
+    "title": "EP. 1",
+    "primary-type": "EP",
+    "id": "59fc4402-7cfe-4dcd-b68b-63268d4b6914",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "instrumental hip hop",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "country": "FR",
+          "id": "af8ceed3-ec3d-479e-a973-a4f6ffdc1d98",
+          "disambiguation": "",
+          "type": "Person",
+          "sort-name": "Zeki, Atoum",
+          "name": "Atoum Zeki",
+          "tags": []
+        },
+        "name": "Atoum Zeki"
+      }
+    ],
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "2015-03-11"
+  }
+}

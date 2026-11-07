@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/be6ffdd0-5326-39bb-8541-1aae76199e75",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/be6ffdd0-5326-39bb-8541-1aae76199e75?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:29.019688+00:00",
+  "response": {
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2005-07-20",
+    "secondary-types": [],
+    "genres": [
+      {
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "experimental hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      }
+    ],
+    "secondary-type-ids": [],
+    "title": "Ö",
+    "id": "be6ffdd0-5326-39bb-8541-1aae76199e75",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 2
+            }
+          ],
+          "sort-name": "Ceebrolistics",
+          "name": "Ceebrolistics",
+          "type": "Group",
+          "disambiguation": "",
+          "country": "FI",
+          "id": "0d03e34f-627d-4e67-92ce-04a7bdebb893",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 2,
+              "disambiguation": "",
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+        },
+        "joinphrase": "",
+        "name": "Ceebrolistics"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ]
+  }
+}

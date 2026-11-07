@@ -1,0 +1,79 @@
+{
+  "endpoint": "release-group/eface7b5-f118-4dfa-83a2-a8ca9ec93eb9",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/eface7b5-f118-4dfa-83a2-a8ca9ec93eb9?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:38.514209+00:00",
+  "response": {
+    "first-release-date": "2014-01-01",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "artist": {
+          "name": "Projetonave",
+          "sort-name": "Projetonave",
+          "type": "Group",
+          "country": "BR",
+          "disambiguation": "",
+          "id": "27236921-f761-4968-9490-ebefd3de1251",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "tags": []
+        },
+        "name": "Projetonave"
+      },
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Síntese",
+          "type": null,
+          "sort-name": "Síntese",
+          "disambiguation": "",
+          "country": "BR",
+          "type-id": null,
+          "id": "d3f5bce1-c628-4b2d-8a2a-c218e5482a69",
+          "tags": [],
+          "genres": []
+        },
+        "name": "Síntese"
+      }
+    ],
+    "id": "eface7b5-f118-4dfa-83a2-a8ca9ec93eb9",
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "jazz"
+      }
+    ],
+    "genres": [
+      {
+        "name": "experimental hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      },
+      {
+        "name": "jazz",
+        "count": 1,
+        "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+        "disambiguation": ""
+      }
+    ],
+    "title": "Nasbase",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": ""
+  }
+}

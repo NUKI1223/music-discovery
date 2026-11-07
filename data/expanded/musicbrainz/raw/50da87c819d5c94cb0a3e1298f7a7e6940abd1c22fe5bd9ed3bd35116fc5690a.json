@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/45baeddc-6f2f-4ce6-83ad-0254ce3bfb99",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/45baeddc-6f2f-4ce6-83ad-0254ce3bfb99?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:27.477706+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "Bolche",
+        "artist": {
+          "country": "AR",
+          "id": "390f0031-b035-4b99-936c-151137d8a8fa",
+          "type": "Group",
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "sort-name": "Bolche",
+          "name": "Bolche",
+          "tags": []
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "id": "45baeddc-6f2f-4ce6-83ad-0254ce3bfb99",
+    "primary-type": "EP",
+    "title": "La Amenaza Roja",
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2012-03-01",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": ""
+  }
+}

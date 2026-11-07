@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/3cf5f5c8-8786-4f40-a67c-89c9337a11a8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3cf5f5c8-8786-4f40-a67c-89c9337a11a8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:29.483622+00:00",
+  "response": {
+    "genres": [
+      {
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop",
+        "disambiguation": ""
+      }
+    ],
+    "secondary-types": [],
+    "id": "3cf5f5c8-8786-4f40-a67c-89c9337a11a8",
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "quinn",
+    "first-release-date": "2022-07-22",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "quinn",
+        "artist": {
+          "name": "osquinn",
+          "disambiguation": "digicore artist",
+          "tags": [
+            {
+              "count": 6,
+              "name": "digicore"
+            },
+            {
+              "name": "hip hop",
+              "count": 2
+            },
+            {
+              "name": "hyperpop",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "pop"
+            }
+          ],
+          "id": "46a0eeec-1137-4303-85eb-ad11addbe5e4",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "id": "b48ff5e2-b1da-4938-ad94-8411171d5170",
+              "count": 6,
+              "disambiguation": "",
+              "name": "digicore"
+            },
+            {
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "id": "a8a72860-0bf8-44fd-90a1-b947a8ac2c56",
+              "disambiguation": "",
+              "name": "hyperpop"
+            },
+            {
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "count": 1,
+              "name": "pop",
+              "disambiguation": ""
+            }
+          ],
+          "type": "Person",
+          "sort-name": "osquinn",
+          "country": "US"
+        }
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  }
+}

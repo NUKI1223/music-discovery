@@ -1,0 +1,80 @@
+{
+  "endpoint": "release-group/13646b2f-106d-471b-bd22-295256975233",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/13646b2f-106d-471b-bd22-295256975233?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:20.368148+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Ho99o9 presents Territory : Turf Talk, Vol. II",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2023-10-20",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Ho99o9",
+        "artist": {
+          "name": "Ho99o9",
+          "tags": [
+            {
+              "count": 1,
+              "name": "punk rap"
+            }
+          ],
+          "id": "e0458faa-82b2-4011-b851-6a0ed1f5a0e6",
+          "disambiguation": "",
+          "genres": [
+            {
+              "name": "punk rap",
+              "id": "3385bb64-94ae-42bd-b43b-b8785835cfe7",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "sort-name": "Ho99o9",
+          "country": "US",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "type": "Group"
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "id": "13646b2f-106d-471b-bd22-295256975233"
+  }
+}

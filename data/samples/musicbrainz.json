@@ -1,0 +1,1178 @@
+{
+  "snapshot_id": "musicbrainz-sample-c92b2e00e84d43cd",
+  "taxonomy_version": "mb-tags-v1",
+  "is_fixture": false,
+  "genres": [
+    {
+      "id": "hip-hop",
+      "name": "Hip-hop",
+      "parent_ids": [],
+      "aliases": []
+    },
+    {
+      "id": "jazz",
+      "name": "Jazz",
+      "parent_ids": [],
+      "aliases": []
+    },
+    {
+      "id": "rnb",
+      "name": "R&B",
+      "parent_ids": [],
+      "aliases": []
+    },
+    {
+      "id": "electronic",
+      "name": "Electronic",
+      "parent_ids": [],
+      "aliases": []
+    },
+    {
+      "id": "rock",
+      "name": "Rock",
+      "parent_ids": [],
+      "aliases": []
+    },
+    {
+      "id": "experimental",
+      "name": "Experimental hip-hop",
+      "parent_ids": [
+        "hip-hop"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "abstract",
+      "name": "Abstract hip-hop",
+      "parent_ids": [
+        "hip-hop"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "industrial-hip-hop",
+      "name": "Industrial hip-hop",
+      "parent_ids": [
+        "hip-hop"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "hardcore",
+      "name": "Hardcore hip-hop",
+      "parent_ids": [
+        "hip-hop"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "jazz-rap",
+      "name": "Jazz rap",
+      "parent_ids": [
+        "hip-hop",
+        "jazz"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "boom-bap",
+      "name": "Boom bap",
+      "parent_ids": [
+        "hip-hop"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "trap",
+      "name": "Trap",
+      "parent_ids": [
+        "hip-hop"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "instrumental-hip-hop",
+      "name": "Instrumental hip-hop",
+      "parent_ids": [
+        "hip-hop"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "modal-jazz",
+      "name": "Modal jazz",
+      "parent_ids": [
+        "jazz"
+      ],
+      "aliases": []
+    }
+  ],
+  "artists": [
+    {
+      "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+      "name": "Death Grips",
+      "genre_ids": []
+    },
+    {
+      "id": "ab40cede-1595-4d28-9080-862b11490fe7",
+      "name": "Idal & Hook",
+      "genre_ids": []
+    },
+    {
+      "id": "98be7131-a744-4e7e-9e49-2a780359ecfb",
+      "name": "DOT",
+      "genre_ids": []
+    },
+    {
+      "id": "f77bd9ea-26a4-456f-9647-031a3972ccee",
+      "name": "Paperi T",
+      "genre_ids": []
+    },
+    {
+      "id": "3ed3dcce-e933-4227-b9cb-8614a11b78c5",
+      "name": "El Jeff",
+      "genre_ids": []
+    },
+    {
+      "id": "f465be54-5f5f-4941-aa98-456011c350a9",
+      "name": "Dawolf",
+      "genre_ids": []
+    },
+    {
+      "id": "01aaa1b4-4b35-48a3-8a00-5d82591d93d1",
+      "name": "Asa",
+      "genre_ids": []
+    },
+    {
+      "id": "034f67a1-30b5-4525-a46e-c26b0cc00655",
+      "name": "Он Юн",
+      "genre_ids": []
+    },
+    {
+      "id": "5fc280e7-a352-408b-ad9c-d82a4c1dadda",
+      "name": "FrivolousShara",
+      "genre_ids": []
+    },
+    {
+      "id": "38c740a4-f3bf-4c40-ad0c-5b73c8f24a12",
+      "name": "R.A.P. Ferreira",
+      "genre_ids": []
+    },
+    {
+      "id": "5edebc27-5ae3-4e22-831a-18852377ebb8",
+      "name": "Fumitake Tamura",
+      "genre_ids": []
+    },
+    {
+      "id": "c65a34a6-21a8-412e-94b2-6b991041081a",
+      "name": "No Call ‘Recently’",
+      "genre_ids": []
+    },
+    {
+      "id": "d261ed6f-11ca-4a35-bc26-e3d6fd1815b7",
+      "name": "LAUSSE THE CAT",
+      "genre_ids": []
+    },
+    {
+      "id": "7bc3a2d0-7eed-4b42-ae96-7d68c644454d",
+      "name": "Sole",
+      "genre_ids": []
+    },
+    {
+      "id": "f1b7101e-c968-4843-ad08-9ef5b846c915",
+      "name": "Kojaque",
+      "genre_ids": []
+    },
+    {
+      "id": "1206c904-9282-494d-b9c7-49e8fb201e69",
+      "name": "Elucid",
+      "genre_ids": []
+    },
+    {
+      "id": "e34fef2d-2d3e-4847-b904-a6ec4c7e3f32",
+      "name": "Sebb Bash",
+      "genre_ids": []
+    },
+    {
+      "id": "65eaa552-1149-4b42-888e-6d6e4affdbff",
+      "name": "Homeboy Sandman",
+      "genre_ids": []
+    },
+    {
+      "id": "952701d5-59d2-40c5-b7a1-0d7925d5e351",
+      "name": "Jack Splash",
+      "genre_ids": []
+    },
+    {
+      "id": "11565c2b-7fca-461b-bd19-312575066c06",
+      "name": "Lab Waste",
+      "genre_ids": []
+    },
+    {
+      "id": "35028de5-77f5-4a22-861b-ae7031f30382",
+      "name": "вБЕНЗИНЕестьОБЛАКА",
+      "genre_ids": []
+    },
+    {
+      "id": "25458500-b9b0-42e3-a81b-9a19a4e9cc37",
+      "name": "Nestor Kéa",
+      "genre_ids": []
+    },
+    {
+      "id": "396c9bc9-33eb-43db-bc70-bff4e2788faf",
+      "name": "Rose Kante",
+      "genre_ids": []
+    },
+    {
+      "id": "e93084bb-db4a-48dc-adc0-bf0e265748a7",
+      "name": "SITOI",
+      "genre_ids": []
+    },
+    {
+      "id": "515c9684-2fc1-4b0f-a069-1a9805df6d82",
+      "name": "Khid",
+      "genre_ids": []
+    },
+    {
+      "id": "00447c0c-bc7e-4578-a206-31e95ac97571",
+      "name": "Terror Reid",
+      "genre_ids": []
+    },
+    {
+      "id": "03b6615a-0570-47d7-9270-b86ca20621ed",
+      "name": "Blindspot",
+      "genre_ids": []
+    },
+    {
+      "id": "be457082-f628-4a4a-9099-b7c612234f2e",
+      "name": "Spectateur",
+      "genre_ids": []
+    }
+  ],
+  "releases": [
+    {
+      "id": "31b64b24-f7e1-4b20-b200-1d4de92993f6",
+      "title": "Niggas on the Moon",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop"
+      ],
+      "year": 2014,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/31b64b24-f7e1-4b20-b200-1d4de92993f6",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/31b64b24-f7e1-4b20-b200-1d4de92993f6"
+      }
+    },
+    {
+      "id": "dd2012b3-3a21-4150-aff1-fcff86b409c9",
+      "title": "Bottomless Pit",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop",
+        "rock"
+      ],
+      "year": 2016,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/dd2012b3-3a21-4150-aff1-fcff86b409c9",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/dd2012b3-3a21-4150-aff1-fcff86b409c9"
+      }
+    },
+    {
+      "id": "80172a28-bd94-4c89-b0a4-343fb0f9f6c2",
+      "title": "Year of the Snitch",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop",
+        "rock"
+      ],
+      "year": 2018,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/80172a28-bd94-4c89-b0a4-343fb0f9f6c2",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/80172a28-bd94-4c89-b0a4-343fb0f9f6c2"
+      }
+    },
+    {
+      "id": "6a1c9684-18c6-4b43-bd15-6badbbdc0600",
+      "title": "The Powers That B",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_ids": [
+        "abstract",
+        "experimental",
+        "hardcore",
+        "industrial-hip-hop"
+      ],
+      "year": 2015,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/6a1c9684-18c6-4b43-bd15-6badbbdc0600",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/6a1c9684-18c6-4b43-bd15-6badbbdc0600"
+      }
+    },
+    {
+      "id": "a8ea0702-c21a-4cc7-b1cb-83da70007964",
+      "title": "Fashion Week",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_ids": [
+        "electronic",
+        "hip-hop",
+        "instrumental-hip-hop"
+      ],
+      "year": 2015,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/a8ea0702-c21a-4cc7-b1cb-83da70007964",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/a8ea0702-c21a-4cc7-b1cb-83da70007964"
+      }
+    },
+    {
+      "id": "f1f6c7e2-7848-4554-b36c-2190e1d6bfb0",
+      "title": "Exmilitary",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_ids": [
+        "abstract",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop",
+        "rock"
+      ],
+      "year": 2011,
+      "release_type": "mixtape",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/f1f6c7e2-7848-4554-b36c-2190e1d6bfb0",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/f1f6c7e2-7848-4554-b36c-2190e1d6bfb0"
+      }
+    },
+    {
+      "id": "a3136431-78ae-4a4e-845e-b0b39fd6f465",
+      "title": "Government Plates",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop"
+      ],
+      "year": 2013,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/a3136431-78ae-4a4e-845e-b0b39fd6f465",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/a3136431-78ae-4a4e-845e-b0b39fd6f465"
+      }
+    },
+    {
+      "id": "aa0b4e86-358e-4c92-aecd-94f5f59233f7",
+      "title": "The Money Store",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_ids": [
+        "abstract",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop"
+      ],
+      "year": 2012,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/aa0b4e86-358e-4c92-aecd-94f5f59233f7",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": 4.4,
+          "rating_scale": 5.0,
+          "rating_count": 18,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/aa0b4e86-358e-4c92-aecd-94f5f59233f7"
+      }
+    },
+    {
+      "id": "dcdee807-7a10-44c6-8e33-36625d8579ba",
+      "title": "No Love Deep Web",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop"
+      ],
+      "year": 2012,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/dcdee807-7a10-44c6-8e33-36625d8579ba",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/dcdee807-7a10-44c6-8e33-36625d8579ba"
+      }
+    },
+    {
+      "id": "3d847591-7975-4fd5-a0a9-15c02fcf76e0",
+      "title": "Murmures Barbares",
+      "artist_ids": [
+        "ab40cede-1595-4d28-9080-862b11490fe7"
+      ],
+      "genre_ids": [
+        "abstract"
+      ],
+      "year": 2013,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/3d847591-7975-4fd5-a0a9-15c02fcf76e0",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/3d847591-7975-4fd5-a0a9-15c02fcf76e0"
+      }
+    },
+    {
+      "id": "ddfee023-0306-4842-b741-f3e3beeaba16",
+      "title": "Blindbeats",
+      "artist_ids": [
+        "98be7131-a744-4e7e-9e49-2a780359ecfb"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2012,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/ddfee023-0306-4842-b741-f3e3beeaba16",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/ddfee023-0306-4842-b741-f3e3beeaba16"
+      }
+    },
+    {
+      "id": "33456da2-86e1-4fd7-9784-c46b8f827cab",
+      "title": "Malarian pelko",
+      "artist_ids": [
+        "f77bd9ea-26a4-456f-9647-031a3972ccee"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2015,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/33456da2-86e1-4fd7-9784-c46b8f827cab",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/33456da2-86e1-4fd7-9784-c46b8f827cab"
+      }
+    },
+    {
+      "id": "360608f0-007c-49b3-90d7-8d2b81200e1f",
+      "title": "Kaikki on hyvin",
+      "artist_ids": [
+        "f77bd9ea-26a4-456f-9647-031a3972ccee"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2018,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/360608f0-007c-49b3-90d7-8d2b81200e1f",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/360608f0-007c-49b3-90d7-8d2b81200e1f"
+      }
+    },
+    {
+      "id": "f3694602-f134-41bc-a4cd-ae4e61478113",
+      "title": "Doctor Destructo and the Big Bad Wolf",
+      "artist_ids": [
+        "3ed3dcce-e933-4227-b9cb-8614a11b78c5",
+        "f465be54-5f5f-4941-aa98-456011c350a9"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2023,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/f3694602-f134-41bc-a4cd-ae4e61478113",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/f3694602-f134-41bc-a4cd-ae4e61478113"
+      }
+    },
+    {
+      "id": "1f6a40a7-cb65-446f-8824-db329f117fe0",
+      "title": "Avar uus",
+      "artist_ids": [
+        "01aaa1b4-4b35-48a3-8a00-5d82591d93d1"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2016,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/1f6a40a7-cb65-446f-8824-db329f117fe0",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/1f6a40a7-cb65-446f-8824-db329f117fe0"
+      }
+    },
+    {
+      "id": "1e85e321-98a9-4461-bbcf-e812fe053747",
+      "title": "Мой личный штат Чьяпас",
+      "artist_ids": [
+        "034f67a1-30b5-4525-a46e-c26b0cc00655"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2014,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/1e85e321-98a9-4461-bbcf-e812fe053747",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/1e85e321-98a9-4461-bbcf-e812fe053747"
+      }
+    },
+    {
+      "id": "4784331c-b0d7-4af1-9271-a5fe27a04c06",
+      "title": "Kiss My Versatility",
+      "artist_ids": [
+        "5fc280e7-a352-408b-ad9c-d82a4c1dadda"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2013,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/4784331c-b0d7-4af1-9271-a5fe27a04c06",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/4784331c-b0d7-4af1-9271-a5fe27a04c06"
+      }
+    },
+    {
+      "id": "2cd9d25e-29ad-4c7b-8cf5-3bbb779fb922",
+      "title": "the First Fist to Make Contact When We Dap",
+      "artist_ids": [
+        "38c740a4-f3bf-4c40-ad0c-5b73c8f24a12",
+        "5edebc27-5ae3-4e22-831a-18852377ebb8"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2024,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/2cd9d25e-29ad-4c7b-8cf5-3bbb779fb922",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/2cd9d25e-29ad-4c7b-8cf5-3bbb779fb922"
+      }
+    },
+    {
+      "id": "31b1a4ba-7278-4c0b-9521-08e25d7e66f1",
+      "title": "Rutin",
+      "artist_ids": [
+        "c65a34a6-21a8-412e-94b2-6b991041081a"
+      ],
+      "genre_ids": [
+        "abstract"
+      ],
+      "year": 2009,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/31b1a4ba-7278-4c0b-9521-08e25d7e66f1",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/31b1a4ba-7278-4c0b-9521-08e25d7e66f1"
+      }
+    },
+    {
+      "id": "e147eff0-e662-4e76-8626-1acb20e91d3b",
+      "title": "Гетто Гарбо",
+      "artist_ids": [
+        "034f67a1-30b5-4525-a46e-c26b0cc00655"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2012,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/e147eff0-e662-4e76-8626-1acb20e91d3b",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/e147eff0-e662-4e76-8626-1acb20e91d3b"
+      }
+    },
+    {
+      "id": "dc20bbac-b8a4-4ed4-8c29-4ea851a18489",
+      "title": "The Mocking Stars",
+      "artist_ids": [
+        "d261ed6f-11ca-4a35-bc26-e3d6fd1815b7"
+      ],
+      "genre_ids": [
+        "abstract",
+        "jazz-rap"
+      ],
+      "year": 2025,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/dc20bbac-b8a4-4ed4-8c29-4ea851a18489",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/dc20bbac-b8a4-4ed4-8c29-4ea851a18489"
+      }
+    },
+    {
+      "id": "caa37ad9-ec7f-49b7-807c-e8c152021240",
+      "title": "Songs That Went Tin",
+      "artist_ids": [
+        "7bc3a2d0-7eed-4b42-ae96-7d68c644454d"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": null,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/caa37ad9-ec7f-49b7-807c-e8c152021240",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/caa37ad9-ec7f-49b7-807c-e8c152021240"
+      }
+    },
+    {
+      "id": "d435d05d-3bfd-4a41-86f5-f8d6e8969ffa",
+      "title": "Town’s Dead",
+      "artist_ids": [
+        "f1b7101e-c968-4843-ad08-9ef5b846c915"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2021,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/d435d05d-3bfd-4a41-86f5-f8d6e8969ffa",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/d435d05d-3bfd-4a41-86f5-f8d6e8969ffa"
+      }
+    },
+    {
+      "id": "8c2d455e-aa05-463f-a1e8-d3f62883275a",
+      "title": "I Guess U Had to Be There",
+      "artist_ids": [
+        "1206c904-9282-494d-b9c7-49e8fb201e69",
+        "e34fef2d-2d3e-4847-b904-a6ec4c7e3f32"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2026,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/8c2d455e-aa05-463f-a1e8-d3f62883275a",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/8c2d455e-aa05-463f-a1e8-d3f62883275a"
+      }
+    },
+    {
+      "id": "c0b0010f-1aca-4b6b-a5ad-9a693267e2e3",
+      "title": "Resonance Frequency",
+      "artist_ids": [
+        "65eaa552-1149-4b42-888e-6d6e4affdbff",
+        "952701d5-59d2-40c5-b7a1-0d7925d5e351"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2026,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/c0b0010f-1aca-4b6b-a5ad-9a693267e2e3",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/c0b0010f-1aca-4b6b-a5ad-9a693267e2e3"
+      }
+    },
+    {
+      "id": "1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3",
+      "title": "Zwarte Achtegrond",
+      "artist_ids": [
+        "11565c2b-7fca-461b-bd19-312575066c06"
+      ],
+      "genre_ids": [],
+      "year": 2005,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3"
+      }
+    },
+    {
+      "id": "6b89d5ba-7084-4cc9-85b6-7852a9b90f8c",
+      "title": "Камера Озскура",
+      "artist_ids": [
+        "35028de5-77f5-4a22-861b-ae7031f30382"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2016,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/6b89d5ba-7084-4cc9-85b6-7852a9b90f8c",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/6b89d5ba-7084-4cc9-85b6-7852a9b90f8c"
+      }
+    },
+    {
+      "id": "4df9abe4-aaba-424f-80be-bd6ed18cea23",
+      "title": "Nestor Kéa & Rose Kante",
+      "artist_ids": [
+        "25458500-b9b0-42e3-a81b-9a19a4e9cc37",
+        "396c9bc9-33eb-43db-bc70-bff4e2788faf"
+      ],
+      "genre_ids": [
+        "abstract",
+        "electronic"
+      ],
+      "year": 2014,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/4df9abe4-aaba-424f-80be-bd6ed18cea23",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/4df9abe4-aaba-424f-80be-bd6ed18cea23"
+      }
+    },
+    {
+      "id": "ce76db41-7790-4e3a-bbe5-b65259c986c3",
+      "title": "Huoneita",
+      "artist_ids": [
+        "e93084bb-db4a-48dc-adc0-bf0e265748a7"
+      ],
+      "genre_ids": [
+        "abstract",
+        "experimental"
+      ],
+      "year": 2018,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/ce76db41-7790-4e3a-bbe5-b65259c986c3",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/ce76db41-7790-4e3a-bbe5-b65259c986c3"
+      }
+    },
+    {
+      "id": "8b074e69-7e40-4d57-8c47-1bc48b753a06",
+      "title": "HBD RIP",
+      "artist_ids": [
+        "f77bd9ea-26a4-456f-9647-031a3972ccee",
+        "515c9684-2fc1-4b0f-a069-1a9805df6d82"
+      ],
+      "genre_ids": [
+        "abstract",
+        "experimental"
+      ],
+      "year": 2020,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/8b074e69-7e40-4d57-8c47-1bc48b753a06",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/8b074e69-7e40-4d57-8c47-1bc48b753a06"
+      }
+    },
+    {
+      "id": "5e83c736-8832-4a66-935f-561b0e3b6b91",
+      "title": "MANIFESTO",
+      "artist_ids": [
+        "00447c0c-bc7e-4578-a206-31e95ac97571"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2024,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/5e83c736-8832-4a66-935f-561b0e3b6b91",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/5e83c736-8832-4a66-935f-561b0e3b6b91"
+      }
+    },
+    {
+      "id": "0a78d220-83bc-41de-8db7-49032881e1d2",
+      "title": "Hugs & Beats (the Instrumentals)",
+      "artist_ids": [
+        "03b6615a-0570-47d7-9270-b86ca20621ed"
+      ],
+      "genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "year": 2011,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/0a78d220-83bc-41de-8db7-49032881e1d2",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/0a78d220-83bc-41de-8db7-49032881e1d2"
+      }
+    },
+    {
+      "id": "6de3dcb4-d629-40f2-8674-c5f4329df5a5",
+      "title": "Their Dreams",
+      "artist_ids": [
+        "be457082-f628-4a4a-9099-b7c612234f2e"
+      ],
+      "genre_ids": [
+        "abstract",
+        "electronic"
+      ],
+      "year": 2017,
+      "release_type": "album",
+      "observations": [
+        {
+          "source": "musicbrainz",
+          "url": "https://musicbrainz.org/release-group/6de3dcb4-d629-40f2-8674-c5f4329df5a5",
+          "observed_at": "2026-10-28T11:46:25Z",
+          "rating": null,
+          "rating_scale": null,
+          "rating_count": null,
+          "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License"
+        }
+      ],
+      "links": {
+        "musicbrainz": "https://musicbrainz.org/release-group/6de3dcb4-d629-40f2-8674-c5f4329df5a5"
+      }
+    }
+  ]
+}

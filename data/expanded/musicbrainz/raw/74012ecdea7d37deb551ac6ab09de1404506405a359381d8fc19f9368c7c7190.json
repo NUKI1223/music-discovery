@@ -1,0 +1,264 @@
+{
+  "endpoint": "artist/",
+  "params": {
+    "query": "artist:\"Kendrick Lamar\" OR alias:\"Kendrick Lamar\"",
+    "fmt": "json",
+    "limit": 5
+  },
+  "url": "https://musicbrainz.org/ws/2/artist/?query=artist%3A%22Kendrick+Lamar%22+OR+alias%3A%22Kendrick+Lamar%22&fmt=json&limit=5",
+  "captured_at": "2026-10-28T12:31:34.246435+00:00",
+  "response": {
+    "created": "2026-10-28T12:31:34.181Z",
+    "count": 1,
+    "offset": 0,
+    "artists": [
+      {
+        "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "score": 100,
+        "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+        "name": "Kendrick Lamar",
+        "sort-name": "Lamar, Kendrick",
+        "gender": "male",
+        "country": "US",
+        "area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "begin-area": {
+          "id": "be9261e4-c8d1-49e6-acb2-3096c47ad4f8",
+          "type": "City",
+          "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+          "name": "Compton",
+          "sort-name": "Compton",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "ipis": [
+          "00670824633",
+          "00670824731"
+        ],
+        "isnis": [
+          "0000000362907030"
+        ],
+        "life-span": {
+          "begin": "1987-06-17",
+          "ended": null
+        },
+        "aliases": [
+          {
+            "sort-name": "Kendrick LAmar & SZA",
+            "name": "Kendrick Lamar, SZA",
+            "locale": null,
+            "type": null,
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "K. Duckworth",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "name": "K. Duckworth",
+            "locale": null,
+            "type": "Search hint",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Kendrick Duckworth",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "name": "Kendrick Duckworth",
+            "locale": null,
+            "type": "Search hint",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "Duckworth, Kendrick Lamar",
+            "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+            "name": "Kendrick Lamar Duckworth",
+            "locale": null,
+            "type": "Legal name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "ケンドリック・ラマー",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "ケンドリック・ラマー",
+            "locale": "ja",
+            "type": "Artist name",
+            "primary": true,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "켄드릭 라마",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "켄드릭 라마",
+            "locale": "ko",
+            "type": "Artist name",
+            "primary": true,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "OKLAMA",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "name": "OKLAMA",
+            "locale": null,
+            "type": "Search hint",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "K‐Dot",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "K‐Dot",
+            "locale": null,
+            "type": "Artist name",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          },
+          {
+            "sort-name": "K. Dot",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "name": "K. Dot",
+            "locale": null,
+            "type": "Search hint",
+            "primary": null,
+            "begin-date": null,
+            "end-date": null
+          }
+        ],
+        "tags": [
+          {
+            "count": 5,
+            "name": "pop"
+          },
+          {
+            "count": 6,
+            "name": "rap"
+          },
+          {
+            "count": 2,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "dance"
+          },
+          {
+            "count": 2,
+            "name": "house"
+          },
+          {
+            "count": 18,
+            "name": "hip hop"
+          },
+          {
+            "count": 0,
+            "name": "funk"
+          },
+          {
+            "count": 1,
+            "name": "disco"
+          },
+          {
+            "count": 2,
+            "name": "gangsta rap"
+          },
+          {
+            "count": 2,
+            "name": "pop rap"
+          },
+          {
+            "count": 0,
+            "name": "neo soul"
+          },
+          {
+            "count": 3,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 0,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 10,
+            "name": "west coast hip hop"
+          },
+          {
+            "count": 0,
+            "name": "boom bap"
+          },
+          {
+            "count": 2,
+            "name": "r&b"
+          },
+          {
+            "count": 2,
+            "name": "2010s"
+          },
+          {
+            "count": 12,
+            "name": "jazz rap"
+          },
+          {
+            "count": 14,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 0,
+            "name": "political hip hop"
+          },
+          {
+            "count": 7,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 2,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "future bass"
+          },
+          {
+            "count": 0,
+            "name": "relic inn"
+          },
+          {
+            "count": 2,
+            "name": "2020s"
+          },
+          {
+            "count": 2,
+            "name": "progressive rap"
+          },
+          {
+            "count": 2,
+            "name": "contemporary rap"
+          },
+          {
+            "count": 1,
+            "name": "conscious rapper"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "endpoint": "release-group/e83ed419-9eb2-40ff-a756-03417d431456",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e83ed419-9eb2-40ff-a756-03417d431456?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:36.781260+00:00",
+  "response": {
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "drum and bass",
+        "count": 1
+      },
+      {
+        "name": "shoegaze",
+        "count": 1
+      },
+      {
+        "name": "witch house",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "e83ed419-9eb2-40ff-a756-03417d431456",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "cd38c745-011d-42d8-86a0-d5ece0e53c66",
+          "genres": [
+            {
+              "count": 1,
+              "id": "462f9321-6103-49c9-b6db-96219bce6f62",
+              "disambiguation": "",
+              "name": "drum and bass"
+            },
+            {
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "5c61cf56-7dcd-4bd8-87e4-b5bb0c25255a",
+              "name": "harsh noise"
+            },
+            {
+              "name": "shoegaze",
+              "id": "a4012b2e-5c27-4f81-8781-9ae5998d882c",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type": "Group",
+          "sort-name": "спуск в тсж",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "avant-garde hip-hop",
+          "tags": [
+            {
+              "name": "drum and bass",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "harsh noise",
+              "count": 1
+            },
+            {
+              "name": "shoegaze",
+              "count": 1
+            }
+          ],
+          "country": "RU",
+          "name": "спуск в тсж"
+        },
+        "joinphrase": "",
+        "name": "спуск в тсж"
+      }
+    ],
+    "title": "девочка Маша расплавилась",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "462f9321-6103-49c9-b6db-96219bce6f62",
+        "count": 1,
+        "name": "drum and bass"
+      },
+      {
+        "name": "shoegaze",
+        "count": 1,
+        "disambiguation": "",
+        "id": "a4012b2e-5c27-4f81-8781-9ae5998d882c"
+      },
+      {
+        "id": "34ec5538-a91a-454f-b500-18253bb45c20",
+        "disambiguation": "",
+        "count": 1,
+        "name": "witch house"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2023-04-24"
+  }
+}

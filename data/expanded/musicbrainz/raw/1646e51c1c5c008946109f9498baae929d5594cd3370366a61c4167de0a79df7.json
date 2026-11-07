@@ -1,0 +1,151 @@
+{
+  "endpoint": "release-group/1c9aa7e9-c1a8-4c79-bdaa-69c4f3f614d5",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1c9aa7e9-c1a8-4c79-bdaa-69c4f3f614d5?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:06.075887+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "downtempo",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Ceschi",
+        "joinphrase": " & ",
+        "artist": {
+          "country": "US",
+          "id": "08ebf7c2-f65c-4d85-b746-1a926c36393d",
+          "disambiguation": "US rapper aka Ceschi Ramos",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "folk punk",
+              "disambiguation": "",
+              "count": 1,
+              "id": "6cec5b4d-3c64-44a6-914d-3e833432f631"
+            },
+            {
+              "name": "hardcore punk",
+              "disambiguation": "",
+              "count": 1,
+              "id": "055a6e4d-d929-42ac-ba7a-9d063b254ea5"
+            },
+            {
+              "name": "heavy metal",
+              "disambiguation": "",
+              "count": 1,
+              "id": "a6719055-99c4-47eb-beaa-71081f2376f9"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "count": 2,
+              "disambiguation": "",
+              "name": "underground hip hop"
+            }
+          ],
+          "sort-name": "Ceschi",
+          "name": "Ceschi",
+          "tags": [
+            {
+              "count": 1,
+              "name": "alternative hip hop"
+            },
+            {
+              "count": 1,
+              "name": "folk punk"
+            },
+            {
+              "name": "hardcore punk",
+              "count": 1
+            },
+            {
+              "name": "heavy metal",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "underground hip hop"
+            }
+          ]
+        }
+      },
+      {
+        "name": "DJ Scientist",
+        "artist": {
+          "disambiguation": "Günter Stöppel",
+          "type": "Person",
+          "id": "fbae35da-4122-4037-a6ae-651129eaa535",
+          "country": null,
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [],
+          "sort-name": "Scientist, DJ",
+          "name": "DJ Scientist"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+        "count": 1,
+        "disambiguation": "",
+        "name": "downtempo"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "name": "instrumental hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+      }
+    ],
+    "title": "Same Old Love Song",
+    "primary-type": "Album",
+    "id": "1c9aa7e9-c1a8-4c79-bdaa-69c4f3f614d5",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2009-06-05",
+    "disambiguation": ""
+  }
+}

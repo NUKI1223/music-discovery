@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/4b34525d-69fd-481a-8b67-11de9929a941",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4b34525d-69fd-481a-8b67-11de9929a941?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:46.270370+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "title": "Horrors of 1999",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "genres": [
+            {
+              "name": "punk rap",
+              "disambiguation": "",
+              "count": 1,
+              "id": "3385bb64-94ae-42bd-b43b-b8785835cfe7"
+            }
+          ],
+          "tags": [
+            {
+              "name": "punk rap",
+              "count": 1
+            }
+          ],
+          "id": "e0458faa-82b2-4011-b851-6a0ed1f5a0e6",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "country": "US",
+          "sort-name": "Ho99o9",
+          "type": "Group",
+          "name": "Ho99o9"
+        },
+        "name": "Ho99o9"
+      }
+    ],
+    "id": "4b34525d-69fd-481a-8b67-11de9929a941",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "hardcore punk",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "horrorcore"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hardcore punk",
+        "count": 1,
+        "id": "055a6e4d-d929-42ac-ba7a-9d063b254ea5",
+        "disambiguation": ""
+      },
+      {
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+        "count": 1,
+        "disambiguation": "",
+        "name": "horrorcore"
+      },
+      {
+        "disambiguation": "",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "first-release-date": "2015-06-09",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

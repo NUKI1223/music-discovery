@@ -1,0 +1,263 @@
+{
+  "endpoint": "release-group/04722c88-c8f6-42db-8f54-030ddabd7826",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/04722c88-c8f6-42db-8f54-030ddabd7826?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:28.199083+00:00",
+  "response": {
+    "title": "Morning Routine",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "first-release-date": "2024-12-06",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "746a1e70-e300-4616-8f20-33b4c231b484",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "id": "18d52a87-bbbf-42f0-8338-189c8c314523",
+              "count": 1,
+              "disambiguation": "",
+              "name": "chillwave"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+              "name": "downtempo"
+            },
+            {
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "count": 1,
+              "disambiguation": "",
+              "name": "electronic"
+            },
+            {
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+              "count": 1,
+              "disambiguation": "",
+              "name": "instrumental"
+            },
+            {
+              "count": 2,
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "disambiguation": "",
+              "name": "instrumental hip hop"
+            },
+            {
+              "count": 2,
+              "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011",
+              "disambiguation": "",
+              "name": "lo-fi"
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "d92aaf30-5941-4a65-b741-d9d48c80772a",
+              "name": "lo-fi hip hop"
+            }
+          ],
+          "tags": [
+            {
+              "name": "beatmaker",
+              "count": 1
+            },
+            {
+              "name": "beats",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "count": 1,
+              "name": "boombap"
+            },
+            {
+              "count": 1,
+              "name": "chillwave"
+            },
+            {
+              "name": "downtempo",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "name": "instrumental",
+              "count": 1
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "jazz beats"
+            },
+            {
+              "count": 2,
+              "name": "lo-fi"
+            },
+            {
+              "name": "lo-fi beats",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "lo-fi hip hop"
+            }
+          ],
+          "name": "Sátyr",
+          "sort-name": "Sátyr",
+          "type": "Person",
+          "country": "DE",
+          "disambiguation": "German lo‐fi electronic artist"
+        },
+        "joinphrase": ", ",
+        "name": "Sátyr"
+      },
+      {
+        "name": "delaney.",
+        "joinphrase": "",
+        "artist": {
+          "id": "00e6e102-6b80-485e-95f6-897e485b3b87",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "boom bap",
+              "disambiguation": "",
+              "count": 1,
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+            },
+            {
+              "id": "18d52a87-bbbf-42f0-8338-189c8c314523",
+              "count": 1,
+              "disambiguation": "",
+              "name": "chillwave"
+            },
+            {
+              "count": 1,
+              "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+              "disambiguation": "",
+              "name": "downtempo"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+              "count": 1,
+              "name": "instrumental"
+            },
+            {
+              "name": "instrumental hip hop",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011",
+              "disambiguation": "",
+              "name": "lo-fi"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "d92aaf30-5941-4a65-b741-d9d48c80772a",
+              "name": "lo-fi hip hop"
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "name": "chillwave",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "downtempo"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "instrumental",
+              "count": 1
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1
+            },
+            {
+              "name": "lo-fi",
+              "count": 1
+            },
+            {
+              "name": "lo-fi hip hop",
+              "count": 1
+            }
+          ],
+          "name": "delaney.",
+          "sort-name": "delaney.",
+          "type": "Person",
+          "country": "NL",
+          "disambiguation": "lo-fi artist"
+        }
+      }
+    ],
+    "id": "04722c88-c8f6-42db-8f54-030ddabd7826",
+    "tags": [
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "genres": [
+      {
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1,
+        "disambiguation": "",
+        "name": "instrumental hip hop"
+      }
+    ]
+  }
+}

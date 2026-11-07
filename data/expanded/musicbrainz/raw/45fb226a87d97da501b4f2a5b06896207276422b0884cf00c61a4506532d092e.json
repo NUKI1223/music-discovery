@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/509ff3f1-3621-4791-bad7-2f4093e738d8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/509ff3f1-3621-4791-bad7-2f4093e738d8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:14.438378+00:00",
+  "response": {
+    "id": "509ff3f1-3621-4791-bad7-2f4093e738d8",
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Moor Mother",
+        "artist": {
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "sort-name": "Moor Mother",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "US",
+          "type": "Person",
+          "disambiguation": "",
+          "name": "Moor Mother",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "id": "16610cf1-5ed5-4770-89b4-bf7e7aca7ebf"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "political hip hop",
+        "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2019-10-16",
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "name": "political hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "The Myth Hold Weight",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

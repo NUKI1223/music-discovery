@@ -1,0 +1,80 @@
+{
+  "endpoint": "release-group/976860d2-578f-4c90-a759-ffa56abcf803",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/976860d2-578f-4c90-a759-ffa56abcf803?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:47.285497+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "id": "976860d2-578f-4c90-a759-ffa56abcf803",
+    "artist-credit": [
+      {
+        "name": "Jeff Le Nerf",
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Jeff Le Nerf",
+          "type": "Person",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "name": "underground hip hop",
+              "disambiguation": "",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "count": 1
+            }
+          ],
+          "id": "ee836afb-4214-44c4-a9bc-ea46be37dd71",
+          "name": "Jeff Le Nerf",
+          "country": "FR",
+          "tags": [
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "underground hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "French rapper"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2001-11",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      }
+    ],
+    "title": "Les Nerfs sur le verbe…"
+  }
+}

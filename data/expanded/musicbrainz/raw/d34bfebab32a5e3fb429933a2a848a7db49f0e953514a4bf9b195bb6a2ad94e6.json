@@ -1,0 +1,144 @@
+{
+  "endpoint": "release-group/55542a05-bb5d-4ead-bcb0-a0173bb87bee",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/55542a05-bb5d-4ead-bcb0-a0173bb87bee?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:07.879819+00:00",
+  "response": {
+    "title": "Death Drive",
+    "tags": [
+      {
+        "name": "death industrial",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "electro-industrial"
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "punk",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "synth punk"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "DEBBY FRIDAY",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Friday, Debby",
+          "tags": [
+            {
+              "name": "electro-industrial",
+              "count": 1
+            },
+            {
+              "name": "industrial hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "synth punk"
+            }
+          ],
+          "id": "da8b6c67-710c-4480-bf2a-ca2849b42094",
+          "name": "DEBBY FRIDAY",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "electro-industrial",
+              "id": "6e2e809f-8c54-4e0f-aca0-0642771ab3cf",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "industrial hip hop",
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+            }
+          ],
+          "country": "CA",
+          "disambiguation": ""
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2019-08-16",
+    "id": "55542a05-bb5d-4ead-bcb0-a0173bb87bee",
+    "genres": [
+      {
+        "id": "1ff6cfb5-ff2b-415f-86b8-22951db5f72a",
+        "name": "death industrial",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "electro-industrial",
+        "id": "6e2e809f-8c54-4e0f-aca0-0642771ab3cf"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "experimental",
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "punk",
+        "id": "8cc9b280-230b-4a3a-b1e2-8acab0744dd3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "endpoint": "artist/",
+  "params": {
+    "query": "artist:\"Kanye West\"",
+    "fmt": "json",
+    "limit": 5
+  },
+  "url": "https://musicbrainz.org/ws/2/artist/?query=artist%3A%22Kanye+West%22&fmt=json&limit=5",
+  "captured_at": "2026-10-28T12:17:05.156547+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:05.089Z",
+    "count": 2,
+    "offset": 0,
+    "artists": [
+      {
+        "id": "0eb17834-1d29-47ef-a422-9dc68d73c5e4",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "score": 100,
+        "name": "Kanye West Tribute Band",
+        "sort-name": "West, Kanye, Tribute Band",
+        "life-span": {
+          "ended": null
+        }
+      },
+      {
+        "id": "48c25fb5-480f-48ca-86f3-8aba60bc6ce9",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "score": 93,
+        "name": "Kanye West & Hatsune Miku",
+        "sort-name": "Kanye & Miku",
+        "country": "US",
+        "area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "begin-area": {
+          "id": "489ce91b-6658-3307-9877-795b68554c98",
+          "type": "Country",
+          "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+          "name": "United States",
+          "sort-name": "United States",
+          "life-span": {
+            "ended": null
+          }
+        },
+        "life-span": {
+          "begin": "2025-01-01",
+          "ended": null
+        }
+      }
+    ]
+  }
+}

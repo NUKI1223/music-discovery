@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/3eb23840-c3d5-46ee-8f2b-e265bcbcd01e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3eb23840-c3d5-46ee-8f2b-e265bcbcd01e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:09.484779+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2022-05-06",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "id": "3eb23840-c3d5-46ee-8f2b-e265bcbcd01e",
+    "primary-type": "EP",
+    "title": "Parasite",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": null,
+          "genres": [],
+          "id": "0b80afd0-347c-4495-8675-10f0471c4d24",
+          "country": null,
+          "type": null,
+          "disambiguation": "French rap",
+          "name": "Rok",
+          "sort-name": "Rok",
+          "tags": []
+        },
+        "joinphrase": "",
+        "name": "Rok"
+      }
+    ],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ]
+  }
+}

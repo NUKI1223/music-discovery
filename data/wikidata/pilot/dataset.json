@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "source": "wikidata",
+  "license": "CC0-1.0",
+  "license_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "fetched_at": "2026-10-28T12:10:07Z",
+  "catalog_snapshot_id": "musicbrainz-sample-c92b2e00e84d43cd",
+  "catalog_sha256": "b0410732c46c5a9cacf8dd7f0953621607c076d108fe2439f7a24fc3f22d77ab",
+  "taxonomy_version": "mb-tags-v1",
+  "is_fixture": false,
+  "records": [
+    {
+      "release_id": "1f6a40a7-cb65-446f-8824-db329f117fe0",
+      "release_group_mbid": "1f6a40a7-cb65-446f-8824-db329f117fe0",
+      "wikidata_id": "Q63457342",
+      "title": "Avar uus",
+      "artist_ids": [
+        "01aaa1b4-4b35-48a3-8a00-5d82591d93d1"
+      ],
+      "genre_qids": [],
+      "genre_labels": {},
+      "features": {},
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 1535220745,
+      "modified_at": "2021-11-28T00:11:23Z",
+      "source_url": "https://www.wikidata.org/wiki/Q63457342",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q63457342",
+          "statement_id": "Q63457342$4ea3ee2c-403d-911f-4d0e-e1d22f507c5f",
+          "value": "1f6a40a7-cb65-446f-8824-db329f117fe0",
+          "rank": "normal",
+          "reference_count": 0
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q63457342",
+          "statement_id": "Q63457342$5d61543f-4146-2b85-92a2-444793e172ec",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 8352134,
+            "id": "Q8352134"
+          },
+          "rank": "normal",
+          "reference_count": 0
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q8352134",
+          "statement_id": "q8352134$579AC968-9C84-4C3C-A3BE-599C43DFCD4C",
+          "value": "01aaa1b4-4b35-48a3-8a00-5d82591d93d1",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q8352134",
+          "statement_id": "Q8352134$94a31b9e-4730-8ff9-94fe-85717e2db0d4",
+          "value": "d82561a9-10f3-4e3c-8baa-42df2b1eabc1",
+          "rank": "normal",
+          "reference_count": 0
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q8352134",
+          "statement_id": "Q8352134$b26f5a1e-4374-b5f4-fb87-8d2a1cac5c4f",
+          "value": "51b20fa9-885f-45a9-b630-4dd8b1e89df3",
+          "rank": "normal",
+          "reference_count": 0
+        }
+      ]
+    },
+    {
+      "release_id": "33456da2-86e1-4fd7-9784-c46b8f827cab",
+      "release_group_mbid": "33456da2-86e1-4fd7-9784-c46b8f827cab",
+      "wikidata_id": "Q19835078",
+      "title": "Malarian pelko",
+      "artist_ids": [
+        "f77bd9ea-26a4-456f-9647-031a3972ccee"
+      ],
+      "genre_qids": [
+        "Q11401"
+      ],
+      "genre_labels": {
+        "Q11401": "hip-hop"
+      },
+      "features": {
+        "wikidata_genre:Q11401": 1.0
+      },
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 2119199114,
+      "modified_at": "2024-04-04T11:44:00Z",
+      "source_url": "https://www.wikidata.org/wiki/Q19835078",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q19835078",
+          "statement_id": "Q19835078$d8963608-ed73-4a94-9759-dee3d5596c87",
+          "value": "33456da2-86e1-4fd7-9784-c46b8f827cab",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q19835078",
+          "statement_id": "Q19835078$4EC1FE3B-2D37-4886-BF64-C7E419EDAE91",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 11886644,
+            "id": "Q11886644"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q11886644",
+          "statement_id": "q11886644$51C97004-650D-4514-95D4-54D9DE083B9B",
+          "value": "f77bd9ea-26a4-456f-9647-031a3972ccee",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q11886644",
+          "statement_id": "Q11886644$692de631-40fe-76b6-2cb0-ae40e45e8321",
+          "value": "4f8fc930-1d36-498d-b1c0-d8f7be866852",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P136",
+          "entity_id": "Q19835078",
+          "statement_id": "Q19835078$04B82479-D353-47C7-92C6-C59956DC88D3",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 11401,
+            "id": "Q11401"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P577",
+          "entity_id": "Q19835078",
+          "statement_id": "Q19835078$66CCED30-91BA-4185-A2CD-EFF13CA17A4A",
+          "value": {
+            "time": "+2015-04-17T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "rank": "normal",
+          "reference_count": 0
+        }
+      ]
+    },
+    {
+      "release_id": "6a1c9684-18c6-4b43-bd15-6badbbdc0600",
+      "release_group_mbid": "6a1c9684-18c6-4b43-bd15-6badbbdc0600",
+      "wikidata_id": "Q17151420",
+      "title": "The Powers That B",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_qids": [],
+      "genre_labels": {},
+      "features": {},
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 2369984972,
+      "modified_at": "2025-06-29T13:07:50Z",
+      "source_url": "https://www.wikidata.org/wiki/Q17151420",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q17151420",
+          "statement_id": "Q17151420$34BFC1F5-F660-4384-AB85-A8E39FC8158F",
+          "value": "6a1c9684-18c6-4b43-bd15-6badbbdc0600",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q17151420",
+          "statement_id": "Q17151420$5D0BD1CD-E755-4333-A9A6-97EFA45B9F60",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 3020722,
+            "id": "Q3020722"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q3020722",
+          "statement_id": "q3020722$0B1BAB10-BDA7-4FAB-AA75-106C311755A0",
+          "value": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P577",
+          "entity_id": "Q17151420",
+          "statement_id": "Q17151420$86A4CF8D-007B-4FAF-8604-081CC2AF0637",
+          "value": {
+            "time": "+2015-03-31T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        }
+      ]
+    },
+    {
+      "release_id": "80172a28-bd94-4c89-b0a4-343fb0f9f6c2",
+      "release_group_mbid": "80172a28-bd94-4c89-b0a4-343fb0f9f6c2",
+      "wikidata_id": "Q54087443",
+      "title": "Year of the Snitch",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_qids": [],
+      "genre_labels": {},
+      "features": {},
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 2470229304,
+      "modified_at": "2026-03-07T17:10:30Z",
+      "source_url": "https://www.wikidata.org/wiki/Q54087443",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q54087443",
+          "statement_id": "Q54087443$67055595-48e7-951e-c648-f959b5401479",
+          "value": "80172a28-bd94-4c89-b0a4-343fb0f9f6c2",
+          "rank": "normal",
+          "reference_count": 0
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q54087443",
+          "statement_id": "Q54087443$f0c14348-4174-f1ce-b45f-ea49377fd4f2",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 3020722,
+            "id": "Q3020722"
+          },
+          "rank": "normal",
+          "reference_count": 0
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q3020722",
+          "statement_id": "q3020722$0B1BAB10-BDA7-4FAB-AA75-106C311755A0",
+          "value": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P577",
+          "entity_id": "Q54087443",
+          "statement_id": "Q54087443$084DBF06-84A4-4AEB-8B85-22CF14B6FA15",
+          "value": {
+            "time": "+2018-00-00T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 9,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        }
+      ]
+    },
+    {
+      "release_id": "a3136431-78ae-4a4e-845e-b0b39fd6f465",
+      "release_group_mbid": "a3136431-78ae-4a4e-845e-b0b39fd6f465",
+      "wikidata_id": "Q17020851",
+      "title": "Government Plates",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_qids": [
+        "Q5421158"
+      ],
+      "genre_labels": {
+        "Q5421158": "experimental hip-hop"
+      },
+      "features": {
+        "wikidata_genre:Q5421158": 1.0
+      },
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 2527589532,
+      "modified_at": "2026-08-05T10:52:44Z",
+      "source_url": "https://www.wikidata.org/wiki/Q17020851",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q17020851",
+          "statement_id": "Q17020851$01AA498A-9E55-4B7C-B966-7EBE37D5B3EC",
+          "value": "a3136431-78ae-4a4e-845e-b0b39fd6f465",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q17020851",
+          "statement_id": "Q17020851$C0FE1D87-438F-4047-A84B-61FB3E12BB25",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 3020722,
+            "id": "Q3020722"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q3020722",
+          "statement_id": "q3020722$0B1BAB10-BDA7-4FAB-AA75-106C311755A0",
+          "value": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P136",
+          "entity_id": "Q17020851",
+          "statement_id": "Q17020851$2973D6C5-4661-4210-9820-503AC4D4DD49",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 5421158,
+            "id": "Q5421158"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P577",
+          "entity_id": "Q17020851",
+          "statement_id": "Q17020851$4FFC69AA-C305-4A09-B8AE-C1294D2D87DF",
+          "value": {
+            "time": "+2013-11-13T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        }
+      ]
+    },
+    {
+      "release_id": "a8ea0702-c21a-4cc7-b1cb-83da70007964",
+      "release_group_mbid": "a8ea0702-c21a-4cc7-b1cb-83da70007964",
+      "wikidata_id": "Q18713611",
+      "title": "Fashion Week",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_qids": [],
+      "genre_labels": {},
+      "features": {},
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 2531939102,
+      "modified_at": "2026-08-16T10:25:26Z",
+      "source_url": "https://www.wikidata.org/wiki/Q18713611",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q18713611",
+          "statement_id": "Q18713611$19BFEE12-9F7B-4889-8EEC-CAAF3CE2C682",
+          "value": "a8ea0702-c21a-4cc7-b1cb-83da70007964",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q18713611",
+          "statement_id": "Q18713611$34CB6323-06A1-4146-B24D-D0798E28F5DF",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 3020722,
+            "id": "Q3020722"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q3020722",
+          "statement_id": "q3020722$0B1BAB10-BDA7-4FAB-AA75-106C311755A0",
+          "value": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P577",
+          "entity_id": "Q18713611",
+          "statement_id": "Q18713611$A7D60C90-B73C-49C6-9E6B-919AC6DDA0FE",
+          "value": {
+            "time": "+2015-01-04T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        }
+      ]
+    },
+    {
+      "release_id": "aa0b4e86-358e-4c92-aecd-94f5f59233f7",
+      "release_group_mbid": "aa0b4e86-358e-4c92-aecd-94f5f59233f7",
+      "wikidata_id": "Q7752003",
+      "title": "The Money Store",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_qids": [
+        "Q5421158"
+      ],
+      "genre_labels": {
+        "Q5421158": "experimental hip-hop"
+      },
+      "features": {
+        "wikidata_genre:Q5421158": 1.0
+      },
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 2454645581,
+      "modified_at": "2026-01-13T18:51:30Z",
+      "source_url": "https://www.wikidata.org/wiki/Q7752003",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q7752003",
+          "statement_id": "Q7752003$DB092D7D-9670-4D9E-AA9B-E204B7DD7E20",
+          "value": "aa0b4e86-358e-4c92-aecd-94f5f59233f7",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q7752003",
+          "statement_id": "Q7752003$49B568B1-F38D-46D0-98F7-DC8890A5FD20",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 3020722,
+            "id": "Q3020722"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q3020722",
+          "statement_id": "q3020722$0B1BAB10-BDA7-4FAB-AA75-106C311755A0",
+          "value": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P136",
+          "entity_id": "Q7752003",
+          "statement_id": "Q7752003$2EAF151B-19BD-4898-A6BC-2C1E7B8210AA",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 5421158,
+            "id": "Q5421158"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P577",
+          "entity_id": "Q7752003",
+          "statement_id": "Q7752003$F94D7705-0AFE-4387-ABAA-EA96BD282649",
+          "value": {
+            "time": "+2012-04-24T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        }
+      ]
+    },
+    {
+      "release_id": "dcdee807-7a10-44c6-8e33-36625d8579ba",
+      "release_group_mbid": "dcdee807-7a10-44c6-8e33-36625d8579ba",
+      "wikidata_id": "Q17042652",
+      "title": "No Love Deep Web",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_qids": [
+        "Q5421158"
+      ],
+      "genre_labels": {
+        "Q5421158": "experimental hip-hop"
+      },
+      "features": {
+        "wikidata_genre:Q5421158": 1.0
+      },
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 2432931496,
+      "modified_at": "2025-11-23T15:59:54Z",
+      "source_url": "https://www.wikidata.org/wiki/Q17042652",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q17042652",
+          "statement_id": "Q17042652$A320C334-EC3D-452F-8BAC-0CDC1B2CA969",
+          "value": "dcdee807-7a10-44c6-8e33-36625d8579ba",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q17042652",
+          "statement_id": "Q17042652$3154BA66-EDB8-42A3-83A7-373B7C7D898E",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 3020722,
+            "id": "Q3020722"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q3020722",
+          "statement_id": "q3020722$0B1BAB10-BDA7-4FAB-AA75-106C311755A0",
+          "value": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P136",
+          "entity_id": "Q17042652",
+          "statement_id": "Q17042652$82BE9051-EE2D-4818-B983-3226FC33774F",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 5421158,
+            "id": "Q5421158"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P577",
+          "entity_id": "Q17042652",
+          "statement_id": "Q17042652$AC6D780F-D668-4728-8E57-DAEBF306A1D9",
+          "value": {
+            "time": "+2012-10-01T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "rank": "normal",
+          "reference_count": 1
+        }
+      ]
+    },
+    {
+      "release_id": "dd2012b3-3a21-4150-aff1-fcff86b409c9",
+      "release_group_mbid": "dd2012b3-3a21-4150-aff1-fcff86b409c9",
+      "wikidata_id": "Q24211156",
+      "title": "Bottomless Pit",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_qids": [],
+      "genre_labels": {},
+      "features": {},
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 2506914463,
+      "modified_at": "2026-06-17T05:41:09Z",
+      "source_url": "https://www.wikidata.org/wiki/Q24211156",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q24211156",
+          "statement_id": "Q24211156$ED2F50B2-E17E-4707-A8D2-6E2A68F5ED1A",
+          "value": "dd2012b3-3a21-4150-aff1-fcff86b409c9",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q24211156",
+          "statement_id": "Q24211156$1b7ea75c-49ac-7a6d-f946-4edafce91172",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 3020722,
+            "id": "Q3020722"
+          },
+          "rank": "normal",
+          "reference_count": 0
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q3020722",
+          "statement_id": "q3020722$0B1BAB10-BDA7-4FAB-AA75-106C311755A0",
+          "value": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P577",
+          "entity_id": "Q24211156",
+          "statement_id": "Q24211156$59c6ef5c-418d-22de-f279-df9096f2a56c",
+          "value": {
+            "time": "+2016-05-06T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "rank": "normal",
+          "reference_count": 0
+        }
+      ]
+    },
+    {
+      "release_id": "f1f6c7e2-7848-4554-b36c-2190e1d6bfb0",
+      "release_group_mbid": "f1f6c7e2-7848-4554-b36c-2190e1d6bfb0",
+      "wikidata_id": "Q5420445",
+      "title": "Exmilitary",
+      "artist_ids": [
+        "f9133036-ab3d-4e97-bd11-7a2c98ad148a"
+      ],
+      "genre_qids": [
+        "Q5421158"
+      ],
+      "genre_labels": {
+        "Q5421158": "experimental hip-hop"
+      },
+      "features": {
+        "wikidata_genre:Q5421158": 1.0
+      },
+      "mapping_status": "exact_release_group_and_artist",
+      "revision_id": 2408523823,
+      "modified_at": "2025-09-23T09:36:12Z",
+      "source_url": "https://www.wikidata.org/wiki/Q5420445",
+      "claims": [
+        {
+          "property_id": "P436",
+          "entity_id": "Q5420445",
+          "statement_id": "q5420445$FCF6202B-DE45-4BD7-A593-6D364144FFBF",
+          "value": "f1f6c7e2-7848-4554-b36c-2190e1d6bfb0",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P175",
+          "entity_id": "Q5420445",
+          "statement_id": "Q5420445$F85A0828-3FFD-4789-8E7D-BB5630D43841",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 3020722,
+            "id": "Q3020722"
+          },
+          "rank": "normal",
+          "reference_count": 0
+        },
+        {
+          "property_id": "P434",
+          "entity_id": "Q3020722",
+          "statement_id": "q3020722$0B1BAB10-BDA7-4FAB-AA75-106C311755A0",
+          "value": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+          "rank": "normal",
+          "reference_count": 1
+        },
+        {
+          "property_id": "P136",
+          "entity_id": "Q5420445",
+          "statement_id": "Q5420445$67DC3476-AED5-46D0-A0F8-576AD3E02003",
+          "value": {
+            "entity-type": "item",
+            "numeric-id": 5421158,
+            "id": "Q5421158"
+          },
+          "rank": "normal",
+          "reference_count": 0
+        },
+        {
+          "property_id": "P577",
+          "entity_id": "Q5420445",
+          "statement_id": "Q5420445$40F5AA31-E95A-4886-94CC-FABE676929F4",
+          "value": {
+            "time": "+2011-04-27T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          },
+          "rank": "normal",
+          "reference_count": 0
+        }
+      ]
+    }
+  ],
+  "quarantine": [
+    {
+      "release_id": "360608f0-007c-49b3-90d7-8d2b81200e1f",
+      "wikidata_id": "Q55770592",
+      "reason": "ambiguous_release_group_ids",
+      "release_group_mbids": [
+        "360608f0-007c-49b3-90d7-8d2b81200e1f",
+        "6fbc69ef-bd0b-4469-be51-66b97f748c9b"
+      ]
+    },
+    {
+      "release_id": "1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3",
+      "wikidata_id": "Q20814394",
+      "reason": "artist_identity_unverified",
+      "expected_artist_ids": [
+        "11565c2b-7fca-461b-bd19-312575066c06"
+      ],
+      "observed_artist_mbids": []
+    }
+  ],
+  "coverage": {
+    "catalog_releases": 33,
+    "queried_releases": 33,
+    "exact_release_matches": 12,
+    "verified_records": 10,
+    "records_with_genres": 5,
+    "genre_assertions": 5,
+    "quarantined": 2,
+    "no_personal_labels": true,
+    "no_popularity_signal": true
+  }
+}

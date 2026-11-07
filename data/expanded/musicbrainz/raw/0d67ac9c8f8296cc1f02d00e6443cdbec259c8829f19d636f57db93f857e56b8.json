@@ -1,0 +1,3456 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"jazz rap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22jazz+rap%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2010-01-01+TO+2019-12-31%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:34.763451+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:34.667Z",
+    "count": 160,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "b7a04cff-ded8-4d2b-8672-eefa3ca16f7e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5e1f885a-51a7-3488-bb51-9b8c88acd8b5",
+        "count": 1,
+        "title": "la Brise du Mammouth",
+        "first-release-date": "2017-07-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "la Brise du Mammouth",
+            "artist": {
+              "id": "cdb00133-eaa7-489a-ad05-6ad012ad4f15",
+              "name": "la Brise du Mammouth",
+              "sort-name": "la Brise du Mammouth"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a091786a-3a62-4166-8c6a-0bd35f7ef5a4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "la Brise du Mammouth",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "b677b7ec-a2d8-45b0-9516-23f5cd7ea4d7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 92,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "47b1df9c-b75d-3ad8-a4bb-b5b2ac1cfa64",
+        "count": 1,
+        "title": "Vorhaut EP",
+        "first-release-date": "2015-08-31",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Nepumuk",
+            "artist": {
+              "id": "17a7f922-a83b-447f-b856-12111cf7c561",
+              "name": "Nepumuk",
+              "sort-name": "Nepumuk",
+              "disambiguation": "German rapper, aka Luk from Luk&Fil"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4a45fb8a-451e-40ef-b875-8c6d2ea16e5d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "vorhaut ep",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "funk"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "7f78dd96-e9b8-4299-95a1-863ae769aab4",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ed3ab8e8-550c-3a63-a069-307324af6340",
+        "count": 1,
+        "title": "Paris L.A. Bruxelles",
+        "first-release-date": "2017-09-21",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "The Alchemist",
+            "artist": {
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "sort-name": "Alchemist, The",
+              "disambiguation": "hip hop DJ & producer",
+              "aliases": [
+                {
+                  "sort-name": "Alchemist, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The Alchemist",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Alchemist",
+                  "name": "Alchemist",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4019c99c-6ceb-45b5-9916-e3d535bc77a1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Paris L.A. Bruxelles",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "10c95c63-a9ad-4d7d-96bf-a33a90e3731b",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9c665b45-2e95-49e6-bef4-adb9dd4b0015",
+        "count": 2,
+        "title": "The Girl, The Cat and The Tree",
+        "first-release-date": "2018-06-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "LAUSSE THE CAT",
+            "artist": {
+              "id": "d261ed6f-11ca-4a35-bc26-e3d6fd1815b7",
+              "name": "LAUSSE THE CAT",
+              "sort-name": "LAUSSE THE CAT"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ae075a89-94d3-4fd3-beb9-dd44376abe40",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Girl, The Cat and The Tree",
+            "status": "Official"
+          },
+          {
+            "id": "270ce0b5-0a08-4775-978b-3121e1329e87",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Girl, The Cat and The Tree",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "b39b4b7c-4993-4d75-a113-1023baca4d59",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f8940b1f-0f4d-3500-9712-1550d7970c93",
+        "count": 1,
+        "title": "Jasmine",
+        "first-release-date": "2017-04-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": "×",
+            "name": "唾奇",
+            "artist": {
+              "id": "20648573-f059-4eca-a35f-403b0f24cdb2",
+              "name": "唾奇",
+              "sort-name": "Tsubaki",
+              "disambiguation": "Japanese rapper",
+              "aliases": [
+                {
+                  "sort-name": "Tsubaki",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Tsubaki",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Sweet William",
+            "artist": {
+              "id": "7587f84a-9b6a-4f65-9d6b-cf77959f8a9a",
+              "name": "Sweet William",
+              "sort-name": "Sweet William",
+              "disambiguation": "Japanese hip hop producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6abbcbba-45de-4ed0-bdae-a43713ba2252",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Jasmine",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "373535df-18b9-4b50-8e8a-9bea15b40635",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 81,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c6af990a-514f-303f-9e37-348883938f67",
+        "count": 1,
+        "title": "Recollections & Premonitions",
+        "first-release-date": "2016-10-03",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "D:Q",
+            "artist": {
+              "id": "e4fd9aaa-305b-4c41-8487-5ba73694b89c",
+              "name": "Masilo The Healer",
+              "sort-name": "Masilo The Healer",
+              "disambiguation": "South African Rapper/Singer/Songwriter.",
+              "aliases": [
+                {
+                  "sort-name": "MASILO",
+                  "name": "MASILO : the guided",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rori Lengoasa",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Rori Lengoasa",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "D : Q",
+                  "name": "D : Q",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "15151831-f16b-4d55-b9f4-31bf676030e7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Recollections & Premonitions",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "r&b"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "90b912fc-66a0-4c0a-a749-a35e4c17b093",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "68162a70-4b79-30b5-a59a-12467804644b",
+        "count": 1,
+        "title": "Jazz Cookin'",
+        "first-release-date": "2019-03-06",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Winterplay",
+            "artist": {
+              "id": "08606ff0-9819-4bb6-aca4-0e6d379b696d",
+              "name": "Winterplay",
+              "sort-name": "Winterplay",
+              "aliases": [
+                {
+                  "sort-name": "윈터플레이",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "윈터플레이",
+                  "locale": "ko",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "99bc8b46-741b-4f4f-b5b5-d9b6f4e8a6e0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Jazz Cookin'",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "d2952e8b-8874-4fa2-b797-d2c26e4de7d8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 77,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e73c3b6b-9fb4-362e-8914-20ca69018e0f",
+        "count": 1,
+        "title": "That Yonder",
+        "first-release-date": "2016-10-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Barrett Staples",
+            "artist": {
+              "id": "ca303e69-3667-4be2-bb6f-45a84737a5f9",
+              "name": "Barrett Staples",
+              "sort-name": "Staples, Barrett",
+              "aliases": [
+                {
+                  "sort-name": "Stapelman, Barrett",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrett Stapelman",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ff612e2e-1251-42d0-a18b-70a5b802837c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "That Yonder",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rap"
+          },
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "5978dd8b-e354-49ff-b433-4dd11050e5c8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 77,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "0d9b3d5a-ab52-3bd1-aa55-3e9d3ed6c53c",
+        "count": 1,
+        "title": "Truly Yours",
+        "first-release-date": "2013-02-12",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "J. Cole",
+            "artist": {
+              "id": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+              "name": "J. Cole",
+              "sort-name": "Cole, J.",
+              "disambiguation": "US rapper & producer",
+              "aliases": [
+                {
+                  "sort-name": "J Cole",
+                  "name": "J Cole",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Cole, Jermaine",
+                  "name": "Jermaine Cole",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Cole, Jermaine Lamarr",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jermaine Lamarr Cole",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Cole, Jermaine L.",
+                  "name": "Jermaine L. Cole",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "j.cole",
+                  "name": "j.cole",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "96ce4d20-2329-45d9-8466-4e1046ae363d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Truly Yours",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "pop rap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "5d19d0e9-7972-49a3-849d-216824a8a582",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "09d58b6d-1b7b-3319-bfa7-329bbe3b6332",
+        "count": 2,
+        "title": "Avantdale Bowling Club",
+        "first-release-date": "2018-08-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Avantdale Bowling Club",
+            "artist": {
+              "id": "e9b7b5c2-21e4-44f2-b181-a53bccfefbef",
+              "name": "Avantdale Bowling Club",
+              "sort-name": "Avantdale Bowling Club",
+              "disambiguation": "New Zealand hip hop jazz"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c00f7593-3ac7-4c56-a7e4-069c904ae2e8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Avantdale Bowling Club",
+            "status": "Official"
+          },
+          {
+            "id": "3966a10f-1993-475a-9499-6a62eb65567b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Avantdale Bowling Club",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "self-titled"
+          },
+          {
+            "count": 1,
+            "name": "jazz-rap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "7003fb90-1ccd-4f22-85b0-72748ea9a06d",
+        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+        "score": 75,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e279b68f-39c1-3085-85e4-5d2ad368a13e",
+        "count": 2,
+        "title": "The R & R : Remixes & Revisions",
+        "first-release-date": "2011-12-20",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Bop Alloy",
+            "artist": {
+              "id": "573378a6-15a3-4a6c-b63c-388cbd1e8fea",
+              "name": "Bop Alloy",
+              "sort-name": "Bop Alloy",
+              "disambiguation": "Substantial & Marcus D",
+              "aliases": [
+                {
+                  "sort-name": "Substantial and Marcus D Are Bop Alloy",
+                  "name": "Substantial and Marcus D Are Bop Alloy",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1dfddbf4-bd7d-424f-88f1-77b60d6721fe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The R & R (Remixes & Revisions)",
+            "status": "Official"
+          },
+          {
+            "id": "bd3161bd-91fa-4698-adc3-8128f91eaae5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The R & R : Remixes & Revisions",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "113fb748-f281-4a01-8c98-f4c8d10310b5",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 75,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e279b68f-39c1-3085-85e4-5d2ad368a13e",
+        "count": 1,
+        "title": "prePAIRED",
+        "first-release-date": "2010-09-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Bop Alloy",
+            "artist": {
+              "id": "573378a6-15a3-4a6c-b63c-388cbd1e8fea",
+              "name": "Bop Alloy",
+              "sort-name": "Bop Alloy",
+              "disambiguation": "Substantial & Marcus D",
+              "aliases": [
+                {
+                  "sort-name": "Substantial and Marcus D Are Bop Alloy",
+                  "name": "Substantial and Marcus D Are Bop Alloy",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "13a8ec1f-ed07-4424-8daf-10e4e929b6a4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "prePAIRED",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "2720725d-7da8-48bc-b80e-eb3a5011796d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 75,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "20a52376-55da-3c3a-8938-d4849c57e6f6",
+        "count": 1,
+        "title": "Brutal",
+        "first-release-date": "2016-01-22",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Moka Only",
+            "artist": {
+              "id": "373701dd-346b-48ad-b098-c1ffe00f9df7",
+              "name": "Moka Only",
+              "sort-name": "Moka Only",
+              "disambiguation": "hip-hop, alias of Daniel Denton"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "87ceecb0-fa30-4874-999d-1b6cb425bbf0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Brutal",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "cb5b26cb-f86e-4fc8-ac45-0bb9033e0543",
+        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+        "score": 75,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e279b68f-39c1-3085-85e4-5d2ad368a13e",
+        "count": 1,
+        "title": "The R & R (Remixes & Revisions) [INSTRUMENTALS]",
+        "first-release-date": "2011-12-13",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Bop Alloy",
+            "artist": {
+              "id": "573378a6-15a3-4a6c-b63c-388cbd1e8fea",
+              "name": "Bop Alloy",
+              "sort-name": "Bop Alloy",
+              "disambiguation": "Substantial & Marcus D",
+              "aliases": [
+                {
+                  "sort-name": "Substantial and Marcus D Are Bop Alloy",
+                  "name": "Substantial and Marcus D Are Bop Alloy",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8205c809-a164-4d73-8e55-8a1ebbcbe4f7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The R & R (Remixes & Revisions) [INSTRUMENTALS]",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "90a2a015-5473-403a-b3c9-74ecc996952f",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 75,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8720578c-f8b2-4490-aa38-f3c2afc48777",
+        "count": 1,
+        "title": "Cosmic Pianiments Frasco",
+        "first-release-date": "2015",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Sweet William",
+            "artist": {
+              "id": "7587f84a-9b6a-4f65-9d6b-cf77959f8a9a",
+              "name": "Sweet William",
+              "sort-name": "Sweet William",
+              "disambiguation": "Japanese hip hop producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8fc6a9a1-0a56-4eac-b992-1f4095aed4a6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cosmic Pianiments Frasco",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "736944d4-9c60-4520-8957-ba1ab8f09a90",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 75,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e279b68f-39c1-3085-85e4-5d2ad368a13e",
+        "count": 3,
+        "title": "Another Day in the Life of…",
+        "first-release-date": "2014-04-08",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Bop Alloy",
+            "artist": {
+              "id": "573378a6-15a3-4a6c-b63c-388cbd1e8fea",
+              "name": "Bop Alloy",
+              "sort-name": "Bop Alloy",
+              "disambiguation": "Substantial & Marcus D",
+              "aliases": [
+                {
+                  "sort-name": "Substantial and Marcus D Are Bop Alloy",
+                  "name": "Substantial and Marcus D Are Bop Alloy",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1ed9d488-b57e-45d0-ba85-2a0789fd7596",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Another Day in the Life of…",
+            "status": "Official"
+          },
+          {
+            "id": "8368c0e9-9235-49f3-a72f-d723ad2e6317",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Another Day in the Life of…",
+            "status": "Official"
+          },
+          {
+            "id": "fe44fb4a-3bdd-41f9-9816-6f72ccd99a05",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Another Day in the Life of...",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "5613734a-d89e-4d9c-aef7-dde14f1ca6fb",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 75,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fe92eacc-1b97-33f3-9754-6471d756b1cd",
+        "count": 2,
+        "title": "Fantasy Island",
+        "first-release-date": "2017-06-02",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " / ",
+            "name": "Jay Worthy",
+            "artist": {
+              "id": "5114e1fc-7dbd-47e3-aa6e-83cc2f9d3474",
+              "name": "Jay Worthy",
+              "sort-name": "Worthy, Jay",
+              "aliases": [
+                {
+                  "sort-name": "Sidhoo, Jeffrey James",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jeffrey James Sidhoo",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Alchemist",
+            "artist": {
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "sort-name": "Alchemist, The",
+              "disambiguation": "hip hop DJ & producer",
+              "aliases": [
+                {
+                  "sort-name": "Alchemist, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The Alchemist",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Alchemist",
+                  "name": "Alchemist",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "01c34940-2bdf-47c5-a0f3-7991fb9dcf0f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fantasy Island",
+            "status": "Official"
+          },
+          {
+            "id": "e50e04b3-6db8-423d-8ef2-f61f91708d89",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fantasy Island",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "ae025704-0135-46aa-a49a-307db4c2416a",
+        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+        "score": 75,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "bfed4031-e2c1-3f5e-bcd7-313186e9fb36",
+        "count": 2,
+        "title": "Live from London",
+        "first-release-date": "2013",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Live"
+        ],
+        "secondary-type-ids": [
+          "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+        ],
+        "artist-credit": [
+          {
+            "name": "Mac Miller",
+            "artist": {
+              "id": "a0e8a1b1-5f8f-475a-a253-17415c17d0ff",
+              "name": "Mac Miller",
+              "sort-name": "Miller, Mac",
+              "disambiguation": "American rapper",
+              "aliases": [
+                {
+                  "sort-name": "Mac, Easy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Easy Mac",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5b43ddb1-4f28-4ba7-9cc3-5db904361ac1",
+            "title": "Live from London"
+          },
+          {
+            "id": "6fda1274-e3f5-45fe-b573-b98c857f76d9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mac Miller : Live From London",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "pop rap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "5a1fb6e2-e71a-434c-b13b-1f7c6296874b",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 75,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ffb4d4a9-63ce-3944-a4e8-d0647e33ddf2",
+        "count": 4,
+        "title": "Luv(sic) Hexalogy",
+        "first-release-date": "2015-12-09",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "joinphrase": " feat. ",
+            "name": "Nujabes",
+            "artist": {
+              "id": "1595addf-f76b-450a-a097-af852ff35f27",
+              "name": "Nujabes",
+              "sort-name": "Nujabes",
+              "aliases": [
+                {
+                  "sort-name": "Seba, Jun",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "瀬葉淳",
+                  "locale": "ja",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Yamada, Jun",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "山田淳",
+                  "locale": "ja",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Yamada, Jun",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jun Yamada",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "ヌジャベス",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "ヌジャベス",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Seba, Jun",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jun Seba",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Shing02",
+            "artist": {
+              "id": "e3a263df-90e5-48e2-bcdf-23ae5fecbd5f",
+              "name": "Shing02",
+              "sort-name": "Shing02",
+              "aliases": [
+                {
+                  "sort-name": "Shingo2",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Shingo2",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "725390d1-5e43-40eb-b655-3a7970c95eec",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Luv(sic) Hexalogy",
+            "status": "Official"
+          },
+          {
+            "id": "814655d2-dcba-479a-b110-b9c3e01fc700",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Luv(sic) Hexalogy",
+            "status": "Official"
+          },
+          {
+            "id": "0eed522a-09d7-40de-9a79-7b5e9ce461f4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Luv(sic) Hexalogy",
+            "status": "Official"
+          },
+          {
+            "id": "861ec3fc-912d-4554-bbe3-1102e4cbdaf9",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Luv(sic) Hexalogy",
+            "status": "Withdrawn"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "b43ca523-b753-4381-8630-19a21fc4c527",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 74,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6505488f-fa72-3372-b69c-8cd2ac8c1b42",
+        "count": 1,
+        "title": "Present",
+        "first-release-date": "2016-05-27",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Substantial",
+            "artist": {
+              "id": "38cdd71c-344b-4c54-bac2-19709da7140d",
+              "name": "Substantial",
+              "sort-name": "Substantial",
+              "disambiguation": "US rapper Stan Robinson",
+              "aliases": [
+                {
+                  "sort-name": "Substaintial",
+                  "name": "Substaintial",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Marcus D",
+            "artist": {
+              "id": "105ed38e-9493-4bf5-b222-bc8ed5545b7f",
+              "name": "Marcus D",
+              "sort-name": "Marcus D",
+              "aliases": [
+                {
+                  "sort-name": "Marino, Marcus",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Marcus Marino",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "812673a3-817c-4350-9413-c48bdd47199b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Present",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b16397ae-3c6f-451f-a6cc-e24daf89045d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 74,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "11d729e0-bf05-3b3f-a7a2-800c581fcda7",
+        "count": 1,
+        "title": "Cardrive EP",
+        "first-release-date": "2017-06-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Genesis Owusu",
+            "artist": {
+              "id": "632258cb-4ab5-4f2d-be29-bcc641a275eb",
+              "name": "Genesis Owusu",
+              "sort-name": "Owusu, Genesis"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "02ca6428-a624-4c97-85f5-a460676015a7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cardrive EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "8af0c6b5-4061-4873-84ef-b3263522608e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 71,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "fe7ba6c7-3c33-34fa-a804-03eb450bbe1d",
+        "count": 1,
+        "title": "Yesterday, Tomorrow and You",
+        "first-release-date": "2015-03-31",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " feat. ",
+            "name": "Louis Mackey",
+            "artist": {
+              "id": "7160fde7-9383-49ae-8b63-35f875ed7a30",
+              "name": "Louis Mackey",
+              "sort-name": "Mackey, Louis",
+              "aliases": [
+                {
+                  "sort-name": "Raso, Michael",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael Raso",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Thirtyseven",
+            "artist": {
+              "id": "eb5bae67-f316-4a7a-8340-2c51a685d4fe",
+              "name": "Thirtyseven",
+              "sort-name": "Thirtyseven"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "876dadef-76ef-47e5-8f51-7742b8808d35",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Yesterday, Tomorrow and You",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "jazz-funk"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "ee5bc85f-775f-433e-9678-72e01cf4dd4c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 71,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "752e1ad7-b3e5-32d5-8225-df7a135cb177",
+        "count": 1,
+        "title": "Too Lit",
+        "first-release-date": "2017-07-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Joey Bada$$",
+            "artist": {
+              "id": "9757ae7d-44b1-4d63-81ce-b463fe27b9ae",
+              "name": "Joey Bada$$",
+              "sort-name": "Joey Badass",
+              "disambiguation": "rapper",
+              "aliases": [
+                {
+                  "sort-name": "Joey Badass",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Joey Badass",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Scott, Jo-Vaughn",
+                  "name": "Jo-Vaughn Scott",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Scott, Jo-Vaughn Virginie",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jo-Vaughn Virginie Scott",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e175d4bc-fd01-4f60-99ef-42fcc5b0a447",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Too Lit",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "east coast hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d2f2a098-8ec3-4b41-9145-e592452a85d7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "95dc9dab-e6c9-3328-8b41-0fbdf4497b14",
+        "count": 2,
+        "title": "©",
+        "first-release-date": "2010-08-04",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Teflon Brothers",
+            "artist": {
+              "id": "7b8d3013-0fdc-4609-89f6-866ae411e1c6",
+              "name": "Teflon Brothers",
+              "sort-name": "Teflon Brothers"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6f6856fa-b744-4753-bec6-ccdebbed4bb4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "©",
+            "status": "Official"
+          },
+          {
+            "id": "bc23df3c-3389-4d39-a954-d0f190dce9f6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "©",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "pop"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "58b3b80b-ad9d-42ab-8dbd-4058dfee9b54",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "0d9c7e42-58df-30f5-a163-422c84ce5ac9",
+        "count": 1,
+        "title": "Wooo What A Jazzy",
+        "first-release-date": "2010-08-20",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "ROMANTIC PRODUCTION",
+            "artist": {
+              "id": "26e5ae59-2dba-4e09-b58e-6b1b8b34a216",
+              "name": "ROMANTIC PRODUCTION",
+              "sort-name": "ROMANTIC PRODUCTION"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "841e72f2-ad64-41eb-a559-ab96b1c4a36f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Wooo What A Jazzy",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "123b0ebf-1eb6-4958-895c-8e76e0895600",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "30c0ef32-bc1e-3046-bf6a-7cc1adf60434",
+        "count": 1,
+        "title": "Tough Crowd",
+        "first-release-date": "2018-11-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Tough Crowd",
+            "artist": {
+              "id": "f974bd29-93a4-445d-9002-945330f8b93a",
+              "name": "Tough Crowd",
+              "sort-name": "Tough Crowd"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "de863d5a-f123-45fe-8b84-eedf5ddfc574",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tough Crowd",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "74fe8f0a-242d-4910-ad7d-1d5d4c9c3d78",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "a67c2ffd-7cf4-3e3f-8a7a-34d440f8b923",
+        "count": 1,
+        "title": "Matte Black Soul",
+        "first-release-date": "2014-12-08",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Awon",
+            "artist": {
+              "id": "d3ef6795-d3cc-44aa-974a-c460d53f0cf2",
+              "name": "Awon",
+              "sort-name": "Awon",
+              "disambiguation": "American hip-hop recording artist",
+              "aliases": [
+                {
+                  "sort-name": "Magnetic",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Magnetic",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Wiggins, Antwan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Antwan Wiggins",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "88841970-afc8-47bf-becd-6d5723d7ac5a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Matte Black Soul",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "d815de2f-c98c-464b-b64b-6b2193f2b2d6",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d85eb1ce-e29d-367d-a007-ea3a28d710d5",
+        "count": 1,
+        "title": "The Great Mixtape",
+        "first-release-date": "2015-10-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Sampa the Great",
+            "artist": {
+              "id": "9d79c790-9897-464e-aef0-db5bd3290f00",
+              "name": "Sampa the Great",
+              "sort-name": "Sampa the Great",
+              "aliases": [
+                {
+                  "sort-name": "Tembo, Sampa",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Sampa Tembo",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "daa130f8-70f7-4ae4-8bf7-9a15253b4a16",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Great Mixtape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "r&b"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          }
+        ]
+      },
+      {
+        "id": "1e993d2a-e87f-4800-be28-67b6a170d281",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "b1fbb22c-6e7c-3219-9c1a-ee32746e998f",
+        "count": 1,
+        "title": "Lotus Deluxe",
+        "first-release-date": "2015-09-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Sergeant Jay",
+            "artist": {
+              "id": "67280670-648a-45ca-8cd2-ad4dd54b1797",
+              "name": "Sergeant Jay",
+              "sort-name": "Sergeant Jay",
+              "aliases": [
+                {
+                  "sort-name": "Méndez, David",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "David Méndez",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "586291be-2b4c-4c2d-a376-db1cbe5eac31",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lotus Deluxe",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "8974d5d9-6b96-433b-a659-d767ae6ce0ff",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d85eb1ce-e29d-367d-a007-ea3a28d710d5",
+        "count": 2,
+        "title": "Birds and the BEE9",
+        "first-release-date": "2017-11-10",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Sampa the Great",
+            "artist": {
+              "id": "9d79c790-9897-464e-aef0-db5bd3290f00",
+              "name": "Sampa the Great",
+              "sort-name": "Sampa the Great",
+              "aliases": [
+                {
+                  "sort-name": "Tembo, Sampa",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Sampa Tembo",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9ae73f2a-5217-4d35-8583-db1c59414ba7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Birds and the BEE9",
+            "status": "Official"
+          },
+          {
+            "id": "fd4b65f4-e66e-4bd3-8122-26b607b8f3d9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Birds and the BEE9",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "r&b"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "alternative r&b"
+          }
+        ]
+      },
+      {
+        "id": "81ed3bda-dd87-4cd2-94bc-ade3a5c804a1",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "606731ec-a903-3474-a799-c4a393e17492",
+        "count": 2,
+        "title": "The Carrollton Heist",
+        "first-release-date": "2016-02-14",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Curren$y",
+            "artist": {
+              "id": "4ce1c576-305a-4b82-82fa-5e5359056219",
+              "name": "Curren$y",
+              "sort-name": "Currensy",
+              "aliases": [
+                {
+                  "sort-name": "Franklin, Shante",
+                  "name": "Shante Franklin",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Shante Anthony Franklin",
+                  "name": "Shante Anthony Franklin",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Spitta",
+                  "name": "Spitta",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Currency",
+                  "name": "Currency",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Franklin, Shante Scott",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Shante Scott Franklin",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Currensy",
+                  "name": "Currensy",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Alchemist",
+            "artist": {
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "sort-name": "Alchemist, The",
+              "disambiguation": "hip hop DJ & producer",
+              "aliases": [
+                {
+                  "sort-name": "Alchemist, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The Alchemist",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Alchemist",
+                  "name": "Alchemist",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6daf227e-c400-4752-bfb0-788cb33ca82b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Carrollton Heist",
+            "status": "Official"
+          },
+          {
+            "id": "671d7379-d8fe-4f40-a737-6d445765b455",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Carrollton Heist",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "drumless"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "6be4ef9a-8e9b-4367-b6fa-94d0eb1d6277",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "0852754b-3eea-30d5-a783-f4538eec204e",
+        "count": 1,
+        "title": "Zéro",
+        "first-release-date": "2018-12-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Kin Chino",
+            "artist": {
+              "id": "ae07308c-f420-47b0-aec7-208de60a78e7",
+              "name": "KinChino",
+              "sort-name": "KinChino"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5f61c9bf-afcd-43cf-80a1-b1fa75cce6f6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Zéro",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "6ad7bdef-90f0-43ed-ad2f-5708af978516",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 70,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "47d5812c-7496-423b-8458-6234751e649a",
+        "count": 2,
+        "title": "Headfones 0.3 \"Voicing\"",
+        "first-release-date": "2011-05-23",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "12mé & Raph",
+            "artist": {
+              "id": "c05574a5-3535-467d-a1bc-d88598b3d0fe",
+              "name": "12mé & Raph",
+              "sort-name": "12mé & Raph",
+              "aliases": [
+                {
+                  "sort-name": "12mé et Raph",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "12mé et Raph",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d02e157a-066c-41ec-bc2b-99240b5a743b",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Headfones 0.3 \"Voicing\"",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "58752aa5-d057-4e98-af46-5c095a266f2b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Voicing",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "jazz"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "61b433d0-9c42-4c29-88ec-0516c8e52f59",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 69,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e5883860-197e-3bb8-bfa8-42be4f1b3118",
+        "count": 2,
+        "title": "The Past...",
+        "first-release-date": "2015-03-17",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Substantial",
+            "artist": {
+              "id": "38cdd71c-344b-4c54-bac2-19709da7140d",
+              "name": "Substantial",
+              "sort-name": "Substantial",
+              "disambiguation": "US rapper Stan Robinson",
+              "aliases": [
+                {
+                  "sort-name": "Substaintial",
+                  "name": "Substaintial",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Other Guys",
+            "artist": {
+              "id": "2237f88c-b5f4-464c-b7cf-9930cbbd244d",
+              "name": "The Other Guys",
+              "sort-name": "Other Guys, The",
+              "disambiguation": "US hip-hop duo"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bfca45fe-dc95-419e-a104-4b5c9ffdf5ff",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Past...",
+            "status": "Official"
+          },
+          {
+            "id": "77e0ab5c-2d4d-4c49-9dd3-963ee6a01564",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Past...",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8d3fc06d-446d-427a-8e12-d5189eb2bd4a",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 69,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "99b54a40-99e5-3524-bd49-2d7ac2a82cd7",
+        "count": 1,
+        "title": "Streams of Thought, Vol. 2",
+        "first-release-date": "2018-11-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Black Thought",
+            "artist": {
+              "id": "5f39d33c-a167-4a63-9c44-71d27618b712",
+              "name": "Black Thought",
+              "sort-name": "Black Thought",
+              "disambiguation": "US rapper, singer, and actor Tarik Trotter",
+              "aliases": [
+                {
+                  "sort-name": "Tarik Luqmaan Trotter",
+                  "name": "Tarik Luqmaan Trotter",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Tariq Luqmaan Collins",
+                  "name": "Tariq Luqmaan Collins",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Tarik Trotter",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Tarik Trotter",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "T. Trotter",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "T. Trotter",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Trotter, Tariq Luqmaan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Tariq Luqmaan Trotter",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Tariq Trotter",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Tariq Trotter",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Collins, Tarik Luqmaan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Tarik Luqmaan Collins",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Salaam Remi",
+            "artist": {
+              "id": "9b5cec21-c18d-498c-afbd-67db0e80e8e9",
+              "name": "Salaam Remi",
+              "sort-name": "Remi, Salaam",
+              "aliases": [
+                {
+                  "sort-name": "Chameleon, The",
+                  "name": "The Chameleon",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "SALAAMREMI.COM",
+                  "name": "SALAAMREMI.COM",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Gibbs, Salaam Remi",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Salaam Remi Gibbs",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "S. Gibbs",
+                  "name": "S. Gibbs",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Salaam Gibbs",
+                  "name": "Salaam Gibbs",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e70b828c-780a-4bce-93b2-b1c81ec53561",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Streams of Thought, Vol. 2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 4,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 2,
+            "name": "conscious hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0a93782b-f4b8-40fc-98ed-f696d97bad83",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 66,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a4976af4-a881-309a-8fdc-60599bb69549",
+        "count": 1,
+        "title": "These Kingston Times",
+        "first-release-date": "2014-10-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Five Steez",
+            "artist": {
+              "id": "21429ca9-0126-4768-beec-5253d51f0b1e",
+              "name": "Five Steez",
+              "sort-name": "Five Steez",
+              "disambiguation": "Jamaican underground hip-hop MC"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a2365c6d-0306-4c96-94a4-87baeba9b08e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "These Kingston Times",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "1d81b156-0425-4ac2-a78d-d7eee39b96a7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 66,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a4976af4-a881-309a-8fdc-60599bb69549",
+        "count": 1,
+        "title": "HeatRockz",
+        "first-release-date": "2016-08-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Five Steez",
+            "artist": {
+              "id": "21429ca9-0126-4768-beec-5253d51f0b1e",
+              "name": "Five Steez",
+              "sort-name": "Five Steez",
+              "disambiguation": "Jamaican underground hip-hop MC"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "90163935-fd25-4484-a727-3bb6512521d4",
+            "title": "HeatRockz"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "2f274a8b-ff7b-4e63-8f9d-78f17ad09725",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 66,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "36d1bbb7-8070-3aaf-a5f9-a0cebe6f09b9",
+        "count": 1,
+        "title": "Dicaprio",
+        "first-release-date": "2015-01-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "J.I.D",
+            "artist": {
+              "id": "d616b606-cf6a-4b6e-ab0f-e253b8db6610",
+              "name": "JID",
+              "sort-name": "JID",
+              "disambiguation": "rapper",
+              "aliases": [
+                {
+                  "sort-name": "Route, Destin",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Destin Route",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "JID",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "JID",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "J.I.D",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "J.I.D",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a0de5389-3838-4eb5-ab99-7f9a35882d24",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dicaprio",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "southern hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1d95b7f0-76d8-47e4-8776-5e9066e2a7a6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 66,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ed3ab8e8-550c-3a63-a069-307324af6340",
+        "count": 1,
+        "title": "Yacht Rock",
+        "first-release-date": "2013-07-12",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "The Alchemist",
+            "artist": {
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "sort-name": "Alchemist, The",
+              "disambiguation": "hip hop DJ & producer",
+              "aliases": [
+                {
+                  "sort-name": "Alchemist, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The Alchemist",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Alchemist",
+                  "name": "Alchemist",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b3ab99ed-8fd9-40e4-b009-4d2faf4561cb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Yacht Rock",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "drumless"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 2,
+            "name": "yacht rock"
+          }
+        ]
+      },
+      {
+        "id": "38776f16-fd85-4451-9815-576dff8b4dfe",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 66,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "549fe516-5d95-3761-b2b8-d0065987ffab",
+        "count": 3,
+        "title": "Devil’s Son EP (From the Vaults)",
+        "first-release-date": "2017-04-22",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "Big L",
+            "artist": {
+              "id": "f1c0d18c-6101-4aa2-ae47-8df5b7280fde",
+              "name": "Big L",
+              "sort-name": "Big L",
+              "disambiguation": "rapper Lamont Coleman",
+              "aliases": [
+                {
+                  "sort-name": "L. Colemon",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "L. Colemon",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Big L",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Big L",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lamont Coleman",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Lamont Coleman",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "59d91023-49e6-4852-8f98-9c2f729df049",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Devil’s Son EP (From the Vaults)",
+            "status": "Bootleg"
+          },
+          {
+            "id": "230155d8-7b9e-4fbc-84ee-28c0538213f7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Devil’s Son EP (From the Vaults)",
+            "status": "Official"
+          },
+          {
+            "id": "444d01f8-1781-493a-9dff-5fa8818b6f2a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Devil’s Son EP (From the Vaults)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "9638f362-1519-41d1-aec6-17e677ca7614",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 66,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ae711d9f-d5e8-30e4-acbc-9b934d9dc064",
+        "count": 1,
+        "title": "Soul Golden",
+        "first-release-date": "2017-05-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Black Noi$e",
+            "artist": {
+              "id": "5227e102-ced3-4ae1-affc-bbb745332bb2",
+              "name": "Black Noi$e",
+              "sort-name": "Black Noi$e",
+              "aliases": [
+                {
+                  "sort-name": "Mansel, Rob",
+                  "name": "Rob Mansel",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Mansel, Robert",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Robert Mansel",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Navy Blue",
+            "artist": {
+              "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+              "name": "Navy Blue",
+              "sort-name": "Navy Blue",
+              "disambiguation": "US skateboarder & rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sage Elsesser",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Sage Elsesser",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2b651e91-354c-44a9-b930-7ab1926cfe7a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Soul Golden",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "drumless"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "bccd6e30-ee2d-4b48-a9f6-bc21c4e1e4f0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 66,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "0796f17d-061d-37f2-8701-73923abfb929",
+        "count": 1,
+        "title": "12\" Ninjazz presenta: Frente Aliado Boombap vs. El Eje del Jazz",
+        "first-release-date": "2013",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "12″ Ninjazz",
+            "artist": {
+              "id": "31da9189-76ea-4e76-a06c-2b2d5dd400be",
+              "name": "12″ Ninjazz",
+              "sort-name": "12 inch ninjazz"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ab7a163c-376c-4385-837b-4acd544d0907",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "12\" Ninjazz presenta: Frente Aliado Boombap vs. El Eje del Jazz",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "87520582-32c1-41d4-9915-30dd7d35b0db",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 66,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "752e1ad7-b3e5-32d5-8225-df7a135cb177",
+        "count": 6,
+        "title": "Summer Knights",
+        "first-release-date": "2013-07-01",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Joey Bada$$",
+            "artist": {
+              "id": "9757ae7d-44b1-4d63-81ce-b463fe27b9ae",
+              "name": "Joey Bada$$",
+              "sort-name": "Joey Badass",
+              "disambiguation": "rapper",
+              "aliases": [
+                {
+                  "sort-name": "Joey Badass",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Joey Badass",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Scott, Jo-Vaughn",
+                  "name": "Jo-Vaughn Scott",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Scott, Jo-Vaughn Virginie",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jo-Vaughn Virginie Scott",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "31d5b1db-776f-4a4d-9253-7ef2e219c98c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Summer Knights",
+            "status": "Official"
+          },
+          {
+            "id": "6f1ae9ab-3e31-484a-b1ea-794e2fcad395",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Summer Knights",
+            "status": "Bootleg"
+          },
+          {
+            "id": "8c2f1363-5905-4af8-8d56-8f827b82cf6b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Summer Knights",
+            "status": "Official"
+          },
+          {
+            "id": "8fe540b6-68cd-46cd-9fea-bbade71ed1c1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Summer Knights",
+            "status": "Official"
+          },
+          {
+            "id": "d8af121c-7c78-44e1-b6c9-f5bb8442b1ff",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Summer Knights",
+            "status": "Official"
+          },
+          {
+            "id": "a4030c37-4039-47fe-8cf4-678d23a3e93b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Summer Knights",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "2a30fc12-b3c9-495c-9cc8-ebdf1b4d2970",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 66,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f8615a6a-8fea-3e53-82db-703fdc1aa8e3",
+        "count": 2,
+        "title": "Shigeo",
+        "first-release-date": "2018-06-29",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Galv",
+            "artist": {
+              "id": "77e68c6a-2d0f-476d-bc23-fd496a133636",
+              "name": "Galv",
+              "sort-name": "Galv",
+              "disambiguation": "German rapper"
+            }
+          },
+          {
+            "name": "S. Fidelity",
+            "artist": {
+              "id": "f0a4cf36-2c62-4725-8c5a-ee4e07302aa2",
+              "name": "S. Fidelity",
+              "sort-name": "S. Fidelity",
+              "disambiguation": "Producer & Engineer",
+              "aliases": [
+                {
+                  "sort-name": "Wetter, Tim",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Tim Wetter",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3a1cd338-5fa8-407b-9619-37c73a1768ee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Shigeo",
+            "status": "Official"
+          },
+          {
+            "id": "761bfd97-4e89-408b-b405-ddcf63ec2db7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Shigeo",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "419aabec-1cbe-4327-a282-d8268341166c",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 66,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "752e1ad7-b3e5-32d5-8225-df7a135cb177",
+        "count": 1,
+        "title": "Rejex",
+        "first-release-date": "2012-09-06",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation",
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Joey Bada$$",
+            "artist": {
+              "id": "9757ae7d-44b1-4d63-81ce-b463fe27b9ae",
+              "name": "Joey Bada$$",
+              "sort-name": "Joey Badass",
+              "disambiguation": "rapper",
+              "aliases": [
+                {
+                  "sort-name": "Joey Badass",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Joey Badass",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Scott, Jo-Vaughn",
+                  "name": "Jo-Vaughn Scott",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Scott, Jo-Vaughn Virginie",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jo-Vaughn Virginie Scott",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "74d6ffdb-fdd5-4c0c-b756-b11de5388dfa",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Rejex",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "f490f100-43bd-4158-b832-6b5a6e7ca312",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 66,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4d8e9df7-5cb0-3dc0-9ce1-f6e093715c10",
+        "count": 2,
+        "title": "Empty Bank",
+        "first-release-date": "2016-09-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Jay IDK",
+            "artist": {
+              "id": "02fa2b63-016b-4cb3-bf01-2f8f43973876",
+              "name": "IDK",
+              "sort-name": "IDK",
+              "disambiguation": "Jay IDK",
+              "aliases": [
+                {
+                  "sort-name": ".idk.",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": ".idk.",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ignorantly Delivering Knowledge",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Ignorantly Delivering Knowledge",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Jay IDK",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jay IDK",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Mills, Jason Aaron",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jason Aaron Mills",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8b7d75d8-24f3-4d74-a1e5-8bd69b9f9117",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Empty Bank",
+            "status": "Official"
+          },
+          {
+            "id": "a521875b-588c-4c51-818f-49dc67ca615c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Empty Bank",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "4ee5359c-e9b0-49af-9be5-736bd9e95754",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 66,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "89f830f5-1926-4648-bf99-e62595711849",
+        "count": 1,
+        "title": "Kaleidoscope Suite - Best Mix and Remixes",
+        "first-release-date": "2018-01-17",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation",
+          "Remix",
+          "DJ-mix"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+          "0c60f497-ff81-3818-befd-abfc84a4858b",
+          "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+        ],
+        "artist-credit": [
+          {
+            "name": "西原健一郎",
+            "artist": {
+              "id": "bc1089c7-211f-4f81-8250-ba361f37349c",
+              "name": "西原健一郎",
+              "sort-name": "Nishihara, Kenichiro",
+              "aliases": [
+                {
+                  "sort-name": "Nishihara, Kenichiro",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Kenichiro Nishihara",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "ニシハラ ケンイチロウ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "西原 健一郎",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "ニシハラケンイチロウ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "西原健一郎",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "99441197-0ac1-43bb-b998-1b7b1e5a7582",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Kaleidoscope Suite - Best Mix and Remixes",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "contemporary r&b"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "7cbf552c-8ba9-4fac-9bf7-6527a0b6fc61",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 64,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "753d4ee1-251f-31cb-b155-bafe7917d6c0",
+        "count": 1,
+        "title": "There's God and There's Flygod, Praise Both",
+        "first-release-date": "2016-07-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Westside Gunn",
+            "artist": {
+              "id": "9f42ba3d-3cfc-499c-ba16-7226f56b622f",
+              "name": "Westside Gunn",
+              "sort-name": "Westside Gunn",
+              "aliases": [
+                {
+                  "sort-name": "Worthy, Alvin Lamar",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Alvin Lamar Worthy",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "WestsideGunn",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "WestsideGunn",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "cf7121cb-3b91-4952-9785-ca2923ea654f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "There's God and There's Flygod, Praise Both",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "east coast hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "acc09544-b91b-47a2-a4a7-5404676d7006",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 64,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91e4b11c-354d-376b-a714-ba22901a2270",
+        "count": 1,
+        "title": "yvan wen",
+        "first-release-date": "2018-02-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Navy Blue",
+            "artist": {
+              "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+              "name": "Navy Blue",
+              "sort-name": "Navy Blue",
+              "disambiguation": "US skateboarder & rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sage Elsesser",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Sage Elsesser",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8e0417fd-5206-4dc4-abdc-da315d9654d9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "yvan wen",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d4b97bf7-dfdc-4554-923d-9e8973f1bb6b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 64,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91e4b11c-354d-376b-a714-ba22901a2270",
+        "count": 1,
+        "title": "navy in rage",
+        "first-release-date": "2017-10-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Navy Blue",
+            "artist": {
+              "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+              "name": "Navy Blue",
+              "sort-name": "Navy Blue",
+              "disambiguation": "US skateboarder & rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sage Elsesser",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Sage Elsesser",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "eb9a9893-b385-4274-91f6-b81c3d7fa17e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "navy in rage",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          }
+        ]
+      }
+    ]
+  }
+}

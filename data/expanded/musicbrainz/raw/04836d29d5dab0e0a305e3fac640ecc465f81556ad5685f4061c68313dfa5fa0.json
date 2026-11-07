@@ -1,0 +1,98 @@
+{
+  "endpoint": "release-group/5402ebe2-adb0-4b1b-a18d-745df4668b1a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5402ebe2-adb0-4b1b-a18d-745df4668b1a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:56.247230+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 1,
+        "name": "lo-fi"
+      },
+      {
+        "count": 1,
+        "name": "trip hop"
+      },
+      {
+        "count": 1,
+        "name": "turntablism"
+      }
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "id": "5402ebe2-adb0-4b1b-a18d-745df4668b1a",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [],
+          "id": "7fbefb46-ede9-44c8-b8b8-66f8af81d30d",
+          "sort-name": "Rak.楽",
+          "type": null,
+          "tags": [],
+          "disambiguation": "",
+          "type-id": null,
+          "name": "Rak.楽",
+          "country": null
+        },
+        "name": "Rak.楽",
+        "joinphrase": ""
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2015-07-08",
+    "genres": [
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop"
+      },
+      {
+        "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011",
+        "disambiguation": "",
+        "count": 1,
+        "name": "lo-fi"
+      },
+      {
+        "name": "trip hop",
+        "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "turntablism",
+        "id": "cfe47781-460e-498a-92f5-399d68076727",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "title": "lo funxionality"
+  }
+}

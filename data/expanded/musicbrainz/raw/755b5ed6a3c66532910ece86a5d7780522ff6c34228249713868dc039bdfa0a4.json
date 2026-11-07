@@ -1,0 +1,140 @@
+{
+  "endpoint": "release-group/4db4a391-dc44-4ecd-b95a-4d3d0b2df09c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4db4a391-dc44-4ecd-b95a-4d3d0b2df09c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:07.259004+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": 3,
+      "votes-count": 1
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "horrorcore"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      }
+    ],
+    "title": "BLACK SAILOR MOON",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "horrorcore",
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "Montreal industrial rapper",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "CA",
+          "sort-name": "Backxwash",
+          "genres": [
+            {
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "hardcore hip hop",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+              "name": "horrorcore"
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "name": "industrial hip hop",
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "d4df54b5-67b4-4fb7-8f73-79e71717a501",
+              "name": "industrial metal"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            }
+          ],
+          "tags": [
+            {
+              "count": 2,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "name": "horrorcore"
+            },
+            {
+              "name": "industrial hip hop",
+              "count": 2
+            },
+            {
+              "name": "industrial metal",
+              "count": 2
+            },
+            {
+              "name": "transgender",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            }
+          ],
+          "id": "859ba379-1201-4ed0-8a57-d31650cc36f1",
+          "name": "Backxwash"
+        },
+        "name": "Backxwash",
+        "joinphrase": ""
+      }
+    ],
+    "first-release-date": "2018-11-30",
+    "disambiguation": "",
+    "id": "4db4a391-dc44-4ecd-b95a-4d3d0b2df09c",
+    "secondary-type-ids": []
+  }
+}

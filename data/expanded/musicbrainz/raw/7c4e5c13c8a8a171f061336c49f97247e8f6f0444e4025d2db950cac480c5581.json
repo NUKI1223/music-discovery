@@ -1,0 +1,144 @@
+{
+  "endpoint": "release-group/4a04a70c-1b1c-42b6-b5c8-96f5b7e44daf",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4a04a70c-1b1c-42b6-b5c8-96f5b7e44daf?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:02.921716+00:00",
+  "response": {
+    "title": "A Martyr’s Reward",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "first-release-date": "2021-08-13",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "type": "Person",
+          "sort-name": "Ka",
+          "country": "US",
+          "disambiguation": "US rapper",
+          "name": "Ka",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "e7d4f00b-2938-4049-aa44-e69a59a7b3da",
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "name": "drumless"
+            },
+            {
+              "count": 1,
+              "name": "east coast hip hop"
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "gangsta rap"
+            },
+            {
+              "name": "hip hop",
+              "count": 4
+            },
+            {
+              "count": 1,
+              "name": "underground hip hop"
+            },
+            {
+              "name": "united states",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "disambiguation": "",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "east coast hip hop",
+              "disambiguation": "",
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": "",
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "gangsta rap",
+              "disambiguation": "",
+              "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 4,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "name": "underground hip hop",
+              "disambiguation": "",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "count": 1
+            }
+          ]
+        },
+        "joinphrase": "",
+        "name": "Ka"
+      }
+    ],
+    "id": "4a04a70c-1b1c-42b6-b5c8-96f5b7e44daf",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 2
+      }
+    ],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 2,
+        "disambiguation": ""
+      }
+    ]
+  }
+}

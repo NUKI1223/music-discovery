@@ -1,0 +1,2378 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"experimental hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22experimental+hip+hop%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2010-01-01+TO+2019-12-31%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:16.384322+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:16.300Z",
+    "count": 589,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "a033ba7d-09d8-4267-b940-8c305f476dd5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "61b2a0cb-7be0-358c-8dbe-e9963f77c9f3",
+        "count": 1,
+        "title": "EP#1",
+        "first-release-date": "2013-11-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "L’Envoûtante",
+            "artist": {
+              "id": "1d45abe1-337b-421f-a0d6-00ccc2828387",
+              "name": "L’Envoûtante",
+              "sort-name": "L’Envoûtante"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ca022b79-164c-407c-8647-1a63f4f0f962",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EP#1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5007db09-84d6-438c-8302-e9ccc693e521",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "bd18b281-99de-3079-b447-496bf1ceca21",
+        "count": 2,
+        "title": "V for Venom",
+        "first-release-date": "2017-11-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "AMAZUMI",
+            "artist": {
+              "id": "d23ddbd3-8f12-4cc4-95d3-840045d00a77",
+              "name": "Amazumi",
+              "sort-name": "Amazumi",
+              "disambiguation": "Nepalese-born, Belgium-based rapper",
+              "aliases": [
+                {
+                  "sort-name": "AMAZUMI",
+                  "name": "AMAZUMI",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Setling, Mamita",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Mamita Setling",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a36a040a-f518-490f-9b73-33321e85ddf9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "V for Venom",
+            "status": "Official"
+          },
+          {
+            "id": "4193ac04-09de-4e62-955d-dea371bf3256",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "V for Venom",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "de07386c-f339-4197-89d0-4ef4aad937dd",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f938c390-22aa-31ff-9ef3-7105091df58f",
+        "count": 2,
+        "title": "Uneven Compromise",
+        "first-release-date": "2012-10-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Lil Ugly Mane",
+            "artist": {
+              "id": "5f1adfe1-4d07-4141-b181-79e5d379d539",
+              "name": "Lil Ugly Mane",
+              "sort-name": "Lil Ugly Mane",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Miller, Travis",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Travis Miller",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0050fc84-972a-4300-b7c3-1fd87db680ba",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Uneven Compromise",
+            "status": "Official"
+          },
+          {
+            "id": "a171fb49-0fc1-494d-993b-a8940fef90a7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Uneven Compromise",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "11fcb821-ad46-4887-aa03-e01324e9ffe8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "71be19f1-8f23-370f-a0fd-ea5ea8c7467f",
+        "count": 1,
+        "title": "おなかいたEP",
+        "first-release-date": "2011-08-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "mononomonooto",
+            "artist": {
+              "id": "f4c851a7-0a9f-4d1b-92ae-46e0fa363bae",
+              "name": "mononomonooto",
+              "sort-name": "mononomonooto"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "83b0d3d4-86cf-4b39-88b6-a2f27149714f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "おなかいたEP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "cffb7c5d-d50f-4113-ae04-fa4eda4adefb",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c7224980-42a2-31d2-96a1-24177fe485ca",
+        "count": 1,
+        "title": "The Depths (Single)",
+        "first-release-date": "2015-01-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Dizraeli & The Small Gods",
+            "artist": {
+              "id": "47789e07-45fa-4eed-8416-4421fa0fa941",
+              "name": "Dizraeli and the Small Gods",
+              "sort-name": "Dizraeli and the Small Gods"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "616e79a8-b4cb-49a8-9195-8538e625d662",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Depths (Single)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "dca60854-dc74-4b48-9a6b-dd8cc90a4cfb",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7b8f93b9-1f6e-39c1-8c43-bfb117cf8c61",
+        "count": 1,
+        "title": "Love, a Broken Dream",
+        "first-release-date": "2016-05-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "JOHNNASCUS",
+            "artist": {
+              "id": "74fa83e3-525d-4539-bd51-5e5ac254379c",
+              "name": "JOHNNASCUS",
+              "sort-name": "JOHNNASCUS",
+              "aliases": [
+                {
+                  "sort-name": "Demi-God",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Demi-God",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "af2117e0-a175-4383-b339-90b036a97c80",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Love, a Broken Dream",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "7c6527d1-f5e5-4f2c-8993-80868bd7f5d3",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7b8f93b9-1f6e-39c1-8c43-bfb117cf8c61",
+        "count": 1,
+        "title": "No Theme",
+        "first-release-date": "2017-03-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "JOHNNASCUS",
+            "artist": {
+              "id": "74fa83e3-525d-4539-bd51-5e5ac254379c",
+              "name": "JOHNNASCUS",
+              "sort-name": "JOHNNASCUS",
+              "aliases": [
+                {
+                  "sort-name": "Demi-God",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Demi-God",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "06c61d71-436b-49bc-85b0-fb11bacb883a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Theme",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "68a5c650-0ba4-4504-8f15-715802ac16a1",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "84d8abc1-08a0-3515-8014-7f3b2469e5c3",
+        "count": 1,
+        "title": "i tested myself",
+        "first-release-date": "2017-10-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "6ix",
+            "artist": {
+              "id": "c7e39beb-06d3-40a1-b31e-62aa2bdc8e9d",
+              "name": "6ix",
+              "sort-name": "6ix",
+              "disambiguation": "US hip‐hop producer Arjun Ivatury",
+              "aliases": [
+                {
+                  "sort-name": "Ivatury, Arjun",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Arjun Ivatury",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7cd3441e-9ca3-4e9c-ad6e-7174f78e8fd4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "i tested myself",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "31b3fbf9-1214-4d7f-a87e-277ffbfbd21d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8abe68c1-5720-3d3b-8d4d-4cf7100cee98",
+        "count": 1,
+        "title": "Tongues",
+        "first-release-date": "2018-03-09",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "no puls",
+            "artist": {
+              "id": "3322a185-b57b-4d0a-8b44-8f642268707f",
+              "name": "No Puls",
+              "sort-name": "No Puls"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "098939ae-64f2-4f60-8d1f-b1e1ea979aa7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tongues",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0efb1e64-93b4-4123-aab4-f8ff60221320",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "928868e2-8d10-34eb-83fd-6faa3371bf48",
+        "count": 1,
+        "title": "Stories & Studies",
+        "first-release-date": "2019-05-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "TOMC",
+            "artist": {
+              "id": "34576d6d-b4ac-4da5-87c8-0a019039022d",
+              "name": "TOMC",
+              "sort-name": "TOMC",
+              "disambiguation": "Japanese beatmaker and ambient musician",
+              "aliases": [
+                {
+                  "sort-name": "Sakai, Takahiro",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Takahiro Sakai",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "116f0999-59ff-4b8b-bc60-244d08149ad0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Stories & Studies",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "366e7104-84b0-4c53-9b2e-52479d307aa0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "34a4da68-3465-3be0-96fb-1d72ce33d5a5",
+        "count": 1,
+        "title": "Blush",
+        "first-release-date": "2017-04-04",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Patricia Taxxon",
+            "artist": {
+              "id": "3be279e7-5d42-4b55-b4bc-93790b244df5",
+              "name": "Patricia Taxxon",
+              "sort-name": "Taxxon, Patricia",
+              "disambiguation": "experimental/drone",
+              "aliases": [
+                {
+                  "sort-name": "Taxxon, Patricia",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Patricia Taxxon",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "504d8dea-7b0d-400f-a65b-d95b02e1b5c5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blush",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "eface7b5-f118-4dfa-83a2-a8ca9ec93eb9",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "02cb971b-070d-3168-bf2d-75d87ddd98c1",
+        "count": 1,
+        "title": "Nasbase",
+        "first-release-date": "2014-01-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Projetonave",
+            "artist": {
+              "id": "27236921-f761-4968-9490-ebefd3de1251",
+              "name": "Projetonave",
+              "sort-name": "Projetonave"
+            }
+          },
+          {
+            "name": "Síntese",
+            "artist": {
+              "id": "d3f5bce1-c628-4b2d-8a2a-c218e5482a69",
+              "name": "Síntese",
+              "sort-name": "Síntese",
+              "aliases": [
+                {
+                  "sort-name": "de Oliveira, Paulo Jorge Gonçalves",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Paulo Jorge Gonçalves de Oliveira",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b3d33a4b-9431-4da6-aba4-b9d3660e8835",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nasbase",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c547e679-fc06-475f-a16b-4b8939406934",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "77f30d1a-8026-383a-ad0b-4442d15d19ce",
+        "count": 1,
+        "title": "SUI // RAP",
+        "first-release-date": "2016-03-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "youngster jiji",
+            "artist": {
+              "id": "30e3df46-d11b-4c34-9ce5-99d943225b98",
+              "name": "youngster jiji",
+              "sort-name": "youngster jiji"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b2f666a1-fcef-49fa-97b8-d43279b204cd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SUI // RAP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d674821d-9ae3-4514-8bbe-c754b87e92bc",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e5a3ed82-3efa-3a73-82ac-295939c6df0f",
+        "count": 1,
+        "title": "н2",
+        "first-release-date": "2018-12-30",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "ножевые незабудки",
+            "artist": {
+              "id": "c6cad3b6-6d22-4d3e-b376-37ab12339d4e",
+              "name": "ножевые незабудки",
+              "sort-name": "ножевые незабудки"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "554300f1-a596-4ddc-a237-80cf2ec43f5f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "н2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d0764ab5-f82d-410e-be6a-d1bf7ad9e53c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d2c2e934-9748-33be-acdb-5a699d369a11",
+        "count": 1,
+        "title": "Kreiseck",
+        "first-release-date": "2014-10-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Yassin",
+            "artist": {
+              "id": "85ec6868-f1cf-4339-8274-1423f8f73146",
+              "name": "Yassin",
+              "sort-name": "Yassin",
+              "disambiguation": "German rapper",
+              "aliases": [
+                {
+                  "sort-name": "Taibi, Yassin",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Yassin Taibi",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7a975eef-63be-4c8a-a0a3-cf4ae753f33f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Kreiseck",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8dea1acf-f810-42fc-ad17-c2b3a3dee137",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ae0a1855-4f9c-31f8-97be-3d47627c2ff0",
+        "count": 2,
+        "title": "Milk",
+        "first-release-date": "2017-05-12",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "ICYTWAT",
+            "artist": {
+              "id": "0f1f484f-63a6-4c32-bf33-c65054915aa9",
+              "name": "ICYTWAT",
+              "sort-name": "ICYTWAT",
+              "disambiguation": "rapper, producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e312ee24-1c90-42dc-85ac-3bec06d9ac3c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Milk",
+            "status": "Official"
+          },
+          {
+            "id": "823beee1-429f-4f83-8a3d-b198897bac29",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Milk",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ae43af25-62e2-40f6-a7f8-a8910af7c144",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c40f113e-64d3-3aaf-9f43-f37ea4e9e994",
+        "count": 1,
+        "title": "Love Me Tonight",
+        "first-release-date": "2017-03-31",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Beans",
+            "artist": {
+              "id": "94232a04-13fb-40a1-a21a-303fb0643623",
+              "name": "Beans",
+              "sort-name": "Beans",
+              "disambiguation": "US rapper, member of Antipop Consortium",
+              "aliases": [
+                {
+                  "sort-name": "MC Beans",
+                  "name": "MC Beans",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "17828c05-b139-4bb9-8378-af5f975c80f7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Love Me Tonight",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "9a803d88-7779-45ee-8cfd-d0484bf7e738",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "7176b8a4-8a1f-49a9-89fb-935652672d83",
+        "count": 1,
+        "title": "WestCity",
+        "first-release-date": "2013",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " X ",
+            "name": "AshTreJinkins",
+            "artist": {
+              "id": "084314a0-45e4-4730-a3a9-612d3ad27486",
+              "name": "AshTreJinkins",
+              "sort-name": "AshTreJinkins",
+              "aliases": [
+                {
+                  "sort-name": "AshTreJenkins",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "AshTreJenkins",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Black Ant",
+            "artist": {
+              "id": "84ce1fb0-c521-4929-96e6-747ed5302e74",
+              "name": "Black Ant",
+              "sort-name": "Black Ant"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "78dc19bc-86c0-4af8-afea-9c6ed942cb92",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "WestCity",
+            "status": "Withdrawn"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "45c883c1-4078-498f-8110-97a823b0dcff",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c40f113e-64d3-3aaf-9f43-f37ea4e9e994",
+        "count": 1,
+        "title": "HAAST",
+        "first-release-date": "2017-03-31",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Beans",
+            "artist": {
+              "id": "94232a04-13fb-40a1-a21a-303fb0643623",
+              "name": "Beans",
+              "sort-name": "Beans",
+              "disambiguation": "US rapper, member of Antipop Consortium",
+              "aliases": [
+                {
+                  "sort-name": "MC Beans",
+                  "name": "MC Beans",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "01136ddd-0ed8-4ea8-b479-33cdca468d26",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HAAST",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "30431c99-1ee4-4036-8fe6-232022dc49fd",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "95776ec3-67b5-3c8f-a177-1679f204e38c",
+        "count": 1,
+        "title": "kosmohachkala",
+        "first-release-date": "2013-02-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "dobbro",
+            "artist": {
+              "id": "30f3aa66-f0d9-4415-b7dc-2255e00a79b3",
+              "name": "dobbro",
+              "sort-name": "dobbro",
+              "disambiguation": "hip-hop artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a19beb53-d869-463c-b3fa-4da9801663a4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "kosmohachkala",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ae4bdef5-a74b-4e3a-b6e0-76082756948c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "95776ec3-67b5-3c8f-a177-1679f204e38c",
+        "count": 1,
+        "title": "конец игры",
+        "first-release-date": "2016-10-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "dobbro",
+            "artist": {
+              "id": "30f3aa66-f0d9-4415-b7dc-2255e00a79b3",
+              "name": "dobbro",
+              "sort-name": "dobbro",
+              "disambiguation": "hip-hop artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2c4f7c5d-08ff-4fab-a16c-e960e3940100",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "конец игры",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "286429d8-734e-4552-acc4-f3f96ac49789",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "3345c81f-40c1-38a2-99c8-2e362e22e1e7",
+        "count": 1,
+        "title": "Satelite",
+        "first-release-date": "2012-04-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Abraham Untitled",
+            "artist": {
+              "id": "c3cf2f70-d878-45e2-a746-be40e89f7901",
+              "name": "Abraham Untitled",
+              "sort-name": "Abraham Untitled"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "59803020-9d99-4718-8d7b-cf5abfe48b3c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Satelite",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "disco"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "aecccd88-5a9e-4d3a-bd38-25b9990724ea",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a9539ced-6763-360b-b9b5-19d9af9d938c",
+        "count": 2,
+        "title": "Das erste Buch Grau",
+        "first-release-date": "2011-08-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Herr von Grau",
+            "artist": {
+              "id": "ce0d2254-d63c-49e4-be7d-920b41113b45",
+              "name": "Herr von Grau",
+              "sort-name": "Herr von Grau"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1016c253-2e21-49e4-9750-591e43b61506",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Das erste Buch Grau",
+            "status": "Official"
+          },
+          {
+            "id": "1959bb48-bb00-4e3e-8c9e-b214b6c43069",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Das erste Buch Grau",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "be274565-1bca-4db6-8dda-23166820b28b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "200a2799-1fe2-3e56-ae92-68c54b74f154",
+        "count": 1,
+        "title": "JUSTIN",
+        "first-release-date": "2014-04-20",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Damacha",
+            "artist": {
+              "id": "9b0583fd-735c-44e4-9e57-fd6bdd99ed79",
+              "name": "Damacha",
+              "sort-name": "Damacha"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3893bbae-8640-4647-9c56-151550ffc87c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "JUSTIN",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "94006b72-d18d-4723-99c7-6ea8fb5a15d8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c013d2aa-f58d-3e12-9776-8633b78cc28a",
+        "count": 1,
+        "title": "Games",
+        "first-release-date": "2016-10-11",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Ôntrei",
+            "artist": {
+              "id": "f14ea00f-c20b-423a-832e-ea0b37c2f056",
+              "name": "Ôntrei",
+              "sort-name": "Ôntrei"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7ccba094-1d7a-402c-947b-4e09b1b536cf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Games",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d2db5bac-aeef-466d-a38e-f0367fbde565",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a9539ced-6763-360b-b9b5-19d9af9d938c",
+        "count": 2,
+        "title": "Herrbst",
+        "first-release-date": "2012-09-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Herr von Grau",
+            "artist": {
+              "id": "ce0d2254-d63c-49e4-be7d-920b41113b45",
+              "name": "Herr von Grau",
+              "sort-name": "Herr von Grau"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "43df2034-1c15-4526-ae9b-0c524201b9c2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Herrbst",
+            "status": "Official"
+          },
+          {
+            "id": "21ff1da8-c693-4a96-af49-bb3fe905b829",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Herrbst",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d60edfb1-cc9e-4f7a-a8df-e06035091a06",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8b14f150-ed0c-3101-a249-f05eeb3fd1c0",
+        "count": 1,
+        "title": "give up",
+        "first-release-date": "2016-12-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "art baby",
+            "artist": {
+              "id": "203e959c-07aa-4eb8-afdd-a210debd0eed",
+              "name": "art baby",
+              "sort-name": "art baby"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "66c5ec31-e1a4-48b9-ba11-fcdf670cb47b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "give up",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6cc0cff2-23e6-4741-b06f-a989f04c815f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "0f50cee0-c415-37c0-9075-bf36704d5099",
+        "count": 1,
+        "title": "solsymphonik",
+        "first-release-date": "2012-05-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Tha Soloist",
+            "artist": {
+              "id": "3da0e6e7-e10a-4d83-b481-37705b8a2f3c",
+              "name": "Tha Soloist",
+              "sort-name": "Soloist, Tha",
+              "aliases": [
+                {
+                  "sort-name": "Angel tha Soloist",
+                  "name": "Angel tha Soloist",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c80d589f-23f8-4c92-9e75-b4c212f22c97",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "solsymphonik",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b4b780c1-a8f6-4469-89c6-37ea8fd0cec7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7e21d931-0726-3181-b759-79e86ecd21c0",
+        "count": 1,
+        "title": "The Best of Reggie Watts’ Improv EP #3",
+        "first-release-date": "2017-08-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Reggie Watts",
+            "artist": {
+              "id": "cf6a0510-b08c-4452-b28e-979fb57ff035",
+              "name": "Reggie Watts",
+              "sort-name": "Watts, Reggie",
+              "aliases": [
+                {
+                  "sort-name": "Watts, Reginald Lucien Frank Roger",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Reginald Lucien Frank Roger Watts",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "48bfc8e7-c9ae-4487-a570-c75d476ab215",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Best of Reggie Watts’ Improv EP #3",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "2e2aab91-6f70-4a9a-ac20-c8ead38b9b3a",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e7ddf447-9c40-30af-b2fb-a5fdda3ce3c9",
+        "count": 1,
+        "title": "21",
+        "first-release-date": "2014-03-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Parley Wang",
+            "artist": {
+              "id": "5032a02f-90bb-4bdd-b96c-e9f81f3d4592",
+              "name": "Parley Wang",
+              "sort-name": "Wang, Parley",
+              "disambiguation": "Parley",
+              "aliases": [
+                {
+                  "sort-name": "Bolelwang, Parley Neo",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Parley Neo Bolelwang",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1a379a65-b56d-4013-989e-2589826ee889",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "21",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ff750599-3e32-4494-bf28-a8f0b494ca0f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "57baf36f-e47b-4d33-9047-5e0daf1b8daf",
+        "count": 1,
+        "title": "Tehuti inna Tesla beat tape",
+        "first-release-date": "2018-12-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Dawit.Illsun",
+            "artist": {
+              "id": "5b1b2bd4-deea-4e07-be3f-59e25ba808c3",
+              "name": "Dawit.Illsun",
+              "sort-name": "Dawit.Illsun"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "921a8998-9ef9-4129-b576-afaf3deb568b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tehuti inna Tesla beat tape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "dancehall"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4320f9c3-595b-47be-84f6-fc101a17f206",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "edf56e89-794a-3fa8-b26c-ebf27ef2a58c",
+        "count": 1,
+        "title": "Latex Shawdy",
+        "first-release-date": "2019-04-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Sybyr",
+            "artist": {
+              "id": "8f550236-c876-4fb4-9bb0-14aa02ffff64",
+              "name": "Sybyr",
+              "sort-name": "Sybyr",
+              "disambiguation": "Rapper and Producer, formerly known as Syringe",
+              "aliases": [
+                {
+                  "sort-name": "Sybyr, Mac",
+                  "name": "Mac Sybyr",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "442d7bdd-57d7-495b-86aa-d32669417eac",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Latex Shawdy",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4b58d9d4-41ac-40ae-9186-116b555fd9c4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "23b0fe90-4548-3c81-8313-9981c1ed2d54",
+        "count": 1,
+        "title": "Rain",
+        "first-release-date": "2012-04-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "BODYGUARD",
+            "artist": {
+              "id": "8c60b185-41f8-41a2-916c-b390cf164e77",
+              "name": "BODYGUARD",
+              "sort-name": "BODYGUARD"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6134ac7d-c2ce-47d3-9134-286d6353b854",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Rain",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "e363b1d1-30e8-4ca3-9326-e3a22f0de1b8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "71be19f1-8f23-370f-a0fd-ea5ea8c7467f",
+        "count": 1,
+        "title": "好ましe.p.",
+        "first-release-date": "2011-05-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "mononomonooto",
+            "artist": {
+              "id": "f4c851a7-0a9f-4d1b-92ae-46e0fa363bae",
+              "name": "mononomonooto",
+              "sort-name": "mononomonooto"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6bf55fbf-d666-4e1e-817e-f7a91747302a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "好ましe.p.",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "faada86f-0dd1-481f-b547-e3d074e5c6f0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "bc3722f6-5d60-3d33-85b3-c674d7f97ec9",
+        "count": 1,
+        "title": "Idiom Wind",
+        "first-release-date": "2012-01-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Zammuto",
+            "artist": {
+              "id": "78a4950e-9421-4a0a-9524-bd4efbe0047f",
+              "name": "Zammuto",
+              "sort-name": "Zammuto"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "81e88279-c7a1-42b1-a74e-cdf66b27a37f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Idiom Wind",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental rock"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "589ed9b5-e666-4a32-8b97-f3e5b69d9d49",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "aaf2b820-7eeb-37b1-af02-f8057270a859",
+        "count": 1,
+        "title": "Nylon Digital: Vol.1",
+        "first-release-date": "2017-03-10",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Choleric",
+            "artist": {
+              "id": "2aba7155-74a9-4b76-ad17-e05be962a988",
+              "name": "Choleric",
+              "sort-name": "Choleric"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8fe30378-457b-4986-87d5-fa9507211814",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nylon Digital: Vol.1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "r&b"
+          },
+          {
+            "count": 1,
+            "name": "vaporwave"
+          }
+        ]
+      },
+      {
+        "id": "e1ac1a12-fbb0-4faf-ba65-42e8c791e8ae",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "49a7c953-7edb-3418-9749-a3bec03aa209",
+        "count": 1,
+        "title": "Meat Factory",
+        "first-release-date": "2012-08-11",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Sweat Lodge",
+            "artist": {
+              "id": "684c7c8d-b12b-4686-ad36-c74b9fed4e07",
+              "name": "Sweat Lodge",
+              "sort-name": "Sweat Lodge",
+              "disambiguation": "Philadelphia experimental rock band"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8bbf71dc-3e08-48f8-a458-593f69ab1bec",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Meat Factory",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental rock"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ff83eb2a-6af5-468a-b801-518e3bc7f824",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "15e71819-5b5e-3180-9222-d57362d25bd0",
+        "count": 1,
+        "title": "Pluvial",
+        "first-release-date": "2015-05-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Sincerityisdead",
+            "artist": {
+              "id": "40b4e1d5-1e2b-4b03-94e2-6e0a12705d6c",
+              "name": "Sincerityisdead",
+              "sort-name": "Sincerityisdead",
+              "disambiguation": "Chillwave from Russia"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c724e8c7-a4d7-43bc-aeb3-02b2fd59e036",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pluvial",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "wave"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "phonk"
+          }
+        ]
+      },
+      {
+        "id": "3afd4534-d0e4-4691-aed2-08bf2a32cea0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "928868e2-8d10-34eb-83fd-6faa3371bf48",
+        "count": 1,
+        "title": "Reminiscin’",
+        "first-release-date": "2019-08-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "TOMC",
+            "artist": {
+              "id": "34576d6d-b4ac-4da5-87c8-0a019039022d",
+              "name": "TOMC",
+              "sort-name": "TOMC",
+              "disambiguation": "Japanese beatmaker and ambient musician",
+              "aliases": [
+                {
+                  "sort-name": "Sakai, Takahiro",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Takahiro Sakai",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "771a626f-df57-4446-9ee5-c133fd0c89d7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reminiscin’",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental electronic"
+          }
+        ]
+      },
+      {
+        "id": "94767139-47ac-4973-8827-cd1782b46761",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "deef5232-9146-38be-9122-457e817b3547",
+        "count": 1,
+        "title": "Aufbruchverstimmung EP",
+        "first-release-date": "2010-09-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Blank",
+            "artist": {
+              "id": "8d305266-0b4e-4f2e-ae20-5738203c06b2",
+              "name": "Blank",
+              "sort-name": "Blank",
+              "disambiguation": "Conexión Musical"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5c5352ba-ad77-4494-8719-8a280178be64",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Aufbruchverstimmung EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d98153c1-67fc-435c-b9d3-f2ef35fa8cc6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5f69eb90-7a71-4cd4-ac8e-d3f207863b7d",
+        "count": 1,
+        "title": "Faintings01:35",
+        "first-release-date": "2018-01-29",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "_XPRESSWINDOW",
+            "artist": {
+              "id": "4961ed1c-8bd9-4822-8b7e-1090a8c85344",
+              "name": "_XPRESSWINDOW",
+              "sort-name": "_XPRESSWINDOW"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "48c50db5-9978-4245-a6a0-a077d481409d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Faintings01:35",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c36bc96c-21fe-4865-b999-e9f481aaf4ba",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "4baff952-ccb6-3599-8e52-4c4bea197da8",
+        "count": 1,
+        "title": "The Cosmic Journey",
+        "first-release-date": "2015-05-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Mr Ekow",
+            "artist": {
+              "id": "102443a5-d802-4a23-ac8b-751b21e33bbb",
+              "name": "Mr Ekow",
+              "sort-name": "Mr Ekow",
+              "disambiguation": "Active 2013 - Present"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c97c86c9-57fd-4205-a676-687a6bca62b4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Cosmic Journey",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3837420a-ea87-4239-b065-a191b8611e6d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c9a3d925-7bf0-3dec-b943-db45e31b94c5",
+        "count": 3,
+        "title": "Tourist EP",
+        "first-release-date": "2012-03-12",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Tourist.",
+            "artist": {
+              "id": "4f31ccd8-8702-4d88-8e5d-33b1c6a2c1bc",
+              "name": "Tourist",
+              "sort-name": "Tourist",
+              "disambiguation": "UK electronic artist William Phillips",
+              "aliases": [
+                {
+                  "sort-name": "Tourist.",
+                  "name": "Tourist.",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e203fb11-88c2-48d0-ba70-0becf7460888",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tourist",
+            "status": "Official"
+          },
+          {
+            "id": "72a370cf-5e41-4e02-b710-dd20cde7bfb0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tourist EP",
+            "status": "Official"
+          },
+          {
+            "id": "e4413139-1de4-4c59-ae1e-171b40403a6e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tourist EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental rock"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8a938aed-0c3d-4b84-a73a-442987a7cbf5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b53295ee-682c-3557-b481-330c27e1dcce",
+        "count": 1,
+        "title": "Ocellot EP",
+        "first-release-date": "2012-01-09",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Ocellot",
+            "artist": {
+              "id": "7f8c1c21-642d-43a8-b892-c48815e88b62",
+              "name": "Ocellot",
+              "sort-name": "Ocellot"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "eb096a62-3728-4289-b9ad-177866e83f4e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ocellot EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "pop"
+          },
+          {
+            "count": 1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "cf7328d6-f8c0-42d3-a601-402a0e274238",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "177b0d1d-a67a-47fb-ad74-b21d807ef682",
+        "count": 1,
+        "title": "Bricks & Mortar",
+        "first-release-date": "2013-04-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " X ",
+            "name": "Suff Daddy",
+            "artist": {
+              "id": "79001b57-792f-42d8-a580-cfd1f709cd6d",
+              "name": "Suff Daddy",
+              "sort-name": "Suff Daddy",
+              "disambiguation": "DJ and producer",
+              "aliases": [
+                {
+                  "sort-name": "Bormann, David",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "David Bormann",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Ta‐ku",
+            "artist": {
+              "id": "81855cde-5030-42de-b1b3-f563dd01e623",
+              "name": "Ta‐ku",
+              "sort-name": "Ta‐ku"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "fe6dab92-77a7-48b9-b370-bf5d8a64ac2e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bricks & Mortar",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "soul"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "37ee6e1b-5ba5-4f01-9569-47a1e572e3d0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91e4b11c-354d-376b-a714-ba22901a2270",
+        "count": 1,
+        "title": "lately",
+        "first-release-date": "2016-05-23",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Navy Blue",
+            "artist": {
+              "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+              "name": "Navy Blue",
+              "sort-name": "Navy Blue",
+              "disambiguation": "US skateboarder & rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sage Elsesser",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Sage Elsesser",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "df552df8-83e5-43a3-bed0-e33a4a2ae226",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "lately",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "2fb8af74-d51c-47c1-8679-154d0fb753ce",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91e4b11c-354d-376b-a714-ba22901a2270",
+        "count": 1,
+        "title": "guilt & sincerity",
+        "first-release-date": "2017-08-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Navy Blue",
+            "artist": {
+              "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+              "name": "Navy Blue",
+              "sort-name": "Navy Blue",
+              "disambiguation": "US skateboarder & rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sage Elsesser",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Sage Elsesser",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "99317287-9992-4422-b8b4-4a2f70e8d64f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "guilt & sincerity",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5cc0e848-0b4d-4936-a81d-2dc95d8756f0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6528a5cd-88d9-309b-a935-510f1a701f6f",
+        "count": 1,
+        "title": "Genesis",
+        "first-release-date": "2013-08-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "C-Reezy",
+            "artist": {
+              "id": "59f4585e-5e8f-46a2-a54f-6347811597b0",
+              "name": "C-Reezy",
+              "sort-name": "C-Reezy"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a441fdb0-540e-4639-b49d-853942eac161",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Genesis",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "11436c9f-276d-4b01-aa98-ae2c331a4450",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f7e081af-04eb-3949-bf70-8fe1fe0679ad",
+        "count": 1,
+        "title": "Autarcía (Abraham Untitled remix)",
+        "first-release-date": "2012-05-02",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "El$$o Rodríguez",
+            "artist": {
+              "id": "00ed46c5-479b-4f57-b7aa-26f7b23bf9c1",
+              "name": "Elsso Rodríguez",
+              "sort-name": "Elsso Rodríguez",
+              "aliases": [
+                {
+                  "sort-name": "El$$o Rodríguez",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "El$$o Rodríguez",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Elsso Rodríguez",
+                  "name": "Elsso Rodríguez",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Abraham Untitled",
+            "artist": {
+              "id": "c3cf2f70-d878-45e2-a746-be40e89f7901",
+              "name": "Abraham Untitled",
+              "sort-name": "Abraham Untitled"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f77def1a-e504-4824-a537-1c4dc33acfed",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Autarcía (Abraham Untitled remix)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "disco"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "743dc01e-f2e1-459e-ac7a-be156154d097",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "84d8abc1-08a0-3515-8014-7f3b2469e5c3",
+        "count": 1,
+        "title": "SEVEN",
+        "first-release-date": "2017-01-14",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "6ix",
+            "artist": {
+              "id": "c7e39beb-06d3-40a1-b31e-62aa2bdc8e9d",
+              "name": "6ix",
+              "sort-name": "6ix",
+              "disambiguation": "US hip‐hop producer Arjun Ivatury",
+              "aliases": [
+                {
+                  "sort-name": "Ivatury, Arjun",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Arjun Ivatury",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7ed8dcdb-5dd7-422e-b532-b52fe8cb91b1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SEVEN",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      }
+    ]
+  }
+}

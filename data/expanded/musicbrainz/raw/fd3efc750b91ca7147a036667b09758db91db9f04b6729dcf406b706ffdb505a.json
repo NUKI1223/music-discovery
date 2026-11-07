@@ -1,0 +1,78 @@
+{
+  "endpoint": "release-group/9dc406b9-b758-4432-ae81-6507a15a3f49",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9dc406b9-b758-4432-ae81-6507a15a3f49?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:09.384292+00:00",
+  "response": {
+    "first-release-date": "2008-10-23",
+    "disambiguation": "",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+        "name": "underground hip hop",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Kiew Nikon",
+        "artist": {
+          "name": "Kiew Nikon",
+          "id": "b42e8a0f-ae43-4755-a25c-ccc2190fea27",
+          "tags": [],
+          "disambiguation": "",
+          "sort-name": "Nikon, Kiew",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "US",
+          "type": "Person"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "9dc406b9-b758-4432-ae81-6507a15a3f49",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Udoncahmenomah",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "fusion",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "underground hip hop",
+        "count": 1
+      }
+    ]
+  }
+}

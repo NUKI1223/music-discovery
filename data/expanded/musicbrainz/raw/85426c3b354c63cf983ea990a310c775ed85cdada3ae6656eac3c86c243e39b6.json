@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/181ccd22-d646-465b-a53e-4d25ab905102",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/181ccd22-d646-465b-a53e-4d25ab905102?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:25.281417+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "turntablism",
+        "disambiguation": "",
+        "count": 1,
+        "id": "cfe47781-460e-498a-92f5-399d68076727"
+      }
+    ],
+    "secondary-types": [],
+    "id": "181ccd22-d646-465b-a53e-4d25ab905102",
+    "primary-type": "EP",
+    "title": "The Stoned Ape",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Anu322",
+          "name": "Anu322",
+          "tags": [],
+          "type-id": null,
+          "genres": [],
+          "id": "1d2c0b46-a57e-4f33-803e-259521d5d14d",
+          "country": null,
+          "type": null,
+          "disambiguation": ""
+        },
+        "name": "Anu322"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "count": 1,
+        "name": "turntablism"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2016-08-18",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

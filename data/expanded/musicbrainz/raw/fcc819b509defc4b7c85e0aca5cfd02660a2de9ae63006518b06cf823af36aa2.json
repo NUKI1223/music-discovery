@@ -1,0 +1,79 @@
+{
+  "endpoint": "release-group/953fe83d-835c-464c-b56f-d805c26355d0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/953fe83d-835c-464c-b56f-d805c26355d0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:58.278163+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "id": "953fe83d-835c-464c-b56f-d805c26355d0",
+    "first-release-date": "2023-08-18",
+    "disambiguation": "",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "name": "Howie Lee",
+        "artist": {
+          "genres": [],
+          "sort-name": "Lee, Howie",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "CN",
+          "type": "Person",
+          "disambiguation": "Chinese electronic musician",
+          "name": "Howie Lee",
+          "id": "bf3b47a0-1e29-4fd8-a9e4-acaeb09452bc",
+          "tags": []
+        }
+      },
+      {
+        "joinphrase": "",
+        "name": "刘㔻",
+        "artist": {
+          "id": "33fd1f50-00ac-4b6c-86b8-c2f83b32de08",
+          "tags": [],
+          "name": "刘㔻",
+          "country": "CN",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "sort-name": "Liu, Pi",
+          "genres": [],
+          "disambiguation": ""
+        }
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "title": "Walking on Thin Ice 如履薄冰",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

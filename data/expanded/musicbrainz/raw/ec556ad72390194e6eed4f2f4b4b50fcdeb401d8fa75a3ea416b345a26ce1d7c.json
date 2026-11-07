@@ -1,0 +1,211 @@
+{
+  "endpoint": "release-group/a4ea9974-cd74-429a-b961-bba9c46bd62f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a4ea9974-cd74-429a-b961-bba9c46bd62f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:56.444161+00:00",
+  "response": {
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "name": "Denzel Curry",
+        "artist": {
+          "tags": [
+            {
+              "name": "cloud rap",
+              "count": 1
+            },
+            {
+              "count": 3,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 4
+            },
+            {
+              "name": "hip hop",
+              "count": 8
+            },
+            {
+              "name": "memphis rap",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "rap"
+            },
+            {
+              "name": "southern hip hop",
+              "count": 3
+            },
+            {
+              "count": 6,
+              "name": "trap"
+            },
+            {
+              "name": "trap metal",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "underground"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rapper",
+          "name": "Denzel Curry",
+          "country": "US",
+          "genres": [
+            {
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+              "disambiguation": "",
+              "count": 1,
+              "name": "cloud rap"
+            },
+            {
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 3,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 4,
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "name": "hardcore hip hop"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 8,
+              "name": "hip hop"
+            },
+            {
+              "name": "memphis rap",
+              "disambiguation": "",
+              "id": "2f38ceb3-0ed0-475d-9ebd-bee14a2ca28e",
+              "count": 1
+            },
+            {
+              "name": "southern hip hop",
+              "disambiguation": "",
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "count": 3
+            },
+            {
+              "count": 6,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "name": "trap"
+            },
+            {
+              "name": "trap metal",
+              "disambiguation": "",
+              "id": "260d1450-1055-4c5c-9c78-863253349a5a",
+              "count": 1
+            }
+          ],
+          "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+          "sort-name": "Curry, Denzel",
+          "type": "Person"
+        }
+      },
+      {
+        "joinphrase": "",
+        "name": "Kenny Beats",
+        "artist": {
+          "country": "US",
+          "name": "Kenny Beats",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "trap",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Beats, Kenny",
+          "id": "22ba00db-f132-4f3c-ab06-4ddaa4cc066b",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            },
+            {
+              "name": "trap",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2026-08-21",
+    "title": "ii",
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 2
+      },
+      {
+        "name": "conscious hip hop",
+        "count": 2,
+        "disambiguation": "",
+        "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+      },
+      {
+        "count": 2,
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 2,
+        "disambiguation": "",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "count": 2,
+        "name": "boom bap"
+      },
+      {
+        "count": 2,
+        "name": "conscious hip hop"
+      },
+      {
+        "count": 2,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 2
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "a4ea9974-cd74-429a-b961-bba9c46bd62f"
+  }
+}

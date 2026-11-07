@@ -1,0 +1,101 @@
+{
+  "endpoint": "release-group/be885de8-5e74-4b0b-861a-7c48034daf8d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/be885de8-5e74-4b0b-861a-7c48034daf8d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:22.272716+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2020-10-16",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+      },
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "artist": {
+          "id": "b37b759e-715e-4e7c-ac07-776e6a9450d4",
+          "tags": [
+            {
+              "count": 1,
+              "name": "breakbeat"
+            },
+            {
+              "count": 1,
+              "name": "idm"
+            }
+          ],
+          "name": "Simo Cell",
+          "disambiguation": "FR electronic artist Simon Aussel",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "FR",
+          "type": "Person",
+          "sort-name": "Cell, Simo",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "breakbeat",
+              "id": "3b8f3f65-6caa-47c8-b076-fa59dfb69c43"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "idm",
+              "id": "8eb583f1-4fd7-460c-8246-dcdccc0e3ef9"
+            }
+          ]
+        },
+        "name": "Simo Cell"
+      },
+      {
+        "name": "Abdullah Miniawy",
+        "artist": {
+          "id": "077b2099-2967-42a1-94d2-d2ffe639d44f",
+          "tags": [],
+          "name": "Abdullah Miniawy",
+          "disambiguation": "",
+          "country": "EG",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "sort-name": "Miniawy, Abdullah",
+          "genres": []
+        },
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "secondary-type-ids": [],
+    "id": "be885de8-5e74-4b0b-861a-7c48034daf8d",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Kill Me or Negotiate",
+    "rating": {
+      "votes-count": 1,
+      "value": 2
+    },
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "secondary-types": []
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "endpoint": "release-group/529ab8f1-641b-418c-8404-06fb1d1e2bb6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/529ab8f1-641b-418c-8404-06fb1d1e2bb6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:45.079246+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [],
+          "id": "d96194c0-90fd-47c4-b0d8-96d263be1bb1",
+          "sort-name": "Hurty eldeen",
+          "type": "Person",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "name": "Hurty eldeen",
+          "country": "FR"
+        },
+        "name": "Hurty eldeen",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2019-04-14",
+    "title": "Seven empty polaroids EP",
+    "genres": [
+      {
+        "name": "ambient",
+        "id": "608b0471-7531-4854-a348-e698c69cb699",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "experimental",
+        "count": 1,
+        "disambiguation": "",
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+      },
+      {
+        "id": "5c61cf56-7dcd-4bd8-87e4-b5bb0c25255a",
+        "disambiguation": "",
+        "count": 1,
+        "name": "harsh noise"
+      },
+      {
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "idm",
+        "disambiguation": "",
+        "id": "8eb583f1-4fd7-460c-8246-dcdccc0e3ef9",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+        "name": "industrial"
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "name": "noise",
+        "disambiguation": "",
+        "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+        "count": 1
+      },
+      {
+        "name": "noisecore",
+        "count": 1,
+        "disambiguation": "",
+        "id": "0cd76818-fdde-4f56-93a1-040f09ca7f23"
+      },
+      {
+        "name": "psychedelic",
+        "count": 1,
+        "id": "d698ece0-6fed-4262-b446-42c98b73b65a",
+        "disambiguation": ""
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "name": "ambient",
+        "count": 1
+      },
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "name": "harsh noise",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "idm"
+      },
+      {
+        "name": "industrial",
+        "count": 1
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "noise",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "noisecore"
+      },
+      {
+        "name": "psychedelic",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "529ab8f1-641b-418c-8404-06fb1d1e2bb6"
+  }
+}

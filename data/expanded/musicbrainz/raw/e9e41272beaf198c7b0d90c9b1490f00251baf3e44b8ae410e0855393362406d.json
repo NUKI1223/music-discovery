@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/ab883788-675e-4abe-a019-f85a55ce9d35",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ab883788-675e-4abe-a019-f85a55ce9d35?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:25.363891+00:00",
+  "response": {
+    "id": "ab883788-675e-4abe-a019-f85a55ce9d35",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1
+      }
+    ],
+    "title": "人生(006) Music!",
+    "first-release-date": "2019-05-28",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "BPMF",
+        "artist": {
+          "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "BPMF",
+          "disambiguation": "Rap fr",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [],
+          "country": null,
+          "name": "BPMF"
+        }
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

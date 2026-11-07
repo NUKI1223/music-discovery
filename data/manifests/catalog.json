@@ -1,0 +1,8 @@
+{
+  "catalog_path": "../demo/catalog.json",
+  "description": "Explicitly synthetic offline demo. No product or musical-quality evidence.",
+  "independent_review": {},
+  "requirements_by_genre": {
+    "hip-hop": {"min_releases": 300, "min_families": 6, "min_releases_per_family": 30}
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/fad9abc5-1889-4008-bb62-c13ed6efa3c6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/fad9abc5-1889-4008-bb62-c13ed6efa3c6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:56.018500+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": ""
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [],
+          "tags": [],
+          "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "BPMF",
+          "country": null,
+          "disambiguation": "Rap fr",
+          "sort-name": "BPMF",
+          "type": "Person"
+        },
+        "joinphrase": "",
+        "name": "BPMF"
+      }
+    ],
+    "id": "fad9abc5-1889-4008-bb62-c13ed6efa3c6",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2017-03-25",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "人生倒影 (001)"
+  }
+}

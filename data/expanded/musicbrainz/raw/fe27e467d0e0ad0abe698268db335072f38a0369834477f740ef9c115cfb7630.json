@@ -1,0 +1,362 @@
+{
+  "endpoint": "release-group/b1a8a409-a8d4-3ea7-afb0-749111554ac0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b1a8a409-a8d4-3ea7-afb0-749111554ac0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:13.275049+00:00",
+  "response": {
+    "title": "London Zoo",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "secondary-types": [],
+    "id": "b1a8a409-a8d4-3ea7-afb0-749111554ac0",
+    "tags": [
+      {
+        "name": "dancehall",
+        "count": 1
+      },
+      {
+        "count": 5,
+        "name": "dubstep"
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "grime",
+        "count": 2
+      },
+      {
+        "name": "illbient",
+        "count": 1
+      },
+      {
+        "count": 2,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 1,
+        "name": "ragga"
+      },
+      {
+        "name": "reggae",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "dancehall",
+        "disambiguation": "",
+        "id": "6c3503e3-bae3-42de-9e4c-7861f2053fbe",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "dubstep",
+        "id": "1b50083b-1afa-4778-82c8-548b309af783",
+        "count": 5
+      },
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1,
+        "disambiguation": "",
+        "name": "electronic"
+      },
+      {
+        "disambiguation": "",
+        "name": "grime",
+        "id": "51cfaac4-6696-480b-8f1b-27cfc789109c",
+        "count": 2
+      },
+      {
+        "disambiguation": "",
+        "name": "illbient",
+        "id": "da52c9d1-73f2-456e-a0d0-94bd854cb338",
+        "count": 1
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 2,
+        "disambiguation": "",
+        "name": "industrial hip hop"
+      },
+      {
+        "id": "0d15e596-3374-4590-bdb0-0a95d38ab4dc",
+        "count": 1,
+        "disambiguation": "",
+        "name": "ragga"
+      },
+      {
+        "name": "reggae",
+        "disambiguation": "",
+        "id": "02b2f720-d06e-42ce-85c2-1ecd4191ffcb",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "GB",
+          "type": "Person",
+          "sort-name": "Bug, The",
+          "genres": [
+            {
+              "name": "ambient dub",
+              "disambiguation": "",
+              "count": 1,
+              "id": "9c143ab1-1506-4134-ba40-1660fbad7f51"
+            },
+            {
+              "name": "breakbeat",
+              "disambiguation": "",
+              "id": "3b8f3f65-6caa-47c8-b076-fa59dfb69c43",
+              "count": 3
+            },
+            {
+              "disambiguation": "",
+              "name": "breaks",
+              "id": "63eddc75-dbad-4a05-a365-e30d1e87bca8",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "id": "bab69b07-8bb9-4415-b666-c37609cef80b",
+              "name": "club",
+              "disambiguation": ""
+            },
+            {
+              "id": "6c3503e3-bae3-42de-9e4c-7861f2053fbe",
+              "count": 1,
+              "disambiguation": "",
+              "name": "dancehall"
+            },
+            {
+              "disambiguation": "",
+              "name": "downtempo",
+              "count": 1,
+              "id": "cc38aba3-48ed-439a-83b9-f81a34a66598"
+            },
+            {
+              "disambiguation": "",
+              "name": "drone metal",
+              "count": 2,
+              "id": "9e5374b1-1f09-4c27-827a-d4e6aff4cc29"
+            },
+            {
+              "id": "c72a5d45-75a8-4b35-9f48-67e49eb4b5e5",
+              "count": 3,
+              "name": "dub",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "name": "dubstep",
+              "count": 5,
+              "id": "1b50083b-1afa-4778-82c8-548b309af783"
+            },
+            {
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "count": 2,
+              "disambiguation": "",
+              "name": "electronic"
+            },
+            {
+              "id": "53a3cea3-17af-4421-a07a-5824b540aeb5",
+              "count": 2,
+              "name": "electronica",
+              "disambiguation": ""
+            },
+            {
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+              "count": 1,
+              "disambiguation": "",
+              "name": "experimental"
+            },
+            {
+              "count": 2,
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71",
+              "disambiguation": "",
+              "name": "future bass"
+            },
+            {
+              "name": "grime",
+              "disambiguation": "",
+              "id": "51cfaac4-6696-480b-8f1b-27cfc789109c",
+              "count": 6
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            },
+            {
+              "name": "illbient",
+              "disambiguation": "",
+              "id": "da52c9d1-73f2-456e-a0d0-94bd854cb338",
+              "count": 2
+            },
+            {
+              "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+              "count": 1,
+              "disambiguation": "",
+              "name": "noise"
+            },
+            {
+              "count": 2,
+              "id": "0d15e596-3374-4590-bdb0-0a95d38ab4dc",
+              "name": "ragga",
+              "disambiguation": ""
+            },
+            {
+              "count": 2,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap",
+              "disambiguation": ""
+            },
+            {
+              "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+              "count": 3,
+              "disambiguation": "",
+              "name": "trip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "eddd6562-ab2a-4a26-a53a-2141854a57df",
+          "tags": [
+            {
+              "name": "ambient dub",
+              "count": 1
+            },
+            {
+              "name": "bass",
+              "count": 2
+            },
+            {
+              "name": "breakbeat",
+              "count": 3
+            },
+            {
+              "name": "breaks",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "british"
+            },
+            {
+              "count": 2,
+              "name": "club"
+            },
+            {
+              "name": "dancehall",
+              "count": 1
+            },
+            {
+              "name": "dancehall reggae",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "deep dubstep"
+            },
+            {
+              "name": "downtempo",
+              "count": 1
+            },
+            {
+              "name": "drone metal",
+              "count": 2
+            },
+            {
+              "name": "dub",
+              "count": 3
+            },
+            {
+              "count": 5,
+              "name": "dubstep"
+            },
+            {
+              "name": "electronic",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "name": "electronica"
+            },
+            {
+              "count": 1,
+              "name": "english"
+            },
+            {
+              "count": 1,
+              "name": "experimental"
+            },
+            {
+              "count": 1,
+              "name": "experimental hip-hop"
+            },
+            {
+              "count": 2,
+              "name": "future bass"
+            },
+            {
+              "count": 6,
+              "name": "grime"
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "illbient"
+            },
+            {
+              "name": "noise",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "ragga"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            },
+            {
+              "count": 2,
+              "name": "trap"
+            },
+            {
+              "name": "trip hop",
+              "count": 3
+            },
+            {
+              "count": 1,
+              "name": "uk"
+            },
+            {
+              "name": "uk bass",
+              "count": 1
+            }
+          ],
+          "name": "The Bug",
+          "disambiguation": "UK illbient/electronic producer Kevin Martin"
+        },
+        "joinphrase": "",
+        "name": "The Bug"
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2008-07-07"
+  }
+}

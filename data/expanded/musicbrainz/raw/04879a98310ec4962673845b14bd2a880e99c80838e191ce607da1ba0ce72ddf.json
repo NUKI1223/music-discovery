@@ -1,0 +1,89 @@
+{
+  "endpoint": "release-group/4b5854f1-a7ce-4e1e-b90d-65bc04591cbd",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4b5854f1-a7ce-4e1e-b90d-65bc04591cbd?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:07.707052+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "name": "mary sue",
+        "artist": {
+          "disambiguation": "Singapore‐based musician",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "country": "SG",
+          "sort-name": "mary sue",
+          "genres": [],
+          "id": "6fd96761-57f3-4fe4-8a7d-2ea767e290c1",
+          "tags": [],
+          "name": "mary sue"
+        }
+      },
+      {
+        "name": "TRISTANTHEEND",
+        "artist": {
+          "tags": [],
+          "id": "a7798a6c-2ea6-42cb-9728-dcaa4c49f932",
+          "name": "TRISTANTHEEND",
+          "type-id": null,
+          "country": null,
+          "type": null,
+          "genres": [],
+          "sort-name": "TRISTANTHEEND",
+          "disambiguation": ""
+        },
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "alternative hip hop",
+        "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2021-08-22",
+    "id": "4b5854f1-a7ce-4e1e-b90d-65bc04591cbd",
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "alternative hip hop"
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "METAMORPH"
+  }
+}

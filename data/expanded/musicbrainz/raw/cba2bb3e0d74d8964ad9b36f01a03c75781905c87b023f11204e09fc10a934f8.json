@@ -1,0 +1,124 @@
+{
+  "endpoint": "release-group/f595886c-4caa-4b83-945d-e1a5abe44629",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f595886c-4caa-4b83-945d-e1a5abe44629?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:24.454469+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Liam Back",
+        "artist": {
+          "country": "DE",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "e89b66ee-4f16-4a48-9914-122df8d9d56e",
+          "tags": [],
+          "type": "Person",
+          "sort-name": "Back, Liam",
+          "genres": [],
+          "disambiguation": "",
+          "name": "Liam Back"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "first-release-date": "2016-12-29",
+    "title": "APOPHENIA",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "secondary-types": [],
+    "id": "f595886c-4caa-4b83-945d-e1a5abe44629",
+    "tags": [
+      {
+        "name": "ambient",
+        "count": 1
+      },
+      {
+        "name": "chillwave",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "drum and bass"
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "genres": [
+      {
+        "name": "ambient",
+        "disambiguation": "",
+        "id": "608b0471-7531-4854-a348-e698c69cb699",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "chillwave",
+        "count": 1,
+        "id": "18d52a87-bbbf-42f0-8338-189c8c314523"
+      },
+      {
+        "id": "462f9321-6103-49c9-b6db-96219bce6f62",
+        "count": 1,
+        "disambiguation": "",
+        "name": "drum and bass"
+      },
+      {
+        "disambiguation": "",
+        "name": "electronic",
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+      },
+      {
+        "disambiguation": "",
+        "name": "experimental",
+        "count": 1,
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+      },
+      {
+        "disambiguation": "",
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      },
+      {
+        "name": "industrial hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+      },
+      {
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap",
+        "disambiguation": ""
+      }
+    ]
+  }
+}

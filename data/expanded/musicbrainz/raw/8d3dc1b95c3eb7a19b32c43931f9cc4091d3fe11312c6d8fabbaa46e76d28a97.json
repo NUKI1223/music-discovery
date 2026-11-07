@@ -1,0 +1,100 @@
+{
+  "endpoint": "release-group/1f6a40a7-cb65-446f-8824-db329f117fe0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1f6a40a7-cb65-446f-8824-db329f117fe0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:41.020140+00:00",
+  "response": {
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "name": "Asa",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "Finnish rap artist",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "conscious hip hop",
+              "count": 1
+            },
+            {
+              "name": "folk",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            }
+          ],
+          "country": "FI",
+          "name": "Asa",
+          "id": "01aaa1b4-4b35-48a3-8a00-5d82591d93d1",
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "a91eed3a-fdd0-494e-ade0-95ea4117f6eb",
+              "name": "folk"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Asa"
+        }
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "title": "Avar uus",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2016-12-09",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "1f6a40a7-cb65-446f-8824-db329f117fe0",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

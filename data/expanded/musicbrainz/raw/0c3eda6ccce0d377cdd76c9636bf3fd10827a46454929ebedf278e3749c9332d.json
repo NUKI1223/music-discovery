@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/b677b7ec-a2d8-45b0-9516-23f5cd7ea4d7",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b677b7ec-a2d8-45b0-9516-23f5cd7ea4d7?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:16.711850+00:00",
+  "response": {
+    "id": "b677b7ec-a2d8-45b0-9516-23f5cd7ea4d7",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "funk"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "genres": [
+      {
+        "name": "funk",
+        "id": "fe4ba6a1-9873-4fd0-a12b-a70c81818514",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "disambiguation": "",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1
+      }
+    ],
+    "title": "Vorhaut EP",
+    "first-release-date": "2015-08-31",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Nepumuk",
+          "type": "Person",
+          "genres": [],
+          "id": "17a7f922-a83b-447f-b856-12111cf7c561",
+          "name": "Nepumuk",
+          "country": "DE",
+          "tags": [],
+          "disambiguation": "German rapper, aka Luk from Luk&Fil",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "name": "Nepumuk",
+        "joinphrase": ""
+      }
+    ]
+  }
+}

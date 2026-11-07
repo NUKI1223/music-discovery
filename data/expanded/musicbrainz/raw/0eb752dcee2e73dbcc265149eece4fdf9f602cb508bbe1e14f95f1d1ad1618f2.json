@@ -1,0 +1,110 @@
+{
+  "endpoint": "release-group/f7888349-e562-47f1-a26e-d49471dd9096",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f7888349-e562-47f1-a26e-d49471dd9096?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:57.136383+00:00",
+  "response": {
+    "title": "Cyber Warfare",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2019-05-05",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "f7888349-e562-47f1-a26e-d49471dd9096",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Ho99o9",
+          "disambiguation": "",
+          "country": "US",
+          "type": "Group",
+          "sort-name": "Ho99o9",
+          "tags": [
+            {
+              "count": 1,
+              "name": "punk rap"
+            }
+          ],
+          "genres": [
+            {
+              "id": "3385bb64-94ae-42bd-b43b-b8785835cfe7",
+              "count": 1,
+              "disambiguation": "",
+              "name": "punk rap"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "e0458faa-82b2-4011-b851-6a0ed1f5a0e6"
+        },
+        "name": "Ho99o9"
+      }
+    ],
+    "genres": [
+      {
+        "name": "digital hardcore",
+        "id": "6d12e828-40a5-4ebc-a5b0-aa5506e2efd0",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "experimental hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      },
+      {
+        "name": "hardcore punk",
+        "id": "055a6e4d-d929-42ac-ba7a-9d063b254ea5",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "horrorcore",
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "name": "industrial hip hop"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "digital hardcore"
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "hardcore punk",
+        "count": 1
+      },
+      {
+        "name": "horrorcore",
+        "count": 1
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "synth punk"
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/8e8c482d-1fd3-4e64-8295-eb11fa4dc092",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8e8c482d-1fd3-4e64-8295-eb11fa4dc092?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:33.074068+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "FantaLite",
+          "name": "FantaLite",
+          "tags": [],
+          "country": null,
+          "id": "e9206bd8-682b-4865-904f-9013136c5c96",
+          "disambiguation": "",
+          "type": null,
+          "type-id": null,
+          "genres": []
+        },
+        "name": "FantaLite"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "hexd",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "name": "experimental"
+      },
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "id": "72fc5ddb-2c22-4f87-9511-fd16a7813f5c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hexd"
+      },
+      {
+        "name": "trap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "title": "(๑꒦ ̼ ꒦๑)",
+    "id": "8e8c482d-1fd3-4e64-8295-eb11fa4dc092",
+    "primary-type": "EP",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "2021-01-10",
+    "disambiguation": ""
+  }
+}

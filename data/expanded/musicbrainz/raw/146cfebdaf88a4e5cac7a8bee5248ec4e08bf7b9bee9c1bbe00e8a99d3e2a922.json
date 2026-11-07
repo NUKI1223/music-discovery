@@ -1,0 +1,59 @@
+{
+  "endpoint": "release-group/e4efaea7-7c51-4646-a930-bbbd98cb47cc",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e4efaea7-7c51-4646-a930-bbbd98cb47cc?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:02.586494+00:00",
+  "response": {
+    "primary-type": "Album",
+    "id": "e4efaea7-7c51-4646-a930-bbbd98cb47cc",
+    "title": "Enemy",
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "country": "IT",
+          "id": "a2c7987d-1461-4829-8f1b-0424058e17e1",
+          "type": "Person",
+          "disambiguation": "",
+          "sort-name": "Noyz Narcos",
+          "name": "Noyz Narcos",
+          "tags": [
+            {
+              "count": 1,
+              "name": "noyz narcos & fritz da cat"
+            }
+          ]
+        },
+        "name": "Noyz Narcos"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2018-04-13",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

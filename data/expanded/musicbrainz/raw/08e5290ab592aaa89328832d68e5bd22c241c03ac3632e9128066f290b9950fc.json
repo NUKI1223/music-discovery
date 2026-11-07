@@ -1,0 +1,80 @@
+{
+  "endpoint": "release-group/ab6b501d-fa88-3187-b41a-ed01311f83fc",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ab6b501d-fa88-3187-b41a-ed01311f83fc?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:33.074514+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "id": "ab88a874-03ae-4ab1-8d28-31558f4ef0ad",
+          "country": "NZ",
+          "disambiguation": "New Zealand hip hop duo",
+          "type": "Group",
+          "sort-name": "Dark Tower",
+          "name": "Dark Tower",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "new zealand"
+            }
+          ]
+        },
+        "name": "Dark Tower"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "name": "instrumental hip hop",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "ab6b501d-fa88-3187-b41a-ed01311f83fc",
+    "primary-type": "Album",
+    "title": "Canterbury Drafts",
+    "first-release-date": "2001-05-28",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": ""
+  }
+}

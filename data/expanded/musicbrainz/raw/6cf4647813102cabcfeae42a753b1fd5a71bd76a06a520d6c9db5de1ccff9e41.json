@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/48dcb9f9-7f79-49d9-847e-a98530b030c2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/48dcb9f9-7f79-49d9-847e-a98530b030c2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:22.883864+00:00",
+  "response": {
+    "title": "blinch",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "name": "lil ket",
+        "artist": {
+          "country": "AU",
+          "disambiguation": "",
+          "type": "Person",
+          "sort-name": "Lil Ket",
+          "tags": [],
+          "id": "3614b5a7-c9d2-4746-b19e-12dff6615e1f",
+          "name": "Lil Ket",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": []
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "id": "48dcb9f9-7f79-49d9-847e-a98530b030c2",
+    "first-release-date": "2023-10-07",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

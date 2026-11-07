@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/4ce6f90a-e1c5-458b-b629-1dd50736b873",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4ce6f90a-e1c5-458b-b629-1dd50736b873?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:52.844563+00:00",
+  "response": {
+    "title": "Blod på papiret",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "horrorcore",
+        "count": 1
+      }
+    ],
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Makaber",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "af890af8-1c07-4b6f-a8c9-235aaf2e01dd",
+          "name": "Makaber",
+          "tags": [],
+          "type": "Person",
+          "sort-name": "Makaber",
+          "disambiguation": "",
+          "country": "DK"
+        }
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "first-release-date": "2013-03-27",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "horrorcore",
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e"
+      }
+    ],
+    "id": "4ce6f90a-e1c5-458b-b629-1dd50736b873"
+  }
+}

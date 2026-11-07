@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/22ff52cc-c073-40ad-b9d1-9e71cbcb14d0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/22ff52cc-c073-40ad-b9d1-9e71cbcb14d0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:26.495727+00:00",
+  "response": {
+    "id": "22ff52cc-c073-40ad-b9d1-9e71cbcb14d0",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Bellringer",
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "first-release-date": "2022-04-22",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "US",
+          "name": "LINQUA FRANQA",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [],
+          "type": "Person",
+          "sort-name": "LINQUA FRANQA",
+          "id": "0e241904-11f7-4a38-9ef8-1ba28ea8f2b8",
+          "genres": []
+        },
+        "joinphrase": "",
+        "name": "LINQUA FRANQA"
+      }
+    ]
+  }
+}

@@ -1,0 +1,725 @@
+{
+  "skipped": [
+    {
+      "id": "944ffccb-56e1-4365-9f14-28dd1426583c",
+      "reason": "only_bootleg_editions"
+    },
+    {
+      "id": "973818c2-5eee-40de-893f-48706991758a",
+      "reason": "out_of_pilot_release_scope"
+    },
+    {
+      "id": "87873f67-c9d1-4ac0-8917-c0a1c1ae102d",
+      "reason": "out_of_pilot_release_scope"
+    },
+    {
+      "id": "beb4582f-43c5-474a-ba1a-1c5a016d1d0f",
+      "reason": "only_bootleg_editions"
+    },
+    {
+      "id": "64524ee6-0f0d-4e1d-8223-7e1097b82eb2",
+      "reason": "out_of_pilot_release_scope"
+    }
+  ],
+  "duplicate_ids": [],
+  "genre_evidence": {
+    "31b64b24-f7e1-4b20-b200-1d4de92993f6": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "electronic",
+        "experimental",
+        "idm",
+        "hip hop",
+        "sound collage",
+        "glitch hop",
+        "experimental hip hop",
+        "abstract hip hop",
+        "wonky",
+        "industrial hip hop",
+        "footwork",
+        "hardcore hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "dd2012b3-3a21-4150-aff1-fcff86b409c9": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "rock",
+        "electronic",
+        "digital hardcore",
+        "experimental",
+        "hip hop",
+        "electro-industrial",
+        "noise rock",
+        "glitch hop",
+        "experimental hip hop",
+        "abstract hip hop",
+        "industrial hip hop",
+        "synth punk",
+        "hardcore hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop",
+        "rock"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "80172a28-bd94-4c89-b0a4-343fb0f9f6c2": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "rock",
+        "electronic",
+        "digital hardcore",
+        "noise",
+        "experimental",
+        "hip hop",
+        "experimental rock",
+        "electro-industrial",
+        "noise rock",
+        "glitch hop",
+        "experimental hip hop",
+        "abstract hip hop",
+        "industrial hip hop",
+        "synth punk",
+        "hardcore hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop",
+        "rock"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "6a1c9684-18c6-4b43-bd15-6badbbdc0600": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "digital hardcore",
+        "industrial rock",
+        "experimental",
+        "idm",
+        "experimental rock",
+        "electro-industrial",
+        "noise rock",
+        "glitch hop",
+        "experimental hip hop",
+        "abstract hip hop",
+        "industrial hip hop",
+        "footwork",
+        "hardcore hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "experimental",
+        "hardcore",
+        "industrial-hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "a8ea0702-c21a-4cc7-b1cb-83da70007964": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "electronic",
+        "instrumental",
+        "experimental",
+        "electro",
+        "hip hop",
+        "electro-industrial",
+        "glitch hop",
+        "wonky",
+        "instrumental hip hop",
+        "deconstructed club"
+      ],
+      "mapped_genre_ids": [
+        "electronic",
+        "hip-hop",
+        "instrumental-hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "f1f6c7e2-7848-4554-b36c-2190e1d6bfb0": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "rock",
+        "experimental",
+        "hip hop",
+        "rap rock",
+        "glitch hop",
+        "experimental hip hop",
+        "abstract hip hop",
+        "industrial hip hop",
+        "hardcore hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop",
+        "rock"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "a3136431-78ae-4a4e-845e-b0b39fd6f465": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "electronic",
+        "experimental",
+        "hip hop",
+        "electro-industrial",
+        "glitch hop",
+        "experimental hip hop",
+        "abstract hip hop",
+        "wonky",
+        "industrial hip hop",
+        "footwork",
+        "hardcore hip hop",
+        "deconstructed club"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "aa0b4e86-358e-4c92-aecd-94f5f59233f7": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "abstract hip hop",
+        "electro-industrial",
+        "experimental",
+        "experimental hip hop",
+        "glitch hop",
+        "hardcore hip hop",
+        "hip hop",
+        "industrial",
+        "industrial hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "dcdee807-7a10-44c6-8e33-36625d8579ba": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "electronic",
+        "experimental",
+        "hip hop",
+        "abstract",
+        "glitch hop",
+        "experimental hip hop",
+        "underground hip hop",
+        "abstract hip hop",
+        "industrial hip hop",
+        "footwork",
+        "hardcore hip hop",
+        "peniscore",
+        "left-field rap"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "electronic",
+        "experimental",
+        "hardcore",
+        "hip-hop",
+        "industrial-hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "3d847591-7975-4fd5-a0a9-15c02fcf76e0": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "ddfee023-0306-4842-b741-f3e3beeaba16": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "33456da2-86e1-4fd7-9784-c46b8f827cab": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "360608f0-007c-49b3-90d7-8d2b81200e1f": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "f3694602-f134-41bc-a4cd-ae4e61478113": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "1f6a40a7-cb65-446f-8824-db329f117fe0": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "1e85e321-98a9-4461-bbcf-e812fe053747": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "4784331c-b0d7-4af1-9271-a5fe27a04c06": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "2cd9d25e-29ad-4c7b-8cf5-3bbb779fb922": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "31b1a4ba-7278-4c0b-9521-08e25d7e66f1": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "spoken word",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "e147eff0-e662-4e76-8626-1acb20e91d3b": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "dc20bbac-b8a4-4ed4-8c29-4ea851a18489": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "abstract hip hop",
+        "jazz rap"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "jazz-rap"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "caa37ad9-ec7f-49b7-807c-e8c152021240": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "d435d05d-3bfd-4a41-86f5-f8d6e8969ffa": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "8c2d455e-aa05-463f-a1e8-d3f62883275a": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "c0b0010f-1aca-4b6b-a5ad-9a693267e2e3": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "abstract hip-hop",
+        "hip hop rap"
+      ],
+      "mapped_genre_ids": [],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "6b89d5ba-7084-4cc9-85b6-7852a9b90f8c": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "hip hop",
+        "indie",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "4df9abe4-aaba-424f-80be-bd6ed18cea23": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "electronic",
+        "trip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "electronic"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "ce76db41-7790-4e3a-bbe5-b65259c986c3": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "experimental hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "experimental"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "8b074e69-7e40-4d57-8c47-1bc48b753a06": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "experimental hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "experimental"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "5e83c736-8832-4a66-935f-561b0e3b6b91": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "rap",
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "0a78d220-83bc-41de-8db7-49032881e1d2": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "instrumental",
+        "hip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "hip-hop"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    },
+    "6de3dcb4-d629-40f2-8674-c5f4329df5a5": {
+      "provider": "musicbrainz",
+      "raw_tags": [
+        "electronic",
+        "trip hop",
+        "abstract hip hop"
+      ],
+      "mapped_genre_ids": [
+        "abstract",
+        "electronic"
+      ],
+      "method": "exact_alias_mapping_of_release_tags",
+      "mapping_version": "mb-tags-v1",
+      "independent_manual_review": false
+    }
+  },
+  "unknown_tags": {
+    "31b64b24-f7e1-4b20-b200-1d4de92993f6": [
+      "experimental",
+      "footwork",
+      "glitch hop",
+      "idm",
+      "sound collage",
+      "wonky"
+    ],
+    "dd2012b3-3a21-4150-aff1-fcff86b409c9": [
+      "digital hardcore",
+      "electro-industrial",
+      "experimental",
+      "glitch hop",
+      "noise rock",
+      "synth punk"
+    ],
+    "80172a28-bd94-4c89-b0a4-343fb0f9f6c2": [
+      "digital hardcore",
+      "electro-industrial",
+      "experimental",
+      "experimental rock",
+      "glitch hop",
+      "noise",
+      "noise rock",
+      "synth punk"
+    ],
+    "6a1c9684-18c6-4b43-bd15-6badbbdc0600": [
+      "digital hardcore",
+      "electro-industrial",
+      "experimental",
+      "experimental rock",
+      "footwork",
+      "glitch hop",
+      "idm",
+      "industrial rock",
+      "noise rock"
+    ],
+    "a8ea0702-c21a-4cc7-b1cb-83da70007964": [
+      "deconstructed club",
+      "electro",
+      "electro-industrial",
+      "experimental",
+      "glitch hop",
+      "instrumental",
+      "wonky"
+    ],
+    "f1f6c7e2-7848-4554-b36c-2190e1d6bfb0": [
+      "experimental",
+      "glitch hop",
+      "rap rock"
+    ],
+    "a3136431-78ae-4a4e-845e-b0b39fd6f465": [
+      "deconstructed club",
+      "electro-industrial",
+      "experimental",
+      "footwork",
+      "glitch hop",
+      "wonky"
+    ],
+    "aa0b4e86-358e-4c92-aecd-94f5f59233f7": [
+      "electro-industrial",
+      "experimental",
+      "glitch hop",
+      "industrial"
+    ],
+    "dcdee807-7a10-44c6-8e33-36625d8579ba": [
+      "abstract",
+      "experimental",
+      "footwork",
+      "glitch hop",
+      "left-field rap",
+      "peniscore",
+      "underground hip hop"
+    ],
+    "3d847591-7975-4fd5-a0a9-15c02fcf76e0": [],
+    "ddfee023-0306-4842-b741-f3e3beeaba16": [],
+    "33456da2-86e1-4fd7-9784-c46b8f827cab": [],
+    "360608f0-007c-49b3-90d7-8d2b81200e1f": [],
+    "f3694602-f134-41bc-a4cd-ae4e61478113": [],
+    "1f6a40a7-cb65-446f-8824-db329f117fe0": [],
+    "1e85e321-98a9-4461-bbcf-e812fe053747": [],
+    "4784331c-b0d7-4af1-9271-a5fe27a04c06": [],
+    "2cd9d25e-29ad-4c7b-8cf5-3bbb779fb922": [],
+    "31b1a4ba-7278-4c0b-9521-08e25d7e66f1": [
+      "spoken word"
+    ],
+    "e147eff0-e662-4e76-8626-1acb20e91d3b": [],
+    "dc20bbac-b8a4-4ed4-8c29-4ea851a18489": [],
+    "caa37ad9-ec7f-49b7-807c-e8c152021240": [],
+    "d435d05d-3bfd-4a41-86f5-f8d6e8969ffa": [],
+    "8c2d455e-aa05-463f-a1e8-d3f62883275a": [],
+    "c0b0010f-1aca-4b6b-a5ad-9a693267e2e3": [],
+    "1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3": [
+      "abstract hip-hop",
+      "hip hop rap"
+    ],
+    "6b89d5ba-7084-4cc9-85b6-7852a9b90f8c": [
+      "indie"
+    ],
+    "4df9abe4-aaba-424f-80be-bd6ed18cea23": [
+      "trip hop"
+    ],
+    "ce76db41-7790-4e3a-bbe5-b65259c986c3": [],
+    "8b074e69-7e40-4d57-8c47-1bc48b753a06": [],
+    "5e83c736-8832-4a66-935f-561b0e3b6b91": [],
+    "0a78d220-83bc-41de-8db7-49032881e1d2": [
+      "instrumental"
+    ],
+    "6de3dcb4-d629-40f2-8674-c5f4329df5a5": [
+      "trip hop"
+    ]
+  },
+  "release_count": 33,
+  "source": "https://musicbrainz.org/",
+  "access_basis": "MusicBrainz official API; noncommercial prototype. Core metadata CC0; tags/genre associations/ratings CC BY-NC-SA 3.0, attribution MusicBrainz contributors. https://musicbrainz.org/doc/About/Data_License",
+  "observed_at": "2026-10-28T11:46:25+00:00"
+}

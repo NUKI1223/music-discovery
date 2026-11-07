@@ -1,0 +1,126 @@
+{
+  "endpoint": "release-group/5d19d0e9-7972-49a3-849d-216824a8a582",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5d19d0e9-7972-49a3-849d-216824a8a582?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:52.262846+00:00",
+  "response": {
+    "id": "5d19d0e9-7972-49a3-849d-216824a8a582",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "jazz"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      },
+      {
+        "count": 1,
+        "name": "jazz-rap"
+      },
+      {
+        "name": "self-titled",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "genres": [
+      {
+        "count": 2,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+        "disambiguation": "",
+        "name": "jazz"
+      },
+      {
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "name": "jazz rap"
+      }
+    ],
+    "title": "Avantdale Bowling Club",
+    "first-release-date": "2018-08-17",
+    "rating": {
+      "votes-count": 4,
+      "value": 4
+    },
+    "artist-credit": [
+      {
+        "name": "Avantdale Bowling Club",
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "name": "fusion",
+              "count": 1
+            },
+            {
+              "count": 5,
+              "name": "hip hop"
+            },
+            {
+              "count": 3,
+              "name": "jazz"
+            },
+            {
+              "count": 2,
+              "name": "jazz hop"
+            },
+            {
+              "count": 4,
+              "name": "jazz rap"
+            },
+            {
+              "name": "new zealand",
+              "count": 1
+            }
+          ],
+          "disambiguation": "New Zealand hip hop jazz",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "Avantdale Bowling Club",
+          "country": "NZ",
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 5,
+              "name": "hip hop"
+            },
+            {
+              "name": "jazz",
+              "disambiguation": "",
+              "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+              "count": 3
+            },
+            {
+              "name": "jazz rap",
+              "disambiguation": "",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "count": 4
+            }
+          ],
+          "id": "e9b7b5c2-21e4-44f2-b181-a53bccfefbef",
+          "sort-name": "Avantdale Bowling Club",
+          "type": "Group"
+        }
+      }
+    ],
+    "primary-type": "Album"
+  }
+}

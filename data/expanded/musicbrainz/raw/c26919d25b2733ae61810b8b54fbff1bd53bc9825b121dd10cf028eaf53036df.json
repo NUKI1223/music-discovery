@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/8ffd2fe8-977a-4bdd-b567-7f27c44bb3b9",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8ffd2fe8-977a-4bdd-b567-7f27c44bb3b9?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:55.305921+00:00",
+  "response": {
+    "title": "It's all gd, dw",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "UK rapper",
+          "country": "GB",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "name": "jazz rap"
+            }
+          ],
+          "id": "15c7eb57-2604-41c3-8e67-19ed2bc70648",
+          "name": "Bert",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "jazz rap",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Bert"
+        },
+        "name": "Bert"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2022-02-16",
+    "id": "8ffd2fe8-977a-4bdd-b567-7f27c44bb3b9",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      }
+    ]
+  }
+}

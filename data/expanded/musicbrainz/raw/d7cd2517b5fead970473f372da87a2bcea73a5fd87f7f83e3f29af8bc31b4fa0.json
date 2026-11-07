@@ -1,0 +1,73 @@
+{
+  "endpoint": "release-group/10173045-1bbb-443a-9e23-4e85f79e736a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/10173045-1bbb-443a-9e23-4e85f79e736a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:06.185661+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "name": "Charlie Smarts",
+        "artist": {
+          "tags": [],
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Charlie Smarts",
+          "country": "US",
+          "genres": [],
+          "id": "b753ea7c-42ff-483e-9096-2c06f50f928e",
+          "sort-name": "Smarts, Charlie",
+          "type": "Person"
+        }
+      },
+      {
+        "name": "DJ Ill Digitz",
+        "joinphrase": "",
+        "artist": {
+          "country": "US",
+          "name": "DJ Ill Digitz",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": [],
+          "type": "Person",
+          "sort-name": "Ill Digitz, DJ",
+          "id": "4e1e2632-422b-43fb-8c1e-b9580d8d46bc",
+          "genres": []
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "title": "Charlietape",
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "first-release-date": "2023-04-28",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "10173045-1bbb-443a-9e23-4e85f79e736a",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ]
+  }
+}

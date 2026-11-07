@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/d3f38c34-edc5-4c07-adc0-ba3e54fe85be",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d3f38c34-edc5-4c07-adc0-ba3e54fe85be?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:35.873608+00:00",
+  "response": {
+    "first-release-date": "2011-10-01",
+    "artist-credit": [
+      {
+        "name": "Blindspot",
+        "joinphrase": "",
+        "artist": {
+          "country": "DE",
+          "disambiguation": "Hip Hop",
+          "name": "Blindspot",
+          "id": "03b6615a-0570-47d7-9270-b86ca20621ed",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [],
+          "genres": [],
+          "type": "Group",
+          "sort-name": "Blindspot"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "name": "abstract hip hop",
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "name": "hip hop",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "id": "d3f38c34-edc5-4c07-adc0-ba3e54fe85be",
+    "disambiguation": "",
+    "title": "A Fine Mess",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

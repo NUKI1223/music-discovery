@@ -1,0 +1,74 @@
+{
+  "endpoint": "release-group/531e16c4-64b5-4582-a6ce-742ccb16f982",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/531e16c4-64b5-4582-a6ce-742ccb16f982?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:21.090460+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2020-09-30",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "531e16c4-64b5-4582-a6ce-742ccb16f982",
+    "primary-type": "EP",
+    "title": "Old Titan Project",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e837fa08-f314-428f-af96-ceed9858e3b2",
+        "name": "vaporwave"
+      }
+    ],
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "name": "vaporwave"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "超高 Titan",
+        "artist": {
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "Vaporwave",
+          "type": "Person",
+          "id": "1ae92d16-e54e-461d-b7e6-f862654a0a1b",
+          "country": "US",
+          "tags": [],
+          "name": "超高 Titan",
+          "sort-name": "Super High Titan"
+        },
+        "joinphrase": ""
+      }
+    ]
+  }
+}

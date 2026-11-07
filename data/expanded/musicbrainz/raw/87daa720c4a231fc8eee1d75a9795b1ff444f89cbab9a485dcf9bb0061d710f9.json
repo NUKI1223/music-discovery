@@ -1,0 +1,316 @@
+{
+  "endpoint": "release-group/56327267-51fb-472c-919e-d6ca258ebab2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/56327267-51fb-472c-919e-d6ca258ebab2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:31:55.857661+00:00",
+  "response": {
+    "title": "BULLY",
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 2,
+      "value": 4
+    },
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2025-03-24",
+    "genres": [
+      {
+        "count": 2,
+        "id": "4bb4043a-0ee5-4b84-93fa-6ba4567a6ba0",
+        "disambiguation": "",
+        "name": "contemporary r&b"
+      },
+      {
+        "name": "electronic",
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1
+      },
+      {
+        "count": 4,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "name": "pop rap",
+        "disambiguation": "",
+        "count": 2,
+        "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237"
+      },
+      {
+        "id": "1b5e7b16-336b-473e-a364-5120413a9827",
+        "count": 1,
+        "disambiguation": "",
+        "name": "soul"
+      }
+    ],
+    "tags": [
+      {
+        "count": 2,
+        "name": "contemporary r&b"
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "funk / soul"
+      },
+      {
+        "name": "hip hop",
+        "count": 4
+      },
+      {
+        "name": "offiziellecharts.de",
+        "count": 1
+      },
+      {
+        "count": 2,
+        "name": "pop rap"
+      },
+      {
+        "name": "soul",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Ye",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "formerly Kanye West",
+          "country": "US",
+          "type": "Person",
+          "sort-name": "Ye",
+          "name": "Ye",
+          "tags": [
+            {
+              "count": 1,
+              "name": "african american musicians"
+            },
+            {
+              "count": 1,
+              "name": "businesspeople"
+            },
+            {
+              "count": 1,
+              "name": "chipmunk soul"
+            },
+            {
+              "name": "christian hip hop",
+              "count": 3
+            },
+            {
+              "name": "composers",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "contemporary r&b",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "contemporary rap"
+            },
+            {
+              "name": "deep house",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "electropop"
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 6
+            },
+            {
+              "name": "fashion designers",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "future bass"
+            },
+            {
+              "name": "gospel music",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 31
+            },
+            {
+              "count": 2,
+              "name": "house"
+            },
+            {
+              "count": 1,
+              "name": "midwest rap"
+            },
+            {
+              "name": "modeschöpfer",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "musikproduzent"
+            },
+            {
+              "count": 5,
+              "name": "pop"
+            },
+            {
+              "name": "pop rap",
+              "count": 14
+            },
+            {
+              "name": "producer",
+              "count": 3
+            },
+            {
+              "count": 1,
+              "name": "progressive rap"
+            },
+            {
+              "count": 1,
+              "name": "r&b"
+            },
+            {
+              "name": "rap musicians",
+              "count": 1
+            },
+            {
+              "name": "rapmusiker",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "regisseur"
+            },
+            {
+              "name": "singers",
+              "count": 1
+            },
+            {
+              "name": "singstimme",
+              "count": 1
+            },
+            {
+              "name": "songwriter",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "sound recording executives and producers"
+            },
+            {
+              "count": 2,
+              "name": "trap"
+            }
+          ],
+          "genres": [
+            {
+              "name": "chipmunk soul",
+              "count": 1,
+              "id": "cec1580a-ef3c-4928-b302-58015335c7b0",
+              "disambiguation": ""
+            },
+            {
+              "name": "christian hip hop",
+              "count": 3,
+              "id": "0db33693-8ae5-4749-af7a-20895395dc82",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "contemporary r&b",
+              "disambiguation": "",
+              "count": 1,
+              "id": "4bb4043a-0ee5-4b84-93fa-6ba4567a6ba0"
+            },
+            {
+              "disambiguation": "",
+              "id": "7fa479e7-3d35-40d1-96f7-b619a5ca9d9f",
+              "count": 1,
+              "name": "deep house"
+            },
+            {
+              "disambiguation": "",
+              "id": "3f3388b4-e36a-4bf8-a0be-66b10d92aaa4",
+              "count": 1,
+              "name": "electropop"
+            },
+            {
+              "disambiguation": "",
+              "count": 6,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "name": "experimental hip hop"
+            },
+            {
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71",
+              "count": 1,
+              "disambiguation": "",
+              "name": "future bass"
+            },
+            {
+              "name": "hip hop",
+              "count": 31,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            },
+            {
+              "name": "house",
+              "disambiguation": "",
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+              "count": 2
+            },
+            {
+              "count": 5,
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "disambiguation": "",
+              "name": "pop"
+            },
+            {
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "count": 14,
+              "disambiguation": "",
+              "name": "pop rap"
+            },
+            {
+              "name": "r&b",
+              "disambiguation": "",
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "count": 2,
+              "name": "trap"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "164f0d73-1234-4e2c-8743-d77bf2191051"
+        }
+      }
+    ],
+    "id": "56327267-51fb-472c-919e-d6ca258ebab2"
+  }
+}

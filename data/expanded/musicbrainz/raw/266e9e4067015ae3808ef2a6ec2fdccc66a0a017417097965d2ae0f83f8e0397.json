@@ -1,0 +1,110 @@
+{
+  "endpoint": "release-group/41c48c80-9515-430a-8c55-abf16a9f7517",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/41c48c80-9515-430a-8c55-abf16a9f7517?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:52.993551+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2012-01-04",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      },
+      {
+        "name": "trap edm",
+        "id": "a21ea484-efba-4119-8120-429b26f98728",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-types": [],
+    "id": "41c48c80-9515-430a-8c55-abf16a9f7517",
+    "primary-type": "EP",
+    "title": "ŤɌ∆Ҏ ᶊῌῗ† 1/5",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "UZ",
+          "type": "Person",
+          "id": "17a338f2-a8b4-4d81-ba6b-f8baeb04d30f",
+          "country": "FR",
+          "genres": [
+            {
+              "name": "electronic",
+              "count": 1,
+              "disambiguation": "",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+            },
+            {
+              "id": "93dbdf64-39ab-4956-9f4c-550692d2cc2b",
+              "disambiguation": "",
+              "count": 1,
+              "name": "hybrid trap"
+            },
+            {
+              "name": "trap",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "count": 2,
+              "disambiguation": ""
+            },
+            {
+              "name": "trap edm",
+              "id": "a21ea484-efba-4119-8120-429b26f98728",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "name": "hybrid trap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "sillyname"
+            },
+            {
+              "count": 2,
+              "name": "trap"
+            },
+            {
+              "name": "trap edm",
+              "count": 1
+            }
+          ],
+          "sort-name": "UZ",
+          "name": "UZ"
+        },
+        "joinphrase": "",
+        "name": "ƱZ"
+      }
+    ],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trap edm"
+      }
+    ]
+  }
+}

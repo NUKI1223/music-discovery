@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/47b2e70e-3e56-457e-9fe2-084b50d19840",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/47b2e70e-3e56-457e-9fe2-084b50d19840?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:27.950140+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "XUL1",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2023-08-31",
+    "id": "47b2e70e-3e56-457e-9fe2-084b50d19840",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Whiston, Kai",
+          "type": "Person",
+          "tags": [],
+          "name": "Kai Whiston",
+          "id": "2d07209c-3847-4186-be6d-e19ef0157393",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "GB",
+          "disambiguation": ""
+        },
+        "name": "Kai Whiston",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": ""
+  }
+}

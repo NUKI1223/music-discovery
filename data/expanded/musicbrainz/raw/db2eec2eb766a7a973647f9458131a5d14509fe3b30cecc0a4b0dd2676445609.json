@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/3030c8e9-cf05-47b8-bd36-5e54cacaceba",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3030c8e9-cf05-47b8-bd36-5e54cacaceba?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:43.408868+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "Hymne Mature",
+    "genres": [
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "name": "boom bap"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "name": "jazz rap",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "jazz rap"
+            }
+          ],
+          "id": "97104bbb-5d82-4b94-85c2-f6d54f979e2c",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "FR",
+          "disambiguation": "French hip-hop group",
+          "sort-name": "K2C",
+          "type": "Group",
+          "name": "K2C"
+        },
+        "name": "K/2/Conscience"
+      }
+    ],
+    "id": "3030c8e9-cf05-47b8-bd36-5e54cacaceba",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "1998"
+  }
+}

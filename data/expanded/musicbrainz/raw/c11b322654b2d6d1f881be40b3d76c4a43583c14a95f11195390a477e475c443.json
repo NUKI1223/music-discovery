@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/8e3915b3-5df7-42c5-bebb-621840a08ebb",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8e3915b3-5df7-42c5-bebb-621840a08ebb?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:59.964027+00:00",
+  "response": {
+    "primary-type": "EP",
+    "id": "8e3915b3-5df7-42c5-bebb-621840a08ebb",
+    "title": "Puta Madre",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Jovi",
+        "joinphrase": "",
+        "artist": {
+          "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+          "country": "CM",
+          "type": "Person",
+          "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "name": "Jovi",
+          "sort-name": "Jovi",
+          "tags": []
+        }
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2016-01-01",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

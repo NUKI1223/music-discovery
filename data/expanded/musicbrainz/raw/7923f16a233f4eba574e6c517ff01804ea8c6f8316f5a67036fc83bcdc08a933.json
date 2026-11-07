@@ -1,0 +1,1592 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"industrial hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[1980-01-01 TO 2009-12-31]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22industrial+hip+hop%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B1980-01-01+TO+2009-12-31%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:23.237288+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:23.164Z",
+    "count": 12,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "f447ee3c-a2a2-4ce7-a77b-9f431535b9a4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "1e2d756b-5a60-3c15-8fab-b0dcf70e49fe",
+        "count": 3,
+        "title": "Salt on Everything",
+        "first-release-date": "2002-08-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Sole",
+            "artist": {
+              "id": "7bc3a2d0-7eed-4b42-ae96-7d68c644454d",
+              "name": "Sole",
+              "sort-name": "Sole",
+              "disambiguation": "US experimental hip hop artist Tim Holland, Anticon associated"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "dfe42495-5907-4bc9-bb86-dc7429cb9496",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Salt on Everything",
+            "status": "Official"
+          },
+          {
+            "id": "89d784e1-9988-4616-8e75-03b3a65f849f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Salt on Everything",
+            "status": "Official"
+          },
+          {
+            "id": "bebe8dbe-c8b3-39c9-8324-3f6033cc9bdf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Salt on Everything",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4d677f72-0462-305b-b747-45187d942698",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2747a248-8e08-3a51-94b0-af85a61fb1da",
+        "count": 3,
+        "title": "The Myth of Rock",
+        "first-release-date": "1990",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Consolidated",
+            "artist": {
+              "id": "502d686d-a74c-4a09-ba74-8d919a13b684",
+              "name": "Consolidated",
+              "sort-name": "Consolidated",
+              "aliases": [
+                {
+                  "sort-name": "Consolitated",
+                  "name": "Consolitated",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3f145e92-595a-4729-a44b-341a819a759e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Myth of Rock",
+            "status": "Official"
+          },
+          {
+            "id": "ff4960a8-cb33-47d8-b843-d1af6ce3d854",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Myth of Rock",
+            "status": "Official"
+          },
+          {
+            "id": "1f01d12b-035e-4098-8095-270e1f52c270",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Myth of Rock",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "industrial"
+          },
+          {
+            "count": 0,
+            "name": "hip-hop"
+          },
+          {
+            "count": 3,
+            "name": "hip hop"
+          },
+          {
+            "count": 0,
+            "name": "conscious"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          }
+        ]
+      },
+      {
+        "id": "80693ead-277f-3592-80a0-8addfef9c286",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2747a248-8e08-3a51-94b0-af85a61fb1da",
+        "count": 8,
+        "title": "Friendly Fa$cism",
+        "first-release-date": "1991-05-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Consolidated",
+            "artist": {
+              "id": "502d686d-a74c-4a09-ba74-8d919a13b684",
+              "name": "Consolidated",
+              "sort-name": "Consolidated",
+              "aliases": [
+                {
+                  "sort-name": "Consolitated",
+                  "name": "Consolitated",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e7856eea-70b4-4373-a0f3-cf52a66686f1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Friendly Fa$cism",
+            "status": "Official"
+          },
+          {
+            "id": "8727abaa-c3dc-461f-8325-c44ec2232ec3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Friendly Fa$cism",
+            "status": "Official"
+          },
+          {
+            "id": "e3dcbe45-476e-4263-a1b2-e6d888fc09b6",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Friendly Fa$cism",
+            "status": "Promotion"
+          },
+          {
+            "id": "9c560a59-0b21-47c8-8b71-e5cdd12a3267",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Friendly Fa$cism",
+            "status": "Official"
+          },
+          {
+            "id": "e798255e-974b-45ad-b3e8-0ee454d3f610",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Friendly Fa$cism",
+            "status": "Official"
+          },
+          {
+            "id": "3ee80c70-656b-437d-925e-820aae9b8e6b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Friendly Fa$cism",
+            "status": "Official"
+          },
+          {
+            "id": "1c0a1b52-daaa-39f3-8fe2-0f143c3f40c8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Friendly Fa$cism",
+            "status": "Official"
+          },
+          {
+            "id": "07c148fe-b754-4738-9530-30b3272ba9bf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Friendly Fa$cism",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "industrial"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 0,
+            "name": "alternative and punk"
+          },
+          {
+            "count": 2,
+            "name": "industrial hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b1a8a409-a8d4-3ea7-afb0-749111554ac0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "49bc4bf0-2c9d-399d-91f6-1e48491c6e99",
+        "count": 3,
+        "title": "London Zoo",
+        "first-release-date": "2008-07-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "The Bug",
+            "artist": {
+              "id": "eddd6562-ab2a-4a26-a53a-2141854a57df",
+              "name": "The Bug",
+              "sort-name": "Bug, The",
+              "disambiguation": "UK illbient/electronic producer Kevin Martin",
+              "aliases": [
+                {
+                  "sort-name": "Martin, Kevin",
+                  "name": "Kevin Martin",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "K. Mart",
+                  "name": "K. Mart",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Martin, Kevin Richard",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Kevin Richard Martin",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Bug",
+                  "name": "Bug",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5390e629-ef8a-4cb4-b854-fcc2871357fc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "London Zoo",
+            "status": "Official"
+          },
+          {
+            "id": "7e9b09fd-7a5c-3bed-b43d-fe7e8ed0eece",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "London Zoo",
+            "status": "Official"
+          },
+          {
+            "id": "5b2cdaca-0ee5-316c-b9aa-41663dba7548",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "London Zoo",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 5,
+            "name": "dubstep"
+          },
+          {
+            "count": 1,
+            "name": "reggae"
+          },
+          {
+            "count": 1,
+            "name": "dancehall"
+          },
+          {
+            "count": 2,
+            "name": "grime"
+          },
+          {
+            "count": 1,
+            "name": "illbient"
+          },
+          {
+            "count": 1,
+            "name": "ragga"
+          },
+          {
+            "count": 2,
+            "name": "industrial hip hop"
+          }
+        ]
+      },
+      {
+        "id": "327eec92-804d-300e-b231-a4a42fc3332c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fc239a17-dd05-3ce8-a696-52b30fe84d78",
+        "count": 5,
+        "title": "Bad Blood",
+        "first-release-date": "1998-10-20",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Ice",
+            "artist": {
+              "id": "6a01a985-6cb0-448c-a884-45ad5645ddd3",
+              "name": "Ice",
+              "sort-name": "Ice",
+              "disambiguation": "UK dub group",
+              "aliases": [
+                {
+                  "sort-name": "Skull vs. Ice",
+                  "name": "Skull vs. Ice",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "760ff982-71b7-3041-a4c7-2156ff158c14",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bad Blood",
+            "status": "Official"
+          },
+          {
+            "id": "1ff17a37-0596-4bbc-ae13-c0f1174fc989",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Ice Promo",
+            "status": "Promotion"
+          },
+          {
+            "id": "19c84d05-470f-4cd7-988f-70637c123a58",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Bad Blood",
+            "status": "Promotion"
+          },
+          {
+            "id": "65fd522b-e664-4246-88df-cd05f9973f06",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bad Blood",
+            "status": "Official"
+          },
+          {
+            "id": "ad615606-5afc-4b8e-a638-31cf42af0100",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bad Blood",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "industrial"
+          },
+          {
+            "count": 1,
+            "name": "hip-hop"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 2,
+            "name": "dub"
+          },
+          {
+            "count": 2,
+            "name": "abstract"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d2e1fa94-f246-39a6-b644-1b4add09743e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 66,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d671d884-d98e-3bbc-b477-d75fccbe138d",
+        "count": 3,
+        "title": "Techno Animal Versus Reality",
+        "first-release-date": "1998-03-30",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Techno Animal",
+            "artist": {
+              "id": "e9a7c1b9-dcb6-4cf5-b200-f9630ac68ec7",
+              "name": "Techno Animal",
+              "sort-name": "Techno Animal"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "345ee171-4507-4ff5-bcc0-65f0522c724f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Techno Animal Versus Reality",
+            "status": "Official"
+          },
+          {
+            "id": "1b48f725-4945-4b59-8908-f3093ffad58d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Techno Animal Versus Reality",
+            "status": "Official"
+          },
+          {
+            "id": "002e6bce-833e-48d3-b25e-4e47d3ff1d1e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Techno Animal Versus Reality",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "breakcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore"
+          },
+          {
+            "count": 1,
+            "name": "ambient"
+          },
+          {
+            "count": 1,
+            "name": "hip-hop"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "breakbeat"
+          },
+          {
+            "count": 1,
+            "name": "abstract"
+          },
+          {
+            "count": 2,
+            "name": "illbient"
+          },
+          {
+            "count": 1,
+            "name": "broken beat"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          }
+        ]
+      },
+      {
+        "id": "42d16071-0ee6-322c-b9a8-2cf66d46c062",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 64,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c2050b23-2ec0-35d8-a96f-d92bb5219e9e",
+        "count": 4,
+        "title": "给你一点颜色",
+        "first-release-date": "2005",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "崔健",
+            "artist": {
+              "id": "d457f05e-8802-4888-83a6-b07d3df3bbf3",
+              "name": "崔健",
+              "sort-name": "Cui, Jian",
+              "aliases": [
+                {
+                  "sort-name": "崔健",
+                  "name": "崔健",
+                  "locale": "zh_Hans",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Cui Jian",
+                  "name": "Cui Jian",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "80625164-f18b-4b63-a64e-8247f6c1e763",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "给你一点颜色",
+            "status": "Official"
+          },
+          {
+            "id": "67bfd88a-2efb-480c-b975-3d540233d25c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "给你一点颜色",
+            "status": "Official"
+          },
+          {
+            "id": "ba1290aa-ea88-4dff-887b-60d1b72faf02",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "给你一点颜色",
+            "status": "Official"
+          },
+          {
+            "id": "d66c0105-74a1-4861-b3fa-98dbc16a2ee2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Show You Colour",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "pop"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "art rock"
+          },
+          {
+            "count": 1,
+            "name": "rap rock"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "chinese folk music"
+          }
+        ]
+      },
+      {
+        "id": "7d2b67e2-869c-34d6-b5bc-238f7997fdac",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "cebe4d6e-e60d-3835-b6da-bfc75db5e27b",
+        "count": 2,
+        "title": "Onomatopoeia",
+        "first-release-date": "2001-06-15",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Flobots",
+            "artist": {
+              "id": "7892c869-1e2b-4b38-8540-4caff7dd2b49",
+              "name": "Flobots",
+              "sort-name": "Flobots",
+              "aliases": [
+                {
+                  "sort-name": "Jonny 5 + Yak",
+                  "name": "Jonny 5 + Yak",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Jonny 5 & Yak",
+                  "name": "Jonny 5 & Yak",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9b71ef8d-d8a0-40bc-81db-64b6662fa41d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Onomatopoeia",
+            "status": "Official"
+          },
+          {
+            "id": "9a55cc78-bbcd-4bad-bcc5-70e9ca1b2af6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Onomatopoeia",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 1,
+            "name": "political hip hop"
+          }
+        ]
+      },
+      {
+        "id": "7798e0e7-b9ad-3cc2-9221-436ba4cb2fe9",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 60,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f4b7597b-0649-34ef-9f11-3e17ec88d0c9",
+        "count": 3,
+        "title": "Phoenix Metabolism",
+        "first-release-date": "1999-09-11",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Panacea",
+            "artist": {
+              "id": "1087a691-35da-4450-b6bd-5d18d4304b97",
+              "name": "The Panacea",
+              "sort-name": "Panacea, The",
+              "disambiguation": "drum ’n bass artist Mathis Mootz",
+              "aliases": [
+                {
+                  "sort-name": "Panashita, The",
+                  "name": "The Panashita",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Panacea",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Panacea",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2005",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Panacea, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The Panacea",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": "2005"
+                },
+                {
+                  "sort-name": "Mootz, Mathis",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Mathis Mootz",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "05f5eeb0-e15d-4430-b501-0d438dda5e5b",
+            "title": "Phoenix Metabolism"
+          },
+          {
+            "id": "182a2261-e086-45ed-8fd9-cea00e453495",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Phoenix Metabolism",
+            "status": "Official"
+          },
+          {
+            "id": "a1470f87-e201-432e-892b-248de71975f4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Phoenix Metabolism",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "drum and bass"
+          },
+          {
+            "count": 1,
+            "name": "breakcore"
+          },
+          {
+            "count": 0,
+            "name": "hardcore"
+          },
+          {
+            "count": 1,
+            "name": "hip-hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "cut-up dj"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          }
+        ]
+      },
+      {
+        "id": "7f7a1bda-e333-398f-ae62-a03f75b48015",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 58,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c9c1cdf0-c1c8-3b59-a4d3-d4d827d08334",
+        "count": 5,
+        "title": "Absence",
+        "first-release-date": "2004",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Dälek",
+            "artist": {
+              "id": "4f2c4842-f90f-476e-95d3-8e868ae4d745",
+              "name": "Dälek",
+              "sort-name": "Dälek",
+              "disambiguation": "American experimental hip hop group",
+              "aliases": [
+                {
+                  "sort-name": "Dalek",
+                  "name": "Dalek",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Deadverse",
+                  "name": "Deadverse",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9f5a5b67-41d4-4671-8ee2-c2be2742aace",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Absence",
+            "status": "Official"
+          },
+          {
+            "id": "3b2815e6-e115-439d-abe2-05536c5a1ba3",
+            "title": "Absence"
+          },
+          {
+            "id": "f06af2ba-384a-4896-a56e-c36854022b63",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Absence",
+            "status": "Official"
+          },
+          {
+            "id": "33dad2f2-580a-47e8-9096-5463e52f4144",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Absence",
+            "status": "Official"
+          },
+          {
+            "id": "df0a48cb-1195-4aef-be08-cf23548377b9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Absence",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "industrial"
+          },
+          {
+            "count": 2,
+            "name": "noise"
+          },
+          {
+            "count": 1,
+            "name": "hip-hop"
+          },
+          {
+            "count": 2,
+            "name": "experimental"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "conscious"
+          },
+          {
+            "count": 1,
+            "name": "dark ambient"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          },
+          {
+            "count": 1,
+            "name": "political hip hop"
+          }
+        ]
+      },
+      {
+        "id": "bd0fa028-36ce-3e0e-81f2-e7d2b3e058c1",
+        "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+        "score": 42,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4f8e26ba-692b-3ad7-964c-39c5196c8b5b",
+        "count": 21,
+        "title": "Reanimation",
+        "first-release-date": "2002-07-29",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Linkin Park",
+            "artist": {
+              "id": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+              "name": "Linkin Park",
+              "sort-name": "Linkin Park",
+              "disambiguation": "American rock band",
+              "aliases": [
+                {
+                  "sort-name": "Lincoln Park",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Lincoln Park",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "聯合公園",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "聯合公園",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Xero",
+                  "name": "Xero",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Limkin Park",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Limkin Park",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hybrid Theory",
+                  "name": "Hybrid Theory",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d76e2e64-133f-4cbf-bebd-4eb36d302a2c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "3cd31605-0f7e-45ee-aacb-637a53e4c367",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "61eb5c7e-39de-4dd7-aa59-417be2f7e37a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "f662175c-070f-4d93-b85b-0068aeaacdfc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "9c070cb0-1d47-41cd-a3bb-98672e5c66b2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "f2c74471-127d-4580-b4e6-e6a8f56faab1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "e3b83ed3-70a9-4ef4-8aee-959bc64ee2f8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "b8027f76-0f98-457c-ae59-e7521a6a8ba7",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Reanimation - Instrumentals",
+            "status": "Promotion"
+          },
+          {
+            "id": "2ffd8818-7843-466c-aad6-2838c46a3183",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "d7392321-d1e6-4083-b419-0844030cf6b0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "ebe59deb-b047-4dfe-a684-df2670a57dc4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "525c47b9-34e7-305c-b4df-37fa2110de0f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "fda9c1c1-d67a-44c6-98dd-af5f35ed1e7a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "df3d5123-c643-47c8-8c4e-68ec0c077eb8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "23c399fd-bd52-48e9-a9c6-61ea4df91ccb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "67bd7cc3-5096-4b02-8563-8ee887092ff0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "649e374f-2874-42f7-88a7-3eea4b8c25b8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "d54e2b8b-c0f1-4672-9e26-c8450836e466",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "4e260eae-dd08-35c0-874e-821dfd05bb84",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "b20b4db4-e164-449e-9085-e38d61cfc557",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          },
+          {
+            "id": "94fdb9dc-3134-4d69-b40a-84e5a6d029ce",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reanimation",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 7,
+            "name": "rock"
+          },
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "heavy metal"
+          },
+          {
+            "count": 1,
+            "name": "industrial rock"
+          },
+          {
+            "count": 1,
+            "name": "rap"
+          },
+          {
+            "count": 1,
+            "name": "industrial metal"
+          },
+          {
+            "count": 1,
+            "name": "hip-hop"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 4,
+            "name": "hip hop"
+          },
+          {
+            "count": 5,
+            "name": "nu metal"
+          },
+          {
+            "count": 1,
+            "name": "underground rap"
+          },
+          {
+            "count": 3,
+            "name": "alternative"
+          },
+          {
+            "count": 12,
+            "name": "breakbeat"
+          },
+          {
+            "count": 2,
+            "name": "post-grunge"
+          },
+          {
+            "count": 7,
+            "name": "alternative metal"
+          },
+          {
+            "count": 0,
+            "name": "alternative rap"
+          },
+          {
+            "count": 1,
+            "name": "turntablism"
+          },
+          {
+            "count": 3,
+            "name": "rap metal"
+          },
+          {
+            "count": 1,
+            "name": "rap rock"
+          },
+          {
+            "count": 3,
+            "name": "alternative punk"
+          },
+          {
+            "count": 1,
+            "name": "alternative and punk"
+          },
+          {
+            "count": 1,
+            "name": "rap-metal"
+          },
+          {
+            "count": 2,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "binaural"
+          },
+          {
+            "count": 3,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 0,
+            "name": "pop/rock"
+          }
+        ]
+      },
+      {
+        "id": "4c2adca6-aadc-36cc-8a6d-c53a9da4dd4d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 37,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c9c1cdf0-c1c8-3b59-a4d3-d4d827d08334",
+        "count": 3,
+        "title": "From Filthy Tongue of Gods and Griots",
+        "first-release-date": "2002-08-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Dälek",
+            "artist": {
+              "id": "4f2c4842-f90f-476e-95d3-8e868ae4d745",
+              "name": "Dälek",
+              "sort-name": "Dälek",
+              "disambiguation": "American experimental hip hop group",
+              "aliases": [
+                {
+                  "sort-name": "Dalek",
+                  "name": "Dalek",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Deadverse",
+                  "name": "Deadverse",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "beca37c6-9b32-4ac4-ac2a-e480cd71d46c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "From Filthy Tongue of Gods and Griots",
+            "status": "Official"
+          },
+          {
+            "id": "0231d42a-d91e-4348-9c3d-0e9fa2a24cb0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "From Filthy Tongue of Gods and Griots",
+            "status": "Official"
+          },
+          {
+            "id": "1a413cdf-01ec-4ba8-acb8-acb71ec8b002",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "From Filthy Tongue of Gods and Griots",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "political"
+          },
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 0,
+            "name": "industrial"
+          },
+          {
+            "count": 1,
+            "name": "noise"
+          },
+          {
+            "count": 1,
+            "name": "noisy"
+          },
+          {
+            "count": 1,
+            "name": "concept album"
+          },
+          {
+            "count": 0,
+            "name": "hip-hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 0,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "heavy"
+          },
+          {
+            "count": 1,
+            "name": "psychedelic"
+          },
+          {
+            "count": 1,
+            "name": "hypnotic"
+          },
+          {
+            "count": 1,
+            "name": "abstract"
+          },
+          {
+            "count": 1,
+            "name": "urban"
+          },
+          {
+            "count": 1,
+            "name": "conscious"
+          },
+          {
+            "count": 1,
+            "name": "avant-garde"
+          },
+          {
+            "count": 1,
+            "name": "dark"
+          },
+          {
+            "count": 1,
+            "name": "spiritual"
+          },
+          {
+            "count": 1,
+            "name": "eclectic"
+          },
+          {
+            "count": 1,
+            "name": "atmospheric"
+          },
+          {
+            "count": 1,
+            "name": "dense"
+          },
+          {
+            "count": 1,
+            "name": "sampling"
+          },
+          {
+            "count": 1,
+            "name": "apocalyptic"
+          },
+          {
+            "count": 1,
+            "name": "philosophical"
+          },
+          {
+            "count": 1,
+            "name": "complex"
+          },
+          {
+            "count": 1,
+            "name": "existential"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "angry"
+          },
+          {
+            "count": 1,
+            "name": "surreal"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "scary"
+          },
+          {
+            "count": 1,
+            "name": "depressive"
+          },
+          {
+            "count": 1,
+            "name": "piercing"
+          },
+          {
+            "count": 1,
+            "name": "male vocalist"
+          },
+          {
+            "count": 1,
+            "name": "poetic"
+          },
+          {
+            "count": 1,
+            "name": "aggressive"
+          },
+          {
+            "count": 1,
+            "name": "mysterious"
+          },
+          {
+            "count": 1,
+            "name": "nihilistic"
+          },
+          {
+            "count": 1,
+            "name": "ominous"
+          },
+          {
+            "count": 1,
+            "name": "passionate"
+          },
+          {
+            "count": 1,
+            "name": "nocturnal"
+          },
+          {
+            "count": 1,
+            "name": "introspective"
+          },
+          {
+            "count": 1,
+            "name": "cold"
+          },
+          {
+            "count": 1,
+            "name": "raw"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "dystopian"
+          },
+          {
+            "count": 1,
+            "name": "disturbing"
+          },
+          {
+            "count": 1,
+            "name": "serious"
+          },
+          {
+            "count": 1,
+            "name": "suspenseful"
+          },
+          {
+            "count": 1,
+            "name": "dissonant"
+          },
+          {
+            "count": 1,
+            "name": "crackly"
+          },
+          {
+            "count": 1,
+            "name": "infernal"
+          },
+          {
+            "count": 1,
+            "name": "cryptic"
+          },
+          {
+            "count": 1,
+            "name": "anti-religious"
+          },
+          {
+            "count": 1,
+            "name": "misanthropic"
+          },
+          {
+            "count": 1,
+            "name": "pessimistic"
+          },
+          {
+            "count": 1,
+            "name": "stream of consciousness"
+          },
+          {
+            "count": 1,
+            "name": "anti-authoritarian"
+          }
+        ]
+      }
+    ]
+  }
+}

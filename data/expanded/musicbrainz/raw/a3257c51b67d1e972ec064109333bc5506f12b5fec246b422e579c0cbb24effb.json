@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/31c14afe-619d-4145-ae2f-6f9ceee7f1d5",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/31c14afe-619d-4145-ae2f-6f9ceee7f1d5?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:11.642859+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Da Last Future",
+          "name": "Da Last Future",
+          "tags": [],
+          "country": null,
+          "id": "b07b6482-3e52-43d0-ba43-5a376ed2e251",
+          "disambiguation": "",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": []
+        },
+        "name": "Da Last Future"
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "title": "Devil‘s Most Wanted 1994 EP",
+    "primary-type": "EP",
+    "id": "31c14afe-619d-4145-ae2f-6f9ceee7f1d5",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2016-11-03",
+    "disambiguation": ""
+  }
+}

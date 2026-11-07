@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/8bf2a978-0df7-4883-9eec-328e8bfd2f0b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8bf2a978-0df7-4883-9eec-328e8bfd2f0b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:43.581816+00:00",
+  "response": {
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2016-03-13",
+    "title": "Bad Music",
+    "id": "8bf2a978-0df7-4883-9eec-328e8bfd2f0b",
+    "primary-type": "EP",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      }
+    ],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Jovi",
+        "artist": {
+          "tags": [],
+          "sort-name": "Jovi",
+          "name": "Jovi",
+          "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+          "type": "Person",
+          "country": "CM",
+          "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "joinphrase": ""
+      }
+    ]
+  }
+}

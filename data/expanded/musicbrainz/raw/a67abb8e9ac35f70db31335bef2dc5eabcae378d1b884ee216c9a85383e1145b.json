@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/55415668-0220-4dfa-9646-bd52d64c203c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/55415668-0220-4dfa-9646-bd52d64c203c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:26.463211+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Favorite",
+        "artist": {
+          "country": "DE",
+          "name": "Favorite",
+          "disambiguation": "German rapper",
+          "sort-name": "Favorite",
+          "type": "Person",
+          "genres": [
+            {
+              "disambiguation": "",
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            }
+          ],
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "id": "6619cc0b-5f06-4c3c-92b2-8b48e18f5cfd",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "first-release-date": "2015-02-10",
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "55415668-0220-4dfa-9646-bd52d64c203c",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "disambiguation": ""
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Dionysis",
+    "disambiguation": ""
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/295782a6-503f-4d3d-89e1-2a4c31b47aac",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/295782a6-503f-4d3d-89e1-2a4c31b47aac?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:54.100764+00:00",
+  "response": {
+    "title": "β (Bêta)",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hard trap"
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "b4c47b4e-20a2-49e3-baa4-2dd94f8b1d5d",
+              "name": "hard trap"
+            },
+            {
+              "name": "trap",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "id": "4a201e6e-b3b4-44ef-b2fe-274a81485cb6",
+          "name": "Jarys Qualto",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hard trap"
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Qualto, Jarys",
+          "disambiguation": "",
+          "country": "FR"
+        },
+        "name": "Jarys Qualto",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "295782a6-503f-4d3d-89e1-2a4c31b47aac",
+    "genres": [
+      {
+        "id": "b4c47b4e-20a2-49e3-baa4-2dd94f8b1d5d",
+        "name": "hard trap",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2025-04-18"
+  }
+}

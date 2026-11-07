@@ -1,0 +1,150 @@
+{
+  "endpoint": "release-group/64f44c8f-8d2e-35da-93f8-dbd54973dbda",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/64f44c8f-8d2e-35da-93f8-dbd54973dbda?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:27.261815+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Aesop Rock",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "New York-based hip hop artist Ian Bavitz",
+          "tags": [
+            {
+              "name": "abstract hip hop",
+              "count": 3
+            },
+            {
+              "count": 4,
+              "name": "alternative hip hop"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 2
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 3
+            },
+            {
+              "count": 2,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 7
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1
+            }
+          ],
+          "country": "US",
+          "name": "Aesop Rock",
+          "id": "aba64937-3334-4c65-90a1-4e6b9d4d7ada",
+          "genres": [
+            {
+              "count": 3,
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "disambiguation": "",
+              "name": "abstract hip hop"
+            },
+            {
+              "name": "alternative hip hop",
+              "count": 4,
+              "disambiguation": "",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 2,
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+            },
+            {
+              "count": 3,
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "disambiguation": "",
+              "name": "east coast hip hop"
+            },
+            {
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "count": 2,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 7,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            },
+            {
+              "name": "instrumental hip hop",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Aesop Rock"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 2
+      }
+    ],
+    "title": "Fast Cars, Danger, Fire and Knives",
+    "first-release-date": "2005-02-22",
+    "rating": {
+      "value": 3,
+      "votes-count": 2
+    },
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "name": "hip-hop",
+        "count": 2
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "64f44c8f-8d2e-35da-93f8-dbd54973dbda",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

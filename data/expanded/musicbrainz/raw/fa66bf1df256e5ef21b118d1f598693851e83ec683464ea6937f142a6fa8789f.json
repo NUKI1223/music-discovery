@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/6d7ec018-bb13-49c0-80e0-64740e8b61a8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6d7ec018-bb13-49c0-80e0-64740e8b61a8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:49.476585+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2020",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [],
+          "type-id": null,
+          "type": null,
+          "disambiguation": "",
+          "id": "1bd5052a-2f2d-40ee-9b5f-4fc0bfdcd2c4",
+          "country": null,
+          "tags": [],
+          "sort-name": "Buze Bruvaz, Da",
+          "name": "Da Buze Bruvaz"
+        },
+        "joinphrase": "",
+        "name": "Da Buze Bruvaz"
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "title": "Adebesi Hat Recut",
+    "id": "6d7ec018-bb13-49c0-80e0-64740e8b61a8",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop"
+      }
+    ]
+  }
+}

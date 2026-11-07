@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/0a6aa76c-492c-4ad6-a57a-4b0a89a85195",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0a6aa76c-492c-4ad6-a57a-4b0a89a85195?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:24.862428+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Losco",
+        "artist": {
+          "name": "Losco",
+          "sort-name": "Losco",
+          "tags": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "country": "BE",
+          "id": "b6ec16d0-8673-41b9-afd4-e40a6d08f97c",
+          "type": "Group",
+          "disambiguation": "Belgian beatmakers, aka 'Loscobeats'"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "name": "trap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "0a6aa76c-492c-4ad6-a57a-4b0a89a85195",
+    "primary-type": "EP",
+    "title": "Candy",
+    "first-release-date": "2014-12-21",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": ""
+  }
+}

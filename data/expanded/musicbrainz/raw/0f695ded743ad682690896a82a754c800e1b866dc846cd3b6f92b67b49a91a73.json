@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/d5d0b586-e15b-3065-b25b-87814e8c01e2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d5d0b586-e15b-3065-b25b-87814e8c01e2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:46.283978+00:00",
+  "response": {
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "d5d0b586-e15b-3065-b25b-87814e8c01e2",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "NL",
+          "name": "Osdorp Posse",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "Dutch hip hop group",
+          "tags": [
+            {
+              "count": 2,
+              "name": "dutch"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip-hop"
+            },
+            {
+              "name": "hiphop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "nederhop"
+            },
+            {
+              "name": "nl",
+              "count": 1
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Osdorp Posse",
+          "id": "301a88e0-d105-48b8-af85-50cb67af1094",
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "name": "hip hop"
+            }
+          ]
+        },
+        "joinphrase": "",
+        "name": "Osdorp Posse"
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": ""
+      }
+    ],
+    "title": "Roffer dan ooit",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "1992-12"
+  }
+}

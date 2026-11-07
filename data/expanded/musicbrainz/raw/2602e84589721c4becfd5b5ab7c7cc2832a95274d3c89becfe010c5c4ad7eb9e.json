@@ -1,0 +1,182 @@
+{
+  "endpoint": "release-group/ad6aa202-f0fc-44b2-b368-ba6de49cc609",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ad6aa202-f0fc-44b2-b368-ba6de49cc609?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:06.006174+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "trip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "ad6aa202-f0fc-44b2-b368-ba6de49cc609",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Mononome",
+        "artist": {
+          "id": "02a2123f-b901-4bed-9b33-ee114ed79018",
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "count": 2,
+              "name": "boom bap"
+            },
+            {
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": "",
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "downtempo",
+              "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+              "disambiguation": "",
+              "name": "instrumental"
+            },
+            {
+              "name": "instrumental hip hop",
+              "disambiguation": "",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011",
+              "disambiguation": "",
+              "name": "lo-fi"
+            },
+            {
+              "count": 2,
+              "id": "d92aaf30-5941-4a65-b741-d9d48c80772a",
+              "disambiguation": "",
+              "name": "lo-fi hip hop"
+            },
+            {
+              "name": "trip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc"
+            },
+            {
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "disambiguation": "",
+              "count": 1,
+              "name": "underground hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Mononome",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "alternative hip-hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "beat tape"
+            },
+            {
+              "count": 2,
+              "name": "boom bap"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "downtempo"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip-hop/rap"
+            },
+            {
+              "name": "instrumental",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "instrumental hip hop"
+            },
+            {
+              "name": "instrumental hip-hop",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "lo-fi"
+            },
+            {
+              "count": 2,
+              "name": "lo-fi hip hop"
+            },
+            {
+              "name": "trip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "underground hip hop"
+            }
+          ],
+          "country": "GR",
+          "name": "Mononome"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "first-release-date": "2022-10-21",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "trip hop",
+        "count": 1,
+        "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+        "disambiguation": ""
+      }
+    ],
+    "title": "Constellations EP"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "endpoint": "release-group/09ca1f75-4350-4fc8-8ac9-dcee78f3d7fa",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/09ca1f75-4350-4fc8-8ac9-dcee78f3d7fa?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:32.982756+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "7c5a84be-eefe-4f39-9112-540ba897095d",
+          "genres": [
+            {
+              "count": 1,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "name": "trap"
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Niko G. & Kali",
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "name": "trap",
+              "count": 1
+            }
+          ],
+          "country": "RO",
+          "name": "Niko G. & Kali"
+        },
+        "joinphrase": "",
+        "name": "Niko G. & Kali"
+      }
+    ],
+    "primary-type": "EP",
+    "title": "Tehno Vrăjitoarele",
+    "genres": [
+      {
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "name": "trap"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2023-08-03",
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "09ca1f75-4350-4fc8-8ac9-dcee78f3d7fa",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/04a9c4aa-220c-4184-855a-9b3dc952c12f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/04a9c4aa-220c-4184-855a-9b3dc952c12f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:06.163501+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "id": "04a9c4aa-220c-4184-855a-9b3dc952c12f",
+    "disambiguation": "",
+    "first-release-date": "2017-09-15",
+    "artist-credit": [
+      {
+        "name": "Teknical Development.IS",
+        "artist": {
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "GB",
+          "genres": [],
+          "sort-name": "Teknical Development.IS",
+          "disambiguation": "",
+          "tags": [],
+          "id": "6866a78f-a12c-4598-9aca-cb1f16ea6c8e",
+          "name": "Teknical Development.IS"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "name": "instrumental",
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "instrumental hip hop",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "title": "The 8: Vol.Three",
+    "tags": [
+      {
+        "count": 1,
+        "name": "instrumental"
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

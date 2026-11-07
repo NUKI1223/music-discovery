@@ -1,0 +1,104 @@
+{
+  "endpoint": "release-group/d2171db0-9cbd-40d1-8f90-ec95464d8f8c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d2171db0-9cbd-40d1-8f90-ec95464d8f8c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:38.661190+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2024-01-31",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "genres": [
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "industrial",
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "industrial hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+      },
+      {
+        "name": "industrial metal",
+        "id": "d4df54b5-67b4-4fb7-8f73-79e71717a501",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "cc28f5aa-5e19-487c-88e1-e56b022f1fdd",
+        "disambiguation": "",
+        "count": 1,
+        "name": "metal"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "Album",
+    "id": "d2171db0-9cbd-40d1-8f90-ec95464d8f8c",
+    "title": "P.V.C.",
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "country": "CA",
+          "id": "1cac3f93-abb3-45b5-b96f-3f2115dfb7ad",
+          "type": "Group",
+          "disambiguation": "Canadian industrial hip hop",
+          "sort-name": "Twitch",
+          "name": "Twitch",
+          "tags": []
+        },
+        "joinphrase": "",
+        "name": "Twitch"
+      }
+    ],
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "industrial",
+        "count": 1
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "industrial metal",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "metal"
+      }
+    ]
+  }
+}

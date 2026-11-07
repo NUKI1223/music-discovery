@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/dbd40bc1-6a1a-4b04-921e-cbbce86e016c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/dbd40bc1-6a1a-4b04-921e-cbbce86e016c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:46.844180+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "2015-03-30",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "Vaati",
+        "joinphrase": "",
+        "artist": {
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "French rapper",
+          "country": "FR",
+          "id": "db55e13e-a7ab-4b69-a73e-edb17a151f91",
+          "tags": [],
+          "sort-name": "Vaati",
+          "name": "Vaati"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1,
+        "disambiguation": "",
+        "name": "instrumental hip hop"
+      }
+    ],
+    "title": "Pukaboo",
+    "id": "dbd40bc1-6a1a-4b04-921e-cbbce86e016c",
+    "primary-type": "EP"
+  }
+}

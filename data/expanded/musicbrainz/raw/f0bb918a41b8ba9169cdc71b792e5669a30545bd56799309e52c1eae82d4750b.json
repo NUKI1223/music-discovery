@@ -1,0 +1,150 @@
+{
+  "endpoint": "release-group/9a0a20dd-7b54-44f6-ba25-97de0014a9ae",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9a0a20dd-7b54-44f6-ba25-97de0014a9ae?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:25.554292+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "first-release-date": "2020-04",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "859ba379-1201-4ed0-8a57-d31650cc36f1",
+          "tags": [
+            {
+              "name": "experimental hip hop",
+              "count": 2
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 2
+            },
+            {
+              "name": "horrorcore",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "name": "industrial hip hop"
+            },
+            {
+              "name": "industrial metal",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "transgender"
+            },
+            {
+              "name": "trap",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Backxwash",
+          "genres": [
+            {
+              "disambiguation": "",
+              "name": "experimental hip hop",
+              "count": 2,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 1,
+              "name": "hardcore hip hop",
+              "disambiguation": ""
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 2,
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "disambiguation": "",
+              "name": "horrorcore",
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+              "name": "industrial hip hop",
+              "disambiguation": ""
+            },
+            {
+              "count": 2,
+              "id": "d4df54b5-67b4-4fb7-8f73-79e71717a501",
+              "name": "industrial metal",
+              "disambiguation": ""
+            },
+            {
+              "name": "trap",
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "count": 1
+            }
+          ],
+          "disambiguation": "Montreal industrial rapper",
+          "name": "Backxwash",
+          "country": "CA"
+        },
+        "joinphrase": "",
+        "name": "Backxwash"
+      }
+    ],
+    "disambiguation": "",
+    "title": "God Has Nothing to Do With This Leave Him Out of It",
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 2,
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "count": 2,
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+        "disambiguation": "",
+        "name": "horrorcore"
+      },
+      {
+        "name": "industrial hip hop",
+        "disambiguation": "",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 2
+      }
+    ],
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "name": "horrorcore",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "name": "industrial hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "id": "9a0a20dd-7b54-44f6-ba25-97de0014a9ae"
+  }
+}

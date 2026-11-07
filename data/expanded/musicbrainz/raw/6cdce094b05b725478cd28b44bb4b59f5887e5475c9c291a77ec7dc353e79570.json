@@ -1,0 +1,164 @@
+{
+  "endpoint": "release-group/a0739559-5e60-3aad-8710-ff89ea1757fa",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a0739559-5e60-3aad-8710-ff89ea1757fa?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:37.389961+00:00",
+  "response": {
+    "first-release-date": "2009-01-27",
+    "rating": {
+      "value": 4,
+      "votes-count": 1
+    },
+    "title": "Gutter Tactics",
+    "genres": [
+      {
+        "count": 1,
+        "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+        "disambiguation": "",
+        "name": "downtempo"
+      },
+      {
+        "name": "electronic",
+        "count": 1,
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "4f2c4842-f90f-476e-95d3-8e868ae4d745",
+          "genres": [
+            {
+              "name": "conscious hip hop",
+              "count": 1,
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": ""
+            },
+            {
+              "name": "dark ambient",
+              "id": "01ecf8e4-7f7a-4145-ae97-504d3109633d",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": "",
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+              "disambiguation": "",
+              "count": 1,
+              "name": "industrial hip hop"
+            },
+            {
+              "name": "noise",
+              "disambiguation": "",
+              "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+              "count": 1
+            },
+            {
+              "name": "political hip hop",
+              "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Dälek",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "American experimental hip hop group",
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip-hop"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "dark ambient"
+            },
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "experimental hip-hop"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "name": "industrial hip hop",
+              "count": 1
+            },
+            {
+              "name": "noise",
+              "count": 1
+            },
+            {
+              "name": "political hip hop",
+              "count": 1
+            }
+          ],
+          "country": "US",
+          "name": "Dälek"
+        },
+        "name": "Dälek",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "a0739559-5e60-3aad-8710-ff89ea1757fa",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "downtempo",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ]
+  }
+}

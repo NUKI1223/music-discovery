@@ -1,0 +1,530 @@
+{
+  "endpoint": "release-group/d9103c72-3807-4378-9ce7-b6f3e8fdd547",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d9103c72-3807-4378-9ce7-b6f3e8fdd547?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:28.244146+00:00",
+  "response": {
+    "first-release-date": "2015-03-15",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": 4.45,
+      "votes-count": 34
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "altruistic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "antidiscrimination"
+      },
+      {
+        "name": "antiracism",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "boastful"
+      },
+      {
+        "count": 1,
+        "name": "christian"
+      },
+      {
+        "name": "community",
+        "count": 1
+      },
+      {
+        "name": "compassionate",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "complex"
+      },
+      {
+        "count": 1,
+        "name": "concept album"
+      },
+      {
+        "count": 1,
+        "name": "conscious"
+      },
+      {
+        "name": "conscious hip hop",
+        "count": 14
+      },
+      {
+        "count": 1,
+        "name": "conscious hip-hop"
+      },
+      {
+        "name": "crime",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "death"
+      },
+      {
+        "name": "dense",
+        "count": 1
+      },
+      {
+        "name": "eclectic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "entertainment industry"
+      },
+      {
+        "count": 1,
+        "name": "epic"
+      },
+      {
+        "name": "existential",
+        "count": 1
+      },
+      {
+        "name": "experimental hip-hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "failure"
+      },
+      {
+        "count": 1,
+        "name": "fame"
+      },
+      {
+        "name": "family",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "g-funk"
+      },
+      {
+        "name": "greed",
+        "count": 1
+      },
+      {
+        "count": 11,
+        "name": "hip hop"
+      },
+      {
+        "name": "introspective",
+        "count": 1
+      },
+      {
+        "count": 11,
+        "name": "jazz rap"
+      },
+      {
+        "name": "leitmotif",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "lush"
+      },
+      {
+        "name": "male vocalist",
+        "count": 1
+      },
+      {
+        "name": "maximalist",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "melancholic"
+      },
+      {
+        "name": "mental health",
+        "count": 1
+      },
+      {
+        "name": "money",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "narrative"
+      },
+      {
+        "name": "neo soul",
+        "count": 3
+      },
+      {
+        "count": 1,
+        "name": "optimistic"
+      },
+      {
+        "count": 1,
+        "name": "pacifism"
+      },
+      {
+        "name": "passionate",
+        "count": 1
+      },
+      {
+        "name": "philosophical",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "poetic"
+      },
+      {
+        "name": "police",
+        "count": 1
+      },
+      {
+        "name": "political",
+        "count": 1
+      },
+      {
+        "name": "political hip hop",
+        "count": 5
+      },
+      {
+        "name": "poverty",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "progressive"
+      },
+      {
+        "name": "progressive rap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "protest"
+      },
+      {
+        "count": 1,
+        "name": "regret"
+      },
+      {
+        "count": 1,
+        "name": "religious"
+      },
+      {
+        "name": "rhythmic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "self-love"
+      },
+      {
+        "name": "serious",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "sexual"
+      },
+      {
+        "name": "spiritual",
+        "count": 1
+      },
+      {
+        "name": "theatrical",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trauma"
+      },
+      {
+        "count": 1,
+        "name": "triumphant"
+      },
+      {
+        "count": 1,
+        "name": "uplifting"
+      },
+      {
+        "count": 1,
+        "name": "urban"
+      },
+      {
+        "count": 14,
+        "name": "west coast hip hop"
+      },
+      {
+        "count": 1,
+        "name": "wordplay"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Kendrick Lamar",
+        "artist": {
+          "country": "US",
+          "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+          "type": "Person",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "disambiguation": "",
+              "count": 3,
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e"
+            },
+            {
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 14,
+              "disambiguation": "",
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "dance",
+              "count": 1,
+              "disambiguation": "",
+              "id": "e5bba957-8c91-496a-a675-c6d0c6b51c33"
+            },
+            {
+              "name": "disco",
+              "disambiguation": "",
+              "count": 1,
+              "id": "a04d680b-b5c5-4f6a-87a3-f9f1ff98e3ea"
+            },
+            {
+              "name": "future bass",
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "gangsta rap",
+              "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 7,
+              "disambiguation": "",
+              "name": "hardcore hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 18,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+              "disambiguation": "",
+              "count": 2,
+              "name": "house"
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+              "name": "jazz"
+            },
+            {
+              "count": 12,
+              "disambiguation": "",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "name": "jazz rap"
+            },
+            {
+              "name": "pop",
+              "disambiguation": "",
+              "count": 5,
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791"
+            },
+            {
+              "name": "pop rap",
+              "count": 2,
+              "disambiguation": "",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237"
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "name": "r&b"
+            },
+            {
+              "name": "trap",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "count": 2,
+              "disambiguation": ""
+            },
+            {
+              "count": 10,
+              "disambiguation": "",
+              "id": "149a3524-0fd3-4bdc-9876-0361dfee8908",
+              "name": "west coast hip hop"
+            }
+          ],
+          "sort-name": "Lamar, Kendrick",
+          "name": "Kendrick Lamar",
+          "tags": [
+            {
+              "name": "2010s",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "name": "2020s"
+            },
+            {
+              "name": "alternative hip hop",
+              "count": 3
+            },
+            {
+              "count": 14,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "name": "conscious rapper"
+            },
+            {
+              "count": 2,
+              "name": "contemporary rap"
+            },
+            {
+              "name": "dance",
+              "count": 1
+            },
+            {
+              "name": "disco",
+              "count": 1
+            },
+            {
+              "name": "future bass",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "gangsta rap"
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 7
+            },
+            {
+              "count": 18,
+              "name": "hip hop"
+            },
+            {
+              "name": "house",
+              "count": 2
+            },
+            {
+              "name": "jazz",
+              "count": 2
+            },
+            {
+              "name": "jazz rap",
+              "count": 12
+            },
+            {
+              "count": 5,
+              "name": "pop"
+            },
+            {
+              "count": 2,
+              "name": "pop rap"
+            },
+            {
+              "count": 2,
+              "name": "progressive rap"
+            },
+            {
+              "count": 2,
+              "name": "r&b"
+            },
+            {
+              "count": 6,
+              "name": "rap"
+            },
+            {
+              "name": "trap",
+              "count": 2
+            },
+            {
+              "name": "west coast hip hop",
+              "count": 10
+            }
+          ]
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "count": 14,
+        "disambiguation": "",
+        "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+        "name": "conscious hip hop"
+      },
+      {
+        "name": "g-funk",
+        "id": "b37aef4d-0029-4fc7-b634-6338197335a8",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 11,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "disambiguation": "",
+        "count": 11,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      },
+      {
+        "name": "neo soul",
+        "id": "286f9168-9c46-4e41-94a1-1aa4aeb93b8c",
+        "count": 3,
+        "disambiguation": ""
+      },
+      {
+        "name": "political hip hop",
+        "count": 5,
+        "disambiguation": "",
+        "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a"
+      },
+      {
+        "id": "8d275a8d-154a-4bcb-8b5a-f56306ad4bcb",
+        "count": 1,
+        "disambiguation": "",
+        "name": "progressive"
+      },
+      {
+        "name": "west coast hip hop",
+        "disambiguation": "",
+        "count": 14,
+        "id": "149a3524-0fd3-4bdc-9876-0361dfee8908"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "d9103c72-3807-4378-9ce7-b6f3e8fdd547",
+    "primary-type": "Album",
+    "title": "To Pimp a Butterfly"
+  }
+}

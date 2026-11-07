@@ -1,0 +1,74 @@
+{
+  "endpoint": "release-group/5e54fb9f-ffd3-4f41-af3e-f31541fd890d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5e54fb9f-ffd3-4f41-af3e-f31541fd890d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:18.277437+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "leftfield",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "5e54fb9f-ffd3-4f41-af3e-f31541fd890d",
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [],
+          "id": "1589dcee-1084-4188-a9c6-c383c6c5d725",
+          "sort-name": "Bleubird",
+          "type": "Person",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "name": "Bleubird",
+          "country": "US"
+        },
+        "joinphrase": "",
+        "name": "Bleubird"
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2007",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "RIP U$A (The Bird Fleu)",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "disambiguation": "",
+        "id": "32bea60c-e201-4241-8ed4-228636d34a97",
+        "count": 1,
+        "name": "leftfield"
+      }
+    ]
+  }
+}

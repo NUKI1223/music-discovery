@@ -1,0 +1,74 @@
+{
+  "endpoint": "release-group/e755f442-02d3-4cac-a1e5-a43b270554ed",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e755f442-02d3-4cac-a1e5-a43b270554ed?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:07.258463+00:00",
+  "response": {
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "L'intervention",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "e755f442-02d3-4cac-a1e5-a43b270554ed",
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "FR",
+          "type": "Group",
+          "sort-name": "Les Chirurgiens Du Son",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "disambiguation": "French band",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hip-hop"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            }
+          ],
+          "id": "918a28b5-cd0a-433e-94d4-687d87e50a88",
+          "name": "Les Chirurgiens Du Son"
+        },
+        "name": "Les Chirurgiens Du Son"
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "name": "instrumental hip hop"
+      }
+    ],
+    "first-release-date": "2020-04-10",
+    "disambiguation": ""
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/52bcd116-fbfe-4b3c-ae5a-e95998226dbc",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/52bcd116-fbfe-4b3c-ae5a-e95998226dbc?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:01.737542+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+          "name": "Jovi",
+          "country": "CM",
+          "genres": [],
+          "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+          "sort-name": "Jovi",
+          "type": "Person"
+        },
+        "name": "Jovi",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2017-08-27",
+    "genres": [
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "title": "Yajé Vol. 1: Black",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "52bcd116-fbfe-4b3c-ae5a-e95998226dbc"
+  }
+}

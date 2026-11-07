@@ -1,0 +1,265 @@
+{
+  "endpoint": "release-group/b283adfb-df4e-4773-ad71-cb3a4cca6727",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b283adfb-df4e-4773-ad71-cb3a4cca6727?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:48.494898+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "alternative hip hop"
+      },
+      {
+        "count": 1,
+        "name": "conscious hip hop"
+      },
+      {
+        "name": "drill",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "pop rap"
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "b283adfb-df4e-4773-ad71-cb3a4cca6727",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Denzel Curry",
+          "country": "US",
+          "tags": [
+            {
+              "name": "cloud rap",
+              "count": 1
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 3
+            },
+            {
+              "count": 4,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 8,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "memphis rap"
+            },
+            {
+              "name": "rap",
+              "count": 2
+            },
+            {
+              "name": "southern hip hop",
+              "count": 3
+            },
+            {
+              "name": "trap",
+              "count": 6
+            },
+            {
+              "count": 1,
+              "name": "trap metal"
+            },
+            {
+              "name": "underground",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rapper",
+          "sort-name": "Curry, Denzel",
+          "type": "Person",
+          "genres": [
+            {
+              "name": "cloud rap",
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "conscious hip hop",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": "",
+              "count": 3
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 4,
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "disambiguation": ""
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 8,
+              "name": "hip hop"
+            },
+            {
+              "name": "memphis rap",
+              "disambiguation": "",
+              "id": "2f38ceb3-0ed0-475d-9ebd-bee14a2ca28e",
+              "count": 1
+            },
+            {
+              "name": "southern hip hop",
+              "count": 3,
+              "disambiguation": "",
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8"
+            },
+            {
+              "count": 6,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "name": "trap"
+            },
+            {
+              "name": "trap metal",
+              "id": "260d1450-1055-4c5c-9c78-863253349a5a",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "id": "5f95440d-7737-4a36-9bcf-c05337f7129b"
+        },
+        "name": "Denzel Aquarius Killa Curry",
+        "joinphrase": " x "
+      },
+      {
+        "artist": {
+          "sort-name": "Lofty305",
+          "type": "Person",
+          "genres": [
+            {
+              "name": "cloud rap",
+              "count": 1,
+              "disambiguation": "",
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "ef0c2769-9c8f-49fc-b66e-27b8242b004a",
+              "name": "emo"
+            },
+            {
+              "name": "hip hop",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            }
+          ],
+          "id": "162e9662-ff34-48f5-9198-6c06fb2af5d2",
+          "name": "Lofty305",
+          "country": "US",
+          "tags": [
+            {
+              "name": "cloud rap",
+              "count": 1
+            },
+            {
+              "name": "electronic",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "emo"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rapper, producer"
+        },
+        "name": "Lofty 3 O Fukkin 5",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "name": "alternative hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e"
+      },
+      {
+        "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+        "disambiguation": "",
+        "count": 1,
+        "name": "conscious hip hop"
+      },
+      {
+        "count": 1,
+        "id": "1e5e18e5-4e70-4a73-942a-c6c79c1aefe2",
+        "disambiguation": "",
+        "name": "drill"
+      },
+      {
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+        "count": 1,
+        "name": "pop rap"
+      },
+      {
+        "name": "trap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "title": "Mental Vendetta",
+    "first-release-date": "2012-12-31",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

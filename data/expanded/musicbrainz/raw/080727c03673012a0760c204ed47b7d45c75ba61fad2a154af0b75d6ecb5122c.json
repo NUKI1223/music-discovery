@@ -1,0 +1,66 @@
+{
+  "endpoint": "release-group/a35d89c1-4b0f-43ff-b550-d7564df816d3",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a35d89c1-4b0f-43ff-b550-d7564df816d3?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:31.983103+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "count": 2,
+              "name": "hip hop"
+            }
+          ],
+          "sort-name": "Marie‐Gold",
+          "type": "Person",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 2
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Marie‐Gold",
+          "id": "2567a998-bce4-48ef-a4eb-ce96036dccbb",
+          "disambiguation": "canadian hip hop",
+          "country": "CA"
+        },
+        "name": "Marie‐Gold"
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "first-release-date": "2021-02-05",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "id": "a35d89c1-4b0f-43ff-b550-d7564df816d3",
+    "title": "Règle deux",
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

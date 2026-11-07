@@ -1,0 +1,66 @@
+{
+  "endpoint": "release-group/5bc2fefe-3695-4e69-a32d-d1cb0cc5bda1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5bc2fefe-3695-4e69-a32d-d1cb0cc5bda1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:35.269041+00:00",
+  "response": {
+    "genres": [
+      {
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "disambiguation": "",
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "title": "HENNY WHITE: Comin Tru Instrumental Series, Vol. 2",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2021-06-11",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Tru Comers",
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "instrumental hip hop"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "name": "Tru Comers",
+          "country": "CH",
+          "genres": [
+            {
+              "name": "instrumental hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+            }
+          ],
+          "id": "1f76af34-d698-4d95-b9d8-39503c03353e",
+          "sort-name": "Tru Comers",
+          "type": "Group"
+        }
+      }
+    ],
+    "id": "5bc2fefe-3695-4e69-a32d-d1cb0cc5bda1",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

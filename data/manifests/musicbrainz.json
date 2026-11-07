@@ -1,0 +1,33 @@
+{
+  "catalog_path": "../samples/musicbrainz.json",
+  "description": "Real MusicBrainz API sample; source coverage and popularity are limited.",
+  "source": "https://musicbrainz.org/",
+  "license": "CC0 for core metadata; CC BY-NC-SA 3.0 for supplementary data and this tagged sample",
+  "license_url": "https://musicbrainz.org/doc/About/Data_License",
+  "acquisition": {
+    "completed_at": "2026-10-28T11:46:25+00:00",
+    "user_agent": "MusicDiscovery/0.1 (local noncommercial learning prototype)",
+    "requests_serial": true,
+    "max_requests_per_second": 1,
+    "queries": [
+      "arid:f9133036-ab3d-4e97-bd11-7a2c98ad148a AND primarytype:album",
+      "tag:\"abstract hip hop\" AND primarytype:album"
+    ],
+    "limits": [20, 25],
+    "offsets": [0, 0],
+    "rating_lookup_release_group_ids": ["aa0b4e86-358e-4c92-aecd-94f5f59233f7"],
+    "biases": [
+      "One favourite artist and one abstract hip-hop search only",
+      "Search relevance ordering; first pages only; no global coverage claim",
+      "Source supplied genre tags, no independent musicological verification",
+      "Only one release has an explicit rating-count lookup"
+    ]
+  },
+  "independent_review": {
+    "confirmed_genre_release_ids": [],
+    "access_verified_sources": ["musicbrainz"]
+  },
+  "requirements_by_genre": {
+    "hip-hop": {"min_releases": 300, "min_families": 6, "min_releases_per_family": 30}
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/8dea1acf-f810-42fc-ad17-c2b3a3dee137",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8dea1acf-f810-42fc-ad17-c2b3a3dee137?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:49.233533+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "ICYTWAT",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "rapper, producer",
+          "name": "ICYTWAT",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "0f1f484f-63a6-4c32-bf33-c65054915aa9",
+          "tags": [
+            {
+              "count": 2,
+              "name": "cloud rap"
+            },
+            {
+              "name": "hip hop",
+              "count": 2
+            }
+          ],
+          "genres": [
+            {
+              "count": 2,
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+              "name": "cloud rap",
+              "disambiguation": ""
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 2
+            }
+          ],
+          "type": "Person",
+          "sort-name": "ICYTWAT",
+          "country": "US"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2017-05-12",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "id": "8dea1acf-f810-42fc-ad17-c2b3a3dee137",
+    "secondary-types": [],
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "title": "Milk",
+    "disambiguation": ""
+  }
+}

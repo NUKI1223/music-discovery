@@ -1,0 +1,110 @@
+{
+  "endpoint": "release-group/9eaf2ffb-a5c6-458c-a5da-1f2c17eb0784",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9eaf2ffb-a5c6-458c-a5da-1f2c17eb0784?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:08.315902+00:00",
+  "response": {
+    "title": "Dead Bodies In The Lake",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hardcore punk"
+      },
+      {
+        "count": 1,
+        "name": "horrorcore"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "industrial rock",
+        "count": 1
+      }
+    ],
+    "id": "9eaf2ffb-a5c6-458c-a5da-1f2c17eb0784",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 1,
+        "id": "055a6e4d-d929-42ac-ba7a-9d063b254ea5",
+        "name": "hardcore punk",
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "name": "horrorcore",
+        "count": 1,
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e"
+      },
+      {
+        "name": "industrial hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+      },
+      {
+        "count": 1,
+        "id": "ffbc9907-c9be-4ace-876b-b7fd5b9d51f9",
+        "name": "industrial rock",
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "name": "Ho99o9",
+        "joinphrase": "",
+        "artist": {
+          "type": "Group",
+          "sort-name": "Ho99o9",
+          "genres": [
+            {
+              "disambiguation": "",
+              "name": "punk rap",
+              "count": 1,
+              "id": "3385bb64-94ae-42bd-b43b-b8785835cfe7"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "e0458faa-82b2-4011-b851-6a0ed1f5a0e6",
+          "tags": [
+            {
+              "count": 1,
+              "name": "punk rap"
+            }
+          ],
+          "disambiguation": "",
+          "name": "Ho99o9",
+          "country": "US"
+        }
+      }
+    ],
+    "first-release-date": "2015-10-28"
+  }
+}

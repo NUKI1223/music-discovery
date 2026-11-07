@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/4b0c70f7-fe24-373a-9630-0f6239085ab1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4b0c70f7-fe24-373a-9630-0f6239085ab1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:48.461583+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "Beogradski Sindikat",
+        "artist": {
+          "id": "3142e757-b0a0-41ce-9822-84ab0ede241d",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "tags": [],
+          "sort-name": "Beogradski Sindikat",
+          "type": "Group",
+          "disambiguation": "",
+          "country": null,
+          "name": "Beogradski Sindikat"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "id": "4b0c70f7-fe24-373a-9630-0f6239085ab1",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1
+      }
+    ],
+    "first-release-date": "2005",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "title": "Svi zajedno"
+  }
+}

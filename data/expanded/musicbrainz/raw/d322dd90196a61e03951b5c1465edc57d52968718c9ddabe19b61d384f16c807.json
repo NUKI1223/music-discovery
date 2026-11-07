@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/b94e8f05-b601-3216-acc0-02b2c511b0e8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b94e8f05-b601-3216-acc0-02b2c511b0e8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:40.248129+00:00",
+  "response": {
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "title": "Strait Outta a-Town",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "id": "b94e8f05-b601-3216-acc0-02b2c511b0e8",
+    "first-release-date": "2005",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "count": 2,
+              "disambiguation": ""
+            }
+          ],
+          "id": "ef0b3c71-4ea0-4989-8adc-ea357960ab4b",
+          "name": "Boyz n da Hood",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 2
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Boyz n da Hood",
+          "disambiguation": "",
+          "country": "US"
+        },
+        "name": "Boyz N Da Hood",
+        "joinphrase": ""
+      }
+    ]
+  }
+}

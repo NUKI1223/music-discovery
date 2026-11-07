@@ -1,0 +1,104 @@
+{
+  "endpoint": "release-group/c4e3f115-5b12-4cd6-83d9-fea312491c34",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c4e3f115-5b12-4cd6-83d9-fea312491c34?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:09.419127+00:00",
+  "response": {
+    "genres": [
+      {
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "name": "electronic"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "name": "hip hop",
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+        "name": "industrial",
+        "disambiguation": ""
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 1,
+        "name": "industrial hip hop",
+        "disambiguation": ""
+      },
+      {
+        "name": "industrial metal",
+        "disambiguation": "",
+        "count": 1,
+        "id": "d4df54b5-67b4-4fb7-8f73-79e71717a501"
+      },
+      {
+        "name": "metal",
+        "disambiguation": "",
+        "id": "cc28f5aa-5e19-487c-88e1-e56b022f1fdd",
+        "count": 1
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "industrial",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 1,
+        "name": "industrial metal"
+      },
+      {
+        "name": "metal",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "id": "c4e3f115-5b12-4cd6-83d9-fea312491c34",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "You're a Rockstar... Until You Drop a Nuke",
+    "first-release-date": "2024-03-31",
+    "artist-credit": [
+      {
+        "name": "Twitch",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "Canadian industrial hip hop",
+          "name": "Twitch",
+          "tags": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "1cac3f93-abb3-45b5-b96f-3f2115dfb7ad",
+          "type": "Group",
+          "sort-name": "Twitch",
+          "genres": [],
+          "country": "CA"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  }
+}

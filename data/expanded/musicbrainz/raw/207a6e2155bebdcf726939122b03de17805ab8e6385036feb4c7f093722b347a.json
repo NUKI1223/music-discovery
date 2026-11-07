@@ -1,0 +1,110 @@
+{
+  "endpoint": "release-group/571f5931-b710-3583-b7b7-b06cd35c818a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/571f5931-b710-3583-b7b7-b06cd35c818a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:10.854631+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "conscious hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Asa",
+          "sort-name": "Asa",
+          "tags": [
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "folk",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "rap",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "conscious hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+            },
+            {
+              "name": "folk",
+              "id": "a91eed3a-fdd0-494e-ade0-95ea4117f6eb",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "country": "FI",
+          "id": "01aaa1b4-4b35-48a3-8a00-5d82591d93d1",
+          "disambiguation": "Finnish rap artist",
+          "type": "Person"
+        },
+        "name": "Asa"
+      }
+    ],
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c"
+      },
+      {
+        "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+        "disambiguation": "",
+        "count": 1,
+        "name": "conscious hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "Album",
+    "id": "571f5931-b710-3583-b7b7-b06cd35c818a",
+    "title": "Loppuasukas",
+    "first-release-date": "2008-04-16",
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": ""
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "endpoint": "release-group/3c2e8d5e-a010-4fd4-a6e7-966f05ec9dce",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3c2e8d5e-a010-4fd4-a6e7-966f05ec9dce?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:48.150137+00:00",
+  "response": {
+    "title": "Remnants of a Paradise Lost",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "secondary-types": [],
+    "id": "3c2e8d5e-a010-4fd4-a6e7-966f05ec9dce",
+    "tags": [
+      {
+        "count": 1,
+        "name": "chiphop"
+      },
+      {
+        "name": "chiptune",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "genres": [
+      {
+        "name": "chiptune",
+        "disambiguation": "",
+        "id": "103a65bb-35d9-4d27-9c9b-f35a458621ba",
+        "count": 1
+      },
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "count": 1,
+        "disambiguation": "",
+        "name": "experimental hip hop"
+      },
+      {
+        "disambiguation": "",
+        "name": "instrumental hip hop",
+        "count": 1,
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "US",
+          "name": "Impatient Outpatient",
+          "disambiguation": "",
+          "tags": [
+            {
+              "count": 1,
+              "name": "chiphop"
+            },
+            {
+              "count": 1,
+              "name": "chiptune"
+            },
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "instrumental hip hop"
+            }
+          ],
+          "id": "74fde2ce-ca63-4ff8-aba8-1646f7583310",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "Impatient Outpatient",
+          "type": "Person",
+          "genres": [
+            {
+              "count": 1,
+              "id": "103a65bb-35d9-4d27-9c9b-f35a458621ba",
+              "disambiguation": "",
+              "name": "chiptune"
+            },
+            {
+              "name": "experimental hip hop",
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "count": 1
+            },
+            {
+              "name": "instrumental hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+            }
+          ]
+        },
+        "joinphrase": "",
+        "name": "Impatient Outpatient"
+      }
+    ],
+    "first-release-date": "2009-02-23"
+  }
+}

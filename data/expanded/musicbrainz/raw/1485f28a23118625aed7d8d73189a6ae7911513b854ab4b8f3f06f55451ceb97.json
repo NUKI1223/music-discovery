@@ -1,0 +1,256 @@
+{
+  "endpoint": "release-group/592dae87-780a-41da-b387-a5e6c4035a96",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/592dae87-780a-41da-b387-a5e6c4035a96?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:32:12.343453+00:00",
+  "response": {
+    "id": "592dae87-780a-41da-b387-a5e6c4035a96",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "genres": [],
+    "title": "Kanye West, E. Vax",
+    "first-release-date": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Ye",
+        "artist": {
+          "genres": [
+            {
+              "name": "chipmunk soul",
+              "count": 1,
+              "id": "cec1580a-ef3c-4928-b302-58015335c7b0",
+              "disambiguation": ""
+            },
+            {
+              "id": "0db33693-8ae5-4749-af7a-20895395dc82",
+              "disambiguation": "",
+              "count": 3,
+              "name": "christian hip hop"
+            },
+            {
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 2,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "contemporary r&b",
+              "count": 1,
+              "disambiguation": "",
+              "id": "4bb4043a-0ee5-4b84-93fa-6ba4567a6ba0"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "7fa479e7-3d35-40d1-96f7-b619a5ca9d9f",
+              "name": "deep house"
+            },
+            {
+              "count": 1,
+              "id": "3f3388b4-e36a-4bf8-a0be-66b10d92aaa4",
+              "disambiguation": "",
+              "name": "electropop"
+            },
+            {
+              "name": "experimental hip hop",
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "count": 6
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71",
+              "name": "future bass"
+            },
+            {
+              "name": "hip hop",
+              "count": 31,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "count": 2,
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+              "disambiguation": "",
+              "name": "house"
+            },
+            {
+              "name": "pop",
+              "count": 5,
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "disambiguation": ""
+            },
+            {
+              "count": 14,
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "disambiguation": "",
+              "name": "pop rap"
+            },
+            {
+              "name": "r&b",
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "name": "trap"
+            }
+          ],
+          "id": "164f0d73-1234-4e2c-8743-d77bf2191051",
+          "sort-name": "Ye",
+          "type": "Person",
+          "tags": [
+            {
+              "count": 1,
+              "name": "african american musicians"
+            },
+            {
+              "name": "businesspeople",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "chipmunk soul"
+            },
+            {
+              "count": 3,
+              "name": "christian hip hop"
+            },
+            {
+              "count": 1,
+              "name": "composers"
+            },
+            {
+              "count": 2,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "contemporary r&b",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "contemporary rap"
+            },
+            {
+              "count": 1,
+              "name": "deep house"
+            },
+            {
+              "count": 1,
+              "name": "electropop"
+            },
+            {
+              "count": 6,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "fashion designers"
+            },
+            {
+              "count": 1,
+              "name": "future bass"
+            },
+            {
+              "name": "gospel music",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 31
+            },
+            {
+              "count": 2,
+              "name": "house"
+            },
+            {
+              "name": "midwest rap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "modeschöpfer"
+            },
+            {
+              "count": 1,
+              "name": "musikproduzent"
+            },
+            {
+              "name": "pop",
+              "count": 5
+            },
+            {
+              "name": "pop rap",
+              "count": 14
+            },
+            {
+              "count": 3,
+              "name": "producer"
+            },
+            {
+              "name": "progressive rap",
+              "count": 1
+            },
+            {
+              "name": "r&b",
+              "count": 1
+            },
+            {
+              "name": "rap musicians",
+              "count": 1
+            },
+            {
+              "name": "rapmusiker",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "regisseur"
+            },
+            {
+              "name": "singers",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "singstimme"
+            },
+            {
+              "name": "songwriter",
+              "count": 1
+            },
+            {
+              "name": "sound recording executives and producers",
+              "count": 1
+            },
+            {
+              "name": "trap",
+              "count": 2
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "formerly Kanye West",
+          "name": "Ye",
+          "country": "US"
+        }
+      }
+    ],
+    "primary-type": "Album"
+  }
+}

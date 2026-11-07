@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/807dcf9b-3c68-4b8d-baff-925900fea699",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/807dcf9b-3c68-4b8d-baff-925900fea699?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:57.651988+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "807dcf9b-3c68-4b8d-baff-925900fea699",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2020-05-01",
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1
+      }
+    ],
+    "title": "Lucrative Times",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "iEarn Fist",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Fist, iEarn",
+          "id": "e6d5c11e-feeb-45a0-977c-80d9c4b99d31",
+          "genres": [],
+          "country": "US",
+          "name": "iEarn Fist",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": []
+        }
+      }
+    ],
+    "primary-type": "Album"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "endpoint": "release-group/f7c06c07-b512-4bd3-bd49-85d7377ec029",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f7c06c07-b512-4bd3-bd49-85d7377ec029?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:16.469481+00:00",
+  "response": {
+    "disambiguation": "",
+    "title": "CORPUS II EP I",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "hard rock",
+        "id": "51cb9f91-e6a2-41bf-891f-e78e3f1e52ab",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "noise rock",
+        "id": "8e5474b7-f445-49a7-866d-0f8e34b0a519",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "post-hardcore",
+        "id": "aec382b7-b635-470c-9051-2f84e0b5ea1e",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "punk",
+        "count": 1,
+        "id": "8cc9b280-230b-4a3a-b1e2-8acab0744dd3"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hard rock"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "noise rock",
+        "count": 1
+      },
+      {
+        "name": "post-hardcore",
+        "count": 1
+      },
+      {
+        "name": "punk",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "synth punk"
+      }
+    ],
+    "secondary-types": [],
+    "id": "f7c06c07-b512-4bd3-bd49-85d7377ec029",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "first-release-date": "2024-07-26",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Show Me the Body",
+        "artist": {
+          "country": "US",
+          "disambiguation": "US post-hardcore band",
+          "name": "Show Me the Body",
+          "id": "bcc715bb-47a4-46c0-a62e-6467feec6091",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "count": 1,
+              "name": "art punk"
+            },
+            {
+              "count": 2,
+              "name": "hardcore punk"
+            },
+            {
+              "name": "noise rock",
+              "count": 1
+            },
+            {
+              "name": "post-hardcore",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "punk rap"
+            }
+          ],
+          "genres": [
+            {
+              "id": "6e105daf-c06d-431e-8e33-1b8da3e48f7e",
+              "count": 1,
+              "name": "art punk",
+              "disambiguation": ""
+            },
+            {
+              "name": "hardcore punk",
+              "disambiguation": "",
+              "id": "055a6e4d-d929-42ac-ba7a-9d063b254ea5",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "id": "8e5474b7-f445-49a7-866d-0f8e34b0a519",
+              "disambiguation": "",
+              "name": "noise rock"
+            },
+            {
+              "count": 1,
+              "id": "aec382b7-b635-470c-9051-2f84e0b5ea1e",
+              "disambiguation": "",
+              "name": "post-hardcore"
+            },
+            {
+              "disambiguation": "",
+              "name": "punk rap",
+              "id": "3385bb64-94ae-42bd-b43b-b8785835cfe7",
+              "count": 1
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Show Me the Body"
+        }
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

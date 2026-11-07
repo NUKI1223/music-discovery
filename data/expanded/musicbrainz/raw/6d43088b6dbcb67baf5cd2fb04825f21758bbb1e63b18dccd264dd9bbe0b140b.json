@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/4d677f72-0462-305b-b747-45187d942698",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4d677f72-0462-305b-b747-45187d942698?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:06.160899+00:00",
+  "response": {
+    "id": "4d677f72-0462-305b-b747-45187d942698",
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 3
+      },
+      {
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+        "name": "industrial",
+        "count": 2,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "1990",
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Consolidated",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "industrial"
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Consolidated",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "industrial",
+              "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb"
+            }
+          ],
+          "id": "502d686d-a74c-4a09-ba74-8d919a13b684",
+          "name": "Consolidated",
+          "disambiguation": "",
+          "country": "US"
+        }
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "tags": [
+      {
+        "count": 3,
+        "name": "hip hop"
+      },
+      {
+        "count": 2,
+        "name": "industrial"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      }
+    ],
+    "title": "The Myth of Rock"
+  }
+}

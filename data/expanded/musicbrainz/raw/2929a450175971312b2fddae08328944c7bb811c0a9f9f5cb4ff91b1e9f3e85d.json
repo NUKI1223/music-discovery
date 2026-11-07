@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/5bfefdca-cdb3-49d2-ba8e-f77ea42c670f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5bfefdca-cdb3-49d2-ba8e-f77ea42c670f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:48.928228+00:00",
+  "response": {
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "name": "Kaos One",
+        "joinphrase": "",
+        "artist": {
+          "name": "Kaos One",
+          "country": "IT",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "Italian rapper",
+          "sort-name": "Kaos One",
+          "type": "Person",
+          "genres": [],
+          "id": "96f72ebc-0a8e-4f97-813c-35a9f2de22eb"
+        }
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      }
+    ],
+    "title": "Chiodi",
+    "first-release-date": "2022-06-14",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "5bfefdca-cdb3-49d2-ba8e-f77ea42c670f",
+    "secondary-type-ids": [],
+    "secondary-types": []
+  }
+}

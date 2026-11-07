@@ -1,0 +1,69 @@
+{
+  "endpoint": "release-group/d2b9f68c-c188-4371-b3c7-ad13141f27e1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d2b9f68c-c188-4371-b3c7-ad13141f27e1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:07.537340+00:00",
+  "response": {
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "Album",
+    "id": "d2b9f68c-c188-4371-b3c7-ad13141f27e1",
+    "title": "Каменный лес",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "Russian rap group",
+          "type": "Group",
+          "id": "43b00210-e20d-48a8-8c50-812636d84b4a",
+          "country": "RU",
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "name": "russian rap",
+              "count": 1
+            }
+          ],
+          "sort-name": "Bad Balance",
+          "name": "Bad Balance"
+        },
+        "joinphrase": "",
+        "name": "Bad Balance"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2000",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

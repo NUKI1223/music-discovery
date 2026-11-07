@@ -1,0 +1,74 @@
+{
+  "endpoint": "release-group/25ba5e8e-a7d6-43e5-b267-c2f52b9854ee",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/25ba5e8e-a7d6-43e5-b267-c2f52b9854ee?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:36.983024+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Ailleurs",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "id": "25ba5e8e-a7d6-43e5-b267-c2f52b9854ee",
+    "secondary-types": [],
+    "genres": [
+      {
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop",
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic",
+        "disambiguation": ""
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Mazette",
+        "artist": {
+          "type": null,
+          "genres": [],
+          "sort-name": "Mazette",
+          "tags": [],
+          "id": "62e732d4-549f-432b-b045-671af0df0ed5",
+          "type-id": null,
+          "name": "Mazette",
+          "disambiguation": "",
+          "country": "FR"
+        }
+      }
+    ],
+    "first-release-date": "2020-06-13"
+  }
+}

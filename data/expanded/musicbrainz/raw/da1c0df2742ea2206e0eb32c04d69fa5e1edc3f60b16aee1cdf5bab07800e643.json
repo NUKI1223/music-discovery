@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/a4ea891f-bedc-3255-99c9-0a0998224e2e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a4ea891f-bedc-3255-99c9-0a0998224e2e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:38.500588+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Bass-ment Cuts",
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "hardcore hip hop",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      }
+    ],
+    "secondary-types": [],
+    "id": "a4ea891f-bedc-3255-99c9-0a0998224e2e",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "first-release-date": "1990-09-10",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Inner City Posse",
+        "artist": {
+          "country": "US",
+          "type": "Group",
+          "genres": [],
+          "sort-name": "Inner City Posse",
+          "tags": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "fd4b0e1c-15df-4eee-9d35-a4f0c69a3df3",
+          "name": "Inner City Posse",
+          "disambiguation": ""
+        }
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/be77300d-3f84-4c73-9e0f-6b6f2ed98671",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/be77300d-3f84-4c73-9e0f-6b6f2ed98671?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:06.461978+00:00",
+  "response": {
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "folk"
+      },
+      {
+        "name": "lo-fi",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "be77300d-3f84-4c73-9e0f-6b6f2ed98671",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "name": "the hirundu",
+          "country": "GB",
+          "genres": [],
+          "id": "b8e4c197-d1ca-467c-9f16-2edf30b9110c",
+          "sort-name": "hirundu, the",
+          "type": "Group"
+        },
+        "joinphrase": "",
+        "name": "the hirundu"
+      }
+    ],
+    "genres": [
+      {
+        "name": "experimental",
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "id": "a91eed3a-fdd0-494e-ade0-95ea4117f6eb",
+        "disambiguation": "",
+        "count": 1,
+        "name": "folk"
+      },
+      {
+        "name": "lo-fi",
+        "count": 1,
+        "disambiguation": "",
+        "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011"
+      }
+    ],
+    "title": "Pound for Pound (I'm the Best Around)",
+    "first-release-date": "2004-09-02",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

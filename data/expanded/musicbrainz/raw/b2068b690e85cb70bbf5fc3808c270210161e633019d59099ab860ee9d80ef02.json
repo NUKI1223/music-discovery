@@ -1,0 +1,2195 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"instrumental hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22instrumental+hip+hop%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2010-01-01+TO+2019-12-31%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:51.868657+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:51.775Z",
+    "count": 1587,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "1b604a00-5e97-4b48-8dac-2c308123e892",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "99631ca0-990b-3297-9fce-c68ab2c31e1d",
+        "count": 1,
+        "title": "Krafted EP",
+        "first-release-date": "2013-10-29",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Corona",
+            "artist": {
+              "id": "14e86dea-3562-4b19-bb1a-f1e71ffb57e4",
+              "name": "Corona",
+              "sort-name": "Corona",
+              "disambiguation": "Latvian beatmaker",
+              "aliases": [
+                {
+                  "sort-name": "Coronabeats",
+                  "name": "Coronabeats",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6432f0cc-da13-4807-94ba-ff534e645926",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Krafted EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "a89e8943-23cb-45e9-8f79-47ec5a8f8d47",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8847a4fd-8a76-3913-9ea2-1ebc6cc69ced",
+        "count": 1,
+        "title": "Equilibrium EP",
+        "first-release-date": "2012-03-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Alfonso X.",
+            "artist": {
+              "id": "0b6a7db8-9dd6-4d8a-8ad0-857b327adcf3",
+              "name": "Alfonso X.",
+              "sort-name": "Alfonso X."
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c5d4ee86-1a11-48b7-8637-a715a6049448",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Equilibrium EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "046166d9-e64a-4dec-b5bd-330d5c9e6f35",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "08ba570d-3cac-3224-8d3b-0cc578a036af",
+        "count": 1,
+        "title": "Ghost Protocol",
+        "first-release-date": "2019-03-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Recognize Ali",
+            "artist": {
+              "id": "8fbd6da3-5344-4c1f-8936-06d171f44ea9",
+              "name": "Recognize Ali",
+              "sort-name": "Recognize Ali"
+            }
+          },
+          {
+            "name": "IconCurties",
+            "artist": {
+              "id": "cc4a414c-ab2b-4564-99d7-3187207ba6e1",
+              "name": "IconCurties",
+              "sort-name": "IconCurties"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5c2a763a-7394-4619-b6e8-5766195a5482",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ghost Protocol",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3c560ef4-f99e-4c80-a402-75095f98353d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "543b5df0-59e8-30d2-b561-a4386916ee83",
+        "count": 1,
+        "title": "Searching for Panama",
+        "first-release-date": "2015",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Red Nevada",
+            "artist": {
+              "id": "e21e56ad-14f8-44e0-b616-5a6bdf4a29d0",
+              "name": "Red Nevada",
+              "sort-name": "Red Nevada",
+              "disambiguation": "Hip-hop producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "15b4fc5a-0272-4267-b51f-0f397b3c4a69",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Searching for Panama",
+            "status": "Withdrawn"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4103d04e-0f4e-4806-9219-5b6dd415f362",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "1d4d7da6-76d1-3068-b698-cdcc59f9eeb1",
+        "count": 1,
+        "title": "THE DYNAMITE JOINT",
+        "first-release-date": "2012-12-10",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Mo. Three",
+            "artist": {
+              "id": "e419c150-92d3-4786-af1d-7bb71a0e9bf1",
+              "name": "Mo. Three",
+              "sort-name": "Mo. Three"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ce57285f-ba5e-4b93-9ab4-fb233fa1bfee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "THE DYNAMITE JOINT",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "acb16450-6323-489d-af59-9b3cedf57d12",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b7e42814-481d-4dd9-9efe-8e55af310874",
+        "count": 1,
+        "title": "Beat Tapes",
+        "first-release-date": "2016-08-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Leto",
+            "artist": {
+              "id": "626ae649-5ee3-4c51-bb83-a32530d68eae",
+              "name": "Leto",
+              "sort-name": "Leto",
+              "disambiguation": "Chicago hip-hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e958bb9b-a47c-490f-a6ff-e2bb8b7ee7c9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Beat Tapes",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "aa59a794-bc54-45e5-af1d-94bca3995c8a",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "96460faf-89c8-44a6-97a4-ec9e70455272",
+        "count": 1,
+        "title": "SENSEN",
+        "first-release-date": "2017-06-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Blanco",
+            "artist": {
+              "id": "fe246171-9ad7-431e-8f36-3df20f946979",
+              "name": "Blanco",
+              "sort-name": "Blanco",
+              "disambiguation": "LA hip hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "800f8b40-0cc1-49aa-868e-e621f4263a2b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SENSEN",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "dbd40bc1-6a1a-4b04-921e-cbbce86e016c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "16f94f13-b019-3e48-bd6a-2517dfd56b7e",
+        "count": 1,
+        "title": "Pukaboo",
+        "first-release-date": "2015-03-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Vaati",
+            "artist": {
+              "id": "db55e13e-a7ab-4b69-a73e-edb17a151f91",
+              "name": "Vaati",
+              "sort-name": "Vaati",
+              "disambiguation": "French rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f940f1a3-96dc-453c-9c1c-1d3509810c5c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pukaboo",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "614e9ed6-493f-4225-b96c-cbc7e1bb1b1d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "99d3a4e9-8d3d-3b49-ac7d-141ca8776981",
+        "count": 1,
+        "title": "CominTru Instrumental Series: The Green-Tea Edition",
+        "first-release-date": "2013",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Tru Comers",
+            "artist": {
+              "id": "1f76af34-d698-4d95-b9d8-39503c03353e",
+              "name": "Tru Comers",
+              "sort-name": "Tru Comers"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "af5f98aa-247b-426c-8fdb-7656820f77a3",
+            "title": "CominTru Instrumental Series: The Green-Tea Edition"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c01d1488-6ff4-4cf2-bf69-841f15d476c6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a0c3699a-3934-3ad8-a03c-34a4e26713f1",
+        "count": 1,
+        "title": "Positive Squad Adventures Chapter 1",
+        "first-release-date": "2017-07-10",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "DJ Smokey",
+            "artist": {
+              "id": "77ab56da-5aa7-424a-a6ec-5c547f3cf1b9",
+              "name": "DJ Smokey",
+              "sort-name": "Smokey, DJ",
+              "disambiguation": "Canadian hiphop",
+              "aliases": [
+                {
+                  "sort-name": "DJ Smokey",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ Smokey",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ντίτζεϊ Σμόουκι",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Ντίτζεϊ Σμόουκι",
+                  "locale": "el",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "78e4cd96-b0be-4e00-8b88-95784323a30e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Positive Squad Adventures Chapter 1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5fe59009-8998-40b4-985f-7863c6e8851d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "386bbf89-4f43-3f0f-8878-990199fee60f",
+        "count": 1,
+        "title": "Sakura",
+        "first-release-date": "2014-09-02",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "DJ Kasumi",
+            "artist": {
+              "id": "9ee3d2c9-68ee-4cac-aedb-0a5f0ee705ff",
+              "name": "DJ Kasumi",
+              "sort-name": "Kasumi, DJ"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e0588ff6-34e3-46ad-927c-56ef0981a1fc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Sakura",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "763afb95-e7b2-4ff5-a5cc-7d59d36e3b73",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "1e638d57-8cca-328b-974c-f15547638dd8",
+        "count": 2,
+        "title": "Fig. 1",
+        "first-release-date": "2013-11-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "ICBM",
+            "artist": {
+              "id": "19bd6c88-741b-4887-8a14-5f89882895d4",
+              "name": "ICBM",
+              "sort-name": "ICBM",
+              "disambiguation": "French lo‐fi beatmaker",
+              "aliases": [
+                {
+                  "sort-name": "Benoit Icbm",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Benoit Icbm",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Malo, Benoît",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Benoît Malo",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "29436de4-8e3d-416a-9af1-4915bc2b26ca",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fig. 1",
+            "status": "Official"
+          },
+          {
+            "id": "a310623f-e6bf-4d48-82a3-e9bb4bc2dd02",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fig. 1 EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "aa288385-5c84-456b-bb3f-1f1a8601077c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "bbef1ffd-ecdd-389d-af13-6ea45b9469f8",
+        "count": 1,
+        "title": "∃!",
+        "first-release-date": "2011-12-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " / ",
+            "name": "Grassa Dato",
+            "artist": {
+              "id": "74fd11ef-6e80-4eef-ab28-99ea064a2870",
+              "name": "Grassa Dato",
+              "sort-name": "Grassa Dato"
+            }
+          },
+          {
+            "name": "Winter Sunset",
+            "artist": {
+              "id": "d7560bab-67f0-48e8-b0d5-35accaa37a5e",
+              "name": "Winter Sunset",
+              "sort-name": "Winter Sunset"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "364a41ba-d3a2-47ab-bff6-0fef69795f0d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "∃!",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "04a9c4aa-220c-4184-855a-9b3dc952c12f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "90fba3b2-5073-3402-84d8-f14aafbe2d1d",
+        "count": 1,
+        "title": "The 8: Vol.Three",
+        "first-release-date": "2017-09-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Teknical Development.IS",
+            "artist": {
+              "id": "6866a78f-a12c-4598-9aca-cb1f16ea6c8e",
+              "name": "Teknical Development.IS",
+              "sort-name": "Teknical Development.IS",
+              "aliases": [
+                {
+                  "sort-name": "Boyaram, Dean Noel",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Dean Noel Boyaram",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Teknical Development",
+                  "name": "Teknical Development",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Technical Development",
+                  "name": "Technical Development",
+                  "locale": "en",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1ebb7fd8-143c-4107-a38a-30b2c4016a3b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 8: Vol.Three",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6f3b28a1-4293-4b3c-86d8-a3510f29c69d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8847a4fd-8a76-3913-9ea2-1ebc6cc69ced",
+        "count": 1,
+        "title": "Xperience EP.",
+        "first-release-date": "2015-10-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Alfonso X.",
+            "artist": {
+              "id": "0b6a7db8-9dd6-4d8a-8ad0-857b327adcf3",
+              "name": "Alfonso X.",
+              "sort-name": "Alfonso X."
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e93392fd-2647-4426-bc7e-bb0ea7bae1ad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Xperience EP.",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3c062ee3-7a3c-4089-81f9-808a1dd3912b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d7ff7025-a6e3-3e8b-b125-f5a9dcbf245e",
+        "count": 1,
+        "title": "Fragments",
+        "first-release-date": "2013-10-29",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kid Atlaas",
+            "artist": {
+              "id": "5cd02aa9-b216-4fd6-9bad-751e08872069",
+              "name": "Kid Atlaas",
+              "sort-name": "Kid Atlaas",
+              "disambiguation": "Gabriel Jourde"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bee439df-71d7-4a44-930b-c471e4c3dae4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fragments",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e4000faa-9afe-4e33-ad2c-4595544ca333",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ae889487-1249-35a9-9bac-2a2c5ffa9d24",
+        "count": 1,
+        "title": "Pokemon Diamond & Pearl Remix Tape",
+        "first-release-date": "2018-07-21",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Bknapp",
+            "artist": {
+              "id": "7b33ce40-e825-4db4-b363-3ad6225507b2",
+              "name": "Bknapp",
+              "sort-name": "Bknapp",
+              "aliases": [
+                {
+                  "sort-name": "Knapp, Brady",
+                  "name": "Brady Knapp",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d7d90a0d-a659-4483-96d8-317d93725dcc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pokemon Diamond & Pearl Remix Tape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "849c4fd2-c3b5-4f60-83df-1159a1de02b8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "60debb8c-c86d-328e-86e4-fc6b96ba8f19",
+        "count": 1,
+        "title": "Unstoppable",
+        "first-release-date": "2018-03-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jordyn Edmonds",
+            "artist": {
+              "id": "5bc5b93a-d7ec-4515-85f7-76d4e548606d",
+              "name": "Jordyn Edmonds",
+              "sort-name": "Edmonds, Jordyn"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2b15be75-6a0a-412c-a226-1ed38cecc5ef",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Unstoppable",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "cad107df-4cc2-4200-8e1b-0a0f6a84fa36",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "55d90daf-b69d-3bef-9d53-277cfb2ff096",
+        "count": 1,
+        "title": "Morning Mountain",
+        "first-release-date": "2015-09-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Upside Dawn",
+            "artist": {
+              "id": "fe406d30-3da7-4d7f-810b-f60070acb443",
+              "name": "Upside Dawn",
+              "sort-name": "Upside Dawn"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d74b3545-7651-4f91-803d-a7a49351b2d3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Morning Mountain",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "lounge"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "59fc4402-7cfe-4dcd-b68b-63268d4b6914",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "075e23ce-d940-371f-bef2-ce25a2173638",
+        "count": 1,
+        "title": "EP. 1",
+        "first-release-date": "2015-03-11",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Atoum Zeki",
+            "artist": {
+              "id": "af8ceed3-ec3d-479e-a973-a4f6ffdc1d98",
+              "name": "Atoum Zeki",
+              "sort-name": "Zeki, Atoum"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1f231447-f234-4bf1-a8ab-6adc006d8ffa",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EP. 1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "937a869b-8159-403d-beac-94018be3b3ba",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "abc8302e-fa34-3bfc-8691-cb2a6a0ecda6",
+        "count": 1,
+        "title": "Moonchill",
+        "first-release-date": "2013-10-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Cock & Swan",
+            "artist": {
+              "id": "761f7d61-6558-4f59-a8d1-4f23c2f02823",
+              "name": "Cock & Swan",
+              "sort-name": "Cock & Swan"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "201be273-7c96-4cd3-8997-2fd6601ff041",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Moonchill",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f90e3122-4f0e-4b21-b629-aafce5991f88",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6a327885-ea8f-4302-b598-925382b4df08",
+        "count": 1,
+        "title": "Frequence Ep.",
+        "first-release-date": "2016-05-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "m a n n y",
+            "artist": {
+              "id": "c8fa13f2-3d6f-4996-83b9-8d9f92c138ad",
+              "name": "manny sp",
+              "sort-name": "manny sp",
+              "disambiguation": "aka m a n n y",
+              "aliases": [
+                {
+                  "sort-name": "m a n n y",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "m a n n y",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5bbbf889-3f0d-4d43-beaa-0f6d2c068f9a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Frequence Ep.",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "dub"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "7244a7f7-b602-473a-b9bd-de8833f3ff13",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "19bb4752-473f-332c-9fb4-0fc382fc00ed",
+        "count": 1,
+        "title": "Blue Thoughts",
+        "first-release-date": "2019-03-23",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Glimlip",
+            "artist": {
+              "id": "35d20284-57df-4a18-a87d-ff9de223fbce",
+              "name": "Glimlip",
+              "sort-name": "Glimlip",
+              "aliases": [
+                {
+                  "sort-name": "Lieftinck, Thomas Philip",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Thomas Philip Lieftinck",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0849794f-e9bd-40a2-b71f-48bbcdee062f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blue Thoughts",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c73b26bf-377a-47ab-b328-c42ae0a29ca9",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d7ff7025-a6e3-3e8b-b125-f5a9dcbf245e",
+        "count": 1,
+        "title": "Gourmandises",
+        "first-release-date": "2014-11-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kid Atlaas",
+            "artist": {
+              "id": "5cd02aa9-b216-4fd6-9bad-751e08872069",
+              "name": "Kid Atlaas",
+              "sort-name": "Kid Atlaas",
+              "disambiguation": "Gabriel Jourde"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "90246e31-812d-4690-bd3f-b399bb5b80a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Gourmandises",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "32ad3359-8c5b-4103-b57b-50f4025c3b54",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "19bb4752-473f-332c-9fb4-0fc382fc00ed",
+        "count": 1,
+        "title": "Forty Four",
+        "first-release-date": "2017-01-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Glimlip",
+            "artist": {
+              "id": "35d20284-57df-4a18-a87d-ff9de223fbce",
+              "name": "Glimlip",
+              "sort-name": "Glimlip",
+              "aliases": [
+                {
+                  "sort-name": "Lieftinck, Thomas Philip",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Thomas Philip Lieftinck",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "874bc7e5-8fb4-4c2b-bce1-c70aa8b31f00",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Forty Four",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "jazz"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c79ed09b-aac7-446b-848b-5b1e88c09ec8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b2b34807-4aa2-41d3-aef9-357d10db9c8a",
+        "count": 1,
+        "title": "Leftovers",
+        "first-release-date": "2017-08-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "beppo S. & Peter B.",
+            "artist": {
+              "id": "4c50c225-7e02-4204-b4cc-5492c96fcc97",
+              "name": "beppo & pete",
+              "sort-name": "beppo & pete",
+              "disambiguation": "German hip-hop group aka Beppo S. & Peter B."
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f6679a02-665d-434d-8929-49ebad107538",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Leftovers",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3650fbfb-8b3c-4fd4-b535-23973ec876d9",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f61e60ac-9338-3832-8481-d217ae3d1f27",
+        "count": 1,
+        "title": "Dripping Light",
+        "first-release-date": "2018-04-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " x ",
+            "name": "Anne Suu",
+            "artist": {
+              "id": "53bb3162-1dfb-4194-9ea3-c6cf5809d756",
+              "name": "Anne Suu",
+              "sort-name": "Suu, Anne",
+              "disambiguation": "Soul, Pop & Hip Hop"
+            }
+          },
+          {
+            "name": "B‐Side",
+            "artist": {
+              "id": "525c441b-facb-477b-bf6b-20e2e36cae2e",
+              "name": "B‐Side",
+              "sort-name": "B‐Side",
+              "disambiguation": "German instrumental hip hop producer & beatmaker Lukas Leonhard",
+              "aliases": [
+                {
+                  "sort-name": "Leonhard, Lukas Benedikt",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Lukas Benedikt Leonhard",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "79faebc5-2d86-4304-9406-6b2cd8d6d3da",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dripping Light",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "836e448e-f572-4aa1-9f9f-2abc04062e88",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "36f911a8-2e51-3a4e-adb1-0aafad958044",
+        "count": 1,
+        "title": "May’dley",
+        "first-release-date": "2012-05-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Öster",
+            "artist": {
+              "id": "120cbfdc-f2cf-4fb0-b101-77ac0dbd3c7a",
+              "name": "Öster",
+              "sort-name": "Oster",
+              "aliases": [
+                {
+                  "sort-name": "Gibert, Julien",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Julien Gibert",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "96d57515-f89d-4187-b2e5-c99fe62dc6a6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "May’dley",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "790b01c1-0dd8-4a03-ae0d-db635948b756",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8847a4fd-8a76-3913-9ea2-1ebc6cc69ced",
+        "count": 1,
+        "title": "ALIVE!",
+        "first-release-date": "2016-01-15",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Alfonso X.",
+            "artist": {
+              "id": "0b6a7db8-9dd6-4d8a-8ad0-857b327adcf3",
+              "name": "Alfonso X.",
+              "sort-name": "Alfonso X."
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1d15c6e1-9759-41a3-b547-f7d888d53ca8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ALIVE!",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d8a69316-c244-4214-bee8-1fb502606dd3",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "81fd4dfe-e441-374d-ab99-a081db04b729",
+        "count": 1,
+        "title": "Boombox Detox (2017)",
+        "first-release-date": "2017-11-24",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Ear Dr.Umz",
+            "artist": {
+              "id": "cf59e9f3-a3ce-4df5-960b-ba96a22c2a22",
+              "name": "Ear Dr.Umz the MetroGnome",
+              "sort-name": "Ear Dr.Umz the MetroGnome"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "38042a4f-c3ef-49ab-82cb-7f44e7a18ae7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Boombox Detox (2017)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "25aff4dd-0a44-4278-b7f0-ccf0c0ea889c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1d41be25-5644-363e-a85b-068af6b5e759",
+        "count": 1,
+        "title": "Extended Play",
+        "first-release-date": "2014-10-27",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Kompact",
+            "artist": {
+              "id": "ae508854-8d3e-4038-86d6-bc1bfeafa9bb",
+              "name": "DJ Kompact",
+              "sort-name": "DJ Kompact",
+              "aliases": [
+                {
+                  "sort-name": "Kompact",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Kompact",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "973301f8-de88-4d51-9d3d-bdf5d049ca3b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Extended Play",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3c1d2ab8-0043-4520-a3f6-51fa15db5d37",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2389d3ea-1760-3500-8ed3-f301a16d274d",
+        "count": 1,
+        "title": "Hear To Heal",
+        "first-release-date": "2016-01-29",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Ear Dr.Umz the MetroGnome",
+            "artist": {
+              "id": "cf59e9f3-a3ce-4df5-960b-ba96a22c2a22",
+              "name": "Ear Dr.Umz the MetroGnome",
+              "sort-name": "Ear Dr.Umz the MetroGnome"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2d5b907f-daa5-4b26-ba2c-9c86b1cd97bd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hear To Heal",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "dd0ec5c1-095e-4f19-8b2d-f90277860321",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1de4ba93-ed06-3a23-9130-716440b11b94",
+        "count": 1,
+        "title": "Alliance",
+        "first-release-date": "2016-10-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Grup Ses",
+            "artist": {
+              "id": "604f0234-eb42-42be-b65f-2ef9b437f483",
+              "name": "Grup Ses",
+              "sort-name": "Grup Ses"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "93a719d9-e614-4874-9526-39d4a317e0e5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Alliance",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c54a47f5-8bd0-4833-807a-a9de90474026",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8569a561-d1f1-3b57-a04c-89651ef2a595",
+        "count": 1,
+        "title": "ROT",
+        "first-release-date": "2016-11-22",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "INFNTLP",
+            "artist": {
+              "id": "755d814f-2683-4a6b-813a-83180cb88b08",
+              "name": "INFNTLP",
+              "sort-name": "INFNTLP",
+              "disambiguation": "Infinite Loop",
+              "aliases": [
+                {
+                  "sort-name": "INFNTLP",
+                  "name": "INFNTLP",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "10dc3e95-b9bf-4a28-8138-7f45d42f8cc8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ROT",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "137827d3-7526-4248-b52a-ceea29fe817a",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "3b9811d6-9bb8-306a-9344-888f8c904324",
+        "count": 1,
+        "title": "Snaxx",
+        "first-release-date": "2019-04-26",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Mndsgn",
+            "artist": {
+              "id": "275f0cb3-6390-429d-92aa-3e3d0a12d8d8",
+              "name": "Mndsgn",
+              "sort-name": "Mndsgn",
+              "disambiguation": "US producer Ringgo Ancheta",
+              "aliases": [
+                {
+                  "sort-name": "Ringgo Ancheta",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ringgo Ancheta",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Mindesign",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Mindesign",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "94026b1c-5b80-4cc7-90fd-236f2687ee0f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Snaxx",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "063b0002-eaf4-4aff-8d22-4d2d89e5b5f6",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c44ba696-ac76-3f49-a72a-4d0ca38c6188",
+        "count": 2,
+        "title": "Tales of 16 Pads",
+        "first-release-date": "2017-10-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "BluntOne",
+            "artist": {
+              "id": "1ed1ac55-2147-4fc3-a0b6-ff6721d25385",
+              "name": "BluntOne",
+              "sort-name": "BluntOne",
+              "aliases": [
+                {
+                  "sort-name": "Antal, Levente",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Levente Antal",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "526334a4-9997-4f50-8521-ef9eb9abb5dd",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Tales of 16 Pads",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "2cd642ea-0791-4bfa-a5bc-19459d7f1982",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tales of 16 Pads",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "70f44612-b92f-408a-8a19-4f7af9c8fb2b",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1d924c18-91b9-353a-b57c-0f6c292cfaf6",
+        "count": 1,
+        "title": "Mauvais perdant",
+        "first-release-date": "2019-11-29",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Joef",
+            "artist": {
+              "id": "98c0fd22-9739-4d98-a586-3e9f4a4f32e8",
+              "name": "Joef",
+              "sort-name": "Joef",
+              "disambiguation": "Rappeur français"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1c73a72e-26d1-4a1d-80b9-15803ab257d5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mauvais perdant",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d4d1b85b-9b94-4c83-b2ad-614e9b8417dd",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fbfba269-4fd1-3484-af1a-fb7a677e2d84",
+        "count": 1,
+        "title": "Seige Monstracity",
+        "first-release-date": "2016-12-15",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Seige Monstracity",
+            "artist": {
+              "id": "153ae436-7e52-4ad2-ba2f-06bd6aec2c2b",
+              "name": "Seige Monstracity",
+              "sort-name": "Seige Monstracity"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "307b490b-4f9c-42e2-99b1-d282f822046b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Seige Monstracity",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "233efe5d-c5cf-4d2d-8bfb-eb03d6c1c01c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1d924c18-91b9-353a-b57c-0f6c292cfaf6",
+        "count": 1,
+        "title": "Les fourmis",
+        "first-release-date": "2018-05-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Joef",
+            "artist": {
+              "id": "98c0fd22-9739-4d98-a586-3e9f4a4f32e8",
+              "name": "Joef",
+              "sort-name": "Joef",
+              "disambiguation": "Rappeur français"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7518f91a-274d-4ee8-8e1f-ecc34e4ef7f2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Les fourmis",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6e94d7ab-b51e-4fa0-a0da-bd8afb0358d7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d09880f4-2460-3550-8425-a9071d7e4367",
+        "count": 1,
+        "title": "Snax",
+        "first-release-date": "2018-06-04",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Mndsgn.",
+            "artist": {
+              "id": "275f0cb3-6390-429d-92aa-3e3d0a12d8d8",
+              "name": "Mndsgn",
+              "sort-name": "Mndsgn",
+              "disambiguation": "US producer Ringgo Ancheta",
+              "aliases": [
+                {
+                  "sort-name": "Ringgo Ancheta",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ringgo Ancheta",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Mindesign",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Mindesign",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d71ef21a-788b-4343-9471-ef522979608f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Snax",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "62d2f125-af11-4669-8c75-7f3d200749b3",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "612121f8-1bfb-356f-ab85-191f7397a4b1",
+        "count": 1,
+        "title": "Daily Affirmations",
+        "first-release-date": "2017-03-10",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "CohenBeats",
+            "artist": {
+              "id": "9a8f5b5f-f280-4c41-ae39-b8d3dd2f71e2",
+              "name": "CohenBeats",
+              "sort-name": "CohenBeats",
+              "aliases": [
+                {
+                  "sort-name": "Cohen Beats",
+                  "name": "Cohen Beats",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ae807f6a-62c6-4e64-9699-1a4e8090e952",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Daily Affirmations",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5943e202-298a-4baf-a668-67d9d1642712",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "543b5df0-59e8-30d2-b561-a4386916ee83",
+        "count": 1,
+        "title": "For Your Consideration",
+        "first-release-date": "2017",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Red Nevada",
+            "artist": {
+              "id": "e21e56ad-14f8-44e0-b616-5a6bdf4a29d0",
+              "name": "Red Nevada",
+              "sort-name": "Red Nevada",
+              "disambiguation": "Hip-hop producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d4861a58-a387-4bd8-b21d-44dda13d0ff4",
+            "title": "For Your Consideration"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c3395766-768f-44c6-9c1e-cae0157289a2",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "42d4a7f5-9303-3779-8595-b6fa596628aa",
+        "count": 3,
+        "title": "Koolinout",
+        "first-release-date": "2018-03-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Awlnight",
+            "artist": {
+              "id": "5fadb56f-f270-4175-a59b-5fc5ca5126db",
+              "name": "Awlnight",
+              "sort-name": "Awlnight",
+              "aliases": [
+                {
+                  "sort-name": "Awlnight",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Awlnight",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2009",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lukoits, Dmitry",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Dmitry Lukoits",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "249181bc-8990-4016-9142-beb1e25ffca8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Koolinout",
+            "status": "Official"
+          },
+          {
+            "id": "7399cb8e-1802-4bad-9e94-4229ed56d339",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Koolinout",
+            "status": "Official"
+          },
+          {
+            "id": "13c55f5c-4b3c-4453-b577-f716573c8ef6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Koolinout",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "bcc560d7-6a03-4a19-9870-41be09f75f7b",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4d3b514f-6f93-3ecf-8550-7b3ec06346dd",
+        "count": 1,
+        "title": "The Inner Shrine",
+        "first-release-date": "2019-07-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Natse",
+            "artist": {
+              "id": "5da67ffe-9dfe-48be-ab27-89b7e31cee15",
+              "name": "Natse",
+              "sort-name": "Natse"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d2057ee1-71b8-4dea-bd3b-0461b317f615",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Inner Shrine",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "29e75e6b-4d6b-4a6b-922c-91970b313f89",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4d3b514f-6f93-3ecf-8550-7b3ec06346dd",
+        "count": 1,
+        "title": "Undesigned",
+        "first-release-date": "2018-09-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Natse",
+            "artist": {
+              "id": "5da67ffe-9dfe-48be-ab27-89b7e31cee15",
+              "name": "Natse",
+              "sort-name": "Natse"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "75a5a776-36ea-4533-830a-221a7007b56c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Undesigned",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "42201e8f-83d5-4d1b-b801-7b55e5a36298",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "259185cf-7532-3f31-a525-5283f09bd9d0",
+        "count": 1,
+        "title": "Late Night Soul",
+        "first-release-date": "2015-01-27",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "J. Vibes",
+            "artist": {
+              "id": "af555d47-6992-4e0e-b100-d07d500f53af",
+              "name": "J. Vibes",
+              "sort-name": "J. Vibes",
+              "disambiguation": "Danish beat producer associated with Expansions Collective"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c8a0657f-b278-424d-8994-a9d401cb4f03",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Late Night Soul",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "21232c48-0655-4d73-926b-234eb9aca1b4",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d21ef66a-7713-3151-8839-9908ebb6e0dc",
+        "count": 1,
+        "title": "2 Sides of Barry",
+        "first-release-date": "2019-12-10",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Si Spex",
+            "artist": {
+              "id": "c7064c59-227e-4836-984f-0939d63eef8e",
+              "name": "Si Spex",
+              "sort-name": "Si Spex"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4ddafe42-39c2-4c8e-a35f-554b3e638fcc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2 Sides of Barry",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "792d335c-bfe1-4655-a0a9-ab6c8539638b",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f39655e9-e206-3ff7-be8f-0e5e1231525d",
+        "count": 1,
+        "title": "Dust",
+        "first-release-date": "2010-02-25",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Freddie Joachim",
+            "artist": {
+              "id": "a00b9456-464a-4418-a1d6-200e43ee17ef",
+              "name": "Freddie Joachim",
+              "sort-name": "Joachim, Freddie",
+              "disambiguation": "DJ"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5454e5e8-ef84-4c27-8b75-f46d4d3ec045",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dust",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "99bc5ad3-806e-4de6-9447-15dfeb1f0024",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f39655e9-e206-3ff7-be8f-0e5e1231525d",
+        "count": 1,
+        "title": "Dusted",
+        "first-release-date": "2011-05-24",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Freddie Joachim",
+            "artist": {
+              "id": "a00b9456-464a-4418-a1d6-200e43ee17ef",
+              "name": "Freddie Joachim",
+              "sort-name": "Joachim, Freddie",
+              "disambiguation": "DJ"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a6bdb7dd-92a9-4510-b74d-2c3117edf879",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dusted",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3023a31b-7302-4d1e-8c23-30e97c6d4c00",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "753e70ac-2f6f-3eeb-bead-e079fb6d5ad3",
+        "count": 1,
+        "title": "Moon Tears",
+        "first-release-date": "2019-09-10",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "GentleBeatz",
+            "artist": {
+              "id": "b7347d43-9f1c-4a79-b96b-ea13c8fdc335",
+              "name": "GentleBeatz",
+              "sort-name": "GentleBeatz",
+              "aliases": [
+                {
+                  "sort-name": "Bero, Gabriel Miguel Fernando",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Gabriel Miguel Fernando Bero",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1840046b-acdd-4ce1-b72b-81125bc5a059",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Moon Tears",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      }
+    ]
+  }
+}

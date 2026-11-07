@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/88e03ef8-efb7-4a5f-aa57-da45609721ee",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/88e03ef8-efb7-4a5f-aa57-da45609721ee?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:02.896840+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "name": "Phife Dawg",
+        "artist": {
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Phife Dawg",
+          "id": "d9f3f7ca-9963-45c5-85b3-81f306614ff8",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "sort-name": "Phife Dawg",
+          "type": "Person",
+          "disambiguation": "",
+          "country": "US"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "first-release-date": "2022-03-22",
+    "rating": {
+      "votes-count": 1,
+      "value": 3
+    },
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 2,
+        "disambiguation": ""
+      },
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "id": "88e03ef8-efb7-4a5f-aa57-da45609721ee",
+    "title": "Forever",
+    "tags": [
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

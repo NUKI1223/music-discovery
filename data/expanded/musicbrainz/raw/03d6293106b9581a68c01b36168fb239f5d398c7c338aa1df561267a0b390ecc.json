@@ -1,0 +1,128 @@
+{
+  "endpoint": "release-group/2cfffb56-98df-3718-8c8f-631904ca2554",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/2cfffb56-98df-3718-8c8f-631904ca2554?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:20.756031+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "1989-11-21",
+    "genres": [
+      {
+        "name": "breaks",
+        "disambiguation": "",
+        "count": 5,
+        "id": "63eddc75-dbad-4a05-a365-e30d1e87bca8"
+      },
+      {
+        "count": 4,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "name": "electronic"
+      },
+      {
+        "disambiguation": "",
+        "count": 4,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+        "count": 4,
+        "disambiguation": "",
+        "name": "house"
+      },
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "breaks",
+        "count": 5
+      },
+      {
+        "count": 4,
+        "name": "electronic"
+      },
+      {
+        "count": 4,
+        "name": "hip hop"
+      },
+      {
+        "name": "hip-hop",
+        "count": 1
+      },
+      {
+        "name": "house",
+        "count": 4
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      },
+      {
+        "count": 3,
+        "name": "jazz-rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Jungle Brothers",
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "ce3bc975-a76f-415b-a6cd-1e568c5714dd",
+          "tags": [
+            {
+              "name": "east coast hip hop",
+              "count": 2
+            },
+            {
+              "count": 4,
+              "name": "hip hop"
+            },
+            {
+              "name": "rock and indie",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "name": "east coast hip hop",
+              "count": 2,
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "disambiguation": ""
+            },
+            {
+              "name": "hip hop",
+              "count": 4,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Jungle Brothers",
+          "country": "US",
+          "disambiguation": "US hip hop group",
+          "name": "Jungle Brothers"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "id": "2cfffb56-98df-3718-8c8f-631904ca2554",
+    "title": "Done by the Forces of Nature",
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

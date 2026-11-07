@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/7fc17fda-494d-4518-8abc-e520b38f9ee0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7fc17fda-494d-4518-8abc-e520b38f9ee0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:38.778943+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [],
+          "tags": [],
+          "id": "e550fa4c-ddfe-4fe2-b923-41af8ff3d389",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "Rappeur, beatmaker français",
+          "country": "FR",
+          "sort-name": "Raistlin",
+          "type": "Person",
+          "name": "Raistlin"
+        },
+        "joinphrase": "",
+        "name": "Raistlin"
+      }
+    ],
+    "id": "7fc17fda-494d-4518-8abc-e520b38f9ee0",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2013-03-06",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "Mon échappée belle"
+  }
+}

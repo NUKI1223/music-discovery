@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "normalizer_version": "community-historical-v1",
+  "dataset_kind": "historical_community_metadata",
+  "source": "aoty",
+  "is_fixture": false,
+  "personal_labels": 0,
+  "live_scrape": false,
+  "normalized_at": "2026-11-02T09:21:48.917983+00:00",
+  "observed_at": null,
+  "input_file": "artifacts/source-research/aoty-vibes-round2/rage/canonicalrawfacts.jsonl",
+  "input_sha256": "8a9528c3d5f72ee3f80f73f2116aa2efc29e4095a8be4efa1e012f342750f0ba",
+  "records_file": "releases.jsonl",
+  "records_sha256": "c24a95ab39f1ecf453946a9e19fea8950893173a22f9e1dc1a2b696e8c9c66f2",
+  "input_rows": 28,
+  "accepted_rows": 28,
+  "quarantined_rows": 0,
+  "unique_source_ids": 28,
+  "duplicate_source_ids": 0,
+  "with_genres": 28,
+  "with_ratings": 0,
+  "with_integer_counts": 0,
+  "genre_counts": {
+    "Rage": 23,
+    "Trap": 20,
+    "Southern Hip Hop": 11,
+    "Experimental Hip Hop": 5,
+    "Pop Rap": 2,
+    "Tread": 1,
+    "West Coast Hip Hop": 1,
+    "Rap Rock": 1,
+    "Industrial Hip Hop": 1,
+    "Plugg": 1
+  },
+  "acquisition_provenance": {
+    "source": "aoty",
+    "is_fixture": false,
+    "acquisition_kind": "album_detail_visible_vibe_metadata",
+    "files": {
+      "pages/325071.txt": {
+        "sha256": "1d5129a53a6759cba9b66856a9686a6c10a2be74d497ba8bc54fa2adfacd5b58"
+      },
+      "pages/589889.txt": {
+        "sha256": "9495b9b5bc024a41ad77cdb914891cff8b1f654f85599d8140e6c9db16dac881"
+      },
+      "pages/660484.txt": {
+        "sha256": "bbdd8b16a743a0971565f0ecd0cbee9b46bbeaf50c98d9d7dd3095e0648b2d0e"
+      },
+      "pages/422204.txt": {
+        "sha256": "7d7b2bff7274fce8e23df5a1b38bd5a10d4b596a493d500c9057969599048690"
+      },
+      "pages/877172.txt": {
+        "sha256": "bc9dcc0f6f10ecc805f1d67dbccc034e98b702fa212bfc2a15b9a4516d05fe5b"
+      },
+      "pages/545175.txt": {
+        "sha256": "f32b17b0827be1f0d475850dd639c151a2a0d768fe36866b5445c7be4fa55c52"
+      },
+      "pages/764351.txt": {
+        "sha256": "868fc58b92d507f2c3dfbd7afb5bbcd9e3bdbab5f5cd528223fe58c410ee4295"
+      },
+      "pages/1117942.txt": {
+        "sha256": "03bcd3949ae0bfbd792f4e87509ecee7191f739c535c131f5bf4604768a6fba2"
+      },
+      "pages/981326.txt": {
+        "sha256": "e53cdd82574ef45d5c898badf8146da4348b0d33c9f9854d85ab36128cc82c41"
+      },
+      "pages/563759.txt": {
+        "sha256": "ff477969a5af179ba12cc97c87495fc861aff5d9669c36e0fbc974dadee595ab"
+      },
+      "pages/1474743.txt": {
+        "sha256": "3165633f8c5d958ac22b3c085f7b2629281f4692c4771c14e8b66310428614c4"
+      },
+      "pages/1099527.txt": {
+        "sha256": "0afc8c562fcf2fde05b83a9896cc5a1a70cb51957db9ff51d4288cd7db6a9559"
+      },
+      "pages/814708.txt": {
+        "sha256": "fe93b2d1c3fce24fe698d624679b38ddc8c72903977a6b7a53ad96f4e51f6d86"
+      },
+      "pages/351922.txt": {
+        "sha256": "e33aec4067ec88f826e439ad28e3fc2969bfbf0b0f180d438b4d7907bfd7d976"
+      },
+      "pages/788470.txt": {
+        "sha256": "be0d644150494e842eda26be59138db5076545a1988286bffc775e3be79f8d2a"
+      },
+      "pages/422584.txt": {
+        "sha256": "ba935d302d196e8d300795a9b2f505f5a0bb9703d391dbcb3c32dcb1ee396543"
+      },
+      "pages/445469.txt": {
+        "sha256": "9172b8dc12d5e61db177f08c64307f8faa9f0b72b44ef6a87980eebeb650b633"
+      },
+      "pages/540907.txt": {
+        "sha256": "a358da3740d9680845b5d9246f3004d12b6d6bf1860f49c49b292d9b2d4f59f8"
+      },
+      "pages/650372.txt": {
+        "sha256": "175a5fe990d3e2960a2d9854aa92dc540f95bd57e0b385e4729ca052f23671f5"
+      },
+      "pages/377997.txt": {
+        "sha256": "555998f466156f8dff17cf0bea3337dc3f320b505670cf7a05f567586374716a"
+      },
+      "pages/938851.txt": {
+        "sha256": "ccace121e60144d4e21749a6b942b29fa57970f1fa6a8438e15dc9f693fbe4ee"
+      },
+      "pages/411011.txt": {
+        "sha256": "a4015a800b95e886c85d4db18a7ad6c11516e07bc54ccfdd1a601ad2ff46e706"
+      },
+      "pages/864586.txt": {
+        "sha256": "a1d42200ecc1fa60ac0ff32c657f27752a461ec9276ff37f7da66f0b046f93e0"
+      },
+      "pages/575298.txt": {
+        "sha256": "6b0bad342f32635a7f895ab9e823bbfd1c41c0c017bca1394764df8990d367fc"
+      },
+      "pages/322146.txt": {
+        "sha256": "a7451269ec8163a89ac19d6cb1d5147630307b8b9801ecc558b85e219913a9b3"
+      },
+      "pages/626211.txt": {
+        "sha256": "438077e7a21a81737818ebae5c1be10abe7d71641898a604692f4cf65634f774"
+      },
+      "pages/1103903.txt": {
+        "sha256": "c71423d1184d5498abdd538c4c0aa4a18fc317383ebf069a780847f36c9155b8"
+      },
+      "pages/468298.txt": {
+        "sha256": "d987b2a88af61c5022e5b9b490ed32a33b38025e94ae366855b10513486ff5fc"
+      },
+      "pages/393171.txt": {
+        "sha256": "f1296fcf5929276cdfb622812252595cd90e24af47174527652f95235f30467f"
+      },
+      "pages/677907.txt": {
+        "sha256": "73ee6a198578993cb1fdec7543003be2b297d47468c54c22c93d4fc032b50d78"
+      },
+      "pages/589669.txt": {
+        "sha256": "8b02c3cf5ce571dabb87e831d5a86091f25cedb5e50a3a6ea5d946803632207a"
+      },
+      "pages/372555.txt": {
+        "sha256": "211a35dfd9eb27122d9b9035eb8733912655d6b6e239878f5cd2a8e91efa6771"
+      },
+      "pages/635341.txt": {
+        "sha256": "f58ba6394f26f99a0c5c1d0acb970e1e2ea82954862db6bb135eee6dac9407d9"
+      },
+      "pages/791861.txt": {
+        "sha256": "206d32223352875149629c348eacf50d5719791ede935937fc3eff4fda944e91"
+      },
+      "pages/940412.txt": {
+        "sha256": "e191928c515ad356ba749f16ac0ab651460d482b704d8f1b9046824cb8bbddf4"
+      },
+      "pages/592899.txt": {
+        "sha256": "4b112a0109c93ab2c84683bdbd3a87324bb263a27a1daa2f89348b15f34f501a"
+      },
+      "pages/528199.txt": {
+        "sha256": "fdcf11131093691d92e6de582db623c9a14f49b716df6d95bd3991526587630d"
+      },
+      "pages/378677.txt": {
+        "sha256": "29762c236557401f198f0ed963b6b1dd216ef29ca9f1334ed8f182a98088939f"
+      },
+      "pages/552068.txt": {
+        "sha256": "194066b602a5e2c001bf55f0ecdb829c0eca22d1778dc0f9c9eb771f9fde90a0"
+      },
+      "pages/417422.txt": {
+        "sha256": "c8aed60f51111e57258dbeda2958e85868e011b103219616773c15576ff5663b"
+      },
+      "pages/790699.txt": {
+        "sha256": "b3da234531fed5d761480f83efdca9a93401e51056a791aa64afca4888cc1223"
+      },
+      "pages/749660.txt": {
+        "sha256": "537d69fe48379e91e73eb61b499b4cde4c2f7a18c47940869cce77906b904b15"
+      },
+      "pages/142562.txt": {
+        "sha256": "6fa4bc469d2cc04ef3317cd29e5af57f50fd642ded8a5a471d1e7161cf0edd14"
+      },
+      "pages/444739.txt": {
+        "sha256": "a73b49312d8780e7a558c617edd30c8d03f64c9aabe3fbd9aa24409b7fc4bfc5"
+      },
+      "pages/908197.txt": {
+        "sha256": "b1ae2dfe70225d094398330d4ed6b8bff845e7341ba2dd798efad50b1a859b3c"
+      },
+      "pages/722840.txt": {
+        "sha256": "ca050c31f321a30482701986645ddca7fc10dec95568a91a16198a8ea01084af"
+      },
+      "pages/958897.txt": {
+        "sha256": "5d2e47616ea3a47fa241013c3967a07eb1b7c4532e0d8fc8980b787229b39105"
+      },
+      "pages/754824.txt": {
+        "sha256": "ff6d8acee30db7da8881b4f7574a0173a75eea8a1e8fe8df0cda7a76367c8889"
+      },
+      "pages/494701.txt": {
+        "sha256": "5606d22aa346700fac3b2c0278f959c7ac421e86a241862d410b8fc3f0205237"
+      },
+      "pages/511763.txt": {
+        "sha256": "8993e30f0f6d063449cec3403292c79e31e29ca5eded9047055d0893167748f3"
+      },
+      "pages/663621.txt": {
+        "sha256": "b91717c0ce274dee20b6cc4e19aebeb7848a186689fa283c9df20ea03ea0c946"
+      },
+      "pages/429298.txt": {
+        "sha256": "47767278f0d9a358fdff1a2c52f9178287166743fe0498c85070f24fea9ab15d"
+      },
+      "pages/520940.txt": {
+        "sha256": "beb1fe673b7e1afb93bb865d94dc0912295a7d87c5f952f6a4c6d6454ce886ac"
+      },
+      "pages/1099700.txt": {
+        "sha256": "ac097b0abf953dffe5f6a311378012ea5864a3cccfe22556d0e302764fe689ab"
+      },
+      "pages/351117.txt": {
+        "sha256": "eccb8d9f7b5ca446bbef34f6adddcf3fc167a9e760c2b112c672ceab5cede287"
+      },
+      "pages/343634.txt": {
+        "sha256": "9a700a886389a552966468eae9e6b83be1e91e2e27d2ccdd4ee420d3f38897ca"
+      },
+      "pages/390851.txt": {
+        "sha256": "f9ef0b05c875a44623a876fc82bde00fdad26e752b41dc29f33d5ca822e7cffd"
+      },
+      "pages/732171.txt": {
+        "sha256": "1142faac1c61b7cf15fe225277e29d3975348c6a76f6696ac93438624b09e194"
+      },
+      "pages/665814.txt": {
+        "sha256": "dcfc394b4f5ff0243312d74b57e5f628c127f3fa4b6eb450fcd5a9d76597dec9"
+      },
+      "pages/511939.txt": {
+        "sha256": "0450cc8552e0f635763ea814765b3094dbc2d1d6e503e6399ed889adfb75692b"
+      },
+      "pages/927110.txt": {
+        "sha256": "b596bd545f5d3eb3860ad80a3441bc80f6a0dec9d7305e618af1c2278e958424"
+      },
+      "pages/809642.txt": {
+        "sha256": "688e7922c84553e23b350bc7a66d8e3e4ab51544e7d3a7e3a381a819bd34f5a3"
+      },
+      "pages/371346.txt": {
+        "sha256": "07e88cd3b0a0958659fa180f9f1290649d08a95adfa3e6b245bb5410e66d37fb"
+      },
+      "pages/674979.txt": {
+        "sha256": "9c701189e39bfdbf24cb8f84b48dd9cc99b04dac83dcfb7478237200da93b2db"
+      },
+      "pages/458919.txt": {
+        "sha256": "3c72469aacc1ade61048667b27580441ad2c6ffd030a54e253e12d5e8ce9d188"
+      },
+      "pages/1089909.txt": {
+        "sha256": "29c203067f2958e39e658602f7e27af310e1d539c4ca2fee1934bb9ac033a6c7"
+      },
+      "pages/411990.txt": {
+        "sha256": "5c5ee87d58cecf044f37933bcc306e5b9bc5e2a80570b010d9491533292582b6"
+      },
+      "pages/1177993.txt": {
+        "sha256": "b10a3b319a045abad886571452236d8ae6afd94c3222647725699d9f42eb1697"
+      },
+      "pages/495989.txt": {
+        "sha256": "ad3c9db1287829cd7c555571ce2e257e4d1bd5d1d5784d57eb542d1a1a6c51fe"
+      },
+      "pages/574873.txt": {
+        "sha256": "fd9684de2347af94f5478c6ca2fa3b8c3fb8b269738858c19af32312015ac589"
+      },
+      "pages/815383.txt": {
+        "sha256": "2c22323c63ecfa1a3c79ee8e6a943ca3d68bdf9fa8506f4cf5b683d9b001955e"
+      },
+      "pages/592564.txt": {
+        "sha256": "98db809b03aeb2e6d12c3426dc5251f958b3ed41339b81c84261582372902c6a"
+      },
+      "pages/681565.txt": {
+        "sha256": "441420300c42e0f7adc535cbc2fb640ad9b72c40b7fd505f48a5ef1122bbb842"
+      },
+      "pages/708443.txt": {
+        "sha256": "4ac5ea57f0c8d778918267a723d8dc00064e6e842e5793a8203a06478c8320c5"
+      },
+      "pages/397298.txt": {
+        "sha256": "9371cb23cbd81f6b08a53ca996af002f1b061d03f5df38e35a6fbe8483558f9d"
+      },
+      "pages/464144.txt": {
+        "sha256": "7a98952b9f21931d3b5ce7586038e97475b43c10ce123a4f83b9c3ea40b5a539"
+      },
+      "pages/798694.txt": {
+        "sha256": "9533ee7e32132080aaffb2b2d11ed6c069847a4c16bae18a5cb6db2f696fc5d7"
+      },
+      "pages/494700.txt": {
+        "sha256": "bff811d65d7ad4669592091eeaf17acb570311c2b4afb0ec4532191a49977f0a"
+      },
+      "pages/726817.txt": {
+        "sha256": "a3a46d3a2a2069d4c70d1831e82bced18801fb58df48828b1e978ed14bb72c7f"
+      },
+      "pages/1235235.txt": {
+        "sha256": "b4c8c6e103910d2bec8f278b99afa5aa96abdeeaec871838b543670cd4ed4ed1"
+      },
+      "canonicalrawfacts.jsonl": {
+        "sha256": "8a9528c3d5f72ee3f80f73f2116aa2efc29e4095a8be4efa1e012f342750f0ba"
+      }
+    },
+    "input_catalog": "data/unified/community-expanded-v2/catalog.json",
+    "input_catalog_sha256": "8ecfb9eef60fc243785af6986fe0466a310aa59412f7cdd59267cf585cb8438f",
+    "records": 28,
+    "ratings_imported": false,
+    "review_prose_imported": false,
+    "limitations": [
+      "Only visible Details Vibe block; +N is not additional inferred labels.",
+      "No Vibe means no visible block in this retrieval, not absence of sound properties.",
+      "Cached readable source possible; source observation time unknown.",
+      "Failed page opened at most twice; no authentication or rate-limit bypass.",
+      "Full title/artist conflicts quarantined even when numeric URL ID matches."
+    ]
+  },
+  "limitations": [
+    "Publisher snapshots are historical and are not independently verified live observations.",
+    "Retrieval/commit dates do not establish source capture time.",
+    "Chart-selected datasets are biased toward popular or highly rated releases.",
+    "No automatic MusicBrainz identity or internal genre-taxonomy mapping is performed.",
+    "Community aggregates are not personal preference labels or current obscurity evidence.",
+    "Public availability does not establish redistribution rights; see acquisition provenance."
+  ]
+}

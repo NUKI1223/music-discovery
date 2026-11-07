@@ -1,0 +1,79 @@
+{
+  "endpoint": "release-group/e74decef-df46-463f-8240-9ad99d67df4f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e74decef-df46-463f-8240-9ad99d67df4f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:56.378989+00:00",
+  "response": {
+    "id": "e74decef-df46-463f-8240-9ad99d67df4f",
+    "primary-type": "EP",
+    "title": "Almighty Seven (Righteous) / People Don’t Know Ya",
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Dollar $ Bill",
+        "artist": {
+          "name": "Dollar $ Bill",
+          "sort-name": "Dollar $ Bill",
+          "tags": [],
+          "country": null,
+          "id": "48b75ffd-4965-4c4f-ae57-eba6dd7035c6",
+          "disambiguation": "",
+          "type": null,
+          "type-id": null,
+          "genres": []
+        },
+        "joinphrase": " & "
+      },
+      {
+        "joinphrase": "",
+        "artist": {
+          "type": null,
+          "disambiguation": "",
+          "country": null,
+          "id": "6195299e-3373-4a35-80e3-2e726d4bf89c",
+          "genres": [],
+          "type-id": null,
+          "tags": [],
+          "sort-name": "Cut Master KG",
+          "name": "Cut Master KG"
+        },
+        "name": "Cut Master KG"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "1988",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/d674821d-9ae3-4514-8bbe-c754b87e92bc",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d674821d-9ae3-4514-8bbe-c754b87e92bc?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:36.682359+00:00",
+  "response": {
+    "first-release-date": "2018-12-30",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "ножевые незабудки",
+        "artist": {
+          "country": null,
+          "tags": [],
+          "id": "c6cad3b6-6d22-4d3e-b376-37ab12339d4e",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "type": "Group",
+          "sort-name": "ножевые незабудки",
+          "disambiguation": "",
+          "name": "ножевые незабудки"
+        }
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "experimental hip hop",
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "count": 1
+      }
+    ],
+    "id": "d674821d-9ae3-4514-8bbe-c754b87e92bc",
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "н2"
+  }
+}

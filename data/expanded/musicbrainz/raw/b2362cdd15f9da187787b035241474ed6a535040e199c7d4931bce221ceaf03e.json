@@ -1,0 +1,361 @@
+{
+  "endpoint": "release-group/09e82aa7-c8d0-3140-978c-1ee42fd65014",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/09e82aa7-c8d0-3140-978c-1ee42fd65014?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:32:25.883658+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "id": "09e82aa7-c8d0-3140-978c-1ee42fd65014",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Boogie, Mick",
+          "type": "Person",
+          "genres": [
+            {
+              "count": 3,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            }
+          ],
+          "id": "bffe9445-fb2c-4616-bf04-92e34a7e4359",
+          "name": "Mick Boogie",
+          "country": "US",
+          "tags": [
+            {
+              "count": 3,
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": ""
+        },
+        "name": "Mick Boogie",
+        "joinphrase": ", "
+      },
+      {
+        "name": "Terry Urban",
+        "joinphrase": ", ",
+        "artist": {
+          "id": "a83f5231-d9b2-43f2-8e48-07aa88a0637f",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Urban, Terry",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "country": "US",
+          "name": "Terry Urban"
+        }
+      },
+      {
+        "name": "9th Wonder",
+        "joinphrase": " & ",
+        "artist": {
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 3
+            },
+            {
+              "count": 1,
+              "name": "instrumental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "southern hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "name": "9th Wonder",
+          "country": "US",
+          "genres": [
+            {
+              "count": 3,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "name": "instrumental hip hop",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "count": 1,
+              "name": "southern hip hop"
+            }
+          ],
+          "id": "48513f24-37d5-423f-b9b7-2b712af7f50d",
+          "sort-name": "9th Wonder",
+          "type": "Person"
+        }
+      },
+      {
+        "artist": {
+          "disambiguation": "formerly Kanye West",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "african american musicians"
+            },
+            {
+              "name": "businesspeople",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "chipmunk soul"
+            },
+            {
+              "name": "christian hip hop",
+              "count": 3
+            },
+            {
+              "name": "composers",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "name": "contemporary r&b"
+            },
+            {
+              "name": "contemporary rap",
+              "count": 2
+            },
+            {
+              "name": "deep house",
+              "count": 1
+            },
+            {
+              "name": "electropop",
+              "count": 1
+            },
+            {
+              "count": 6,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "fashion designers"
+            },
+            {
+              "name": "future bass",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "gospel music"
+            },
+            {
+              "count": 31,
+              "name": "hip hop"
+            },
+            {
+              "name": "house",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "midwest rap"
+            },
+            {
+              "count": 1,
+              "name": "modeschöpfer"
+            },
+            {
+              "name": "musikproduzent",
+              "count": 1
+            },
+            {
+              "count": 5,
+              "name": "pop"
+            },
+            {
+              "count": 14,
+              "name": "pop rap"
+            },
+            {
+              "count": 3,
+              "name": "producer"
+            },
+            {
+              "name": "progressive rap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "r&b"
+            },
+            {
+              "name": "rap musicians",
+              "count": 1
+            },
+            {
+              "name": "rapmusiker",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "regisseur"
+            },
+            {
+              "count": 1,
+              "name": "singers"
+            },
+            {
+              "name": "singstimme",
+              "count": 1
+            },
+            {
+              "name": "songwriter",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "sound recording executives and producers"
+            },
+            {
+              "count": 2,
+              "name": "trap"
+            }
+          ],
+          "country": "US",
+          "name": "Ye",
+          "id": "164f0d73-1234-4e2c-8743-d77bf2191051",
+          "genres": [
+            {
+              "name": "chipmunk soul",
+              "id": "cec1580a-ef3c-4928-b302-58015335c7b0",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "count": 3,
+              "disambiguation": "",
+              "id": "0db33693-8ae5-4749-af7a-20895395dc82",
+              "name": "christian hip hop"
+            },
+            {
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": "",
+              "count": 2,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "id": "4bb4043a-0ee5-4b84-93fa-6ba4567a6ba0",
+              "disambiguation": "",
+              "name": "contemporary r&b"
+            },
+            {
+              "name": "deep house",
+              "count": 1,
+              "disambiguation": "",
+              "id": "7fa479e7-3d35-40d1-96f7-b619a5ca9d9f"
+            },
+            {
+              "name": "electropop",
+              "id": "3f3388b4-e36a-4bf8-a0be-66b10d92aaa4",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 6,
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "count": 1,
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71",
+              "disambiguation": "",
+              "name": "future bass"
+            },
+            {
+              "count": 31,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+              "name": "house"
+            },
+            {
+              "count": 5,
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "disambiguation": "",
+              "name": "pop"
+            },
+            {
+              "name": "pop rap",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "disambiguation": "",
+              "count": 14
+            },
+            {
+              "count": 1,
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "disambiguation": "",
+              "name": "r&b"
+            },
+            {
+              "count": 2,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "name": "trap"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Ye"
+        },
+        "joinphrase": "",
+        "name": "Kanye West"
+      }
+    ],
+    "first-release-date": "2007-10-18",
+    "rating": {
+      "votes-count": 1,
+      "value": 5
+    },
+    "genres": [],
+    "title": "The Graduate"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/7389c840-5936-34c3-a8bf-5941c26a0583",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7389c840-5936-34c3-a8bf-5941c26a0583?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:35.212725+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "id": "7389c840-5936-34c3-a8bf-5941c26a0583",
+    "first-release-date": "2002",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "United States hip hop artist David Hunt",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "US",
+          "genres": [],
+          "sort-name": "Adverse",
+          "id": "a7d2993d-3c6e-47e2-9428-fabf5301d1c5",
+          "tags": [],
+          "name": "Adverse"
+        },
+        "name": "Adverse",
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "title": "Way With Words",
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

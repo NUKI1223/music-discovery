@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/16193909-8cd5-4221-9cef-9cab68ea3b47",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/16193909-8cd5-4221-9cef-9cab68ea3b47?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:00.584304+00:00",
+  "response": {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      }
+    ],
+    "title": "Griselda X DJ Chosen1 Tape",
+    "primary-type": "Album",
+    "id": "16193909-8cd5-4221-9cef-9cab68ea3b47",
+    "artist-credit": [
+      {
+        "name": "DJ Chosen1",
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Chosen1, DJ",
+          "name": "DJ Chosen1",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "country": "US",
+          "id": "1f3d315f-cc32-4a70-8e5b-8b3237a0878a",
+          "type": "Person",
+          "disambiguation": ""
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2020-08-21"
+  }
+}

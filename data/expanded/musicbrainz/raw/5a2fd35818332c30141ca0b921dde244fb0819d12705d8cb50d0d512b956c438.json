@@ -1,0 +1,81 @@
+{
+  "endpoint": "release-group/d7776874-a2b1-4738-8827-10112b0aacc0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d7776874-a2b1-4738-8827-10112b0aacc0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:08.396478+00:00",
+  "response": {
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "d7776874-a2b1-4738-8827-10112b0aacc0",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": " X ",
+        "name": "Lavis",
+        "artist": {
+          "id": "a8fa7329-85c7-404a-9e54-058589466972",
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Lavis",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "Finnish rap artist",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "country": "FI",
+          "name": "Lavis"
+        }
+      },
+      {
+        "artist": {
+          "genres": [],
+          "id": "b5e99f6f-b5f6-443e-8f6d-99c48cb6a03c",
+          "sort-name": "Keemoh",
+          "type": "Person",
+          "tags": [],
+          "disambiguation": "Finnish artist Kimmo Kautiainen",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Keemoh",
+          "country": "FI"
+        },
+        "joinphrase": "",
+        "name": "Keemoh"
+      }
+    ],
+    "title": "Enkeleiden alistajat",
+    "genres": [
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2015-09-17"
+  }
+}

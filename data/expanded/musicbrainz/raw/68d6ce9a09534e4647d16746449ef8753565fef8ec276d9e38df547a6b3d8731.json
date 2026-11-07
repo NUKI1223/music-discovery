@@ -1,0 +1,174 @@
+{
+  "endpoint": "release-group/4a4cab84-403d-48be-851a-354beae418f4",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4a4cab84-403d-48be-851a-354beae418f4?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:46.944547+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "cloud rap"
+            },
+            {
+              "count": 3,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 4
+            },
+            {
+              "name": "hip hop",
+              "count": 8
+            },
+            {
+              "name": "memphis rap",
+              "count": 1
+            },
+            {
+              "name": "rap",
+              "count": 2
+            },
+            {
+              "name": "southern hip hop",
+              "count": 3
+            },
+            {
+              "name": "trap",
+              "count": 6
+            },
+            {
+              "name": "trap metal",
+              "count": 1
+            },
+            {
+              "name": "underground",
+              "count": 1
+            }
+          ],
+          "sort-name": "Curry, Denzel",
+          "name": "Denzel Curry",
+          "type": "Person",
+          "disambiguation": "US rapper",
+          "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+          "country": "US",
+          "genres": [
+            {
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+              "count": 1,
+              "disambiguation": "",
+              "name": "cloud rap"
+            },
+            {
+              "name": "conscious hip hop",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": "",
+              "count": 3
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 4,
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 8,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "2f38ceb3-0ed0-475d-9ebd-bee14a2ca28e",
+              "name": "memphis rap"
+            },
+            {
+              "disambiguation": "",
+              "count": 3,
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "name": "southern hip hop"
+            },
+            {
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "count": 6,
+              "name": "trap"
+            },
+            {
+              "name": "trap metal",
+              "count": 1,
+              "disambiguation": "",
+              "id": "260d1450-1055-4c5c-9c78-863253349a5a"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "name": "Denzel Curry"
+      },
+      {
+        "name": "The Scythe",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "frapcore"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "name": "The Scythe",
+          "sort-name": "Scythe, The",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "17fa1ba8-3731-46d6-8467-df41dfdd5cf8",
+              "name": "frapcore"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "type": "Group",
+          "disambiguation": "Hip hop collective featuring A$AP Ferg, Denzel Curry, and others",
+          "country": null,
+          "id": "985b1d91-4176-4135-b40d-be94c14796b7"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "laut.de",
+        "count": 1
+      }
+    ],
+    "genres": [],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "4a4cab84-403d-48be-851a-354beae418f4",
+    "primary-type": "Album",
+    "title": "Strictly 4 the Scythe",
+    "first-release-date": "2026-03-06",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": ""
+  }
+}

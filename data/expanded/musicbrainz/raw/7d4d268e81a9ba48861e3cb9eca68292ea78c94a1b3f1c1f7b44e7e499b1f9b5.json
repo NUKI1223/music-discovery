@@ -1,0 +1,130 @@
+{
+  "endpoint": "release-group/0868a30e-c594-452f-8a88-66477d4af01a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0868a30e-c594-452f-8a88-66477d4af01a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:43.014156+00:00",
+  "response": {
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "count": 3,
+              "disambiguation": "",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e"
+            },
+            {
+              "name": "conscious hip hop",
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 3
+            },
+            {
+              "name": "drumless hip hop",
+              "count": 2,
+              "disambiguation": "",
+              "id": "9e4c8b90-75d8-4dc9-a5a8-0d09285773dd"
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 3,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": ""
+            },
+            {
+              "count": 4,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "name": "jazz rap",
+              "disambiguation": "",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "MIKE",
+          "disambiguation": "New York rapper, founder of 10k",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "alternative hip hop",
+              "count": 3
+            },
+            {
+              "count": 3,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "drumless hip hop",
+              "count": 2
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 3
+            },
+            {
+              "name": "hip hop",
+              "count": 4
+            },
+            {
+              "count": 1,
+              "name": "jazz rap"
+            }
+          ],
+          "country": "US",
+          "name": "MIKE"
+        },
+        "joinphrase": "",
+        "name": "MIKE"
+      }
+    ],
+    "first-release-date": "2017-09-06",
+    "rating": {
+      "value": 4,
+      "votes-count": 1
+    },
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": ""
+      }
+    ],
+    "title": "BY THE WATER",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "0868a30e-c594-452f-8a88-66477d4af01a"
+  }
+}

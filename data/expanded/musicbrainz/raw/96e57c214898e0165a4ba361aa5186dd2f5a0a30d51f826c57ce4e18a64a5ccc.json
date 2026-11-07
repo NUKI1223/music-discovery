@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/62ad28da-bd4a-43ba-a345-af67accfef90",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/62ad28da-bd4a-43ba-a345-af67accfef90?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:20.672042+00:00",
+  "response": {
+    "first-release-date": "2019-02-14",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Indigo",
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "name": "Indigo",
+          "sort-name": "Indigo",
+          "type": "Person",
+          "disambiguation": "Czech Rapper",
+          "country": "CZ",
+          "id": "f639ea6d-4b4a-4a72-a197-f036e3f646ad",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        }
+      }
+    ],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      }
+    ],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "id": "62ad28da-bd4a-43ba-a345-af67accfef90",
+    "title": "4B0082"
+  }
+}

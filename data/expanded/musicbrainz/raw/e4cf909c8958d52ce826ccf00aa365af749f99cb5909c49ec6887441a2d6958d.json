@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/4eaa7b85-63cc-40a2-99d2-1f65a8771216",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4eaa7b85-63cc-40a2-99d2-1f65a8771216?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:56.546842+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "type": "Group",
+          "country": null,
+          "id": "c4586e6a-5249-438d-83ea-761526e7d0d7",
+          "tags": [],
+          "name": "Meni & Deve",
+          "sort-name": "Meni & Deve"
+        },
+        "name": "Meni & Deve"
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-types": [],
+    "id": "4eaa7b85-63cc-40a2-99d2-1f65a8771216",
+    "primary-type": "EP",
+    "title": "The Bitter Old Man EP",
+    "first-release-date": "2014-02-14",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": ""
+  }
+}

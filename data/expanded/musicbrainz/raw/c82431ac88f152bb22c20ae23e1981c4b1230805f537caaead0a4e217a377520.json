@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/3017f08d-feb4-4c16-b5ba-a9fc26628408",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3017f08d-feb4-4c16-b5ba-a9fc26628408?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:18.274537+00:00",
+  "response": {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2004",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [],
+          "genres": [],
+          "type-id": null,
+          "id": "ae927696-ae7a-4eae-97d8-f670f20d93eb",
+          "country": null,
+          "disambiguation": "",
+          "type": null,
+          "sort-name": "Taktpakt",
+          "name": "Taktpakt"
+        },
+        "joinphrase": "",
+        "name": "Taktpakt"
+      }
+    ],
+    "id": "3017f08d-feb4-4c16-b5ba-a9fc26628408",
+    "title": "Wasch wichtig zur Zit",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP"
+  }
+}

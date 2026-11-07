@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/eb2c3d6a-1473-4de2-8e0d-22ab49a5c1d5",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/eb2c3d6a-1473-4de2-8e0d-22ab49a5c1d5?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:19.877817+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "ΙΙΙ",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Τα παιδιά της Ρόζμαρι",
+        "joinphrase": "",
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "8158c3f8-fdde-45e2-8b75-5422e1387bf6",
+          "tags": [],
+          "genres": [],
+          "name": "Τα παιδιά της Ρόζμαρι",
+          "type": "Group",
+          "sort-name": "Ta paidiá tis Rózmari",
+          "country": "GR",
+          "disambiguation": "Greek DIY hip-hop crew"
+        }
+      }
+    ],
+    "id": "eb2c3d6a-1473-4de2-8e0d-22ab49a5c1d5",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2021-05-01"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/ea1fe94b-553f-4522-ab7b-2db64ef6ca5d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ea1fe94b-553f-4522-ab7b-2db64ef6ca5d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:48.968961+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2010-06-21",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "400 Hyènes",
+        "artist": {
+          "name": "400 Hyènes",
+          "sort-name": "400 Hyènes",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "name": "hardcore hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+            },
+            {
+              "name": "hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "country": "FR",
+          "id": "690dbe70-267c-417f-af1f-c449bf40f09b",
+          "disambiguation": "",
+          "type": "Group"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ],
+    "title": "L'Esprit du clan",
+    "primary-type": "Album",
+    "id": "ea1fe94b-553f-4522-ab7b-2db64ef6ca5d",
+    "secondary-types": [],
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "secondary-type-ids": []
+  }
+}

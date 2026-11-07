@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+runtime/
+artifacts/
+*.sqlite*
+*.db
+dist/
+node_modules/
+playwright-report/
+test-results/
+# Large unified snapshots exceed GitHub's 100 MB limit; the committed
+# catalog.json.gz next to each is read by load_catalog when the raw file is absent.
+data/unified/*/catalog.json
+.claude/worktrees/
+.claude/settings.local.json

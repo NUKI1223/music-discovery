@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/1eddb4bf-da65-4d95-bc02-a83184fe9150",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1eddb4bf-da65-4d95-bc02-a83184fe9150?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:56.714947+00:00",
+  "response": {
+    "first-release-date": "2022-11-25",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Saffron",
+          "name": "Saffron",
+          "tags": [],
+          "country": "US",
+          "id": "996ef545-98da-4f92-ae4c-bf3afc449608",
+          "disambiguation": "Star Fetchers OST producer",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": []
+        },
+        "joinphrase": "",
+        "name": "Saffron"
+      }
+    ],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      }
+    ],
+    "secondary-types": [],
+    "id": "1eddb4bf-da65-4d95-bc02-a83184fe9150",
+    "primary-type": "Album",
+    "title": "Crude Humor"
+  }
+}

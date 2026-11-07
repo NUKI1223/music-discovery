@@ -1,0 +1,154 @@
+{
+  "endpoint": "release-group/4fcb49f2-5a26-4a38-94a6-65e1453b9450",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4fcb49f2-5a26-4a38-94a6-65e1453b9450?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:30.548547+00:00",
+  "response": {
+    "title": "TA13OO: Act 2",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Denzel Curry",
+          "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+              "name": "cloud rap"
+            },
+            {
+              "count": 3,
+              "disambiguation": "",
+              "name": "conscious hip hop",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+            },
+            {
+              "disambiguation": "",
+              "count": 4,
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "name": "hardcore hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 8,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "name": "memphis rap",
+              "id": "2f38ceb3-0ed0-475d-9ebd-bee14a2ca28e"
+            },
+            {
+              "disambiguation": "",
+              "count": 3,
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "name": "southern hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 6,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "name": "trap metal",
+              "id": "260d1450-1055-4c5c-9c78-863253349a5a"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "Curry, Denzel",
+          "type": "Person",
+          "tags": [
+            {
+              "count": 1,
+              "name": "cloud rap"
+            },
+            {
+              "count": 3,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 4
+            },
+            {
+              "name": "hip hop",
+              "count": 8
+            },
+            {
+              "name": "memphis rap",
+              "count": 1
+            },
+            {
+              "name": "rap",
+              "count": 2
+            },
+            {
+              "count": 3,
+              "name": "southern hip hop"
+            },
+            {
+              "name": "trap",
+              "count": 6
+            },
+            {
+              "count": 1,
+              "name": "trap metal"
+            },
+            {
+              "count": 1,
+              "name": "underground"
+            }
+          ],
+          "country": "US",
+          "disambiguation": "US rapper"
+        },
+        "name": "Denzel Curry"
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "4fcb49f2-5a26-4a38-94a6-65e1453b9450",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2018-07-26"
+  }
+}

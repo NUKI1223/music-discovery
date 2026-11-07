@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/113fb748-f281-4a01-8c98-f4c8d10310b5",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/113fb748-f281-4a01-8c98-f4c8d10310b5?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:24.168184+00:00",
+  "response": {
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "name": "Bop Alloy",
+        "artist": {
+          "disambiguation": "Substantial & Marcus D",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "sort-name": "Bop Alloy",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "type": "Group",
+          "country": "US",
+          "name": "Bop Alloy",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "id": "573378a6-15a3-4a6c-b63c-388cbd1e8fea"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+      }
+    ],
+    "first-release-date": "2010-09-07",
+    "disambiguation": "",
+    "id": "113fb748-f281-4a01-8c98-f4c8d10310b5",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "prePAIRED"
+  }
+}

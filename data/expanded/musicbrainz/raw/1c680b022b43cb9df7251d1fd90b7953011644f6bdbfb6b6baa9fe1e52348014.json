@@ -1,0 +1,110 @@
+{
+  "endpoint": "release-group/373535df-18b9-4b50-8e8a-9bea15b40635",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/373535df-18b9-4b50-8e8a-9bea15b40635?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:26.980211+00:00",
+  "response": {
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "id": "373535df-18b9-4b50-8e8a-9bea15b40635",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      },
+      {
+        "name": "r&b",
+        "count": 1
+      }
+    ],
+    "first-release-date": "2016-10-03",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+        "disambiguation": "",
+        "name": "r&b"
+      }
+    ],
+    "title": "Recollections & Premonitions",
+    "artist-credit": [
+      {
+        "name": "D:Q",
+        "joinphrase": "",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Masilo The Healer",
+          "id": "e4fd9aaa-305b-4c41-8487-5ba73694b89c",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "disambiguation": "",
+              "count": 1,
+              "name": "jazz rap"
+            },
+            {
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "disambiguation": "",
+              "count": 1,
+              "name": "r&b"
+            }
+          ],
+          "country": null,
+          "name": "Masilo The Healer",
+          "disambiguation": "South African Rapper/Singer/Songwriter.",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "jazz rap",
+              "count": 1
+            },
+            {
+              "name": "r&b",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

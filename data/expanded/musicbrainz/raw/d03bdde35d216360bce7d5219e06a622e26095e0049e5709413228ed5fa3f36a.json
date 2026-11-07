@@ -1,0 +1,124 @@
+{
+  "endpoint": "release-group/a4c41668-cd97-41c8-bc96-1f9bb23cde0a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a4c41668-cd97-41c8-bc96-1f9bb23cde0a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:29.700398+00:00",
+  "response": {
+    "title": "LeBron Flocka James",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "first-release-date": "2009-10-17",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Waka Flocka Flame",
+          "type": "Person",
+          "sort-name": "Waka Flocka Flame",
+          "country": "US",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "59eda569-b380-4958-b98c-051d1667b3e1",
+          "tags": [
+            {
+              "name": "crunk",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "dirty south"
+            },
+            {
+              "name": "gangsta rap",
+              "count": 2
+            },
+            {
+              "count": 4,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            },
+            {
+              "name": "trap",
+              "count": 4
+            }
+          ],
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "44c375ed-1041-4aa7-a2a0-05fb28135da3",
+              "count": 1,
+              "name": "crunk"
+            },
+            {
+              "count": 1,
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641",
+              "disambiguation": "",
+              "name": "dirty south"
+            },
+            {
+              "name": "gangsta rap",
+              "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c",
+              "count": 2,
+              "disambiguation": ""
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 4,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "count": 4,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "name": "trap"
+            }
+          ]
+        },
+        "joinphrase": "",
+        "name": "Waka Flocka Flame"
+      }
+    ],
+    "id": "a4c41668-cd97-41c8-bc96-1f9bb23cde0a",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1,
+        "name": "trap"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/011a70f6-921f-484d-80e2-a708d4d7d918",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/011a70f6-921f-484d-80e2-a708d4d7d918?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:25.984738+00:00",
+  "response": {
+    "title": "Raps 2 Riches. Vol. 2",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "first-release-date": "2020-10-02",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "011a70f6-921f-484d-80e2-a708d4d7d918",
+    "artist-credit": [
+      {
+        "name": "Jovi",
+        "joinphrase": "",
+        "artist": {
+          "genres": [],
+          "tags": [],
+          "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "CM",
+          "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+          "sort-name": "Jovi",
+          "type": "Person",
+          "name": "Jovi"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "trap",
+        "disambiguation": "",
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ]
+  }
+}

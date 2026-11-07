@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/3282b5a8-e2d6-45b3-9579-58c85b6d4914",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3282b5a8-e2d6-45b3-9579-58c85b6d4914?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:26.647493+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2006-03-29",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "400 Hyènes",
+          "sort-name": "400 Hyènes",
+          "tags": [
+            {
+              "name": "hardcore hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "country": "FR",
+          "id": "690dbe70-267c-417f-af1f-c449bf40f09b",
+          "type": "Group",
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 1,
+              "disambiguation": "",
+              "name": "hardcore hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ]
+        },
+        "joinphrase": "",
+        "name": "400 Hyènes"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      }
+    ],
+    "title": "Ghetto prodiges",
+    "id": "3282b5a8-e2d6-45b3-9579-58c85b6d4914",
+    "primary-type": "Album"
+  }
+}

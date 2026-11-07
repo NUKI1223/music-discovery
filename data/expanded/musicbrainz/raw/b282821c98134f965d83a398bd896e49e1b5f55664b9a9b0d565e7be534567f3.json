@@ -1,0 +1,77 @@
+{
+  "endpoint": "release-group/5ddce4fa-d750-4aa1-a3dd-b5895beca9d6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5ddce4fa-d750-4aa1-a3dd-b5895beca9d6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:27.666017+00:00",
+  "response": {
+    "title": "Gevat in 16 Bars",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2020-09-18",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Def P",
+        "joinphrase": "",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "c168a027-da9a-48d1-9019-930628a0918e",
+          "tags": [
+            {
+              "count": 1,
+              "name": "dutch"
+            },
+            {
+              "count": 1,
+              "name": "hiphop"
+            },
+            {
+              "count": 1,
+              "name": "nl"
+            }
+          ],
+          "genres": [],
+          "type": "Person",
+          "sort-name": "Def P",
+          "disambiguation": "Dutch rapper",
+          "country": "NL",
+          "name": "Def P"
+        }
+      }
+    ],
+    "id": "5ddce4fa-d750-4aa1-a3dd-b5895beca9d6"
+  }
+}

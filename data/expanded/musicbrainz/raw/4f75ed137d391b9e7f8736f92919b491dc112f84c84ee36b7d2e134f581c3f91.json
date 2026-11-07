@@ -1,0 +1,190 @@
+{
+  "endpoint": "release-group/de07386c-f339-4197-89d0-4ef4aad937dd",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/de07386c-f339-4197-89d0-4ef4aad937dd?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:30.353051+00:00",
+  "response": {
+    "title": "Uneven Compromise",
+    "id": "de07386c-f339-4197-89d0-4ef4aad937dd",
+    "primary-type": "EP",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Lil Ugly Mane",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "cloud rap"
+            },
+            {
+              "name": "experimental",
+              "count": 1
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 4
+            },
+            {
+              "name": "free jazz",
+              "count": 1
+            },
+            {
+              "name": "horrorcore",
+              "count": 2
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "lo-fi"
+            },
+            {
+              "name": "memphis rap",
+              "count": 4
+            },
+            {
+              "count": 2,
+              "name": "neo-psychedelia"
+            },
+            {
+              "count": 1,
+              "name": "noise"
+            },
+            {
+              "count": 2,
+              "name": "psychedelia"
+            },
+            {
+              "name": "punk",
+              "count": 1
+            },
+            {
+              "name": "slacker rock",
+              "count": 2
+            },
+            {
+              "name": "southern hip hop",
+              "count": 1
+            }
+          ],
+          "name": "Lil Ugly Mane",
+          "sort-name": "Lil Ugly Mane",
+          "type": "Person",
+          "disambiguation": "US rapper",
+          "id": "5f1adfe1-4d07-4141-b181-79e5d379d539",
+          "country": "US",
+          "genres": [
+            {
+              "name": "cloud rap",
+              "disambiguation": "",
+              "count": 1,
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733"
+            },
+            {
+              "name": "experimental",
+              "count": 1,
+              "disambiguation": "",
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+            },
+            {
+              "count": 4,
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "3c31635b-a5a7-44eb-ab9d-4bbde11da2d4",
+              "name": "free jazz"
+            },
+            {
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+              "count": 2,
+              "disambiguation": "",
+              "name": "horrorcore"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "name": "instrumental hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011",
+              "name": "lo-fi"
+            },
+            {
+              "disambiguation": "",
+              "count": 4,
+              "id": "2f38ceb3-0ed0-475d-9ebd-bee14a2ca28e",
+              "name": "memphis rap"
+            },
+            {
+              "name": "neo-psychedelia",
+              "count": 2,
+              "disambiguation": "",
+              "id": "cd99451c-f6d5-47c7-8d49-6c08b51e61aa"
+            },
+            {
+              "name": "noise",
+              "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "8cc9b280-230b-4a3a-b1e2-8acab0744dd3",
+              "name": "punk"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "f2e920a2-a2b4-4688-b9c4-913224e9f140",
+              "name": "slacker rock"
+            },
+            {
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "disambiguation": "",
+              "count": 1,
+              "name": "southern hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "2012-10-28"
+  }
+}

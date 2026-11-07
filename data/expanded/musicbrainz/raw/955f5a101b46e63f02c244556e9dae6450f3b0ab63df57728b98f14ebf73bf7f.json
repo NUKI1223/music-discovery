@@ -1,0 +1,58 @@
+{
+  "endpoint": "release-group/db4f41d6-7486-4a60-96d9-737375a63171",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/db4f41d6-7486-4a60-96d9-737375a63171?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:38.528975+00:00",
+  "response": {
+    "secondary-type-ids": [
+      "22a628ad-c082-3c4f-b1b6-d41665107b88"
+    ],
+    "secondary-types": [
+      "Soundtrack"
+    ],
+    "first-release-date": "2023-04-14",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "id": "db4f41d6-7486-4a60-96d9-737375a63171",
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "996ef545-98da-4f92-ae4c-bf3afc449608",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "tags": [],
+          "name": "Saffron",
+          "sort-name": "Saffron",
+          "type": "Person",
+          "disambiguation": "Star Fetchers OST producer",
+          "country": "US"
+        },
+        "joinphrase": "",
+        "name": "Saffron"
+      }
+    ],
+    "title": "Star Fetchers: Episode 1 Demo OST",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/7184a972-a19d-4ff7-a53c-96ace1cd420b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7184a972-a19d-4ff7-a53c-96ace1cd420b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:36.395132+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2008-12-29",
+    "id": "7184a972-a19d-4ff7-a53c-96ace1cd420b",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "777",
+          "id": "7e7b81aa-0781-47b9-ac90-199ad43b13a0",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "777",
+          "type": "Person",
+          "tags": [],
+          "country": "GB",
+          "disambiguation": "Rapper from Telford, UK"
+        },
+        "name": "777",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "title": "Septimal, Volume 1"
+  }
+}

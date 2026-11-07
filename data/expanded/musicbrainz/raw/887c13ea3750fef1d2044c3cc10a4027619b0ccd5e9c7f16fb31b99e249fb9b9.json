@@ -1,0 +1,148 @@
+{
+  "endpoint": "release-group/d2e1fa94-f246-39a6-b644-1b4add09743e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d2e1fa94-f246-39a6-b644-1b4add09743e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:18.186563+00:00",
+  "response": {
+    "title": "Techno Animal Versus Reality",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract"
+      },
+      {
+        "count": 1,
+        "name": "ambient"
+      },
+      {
+        "count": 1,
+        "name": "breakbeat"
+      },
+      {
+        "name": "breakcore",
+        "count": 1
+      },
+      {
+        "name": "broken beat",
+        "count": 1
+      },
+      {
+        "count": 2,
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "name": "hardcore"
+      },
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "name": "hip-hop",
+        "count": 1
+      },
+      {
+        "count": 2,
+        "name": "illbient"
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Techno Animal",
+        "artist": {
+          "country": "GB",
+          "disambiguation": "",
+          "type": "Group",
+          "sort-name": "Techno Animal",
+          "tags": [
+            {
+              "name": "illbient",
+              "count": 1
+            }
+          ],
+          "id": "e9a7c1b9-dcb6-4cf5-b200-f9630ac68ec7",
+          "name": "Techno Animal",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "name": "illbient",
+              "id": "da52c9d1-73f2-456e-a0d0-94bd854cb338",
+              "disambiguation": "",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "d2e1fa94-f246-39a6-b644-1b4add09743e",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "608b0471-7531-4854-a348-e698c69cb699",
+        "name": "ambient"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "breakbeat",
+        "id": "3b8f3f65-6caa-47c8-b076-fa59dfb69c43"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "breakcore",
+        "id": "8aad8a03-be38-48e4-aa43-5ca0f826c569"
+      },
+      {
+        "name": "broken beat",
+        "id": "cf9daa9d-74e2-4eff-b0eb-7269bbca6501",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic",
+        "disambiguation": "",
+        "count": 2
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 2,
+        "disambiguation": ""
+      },
+      {
+        "id": "da52c9d1-73f2-456e-a0d0-94bd854cb338",
+        "name": "illbient",
+        "count": 2,
+        "disambiguation": ""
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 1,
+      "value": 5
+    },
+    "first-release-date": "1998-03-30"
+  }
+}

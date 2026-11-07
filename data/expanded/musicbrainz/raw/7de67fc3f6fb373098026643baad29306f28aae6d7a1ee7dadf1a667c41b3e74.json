@@ -1,0 +1,73 @@
+{
+  "endpoint": "release-group/7c6527d1-f5e5-4f2c-8993-80868bd7f5d3",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7c6527d1-f5e5-4f2c-8993-80868bd7f5d3?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:44.382833+00:00",
+  "response": {
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "JOHNNASCUS",
+          "id": "74fa83e3-525d-4539-bd51-5e5ac254379c",
+          "tags": [
+            {
+              "count": 1,
+              "name": "chaoscore"
+            },
+            {
+              "name": "noccanism",
+              "count": 1
+            }
+          ],
+          "genres": [],
+          "sort-name": "JOHNNASCUS",
+          "country": "US",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": ""
+        },
+        "name": "JOHNNASCUS",
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "experimental",
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+      },
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "first-release-date": "2017-03-13",
+    "disambiguation": "",
+    "id": "7c6527d1-f5e5-4f2c-8993-80868bd7f5d3",
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental"
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "title": "No Theme"
+  }
+}

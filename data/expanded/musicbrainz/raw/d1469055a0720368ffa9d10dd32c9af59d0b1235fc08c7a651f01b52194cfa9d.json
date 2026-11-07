@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/0b75b460-91bf-3fa8-be52-e0202727094f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0b75b460-91bf-3fa8-be52-e0202727094f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:02.778519+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2003",
+    "genres": [
+      {
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "trap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "title": "Miehen maailma",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "8c0e9116-1df8-4122-bb46-6aed9ec66973",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Laveerre",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "country": "FI",
+          "name": "Laveerre"
+        },
+        "name": "Laveerre",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "0b75b460-91bf-3fa8-be52-e0202727094f",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "disambiguation": ""
+  }
+}

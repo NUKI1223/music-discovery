@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/434a2202-1700-43c3-a931-4245f48e84ed",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/434a2202-1700-43c3-a931-4245f48e84ed?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:47.359698+00:00",
+  "response": {
+    "title": "THEIR MONEY IS YOUR MONEY",
+    "genres": [
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "ceadd212-a669-4981-b05c-7e8889df55ae",
+        "name": "power noise"
+      }
+    ],
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "first-release-date": "2022-03-25",
+    "artist-credit": [
+      {
+        "name": "1 800 PAIN",
+        "joinphrase": "",
+        "artist": {
+          "country": null,
+          "name": "1 800 PAIN",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "tags": [],
+          "type": "Group",
+          "sort-name": "1 800 PAIN",
+          "id": "e1ceeab5-5320-4120-9d9b-ad8aae8b4882",
+          "genres": []
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "id": "434a2202-1700-43c3-a931-4245f48e84ed",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "name": "power noise",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

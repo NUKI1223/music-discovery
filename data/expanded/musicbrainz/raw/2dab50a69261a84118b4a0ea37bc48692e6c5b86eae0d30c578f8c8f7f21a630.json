@@ -1,0 +1,130 @@
+{
+  "endpoint": "release-group/0670501c-46e4-4bd3-a4ac-1a650fe0d7d2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0670501c-46e4-4bd3-a4ac-1a650fe0d7d2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:53.773008+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2022-04-05",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "0670501c-46e4-4bd3-a4ac-1a650fe0d7d2",
+    "primary-type": "EP",
+    "title": "BEATMIX 0122",
+    "genres": [
+      {
+        "id": "462f9321-6103-49c9-b6db-96219bce6f62",
+        "disambiguation": "",
+        "count": 1,
+        "name": "drum and bass"
+      },
+      {
+        "name": "electronic",
+        "disambiguation": "",
+        "count": 1,
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "drum and bass"
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "id": "462f9321-6103-49c9-b6db-96219bce6f62",
+              "disambiguation": "",
+              "count": 1,
+              "name": "drum and bass"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "name": "electronic"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+              "count": 1,
+              "disambiguation": "",
+              "name": "jazz"
+            }
+          ],
+          "id": "4fac1638-899f-4077-ae96-25f63b4b5a51",
+          "country": null,
+          "type": "Person",
+          "disambiguation": "",
+          "sort-name": "Rukunetsu",
+          "name": "Rukunetsu",
+          "tags": [
+            {
+              "count": 1,
+              "name": "drum and bass"
+            },
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "jazz",
+              "count": 1
+            },
+            {
+              "name": "rap",
+              "count": 1
+            }
+          ]
+        },
+        "name": "Rukunetsu"
+      }
+    ]
+  }
+}

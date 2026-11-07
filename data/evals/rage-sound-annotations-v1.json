@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "id": "rage-sound-annotations-v1",
+  "recorded_on": "2026-11-01",
+  "status": "partial_regression_gold",
+  "scope": "Описания конкретных релизов одним пользователем; не глобальные свойства артистов и не оценки нравится/не нравится.",
+  "source_policy": {
+    "required_any_of": [
+      "aoty",
+      "rym"
+    ],
+    "identity_source": "Ссылки и нумерация из предыдущей подборки ассистента; страницы проверены при составлении списка.",
+    "sound_source": "user_message",
+    "source_genre_is_not_sound_evidence": true
+  },
+  "usage": {
+    "purpose": "Golden-набор регрессионной проверки; запрещён как источник обучающих признаков/меток или текста ответов.",
+    "independent_holdout": false,
+    "production_catalog_imported": false,
+    "connected_to_automatic_runner": true,
+    "account_feedback_created": false,
+    "unknown_policy": "null означает, что пользователь не сообщил характеристику; не среднее значение и не отрицательная оценка.",
+    "normalization": "Краткие пересказы Codex по исходным словам пользователя, без числовой шкалы. Исходные слова сохранены отдельно.",
+    "generalization": "Не переносить на все треки релиза, другие релизы артиста или других слушателей.",
+    "comparison_policy": "Фразу «самое жесткое» не превращать в абсолютный максимум жанра или попарные оценки непрослушанных релизов.",
+    "automatic_sound_grading": false,
+    "training_allowed": false
+  },
+  "releases": [
+    {
+      "number": 1,
+      "id": "aoty:1525650",
+      "artist": "slayr",
+      "title": "Half Blood",
+      "year": 2025,
+      "aoty_url": "https://www.albumoftheyear.org/album/1525650-slayr-half-blood.php",
+      "annotation_status": "annotated",
+      "raw_user_text": "у альбома достаточно мягкое и вайбовое звучание, однако есть и сильные рейдж песни с очень мощным флоу, но в основном альбом легкий и позитивный в этом жанре",
+      "normalized_sound": {
+        "overall": "Преимущественно мягкое, вайбовое, лёгкое и позитивное звучание.",
+        "beats": null,
+        "vocal_delivery": "В отдельных сильных rage-песнях очень мощный флоу.",
+        "melodicity": null,
+        "within_release_variation": "Есть сильные rage-песни; общая характеристика не описывает каждый трек.",
+        "boundary_exploration": null
+      },
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 2,
+      "id": "aoty:788529",
+      "artist": "Lucy Bedroque",
+      "title": "Unmusique",
+      "year": 2025,
+      "aoty_url": "https://www.albumoftheyear.org/album/788529-lucy-bedroque-unmusique.php",
+      "annotation_status": "annotated",
+      "raw_user_text": "этот альбом содержит в себе очень много мелодичности, хоть тут и есть более агрессивыне работу, но даже в них читается нотка легкости альбома,  по сути биты в этом альбоме как приятынй шум с автотюновым вокалом, который отлично подходит в этот жанр",
+      "normalized_sound": {
+        "overall": "Мелодичное звучание с ощущением лёгкости, в том числе в более агрессивных работах.",
+        "beats": "Приятный шум; степень перегруза отдельно не указана.",
+        "vocal_delivery": "Автотюновый вокал; соотношение пения и читки не указано.",
+        "melodicity": "Много мелодичности.",
+        "within_release_variation": "Есть более агрессивные работы, сохраняющие нотку лёгкости.",
+        "boundary_exploration": null
+      },
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 3,
+      "id": "aoty:970806",
+      "artist": "Che",
+      "title": "Sayso Says",
+      "year": 2024,
+      "aoty_url": "https://www.albumoftheyear.org/album/970806-che-sayso-says.php",
+      "annotation_status": "not_listened",
+      "raw_user_text": "не могу сказать точно не слушал",
+      "normalized_sound": null,
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 4,
+      "id": "aoty:1222328",
+      "artist": "Che",
+      "title": "REST IN BASS",
+      "year": 2025,
+      "aoty_url": "https://www.albumoftheyear.org/album/1222328-che-rest-in-bass.php",
+      "annotation_status": "annotated",
+      "raw_user_text": "в основном данный альбом имеет очень жесткие и перегруженные биты, при этом артист читает с достаточно высоким голосом из за чего создается контраст между жесткими битами и мягким флоу, при этом это именно читка, а не пение",
+      "normalized_sound": {
+        "overall": "Контраст жёстких битов и мягкого флоу.",
+        "beats": "В основном очень жёсткие и перегруженные.",
+        "vocal_delivery": "Достаточно высокий голос, мягкий флоу; именно читка, не пение.",
+        "melodicity": null,
+        "within_release_variation": "Характеристика битов дана для основной части альбома; исключения не названы.",
+        "boundary_exploration": null
+      },
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 5,
+      "id": "aoty:783292",
+      "artist": "OsamaSon",
+      "title": "Flex Musix",
+      "year": 2023,
+      "aoty_url": "https://www.albumoftheyear.org/album/783292-osamason-flex-musix.php",
+      "annotation_status": "awaiting_user",
+      "raw_user_text": null,
+      "normalized_sound": null,
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 6,
+      "id": "aoty:1089909",
+      "artist": "OsamaSon",
+      "title": "Jump Out",
+      "year": 2025,
+      "aoty_url": "https://www.albumoftheyear.org/album/1089909-osamason-jump-out.php",
+      "annotation_status": "awaiting_user",
+      "raw_user_text": null,
+      "normalized_sound": null,
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 7,
+      "id": "aoty:1008806",
+      "artist": "Nettspend",
+      "title": "BAD ASS F*CKING KID",
+      "year": 2024,
+      "aoty_url": "https://www.albumoftheyear.org/album/1008806-nettspend-bad-ass-fcking-kid.php",
+      "annotation_status": "awaiting_user",
+      "raw_user_text": null,
+      "normalized_sound": null,
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 8,
+      "id": "aoty:1523666",
+      "artist": "2slimey",
+      "title": "High Anxiety",
+      "year": 2025,
+      "aoty_url": "https://www.albumoftheyear.org/album/1523666-2slimey-high-anxiety.php",
+      "annotation_status": "annotated",
+      "raw_user_text": "самое жесткое звучание, невероятно перегруженные биты и слушать такую музыку достаточно сложно, альбом подойдет для того чтобы прощупать грань этого жанра и насколько перегруженным может быть бит",
+      "normalized_sound": {
+        "overall": "Самое жёсткое звучание по описанию пользователя; слушать достаточно сложно.",
+        "beats": "Невероятно перегруженные.",
+        "vocal_delivery": null,
+        "melodicity": null,
+        "within_release_variation": null,
+        "boundary_exploration": "Пример для исследования границы жанра и степени перегруза бита."
+      },
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 9,
+      "id": "aoty:1570851",
+      "artist": "bleood",
+      "title": "KILL YOUR IDOLS",
+      "year": 2026,
+      "aoty_url": "https://www.albumoftheyear.org/album/1570851-bleood-kill-your-idols.php",
+      "annotation_status": "awaiting_user",
+      "raw_user_text": null,
+      "normalized_sound": null,
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 10,
+      "id": "aoty:677907",
+      "artist": "Ken Carson",
+      "title": "A Great Chaos",
+      "year": 2023,
+      "aoty_url": "https://www.albumoftheyear.org/album/677907-ken-carson-a-great-chaos.php",
+      "annotation_status": "awaiting_user",
+      "raw_user_text": null,
+      "normalized_sound": null,
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 11,
+      "id": "aoty:142562",
+      "artist": "Playboi Carti",
+      "title": "Whole Lotta Red",
+      "year": 2020,
+      "aoty_url": "https://www.albumoftheyear.org/album/142562-playboi-carti-whole-lotta-red.php",
+      "annotation_status": "awaiting_user",
+      "raw_user_text": null,
+      "normalized_sound": null,
+      "track_examples": [],
+      "preference_label": null
+    },
+    {
+      "number": 12,
+      "id": "aoty:722840",
+      "artist": "Yeat",
+      "title": "2093",
+      "year": 2024,
+      "aoty_url": "https://www.albumoftheyear.org/album/722840-yeat-2093.php",
+      "annotation_status": "awaiting_user",
+      "raw_user_text": null,
+      "normalized_sound": null,
+      "track_examples": [],
+      "preference_label": null
+    }
+  ]
+}

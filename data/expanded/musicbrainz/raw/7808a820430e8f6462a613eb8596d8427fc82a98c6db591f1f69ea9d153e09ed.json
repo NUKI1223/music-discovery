@@ -1,0 +1,69 @@
+{
+  "endpoint": "release-group/cc140fb9-aff7-3e48-a7de-de135ee28e30",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/cc140fb9-aff7-3e48-a7de-de135ee28e30?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:24.283334+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "cc140fb9-aff7-3e48-a7de-de135ee28e30",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "first-release-date": "2005",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "title": "True Links EP",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "awesomename",
+              "count": 1
+            }
+          ],
+          "country": "US",
+          "name": "Edgar Allen Floe",
+          "id": "28119872-8c29-48cb-9d20-cb6a28e545a6",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "Edgar Allen Floe"
+        },
+        "joinphrase": "",
+        "name": "Edgar Allen Floe"
+      }
+    ]
+  }
+}

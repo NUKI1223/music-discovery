@@ -1,0 +1,94 @@
+{
+  "endpoint": "release-group/a83e736d-27f8-483e-95b4-241b7eb3a63f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a83e736d-27f8-483e-95b4-241b7eb3a63f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:19.298441+00:00",
+  "response": {
+    "id": "a83e736d-27f8-483e-95b4-241b7eb3a63f",
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "id": "f8387828-7b8a-4552-953b-6c8adde63872",
+          "tags": [],
+          "name": "Les Trolls",
+          "type": null,
+          "type-id": null,
+          "country": null,
+          "sort-name": "Les Trolls",
+          "genres": [],
+          "disambiguation": ""
+        },
+        "name": "Les Trolls"
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "id": "8aad8a03-be38-48e4-aa43-5ca0f826c569",
+        "name": "breakcore",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "breaks",
+        "id": "63eddc75-dbad-4a05-a365-e30d1e87bca8",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+        "name": "downtempo"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+      },
+      {
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2013-07-03",
+    "tags": [
+      {
+        "count": 1,
+        "name": "breakcore"
+      },
+      {
+        "count": 1,
+        "name": "breaks"
+      },
+      {
+        "name": "downtempo",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Ketsu no Ana kara Yubi Tsukkonde Okuba Gatagata Iwase Taroka",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "endpoint": "release-group/ff5df3b2-3f5d-4550-afa0-48e76e42f2b0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ff5df3b2-3f5d-4550-afa0-48e76e42f2b0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:01.750089+00:00",
+  "response": {
+    "genres": [
+      {
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "name": "experimental hip hop"
+      }
+    ],
+    "id": "ff5df3b2-3f5d-4550-afa0-48e76e42f2b0",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "title": "Gothic Incorporated",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2021-03-26",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "US",
+          "name": "Plumbers Incorporated",
+          "disambiguation": "Comedy Rap duo from Las Vegas",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "2b35e92b-d960-40c3-9407-53a9f65f4874",
+          "tags": [],
+          "genres": [],
+          "type": "Group",
+          "sort-name": "Plumbers Incorporated"
+        },
+        "joinphrase": " & ",
+        "name": "Plumbers Incorporated"
+      },
+      {
+        "name": "DZUD",
+        "joinphrase": "",
+        "artist": {
+          "country": null,
+          "id": "29a15b38-2478-4bb0-8177-84af538c410c",
+          "type-id": null,
+          "tags": [],
+          "type": null,
+          "sort-name": "DZUD",
+          "genres": [],
+          "disambiguation": "",
+          "name": "DZUD"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": []
+  }
+}

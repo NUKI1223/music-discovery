@@ -1,0 +1,270 @@
+{
+  "endpoint": "release-group/79e3b14c-3525-3761-8133-90188abae741",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/79e3b14c-3525-3761-8133-90188abae741?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:41.866993+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "underground hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Buck 65",
+        "joinphrase": ", ",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "name": "alternative hip hop"
+            },
+            {
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "count": 1,
+              "disambiguation": "",
+              "name": "boom bap"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 3
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "name": "underground hip hop"
+            }
+          ],
+          "id": "8d18b680-368c-4649-a5e3-85e0c2dd6fc2",
+          "country": "CA",
+          "disambiguation": "Canadian alternative hip hop artist",
+          "type": "Person",
+          "sort-name": "Buck 65",
+          "name": "Buck 65",
+          "tags": [
+            {
+              "name": "alternative hip hop",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "count": 1,
+              "name": "canadian hip hop"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 1
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "count": 3,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "underground hip hop"
+            }
+          ]
+        }
+      },
+      {
+        "name": "doseone",
+        "joinphrase": " & ",
+        "artist": {
+          "tags": [
+            {
+              "count": 2,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 1,
+              "name": "avant-garde"
+            },
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "electronic",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "midwest hip hop"
+            },
+            {
+              "name": "poetry",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "spoken word"
+            },
+            {
+              "count": 1,
+              "name": "underground hip hop"
+            },
+            {
+              "name": "video game music",
+              "count": 1
+            }
+          ],
+          "sort-name": "doseone",
+          "name": "doseone",
+          "genres": [
+            {
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "count": 2,
+              "disambiguation": "",
+              "name": "abstract hip hop"
+            },
+            {
+              "name": "avant-garde",
+              "id": "b1c0c2ad-e5ae-4bb6-a1be-d66e195fd2d7",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "boom bap",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "conscious hip hop",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "electronic",
+              "disambiguation": "",
+              "count": 1,
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+            },
+            {
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "id": "15570d3c-756e-429e-ad67-653cb29ae886",
+              "disambiguation": "",
+              "count": 1,
+              "name": "poetry"
+            },
+            {
+              "name": "spoken word",
+              "id": "c774791e-1b78-4794-a109-befb712ef44d",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "underground hip hop",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rapper, producer, poet and artist",
+          "type": "Person",
+          "id": "524bc397-a217-4605-94ce-08d5c584d294",
+          "country": "US"
+        }
+      },
+      {
+        "name": "Jel",
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "name": "Jel",
+          "sort-name": "Jel",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US hip-hop producer",
+          "type": "Person",
+          "country": "US",
+          "id": "331de830-024a-4c7f-ae0a-23cec1e6b450"
+        }
+      }
+    ],
+    "title": "North American Adonis",
+    "id": "79e3b14c-3525-3761-8133-90188abae741",
+    "primary-type": "EP",
+    "secondary-types": [],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "underground hip hop",
+        "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "first-release-date": "1998",
+    "disambiguation": ""
+  }
+}

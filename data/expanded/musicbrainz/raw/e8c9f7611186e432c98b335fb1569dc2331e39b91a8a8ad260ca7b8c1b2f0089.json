@@ -1,0 +1,94 @@
+{
+  "endpoint": "release-group/f7fbbac4-97a0-4ebf-871c-e22e0bfcf7b1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f7fbbac4-97a0-4ebf-871c-e22e0bfcf7b1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:29.712831+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 1,
+      "value": 5
+    },
+    "first-release-date": "2025-11-27",
+    "id": "f7fbbac4-97a0-4ebf-871c-e22e0bfcf7b1",
+    "genres": [
+      {
+        "id": "a21ea484-efba-4119-8120-429b26f98728",
+        "name": "trap edm",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Anti Sucksess",
+        "artist": {
+          "tags": [
+            {
+              "name": "broken transmission",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "signaltrap"
+            },
+            {
+              "count": 1,
+              "name": "signalwave"
+            },
+            {
+              "name": "trap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "vaportrap"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Anti Sucksess",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "broken transmission",
+              "id": "7e586e26-5a3f-4fb3-be64-46c04cd5eb23"
+            },
+            {
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "vaportrap",
+              "id": "dcc79a22-0983-431a-bb4f-f55a767583cc",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "id": "a8a37fb1-f8c9-45fa-96cd-d7a30276d09c",
+          "name": "Anti Sucksess",
+          "disambiguation": "Signalwave / Trap artist",
+          "country": "SI"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap edm"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "BABY SCUMBAG"
+  }
+}

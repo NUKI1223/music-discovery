@@ -1,0 +1,63 @@
+{
+  "endpoint": "release-group/5064ac5b-893c-4ecf-9f72-9645ad9c940f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5064ac5b-893c-4ecf-9f72-9645ad9c940f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:21.474772+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      }
+    ],
+    "title": "Keta Music",
+    "first-release-date": "2009-12-16",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "artist-credit": [
+      {
+        "name": "Emis Killa",
+        "joinphrase": "",
+        "artist": {
+          "id": "3dc399a5-0a32-465c-883c-3e222a48ae64",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "Emis Killa",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "rap",
+              "count": 1
+            }
+          ],
+          "country": "IT",
+          "name": "Emis Killa"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "id": "5064ac5b-893c-4ecf-9f72-9645ad9c940f",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

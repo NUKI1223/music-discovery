@@ -1,0 +1,74 @@
+{
+  "endpoint": "release-group/9412e526-73cb-420f-977a-646ac835582d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9412e526-73cb-420f-977a-646ac835582d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:07.425600+00:00",
+  "response": {
+    "first-release-date": "2021-05-14",
+    "disambiguation": "",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Djamhellvice",
+          "tags": [],
+          "id": "2ce21808-783b-4952-b09f-eba1d512a08f",
+          "sort-name": "Djamhellvice",
+          "genres": [],
+          "type-id": null,
+          "type": null,
+          "country": null,
+          "disambiguation": ""
+        },
+        "name": "Djamhellvice"
+      }
+    ],
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "chiptune",
+        "id": "103a65bb-35d9-4d27-9c9b-f35a458621ba"
+      },
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "9412e526-73cb-420f-977a-646ac835582d",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Grabuge",
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "chiptune",
+        "count": 1
+      },
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

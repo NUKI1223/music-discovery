@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/169848d3-57fd-435d-ab2c-61cb27875fad",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/169848d3-57fd-435d-ab2c-61cb27875fad?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:33.214982+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "\"So Fine\" Beats vol. 1",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "P-Ro",
+          "type": null,
+          "country": null,
+          "disambiguation": "US Rapper",
+          "name": "P-Ro",
+          "id": "f40224a0-f150-4a91-904f-ae577fa5d5d2",
+          "type-id": null,
+          "genres": [],
+          "tags": []
+        },
+        "name": "P-Ro"
+      }
+    ],
+    "id": "169848d3-57fd-435d-ab2c-61cb27875fad",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "first-release-date": "2020-04-19",
+    "secondary-type-ids": [],
+    "secondary-types": []
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "endpoint": "release-group/7b1f48b0-1fe8-4cf0-8366-9b9e87ef3e4b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7b1f48b0-1fe8-4cf0-8366-9b9e87ef3e4b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:58.491055+00:00",
+  "response": {
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "horrorcore",
+        "count": 1
+      }
+    ],
+    "title": "CVLT",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "name": "horrorcore",
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "id": "7b1f48b0-1fe8-4cf0-8366-9b9e87ef3e4b",
+    "first-release-date": "2023-11-03",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "name": "Salmo",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Salmo",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "name": "hardcore hip hop",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "id": "8691d44e-7143-4edb-a72c-1cbc7d1a0867",
+          "name": "Salmo",
+          "disambiguation": "Italian rapper",
+          "country": "IT"
+        }
+      },
+      {
+        "name": "Noyz Narcos",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Noyz Narcos",
+          "tags": [
+            {
+              "count": 1,
+              "name": "noyz narcos & fritz da cat"
+            }
+          ],
+          "id": "a2c7987d-1461-4829-8f1b-0424058e17e1",
+          "name": "Noyz Narcos",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "country": "IT",
+          "disambiguation": ""
+        },
+        "joinphrase": ""
+      }
+    ]
+  }
+}

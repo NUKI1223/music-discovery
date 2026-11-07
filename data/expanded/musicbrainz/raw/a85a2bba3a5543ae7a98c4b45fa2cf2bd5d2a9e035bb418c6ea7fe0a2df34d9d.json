@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/7afd40dd-05f2-466e-aa71-438d934a7994",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7afd40dd-05f2-466e-aa71-438d934a7994?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:58.978698+00:00",
+  "response": {
+    "title": "Yajé, Vol. 2: Sun Yellow",
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Jovi",
+          "type": "Person",
+          "tags": [],
+          "name": "Jovi",
+          "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "CM",
+          "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor"
+        },
+        "name": "Jovi"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2020-10-16",
+    "id": "7afd40dd-05f2-466e-aa71-438d934a7994",
+    "genres": [
+      {
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap",
+        "disambiguation": "",
+        "count": 1
+      }
+    ]
+  }
+}

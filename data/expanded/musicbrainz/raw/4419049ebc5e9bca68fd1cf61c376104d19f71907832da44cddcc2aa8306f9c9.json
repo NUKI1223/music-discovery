@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/1317ce1c-007a-46c4-8b3f-3ccc88303488",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1317ce1c-007a-46c4-8b3f-3ccc88303488?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:01.500155+00:00",
+  "response": {
+    "title": "La vérité est ailleurs",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "id": "1317ce1c-007a-46c4-8b3f-3ccc88303488",
+    "first-release-date": "1999",
+    "disambiguation": "",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Cheravif",
+        "artist": {
+          "genres": [],
+          "sort-name": "Cheravif",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "FR",
+          "type": "Person",
+          "disambiguation": "",
+          "name": "Cheravif",
+          "tags": [],
+          "id": "8b4055ce-9df7-488f-b7eb-5d35a25f5747"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ]
+  }
+}

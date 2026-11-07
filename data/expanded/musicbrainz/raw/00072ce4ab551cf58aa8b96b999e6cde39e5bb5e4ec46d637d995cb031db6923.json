@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/5e3f234f-3969-4d54-8668-e1685d943acf",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5e3f234f-3969-4d54-8668-e1685d943acf?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:18.564732+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "first-release-date": "2018",
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Funky Cowboys",
+          "disambiguation": "Jay Dee & Proof",
+          "type": "Group",
+          "genres": [],
+          "sort-name": "Funky Cowboys",
+          "tags": [],
+          "id": "4457d9cd-af11-4c3e-9053-c09f73717946",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "US"
+        },
+        "name": "Funky Cowboys",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "disambiguation": "",
+    "title": "Livin' Proof a.k.a The Last Cowboy Presents: Funkee C a.k.a. FC a.k.a. Thee Funky Cowboys Vol. 2",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "name": "hardcore hip hop",
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "name": "hip hop",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "id": "5e3f234f-3969-4d54-8668-e1685d943acf"
+  }
+}

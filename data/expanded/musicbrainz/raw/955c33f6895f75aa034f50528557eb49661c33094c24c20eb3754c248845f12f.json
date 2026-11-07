@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/f4a27992-ef8a-43e1-951e-a646e53d190b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f4a27992-ef8a-43e1-951e-a646e53d190b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:15.472899+00:00",
+  "response": {
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2020-07-08",
+    "secondary-types": [],
+    "genres": [
+      {
+        "id": "6d12e828-40a5-4ebc-a5b0-aa5506e2efd0",
+        "count": 1,
+        "disambiguation": "",
+        "name": "digital hardcore"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "2f2118d7-315b-4241-bf40-d5d6ca11348d",
+        "name": "gabber"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "a8a72860-0bf8-44fd-90a1-b947a8ac2c56",
+        "name": "hyperpop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "name": "industrial hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "title": "Fast Fashion",
+    "id": "f4a27992-ef8a-43e1-951e-a646e53d190b",
+    "primary-type": "EP",
+    "tags": [
+      {
+        "name": "digital hardcore",
+        "count": 1
+      },
+      {
+        "name": "gabber",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hyperpop"
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "N I T E F I S H",
+        "joinphrase": "",
+        "artist": {
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "type-id": null,
+          "disambiguation": "",
+          "type": null,
+          "id": "e2aad188-99c3-44ce-8165-8191ced5b16e",
+          "country": "IE",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "sort-name": "N I T E F I S H",
+          "name": "N I T E F I S H"
+        }
+      }
+    ]
+  }
+}

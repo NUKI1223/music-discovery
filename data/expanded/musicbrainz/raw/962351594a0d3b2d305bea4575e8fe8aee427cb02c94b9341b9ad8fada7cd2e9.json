@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/8ed0f1ac-50fd-405b-9b8a-061e443f606f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8ed0f1ac-50fd-405b-9b8a-061e443f606f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:22.675918+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Τελευταία Ἐποχή",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "id": "8ed0f1ac-50fd-405b-9b8a-061e443f606f",
+    "secondary-types": [],
+    "genres": [
+      {
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap",
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "GR",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "3802e85a-67b6-4067-8cec-d8324a49b8dd",
+          "tags": [],
+          "genres": [],
+          "type": "Person",
+          "sort-name": "Magkart, Nikola",
+          "disambiguation": "",
+          "name": "Nikola Magkart"
+        },
+        "name": "Nikola Magkart",
+        "joinphrase": ""
+      }
+    ],
+    "first-release-date": "2020-04-30"
+  }
+}

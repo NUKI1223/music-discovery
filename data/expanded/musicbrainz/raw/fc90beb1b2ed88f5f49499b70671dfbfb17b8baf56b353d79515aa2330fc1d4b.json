@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/6f5cb374-ddc8-3576-87cc-9ee3478eb2be",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6f5cb374-ddc8-3576-87cc-9ee3478eb2be?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:17.461879+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "6f5cb374-ddc8-3576-87cc-9ee3478eb2be",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "first-release-date": "1998",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Unreleased",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "The Psycho Realm",
+        "joinphrase": "",
+        "artist": {
+          "genres": [
+            {
+              "name": "boom bap",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "id": "149a3524-0fd3-4bdc-9876-0361dfee8908",
+              "disambiguation": "",
+              "name": "west coast hip hop"
+            }
+          ],
+          "id": "6531928e-692e-45f8-a7c5-8050e4d0573f",
+          "sort-name": "Psycho Realm, The",
+          "type": "Group",
+          "tags": [
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "west coast hip hop"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "name": "The Psycho Realm",
+          "country": "US"
+        }
+      }
+    ]
+  }
+}

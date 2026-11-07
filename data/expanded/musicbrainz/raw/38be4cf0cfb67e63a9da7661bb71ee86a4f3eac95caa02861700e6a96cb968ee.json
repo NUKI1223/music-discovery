@@ -1,0 +1,124 @@
+{
+  "endpoint": "release-group/3157fa46-5113-3b94-b199-fa1679d649f8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3157fa46-5113-3b94-b199-fa1679d649f8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:23.971552+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "disambiguation": "",
+        "name": "instrumental hip hop"
+      }
+    ],
+    "title": "Jay Love Japan",
+    "first-release-date": "2007-04",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "artist-credit": [
+      {
+        "name": "J Dilla",
+        "joinphrase": "",
+        "artist": {
+          "id": "cbcbb22c-3a8d-46af-b4ba-09c98f0d7931",
+          "genres": [
+            {
+              "name": "experimental",
+              "count": 2,
+              "disambiguation": "",
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+            },
+            {
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 6
+            },
+            {
+              "disambiguation": "",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "count": 5,
+              "name": "instrumental hip hop"
+            },
+            {
+              "disambiguation": "",
+              "id": "1b5e7b16-336b-473e-a364-5120413a9827",
+              "count": 2,
+              "name": "soul"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "J Dilla",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US producer and rapper aka Jay Dee",
+          "tags": [
+            {
+              "count": 1,
+              "name": "beats"
+            },
+            {
+              "name": "experimental",
+              "count": 2
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 6
+            },
+            {
+              "name": "hip-hop",
+              "count": 3
+            },
+            {
+              "count": 5,
+              "name": "instrumental hip hop"
+            },
+            {
+              "name": "soul",
+              "count": 2
+            }
+          ],
+          "country": "US",
+          "name": "J Dilla"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "id": "3157fa46-5113-3b94-b199-fa1679d649f8",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

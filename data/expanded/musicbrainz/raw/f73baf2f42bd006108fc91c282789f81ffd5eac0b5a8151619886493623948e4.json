@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/1089368f-e8fa-46ff-9209-af285e749e87",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1089368f-e8fa-46ff-9209-af285e749e87?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:14.483289+00:00",
+  "response": {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "1089368f-e8fa-46ff-9209-af285e749e87",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2020-02-08",
+    "title": "Mauvais Augure",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Djamhellvice",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "",
+          "type-id": null,
+          "tags": [],
+          "country": null,
+          "name": "Djamhellvice",
+          "id": "2ce21808-783b-4952-b09f-eba1d512a08f",
+          "genres": [],
+          "type": null,
+          "sort-name": "Djamhellvice"
+        }
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

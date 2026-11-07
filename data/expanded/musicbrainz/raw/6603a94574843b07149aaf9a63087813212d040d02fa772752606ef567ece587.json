@@ -1,0 +1,202 @@
+{
+  "endpoint": "release-group/c9480e5f-7389-3455-aecf-c5d246045432",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c9480e5f-7389-3455-aecf-c5d246045432?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:35.526806+00:00",
+  "response": {
+    "title": "META",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "experimental hip-hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "idm"
+      },
+      {
+        "count": 1,
+        "name": "instrumental"
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "id": "c9480e5f-7389-3455-aecf-c5d246045432",
+    "first-release-date": "2005-06-01",
+    "disambiguation": "",
+    "genres": [
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "8eb583f1-4fd7-460c-8246-dcdccc0e3ef9",
+        "name": "idm"
+      },
+      {
+        "name": "instrumental",
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "HipGnosis",
+        "artist": {
+          "disambiguation": "",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "US",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "breaks",
+              "id": "63eddc75-dbad-4a05-a365-e30d1e87bca8"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "broken beat",
+              "id": "cf9daa9d-74e2-4eff-b0eb-7269bbca6501"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "1b50083b-1afa-4778-82c8-548b309af783",
+              "name": "dubstep"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "name": "electronic"
+            },
+            {
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+              "name": "experimental",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "aa3215ae-28e6-4993-908e-ed3807e1ce54",
+              "name": "glitch hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "id": "8eb583f1-4fd7-460c-8246-dcdccc0e3ef9",
+              "name": "idm",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "09a7573a-1bf2-4f8e-aadb-b582780746a0",
+              "name": "outsider house"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "psychedelic",
+              "id": "d698ece0-6fed-4262-b446-42c98b73b65a"
+            }
+          ],
+          "sort-name": "Molly In Berlin",
+          "id": "08306d80-970a-4314-b960-b802e625165c",
+          "tags": [
+            {
+              "count": 1,
+              "name": "breaks"
+            },
+            {
+              "count": 1,
+              "name": "broken beat"
+            },
+            {
+              "name": "dubstep",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "name": "experimental"
+            },
+            {
+              "name": "experimental hip-hop",
+              "count": 1
+            },
+            {
+              "name": "glitch hop",
+              "count": 1
+            },
+            {
+              "name": "glitch-hop",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "idm",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "outsider house"
+            },
+            {
+              "name": "producer",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "psychedelic"
+            }
+          ],
+          "name": "Molly In Berlin"
+        }
+      }
+    ]
+  }
+}

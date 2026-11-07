@@ -1,0 +1,177 @@
+{
+  "endpoint": "release-group/13685fe5-2d97-4d68-aa39-a2352179b4f0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/13685fe5-2d97-4d68-aa39-a2352179b4f0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:55.053416+00:00",
+  "response": {
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "US",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "36494952-f434-45d8-a958-8b4acdbcf8a8",
+          "tags": [
+            {
+              "count": 1,
+              "name": "crunk"
+            },
+            {
+              "count": 1,
+              "name": "dirty south"
+            },
+            {
+              "count": 8,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "name": "southern hip hop"
+            },
+            {
+              "count": 7,
+              "name": "trap"
+            }
+          ],
+          "sort-name": "Gucci Mane",
+          "type": "Person",
+          "genres": [
+            {
+              "count": 1,
+              "id": "44c375ed-1041-4aa7-a2a0-05fb28135da3",
+              "disambiguation": "",
+              "name": "crunk"
+            },
+            {
+              "disambiguation": "",
+              "name": "dirty south",
+              "count": 1,
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641"
+            },
+            {
+              "disambiguation": "",
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 8
+            },
+            {
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "count": 2,
+              "disambiguation": "",
+              "name": "southern hip hop"
+            },
+            {
+              "count": 7,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap",
+              "disambiguation": ""
+            }
+          ],
+          "disambiguation": "US rapper",
+          "name": "Gucci Mane"
+        },
+        "joinphrase": " & ",
+        "name": "Gucci Mane"
+      },
+      {
+        "artist": {
+          "type": "Person",
+          "sort-name": "Drama, DJ",
+          "genres": [
+            {
+              "id": "44c375ed-1041-4aa7-a2a0-05fb28135da3",
+              "count": 1,
+              "disambiguation": "",
+              "name": "crunk"
+            },
+            {
+              "count": 1,
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641",
+              "name": "dirty south",
+              "disambiguation": ""
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 3,
+              "name": "hip hop",
+              "disambiguation": ""
+            },
+            {
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "count": 1,
+              "disambiguation": "",
+              "name": "r&b"
+            }
+          ],
+          "id": "de23d637-20df-4b15-ae63-263dd5a34f10",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "crunk"
+            },
+            {
+              "name": "dirty south",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 3
+            },
+            {
+              "name": "r&b",
+              "count": 1
+            }
+          ],
+          "disambiguation": "US rap mixtape DJ Tyree Cinque Simmons",
+          "name": "DJ Drama",
+          "country": "US"
+        },
+        "joinphrase": "",
+        "name": "DJ Drama"
+      }
+    ],
+    "first-release-date": "2009-10-17",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "13685fe5-2d97-4d68-aa39-a2352179b4f0",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "hip hop",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "trap",
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "The Cold War: Guccimerica",
+    "disambiguation": ""
+  }
+}

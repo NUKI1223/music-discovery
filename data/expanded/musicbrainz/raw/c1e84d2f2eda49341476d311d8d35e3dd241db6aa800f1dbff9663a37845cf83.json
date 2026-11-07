@@ -1,0 +1,2823 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"hardcore hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22hardcore+hip+hop%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2010-01-01+TO+2019-12-31%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:28.760775+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:28.669Z",
+    "count": 781,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "f85e1ded-7638-4ca4-8a50-4e95b69cd380",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "24dfa6d0-1cac-3031-86c0-65afe39b028f",
+        "count": 1,
+        "title": "Inauguration of the Mechanical Nest",
+        "first-release-date": "2018-02-20",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Trunchell, Etc.",
+            "artist": {
+              "id": "01a57d77-df6b-433f-9275-8b0b8279f6fd",
+              "name": "Trunchell, Etc.",
+              "sort-name": "Trunchell, Etc."
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4b96e40c-0089-465b-82a1-182fb3e7aaba",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Inauguration of the Mechanical Nest",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0b5d1515-3418-4b1d-95ae-19aa03d077fb",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "24dfa6d0-1cac-3031-86c0-65afe39b028f",
+        "count": 1,
+        "title": "Morfeo",
+        "first-release-date": "2018-07-31",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Trunchell, Etc.",
+            "artist": {
+              "id": "01a57d77-df6b-433f-9275-8b0b8279f6fd",
+              "name": "Trunchell, Etc.",
+              "sort-name": "Trunchell, Etc."
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9e3a258f-9799-4a03-8a83-62fab8a4f180",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Morfeo",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "9eeefd33-9e9d-46bc-a326-cd3e46604ba5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "24dfa6d0-1cac-3031-86c0-65afe39b028f",
+        "count": 1,
+        "title": "16 (La maledizione di vitruvio)",
+        "first-release-date": "2019-06-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Trunchell, Etc.",
+            "artist": {
+              "id": "01a57d77-df6b-433f-9275-8b0b8279f6fd",
+              "name": "Trunchell, Etc.",
+              "sort-name": "Trunchell, Etc."
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "aa9df60e-5085-4b5b-9022-eaaeb5b7187f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "16 (La maledizione di vitruvio)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "eeb45eb0-d216-45f6-b782-43444a48a3d6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "de73bce2-151c-3cec-9b8a-9fc483c4264c",
+        "count": 2,
+        "title": "Drippin",
+        "first-release-date": "2019-07-17",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Dillom",
+            "artist": {
+              "id": "bd212fd1-abe7-47c6-9f6f-97d0330f4b74",
+              "name": "Dillom",
+              "sort-name": "Dillom",
+              "disambiguation": "Argentine punk-rap singer",
+              "aliases": [
+                {
+                  "sort-name": "Masa, Dylan León",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Dylan León Masa",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e653e308-ff94-4217-b7d1-56763fe3dd8d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Drippin",
+            "status": "Official"
+          },
+          {
+            "id": "b396e996-00c9-4e54-995b-c90623564dbc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Drippin",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "4038a13b-c11e-43c5-a72e-d6faff5bc370",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 96,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "b70a936d-3205-3eb5-8fe5-d4a97a55105a",
+        "count": 2,
+        "title": "Danger",
+        "first-release-date": "2013-07-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Nitro",
+            "artist": {
+              "id": "824c59f0-9ae2-4197-a7b6-2da485ee8386",
+              "name": "Nitro",
+              "sort-name": "Nitro",
+              "disambiguation": "Italian rapper",
+              "aliases": [
+                {
+                  "sort-name": "Nitro Wilson",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Nitro Wilson",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Albera, Nicola",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Nicola Albera",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4c800fcf-4bc1-487e-a4da-c7a7b05768c1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Danger",
+            "status": "Official"
+          },
+          {
+            "id": "f3e5d097-6cf8-4216-a4d3-88160f2ed0c0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Danger",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "2db0271c-9058-401a-a347-55bb84005a6d",
+        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+        "score": 96,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9c786cb2-afba-3fd9-94ea-155b4b0fef72",
+        "count": 1,
+        "title": "Documentary",
+        "first-release-date": "2014-06-17",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Live"
+        ],
+        "secondary-type-ids": [
+          "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+        ],
+        "artist-credit": [
+          {
+            "name": "Salmo",
+            "artist": {
+              "id": "8691d44e-7143-4edb-a72c-1cbc7d1a0867",
+              "name": "Salmo",
+              "sort-name": "Salmo",
+              "disambiguation": "Italian rapper",
+              "aliases": [
+                {
+                  "sort-name": "Pisciottu, Maurizio",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Maurizio Pisciottu",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e5c72c7b-94e5-4fc1-b7e8-7843824d6819",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Documentary",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3cc0af7c-7d72-4a5a-9772-a8182d65b1d4",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 96,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "b70a936d-3205-3eb5-8fe5-d4a97a55105a",
+        "count": 2,
+        "title": "No Comment",
+        "first-release-date": "2018-01-12",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Nitro",
+            "artist": {
+              "id": "824c59f0-9ae2-4197-a7b6-2da485ee8386",
+              "name": "Nitro",
+              "sort-name": "Nitro",
+              "disambiguation": "Italian rapper",
+              "aliases": [
+                {
+                  "sort-name": "Nitro Wilson",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Nitro Wilson",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Albera, Nicola",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Nicola Albera",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "23b26c29-0406-4dd3-a70b-ffc5a1cfc801",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Comment",
+            "status": "Official"
+          },
+          {
+            "id": "b0072a32-7e70-4858-8c89-49f7c301bea1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Comment",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f070c382-846c-4238-b714-4917d6b32f1b",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 96,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "09b465fa-3b65-3b73-87a8-9bc9a43d599c",
+        "count": 2,
+        "title": "The Marvelous Missing Link (Lost)",
+        "first-release-date": "2015-04-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Insane Clown Posse",
+            "artist": {
+              "id": "7a1eb805-2242-4daa-bd90-c1ed350e2e48",
+              "name": "Insane Clown Posse",
+              "sort-name": "Insane Clown Posse",
+              "aliases": [
+                {
+                  "sort-name": "ICP",
+                  "name": "ICP",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Insane Clowne Posse",
+                  "name": "Insane Clowne Posse",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Insane Clown Possee",
+                  "name": "Insane Clown Possee",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5d2f4657-c895-4e6f-85cb-aedf47ffa317",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Marvelous Missing Link (Lost)",
+            "status": "Official"
+          },
+          {
+            "id": "10512d26-9763-4e5d-82bd-0cc602a59c6f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Marvelous Missing Link (Lost)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "98057de7-40be-4ca3-ad4e-21bcc7b5e872",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 96,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "94cc783c-8501-3793-9eff-c52dc7303a3c",
+        "count": 1,
+        "title": "Commercial Hell",
+        "first-release-date": "2012-05-18",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Jake Biz",
+            "artist": {
+              "id": "30a8357e-7c55-4ef4-853e-a27f4086b14c",
+              "name": "Jake Biz",
+              "sort-name": "Jake Biz"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0cc08acb-ca47-40f7-8cd3-32ec599ff884",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Commercial Hell",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e4efaea7-7c51-4646-a930-bbbd98cb47cc",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 96,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "004cf774-cfce-3004-8353-d3df63fd3f82",
+        "count": 2,
+        "title": "Enemy",
+        "first-release-date": "2018-04-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Noyz Narcos",
+            "artist": {
+              "id": "a2c7987d-1461-4829-8f1b-0424058e17e1",
+              "name": "Noyz Narcos",
+              "sort-name": "Noyz Narcos",
+              "aliases": [
+                {
+                  "sort-name": "Frasca, Emanuele",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Emanuele Frasca",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1be693aa-1d8e-45b9-aea8-86d85cd68f7e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Enemy",
+            "status": "Official"
+          },
+          {
+            "id": "0b302437-e36b-4fe7-abbd-0ff27547fc7c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Enemy",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ea1fe94b-553f-4522-ab7b-2db64ef6ca5d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 96,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8895b0f6-5fee-4e1b-9036-4a59234a9b4e",
+        "count": 1,
+        "title": "L'Esprit du clan",
+        "first-release-date": "2010-06-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "400 Hyènes",
+            "artist": {
+              "id": "690dbe70-267c-417f-af1f-c449bf40f09b",
+              "name": "400 Hyènes",
+              "sort-name": "400 Hyènes",
+              "aliases": [
+                {
+                  "sort-name": "400Hyènes",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "400Hyènes",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "400-Hyènes",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "400-Hyènes",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "400-Yens",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "400-Yens",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2000",
+                  "end-date": "2006"
+                },
+                {
+                  "sort-name": "400 Yens",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "400 Yens",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "400 Yen",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "400 Yen",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "400 Hyennes",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "400 Hyennes",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "400 Hyenes",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "400 Hyenes",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "400 Hyène",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "400 Hyène",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c7181e14-4262-49bd-9d0f-3482b6542984",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "L'Esprit du clan",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "180192f3-2b38-4cd8-acc5-7066f7d6c742",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "728c2ae9-455e-3c74-85f2-b4cd5c801a94",
+        "count": 2,
+        "title": "Historic EP",
+        "first-release-date": "2014-06-10",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Four Horsemen",
+            "artist": {
+              "id": "8b03b612-1e17-4899-864d-ae6e0174254e",
+              "name": "Four Horsemen",
+              "sort-name": "Four Horsemen",
+              "disambiguation": "US hip-hop supergroup",
+              "aliases": [
+                {
+                  "sort-name": "HRSMN",
+                  "name": "HRSMN",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6bbfd732-fbb5-4064-9502-17a861b3a3de",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Historic EP",
+            "status": "Official"
+          },
+          {
+            "id": "acb6d5d9-c101-4b45-9b23-f5e7f080f6c3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Historic EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "677a5332-2ecd-4e6c-b0fd-46a7f43161c1",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "647c784e-3028-3b43-8b60-5b14c0ae2fd7",
+        "count": 1,
+        "title": "Irrlicht",
+        "first-release-date": "2018-11-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Clip",
+            "artist": {
+              "id": "ffa2357d-a689-4cf7-8b51-3c35f24a3cd9",
+              "name": "Clip",
+              "sort-name": "Clip",
+              "disambiguation": "German rapper"
+            }
+          },
+          {
+            "name": "Tarot",
+            "artist": {
+              "id": "d68d96e6-4dc6-4ca3-b655-ce0ea00111cf",
+              "name": "Tarot",
+              "sort-name": "Tarot",
+              "disambiguation": "German artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3e82f81d-c066-4069-9f4c-f95e3c596ec7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Irrlicht",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5e3f234f-3969-4d54-8668-e1685d943acf",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f487458e-2d23-355e-97a7-aa8829da9d25",
+        "count": 1,
+        "title": "Livin' Proof a.k.a The Last Cowboy Presents: Funkee C a.k.a. FC a.k.a. Thee Funky Cowboys Vol. 2",
+        "first-release-date": "2018",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Funky Cowboys",
+            "artist": {
+              "id": "4457d9cd-af11-4c3e-9053-c09f73717946",
+              "name": "Funky Cowboys",
+              "sort-name": "Funky Cowboys",
+              "disambiguation": "Jay Dee & Proof",
+              "aliases": [
+                {
+                  "sort-name": "FC",
+                  "name": "FC",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "44b374e3-6928-46bb-ac55-2013c6bd9768",
+            "title": "Livin' Proof a.k.a The Last Cowboy Presents: Funkee C a.k.a. FC a.k.a. Thee Funky Cowboys Vol. 2"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f77f9896-20f2-4550-99df-f93ff422c945",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ccf34620-bb1e-3493-b340-b938d1341c30",
+        "count": 1,
+        "title": "Fuck Love",
+        "first-release-date": "2014-10-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "King Orgasmus One",
+            "artist": {
+              "id": "786b89d8-c94f-42d6-a50e-08ebc08e7961",
+              "name": "King Orgasmus One",
+              "sort-name": "King Orgasmus One",
+              "aliases": [
+                {
+                  "sort-name": "Orgi69",
+                  "name": "Orgi69",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "King Orgasmus",
+                  "name": "King Orgasmus",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Orgasmus",
+                  "name": "Orgasmus",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Orgi 69",
+                  "name": "Orgi 69",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "42ab95c8-bd61-4ef6-a690-f475d72cdbd5",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Fuck Love",
+            "status": "Promotion"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "55415668-0220-4dfa-9646-bd52d64c203c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a7bcb6b8-ddc2-3aa8-b603-c51c2a8ecf60",
+        "count": 1,
+        "title": "Dionysis",
+        "first-release-date": "2015-02-10",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Favorite",
+            "artist": {
+              "id": "6619cc0b-5f06-4c3c-92b2-8b48e18f5cfd",
+              "name": "Favorite",
+              "sort-name": "Favorite",
+              "disambiguation": "German rapper",
+              "aliases": [
+                {
+                  "sort-name": "Alex, Christoph",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Christoph Alex",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9b75ae66-b015-4821-ba10-1a1f06506392",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Dionysis",
+            "status": "Promotion"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "62796e94-42b2-45a9-9204-9bce565a5a13",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "781f0b29-e18a-313b-b94b-5d4fd4291fca",
+        "count": 1,
+        "title": "Preface",
+        "first-release-date": "2012-04-02",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Djamhellvice",
+            "artist": {
+              "id": "2ce21808-783b-4952-b09f-eba1d512a08f",
+              "name": "Djamhellvice",
+              "sort-name": "Djamhellvice"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "024232b3-0cd2-4542-8175-709c1bfeadee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Preface",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "aeb9f644-6970-43f5-9bdd-6a32e742ad5c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "26fc17c6-be8b-36aa-9856-910029d79178",
+        "count": 1,
+        "title": "Ver, oír y callar",
+        "first-release-date": "2013-05-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Isusko 'n' SBRV",
+            "artist": {
+              "id": "1a0499c0-fced-4fe1-9eac-67801dc049bc",
+              "name": "Isusko & Sbrv",
+              "sort-name": "Isusko & Sbrv"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "889a0fde-80c2-4cd6-aed4-7df64af9ac30",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ver, oír y callar",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "a30a65bc-b1b9-45cf-8f6a-5e36b585a254",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "225cb1e1-908e-3578-878a-a593dcc2e478",
+        "count": 1,
+        "title": "In the Mental Demos EP",
+        "first-release-date": "2019-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Killa Kidz",
+            "artist": {
+              "id": "2e3d87dc-5b27-4772-b13b-366af7efae9a",
+              "name": "Killa Kidz",
+              "sort-name": "Killa Kidz",
+              "disambiguation": "QB hip hop group"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b23a5794-479b-4958-8c0c-7d2cbf7e372b",
+            "title": "In the Mental Demos EP"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "a4199e1a-0225-4de4-801a-afb19872fe02",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f487458e-2d23-355e-97a7-aa8829da9d25",
+        "count": 1,
+        "title": "Livin' Proof a.k.a The Last Cowboy Presents: Funkee C a.k.a. FC a.k.a. Thee Funky Cowboys",
+        "first-release-date": "2018",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Funky Cowboys",
+            "artist": {
+              "id": "4457d9cd-af11-4c3e-9053-c09f73717946",
+              "name": "Funky Cowboys",
+              "sort-name": "Funky Cowboys",
+              "disambiguation": "Jay Dee & Proof",
+              "aliases": [
+                {
+                  "sort-name": "FC",
+                  "name": "FC",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3fba242d-b20f-472e-ab32-40f8c4a218e5",
+            "title": "Livin' Proof a.k.a The Last Cowboy Presents: Funkee C a.k.a. FC a.k.a. Thee Funky Cowboys"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "31c14afe-619d-4145-ae2f-6f9ceee7f1d5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e408876d-a54a-3089-8f2c-438b179bcdc4",
+        "count": 1,
+        "title": "Devil‘s Most Wanted 1994 EP",
+        "first-release-date": "2016-11-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Da Last Future",
+            "artist": {
+              "id": "b07b6482-3e52-43d0-ba43-5a376ed2e251",
+              "name": "Da Last Future",
+              "sort-name": "Da Last Future"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "334a7e6d-ca6d-4943-8494-9c825a3bc891",
+            "title": "Devil‘s Most Wanted 1994 EP"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "530dfeb0-6ff3-4bbc-a03e-7e3ffd13e9e4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d6ebcf6b-27cc-378a-9c97-63a2f858b39f",
+        "count": 1,
+        "title": "Decade da Madd Imperial",
+        "first-release-date": "2013-10-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Decade da Madd Imperial",
+            "artist": {
+              "id": "549f0442-9967-4819-89b7-5fe29fc60522",
+              "name": "Decade da Madd Imperial",
+              "sort-name": "Decade da Madd Imperial"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "aa3e26f5-4ec5-43f1-a129-f35b51ea37b1",
+            "title": "Decade da Madd Imperial"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "10fecf83-7d8c-4719-982d-371643e1dcb5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a5a6eb47-7a06-3108-94c5-9cec29083f46",
+        "count": 2,
+        "title": "Against All Authorities",
+        "first-release-date": "2015-05-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Onyx",
+            "artist": {
+              "id": "fc0fa262-6197-4c29-8e22-22f0e369856a",
+              "name": "Onyx",
+              "sort-name": "Onyx",
+              "disambiguation": "New York hardcore rap group",
+              "aliases": [
+                {
+                  "sort-name": "Onyx",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Onyx",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "01bc2fc9-5ce1-4136-91db-5bd2eaccd603",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Against All Authorities",
+            "status": "Official"
+          },
+          {
+            "id": "1772fd07-27a4-4861-9bf7-86cbd69e641a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Against All Authorities",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "429290fb-45cb-4de7-b62a-85dd6b308d99",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "aae896b5-df05-3e5d-8ec0-b1b55e42fc7b",
+        "count": 2,
+        "title": "Wap Konn Jòj!",
+        "first-release-date": "2019-06-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Mach‐Hommy",
+            "artist": {
+              "id": "b5aa7895-c9c1-4350-9f2b-b55ff085609c",
+              "name": "Mach‐Hommy",
+              "sort-name": "Mach‐Hommy",
+              "disambiguation": "Dumpmeister"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "87fc4c29-99e4-4c28-83c9-bd9832c668b7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Wap Konn Jòj!",
+            "status": "Official"
+          },
+          {
+            "id": "3568d0ee-0766-4642-827f-baf9a81de7e6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Wap Konn Jòj!",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4686b290-9a06-4153-b5ad-43f84e430a50",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5ada6c2f-2f7d-3a5d-a307-7f05fcf3b134",
+        "count": 2,
+        "title": "Fliesentisch Romantik",
+        "first-release-date": "2018-04-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Finch Asozial",
+            "artist": {
+              "id": "92653164-7cbd-468f-afa3-b0baa3e05986",
+              "name": "FiNCH",
+              "sort-name": "FiNCH",
+              "disambiguation": "German rapper",
+              "aliases": [
+                {
+                  "sort-name": "FiNCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "FiNCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2021",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Wehowsky, Nils",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Nils Wehowsky",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Finch Asozial",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Finch Asozial",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": "2021"
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6ce26a1b-7186-46df-a631-ee5fa9d34ff4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fliesentisch Romantik",
+            "status": "Official"
+          },
+          {
+            "id": "1a9127bf-3aa4-4eb5-9aac-ecbcc93129ce",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fliesentisch Romantik",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "62373e98-9d03-4d18-8baf-50b39cf7a2ab",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b19e7c0f-7dd6-3ae2-b3e9-84932cf2d8b8",
+        "count": 1,
+        "title": "The Lost Kron-I-Kulz EP",
+        "first-release-date": "2011",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Beyond Da Order",
+            "artist": {
+              "id": "f13b41d2-cff3-42c5-bafd-fee995aa36c6",
+              "name": "Beyond Da Order",
+              "sort-name": "Beyond Da Order"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1ffa0ddd-8bb4-4053-b62c-7dc39cda9c72",
+            "title": "The Lost Kron-I-Kulz EP"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "2cdcd4af-94b5-4a2b-a326-5d11e68b0678",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "24505896-585f-3539-8972-d3ad2a16c150",
+        "count": 1,
+        "title": "Incredible",
+        "first-release-date": "2014-05-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Trina",
+            "artist": {
+              "id": "8a07d810-3d55-4426-a1f6-55f0a68f1dc6",
+              "name": "Trina",
+              "sort-name": "Trina",
+              "disambiguation": "US rapper Katrina Laverne Taylor",
+              "aliases": [
+                {
+                  "sort-name": "Taylor, Katrina Laverne",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Katrina Laverne Taylor",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4e0d9425-67db-479f-911e-95469a510761",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Incredible",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "eb51a5ef-090b-4677-a427-1ae701aba41c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "cfcb0d28-a997-31c8-9734-4674fef5abcf",
+        "count": 1,
+        "title": "Black Sunday Remixes",
+        "first-release-date": "2018-04-21",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Cypress Hill",
+            "artist": {
+              "id": "51508c1f-8d07-4a00-9cf1-26c570fe7b78",
+              "name": "Cypress Hill",
+              "sort-name": "Cypress Hill",
+              "aliases": [
+                {
+                  "sort-name": "Cyprerss Hill",
+                  "name": "Cyprerss Hill",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ce778ecb-1066-4885-ad67-888c80cd3db9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Black Sunday Remixes",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "49399908-ecc5-4ba5-a91d-7cae6cc880f2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d35388b7-e149-34b7-9974-b5de68971f33",
+        "count": 1,
+        "title": "Die Welt Ist Hart & Gemein",
+        "first-release-date": "2011-12-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kay Kani",
+            "artist": {
+              "id": "d6ee8b9b-3213-4531-aeca-221184f7ee67",
+              "name": "Kay Kani",
+              "sort-name": "Kay Kani"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "18db1677-f2cd-44df-a434-f2a56a65b8da",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Die Welt Ist Hart & Gemein",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e4193798-61e5-48b1-b09b-bdbb0134d180",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "3ebfe162-6ad8-3cd7-a6bd-eca3b1938889",
+        "count": 1,
+        "title": "Go Fast Boats",
+        "first-release-date": "2014-09-18",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Grand Invincible",
+            "artist": {
+              "id": "cba8a3e1-d6bf-4fad-8503-9cec3ebf0f36",
+              "name": "Grand Invincible",
+              "sort-name": "Grand Invincible"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "21bc0b7b-a0d0-4d1e-853a-3e9543195a12",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Go Fast Boats",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5a88a5c5-be21-44b0-96d2-12c93087330d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "cd4459a6-25d1-3814-ab85-eef0eabb1d23",
+        "count": 1,
+        "title": "Da Odd Couple",
+        "first-release-date": "2019-11-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Da Odd Couple",
+            "artist": {
+              "id": "3de104d8-4076-4386-b2a8-b38dd9fc027e",
+              "name": "Da Odd Couple",
+              "sort-name": "Odd Couple, Da",
+              "disambiguation": "US hip-hop DJ duo Mista Sinista & Rob Swift"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "aee44b6e-c358-40ef-b713-f4226d7f8472",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Da Odd Couple",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "129d69df-4474-4591-92dd-4ac9a908ae52",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "47c11d51-8356-3322-9293-7b3fa95b1361",
+        "count": 2,
+        "title": "Serving Your Area",
+        "first-release-date": "2013-02-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Randolf Liftoff",
+            "artist": {
+              "id": "a720436c-dfb4-4580-a2ad-a77fbb5784e7",
+              "name": "Randolf Liftoff",
+              "sort-name": "Randolf Liftoff",
+              "disambiguation": "LA rapper, Kool Keith affiliate"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7db61e6b-9815-4d39-95c2-bfe7bd6f203c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Serving Your Area",
+            "status": "Official"
+          },
+          {
+            "id": "db44b3c2-45a4-4410-ba15-995b41f748ec",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Serving Your Area",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "17d2e56f-ec9e-4f38-8864-37fd88d57820",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ce6a014f-a695-323f-9e34-94742d4f66d2",
+        "count": 2,
+        "title": "Good Morning Vietnam",
+        "first-release-date": "2012-12-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "MF Grimm",
+            "artist": {
+              "id": "6a724596-7724-465a-ab0f-1c245762ba49",
+              "name": "MF Grimm",
+              "sort-name": "MF Grimm",
+              "aliases": [
+                {
+                  "sort-name": "GM Grimm",
+                  "name": "GM Grimm",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "MF Grimm",
+                  "name": "MF Grimm",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Drasar Monumental",
+            "artist": {
+              "id": "36311fb9-4d6c-4aaf-813a-19cc96d964ec",
+              "name": "Drasar Monumental",
+              "sort-name": "Drasar Monumental"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4fbc2c38-2e0b-4241-859d-d4906ac71c66",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Good Morning Vietnam",
+            "status": "Official"
+          },
+          {
+            "id": "786290a5-c769-4ab2-a3ae-bcce4b378d0b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Good Morning Vietnam",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1eff3fa6-f565-4451-ba2f-02236728ef12",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f810c262-198b-4007-8cc5-fdfe25777857",
+        "count": 1,
+        "title": "Mobshyt Day 2 Ep",
+        "first-release-date": "2017-10-23",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Dio Drama",
+            "artist": {
+              "id": "6dbba6a6-d8a5-4a92-a874-6ffa084d2cb0",
+              "name": "Dio Drama",
+              "sort-name": "Dio Drama",
+              "disambiguation": "German Rapper",
+              "aliases": [
+                {
+                  "sort-name": "Cherubyn",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Cherubyn",
+                  "locale": "de_DE",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Kraliban",
+            "artist": {
+              "id": "a65b4330-2b69-45ca-aeab-f4fbe0b11a2f",
+              "name": "Kraliban",
+              "sort-name": "Kraliban",
+              "disambiguation": "German Rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "323b8fa4-1f39-49ec-bf53-d663243430c8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mobshyt Day 2 Ep",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "68af1635-09f6-467d-8462-e7671c827e1b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7465b575-efe5-361c-8baa-960ee2c61de1",
+        "count": 3,
+        "title": "Pulp Phixion",
+        "first-release-date": "2019-07-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Ill Bill",
+            "artist": {
+              "id": "c7e90641-f441-4801-8e4a-d09e10f452b8",
+              "name": "Ill Bill",
+              "sort-name": "Ill Bill",
+              "aliases": [
+                {
+                  "sort-name": "Braunstein, William",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "William Braunstein",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ill Bil",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Ill Bil",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Sunday",
+            "artist": {
+              "id": "8f12a9c8-c828-4177-a349-a49bf608c5ed",
+              "name": "Sunday",
+              "sort-name": "Sunday",
+              "disambiguation": "Italian hip‐hop beatmaker Leonardo Como",
+              "aliases": [
+                {
+                  "sort-name": "Como, Leonardo",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Leonardo Como",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ed1e3d85-331d-45aa-bd70-f181c3a34bf4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pulp Phixion",
+            "status": "Official"
+          },
+          {
+            "id": "00f6b47b-49b2-4759-a205-abd78a4dab6a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pulp Phixion",
+            "status": "Official"
+          },
+          {
+            "id": "eab8ae42-6223-48cc-ac71-593eff7a654c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pulp Phixion",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "02c842e6-0c32-40c5-a6d0-8cac324a8d99",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "35b62cf3-41cb-3605-90e7-9195c775c17a",
+        "count": 2,
+        "title": "Afterwords",
+        "first-release-date": "2015-06-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Edo. G",
+            "artist": {
+              "id": "62b29e5c-d717-4586-87bc-ade74a6a9fe8",
+              "name": "Edo.G",
+              "sort-name": "Edo.G",
+              "disambiguation": "a.k.a. Ed O.G.",
+              "aliases": [
+                {
+                  "sort-name": "Edo-G",
+                  "name": "Edo-G",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Edo.g",
+                  "name": "Edo.g",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Edo G.",
+                  "name": "Edo G.",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Edo G",
+                  "name": "Edo G",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ed O.G.",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Ed O.G.",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e9a3e214-8f85-49c4-bef5-8253b7685164",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Afterwords",
+            "status": "Official"
+          },
+          {
+            "id": "72474131-8612-4082-bd64-ae81595d06bf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Afterwords",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "bc4a49eb-e866-4453-acbe-60ae7a831500",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "1a8a84e9-da9b-3f98-a130-3ecfccd44fe4",
+        "count": 1,
+        "title": "The Dream Shatterer EP",
+        "first-release-date": "2018-11-09",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Big Pun",
+            "artist": {
+              "id": "609e7afd-3552-4102-9501-7611858ea320",
+              "name": "Big Pun",
+              "sort-name": "Big Pun",
+              "disambiguation": "rapper Christopher Rios aka Big Punisher",
+              "aliases": [
+                {
+                  "sort-name": "ビッグ・パニッシャー",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "ビッグ・パニッシャー",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "ビッグ・パン",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "ビッグ・パン",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rios, Christopher Lee",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Christopher Lee Rios",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Big Moon Dawg",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Big Moon Dawg",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Big Punisher",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Big Punisher",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Big Pun",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Big Pun",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Punisher, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The Punisher",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Big Punisha",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Big Punisha",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Christopher Rios",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Christopher Rios",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "C. Rios",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "C. Rios",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f8ce0754-fc4f-4107-8903-0551aa2dd38e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dream Shatterer EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3cb7cd31-7de7-49d1-97d6-3217f797e373",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e561a39a-df21-30c9-9c4d-ec8b4e6e7aba",
+        "count": 2,
+        "title": "1000 Bars",
+        "first-release-date": "2014-06-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Eko Fresh",
+            "artist": {
+              "id": "3db42aef-5961-4c75-8f0f-432c9db2a894",
+              "name": "Eko Fresh",
+              "sort-name": "Eko Fresh",
+              "disambiguation": "German Rapper",
+              "aliases": [
+                {
+                  "sort-name": "Eko",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Eko",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "19f5a336-bbfd-48de-8dd3-a671d5e4472e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "1000 Bars",
+            "status": "Official"
+          },
+          {
+            "id": "d87e91fa-69fa-4f5e-8b9b-ce703e71952b",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "1000 Bars",
+            "status": "Promotion"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e55d1352-93ed-46ee-9208-c9e9ef1d7476",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ccf6a48a-e8be-3cef-83e9-3ad6bb2d763e",
+        "count": 1,
+        "title": "Wat vooraf ging",
+        "first-release-date": "2012-04-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Berry",
+            "artist": {
+              "id": "e769f314-9012-4512-967a-a37ee1c95bda",
+              "name": "Berry",
+              "sort-name": "Berry",
+              "disambiguation": "Belgian rapper, real name Bart Pierre",
+              "aliases": [
+                {
+                  "sort-name": "Berry, Fred",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Fred Berry",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Pierre, Bart",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Bart Pierre",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Le Borgne, Bart",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Bart Le Borgne",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Berry Bart Le Borgne",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Berry Bart Le Borgne",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "31773162-8592-4fbd-bad4-c64da53d5be0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Wat vooraf ging",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "80439f87-93b5-4732-98bc-00917533b04b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5f321a1a-2fcd-3bad-be6f-456ebfd1156f",
+        "count": 1,
+        "title": "A.F.A. EP",
+        "first-release-date": "2016-06-29",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "E-Green",
+            "artist": {
+              "id": "f26d74d9-877e-4629-bf3a-4cbbf71e5309",
+              "name": "E‐Green",
+              "sort-name": "E‐Green",
+              "disambiguation": "Italian MC",
+              "aliases": [
+                {
+                  "sort-name": "Egreen",
+                  "name": "Egreen",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "15a214cd-5f4e-4298-8d4c-0d74351ec3ff",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A.F.A. EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b75e50b0-e493-45a9-a12d-85229d45401e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5f321a1a-2fcd-3bad-be6f-456ebfd1156f",
+        "count": 1,
+        "title": "I Spit Vol. 1.3",
+        "first-release-date": "2015-10-12",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "E-Green",
+            "artist": {
+              "id": "f26d74d9-877e-4629-bf3a-4cbbf71e5309",
+              "name": "E‐Green",
+              "sort-name": "E‐Green",
+              "disambiguation": "Italian MC",
+              "aliases": [
+                {
+                  "sort-name": "Egreen",
+                  "name": "Egreen",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c8bfe0da-ce65-46b5-8050-ff46e93ef2a3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I Spit Vol. 1.3",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "65a550b7-9b7f-40c6-8f46-d072c7b32051",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a764f9ee-f193-4a79-8600-dce6e26eafde",
+        "count": 1,
+        "title": "Du glaubst",
+        "first-release-date": "2018",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": ", ",
+            "name": "John Borno",
+            "artist": {
+              "id": "24a82ae0-b297-49c4-98a1-df63d35166f6",
+              "name": "John Borno",
+              "sort-name": "John Borno"
+            }
+          },
+          {
+            "name": "Sportler99",
+            "artist": {
+              "id": "695563f5-644b-4446-bfab-06b74d17aae5",
+              "name": "Sportler99",
+              "sort-name": "Sportler99"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2c8bc09c-6eed-4de0-b526-8e51451b3a85",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Du glaubst",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "10b750bd-055e-43b9-9b45-5e1bc970b58b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ec423938-c584-3304-8c09-1c23b5eb2389",
+        "count": 1,
+        "title": "Th7n",
+        "first-release-date": "2011-06-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Cr7z",
+            "artist": {
+              "id": "5b489c65-20c7-4a40-b769-a2c0ff6212ce",
+              "name": "Cr7z",
+              "sort-name": "Cr7z",
+              "disambiguation": "German rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9aea9114-c40e-43bd-b6f6-e3e1dcb00e19",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Th7n",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c67023a5-a692-44bb-b47b-2c9ab8c83f0e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ec423938-c584-3304-8c09-1c23b5eb2389",
+        "count": 1,
+        "title": "An7ma Exclusiv Tracks",
+        "first-release-date": "2013-08-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Cr7z",
+            "artist": {
+              "id": "5b489c65-20c7-4a40-b769-a2c0ff6212ce",
+              "name": "Cr7z",
+              "sort-name": "Cr7z",
+              "disambiguation": "German rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1a53cc5c-53f8-4c7f-98ef-52be26f88495",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "An7ma Exclusiv Tracks",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "fa998b27-0b40-4de0-850b-7ad9fa165cf1",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "125d63b6-0284-3bb0-aba4-6c574fd92ded",
+        "count": 1,
+        "title": "BackStageBoys",
+        "first-release-date": "2018-04-02",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "High5",
+            "artist": {
+              "id": "4124ad3d-13c3-4290-ac02-bc7ddf154110",
+              "name": "High5",
+              "sort-name": "High5",
+              "disambiguation": "hip-hop group from Zagreb"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a3e2bec2-c83e-4f3d-9f44-88e3670376a6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BackStageBoys",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "b976551b-2246-44bf-af3c-8d22e74b280a",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "74720a07-953d-31a0-a830-e55775a4cbe5",
+        "count": 1,
+        "title": "Abaddon",
+        "first-release-date": "2014-05-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Boondox",
+            "artist": {
+              "id": "af758065-58ac-4230-ac97-b7cb3358f9ba",
+              "name": "Boondox",
+              "sort-name": "Boondox"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "492b20d6-e406-44b3-9a79-424c6804d7a4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Abaddon",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "fc6f13f7-0f9e-4678-ab65-7869d2ce674f",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "288d3bac-40b3-39e6-96b2-692dbe4db1ab",
+        "count": 2,
+        "title": "The Darkness",
+        "first-release-date": "2015-01-27",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Twiztid",
+            "artist": {
+              "id": "cbf882cd-5fb3-4324-b212-32ed0b985ba8",
+              "name": "Twiztid",
+              "sort-name": "Twiztid"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7a7d87c0-d4a3-49ac-b6f7-da144a767c63",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Darkness",
+            "status": "Official"
+          },
+          {
+            "id": "a9435494-d15f-45f9-b3b6-c8a97b75ed5c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Darkness",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "894c9678-4615-4ba0-9d5b-b6b47e163154",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1b1ec256-c0f1-3a5d-83c8-05a3e9829ea5",
+        "count": 1,
+        "title": "Coathanga Strangla",
+        "first-release-date": "2011-04-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Brotha Lynch Hung",
+            "artist": {
+              "id": "f1fa0780-a922-4f0f-b43e-30331b520238",
+              "name": "Brotha Lynch Hung",
+              "sort-name": "Brotha Lynch Hung",
+              "aliases": [
+                {
+                  "sort-name": "Mann, Kevin",
+                  "name": "Kevin Mann",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "297830e6-8760-4911-bba3-5423ca05d721",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Coathanga Strangla",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "93f41fde-e56c-43fe-9570-3ad7462a43f1",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "69a7656f-55a7-31a9-9de5-bb800c607cff",
+        "count": 2,
+        "title": "F.D.T",
+        "first-release-date": "2016-09-11",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Freeze Corleone",
+            "artist": {
+              "id": "c715bbba-fe0f-4cb1-be89-40aa8d2117f9",
+              "name": "Freeze Corleone",
+              "sort-name": "Freeze Corleone",
+              "disambiguation": "French rapper, 667/LDO",
+              "aliases": [
+                {
+                  "sort-name": "M.O.I",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "M.O.I",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Chen Zen",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Chen Zen",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diakhaté, Issa Lorenzo",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Issa Lorenzo Diakhaté",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d75b6da9-9029-4e33-83e6-44c88adf4b40",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "F.D.T",
+            "status": "Official"
+          },
+          {
+            "id": "da620959-d24d-4145-a280-c96f5f2077a4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "F.D.T",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "944dea40-9bb4-4454-8291-ed627cf77532",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "71719c68-fade-38ca-a60b-b168d025336a",
+        "count": 2,
+        "title": "Nasty",
+        "first-release-date": "2018-06-15",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Rico Nasty",
+            "artist": {
+              "id": "f7d8f1ce-6a72-422a-b746-22137b3a05d0",
+              "name": "Rico Nasty",
+              "sort-name": "Rico Nasty",
+              "aliases": [
+                {
+                  "sort-name": "Kelly, Maria-Cecilia Simone",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Maria-Cecilia Simone Kelly",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2eb62f06-d124-42fc-9839-72048057c9dd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nasty",
+            "status": "Official"
+          },
+          {
+            "id": "a97d5524-b76f-4a43-a0f5-8caf6a47a098",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nasty",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 2,
+            "name": "trap"
+          }
+        ]
+      }
+    ]
+  }
+}

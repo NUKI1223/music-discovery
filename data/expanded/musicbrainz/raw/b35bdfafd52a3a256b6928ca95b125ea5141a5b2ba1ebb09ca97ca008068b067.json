@@ -1,0 +1,260 @@
+{
+  "endpoint": "release-group/5e0f1f4d-68c1-46c8-b551-eff5736f1af9",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5e0f1f4d-68c1-46c8-b551-eff5736f1af9?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:32:26.036855+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "id": "164f0d73-1234-4e2c-8743-d77bf2191051",
+          "country": "US",
+          "type": "Person",
+          "disambiguation": "formerly Kanye West",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "chipmunk soul",
+              "count": 1,
+              "disambiguation": "",
+              "id": "cec1580a-ef3c-4928-b302-58015335c7b0"
+            },
+            {
+              "name": "christian hip hop",
+              "id": "0db33693-8ae5-4749-af7a-20895395dc82",
+              "disambiguation": "",
+              "count": 3
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "contemporary r&b",
+              "id": "4bb4043a-0ee5-4b84-93fa-6ba4567a6ba0",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "id": "7fa479e7-3d35-40d1-96f7-b619a5ca9d9f",
+              "disambiguation": "",
+              "count": 1,
+              "name": "deep house"
+            },
+            {
+              "name": "electropop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "3f3388b4-e36a-4bf8-a0be-66b10d92aaa4"
+            },
+            {
+              "count": 6,
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "name": "experimental hip hop"
+            },
+            {
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71",
+              "disambiguation": "",
+              "count": 1,
+              "name": "future bass"
+            },
+            {
+              "disambiguation": "",
+              "count": 31,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+              "count": 2,
+              "disambiguation": "",
+              "name": "house"
+            },
+            {
+              "name": "pop",
+              "count": 5,
+              "disambiguation": "",
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791"
+            },
+            {
+              "name": "pop rap",
+              "count": 14,
+              "disambiguation": "",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237"
+            },
+            {
+              "name": "r&b",
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            }
+          ],
+          "name": "Ye",
+          "sort-name": "Ye",
+          "tags": [
+            {
+              "name": "african american musicians",
+              "count": 1
+            },
+            {
+              "name": "businesspeople",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "chipmunk soul"
+            },
+            {
+              "name": "christian hip hop",
+              "count": 3
+            },
+            {
+              "name": "composers",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "contemporary r&b",
+              "count": 1
+            },
+            {
+              "name": "contemporary rap",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "deep house"
+            },
+            {
+              "name": "electropop",
+              "count": 1
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 6
+            },
+            {
+              "count": 1,
+              "name": "fashion designers"
+            },
+            {
+              "count": 1,
+              "name": "future bass"
+            },
+            {
+              "count": 1,
+              "name": "gospel music"
+            },
+            {
+              "count": 31,
+              "name": "hip hop"
+            },
+            {
+              "name": "house",
+              "count": 2
+            },
+            {
+              "name": "midwest rap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "modeschöpfer"
+            },
+            {
+              "count": 1,
+              "name": "musikproduzent"
+            },
+            {
+              "count": 5,
+              "name": "pop"
+            },
+            {
+              "name": "pop rap",
+              "count": 14
+            },
+            {
+              "name": "producer",
+              "count": 3
+            },
+            {
+              "count": 1,
+              "name": "progressive rap"
+            },
+            {
+              "count": 1,
+              "name": "r&b"
+            },
+            {
+              "count": 1,
+              "name": "rap musicians"
+            },
+            {
+              "name": "rapmusiker",
+              "count": 1
+            },
+            {
+              "name": "regisseur",
+              "count": 1
+            },
+            {
+              "name": "singers",
+              "count": 1
+            },
+            {
+              "name": "singstimme",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "songwriter"
+            },
+            {
+              "count": 1,
+              "name": "sound recording executives and producers"
+            },
+            {
+              "count": 2,
+              "name": "trap"
+            }
+          ]
+        },
+        "name": "Kanye West"
+      }
+    ],
+    "tags": [],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "genres": [],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "primary-type": "Album",
+    "id": "5e0f1f4d-68c1-46c8-b551-eff5736f1af9",
+    "title": "The Graduate",
+    "first-release-date": "2007-07-14",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": ""
+  }
+}

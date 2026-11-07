@@ -1,0 +1,368 @@
+{
+  "endpoint": "release-group/6a1c9684-18c6-4b43-bd15-6badbbdc0600",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6a1c9684-18c6-4b43-bd15-6badbbdc0600?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:00.738376+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "digital hardcore",
+        "count": 1
+      },
+      {
+        "name": "electro-industrial",
+        "count": 1
+      },
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "experimental rock"
+      },
+      {
+        "name": "footwork",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "glitch hop"
+      },
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "idm",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "count": 1,
+        "name": "industrial rock"
+      },
+      {
+        "count": 1,
+        "name": "noise rock"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "name": "alternative hip hop",
+              "count": 1
+            },
+            {
+              "count": 3,
+              "name": "digital hardcore"
+            },
+            {
+              "count": 6,
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "name": "electropunk"
+            },
+            {
+              "name": "experimental",
+              "count": 12
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 13
+            },
+            {
+              "count": 1,
+              "name": "glitch"
+            },
+            {
+              "count": 3,
+              "name": "glitch hop"
+            },
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 10,
+              "name": "hip hop"
+            },
+            {
+              "name": "industrial",
+              "count": 11
+            },
+            {
+              "name": "industrial hip hop",
+              "count": 3
+            },
+            {
+              "name": "left-field rap",
+              "count": 1
+            },
+            {
+              "name": "nasty prostitute",
+              "count": 1
+            },
+            {
+              "name": "noise",
+              "count": 2
+            },
+            {
+              "name": "post-industrial music",
+              "count": 1
+            },
+            {
+              "name": "punk",
+              "count": 1
+            },
+            {
+              "name": "punk rap",
+              "count": 3
+            },
+            {
+              "name": "rap rock",
+              "count": 1
+            },
+            {
+              "name": "west coast hip hop",
+              "count": 1
+            }
+          ],
+          "sort-name": "Death Grips",
+          "name": "Death Grips",
+          "type": "Group",
+          "disambiguation": "",
+          "country": "US",
+          "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "name": "alternative hip hop"
+            },
+            {
+              "count": 3,
+              "disambiguation": "",
+              "id": "6d12e828-40a5-4ebc-a5b0-aa5506e2efd0",
+              "name": "digital hardcore"
+            },
+            {
+              "name": "electronic",
+              "disambiguation": "",
+              "count": 6,
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+            },
+            {
+              "name": "electropunk",
+              "id": "c187da0e-48a0-4de5-b759-4ca2a1503008",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "experimental",
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+              "count": 12,
+              "disambiguation": ""
+            },
+            {
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "disambiguation": "",
+              "count": 13
+            },
+            {
+              "id": "18b010d7-7d85-4445-a4a8-1889a4688308",
+              "disambiguation": "",
+              "count": 1,
+              "name": "glitch"
+            },
+            {
+              "disambiguation": "",
+              "count": 3,
+              "id": "aa3215ae-28e6-4993-908e-ed3807e1ce54",
+              "name": "glitch hop"
+            },
+            {
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 1,
+              "disambiguation": "",
+              "name": "hardcore hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 10,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "name": "industrial",
+              "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+              "disambiguation": "",
+              "count": 11
+            },
+            {
+              "name": "industrial hip hop",
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+              "count": 3,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+              "name": "noise"
+            },
+            {
+              "name": "punk",
+              "disambiguation": "",
+              "count": 1,
+              "id": "8cc9b280-230b-4a3a-b1e2-8acab0744dd3"
+            },
+            {
+              "id": "3385bb64-94ae-42bd-b43b-b8785835cfe7",
+              "disambiguation": "",
+              "count": 3,
+              "name": "punk rap"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "b4b184b7-6224-478e-a273-f9da9ee30136",
+              "name": "rap rock"
+            },
+            {
+              "name": "west coast hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "149a3524-0fd3-4bdc-9876-0361dfee8908"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+        },
+        "name": "Death Grips"
+      }
+    ],
+    "secondary-types": [],
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "digital hardcore",
+        "count": 1,
+        "disambiguation": "",
+        "id": "6d12e828-40a5-4ebc-a5b0-aa5506e2efd0"
+      },
+      {
+        "name": "electro-industrial",
+        "id": "6e2e809f-8c54-4e0f-aca0-0642771ab3cf",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "experimental",
+        "count": 1,
+        "disambiguation": "",
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+      },
+      {
+        "name": "experimental hip hop",
+        "disambiguation": "",
+        "count": 2,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      },
+      {
+        "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7",
+        "count": 1,
+        "disambiguation": "",
+        "name": "experimental rock"
+      },
+      {
+        "name": "footwork",
+        "disambiguation": "",
+        "count": 1,
+        "id": "405b97cf-e1d9-48aa-97cd-53212730589c"
+      },
+      {
+        "name": "glitch hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "aa3215ae-28e6-4993-908e-ed3807e1ce54"
+      },
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "8eb583f1-4fd7-460c-8246-dcdccc0e3ef9",
+        "disambiguation": "",
+        "count": 1,
+        "name": "idm"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+      },
+      {
+        "id": "ffbc9907-c9be-4ace-876b-b7fd5b9d51f9",
+        "count": 1,
+        "disambiguation": "",
+        "name": "industrial rock"
+      },
+      {
+        "id": "8e5474b7-f445-49a7-866d-0f8e34b0a519",
+        "disambiguation": "",
+        "count": 1,
+        "name": "noise rock"
+      }
+    ],
+    "secondary-type-ids": [],
+    "title": "The Powers That B",
+    "primary-type": "Album",
+    "id": "6a1c9684-18c6-4b43-bd15-6badbbdc0600",
+    "rating": {
+      "value": 4.15,
+      "votes-count": 8
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2015-02-10",
+    "disambiguation": ""
+  }
+}

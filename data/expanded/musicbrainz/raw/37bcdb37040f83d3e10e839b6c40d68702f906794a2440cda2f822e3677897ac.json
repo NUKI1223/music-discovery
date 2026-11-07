@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/379f499a-2012-47e4-aa55-c6a7f5eec8d5",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/379f499a-2012-47e4-aa55-c6a7f5eec8d5?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:27.358337+00:00",
+  "response": {
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "HEATH & The Horny Posse",
+        "artist": {
+          "name": "HEATH",
+          "country": null,
+          "tags": [],
+          "disambiguation": "Finnish rap artist",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "HEATH",
+          "type": "Person",
+          "genres": [],
+          "id": "da30d0b9-1308-4646-a642-2db63ff77101"
+        }
+      }
+    ],
+    "title": "Groin",
+    "genres": [
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2005",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "379f499a-2012-47e4-aa55-c6a7f5eec8d5",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

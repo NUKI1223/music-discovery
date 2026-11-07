@@ -1,0 +1,91 @@
+{
+  "endpoint": "release-group/b39b4b7c-4993-4d75-a113-1023baca4d59",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b39b4b7c-4993-4d75-a113-1023baca4d59?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:55.068390+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "b39b4b7c-4993-4d75-a113-1023baca4d59",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "Tsubaki",
+          "type": "Person",
+          "genres": [],
+          "id": "20648573-f059-4eca-a35f-403b0f24cdb2",
+          "name": "唾奇",
+          "country": "JP",
+          "tags": [],
+          "disambiguation": "Japanese rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "name": "唾奇",
+        "joinphrase": "×"
+      },
+      {
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "jazz rap"
+            }
+          ],
+          "type-id": null,
+          "disambiguation": "Japanese hip hop producer",
+          "name": "Sweet William",
+          "country": null,
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "name": "jazz rap"
+            }
+          ],
+          "id": "7587f84a-9b6a-4f65-9d6b-cf77959f8a9a",
+          "sort-name": "Sweet William",
+          "type": null
+        },
+        "name": "Sweet William",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "title": "Jasmine",
+    "genres": [
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "first-release-date": "2017-04-19",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

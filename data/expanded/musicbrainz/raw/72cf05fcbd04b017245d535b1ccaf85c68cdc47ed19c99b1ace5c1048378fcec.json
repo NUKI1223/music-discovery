@@ -1,0 +1,150 @@
+{
+  "endpoint": "release-group/dfa9d466-866c-43d2-af17-22e0b6349889",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/dfa9d466-866c-43d2-af17-22e0b6349889?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:20.874153+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2020-05-28",
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      },
+      {
+        "name": "hardcore hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "id": "dfa9d466-866c-43d2-af17-22e0b6349889",
+    "title": "Hindsight",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "MC Zappa",
+        "artist": {
+          "type": "Person",
+          "disambiguation": "American hip hop",
+          "country": "US",
+          "id": "0b1c4ca0-0ac8-481a-982d-646cec9eb5f6",
+          "genres": [
+            {
+              "name": "boom bap",
+              "count": 1,
+              "disambiguation": "",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+            },
+            {
+              "name": "chiptune",
+              "id": "103a65bb-35d9-4d27-9c9b-f35a458621ba",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop"
+            },
+            {
+              "name": "east coast hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "nerdcore",
+              "id": "9c8ba153-740e-4b88-b7ff-31d004944c95",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "underground hip hop",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "bit-hop"
+            },
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "name": "chiptune",
+              "count": 1
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "east coast hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "nerdcore",
+              "count": 1
+            },
+            {
+              "name": "underground hip hop",
+              "count": 1
+            }
+          ],
+          "sort-name": "Zappa, MC",
+          "name": "MC Zappa"
+        },
+        "joinphrase": ""
+      }
+    ]
+  }
+}

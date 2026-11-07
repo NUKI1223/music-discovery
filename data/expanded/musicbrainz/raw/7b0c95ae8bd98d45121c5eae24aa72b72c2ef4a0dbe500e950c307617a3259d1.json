@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/3c062ee3-7a3c-4089-81f9-808a1dd3912b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3c062ee3-7a3c-4089-81f9-808a1dd3912b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:23.538432+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Fragments",
+    "genres": [
+      {
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "count": 1,
+        "name": "instrumental",
+        "disambiguation": ""
+      },
+      {
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1,
+        "disambiguation": "",
+        "name": "instrumental hip hop"
+      }
+    ],
+    "tags": [
+      {
+        "name": "instrumental",
+        "count": 1
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "id": "3c062ee3-7a3c-4089-81f9-808a1dd3912b",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "first-release-date": "2013-10-29",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "Gabriel Jourde",
+          "name": "Kid Atlaas",
+          "type": "Person",
+          "genres": [],
+          "sort-name": "Kid Atlaas",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "5cd02aa9-b216-4fd6-9bad-751e08872069",
+          "country": "FR"
+        },
+        "joinphrase": "",
+        "name": "Kid Atlaas"
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

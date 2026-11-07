@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/ddfee023-0306-4842-b741-f3e3beeaba16",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ddfee023-0306-4842-b741-f3e3beeaba16?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:40.673301+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2012-10-12",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "DOT",
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "name": "DOT",
+          "sort-name": "DOT",
+          "type": "Person",
+          "disambiguation": "hip hop beats",
+          "country": "DE",
+          "id": "98be7131-a744-4e7e-9e49-2a780359ecfb",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "genres": [
+      {
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "title": "Blindbeats",
+    "primary-type": "Album",
+    "id": "ddfee023-0306-4842-b741-f3e3beeaba16"
+  }
+}

@@ -1,0 +1,2727 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"trap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22trap%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2020-01-01+TO+2026-10-28%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:49.615743+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:49.527Z",
+    "count": 1656,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "295782a6-503f-4d3d-89e1-2a4c31b47aac",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a03632e7-59f1-45f2-9e61-2c25cf1bb2b8",
+        "count": 1,
+        "title": "β (Bêta)",
+        "first-release-date": "2025-04-18",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jarys Qualto",
+            "artist": {
+              "id": "4a201e6e-b3b4-44ef-b2fe-274a81485cb6",
+              "name": "Jarys Qualto",
+              "sort-name": "Qualto, Jarys"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a1af4983-ee20-4430-ad89-ba16b04d192f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "β (Bêta)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "hard trap"
+          }
+        ]
+      },
+      {
+        "id": "011a70f6-921f-484d-80e2-a708d4d7d918",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6a3e12b6-911f-3191-bd55-82f0cc917fb0",
+        "count": 1,
+        "title": "Raps 2 Riches. Vol. 2",
+        "first-release-date": "2020-10-02",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jovi",
+            "artist": {
+              "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+              "name": "Jovi",
+              "sort-name": "Jovi",
+              "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+              "aliases": [
+                {
+                  "sort-name": "Le Monstre",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Le Monstre",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "01d511d6-8e37-4ad9-a3a6-fabe9358f4a0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Raps 2 Riches. Vol. 2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "7afd40dd-05f2-466e-aa71-438d934a7994",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6a3e12b6-911f-3191-bd55-82f0cc917fb0",
+        "count": 1,
+        "title": "Yajé, Vol. 2: Sun Yellow",
+        "first-release-date": "2020-10-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jovi",
+            "artist": {
+              "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+              "name": "Jovi",
+              "sort-name": "Jovi",
+              "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+              "aliases": [
+                {
+                  "sort-name": "Le Monstre",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Le Monstre",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "87d612bd-e1a5-4401-ae0e-a882e9d30504",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Yajé, Vol. 2: Sun Yellow",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "a35d89c1-4b0f-43ff-b550-d7564df816d3",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "aab36600-8e61-3813-957a-c35cd019df3d",
+        "count": 1,
+        "title": "Règle deux",
+        "first-release-date": "2021-02-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Marie‐Gold",
+            "artist": {
+              "id": "2567a998-bce4-48ef-a4eb-ce96036dccbb",
+              "name": "Marie‐Gold",
+              "sort-name": "Marie‐Gold",
+              "disambiguation": "canadian hip hop",
+              "aliases": [
+                {
+                  "sort-name": "Pilon Vaillancourt, Chloé",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Chloé Pilon Vaillancourt",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Pilon‐Vaillancourt, Chloé",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Chloé Pilon‐Vaillancourt",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Marie‐Gold",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Marie‐Gold",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "14c8f688-21ca-4deb-8058-bbff27637f8d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Règle deux",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "c569ad74-82ca-4388-9257-bc9ea8338fd6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b7f5f4f0-9738-3b0f-92ea-ab8d1a213790",
+        "count": 1,
+        "title": "End of An Era Split EP",
+        "first-release-date": "2020-04-20",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "John The TXT-2-SPEECH",
+            "artist": {
+              "id": "d33ce4f4-fa02-43a8-9f0b-cefcb22eaf8c",
+              "name": "John The TXT-2-SPEECH",
+              "sort-name": "John The TXT-2-SPEECH"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3e3b2ff8-6f65-40c9-9721-1e1897f4ff63",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "End of An Era Split EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "a3061de0-74df-4ee5-b377-4148ad9cf2dc",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f5aed7d2-b44b-4346-9262-63fb0442c072",
+        "count": 1,
+        "title": "de man zonder naam",
+        "first-release-date": "2023-02-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "OL De Jonge",
+            "artist": {
+              "id": "4fa839f2-fa30-4634-91a6-0e9ab2b40c07",
+              "name": "OL De Jonge",
+              "sort-name": "OL De Jonge",
+              "aliases": [
+                {
+                  "sort-name": "Jelle",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jelle",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Jelle-tje",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jelle-tje",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "De Jonge, Joeri",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Joeri De Jonge",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "647e2730-0bcc-4ef8-949d-1cbf0045b464",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "de man zonder naam",
+            "status": "Promotion"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "3eb23840-c3d5-46ee-8f2b-e265bcbcd01e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8e39b748-768d-483d-8193-f4c75edb6598",
+        "count": 1,
+        "title": "Parasite",
+        "first-release-date": "2022-05-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Rok",
+            "artist": {
+              "id": "0b80afd0-347c-4495-8675-10f0471c4d24",
+              "name": "Rok",
+              "sort-name": "Rok",
+              "disambiguation": "French rap"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1dc15fbb-5ad0-4f1a-9c85-09f72f8bf68e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Parasite",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "ea1e2797-e794-4882-846b-848f66d23133",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a0d0df90-3640-47d5-82f3-cc633bb2c189",
+        "count": 1,
+        "title": "Breaking Barriers, Vol.2",
+        "first-release-date": "2022-11-12",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "PLDG",
+            "artist": {
+              "id": "4bcd5886-da0d-4eff-9cc3-9ef9717ca4c2",
+              "name": "PLDG",
+              "sort-name": "PLDG",
+              "disambiguation": "French urban Bantu Groove"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e66e36fc-5261-44d2-92af-741ee313f25c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breaking Barriers, Vol.2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "48dcb9f9-7f79-49d9-847e-a98530b030c2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "4916f253-2964-4b82-8866-c1de561b2b48",
+        "count": 1,
+        "title": "blinch",
+        "first-release-date": "2023-10-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "lil ket",
+            "artist": {
+              "id": "3614b5a7-c9d2-4746-b19e-12dff6615e1f",
+              "name": "Lil Ket",
+              "sort-name": "Lil Ket"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2674bb1d-ab86-4ea3-b563-8f052cd540db",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "blinch",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "f92a10bc-515f-428b-856c-68e761a2374d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "29ca63f6-b61f-458e-8bf6-cc4623758c25",
+        "count": 1,
+        "title": "the lil ket tape",
+        "first-release-date": "2023-03-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Lil Ket",
+            "artist": {
+              "id": "3614b5a7-c9d2-4746-b19e-12dff6615e1f",
+              "name": "Lil Ket",
+              "sort-name": "Lil Ket"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "185baf47-b72f-4940-bd27-3c47649a987c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "the lil ket tape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "09ca1f75-4350-4fc8-8ac9-dcee78f3d7fa",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "699d00bd-f24b-4322-ae2f-226043898a98",
+        "count": 1,
+        "title": "Tehno Vrăjitoarele",
+        "first-release-date": "2023-08-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Niko G. & Kali",
+            "artist": {
+              "id": "7c5a84be-eefe-4f39-9112-540ba897095d",
+              "name": "Niko G. & Kali",
+              "sort-name": "Niko G. & Kali"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d04a45e3-560a-4f69-9286-aa4c51d8a7f4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tehno Vrăjitoarele",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "788b96f6-8303-45ba-a2f1-35a1f051d669",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e79db123-5e48-4db2-b62e-10da50156b7c",
+        "count": 1,
+        "title": "I'm Only Doing This Because I Love You",
+        "first-release-date": "2026-01-01",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Dynected",
+            "artist": {
+              "id": "40647069-f2a6-4ea9-9937-4a0e31382413",
+              "name": "Dynected",
+              "sort-name": "Dynected"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5cb0e844-4de4-4928-9d73-449e730347ce",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I'm Only Doing This Because I Love You",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "d153c847-3cc5-436e-ae44-dfab8333db02",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 91,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "21c4e570-30c0-39b2-b1d1-0c3d7b6e7fae",
+        "count": 1,
+        "title": "Squeaky 4 President",
+        "first-release-date": "2020-04-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Lil Squeaky",
+            "artist": {
+              "id": "f44b37e7-2ae3-4207-a4a3-3f7d548b2c29",
+              "name": "Lil Squeaky",
+              "sort-name": "Lil Squeaky",
+              "disambiguation": "Finnish-American rapper based in Espoo",
+              "aliases": [
+                {
+                  "sort-name": "Shareef",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Shareef",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "XXX Biggie T",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "XXX Biggie T",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ailus, Apollo Allen",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Apollo Allen Ailus",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9ea591ce-f44b-4c47-9b3f-5a9fae0ea154",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Squeaky 4 President",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "comedy rap"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "trap rap"
+          }
+        ]
+      },
+      {
+        "id": "e829d435-1310-4e57-9dc5-cd10322dbe5c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 91,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a0998f22-797f-3ab4-9db5-fdef7b060b52",
+        "count": 1,
+        "title": "TCHNLGY",
+        "first-release-date": "2021-04-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "MCHNWRLD",
+            "artist": {
+              "id": "da9116aa-7f49-49dc-8d7b-5e53cb47bccc",
+              "name": "MCHNWRLD",
+              "sort-name": "MCHNWRLD"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "43a4e8d5-2770-4ac3-93e7-48ee2edcfba1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TCHNLGY",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "dubstep"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "hybrid trap"
+          }
+        ]
+      },
+      {
+        "id": "4cea5b2b-f9e2-4d80-9d79-0afe3e5064b3",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 91,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "140e86db-fbee-4470-954a-f99d95ba33c7",
+        "count": 1,
+        "title": "El Hezz De Las Baby's",
+        "first-release-date": "2021-05-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Dary Hezz",
+            "artist": {
+              "id": "8963eca0-e0f6-420e-b457-d328b9a2af47",
+              "name": "Dary Hezz",
+              "sort-name": "Dary Hezz",
+              "disambiguation": "El Hezz De Las Baby's",
+              "aliases": [
+                {
+                  "sort-name": "Da Dary",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Dary Hezz",
+                  "locale": "es_DO",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2023-06-23",
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d5dfed65-4e75-4ad8-8aaa-611de02a48b7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Hezz De Las Baby's",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "dancehall"
+          },
+          {
+            "count": 1,
+            "name": "drill"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "trap latino"
+          }
+        ]
+      },
+      {
+        "id": "be885de8-5e74-4b0b-861a-7c48034daf8d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "77932b91-f19f-3b8e-945e-c35409cc92fe",
+        "count": 1,
+        "title": "Kill Me or Negotiate",
+        "first-release-date": "2020-10-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Simo Cell",
+            "artist": {
+              "id": "b37b759e-715e-4e7c-ac07-776e6a9450d4",
+              "name": "Simo Cell",
+              "sort-name": "Cell, Simo",
+              "disambiguation": "FR electronic artist Simon Aussel"
+            }
+          },
+          {
+            "name": "Abdullah Miniawy",
+            "artist": {
+              "id": "077b2099-2967-42a1-94d2-d2ffe639d44f",
+              "name": "Abdullah Miniawy",
+              "sort-name": "Miniawy, Abdullah"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0f98968c-b56c-4b8f-b88a-1a73c69682e4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Kill Me or Negotiate",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "af37403b-c83c-429a-97c1-0e3777ef6396",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d71ae52b-e8eb-31e9-be2d-32a46718c529",
+        "count": 1,
+        "title": "Bleach",
+        "first-release-date": "2023-06-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Godlands",
+            "artist": {
+              "id": "2ee7d715-f6b0-4746-9b51-d271a8afa098",
+              "name": "Godlands",
+              "sort-name": "Godlands",
+              "aliases": [
+                {
+                  "sort-name": "Hartlett, Annabel",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Annabel Hartlett",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "47d75378-1cc4-4798-8c2d-39fba2d5ae03",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bleach",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap edm"
+          }
+        ]
+      },
+      {
+        "id": "402411cf-1c85-4671-b579-60ce1fb93cd0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d4c9db6b-d906-3d00-9340-6c6742b90222",
+        "count": 1,
+        "title": "Birdy Island (Remixes)",
+        "first-release-date": "2021-10-22",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Howie Lee",
+            "artist": {
+              "id": "bf3b47a0-1e29-4fd8-a9e4-acaeb09452bc",
+              "name": "Howie Lee",
+              "sort-name": "Lee, Howie",
+              "disambiguation": "Chinese electronic musician"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "009a8185-47e0-4d9e-8157-d11379c50cc0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Birdy Island (Remixes)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "f7fbbac4-97a0-4ebf-871c-e22e0bfcf7b1",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "84889e49-38fd-4356-a5cb-110dc01afc23",
+        "count": 1,
+        "title": "BABY SCUMBAG",
+        "first-release-date": "2025-11-27",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Anti Sucksess",
+            "artist": {
+              "id": "a8a37fb1-f8c9-45fa-96cd-d7a30276d09c",
+              "name": "Anti Sucksess",
+              "sort-name": "Anti Sucksess",
+              "disambiguation": "Signalwave / Trap artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "81de5cfb-b3ad-4ede-b635-28206d700f33",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BABY SCUMBAG",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap edm"
+          }
+        ]
+      },
+      {
+        "id": "953fe83d-835c-464c-b56f-d805c26355d0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "65dea5e2-1f55-48f8-b98a-d5d178aa057d",
+        "count": 1,
+        "title": "Walking on Thin Ice 如履薄冰",
+        "first-release-date": "2023-08-18",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Howie Lee",
+            "artist": {
+              "id": "bf3b47a0-1e29-4fd8-a9e4-acaeb09452bc",
+              "name": "Howie Lee",
+              "sort-name": "Lee, Howie",
+              "disambiguation": "Chinese electronic musician"
+            }
+          },
+          {
+            "name": "刘㔻",
+            "artist": {
+              "id": "33fd1f50-00ac-4b6c-86b8-c2f83b32de08",
+              "name": "刘㔻",
+              "sort-name": "Liu, Pi"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "25d4f46d-36bc-48bd-8ffd-5e0a2bb9ae60",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Walking on Thin Ice 如履薄冰",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "29fcaad2-e350-433c-834e-b5ea5760954b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8c708116-5c1d-403b-b720-82db569f1bec",
+        "count": 1,
+        "title": "Zayter",
+        "first-release-date": "2021-04-27",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Duey Zay",
+            "artist": {
+              "id": "2f6d19c7-e0ef-47fb-b7e2-6ed9b0656113",
+              "name": "Duey Zay",
+              "sort-name": "Duey Zay",
+              "disambiguation": "US rapper Xavier Golden",
+              "aliases": [
+                {
+                  "sort-name": "Golden, Xavier K.",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Xavier K. Golden",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8980a4ff-5d64-4903-96e6-bd149c94e9d7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Zayter",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "freestyle"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "fe9d5a7d-a880-4d4e-8e0e-e4cc6fa95bb2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "936d697d-5563-42f8-b38d-f27c55ccb75e",
+        "count": 1,
+        "title": "LAUGHING STOCK",
+        "first-release-date": "2025-03-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "TRICKSTAR",
+            "artist": {
+              "id": "5d7c0338-6a6c-4ec7-accf-8c22396aa966",
+              "name": "TRICKSTAR",
+              "sort-name": "TRICKSTAR",
+              "disambiguation": "DJ Group"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e0e8e15e-f7fa-447b-960c-f02ef241ef70",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LAUGHING STOCK",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hybrid trap"
+          }
+        ]
+      },
+      {
+        "id": "b6b0d173-3181-4462-a422-fc3f64e9873d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7993b894-db6d-3c8c-a02c-514378848f1b",
+        "count": 1,
+        "title": "Narkopop Wave EP",
+        "first-release-date": "2021-08-27",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kaz Bałagane",
+            "artist": {
+              "id": "b95f828d-8805-4460-ba8e-5f9ff883d7a2",
+              "name": "Kaz Bałagane",
+              "sort-name": "Kaz Bałagane",
+              "disambiguation": "polish MC and music producer",
+              "aliases": [
+                {
+                  "sort-name": "Mati Bagłajane",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Mati Bagłajane",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Kaz A.K.A. Bałagane",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Kaz A.K.A. Bałagane",
+                  "locale": "pl_PL",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Świtalski, Jacek",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jacek Świtalski",
+                  "locale": "pl",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "de2287f2-149d-4269-9ee9-fff7cd058eac",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Narkopop Wave EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "wave"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "dd59f8a0-5298-47e1-afd3-d8f4d6b168d7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "19a5ac3f-9945-3db8-bff5-f0c02c2c1f1c",
+        "count": 1,
+        "title": "NOFORTUNE",
+        "first-release-date": "2023-08-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Control Freak",
+            "artist": {
+              "id": "0d85678f-1c8c-4820-a7a7-34819d95efda",
+              "name": "Control Freak",
+              "sort-name": "Control Freak",
+              "disambiguation": "EDM DJ & producer James Clark",
+              "aliases": [
+                {
+                  "sort-name": "Clark, James Michael",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "James Michael Clark",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Clark, James",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "James Clark",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "252a8da5-3ce4-4d49-b7fa-47b8250859eb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "NOFORTUNE",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hybrid trap"
+          }
+        ]
+      },
+      {
+        "id": "9c5928a2-73a7-4194-ae9a-2d075c688455",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 88,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "387e57e7-e4c1-4a94-b114-891a53a6f41a",
+        "count": 1,
+        "title": "Midnight Traps",
+        "disambiguation": "The first EP by demonthetrack, made of trap beats in dark themes.",
+        "first-release-date": "2024-06-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Demonthetrack",
+            "artist": {
+              "id": "5a2c114d-31ee-40cc-b456-fe143834f97d",
+              "name": "Demonthetrack",
+              "sort-name": "Demonthetrack",
+              "disambiguation": "Iranian-born Trap and Hip-Hop producer, songwriter, and beatmaker known internationally as Demonthetrack",
+              "aliases": [
+                {
+                  "sort-name": "Yazdani, Farzad",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Farzad Yazdani",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "یزدانی. فرزاد",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "فرزاد یزدانی",
+                  "locale": "fa",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "de5dcea2-57b8-4235-9d32-8cae1b742de8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Midnight Traps",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "beat music"
+          },
+          {
+            "count": 1,
+            "name": "hard trap"
+          },
+          {
+            "count": 1,
+            "name": "demonthetrack"
+          }
+        ]
+      },
+      {
+        "id": "6abfe43c-06c0-452f-84db-2db845fca739",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "613d6bd0-66f3-3fd2-b862-ffe1e5d21dc6",
+        "count": 1,
+        "title": "Jesus Loves Trap Music",
+        "first-release-date": "2026-02-27",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Yellow Claw",
+            "artist": {
+              "id": "759abafc-c4eb-4018-8554-f29a9d842779",
+              "name": "Yellow Claw",
+              "sort-name": "Yellow Claw",
+              "aliases": [
+                {
+                  "sort-name": "イエロー・クロウ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "イエロー・クロウ",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2c657b7b-3107-4ba9-948a-cb76f874d430",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Jesus Loves Trap Music",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "trap edm"
+          },
+          {
+            "count": 1,
+            "name": "hybrid trap"
+          }
+        ]
+      },
+      {
+        "id": "d293a305-5400-4f0f-a5dd-b55eafa9ca7c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "4b914761-b6bc-4c7c-99f7-7e3b80111776",
+        "count": 1,
+        "title": "deth detecta",
+        "first-release-date": "2020-10-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "яндексс",
+            "artist": {
+              "id": "68c178e8-a662-4d96-96d7-13dbf7b1ed78",
+              "name": "яндексс",
+              "sort-name": "yandex",
+              "disambiguation": "Russian rapper",
+              "aliases": [
+                {
+                  "sort-name": "hi.tek",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "hi.tek",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Никита",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Никита",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "яндекс",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "яндекс",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "db1ad369-a9af-4bb7-92e2-3248696345bd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "deth detecta",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "phonk"
+          },
+          {
+            "count": 1,
+            "name": "dark trap"
+          },
+          {
+            "count": 1,
+            "name": "cyber trap"
+          }
+        ]
+      },
+      {
+        "id": "9da8c493-4cba-4c76-85f0-844e23a65d12",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9503124c-68a8-36d7-94da-3b29a8c93ec6",
+        "count": 2,
+        "title": "Nobody Safe",
+        "first-release-date": "2020-11-20",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Rich the Kid",
+            "artist": {
+              "id": "6d063567-dbf9-4b2a-bd11-1a4450cd93ca",
+              "name": "Rich the Kid",
+              "sort-name": "Rich the Kid",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Roger, Dimitri Leslie",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Dimitri Leslie Roger",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "YoungBoy Never Broke Again",
+            "artist": {
+              "id": "127d8614-0876-4408-886c-6f110b047a78",
+              "name": "YoungBoy Never Broke Again",
+              "sort-name": "YoungBoy Never Broke Again",
+              "aliases": [
+                {
+                  "sort-name": "NBA Young Boy",
+                  "name": "NBA Young Boy",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Youngboy",
+                  "name": "Youngboy",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Gaulden, Kentrell DeSean",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Kentrell DeSean Gaulden",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Gaulden, Kentrell DeShawn",
+                  "name": "Kentrell DeShawn Gaulden",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "NBA Youngboy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "NBA Youngboy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f7592bf5-05c6-4010-a0a3-6030ef3fe826",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nobody Safe",
+            "status": "Official"
+          },
+          {
+            "id": "da42e499-146a-44bd-8b43-d0ebe13a06e4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nobody Safe",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "605b9283-f6ed-4731-92a4-c1126aba314b",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "0a3f0ee6-a3aa-312f-b8c6-c4e76e3d0ea6",
+        "count": 2,
+        "title": "QPac",
+        "first-release-date": "2020-01-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Quando Rondo",
+            "artist": {
+              "id": "09742c4c-4e39-435a-8418-7623b0d44e46",
+              "name": "Quando Rondo",
+              "sort-name": "Quando Rondo",
+              "aliases": [
+                {
+                  "sort-name": "TyQuain Bowman",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "TyQuain Bowman",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Bowman, Tyquian Terrel",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Tyquian Terrel Bowman",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "031c1624-430b-4d02-b577-d9a8eaafcb0c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "QPac",
+            "status": "Official"
+          },
+          {
+            "id": "7896df10-69ad-48b3-bf93-414693030b2b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "QPac",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "b8a635cf-8f27-44a4-8a87-735b9060feca",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "34adb87d-24ff-311e-81ae-fe5f702bdc67",
+        "count": 1,
+        "title": "Dreamweaver",
+        "first-release-date": "2020-02-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Anachnid",
+            "artist": {
+              "id": "7d88d44e-3084-4351-b742-01287c600da8",
+              "name": "Anachnid",
+              "sort-name": "Anachnid"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "17bb914c-2255-4be8-b36b-9b66cae936ef",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dreamweaver",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "18c9ee9e-ed77-44c6-ac5e-6ed4b60eb4c7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c2dc3f05-3a80-3ffd-ad7b-17c4ebf09cc7",
+        "count": 1,
+        "title": "Uśmiech",
+        "first-release-date": "2020-02-25",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Jan-Rapowanie",
+            "artist": {
+              "id": "04471e67-1ba7-42b0-acff-ea862aa1e23a",
+              "name": "Jan-Rapowanie",
+              "sort-name": "Jan-Rapowanie",
+              "disambiguation": "polish MC",
+              "aliases": [
+                {
+                  "sort-name": "Pasula, Jan Stanisław",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jan Stanisław Pasula",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Jan-Rapowanie",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jan-Rapowanie",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Nocny",
+            "artist": {
+              "id": "8e208ac6-dfda-4272-a152-70a729d8949f",
+              "name": "Nocny",
+              "sort-name": "Nocny"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "90767e43-1d81-44fa-ac86-588d4060998e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Uśmiech",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "f3d9b1cb-a94b-4b47-84be-8726828b9b11",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "3dd437ec-a047-348c-bb55-2dba41442d16",
+        "count": 1,
+        "title": "Ich lach mich tot",
+        "first-release-date": "2022-10-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Haiyti",
+            "artist": {
+              "id": "5fd9db2f-bc1b-4ef9-866b-cad891f524fc",
+              "name": "Haiyti",
+              "sort-name": "Haiyti",
+              "disambiguation": "rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "50f0d9ee-adf3-4402-960c-083821d4a89f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ich lach mich tot",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "446179ff-4892-495a-8f04-28e7bc399241",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "71e19916-eef4-3e73-9ae1-3aebf93fa081",
+        "count": 1,
+        "title": "PLAZA",
+        "first-release-date": "2021-01-22",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Capo Plaza",
+            "artist": {
+              "id": "8f7dfba6-e258-4db2-a5c2-c998a02438af",
+              "name": "Capo Plaza",
+              "sort-name": "Capo Plaza",
+              "disambiguation": "Italian rapper",
+              "aliases": [
+                {
+                  "sort-name": "D’Orso, Luca",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Luca D’Orso",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d8fc4892-24da-4d24-8b3b-f32602107370",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "PLAZA",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "97b80e3b-0700-45cc-a1ba-60a436bf532c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "3dd437ec-a047-348c-bb55-2dba41442d16",
+        "count": 1,
+        "title": "kings sagen king",
+        "first-release-date": "2024-06-14",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Haiyti",
+            "artist": {
+              "id": "5fd9db2f-bc1b-4ef9-866b-cad891f524fc",
+              "name": "Haiyti",
+              "sort-name": "Haiyti",
+              "disambiguation": "rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a2620995-5f35-4d45-826e-8ac0c8ab7fb7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "kings sagen king",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "9b185dd6-8972-4cac-8103-13b394cce411",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ef78ca9f-2d2d-3390-9055-07cb0418aa81",
+        "count": 3,
+        "title": "Who Is Nardo Wick?",
+        "first-release-date": "2021-12-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Nardo Wick",
+            "artist": {
+              "id": "0eea08e2-1363-4b36-bbe8-9691ae3892b6",
+              "name": "Nardo Wick",
+              "sort-name": "Nardo Wick"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "db09a814-94db-40e5-a4a5-4bd731b8283a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Who Is Nardo Wick??",
+            "status": "Official"
+          },
+          {
+            "id": "9e4b52f4-f977-432c-90dd-3d4fab223ffa",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Who Is Nardo Wick??",
+            "status": "Official"
+          },
+          {
+            "id": "f1f20fec-19c8-4cc1-b466-5d33175b1a0a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Who Is Nardo Wick?",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "2f97867d-ebff-478c-9ab4-4a33e0015318",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4e58d0ef-2e38-38c0-b2a1-508bff82081d",
+        "count": 2,
+        "title": "WUNNA",
+        "first-release-date": "2020-05-22",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Gunna",
+            "artist": {
+              "id": "100b8734-f4f0-4536-9960-47f7c59d1b4c",
+              "name": "Gunna",
+              "sort-name": "Gunna",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "YSL Gunna",
+                  "name": "YSL Gunna",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Gunna Wunna",
+                  "name": "Gunna Wunna",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Wunna",
+                  "name": "Wunna",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Kitchens, Sergio Giavanni",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Sergio Giavanni Kitchens",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Yung Gunna",
+                  "name": "Yung Gunna",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Kitchens, Sergio",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Sergio Kitchens",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "97006315-2cff-45cb-80a4-5e4bad01f56b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "WUNNA",
+            "status": "Official"
+          },
+          {
+            "id": "66ad3acb-9e35-480b-87bb-d97364d244f3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "WUNNA",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "cbc73136-43be-48f9-abdd-15ff0ca9d77e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "a88c9664-bad9-31f1-adb8-272a23c5ba8b",
+        "count": 1,
+        "title": "Archive Mixtape",
+        "first-release-date": "2022-04-11",
+        "primary-type": "Album",
+        "secondary-types": [
+          "DJ-mix"
+        ],
+        "secondary-type-ids": [
+          "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+        ],
+        "artist-credit": [
+          {
+            "name": "DJ Wolf Mann",
+            "artist": {
+              "id": "641e8063-eb33-448a-b0e2-8da2afd607b3",
+              "name": "Allô Tonton",
+              "sort-name": "Tonton, Allô",
+              "disambiguation": "also known as Wolf Mann",
+              "aliases": [
+                {
+                  "sort-name": "Allo Tonton",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Allo Tonton",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Mann, Wolf",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Wolf Mann",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2017-12-30",
+                  "end-date": "2022-02-16"
+                },
+                {
+                  "sort-name": "Tonton, Allô",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Allô Tonton",
+                  "locale": "fr_HT",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": "2022-02-16",
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "92cdd595-04d6-4028-9a3e-1efa2160c349",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Archive Mixtape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "763f080e-2ff8-4dce-b43b-ab1221963839",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fdb29fa3-f686-31fb-a135-707d8f88a35e",
+        "count": 1,
+        "title": "Too Loyal for My Own Good",
+        "first-release-date": "2021-10-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Headie One",
+            "artist": {
+              "id": "2e2c71a6-1ac8-4442-ba00-c4dea71abd64",
+              "name": "Headie One",
+              "sort-name": "Headie One",
+              "aliases": [
+                {
+                  "sort-name": "Adjei, Irving",
+                  "name": "Irving Adjei",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Adjei, Irving Ampofo",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Irving Ampofo Adjei",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "74cdb2ab-bc94-4b61-97ec-e806ffc13af8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Too Loyal for My Own Good",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "d0503f41-8d34-49c4-886a-12012db4951c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "b10d2265-fbaf-3d55-bf21-5e6ac37bc56c",
+        "count": 1,
+        "title": "WARREN",
+        "first-release-date": "2025-04-25",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Gambino La MG",
+            "artist": {
+              "id": "9ec53f69-9207-4489-b095-6d79391583ec",
+              "name": "Gambino La MG",
+              "sort-name": "Gambino La MG",
+              "disambiguation": "French rapper from 91, member of La MG"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9dd736ac-2da2-4992-b655-dcbd4a25289c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "WARREN",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "d5b4a61e-7105-49fc-9ea4-4e777dd92bd9",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "23d1dc80-d70a-3497-9c20-6ddd96f38016",
+        "count": 3,
+        "title": "Lil Pump 2",
+        "first-release-date": "2023-03-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Lil Pump",
+            "artist": {
+              "id": "65a01fd2-35fb-4817-90d5-ab5506b21161",
+              "name": "Lil Pump",
+              "sort-name": "Lil Pump",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Garcia, Gazzy",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Gazzy Garcia",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "fa8e4fd1-ef86-45cd-abf7-2a8884e18cc5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lil Pump 2",
+            "status": "Official"
+          },
+          {
+            "id": "62baa9b5-e787-46f2-af3b-bd6b4c07d37d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lil Pump 2",
+            "status": "Official"
+          },
+          {
+            "id": "c463290e-def6-4e26-8095-2bbb60b3b350",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lil Pump 2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "d15d2568-c763-473a-8f97-53a261e37a83",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "917c37f9-7560-3f64-bb4f-b56f22446c44",
+        "count": 1,
+        "title": "Cheerleader",
+        "first-release-date": "2025-10-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Niko B",
+            "artist": {
+              "id": "4ee91726-feb8-47a3-8d86-3811deda2619",
+              "name": "Niko B",
+              "sort-name": "Niko B",
+              "disambiguation": "YouTuber",
+              "aliases": [
+                {
+                  "sort-name": "Tom Austin",
+                  "name": "Tom Austin",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Austin, Thomas",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Thomas Austin",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Niko Bellic",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Niko Bellic",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Niko B",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Niko B",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "64f4b542-5890-43de-85e8-b99e176f60ac",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cheerleader",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "bc94dc8f-91b4-47cf-aa22-f2d36b3b6713",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "def23508-6ba3-406b-a33f-793a591dd8aa",
+        "count": 1,
+        "title": "Ronin",
+        "first-release-date": "2022-06-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Etnas",
+            "artist": {
+              "id": "789de2a2-c886-4843-9613-bd47246e8f7e",
+              "name": "Etnas",
+              "sort-name": "Etnas",
+              "disambiguation": "Epines / Collectif Dégâts Rap"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "950ef252-3d49-404c-bda9-8f48b4443b6e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ronin",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "f5e2c100-d4fe-49c4-9f72-21c7dd14b742",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e44e0a2b-9dba-4133-86b4-f2abe8011677",
+        "count": 1,
+        "title": "King Shibby",
+        "first-release-date": "2025-08-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "JudeRocks",
+            "artist": {
+              "id": "1163877d-9dc1-47e1-ae80-3ac3c95d4119",
+              "name": "JudeRocks",
+              "sort-name": "Jude Bush Landress"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "584f7e1f-b690-4e64-a1b1-8c642272e6b0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "King Shibby",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "a6ddb4aa-adf5-4468-91b3-8baeda909bed",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8499655c-5fe4-3f8a-bf4e-78e205a3c41e",
+        "count": 1,
+        "title": "Vita vera mixtape: Aspettando la Divina Commedia",
+        "first-release-date": "2020-06-12",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Tedua",
+            "artist": {
+              "id": "aec5ce2b-bc3f-408c-a0a9-8556a9a60f25",
+              "name": "Tedua",
+              "sort-name": "Tedua",
+              "disambiguation": "Italian rapper",
+              "aliases": [
+                {
+                  "sort-name": "Duate",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Duate",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Molinari, Mario",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Mario Molinari",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ba2c555e-1acb-4029-91f8-f455b9b6cd18",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Vita vera mixtape: Aspettando la Divina Commedia",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "da13d07b-f228-4f4d-b26a-94712e33dd35",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8499655c-5fe4-3f8a-bf4e-78e205a3c41e",
+        "count": 1,
+        "title": "Vita vera mixtape",
+        "first-release-date": "2020-06-05",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Tedua",
+            "artist": {
+              "id": "aec5ce2b-bc3f-408c-a0a9-8556a9a60f25",
+              "name": "Tedua",
+              "sort-name": "Tedua",
+              "disambiguation": "Italian rapper",
+              "aliases": [
+                {
+                  "sort-name": "Duate",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Duate",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Molinari, Mario",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Mario Molinari",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "21250a32-24ec-4535-88d5-94d8797c85a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Vita vera mixtape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "13996a66-6de4-4a37-86a8-8e8e4f7ee9b6",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "67ad34f0-838c-37bf-a8d2-8bdd9c24a57a",
+        "count": 3,
+        "title": "THE HUSTLE CONTINUES",
+        "first-release-date": "2020-11-27",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Juicy J",
+            "artist": {
+              "id": "c45d161f-83ce-4464-ba41-44202e6916d9",
+              "name": "Juicy J",
+              "sort-name": "Juicy J",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "Juicy “J”",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Juicy “J”",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Juicy Jay",
+                  "name": "Juicy Jay",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Houston, Jordan Michael",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jordan Michael Houston",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c97363a9-d6fb-4f19-8180-b7ecb25d2de2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "THE HUSTLE STILL CONTINUES",
+            "status": "Official"
+          },
+          {
+            "id": "d5c0c419-03eb-468b-b187-87dac193ba32",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "THE HUSTLE STILL CONTINUES",
+            "status": "Official"
+          },
+          {
+            "id": "9767ee80-908d-4491-904e-20c173c87559",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "THE HUSTLE CONTINUES",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "efde8894-8b04-4bd1-8536-4028c92d2ed5",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d95646bc-8648-37d6-882b-5ab942600b57",
+        "count": 1,
+        "title": "Le Grand Oeuvre",
+        "first-release-date": "2021-04-21",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "R$kp",
+            "artist": {
+              "id": "75611912-5e9f-42bd-ad8f-77fbaa08583d",
+              "name": "R$kp",
+              "sort-name": "R$kp",
+              "disambiguation": "Beatmaker"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6a652c7e-f04f-4b82-92a4-3c6405699c7c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Le Grand Oeuvre",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "3cc53c34-3a5a-4868-a045-0f53ba78b55f",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "b6e37cc1-cb92-35ec-844f-7a10191e7d7d",
+        "count": 2,
+        "title": "OJ Da Juiceman, Pt. 2",
+        "first-release-date": "2025-03-14",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "OJ da Juiceman",
+            "artist": {
+              "id": "de335e79-402f-4378-8b18-ec9e68d8f001",
+              "name": "OJ da Juiceman",
+              "sort-name": "OJ da Juiceman",
+              "aliases": [
+                {
+                  "sort-name": "OjDaJuiceman",
+                  "name": "OjDaJuiceman",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Williams, Otis, Jr.",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Otis Williams, Jr.",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Williams, Otis Benjamin, Jr.",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Otis Benjamin Williams, Jr.",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5ab0887e-1391-4cc8-a245-d8f0c2f6514a",
+            "title": "OJ Da Juiceman, Pt. 2 (Deluxe)"
+          },
+          {
+            "id": "4ebefbdb-c7c0-4d15-bc5a-379aa9032b04",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "OJ Da Juiceman, Pt. 2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "3b0b20a8-4735-4909-8644-d293372ede4e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ac2408c4-a246-4160-92b7-53ddca3c64e5",
+        "count": 2,
+        "title": "N0rth4evr",
+        "first-release-date": "2026-05-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "North West",
+            "artist": {
+              "id": "9bba8640-a28c-43c1-9611-3b4e9515efe1",
+              "name": "North West",
+              "sort-name": "West, North",
+              "disambiguation": "daughter of Kim & Kanye"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9fe394f5-dbc7-44d8-85f2-9b70b023f584",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "N0rth4evr",
+            "status": "Official"
+          },
+          {
+            "id": "2335950f-7300-4a36-8628-57502326e879",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "N0rth4evr",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "rap rock"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "trap metal"
+          }
+        ]
+      },
+      {
+        "id": "25dc81ff-d7ba-48b6-b2ba-a498b482b878",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 85,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6d42c981-646f-43ca-824d-52abba16348e",
+        "count": 1,
+        "title": "The Dark Power Above",
+        "first-release-date": "2024-05-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Bow Your Ascent",
+            "artist": {
+              "id": "86112b9c-c829-44e6-ba0c-5fb50e4ff17f",
+              "name": "Bow Your Ascent",
+              "sort-name": "Bow Your Ascent"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e1682c25-afda-431d-8bf3-407ec0539dc1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Power Above",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "hybrid trap"
+          },
+          {
+            "count": 1,
+            "name": "hyperpop"
+          },
+          {
+            "count": 1,
+            "name": "pop trap"
+          }
+        ]
+      }
+    ]
+  }
+}

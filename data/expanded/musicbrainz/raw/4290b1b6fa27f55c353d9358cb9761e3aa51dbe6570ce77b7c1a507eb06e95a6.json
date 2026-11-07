@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/c9c69c65-2967-4c3f-a1a6-faeb531098b1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c9c69c65-2967-4c3f-a1a6-faeb531098b1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:30.542469+00:00",
+  "response": {
+    "title": "⚠",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2013-02-28",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "horrorcore"
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "horrorcore",
+        "count": 1,
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+        "disambiguation": ""
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "👒",
+        "artist": {
+          "name": "Ditherer",
+          "country": null,
+          "disambiguation": "",
+          "sort-name": "Ditherer",
+          "type": "Person",
+          "genres": [],
+          "tags": [],
+          "id": "32d55457-fac7-4768-94a1-14173c092b63",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "id": "c9c69c65-2967-4c3f-a1a6-faeb531098b1"
+  }
+}

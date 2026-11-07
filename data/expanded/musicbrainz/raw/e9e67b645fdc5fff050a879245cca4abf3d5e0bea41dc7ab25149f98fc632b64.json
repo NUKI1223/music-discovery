@@ -1,0 +1,58 @@
+{
+  "endpoint": "release-group/1cac2389-371b-45e1-a39e-179ccd70081b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1cac2389-371b-45e1-a39e-179ccd70081b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:16.581986+00:00",
+  "response": {
+    "first-release-date": "2008-07-08",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "",
+          "sort-name": "Clay, DJ",
+          "genres": [],
+          "country": "US",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "name": "DJ Clay",
+          "id": "054daa60-9ce0-4777-8d8b-a51f674d69f4",
+          "tags": []
+        },
+        "name": "DJ Clay",
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      }
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "id": "1cac2389-371b-45e1-a39e-179ccd70081b",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Let 'em Bleed: The Mixxtape, Volume 2",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

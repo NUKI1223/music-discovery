@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/ce579b0f-b0e0-35c5-82c3-02dfa5f3de61",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ce579b0f-b0e0-35c5-82c3-02dfa5f3de61?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:31.054625+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "hip hop",
+        "count": 2,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "jazz rap",
+        "disambiguation": "",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1
+      }
+    ],
+    "title": "Journey to Anywhere",
+    "first-release-date": "2000-09-26",
+    "rating": {
+      "value": 4.5,
+      "votes-count": 1
+    },
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Ugly Duckling",
+          "country": "US",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "disambiguation": "US hip-hop group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "sort-name": "Ugly Duckling",
+          "type": "Group",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            }
+          ],
+          "id": "abe0ffbc-58c9-4688-a4c5-096411802660"
+        },
+        "joinphrase": "",
+        "name": "Ugly Duckling"
+      }
+    ],
+    "id": "ce579b0f-b0e0-35c5-82c3-02dfa5f3de61",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/3e17e518-d81d-3280-ae33-9ca07b5f9c0b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3e17e518-d81d-3280-ae33-9ca07b5f9c0b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:07.312340+00:00",
+  "response": {
+    "first-release-date": "2008-02-26",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "id": "3e17e518-d81d-3280-ae33-9ca07b5f9c0b",
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "",
+          "country": "US",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "southern hip hop",
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8"
+            }
+          ],
+          "id": "4b2c4580-7e17-4277-8b20-5246f5f37b61",
+          "name": "Shawty Lo",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "southern hip hop",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Shawty Lo"
+        },
+        "name": "Shawty Lo",
+        "joinphrase": ""
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Units in the City"
+  }
+}

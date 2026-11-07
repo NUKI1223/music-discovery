@@ -1,0 +1,96 @@
+{
+  "endpoint": "release-group/80693ead-277f-3592-80a0-8addfef9c286",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/80693ead-277f-3592-80a0-8addfef9c286?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:38.053767+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "1991-05-07",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "name": "industrial",
+        "count": 2
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 2
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Consolidated",
+          "sort-name": "Consolidated",
+          "tags": [
+            {
+              "count": 1,
+              "name": "industrial"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "name": "industrial",
+              "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "country": "US",
+          "id": "502d686d-a74c-4a09-ba74-8d919a13b684",
+          "disambiguation": "",
+          "type": "Group"
+        },
+        "name": "Consolidated"
+      }
+    ],
+    "title": "Friendly Fa$cism",
+    "id": "80693ead-277f-3592-80a0-8addfef9c286",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "genres": [
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 2,
+        "disambiguation": "",
+        "name": "electronic"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 2
+      },
+      {
+        "name": "industrial",
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+        "disambiguation": "",
+        "count": 2
+      },
+      {
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 2
+      }
+    ],
+    "secondary-type-ids": []
+  }
+}

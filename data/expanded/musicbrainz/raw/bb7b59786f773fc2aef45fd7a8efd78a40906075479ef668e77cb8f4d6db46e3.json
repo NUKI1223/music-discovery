@@ -1,0 +1,464 @@
+{
+  "endpoint": "release-group/8a01217e-6947-3927-a39b-6691104694f1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8a01217e-6947-3927-a39b-6691104694f1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:31:58.245417+00:00",
+  "response": {
+    "first-release-date": "2004-02-09",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "id": "164f0d73-1234-4e2c-8743-d77bf2191051",
+          "tags": [
+            {
+              "name": "african american musicians",
+              "count": 1
+            },
+            {
+              "name": "businesspeople",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "chipmunk soul"
+            },
+            {
+              "count": 3,
+              "name": "christian hip hop"
+            },
+            {
+              "name": "composers",
+              "count": 1
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "contemporary r&b"
+            },
+            {
+              "name": "contemporary rap",
+              "count": 2
+            },
+            {
+              "name": "deep house",
+              "count": 1
+            },
+            {
+              "name": "electropop",
+              "count": 1
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 6
+            },
+            {
+              "name": "fashion designers",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "future bass"
+            },
+            {
+              "count": 1,
+              "name": "gospel music"
+            },
+            {
+              "name": "hip hop",
+              "count": 31
+            },
+            {
+              "count": 2,
+              "name": "house"
+            },
+            {
+              "name": "midwest rap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "modeschöpfer"
+            },
+            {
+              "name": "musikproduzent",
+              "count": 1
+            },
+            {
+              "count": 5,
+              "name": "pop"
+            },
+            {
+              "name": "pop rap",
+              "count": 14
+            },
+            {
+              "count": 3,
+              "name": "producer"
+            },
+            {
+              "name": "progressive rap",
+              "count": 1
+            },
+            {
+              "name": "r&b",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "rap musicians"
+            },
+            {
+              "count": 1,
+              "name": "rapmusiker"
+            },
+            {
+              "count": 1,
+              "name": "regisseur"
+            },
+            {
+              "count": 1,
+              "name": "singers"
+            },
+            {
+              "count": 1,
+              "name": "singstimme"
+            },
+            {
+              "count": 1,
+              "name": "songwriter"
+            },
+            {
+              "name": "sound recording executives and producers",
+              "count": 1
+            },
+            {
+              "name": "trap",
+              "count": 2
+            }
+          ],
+          "name": "Ye",
+          "disambiguation": "formerly Kanye West",
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "US",
+          "sort-name": "Ye",
+          "genres": [
+            {
+              "id": "cec1580a-ef3c-4928-b302-58015335c7b0",
+              "name": "chipmunk soul",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 3,
+              "name": "christian hip hop",
+              "id": "0db33693-8ae5-4749-af7a-20895395dc82"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "4bb4043a-0ee5-4b84-93fa-6ba4567a6ba0",
+              "name": "contemporary r&b"
+            },
+            {
+              "id": "7fa479e7-3d35-40d1-96f7-b619a5ca9d9f",
+              "name": "deep house",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "3f3388b4-e36a-4bf8-a0be-66b10d92aaa4",
+              "name": "electropop"
+            },
+            {
+              "disambiguation": "",
+              "count": 6,
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "future bass",
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71"
+            },
+            {
+              "disambiguation": "",
+              "count": 31,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "name": "house",
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3"
+            },
+            {
+              "count": 5,
+              "disambiguation": "",
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "name": "pop"
+            },
+            {
+              "name": "pop rap",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "disambiguation": "",
+              "count": 14
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "r&b",
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3"
+            },
+            {
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap",
+              "count": 2,
+              "disambiguation": ""
+            }
+          ]
+        },
+        "name": "Kanye West"
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 3,
+        "name": "chipmunk soul",
+        "id": "cec1580a-ef3c-4928-b302-58015335c7b0"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "conscious hip hop",
+        "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+      },
+      {
+        "count": 6,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "neo soul",
+        "id": "286f9168-9c46-4e41-94a1-1aa4aeb93b8c"
+      },
+      {
+        "count": 4,
+        "disambiguation": "",
+        "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+        "name": "pop rap"
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "8a01217e-6947-3927-a39b-6691104694f1",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "The College Dropout",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 6,
+        "name": "alternative rap"
+      },
+      {
+        "count": 1,
+        "name": "anthemic"
+      },
+      {
+        "count": 1,
+        "name": "autumn"
+      },
+      {
+        "name": "bittersweet",
+        "count": 1
+      },
+      {
+        "name": "boastful",
+        "count": 1
+      },
+      {
+        "name": "chipmunk soul",
+        "count": 3
+      },
+      {
+        "count": 1,
+        "name": "christian"
+      },
+      {
+        "count": 1,
+        "name": "concept album"
+      },
+      {
+        "count": 1,
+        "name": "conscious"
+      },
+      {
+        "name": "conscious hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "conscious rap"
+      },
+      {
+        "name": "contemporary rap",
+        "count": 1
+      },
+      {
+        "name": "east coast rap",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "eclectic"
+      },
+      {
+        "name": "energetic",
+        "count": 1
+      },
+      {
+        "count": 6,
+        "name": "hip hop"
+      },
+      {
+        "name": "hip hop rap",
+        "count": 3
+      },
+      {
+        "name": "hip hop/rap",
+        "count": 2
+      },
+      {
+        "name": "hip-hop",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "humorous"
+      },
+      {
+        "name": "introspective",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "male vocalist"
+      },
+      {
+        "count": 1,
+        "name": "melancholic"
+      },
+      {
+        "count": 1,
+        "name": "melodic"
+      },
+      {
+        "count": 3,
+        "name": "midwest rap"
+      },
+      {
+        "count": 1,
+        "name": "neo soul"
+      },
+      {
+        "count": 1,
+        "name": "optimistic"
+      },
+      {
+        "count": 1,
+        "name": "passionate"
+      },
+      {
+        "name": "playful",
+        "count": 1
+      },
+      {
+        "count": 4,
+        "name": "pop rap"
+      },
+      {
+        "count": 3,
+        "name": "pop-rap"
+      },
+      {
+        "count": 1,
+        "name": "progressive rap"
+      },
+      {
+        "count": 1,
+        "name": "rap and hip hop"
+      },
+      {
+        "count": 1,
+        "name": "rap/hip hop"
+      },
+      {
+        "count": 1,
+        "name": "rhythmic"
+      },
+      {
+        "count": 1,
+        "name": "sampling"
+      },
+      {
+        "count": 1,
+        "name": "sarcastic"
+      },
+      {
+        "count": 1,
+        "name": "satirical"
+      },
+      {
+        "count": 1,
+        "name": "sentimental"
+      },
+      {
+        "count": 1,
+        "name": "skit"
+      },
+      {
+        "count": 1,
+        "name": "triumphant"
+      },
+      {
+        "count": 1,
+        "name": "uplifting"
+      },
+      {
+        "count": 1,
+        "name": "urban"
+      },
+      {
+        "count": 1,
+        "name": "warm"
+      }
+    ],
+    "rating": {
+      "value": 4.25,
+      "votes-count": 35
+    }
+  }
+}

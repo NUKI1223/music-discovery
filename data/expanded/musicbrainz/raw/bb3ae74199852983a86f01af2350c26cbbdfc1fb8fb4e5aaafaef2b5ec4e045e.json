@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/ffd5caee-f63f-4220-9862-deebffa3c4a4",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ffd5caee-f63f-4220-9862-deebffa3c4a4?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:55.157201+00:00",
+  "response": {
+    "title": "In Between The Lines",
+    "tags": [
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Marc Mac",
+        "artist": {
+          "disambiguation": "",
+          "country": "GB",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "1e48cdae-b68d-4cd0-bfba-a78ad30d2e9f",
+          "name": "Marc Mac",
+          "tags": [],
+          "type": "Person",
+          "sort-name": "Mac, Marc"
+        }
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2009-07-12",
+    "id": "ffd5caee-f63f-4220-9862-deebffa3c4a4",
+    "genres": [
+      {
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "name": "instrumental hip hop",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ]
+  }
+}

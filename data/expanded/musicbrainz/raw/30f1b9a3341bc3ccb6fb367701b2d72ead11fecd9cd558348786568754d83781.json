@@ -1,0 +1,81 @@
+{
+  "endpoint": "release-group/2f6f94bc-cb78-4bbe-830c-c0237d389ec7",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/2f6f94bc-cb78-4bbe-830c-c0237d389ec7?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:28.563603+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      }
+    ],
+    "title": "Renaissance Art",
+    "first-release-date": "2023-02-24",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "name": "Hell Razah",
+        "artist": {
+          "country": "US",
+          "name": "Hell Razah",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Hell Razah",
+          "id": "dee1055d-2e42-455c-a94e-37c7e86dedf4",
+          "genres": [
+            {
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            }
+          ]
+        }
+      },
+      {
+        "artist": {
+          "genres": [],
+          "id": "77c443ef-ba10-43d4-aa15-da913f48cd83",
+          "sort-name": "RoadsArt",
+          "type": "Person",
+          "tags": [],
+          "disambiguation": "hip hop producer/engineer",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "RoadsArt",
+          "country": "US"
+        },
+        "name": "RoadsArt",
+        "joinphrase": ""
+      }
+    ],
+    "id": "2f6f94bc-cb78-4bbe-830c-c0237d389ec7",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

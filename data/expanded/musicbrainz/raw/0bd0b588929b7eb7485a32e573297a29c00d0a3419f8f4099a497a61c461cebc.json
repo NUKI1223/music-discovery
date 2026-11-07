@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/5f8f9f31-49d4-44e3-953e-3004c982d6ed",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5f8f9f31-49d4-44e3-953e-3004c982d6ed?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:57.700090+00:00",
+  "response": {
+    "first-release-date": "2018-01-01",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "5f8f9f31-49d4-44e3-953e-3004c982d6ed",
+    "artist-credit": [
+      {
+        "name": "GUY",
+        "artist": {
+          "genres": [],
+          "tags": [],
+          "id": "9a3b15aa-f09b-4152-a540-dd03ecb842c8",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "Théo Vincent, Harmeny Records artist",
+          "country": "FR",
+          "sort-name": "GUY",
+          "type": "Person",
+          "name": "GUY"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "title": "Tigre peut-être",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

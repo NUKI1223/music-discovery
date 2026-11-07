@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "normalizer_version": "community-historical-v1",
+  "dataset_kind": "historical_community_metadata",
+  "source": "aoty",
+  "is_fixture": false,
+  "personal_labels": 0,
+  "live_scrape": false,
+  "normalized_at": "2026-11-03T17:03:18.918360+00:00",
+  "observed_at": null,
+  "input_file": "artifacts/source-research/genre-expansion-20261103/albums.jsonl",
+  "input_sha256": "7b844e34cdfe23fdf16a25f2835ec9171734f4e35f9adf4e389117bbe3cccae8",
+  "records_file": "releases.jsonl",
+  "records_sha256": "9261f7fa601b495992ad9b98033dfa7353a6ef553c50cc2f7f75df3080dfb675",
+  "input_rows": 8,
+  "accepted_rows": 8,
+  "quarantined_rows": 0,
+  "unique_source_ids": 8,
+  "duplicate_source_ids": 0,
+  "with_genres": 8,
+  "with_ratings": 0,
+  "with_integer_counts": 0,
+  "genre_counts": {
+    "Gospel": 2,
+    "New Age": 2,
+    "Contemporary Folk": 1,
+    "CCM": 1,
+    "Indie Pop": 1,
+    "Alternative R&B": 1,
+    "Urban Contemporary Gospel": 1,
+    "Ambient": 1,
+    "Industrial Techno": 1,
+    "Neoclassical New Age": 1,
+    "Reggae": 1,
+    "Hymns": 1,
+    "Singer-Songwriter": 1,
+    "Epic Collage": 1
+  },
+  "acquisition_provenance": {
+    "source": "aoty",
+    "is_fixture": false,
+    "retrieved_at": "2026-11-03T17:02:44.667036+00:00",
+    "method": "Reviewed album Details from web readable captures; cached age retained in batch evidence",
+    "files": {
+      "albums.jsonl": {
+        "sha256": "7b844e34cdfe23fdf16a25f2835ec9171734f4e35f9adf4e389117bbe3cccae8"
+      }
+    },
+    "scope": "Eight album Details; no reviews or ratings copied; hidden Vibes not inferred"
+  },
+  "limitations": [
+    "Publisher snapshots are historical and are not independently verified live observations.",
+    "Retrieval/commit dates do not establish source capture time.",
+    "Chart-selected datasets are biased toward popular or highly rated releases.",
+    "No automatic MusicBrainz identity or internal genre-taxonomy mapping is performed.",
+    "Community aggregates are not personal preference labels or current obscurity evidence.",
+    "Public availability does not establish redistribution rights; see acquisition provenance."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "endpoint": "release-group/c399a8d9-68e7-4ea0-bf35-bd033c1cf89c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c399a8d9-68e7-4ea0-bf35-bd033c1cf89c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:36.899223+00:00",
+  "response": {
+    "title": "корпускула",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2021-08-24",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "c399a8d9-68e7-4ea0-bf35-bd033c1cf89c",
+    "artist-credit": [
+      {
+        "name": "спуск в тсж",
+        "joinphrase": "",
+        "artist": {
+          "genres": [
+            {
+              "name": "drum and bass",
+              "disambiguation": "",
+              "count": 1,
+              "id": "462f9321-6103-49c9-b6db-96219bce6f62"
+            },
+            {
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "harsh noise",
+              "count": 1,
+              "id": "5c61cf56-7dcd-4bd8-87e4-b5bb0c25255a",
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "id": "a4012b2e-5c27-4f81-8781-9ae5998d882c",
+              "disambiguation": "",
+              "name": "shoegaze"
+            }
+          ],
+          "tags": [
+            {
+              "name": "drum and bass",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "harsh noise"
+            },
+            {
+              "count": 1,
+              "name": "shoegaze"
+            }
+          ],
+          "id": "cd38c745-011d-42d8-86a0-d5ece0e53c66",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "спуск в тсж",
+          "country": "RU",
+          "disambiguation": "avant-garde hip-hop",
+          "sort-name": "спуск в тсж",
+          "type": "Group"
+        }
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": ""
+      },
+      {
+        "name": "noise",
+        "count": 1,
+        "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+        "disambiguation": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "noise",
+        "count": 1
+      }
+    ]
+  }
+}

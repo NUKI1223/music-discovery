@@ -1,0 +1,346 @@
+{
+  "endpoint": "release-group/5a586bcc-be19-36dd-b4b5-b0bb216c9fe0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5a586bcc-be19-36dd-b4b5-b0bb216c9fe0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:59.594402+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "tags": [
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "title": "Junk Planet",
+    "id": "5a586bcc-be19-36dd-b4b5-b0bb216c9fe0",
+    "genres": [
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 2,
+        "disambiguation": ""
+      },
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2004-07-13",
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Dutchmassive",
+        "artist": {
+          "disambiguation": "",
+          "country": "US",
+          "genres": [
+            {
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "name": "boom bap",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "dubstep",
+              "id": "1b50083b-1afa-4778-82c8-548b309af783"
+            },
+            {
+              "id": "60f00d05-df4d-496e-8f5a-c45c03a56ad4",
+              "name": "electro",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "name": "house",
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3"
+            },
+            {
+              "name": "instrumental",
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Dutchmassive",
+          "id": "c28a8ded-2272-4e66-8570-1a051af8ace4",
+          "tags": [
+            {
+              "name": "8bit",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "a tribe called quest"
+            },
+            {
+              "name": "analog",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "apathy"
+            },
+            {
+              "name": "atcq",
+              "count": 1
+            },
+            {
+              "name": "beat society",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "beat tapes"
+            },
+            {
+              "name": "beatfanatic",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "beats"
+            },
+            {
+              "name": "beattape",
+              "count": 1
+            },
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "name": "boom-bap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "buff1"
+            },
+            {
+              "name": "celph titled",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "crush your system"
+            },
+            {
+              "name": "de la soul",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "deephouse"
+            },
+            {
+              "count": 1,
+              "name": "dela"
+            },
+            {
+              "name": "demigodz",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "domination recordings"
+            },
+            {
+              "count": 1,
+              "name": "dubstep"
+            },
+            {
+              "name": "dutch",
+              "count": 1
+            },
+            {
+              "name": "dutch massive",
+              "count": 1
+            },
+            {
+              "name": "dutch vonepp ziegler",
+              "count": 1
+            },
+            {
+              "name": "dutch ziegler",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "dutchmassive"
+            },
+            {
+              "count": 1,
+              "name": "dutchy"
+            },
+            {
+              "name": "electro",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "electrosoul"
+            },
+            {
+              "count": 1,
+              "name": "equilibrium"
+            },
+            {
+              "count": 1,
+              "name": "final fantasy"
+            },
+            {
+              "name": "freshchest",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "gbc"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "name": "house",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "illmind"
+            },
+            {
+              "name": "instrumental",
+              "count": 1
+            },
+            {
+              "name": "intact",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "j dilla"
+            },
+            {
+              "name": "juicy jazz",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "junk panet"
+            },
+            {
+              "count": 1,
+              "name": "little brother"
+            },
+            {
+              "count": 1,
+              "name": "m-phazes"
+            },
+            {
+              "count": 1,
+              "name": "majik most"
+            },
+            {
+              "count": 1,
+              "name": "media"
+            },
+            {
+              "count": 1,
+              "name": "mellow"
+            },
+            {
+              "name": "native tongue",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "nes"
+            },
+            {
+              "name": "quit work make music",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            },
+            {
+              "count": 1,
+              "name": "rappersiknow"
+            },
+            {
+              "count": 1,
+              "name": "rawkus"
+            },
+            {
+              "name": "rawkus 50",
+              "count": 1
+            },
+            {
+              "name": "romanticizing",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "samiyam"
+            },
+            {
+              "count": 1,
+              "name": "save the empire"
+            },
+            {
+              "count": 1,
+              "name": "slopfunkdust"
+            },
+            {
+              "name": "spit kicker",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "the drumlove"
+            },
+            {
+              "name": "the hobbyshop hero",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "the next final fantasy"
+            }
+          ],
+          "sort-name": "Dutchmassive",
+          "type": "Person"
+        }
+      }
+    ],
+    "secondary-type-ids": []
+  }
+}

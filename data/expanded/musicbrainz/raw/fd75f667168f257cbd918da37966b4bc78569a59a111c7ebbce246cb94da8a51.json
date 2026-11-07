@@ -1,0 +1,113 @@
+{
+  "endpoint": "release-group/8b074e69-7e40-4d57-8c47-1bc48b753a06",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8b074e69-7e40-4d57-8c47-1bc48b753a06?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:42.115253+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "8b074e69-7e40-4d57-8c47-1bc48b753a06",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": ", ",
+        "name": "Paperi T",
+        "artist": {
+          "country": "FI",
+          "name": "Paperi T",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Paperi T",
+          "id": "f77bd9ea-26a4-456f-9647-031a3972ccee",
+          "genres": [
+            {
+              "name": "experimental hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "name": "hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ]
+        }
+      },
+      {
+        "artist": {
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "disambiguation": "Finnish artist Kristo Laanti",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Khid",
+          "country": "FI",
+          "genres": [
+            {
+              "name": "hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "id": "515c9684-2fc1-4b0f-a069-1a9805df6d82",
+          "sort-name": "Khid",
+          "type": "Person"
+        },
+        "name": "Khid",
+        "joinphrase": ""
+      }
+    ],
+    "title": "HBD RIP",
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "name": "experimental hip hop"
+      }
+    ],
+    "first-release-date": "2020-03-20",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

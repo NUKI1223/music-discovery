@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/0f368ee5-1904-42d8-a1af-8a20fa8c6523",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0f368ee5-1904-42d8-a1af-8a20fa8c6523?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:50.083031+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "0f368ee5-1904-42d8-a1af-8a20fa8c6523",
+    "artist-credit": [
+      {
+        "name": "Ankhlejohn",
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "hip hop",
+          "name": "ANKHLEJOHN",
+          "country": "US",
+          "genres": [
+            {
+              "count": 1,
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "disambiguation": "",
+              "name": "boom bap"
+            },
+            {
+              "name": "hardcore hip hop",
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "id": "bc1c42c7-627e-4486-a4f6-8961b24ce224",
+          "sort-name": "ANKHLEJOHN",
+          "type": "Person"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2020-09-04",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "title": "The New Militia"
+  }
+}

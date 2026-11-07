@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/4c2848c7-e383-485c-a6ba-13b64b46db31",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4c2848c7-e383-485c-a6ba-13b64b46db31?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:45.090775+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "1994",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "4c2848c7-e383-485c-a6ba-13b64b46db31",
+    "primary-type": "EP",
+    "title": "Soulja Fa Lyfe",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "",
+          "type": null,
+          "country": null,
+          "id": "c63218e1-7203-488b-a33b-1621caf42781",
+          "genres": [],
+          "type-id": null,
+          "tags": [],
+          "name": "Magnolia Slim",
+          "sort-name": "Magnolia Slim"
+        },
+        "joinphrase": "",
+        "name": "Magnolia Slim"
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ]
+  }
+}

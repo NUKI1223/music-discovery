@@ -1,0 +1,2610 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"experimental hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22experimental+hip+hop%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2020-01-01+TO+2026-10-28%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:16.627286+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:16.535Z",
+    "count": 488,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "47b2e70e-3e56-457e-9fe2-084b50d19840",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8339d98a-8523-321f-94a8-9bc227ba7efe",
+        "count": 1,
+        "title": "XUL1",
+        "first-release-date": "2023-08-31",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kai Whiston",
+            "artist": {
+              "id": "2d07209c-3847-4186-be6d-e19ef0157393",
+              "name": "Kai Whiston",
+              "sort-name": "Whiston, Kai"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "40659c3d-62ef-4b86-8590-7799cfd6de13",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "XUL1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ff5df3b2-3f5d-4550-afa0-48e76e42f2b0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "560e5f17-b49e-4d13-8bb9-8e8dd2b70ef8",
+        "count": 1,
+        "title": "Gothic Incorporated",
+        "first-release-date": "2021-03-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Plumbers Incorporated",
+            "artist": {
+              "id": "2b35e92b-d960-40c3-9407-53a9f65f4874",
+              "name": "Plumbers Incorporated",
+              "sort-name": "Plumbers Incorporated",
+              "disambiguation": "Comedy Rap duo from Las Vegas"
+            }
+          },
+          {
+            "name": "DZUD",
+            "artist": {
+              "id": "29a15b38-2478-4bb0-8177-84af538c410c",
+              "name": "DZUD",
+              "sort-name": "DZUD"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "def68497-fe16-4a7b-881d-9e7e5c761705",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Gothic Incorporated",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3341a97c-a0d6-478c-aca1-e5861be1aedc",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c270bbd5-12ce-4014-803d-43fb9bf3f41a",
+        "count": 1,
+        "title": "Donned California",
+        "first-release-date": "2020-08-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Plumbers Incorporated",
+            "artist": {
+              "id": "2b35e92b-d960-40c3-9407-53a9f65f4874",
+              "name": "Plumbers Incorporated",
+              "sort-name": "Plumbers Incorporated",
+              "disambiguation": "Comedy Rap duo from Las Vegas"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e3acb2ea-3ddd-4202-9ef7-a3dde8a93c11",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Donned California",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "582c9e91-d7e7-4d63-b3e8-1dbd4ca34be1",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ab4c6afa-82e7-350f-85ec-e516b0966150",
+        "count": 2,
+        "title": "the ONE",
+        "first-release-date": "2020-03-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "HAWA",
+            "artist": {
+              "id": "173c065d-fb25-4659-bddd-b95db7978902",
+              "name": "HAWA",
+              "sort-name": "HAWA",
+              "disambiguation": "Berlin born, NYC-based artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6aa6641c-f202-472c-908f-68d7f2d17290",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "the ONE",
+            "status": "Official"
+          },
+          {
+            "id": "a24abc8c-d412-40a6-bfc4-962be223bc63",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "the ONE",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "574f727e-f5c6-4615-8c32-85cfa1b8d76d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c40f113e-64d3-3aaf-9f43-f37ea4e9e994",
+        "count": 1,
+        "title": "ZWAARD",
+        "first-release-date": "2024-03-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Beans",
+            "artist": {
+              "id": "94232a04-13fb-40a1-a21a-303fb0643623",
+              "name": "Beans",
+              "sort-name": "Beans",
+              "disambiguation": "US rapper, member of Antipop Consortium",
+              "aliases": [
+                {
+                  "sort-name": "MC Beans",
+                  "name": "MC Beans",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "68846032-4b6d-4d14-a0a1-7ee6dd9bbf38",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ZWAARD",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c405b73b-586a-41fa-b44a-fe9e0264f281",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "28ebc0fa-6846-4caf-bf62-77e85f4aa583",
+        "count": 2,
+        "title": "darkskin niggas with lightskin problems",
+        "first-release-date": "2025-03-24",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " x ",
+            "name": "heavensouls",
+            "artist": {
+              "id": "de15ecbf-aee4-42e5-97c6-b538087a87dd",
+              "name": "heavensouls",
+              "sort-name": "heavensouls",
+              "aliases": [
+                {
+                  "sort-name": "Authks",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Authks",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "stickerbush",
+            "artist": {
+              "id": "5c317922-83f0-40f2-a947-fa5d9d1446c0",
+              "name": "Stickerbush",
+              "sort-name": "Stickerbush",
+              "disambiguation": "Electronic"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6003cf06-b3e6-4f08-bf33-41bd9e51e839",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Darkskin Niggas with Lightskin Problems",
+            "status": "Official"
+          },
+          {
+            "id": "f8a62873-7509-4f23-b74a-ab508d2e83a0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "darkskin niggas with lightskin problems",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "183d58ea-8460-4043-b51c-491cf1820fbc",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c270bbd5-12ce-4014-803d-43fb9bf3f41a",
+        "count": 1,
+        "title": "Plumbers Incinerated",
+        "first-release-date": "2021-07-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Plumbers Incorporated",
+            "artist": {
+              "id": "2b35e92b-d960-40c3-9407-53a9f65f4874",
+              "name": "Plumbers Incorporated",
+              "sort-name": "Plumbers Incorporated",
+              "disambiguation": "Comedy Rap duo from Las Vegas"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6a594803-37c0-41fa-be73-e86b2073dc34",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Plumbers Incinerated",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "273e94dd-a22c-4e09-a4db-a83e408d4985",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c270bbd5-12ce-4014-803d-43fb9bf3f41a",
+        "count": 1,
+        "title": "Live at Friend's House",
+        "first-release-date": "2021-02-27",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Plumbers Incorporated",
+            "artist": {
+              "id": "2b35e92b-d960-40c3-9407-53a9f65f4874",
+              "name": "Plumbers Incorporated",
+              "sort-name": "Plumbers Incorporated",
+              "disambiguation": "Comedy Rap duo from Las Vegas"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d0814f9d-9992-4b54-9f6f-ed5093f169d8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Live at Friend's House",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "a8525336-2c51-4917-9c2a-3051c9336670",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6db4748e-4c55-37b1-a0a4-c340c32fc87d",
+        "count": 1,
+        "title": "Velvet Heaven",
+        "first-release-date": "2020-07-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "zavet",
+            "artist": {
+              "id": "bbb1d20c-b3ec-4b48-9a90-206289d92047",
+              "name": "zavet",
+              "sort-name": "zavet"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9b8b9f32-32cf-4073-947c-0011e49df06a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Velvet Heaven",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3cf5f5c8-8786-4f40-a67c-89c9337a11a8",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 88,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1ff18084-51e2-434d-a422-5ef5124a5432",
+        "count": 3,
+        "title": "quinn",
+        "first-release-date": "2022-07-22",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "quinn",
+            "artist": {
+              "id": "46a0eeec-1137-4303-85eb-ad11addbe5e4",
+              "name": "osquinn",
+              "sort-name": "osquinn",
+              "disambiguation": "digicore artist",
+              "aliases": [
+                {
+                  "sort-name": "quinn",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "quinn",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "parkr",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "p4rkr",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "user-574126634",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "user-574126634",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Dupree, Parker",
+                  "name": "Parker Dupree",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Dupree, Quinn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Quinn Dupree",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "osquinn",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "osquinn",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d917fb48-d2da-4fd7-8bc1-72afadd6b846",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "quinn",
+            "status": "Official"
+          },
+          {
+            "id": "1589333c-384c-493b-bb68-f107b10683a0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "quinn",
+            "status": "Official"
+          },
+          {
+            "id": "534aeded-eb49-427e-80d7-a4c5cfd4aeeb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "quinn",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "af4ed72c-5902-4781-bd2f-f5dc7fb0a300",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "17596e58-7510-3b94-ab7b-1917c773dc9e",
+        "count": 1,
+        "title": "HedNod Eleven",
+        "first-release-date": "2022-03-04",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Mick Harris",
+            "artist": {
+              "id": "3e52449a-fa44-4fbc-918d-5d6b27e96d94",
+              "name": "Mick Harris",
+              "sort-name": "Harris, Mick",
+              "disambiguation": "ex Napalm Death drummer",
+              "aliases": [
+                {
+                  "sort-name": "M.J. Harris",
+                  "name": "M.J. Harris",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Harris, Michael John",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael John Harris",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "33034870-4ddc-4283-851e-6eabe858a3c7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HedNod Eleven",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "illbient"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8f7c6f94-9687-4836-8ee8-b674ae01f758",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "17596e58-7510-3b94-ab7b-1917c773dc9e",
+        "count": 1,
+        "title": "HedNod Six",
+        "first-release-date": "2021-02-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Mick Harris",
+            "artist": {
+              "id": "3e52449a-fa44-4fbc-918d-5d6b27e96d94",
+              "name": "Mick Harris",
+              "sort-name": "Harris, Mick",
+              "disambiguation": "ex Napalm Death drummer",
+              "aliases": [
+                {
+                  "sort-name": "M.J. Harris",
+                  "name": "M.J. Harris",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Harris, Michael John",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael John Harris",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d4dc01ac-6a0f-4d06-846b-867a7c7fcc7b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HedNod Six",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "illbient"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8fad1bfa-3826-4b9b-a70c-46c1454ac7f0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "dcc62425-9eef-47b0-9ae0-a31a9e5b5a53",
+        "count": 1,
+        "title": "ToonTown",
+        "first-release-date": "2021-05-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Euro",
+            "artist": {
+              "id": "c130962e-5d03-4a30-ae55-a021737fce76",
+              "name": "Wintercastle",
+              "sort-name": "Wintercastle",
+              "aliases": [
+                {
+                  "sort-name": "Euro",
+                  "name": "Euro",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "octi",
+            "artist": {
+              "id": "3740bbc6-e96f-4caa-b8a6-c7955e45799f",
+              "name": "octi",
+              "sort-name": "octi"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2bcc7b05-0fc4-43da-8f0a-521941cbf9a3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ToonTown",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "drill"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "b1df60bb-5961-4af7-a860-d41d45e232c4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b180a4ba-930e-4f8b-9cf0-c4996f1f916a",
+        "count": 1,
+        "title": "The Last Symbolist",
+        "first-release-date": "2020-07-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Iceberg Theory",
+            "artist": {
+              "id": "64c81ea0-678d-452d-bc39-136455537cd4",
+              "name": "Iceberg Theory",
+              "sort-name": "Iceberg Theory"
+            }
+          },
+          {
+            "name": "Bloodblixing",
+            "artist": {
+              "id": "cd8a48ec-87a9-43b1-9514-4c5d058963ec",
+              "name": "Bloodblixing",
+              "sort-name": "Bloodblixing"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "817dc8ea-9f82-4bc9-8ca3-89e9e756992e",
+            "title": "The Last Symbolist"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5ed16a2e-3187-4d8a-b408-979d9b963252",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 87,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6aaef0be-8925-3775-8586-e27c08f1b4b8",
+        "count": 1,
+        "title": "REMXNG 2.3",
+        "first-release-date": "2022-10-05",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "clipping.",
+            "artist": {
+              "id": "84ca8fa4-7cca-4948-a90a-cb44db29853d",
+              "name": "clipping.",
+              "sort-name": "clipping.",
+              "disambiguation": "US experimental hip-hop",
+              "aliases": [
+                {
+                  "sort-name": "clppng",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "clppng",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f2437bdd-a9b0-459d-8ad8-a5613647cab4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "REMXNG 2.3",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "aa942b4e-b450-4c3f-a8a1-908b7e6b7ceb",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f9eef71c-43cb-390f-b4ea-ab3200a9a173",
+        "count": 1,
+        "title": "BIG tiny Planet",
+        "first-release-date": "2021-06-29",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " feat. ",
+            "name": "Raw Poetic",
+            "artist": {
+              "id": "9eab745b-a9f1-4af7-9423-37369e2893d8",
+              "name": "Raw Poetic",
+              "sort-name": "Raw Poetic",
+              "disambiguation": "aka Jason Moore, rapper from Virginia, USA",
+              "aliases": [
+                {
+                  "sort-name": "Raw Poetic",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Raw Poetic",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Damu the Fudgemunk",
+            "artist": {
+              "id": "c0170663-daf4-4445-8ee8-64e0415d38a8",
+              "name": "Damu the Fudgemunk",
+              "sort-name": "Damu the Fudgemunk",
+              "aliases": [
+                {
+                  "sort-name": "Damu The Fudge Munk",
+                  "name": "Damu The Fudge Munk",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d4514e47-8238-4a10-af3b-1bb0dde4c361",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BIG tiny Planet",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0831955f-99be-49ac-9b26-e90d230e59cd",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "30d0532f-47d1-3c4c-b0c2-4ca49fdfacfa",
+        "count": 1,
+        "title": "Tank",
+        "first-release-date": "2022-04-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Monsieur Saï",
+            "artist": {
+              "id": "e6bc04ef-28ed-4c43-97af-219d22f8b096",
+              "name": "Monsieur Saï",
+              "sort-name": "Saï, Monsieur",
+              "disambiguation": "The MC, als performing as group under same name"
+            }
+          },
+          {
+            "name": "Mitron Skovronski",
+            "artist": {
+              "id": "5f0daf58-c751-4574-8f16-228bf44f2f60",
+              "name": "Mitron Skovronski",
+              "sort-name": "Mitron Skovronski",
+              "disambiguation": "French music maker (from Le Mans, France)"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a4cf1691-1f4a-411c-a820-c7fad47dc1cb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tank",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "punk"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8e8c482d-1fd3-4e64-8295-eb11fa4dc092",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f33761cf-1e31-389c-988a-21dbd5ea2175",
+        "count": 1,
+        "title": "(๑꒦ ̼ ꒦๑)",
+        "first-release-date": "2021-01-10",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "FantaLite",
+            "artist": {
+              "id": "e9206bd8-682b-4865-904f-9013136c5c96",
+              "name": "FantaLite",
+              "sort-name": "FantaLite"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "dc42b94d-cea6-4767-b5ca-f4ee3f1e012e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "(๑꒦ ̼ ꒦๑)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "hexd"
+          }
+        ]
+      },
+      {
+        "id": "ad27074e-ff51-4998-a45d-30b42b5421ea",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "af69a53a-946d-4766-ad5c-4c17be335a75",
+        "count": 1,
+        "title": "S.A.I.N (Sounds Acquired In Nature)",
+        "first-release-date": "2022-10-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Mr Phormula",
+            "artist": {
+              "id": "20354877-e492-48fd-aa50-84fe653bdb25",
+              "name": "Mr Phormula",
+              "sort-name": "Phormula, Mr",
+              "disambiguation": "welsh language beat boxer / rap artist"
+            }
+          },
+          {
+            "joinphrase": " as ",
+            "name": "Lord Willin",
+            "artist": {
+              "id": "c39d860d-f9d5-41fe-86ea-a68325374d3b",
+              "name": "Lord Willin",
+              "sort-name": "Lord Willin",
+              "aliases": [
+                {
+                  "sort-name": "Lordwillin",
+                  "name": "Lordwillin",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Hel Clecs",
+            "artist": {
+              "id": "f343bd58-23bf-4daf-aac9-a5f7eb24eaea",
+              "name": "Hel Clecs",
+              "sort-name": "Hel Clecs"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "393ad8e8-0a80-42b9-8071-ff0833139d46",
+            "title": "S.A.I.N (Sounds Acquired In Nature)"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "beatboxing"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0da93d32-71d0-49fb-b643-6be46cf416af",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "17596e58-7510-3b94-ab7b-1917c773dc9e",
+        "count": 1,
+        "title": "HedNod Five",
+        "first-release-date": "2021-01-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Mick Harris",
+            "artist": {
+              "id": "3e52449a-fa44-4fbc-918d-5d6b27e96d94",
+              "name": "Mick Harris",
+              "sort-name": "Harris, Mick",
+              "disambiguation": "ex Napalm Death drummer",
+              "aliases": [
+                {
+                  "sort-name": "M.J. Harris",
+                  "name": "M.J. Harris",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Harris, Michael John",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael John Harris",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8510d41b-caab-4f18-8eaa-dd8acfbaa563",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HedNod Five",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "dub"
+          },
+          {
+            "count": 1,
+            "name": "illbient"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1a76f15c-5b43-41c0-8266-1626e3b4996e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "564af303-ff02-467c-93f2-0b1a4d7a021c",
+        "count": 1,
+        "title": "Three Riders",
+        "first-release-date": "2020-03-20",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "GILA",
+            "artist": {
+              "id": "5b2f28c1-6df7-4fec-b024-c303a498ccc5",
+              "name": "Gila",
+              "sort-name": "Gila",
+              "disambiguation": "Electronic producer from Denver, Colorado"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c8457f8b-7fad-4149-847c-6ff46b3c5c19",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Three Riders",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "cc671e09-9caf-429e-815b-c506987fd133",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "928868e2-8d10-34eb-83fd-6faa3371bf48",
+        "count": 1,
+        "title": "Lunar Maria",
+        "first-release-date": "2020-01-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "TOMC",
+            "artist": {
+              "id": "34576d6d-b4ac-4da5-87c8-0a019039022d",
+              "name": "TOMC",
+              "sort-name": "TOMC",
+              "disambiguation": "Japanese beatmaker and ambient musician",
+              "aliases": [
+                {
+                  "sort-name": "Sakai, Takahiro",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Takahiro Sakai",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ea6e8246-8b85-4a6d-9578-6db0109c0ac5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lunar Maria",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental electronic"
+          }
+        ]
+      },
+      {
+        "id": "37c58d59-04ab-475a-a945-67f2da2652fa",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "605eac62-e8a6-449b-a256-ecbe66f8cfb6",
+        "count": 1,
+        "title": "The Misadventures of Hayek Von Pinochet and his Men Of Action",
+        "first-release-date": "2020-09-02",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kurt Rambus",
+            "artist": {
+              "id": "f6893826-8d60-494d-b28d-c562e54c0bc2",
+              "name": "Kurt Rambus",
+              "sort-name": "Kurt Rambus"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a6043397-139b-41f4-8a8e-9ee0af6c4e9d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Misadventures of Hayek Von Pinochet and his Men Of Action",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "downtempo"
+          },
+          {
+            "count": 1,
+            "name": "electronica"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d59f9e5b-855b-44b9-9b33-307e712f3771",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "88258f76-631d-370f-a7b9-3eb03a02a3e3",
+        "count": 2,
+        "title": "Slacks",
+        "first-release-date": "2025-07-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Cities Aviv",
+            "artist": {
+              "id": "12416eaf-f1b6-4f20-9d00-a6e4376e765b",
+              "name": "Cities Aviv",
+              "sort-name": "Cities Aviv"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2a6de222-eb9a-4960-99dc-543d9263b613",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Slacks (2025)",
+            "status": "Official"
+          },
+          {
+            "id": "6608b18a-5b68-4530-9c1e-8327f3254c2f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Slacks",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "drumless hip hop"
+          }
+        ]
+      },
+      {
+        "id": "754abd54-f9b1-4556-84a1-2ed482db85e5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "4e0e290d-463b-4c0c-8f87-0b9d649840c7",
+        "count": 1,
+        "title": "whats past is prologue",
+        "first-release-date": "2023-04-02",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "3HIEF",
+            "artist": {
+              "id": "a5955e7a-c520-4eaa-b999-e71d375689d5",
+              "name": "3HIEF",
+              "sort-name": "3HIEF",
+              "disambiguation": "US experimental hip‐hop",
+              "aliases": [
+                {
+                  "sort-name": "YooChief",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "YooChief",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6616ed40-2ef3-4e31-ba5c-8f37752350bd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "whats past is prologue",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rap"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "sigilkore"
+          }
+        ]
+      },
+      {
+        "id": "8be321f9-10d8-470a-bee8-9bcb5aa93a73",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e1f319e6-beab-3de9-9cb1-73e06e691c46",
+        "count": 1,
+        "title": "tape [ ★☆☆☆☆ ] scraps",
+        "first-release-date": "2020-06-14",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "ilysm",
+            "artist": {
+              "id": "1f7fe539-7dda-427b-991e-854179f00d8c",
+              "name": "ilysm",
+              "sort-name": "ilysm",
+              "disambiguation": "CA | SoundCloud rap"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6a6fc5f2-bf5c-4fcf-b796-03144dbed426",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "tape [ ★☆☆☆☆ ] scraps",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "76ad2ecc-cebf-4f46-8efa-134664aad1db",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9091f164-f710-33a3-ab59-16c9b5957134",
+        "count": 1,
+        "title": "One Year",
+        "first-release-date": "2020-06-26",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Model Home",
+            "artist": {
+              "id": "97f310c5-6106-4893-94c9-98529de40bb3",
+              "name": "Model Home",
+              "sort-name": "Model Home",
+              "disambiguation": "Electronic/hip hop duo based in Washington, D.C."
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5fbe68f1-e119-407c-ad1a-1808cec59c76",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "One Year",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "09724165-372a-4da8-8c2a-1ebefa96aac7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "17e9dbf2-3e7f-3e60-a954-1bc4479df5f3",
+        "count": 3,
+        "title": "Tangram",
+        "first-release-date": "2020-06-12",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Material Girl",
+            "artist": {
+              "id": "8038297b-a345-4a13-8493-f0c04ece224c",
+              "name": "Material Girl",
+              "sort-name": "Material Girl"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b0650932-672a-49e1-a3b8-a2130a1ae2de",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tangram",
+            "status": "Official"
+          },
+          {
+            "id": "7e5db0b7-75d4-4114-8350-0e2e6683e8ad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tangram",
+            "status": "Official"
+          },
+          {
+            "id": "6fd29494-79f4-454b-9e2c-36bbeaf9cfe5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tangram",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "plunderphonics"
+          }
+        ]
+      },
+      {
+        "id": "8cd0d30e-928b-4668-9ff1-8633088a0edc",
+        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d633a50c-39fa-302b-9594-9940c202cf79",
+        "count": 1,
+        "title": "Dutch Radio Live studio session",
+        "first-release-date": "2021-07-06",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Live"
+        ],
+        "secondary-type-ids": [
+          "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+        ],
+        "artist-credit": [
+          {
+            "name": "Scorn",
+            "artist": {
+              "id": "b55479cc-e078-49e2-9ff5-52ace46802d9",
+              "name": "Scorn",
+              "sort-name": "Scorn",
+              "disambiguation": "British electronic group"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "16ed8cfb-8e47-4d16-8095-ef0497db14c0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dutch Radio Live studio session",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3d4da5d9-d39a-4f49-b17c-474a927417b1",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "33f92fb1-0ac4-349f-90e1-6515e114bbe1",
+        "count": 2,
+        "title": "Death Miracles",
+        "first-release-date": "2020-01-08",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Cage",
+            "artist": {
+              "id": "8e0c435a-d7e0-43c4-a99d-808c6a47e1b4",
+              "name": "Cage",
+              "sort-name": "Cage",
+              "disambiguation": "New York-based hip hop artist Chris Palko"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7d53989d-cca1-4c5d-87cf-deacac1da6bb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Death Miracles",
+            "status": "Official"
+          },
+          {
+            "id": "22740126-2107-4123-a1a9-4eb2c3f8ec3a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Death Miracles",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "eac1b833-2d46-4ee4-93f7-34ad793cf6b7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 81,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9091f164-f710-33a3-ab59-16c9b5957134",
+        "count": 1,
+        "title": "Saturn in the Basement",
+        "first-release-date": "2022-05-20",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Model Home",
+            "artist": {
+              "id": "97f310c5-6106-4893-94c9-98529de40bb3",
+              "name": "Model Home",
+              "sort-name": "Model Home",
+              "disambiguation": "Electronic/hip hop duo based in Washington, D.C."
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2ed5878d-4e80-4330-8898-8092095b3a6a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Saturn in the Basement",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "bb4dd14c-48ee-4912-98c7-37e20f4f9a40",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "17596e58-7510-3b94-ab7b-1917c773dc9e",
+        "count": 1,
+        "title": "HedNod Nine",
+        "first-release-date": "2021-07-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Mick Harris",
+            "artist": {
+              "id": "3e52449a-fa44-4fbc-918d-5d6b27e96d94",
+              "name": "Mick Harris",
+              "sort-name": "Harris, Mick",
+              "disambiguation": "ex Napalm Death drummer",
+              "aliases": [
+                {
+                  "sort-name": "M.J. Harris",
+                  "name": "M.J. Harris",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Harris, Michael John",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael John Harris",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f458c180-fca6-42ac-aa17-b0fee052da44",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HedNod Nine",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "56d5f976-1adf-4c02-a1ed-c36d46a1c10d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "17596e58-7510-3b94-ab7b-1917c773dc9e",
+        "count": 1,
+        "title": "HedNod Eight",
+        "first-release-date": "2021-04-02",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Mick Harris",
+            "artist": {
+              "id": "3e52449a-fa44-4fbc-918d-5d6b27e96d94",
+              "name": "Mick Harris",
+              "sort-name": "Harris, Mick",
+              "disambiguation": "ex Napalm Death drummer",
+              "aliases": [
+                {
+                  "sort-name": "M.J. Harris",
+                  "name": "M.J. Harris",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Harris, Michael John",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael John Harris",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5d672655-cb37-4c6a-b7b6-3e7d46e0cddc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HedNod Eight",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "42749173-8062-409e-a25a-16ad62c0e6e4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ff28e22c-f440-4821-9902-13ce7fb423dc",
+        "count": 1,
+        "title": "paletteswapninja",
+        "first-release-date": "2023-08-04",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Demo"
+        ],
+        "secondary-type-ids": [
+          "81598169-0d6c-3bce-b4be-866fa658eda3"
+        ],
+        "artist-credit": [
+          {
+            "name": "paletteswapninja",
+            "artist": {
+              "id": "51787a24-f5c5-44a7-a4f0-7c6698f1eef8",
+              "name": "paletteswapninja",
+              "sort-name": "paletteswapninja",
+              "disambiguation": "AKA derivative 虚"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7427978b-c7f6-429c-9a15-0234e147455f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "paletteswapninja",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "plunderphonics"
+          },
+          {
+            "count": 1,
+            "name": "vaporwave"
+          }
+        ]
+      },
+      {
+        "id": "5ece7585-3729-49ef-a475-ebfdfdfbdce8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c5d23611-78d2-3224-9acd-c88b0fb55cd8",
+        "count": 1,
+        "title": "Plays Bladee",
+        "first-release-date": "2020-04-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "999 Heartake Sabileye",
+            "artist": {
+              "id": "fada526f-2d65-4a2c-8439-d496b7c90790",
+              "name": "999 Heartake Sabileye",
+              "sort-name": "999 Heartake Sabileye"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2dc7c83a-ea47-4737-a63a-6ab7d8aa84b8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Plays Bladee",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "chopped and screwed"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "0785ced7-6bb9-4ba6-b817-2f91a417219f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c5d23611-78d2-3224-9acd-c88b0fb55cd8",
+        "count": 1,
+        "title": "Fourth Ring",
+        "first-release-date": "2020-03-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "999 Heartake Sabileye",
+            "artist": {
+              "id": "fada526f-2d65-4a2c-8439-d496b7c90790",
+              "name": "999 Heartake Sabileye",
+              "sort-name": "999 Heartake Sabileye"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9f5a4010-669e-47f9-a790-e27766aa49d8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fourth Ring",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "chopped and screwed"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "c399a8d9-68e7-4ea0-bf35-bd033c1cf89c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "80e10dcf-f54f-4e5d-bfaa-e29bfab4307a",
+        "count": 1,
+        "title": "корпускула",
+        "first-release-date": "2021-08-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "спуск в тсж",
+            "artist": {
+              "id": "cd38c745-011d-42d8-86a0-d5ece0e53c66",
+              "name": "спуск в тсж",
+              "sort-name": "спуск в тсж",
+              "disambiguation": "avant-garde hip-hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6fd42260-4b86-43fd-aef5-8ca56e7c530a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "корпускула",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "noise"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3b8a7a1b-fbf9-4102-9846-e3196bd6ba9e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "1dc1318e-0630-4723-b5a5-7a89cfc157e5",
+        "count": 1,
+        "title": "Aggressor/Vital Points",
+        "first-release-date": "2024-05-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "The Brutal Art of Stabbing",
+            "artist": {
+              "id": "a7c4c851-1dcf-4137-a389-196e01ff76ca",
+              "name": "The Brutal Art of Stabbing",
+              "sort-name": "The Brutal Art of Stabbing"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "91c021b5-6bb1-46a9-8f17-5b7712aa71e1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Aggressor/Vital Points",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "industrial"
+          },
+          {
+            "count": 1,
+            "name": "noise"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "cf4001c3-122e-4409-8f48-a81d89baad9d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d82601b1-1821-3adc-baf6-9118dd2624fa",
+        "count": 1,
+        "title": "Dos Moons EP",
+        "first-release-date": "2025-05-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Dos Monos",
+            "artist": {
+              "id": "83abf2d5-a578-41a7-b51d-ca9a44a00545",
+              "name": "Dos Monos",
+              "sort-name": "Dos Monos"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d72b7a3e-a239-4378-8224-38f4645f1b07",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dos Moons EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "j-rock"
+          },
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0795192d-1392-4b60-b70a-1e40625b01c3",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "939c36f3-f8fb-4a4d-8f81-38e6d94bd1a8",
+        "count": 1,
+        "title": "Orwell & Goode",
+        "first-release-date": "2020-05-12",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Orwell & Goode",
+            "artist": {
+              "id": "764f6355-1e89-4a66-9636-2e59692552f1",
+              "name": "Orwell & Goode",
+              "sort-name": "Orwell & Goode",
+              "disambiguation": "hip hop duo looms. & HUE"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8e6c9ecd-ec1e-4d48-a4c9-dfdc9b915654",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Orwell & Goode",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "noise"
+          },
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b780f1f2-dcf8-44c8-babe-561589acdaf5",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "b4092cd4-2505-3e17-973b-1dc7285bc48d",
+        "count": 1,
+        "title": "Innocent Times: Eight Poems to Music from 2019",
+        "first-release-date": "2020-06-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Bistro",
+            "artist": {
+              "id": "9f26ce3d-a3be-484f-9839-fbd08b1acf76",
+              "name": "Bistro",
+              "sort-name": "Bistro"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f9ea8270-3bd1-4d59-a817-f55e4d4e3f19",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Innocent Times: Eight Poems to Music from 2019",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "80cc5e74-8f05-4ce2-8279-1eef8fe1f09f",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c40f113e-64d3-3aaf-9f43-f37ea4e9e994",
+        "count": 1,
+        "title": "Team BreakUP",
+        "first-release-date": "2020-07-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Beans",
+            "artist": {
+              "id": "94232a04-13fb-40a1-a21a-303fb0643623",
+              "name": "Beans",
+              "sort-name": "Beans",
+              "disambiguation": "US rapper, member of Antipop Consortium",
+              "aliases": [
+                {
+                  "sort-name": "MC Beans",
+                  "name": "MC Beans",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "109bd988-e573-45a3-8d7d-7c161ba6f8c7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Team BreakUP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3b54daf8-db44-483a-b6ca-f98be3e1e25c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c40f113e-64d3-3aaf-9f43-f37ea4e9e994",
+        "count": 1,
+        "title": "Venga",
+        "first-release-date": "2020-09-18",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Beans",
+            "artist": {
+              "id": "94232a04-13fb-40a1-a21a-303fb0643623",
+              "name": "Beans",
+              "sort-name": "Beans",
+              "disambiguation": "US rapper, member of Antipop Consortium",
+              "aliases": [
+                {
+                  "sort-name": "MC Beans",
+                  "name": "MC Beans",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d2be0e46-d2b6-47b3-9d33-dc6e0101613b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Venga",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e06fa230-7f67-4d3d-99de-c5459b3ac97d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "7c7c58b1-00ee-3379-b1c9-1d2e47e1cd8e",
+        "count": 1,
+        "title": "“Disco!”",
+        "first-release-date": "2021-06-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "MIKE",
+            "artist": {
+              "id": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+              "name": "MIKE",
+              "sort-name": "MIKE",
+              "disambiguation": "New York rapper, founder of 10k",
+              "aliases": [
+                {
+                  "sort-name": "Bonema, Michael Jordan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael Jordan Bonema",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "936d4e37-a841-4925-9953-b0f1bc059e32",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "“Disco!”",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f2b9707a-940a-48c1-b11c-cc2527260031",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8dd346f7-c3d4-32a0-b852-1de59c70312c",
+        "count": 1,
+        "title": "Take Caution on the Beach",
+        "first-release-date": "2021-04-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Sharkula",
+            "artist": {
+              "id": "57b08494-bd97-418f-9b69-667db27ac678",
+              "name": "Sharkula",
+              "sort-name": "Sharkula"
+            }
+          },
+          {
+            "name": "Mukqs",
+            "artist": {
+              "id": "85de81e6-43ec-4f8d-a450-9c9ed41a79e7",
+              "name": "Mukqs",
+              "sort-name": "Mukqs"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8ecc5074-5dcf-4a6c-b41a-1603b1c03a15",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Take Caution on the Beach",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0e0f29fc-61e6-45e6-94d5-1bfaf978bb8c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6d59059c-d2e5-3994-b5e4-6b70321a1293",
+        "count": 1,
+        "title": "With The Shifts",
+        "first-release-date": "2021-01-23",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Maassai",
+            "artist": {
+              "id": "94755699-2f70-4af4-b020-9bf141a8bf59",
+              "name": "Maassai",
+              "sort-name": "Maassai",
+              "aliases": [
+                {
+                  "sort-name": "Maasai",
+                  "name": "Maasai",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "69f701fb-8318-426c-964e-cd519ea1d3d9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "With The Shifts",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1cf5979e-ce16-46ce-98df-9dd567cf4517",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "17596e58-7510-3b94-ab7b-1917c773dc9e",
+        "count": 1,
+        "title": "Drones Tones Drifts and Feedbacks Part 1",
+        "first-release-date": "2021-05-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Mick Harris",
+            "artist": {
+              "id": "3e52449a-fa44-4fbc-918d-5d6b27e96d94",
+              "name": "Mick Harris",
+              "sort-name": "Harris, Mick",
+              "disambiguation": "ex Napalm Death drummer",
+              "aliases": [
+                {
+                  "sort-name": "M.J. Harris",
+                  "name": "M.J. Harris",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Harris, Michael John",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael John Harris",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3ff007df-c704-4436-945a-b6a802e23678",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Drones Tones Drifts and Feedbacks Part 1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "drone"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0cdc5106-af2f-4a54-b31c-49837485d9c0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4395a454-386f-37c6-80e0-7918b63be2ec",
+        "count": 1,
+        "title": "Real Life",
+        "first-release-date": "2020-02-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Lil Milk",
+            "artist": {
+              "id": "6f956f43-1bee-4133-8dc3-81c6e54a2ab1",
+              "name": "Lil Milk",
+              "sort-name": "Lil Milk"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "fd99b87e-cee8-4a54-a83a-be9adc987946",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Real Life",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "16d469b8-7f4c-4cf2-9efd-f4f160d7f826",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "17e9dbf2-3e7f-3e60-a954-1bc4479df5f3",
+        "count": 1,
+        "title": "i85mixx21-22",
+        "first-release-date": "2022-03-25",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Material Girl",
+            "artist": {
+              "id": "8038297b-a345-4a13-8493-f0c04ece224c",
+              "name": "Material Girl",
+              "sort-name": "Material Girl"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "aa35e971-8e33-4d7b-86d9-a91cdfbc12ae",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "i85mixx21-22",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "55edeec9-0a8d-40a5-a3fb-32bf49c42b1e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 76,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "17596e58-7510-3b94-ab7b-1917c773dc9e",
+        "count": 1,
+        "title": "HedNod Twelve",
+        "first-release-date": "2022-04-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Mick Harris",
+            "artist": {
+              "id": "3e52449a-fa44-4fbc-918d-5d6b27e96d94",
+              "name": "Mick Harris",
+              "sort-name": "Harris, Mick",
+              "disambiguation": "ex Napalm Death drummer",
+              "aliases": [
+                {
+                  "sort-name": "M.J. Harris",
+                  "name": "M.J. Harris",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Harris, Michael John",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael John Harris",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7522a7e3-72b5-4e1b-b597-e16a40490d91",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HedNod Twelve",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "illbient"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          }
+        ]
+      }
+    ]
+  }
+}

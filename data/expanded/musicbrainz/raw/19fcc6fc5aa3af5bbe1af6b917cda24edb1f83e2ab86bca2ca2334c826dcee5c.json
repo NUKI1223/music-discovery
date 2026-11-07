@@ -1,0 +1,59 @@
+{
+  "endpoint": "release-group/ae43af25-62e2-40f6-a7f8-a8910af7c144",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ae43af25-62e2-40f6-a7f8-a8910af7c144?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:29.376673+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "ae43af25-62e2-40f6-a7f8-a8910af7c144",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "name": "Beans",
+        "joinphrase": "",
+        "artist": {
+          "country": "US",
+          "name": "Beans",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rapper, member of Antipop Consortium",
+          "tags": [
+            {
+              "name": "warp",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Beans",
+          "id": "94232a04-13fb-40a1-a21a-303fb0643623",
+          "genres": []
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      }
+    ],
+    "title": "Love Me Tonight",
+    "first-release-date": "2017-03-31",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

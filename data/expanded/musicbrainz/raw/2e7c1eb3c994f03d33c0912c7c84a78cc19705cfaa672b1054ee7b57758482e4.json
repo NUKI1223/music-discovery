@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/d458c629-0a4e-49ac-b83c-76ea0217b04b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d458c629-0a4e-49ac-b83c-76ea0217b04b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:58.470557+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "tags": [
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "title": "Treblemaker",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "d458c629-0a4e-49ac-b83c-76ea0217b04b",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "name": "instrumental hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [],
+          "id": "a1af18a6-bbf1-42e4-8bd5-a4357c7d435e",
+          "name": "10.4 ROG",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "US",
+          "type": "Person",
+          "sort-name": "10.4 ROG",
+          "genres": [],
+          "disambiguation": ""
+        },
+        "name": "10.4 Rog",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "disambiguation": "",
+    "first-release-date": "2020-10-29"
+  }
+}

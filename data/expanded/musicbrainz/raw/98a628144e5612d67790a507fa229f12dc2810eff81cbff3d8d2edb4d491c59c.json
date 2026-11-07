@@ -1,0 +1,4811 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"abstract hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22abstract+hip+hop%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2010-01-01+TO+2019-12-31%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:20.840268+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:20.649Z",
+    "count": 207,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "c9c69c65-2967-4c3f-a1a6-faeb531098b1",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b6a3c3ae-3b53-3287-82e1-9befcd32d593",
+        "count": 1,
+        "title": "⚠",
+        "first-release-date": "2013-02-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "👒",
+            "artist": {
+              "id": "32d55457-fac7-4768-94a1-14173c092b63",
+              "name": "Ditherer",
+              "sort-name": "Ditherer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "95146df0-f609-48e0-bb0b-1c62727fa3cb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "⚠",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3d847591-7975-4fd5-a0a9-15c02fcf76e0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 98,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "64a19e38-43a7-4d38-89e3-3771141a5a17",
+        "count": 1,
+        "title": "Murmures Barbares",
+        "first-release-date": "2013-05-24",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Idal & Hook",
+            "artist": {
+              "id": "ab40cede-1595-4d28-9080-862b11490fe7",
+              "name": "Idal & Hook",
+              "sort-name": "Idal & Hook"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d81118e9-69a6-4cb0-bf03-28752502ba96",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Murmures Barbares",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "64524ee6-0f0d-4e1d-8223-7e1097b82eb2",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 98,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+        "count": 1,
+        "title": "Banzaï Lab #7",
+        "first-release-date": "2015-06-01",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "Various Artists",
+            "artist": {
+              "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+              "name": "Various Artists",
+              "sort-name": "Various Artists",
+              "disambiguation": "add compilations to this artist",
+              "aliases": [
+                {
+                  "sort-name": "VI, Grand Theft Auto",
+                  "name": "Grand Theft Auto VI",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "versch. Künstler",
+                  "name": "versch. Künstler",
+                  "locale": "de",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Variuos",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Variuos",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Multi‐interprètes",
+                  "name": "Multi‐interprètes",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "War Child Records",
+                  "name": "War Child Records",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "различные исполнители",
+                  "name": "[различные исполнители]",
+                  "locale": "ru",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "ヴァリアス・アーティスト",
+                  "name": "ヴァリアス・アーティスト",
+                  "locale": "ja",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Multi‐interprètes",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Multi‐interprètes",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "val",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "val",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Talented Artists",
+                  "name": "Various Talented Artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Records, Circus",
+                  "name": "Circus Records",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Celtic Artists",
+                  "name": "Various Celtic Artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diverse Kunstnere",
+                  "name": "Diverse Kunstnere",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Multi Interprètes",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Multi Interprètes",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various (original artists)",
+                  "name": "Various (original artists)",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Variées",
+                  "name": "Variées",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Compilaciones",
+                  "name": "Compilaciones",
+                  "locale": "es",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Artistes variés",
+                  "name": "Artistes variés",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "(various)",
+                  "name": "(various)",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AA.VV.",
+                  "name": "AA.VV.",
+                  "locale": "it",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hitradio Ö3",
+                  "name": "Hitradio Ö3",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Cheapbeats",
+                  "name": "Cheapbeats",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Artist - GoGo Wonderful",
+                  "name": "Various Artist - GoGo Wonderful",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diverse danske artister",
+                  "name": "Diverse danske artister",
+                  "locale": "da",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varied",
+                  "name": "Varied",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Comp.",
+                  "name": "Comp.",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "VAR",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "VAR",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ｖ．Ａ.",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Ｖ．Ａ.",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "אומנים שונים",
+                  "name": "אומנים שונים",
+                  "locale": "he",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "A.A.V.V.",
+                  "name": "A.A.V.V.",
+                  "locale": "it",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Collectif",
+                  "name": "Collectif",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "American Folk Blues Festival",
+                  "name": "American Folk Blues Festival",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varoius",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Varoius",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varios",
+                  "name": "Varios",
+                  "locale": "es",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Speakers",
+                  "name": "Various Speakers",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "V. A.",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "V. A.",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Variois",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Variois",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "varias",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "varias",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Historia de la Fania, La",
+                  "name": "La Historia de la Fania",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "המשתתפים, כל",
+                  "name": "כל המשתתפים",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various",
+                  "name": "Various",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Verschiedene",
+                  "name": "Verschiedene",
+                  "locale": "de",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Tốp ca nam",
+                  "name": "Tốp ca nam",
+                  "locale": "vi",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "VA",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "VA",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Military Bands",
+                  "name": "Various Military Bands",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Collégiale",
+                  "name": "Collégiale",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Vari",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Vari",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Artistas Varios",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Artistas Varios",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Artists (Rock)",
+                  "name": "Various Artists (Rock)",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varios Intérpretes",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Varios Intérpretes",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "さまざまなアーティスト",
+                  "name": "さまざまなアーティスト",
+                  "locale": "ja",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varios Artistas",
+                  "name": "Varios Artistas",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Vários",
+                  "name": "Vários",
+                  "locale": "pt",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rossmann",
+                  "name": "Rossmann",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Dominicanos Varios",
+                  "name": "Dominicanos Varios",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Composers",
+                  "name": "Various Composers",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varius",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Varius",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ferkels grosee Abenteuer",
+                  "name": "Ferkels grosses Abenteuer",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Nhiều nghệ sĩ",
+                  "name": "Nhiều nghệ sĩ",
+                  "locale": "vi",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "razlichnye ispolniteli",
+                  "name": "razlichnye ispolniteli",
+                  "locale": "ru",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Artisti uniti per l'Emilia",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Artisti uniti per l'Emilia",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Nhiều Nghệ Sĩ",
+                  "name": "Nhiều Nghệ Sĩ",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Artistes divers",
+                  "name": "Artistes divers",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Encrypted Audio",
+                  "name": "Encrypted Audio",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Artis JK",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Artis JK",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Danske Kunstnere",
+                  "name": "Danske Kunstnere",
+                  "locale": "da",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Przeboje, Światowe",
+                  "name": "Światowe Przeboje",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varoius Artists",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Varoius Artists",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various DHM Artists",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Various DHM Artists",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hazbin Hotel",
+                  "name": "Hazbin Hotel",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Assorted Christian Artists",
+                  "name": "Assorted Christian Artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Time Life Music: Various Artists",
+                  "name": "Time Life Music: Various Artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Siren Cues",
+                  "name": "Siren Cues",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Variés",
+                  "name": "Variés",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Battle of the Bits",
+                  "name": "Battle of the Bits",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Div. artister",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Div. artister",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Vari Artisti",
+                  "name": "Vari Artisti",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varius Artists",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Varius Artists",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Iedereen",
+                  "name": "Iedereen",
+                  "locale": "nl",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rizni vykonavci",
+                  "name": "Rizni vykonavci",
+                  "locale": "uk",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Vários Artistas",
+                  "name": "Vários Artistas",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Bande originale",
+                  "name": "Bande originale",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Assorted Artists",
+                  "name": "Assorted Artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Multi-artistes",
+                  "name": "Multi-artistes",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Artist",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Various Artist",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "ヴァリアス",
+                  "name": "ヴァリアス",
+                  "locale": "ja",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "80's, Various",
+                  "name": "Various 80's",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Artsits",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Various Artsits",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Group, The",
+                  "name": "Berühmtesten Opernchören",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Sampler",
+                  "name": "Sampler",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Multiple Artists",
+                  "name": "Multiple Artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "[Various Artists]",
+                  "name": "[Various Artists]",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hợp ca",
+                  "name": "Hợp ca",
+                  "locale": "vi",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Artists [DIY]",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Various Artists [DIY]",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Insomniac Music Group",
+                  "name": "Insomniac Music Group",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varios artists",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Varios artists",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "V. Artist",
+                  "name": "V. Artist",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Artitsts",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Various Artitsts",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varies",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Varies",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Woman & Home / Classic FM",
+                  "name": "Woman & Home / Classic FM",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "various aritsts",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "various aritsts",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Pacific Northwest Tribute to Ray Charles",
+                  "name": "A Pacific Northwest Tribute to Ray Charles",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Различные исполнители",
+                  "name": "Различные исполнители",
+                  "locale": "ru",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diverse componisten",
+                  "name": "Diverse componisten",
+                  "locale": "nl",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Vrious Artists",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Vrious Artists",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "V.A.",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "V.A.",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Όλοι",
+                  "name": "Όλοι",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Razni",
+                  "name": "Razni",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Tốp ca",
+                  "name": "Tốp ca",
+                  "locale": "vi",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Skratch 'N Sniff",
+                  "name": "Skratch 'N Sniff",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Multi-interprètes",
+                  "name": "Multi-interprètes",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varias Artistas",
+                  "name": "Varias Artistas",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "various artiste",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "various artiste",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Female Artists",
+                  "name": "Various Female Artists",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "หลากหลายศิลปิน",
+                  "name": "หลากหลายศิลปิน",
+                  "locale": "th",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Noevir",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Noevir",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Artistes",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Various Artistes",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "EXIT TUNES/PONY CANYON",
+                  "name": "EXIT TUNES/PONY CANYON",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Coletânea",
+                  "name": "Coletânea",
+                  "locale": "pt",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Różni artyści",
+                  "name": "Różni artyści",
+                  "locale": "pl",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Assorted Artisits",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Assorted Artisits",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "WitChoirRecords",
+                  "name": "WitChoirRecords",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Bassrush",
+                  "name": "Bassrush",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Kunstnere, Blandede",
+                  "name": "Blandede Kunstnere",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "VV AA",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "VV AA",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "The Metal Observer",
+                  "name": "The Metal Observer",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Fitness Workout Music",
+                  "name": "Fitness Workout Music",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Amrywiol",
+                  "name": "Amrywiol",
+                  "locale": "cy",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various artists from CISM 89,3 FM",
+                  "name": "Various artists from CISM 89,3 FM",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "KZOK 102.5 FM",
+                  "name": "KZOK 102.5FM",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Arists",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Various Arists",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Big Bands",
+                  "name": "Various Big Bands",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "30 Vermont Artists",
+                  "name": "30 Vermont Artists",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "משתתפי פסטיגל",
+                  "name": "משתתפי פסטיגל",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Tabu Recz",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Tabu Recz",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Compilation",
+                  "name": "Compilation",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Divers",
+                  "name": "Divers",
+                  "locale": "fr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Miscellaneous",
+                  "name": "Miscellaneous",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "div.",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "div.",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Goths For Palestine",
+                  "name": "Goths For Palestine",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Compiled By",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Various Compiled By",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "MUSIC STUDY PROJECT",
+                  "name": "MUSIC STUDY PROJECT",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Mixed Artists",
+                  "name": "Mixed Artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "(V.A.)",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "(V.A.)",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "V.A.",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "V.A.",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Items",
+                  "name": "Various Items",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Icelandic Folk Music",
+                  "name": "Icelandic Folk Music",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Div. kunstnere",
+                  "name": "Div. kunstnere",
+                  "locale": "da",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "различных исполнителей",
+                  "name": "различных исполнителей",
+                  "locale": "ru",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "різних виконавців",
+                  "name": "різних виконавців",
+                  "locale": "uk",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rizni vykonavtsi",
+                  "name": "Rizni vykonavtsi",
+                  "locale": "uk",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Intérpretes Diversos",
+                  "name": "Intérpretes Diversos",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "WiddFam",
+                  "name": "WiddFam",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Verschiedene Interpreten",
+                  "name": "Verschiedene Interpreten",
+                  "locale": "de",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DESKPOP",
+                  "name": "DESKPOP",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Omnibus",
+                  "name": "Omnibus",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various (not original artists)",
+                  "name": "Various (not original artists)",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Helluva Boss",
+                  "name": "Helluva Boss",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Strictly The Best",
+                  "name": "Strictly The Best",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Coala Records",
+                  "name": "Coala.Records",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Różni",
+                  "name": "Różni",
+                  "locale": "pl",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Artisti vari",
+                  "name": "Artisti vari",
+                  "locale": "it",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Variuos Artists",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Variuos Artists",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "(Karaoke) Various Artists",
+                  "name": "(Karaoke) Various Artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Records, Reinelex",
+                  "name": "Reinelex Records",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Bypass Audio",
+                  "name": "Bypass Audio",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Soca Gold",
+                  "name": "Soca Gold",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Reggae Gold",
+                  "name": "Reggae Gold",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varius Artist",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Varius Artist",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diversen",
+                  "name": "Diversen",
+                  "locale": "de",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Verschiedene Interpret:innen",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Verschiedene Interpret:innen",
+                  "locale": "de",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diverse",
+                  "name": "Diverse",
+                  "locale": "de",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "More artists",
+                  "name": "More artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Suntory Oolong-cha CM Song Collection",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Suntory Oolong-cha CM Song Collection",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "V/a",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "V/a",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various DJ's",
+                  "name": "Various DJ's",
+                  "locale": "en",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Wszyscy artysci",
+                  "name": "Wszyscy artysci",
+                  "locale": "pl",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Erinevad",
+                  "name": "Erinevad",
+                  "locale": "et",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "VariousArtist",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "VariousArtist",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "オムニバス",
+                  "name": "オムニバス",
+                  "locale": "ja",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Vários intérpretes",
+                  "name": "Vários intérpretes",
+                  "locale": "pt",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Verious",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Verious",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hver gang vi møtes",
+                  "name": "Hver gang vi møtes",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Christmas Karma",
+                  "name": "Christmas Karma",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "KC101",
+                  "name": "KC101—Connecticut's #1 Hit Music Station",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Blandat",
+                  "name": "Blandat",
+                  "locale": "sv",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AAVV",
+                  "name": "AAVV",
+                  "locale": "it",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Razni izveduvači",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Разни изведувачи",
+                  "locale": "mk",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Различни изпълнители",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Различни изпълнители",
+                  "locale": "bg",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "MDB",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "MDB",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "אמנים שונים",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "אמנים שונים",
+                  "locale": "he",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Multi‐interprètes",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Multi‐interprètes",
+                  "locale": "fr",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Eri esittäjiä",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Eri esittäjiä",
+                  "locale": "fi",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "هنرمندان مختلف",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "هنرمندان مختلف",
+                  "locale": "fa",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hainbat artista",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Hainbat artista",
+                  "locale": "eu",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Pluraj artistoj",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Pluraj artistoj",
+                  "locale": "eo",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Různí interpreti",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Různí interpreti",
+                  "locale": "cs",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "diversos artistes",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "diversos artistes",
+                  "locale": "ca",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "розныя выканаўцы",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "розныя выканаўцы",
+                  "locale": "be",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "群星",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "群星",
+                  "locale": "zh",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Разные артисты",
+                  "name": "Разные артисты",
+                  "locale": "ru",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diaforoi Kallitechnes",
+                  "name": "Διάφοροι Καλλιτέχνες",
+                  "locale": "el",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "ヴァリアス・アーティスト",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "ヴァリアス・アーティスト",
+                  "locale": "ja",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "atlikėjai, Įvairūs",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Įvairūs atlikėjai",
+                  "locale": "lt",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Vari",
+                  "name": "Vari",
+                  "locale": "it",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ýmsir hljóðfæraleikarar",
+                  "name": "Ýmsir hljóðfæraleikarar",
+                  "locale": "is",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Razni Izvođači",
+                  "name": "Razni Izvođači",
+                  "locale": "sr_Latn",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Razni Izvođači",
+                  "name": "Razni Izvođači",
+                  "locale": "hr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Razni Izvođači",
+                  "name": "Razni Izvođači",
+                  "locale": "bs",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "รวมศิลปิน",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "รวมศิลปิน",
+                  "locale": "th",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Blandade artister",
+                  "name": "Blandade artister",
+                  "locale": "sv",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Різні виконавці",
+                  "name": "Різні виконавці",
+                  "locale": "uk",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diverse Artistar",
+                  "name": "Diverse Artistar",
+                  "locale": "nn",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diverse Artister",
+                  "name": "Diverse Artister",
+                  "locale": "nb",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "مختلف الفنانين",
+                  "name": "مختلف الفنانين",
+                  "locale": "ar",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "여러 아티스트",
+                  "name": "여러 아티스트",
+                  "locale": "ko",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Various Artists",
+                  "name": "Various Artists",
+                  "locale": "en",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diverse Artiesten",
+                  "name": "Diverse Artiesten",
+                  "locale": "nl",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diverse Interpreten",
+                  "name": "Diverse Interpreten",
+                  "locale": "de",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Diverse kunstnere",
+                  "name": "Diverse kunstnere",
+                  "locale": "da",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Vários artistas",
+                  "name": "Vários artistas",
+                  "locale": "pt",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Varios artistas",
+                  "name": "Varios artistas",
+                  "locale": "es",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Erinevad esitajad",
+                  "name": "Erinevad esitajad",
+                  "locale": "et",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Çeşitli sanatçılar",
+                  "name": "Çeşitli sanatçılar",
+                  "locale": "tr",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Różni wykonawcy",
+                  "name": "Różni wykonawcy",
+                  "locale": "pl",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Nhiều ca sĩ",
+                  "name": "Nhiều ca sĩ",
+                  "locale": "vi",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Razlièni izvajalci",
+                  "name": "Razlièni izvajalci",
+                  "locale": "sl",
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Artistiaid Amrywiol",
+                  "name": "Artistiaid Amrywiol",
+                  "locale": "cy",
+                  "type": null,
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "415a25f2-49dd-4c58-a740-95842ce61fa9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Banzaï Lab #7",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d3f38c34-edc5-4c07-adc0-ba3e54fe85be",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b96f1bc1-c0ee-3b64-a428-043daad88a06",
+        "count": 1,
+        "title": "A Fine Mess",
+        "first-release-date": "2011-10-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Blindspot",
+            "artist": {
+              "id": "03b6615a-0570-47d7-9270-b86ca20621ed",
+              "name": "Blindspot",
+              "sort-name": "Blindspot",
+              "disambiguation": "Hip Hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7c686e55-5048-46d8-b99d-ab0931f0a304",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Fine Mess EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b57a165c-7498-465d-b5c0-e33d6be9000f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 93,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5e05a759-db3c-395b-a805-f7608ffe1b2e",
+        "count": 1,
+        "title": "Feel Good Vibes",
+        "first-release-date": "2015-11-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "FrivolousShara",
+            "artist": {
+              "id": "5fc280e7-a352-408b-ad9c-d82a4c1dadda",
+              "name": "FrivolousShara",
+              "sort-name": "FrivolousShara"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f5da484d-aada-49cb-bd4c-409f2b2c7027",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Feel Good Vibes",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0868a30e-c594-452f-8a88-66477d4af01a",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 88,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7c7c58b1-00ee-3379-b1c9-1d2e47e1cd8e",
+        "count": 1,
+        "title": "BY THE WATER",
+        "first-release-date": "2017-09-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "MIKE",
+            "artist": {
+              "id": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+              "name": "MIKE",
+              "sort-name": "MIKE",
+              "disambiguation": "New York rapper, founder of 10k",
+              "aliases": [
+                {
+                  "sort-name": "Bonema, Michael Jordan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael Jordan Bonema",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7c4d8523-48ff-4a69-a9af-558b7463b664",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BY THE WATER",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rap"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "04907c6c-77ef-4959-8770-8957d0409eb1",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 88,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6165db9b-960c-33d7-849b-c43ccffb512e",
+        "count": 1,
+        "title": "Backwards Movies",
+        "first-release-date": "2015-05-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "FUTUREKINGS",
+            "artist": {
+              "id": "9961bddc-99cb-409b-a4a0-203da7fd325b",
+              "name": "FUTUREKINGS",
+              "sort-name": "FUTUREKINGS"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bc1bca7e-569e-4d98-a68d-79fe5f3087df",
+            "title": "Backwards Movies"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "chillout"
+          },
+          {
+            "count": 1,
+            "name": "ambient"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "7054085b-4865-45ce-9cb2-d96c9a05df93",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 88,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d60a5e9b-0d69-33d7-9cb0-fffdf247e533",
+        "count": 2,
+        "title": "METRO KO LOVE KO",
+        "first-release-date": "2017-06-02",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "juche",
+            "artist": {
+              "id": "0ebf23c6-412d-4049-9a3a-c9266b6b5f6c",
+              "name": "juche",
+              "sort-name": "juche",
+              "disambiguation": "US band from Cincinnati/Oakland"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0ff15121-5d53-4543-aca5-a1619172d180",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "METRO KO LOVE KO",
+            "status": "Official"
+          },
+          {
+            "id": "69adc6c0-813d-454e-bfc9-fabdccb62eca",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "METRO KO LOVE KO",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental electronic"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "af225572-9f63-4da7-8652-a9b1ce373bc2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 88,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "76d4d595-6dc3-3a7f-8209-ec30670a8dfa",
+        "count": 1,
+        "title": "BrushStrokes",
+        "first-release-date": "2011-12-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " X ",
+            "name": "Prof. Logik",
+            "artist": {
+              "id": "7eb2deb8-5ad0-48f0-9628-5278350985e8",
+              "name": "Prof. Logik",
+              "sort-name": "Prof. Logik"
+            }
+          },
+          {
+            "name": "Ackryte",
+            "artist": {
+              "id": "0c55a5c7-893a-45cf-a6f8-ef68a0b445bb",
+              "name": "Ackryte",
+              "sort-name": "Ackryte"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7ce78b28-2ac4-4d3f-b220-1f85c9a5951f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "BrushStrokes",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "beat music"
+          }
+        ]
+      },
+      {
+        "id": "2fb8af74-d51c-47c1-8679-154d0fb753ce",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 88,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91e4b11c-354d-376b-a714-ba22901a2270",
+        "count": 1,
+        "title": "guilt & sincerity",
+        "first-release-date": "2017-08-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Navy Blue",
+            "artist": {
+              "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+              "name": "Navy Blue",
+              "sort-name": "Navy Blue",
+              "disambiguation": "US skateboarder & rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sage Elsesser",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Sage Elsesser",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "99317287-9992-4422-b8b4-4a2f70e8d64f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "guilt & sincerity",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "04edcd86-95b0-496a-b7f0-04303e6f2511",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 88,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "af54a6d7-a02e-3db1-9594-58fbda1154f9",
+        "count": 1,
+        "title": "Ladies and Ladies",
+        "first-release-date": "2013-11-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Al'Tarba",
+            "artist": {
+              "id": "19e7f2b3-8331-414c-906b-4869daa0eeba",
+              "name": "Al’Tarba",
+              "sort-name": "Al’Tarba",
+              "disambiguation": "French abstract / hip hop / electronic beatmaker",
+              "aliases": [
+                {
+                  "sort-name": "AlTarba",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "AlTarba",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AL TARBA",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "AL TARBA",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rigaud, Jules",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jules Rigaud",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "58fa48dd-8dac-4aa6-acd1-bbc6b75ac4b9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ladies and Ladies",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5f5359b0-3ce2-433e-82df-7eba00c82845",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 88,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7993b894-db6d-3c8c-a02c-514378848f1b",
+        "count": 4,
+        "title": "Lot022",
+        "first-release-date": "2015-05-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kaz Bałagane",
+            "artist": {
+              "id": "b95f828d-8805-4460-ba8e-5f9ff883d7a2",
+              "name": "Kaz Bałagane",
+              "sort-name": "Kaz Bałagane",
+              "disambiguation": "polish MC and music producer",
+              "aliases": [
+                {
+                  "sort-name": "Mati Bagłajane",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Mati Bagłajane",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Kaz A.K.A. Bałagane",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Kaz A.K.A. Bałagane",
+                  "locale": "pl_PL",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Świtalski, Jacek",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jacek Świtalski",
+                  "locale": "pl",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "60e38fca-01e8-49a8-a5d4-f8f546b929f1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LOT022",
+            "status": "Official"
+          },
+          {
+            "id": "2b3f27d2-d9b1-4f97-b926-e4cd68b145f5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lot022",
+            "status": "Official"
+          },
+          {
+            "id": "bcee8aa3-5872-494f-a150-8dced43ec666",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lot022",
+            "status": "Official"
+          },
+          {
+            "id": "67a1b94e-bf38-4545-a95c-69a0bb120dcb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lot022",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "ddfee023-0306-4842-b741-f3e3beeaba16",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 84,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "63c9f9fd-19b5-3ad0-a669-110855887380",
+        "count": 2,
+        "title": "Blindbeats",
+        "first-release-date": "2012-10-12",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "DOT",
+            "artist": {
+              "id": "98be7131-a744-4e7e-9e49-2a780359ecfb",
+              "name": "DOT",
+              "sort-name": "DOT",
+              "disambiguation": "hip hop beats",
+              "aliases": [
+                {
+                  "sort-name": "D.O.T",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "D.O.T",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Birkl, Sebastian",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Sebastian Birkl",
+                  "locale": "de",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6f5d007b-85b4-4c6f-af05-742edffe4c5c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blindbeats",
+            "status": "Official"
+          },
+          {
+            "id": "13d9b804-b194-406a-bb99-12cebe86ff02",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "blindbeats",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "33456da2-86e1-4fd7-9784-c46b8f827cab",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 84,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c764e439-e7fd-32e6-96be-9bbf3f9cbd3f",
+        "count": 2,
+        "title": "Malarian pelko",
+        "first-release-date": "2015-04-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Paperi T",
+            "artist": {
+              "id": "f77bd9ea-26a4-456f-9647-031a3972ccee",
+              "name": "Paperi T",
+              "sort-name": "Paperi T"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e2092249-d042-4ffe-8723-d9991dc6300a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Malarian pelko",
+            "status": "Official"
+          },
+          {
+            "id": "6a1cdcf0-9302-40e5-9898-3afda2e2ee31",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Malarian pelko",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1f6a40a7-cb65-446f-8824-db329f117fe0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 84,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "64254955-7419-37bb-a9cf-c543fc2ab50b",
+        "count": 1,
+        "title": "Avar uus",
+        "first-release-date": "2016-12-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Asa",
+            "artist": {
+              "id": "01aaa1b4-4b35-48a3-8a00-5d82591d93d1",
+              "name": "Asa",
+              "sort-name": "Asa",
+              "disambiguation": "Finnish rap artist",
+              "aliases": [
+                {
+                  "sort-name": "Asa Masa",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Asa Masa",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Avain",
+                  "name": "Avain",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "330b9f20-4f7a-4652-ab31-0507ac2ccb9f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Avar uus",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "360608f0-007c-49b3-90d7-8d2b81200e1f",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 84,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c764e439-e7fd-32e6-96be-9bbf3f9cbd3f",
+        "count": 1,
+        "title": "Kaikki on hyvin",
+        "first-release-date": "2018",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Paperi T",
+            "artist": {
+              "id": "f77bd9ea-26a4-456f-9647-031a3972ccee",
+              "name": "Paperi T",
+              "sort-name": "Paperi T"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "715bf693-a469-4060-a688-a9b4d0b6c693",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Kaikki on hyvin",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1e85e321-98a9-4461-bbcf-e812fe053747",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 84,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "baf60207-9732-3982-9bf0-9f93a30f337c",
+        "count": 2,
+        "title": "Мой личный штат Чьяпас",
+        "first-release-date": "2014-01-15",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Он Юн",
+            "artist": {
+              "id": "034f67a1-30b5-4525-a46e-c26b0cc00655",
+              "name": "Он Юн",
+              "sort-name": "On Yun"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9cccc043-a647-40a2-a1aa-c51e4d0b9a32",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Мой личный штат Чьяпас",
+            "status": "Official"
+          },
+          {
+            "id": "04c72e82-9b6c-4132-84d7-0b46fe550f40",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Мой личный штат Чьяпас",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4784331c-b0d7-4af1-9271-a5fe27a04c06",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 84,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "5e05a759-db3c-395b-a805-f7608ffe1b2e",
+        "count": 1,
+        "title": "Kiss My Versatility",
+        "first-release-date": "2013-11-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "FrivolousShara",
+            "artist": {
+              "id": "5fc280e7-a352-408b-ad9c-d82a4c1dadda",
+              "name": "FrivolousShara",
+              "sort-name": "FrivolousShara"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "687a6c31-b42d-476b-b66d-257e3d44ad5c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Kiss My Versatility",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e147eff0-e662-4e76-8626-1acb20e91d3b",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 84,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "baf60207-9732-3982-9bf0-9f93a30f337c",
+        "count": 1,
+        "title": "Гетто Гарбо",
+        "first-release-date": "2012-01-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Он Юн",
+            "artist": {
+              "id": "034f67a1-30b5-4525-a46e-c26b0cc00655",
+              "name": "Он Юн",
+              "sort-name": "On Yun"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a2cf1631-f14f-4dd6-b097-970fa6ae7251",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Гетто Гарбо",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1ca26ecf-2116-435b-883c-9bfc9e890067",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a38d78ce-6290-3bc3-8213-9c3d607470b6",
+        "count": 1,
+        "title": "Vertiges",
+        "first-release-date": "2016-11-10",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Dolàn Xakò",
+            "artist": {
+              "id": "fd6cfbbd-dce1-4815-9616-334a92b372c3",
+              "name": "Dolàn Xakò",
+              "sort-name": "Xakò, Dolàn"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "78801164-6f79-4717-b273-853e05523873",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Vertiges",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b16397ae-3c6f-451f-a6cc-e24daf89045d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "11d729e0-bf05-3b3f-a7a2-800c581fcda7",
+        "count": 1,
+        "title": "Cardrive EP",
+        "first-release-date": "2017-06-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Genesis Owusu",
+            "artist": {
+              "id": "632258cb-4ab5-4f2d-be29-bcc641a275eb",
+              "name": "Genesis Owusu",
+              "sort-name": "Owusu, Genesis"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "02ca6428-a624-4c97-85f5-a460676015a7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cardrive EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "34f68de6-0f43-43e3-bccb-93762309a46f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b38bf712-6c12-3b00-b69c-245fe89bce6d",
+        "count": 1,
+        "title": "Diario de Viaje",
+        "first-release-date": "2019-09-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Nezøak",
+            "artist": {
+              "id": "e5bec5e5-09ac-42fc-9255-d0948f02d355",
+              "name": "Nezøak",
+              "sort-name": "Nezøak",
+              "disambiguation": "Trip-Hop, Abstract Hip-hop, Ambient Electro"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "179ac96b-1ddd-4343-85aa-14d80ef4bafb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Diario de Viaje",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "downtempo"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f7cfb1e6-4a3b-40d1-b413-99a2492e10af",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 83,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91e4b11c-354d-376b-a714-ba22901a2270",
+        "count": 1,
+        "title": "According to the Waterbearer",
+        "first-release-date": "2015-10-18",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Navy Blue",
+            "artist": {
+              "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+              "name": "Navy Blue",
+              "sort-name": "Navy Blue",
+              "disambiguation": "US skateboarder & rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sage Elsesser",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Sage Elsesser",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d871f2d3-3df8-4f87-bcae-48adecff6dc5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "According to the Waterbearer",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "c9b15613-f5b0-4618-a1c0-070328e48e4e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9c6fd35a-592c-38d2-9a2e-1d52dee3fbc6",
+        "count": 1,
+        "title": "Beat Tape One 雲の上",
+        "first-release-date": "2015-10-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Sicaa",
+            "artist": {
+              "id": "cdb63b2a-ba16-436e-ab90-5753fd331c81",
+              "name": "Sicaa",
+              "sort-name": "Sicaa",
+              "disambiguation": "Nicolas Sicard",
+              "aliases": [
+                {
+                  "sort-name": "Sicard, Nicolas",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Nicolas Sicard",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e5fd6973-7190-4722-8e54-b111c710be4e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Beat Tape One 雲の上",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "halftime"
+          }
+        ]
+      },
+      {
+        "id": "1d72b945-9ee7-4444-9298-0af9b66ac3e3",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f280e25c-c319-31bb-8486-49b26d599fcb",
+        "count": 1,
+        "title": "Silent Regis EP",
+        "first-release-date": "2013-03-27",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Kazi Ploae",
+            "artist": {
+              "id": "ee804025-c368-4a8c-8614-340594e6bed5",
+              "name": "Kazi Ploae",
+              "sort-name": "Ploae, Kazi",
+              "aliases": [
+                {
+                  "sort-name": "Rain",
+                  "name": "Rain",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": "2002"
+                },
+                {
+                  "sort-name": "Stoicescu, Cezar-Kazimir",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Cezar-Kazimir Stoicescu",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Silent Strike",
+            "artist": {
+              "id": "e1842f5d-9db2-4cc7-80f9-96d8fdce30c4",
+              "name": "Silent Strike",
+              "sort-name": "Silent Strike"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a2fa6c5c-998e-4010-909c-a37443be36da",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Silent Regis EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "downtempo"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1d5d7318-7b8b-488c-ae76-fca503ba3a08",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7b432b35-5b0b-3e16-8e40-25c93e95be91",
+        "count": 1,
+        "title": "My Quiet Dream",
+        "first-release-date": "2016-01-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "EKBOM",
+            "artist": {
+              "id": "ff01f5b5-8e08-4ec6-bd9a-df13e3166bba",
+              "name": "EKBOM",
+              "sort-name": "EKBOM"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b3701c3c-aec6-499d-b381-bd058390b176",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "My Quiet Dream",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "downtempo"
+          },
+          {
+            "count": 1,
+            "name": "ambient"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "bd8069a9-3c24-4936-97f7-8a36be1129f0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2aebf2c3-2cc9-3555-97fc-ea4e0edd5b2d",
+        "count": 1,
+        "title": "THE ROCKWOOD EP",
+        "first-release-date": "2015",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "JPEGMAFIA",
+            "artist": {
+              "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+              "name": "JPEGMAFIA",
+              "sort-name": "JPEGMAFIA",
+              "aliases": [
+                {
+                  "sort-name": "DJ SNITCH BITCH",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ SNITCH BITCH",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington DeVaughn",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington DeVaughn Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hendricks, Barrington",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Barrington Hendricks",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Peggy",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Peggy",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "dcbfa6be-242c-4aed-8a56-aa10d92502c3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "THE ROCKWOOD EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "6851cf3c-67c6-4a78-bb6e-a22fb95439a4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "86d91edb-044e-3850-bc3b-072e92533275",
+        "count": 1,
+        "title": "Lice Two: Still Buggin’",
+        "first-release-date": "2016-09-29",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Aesop Rock & Homeboy Sandman",
+            "artist": {
+              "id": "55f9d629-ca16-4cd6-97d7-9925d002d8ae",
+              "name": "Lice",
+              "sort-name": "Lice",
+              "disambiguation": "Aesop Rock & Homeboy Sandman",
+              "aliases": [
+                {
+                  "sort-name": "Aesop Rock & Homeboy Sandman",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Aesop Rock & Homeboy Sandman",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "96412fc9-a547-412c-bc9c-3bed095228a3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lice Two: Still Buggin’",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "blue on cover"
+          }
+        ]
+      },
+      {
+        "id": "3dff1903-ab40-4601-ac7d-299b98c39729",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "af54a6d7-a02e-3db1-9594-58fbda1154f9",
+        "count": 1,
+        "title": "Bad Acids & Malicious Hippies",
+        "first-release-date": "2017-12-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Al'Tarba",
+            "artist": {
+              "id": "19e7f2b3-8331-414c-906b-4869daa0eeba",
+              "name": "Al’Tarba",
+              "sort-name": "Al’Tarba",
+              "disambiguation": "French abstract / hip hop / electronic beatmaker",
+              "aliases": [
+                {
+                  "sort-name": "AlTarba",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "AlTarba",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AL TARBA",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "AL TARBA",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rigaud, Jules",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jules Rigaud",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3584a71a-2488-4af2-a283-429f2cdd7fa4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bad Acids & Malicious Hippies",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental electronic"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "685e5c71-61a2-4225-b051-b6413cb3c9d2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 79,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c1d6e1b6-170c-33d7-99f1-179afe0fb477",
+        "count": 2,
+        "title": "Atrahasis",
+        "first-release-date": "2015-09-09",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Nodey",
+            "artist": {
+              "id": "ead21e03-466d-4f5f-8ecc-bbad820f2056",
+              "name": "Nodey",
+              "sort-name": "Nodey"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "39f37ee6-3fa9-46b7-a57c-a79a766aa4e6",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Atrahasis",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "e9166387-840a-4aca-ba97-5fc030005b80",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Atrahasis",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "4df9abe4-aaba-424f-80be-bd6ed18cea23",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c60d729f-5c9e-310d-a927-8fc4e5dac540",
+        "count": 1,
+        "title": "Nestor Kéa & Rose Kante",
+        "first-release-date": "2014-10-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Nestor Kéa",
+            "artist": {
+              "id": "25458500-b9b0-42e3-a81b-9a19a4e9cc37",
+              "name": "Nestor Kéa",
+              "sort-name": "Nestor Kéa"
+            }
+          },
+          {
+            "name": "Rose Kante",
+            "artist": {
+              "id": "396c9bc9-33eb-43db-bc70-bff4e2788faf",
+              "name": "Rose Kante",
+              "sort-name": "Rose Kante"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ffb587bf-6e49-4887-835b-1900de628781",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nestor Kéa & Rose Kante",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ce76db41-7790-4e3a-bbe5-b65259c986c3",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "18b35561-1b45-3907-bd15-396cc8329e41",
+        "count": 1,
+        "title": "Huoneita",
+        "first-release-date": "2018",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "SITOI",
+            "artist": {
+              "id": "e93084bb-db4a-48dc-adc0-bf0e265748a7",
+              "name": "SITOI",
+              "sort-name": "SITOI"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2c19dab3-5208-4b59-bac1-6658d8a9834c",
+            "title": "Huoneita"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6b89d5ba-7084-4cc9-85b6-7852a9b90f8c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "bac9a609-a349-3801-910c-0f4944a3d44a",
+        "count": 1,
+        "title": "Камера Озскура",
+        "first-release-date": "2016-09-29",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "вБЕНЗИНЕестьОБЛАКА",
+            "artist": {
+              "id": "35028de5-77f5-4a22-861b-ae7031f30382",
+              "name": "вБЕНЗИНЕестьОБЛАКА",
+              "sort-name": "вБЕНЗИНЕестьОБЛАКА"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c1ca5746-35d7-402d-9b78-724353810bd1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Камера Озскура",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "indie"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0a78d220-83bc-41de-8db7-49032881e1d2",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "b96f1bc1-c0ee-3b64-a428-043daad88a06",
+        "count": 1,
+        "title": "Hugs & Beats (the Instrumentals)",
+        "first-release-date": "2011-04-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Blindspot",
+            "artist": {
+              "id": "03b6615a-0570-47d7-9270-b86ca20621ed",
+              "name": "Blindspot",
+              "sort-name": "Blindspot",
+              "disambiguation": "Hip Hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "84db7146-8b2a-49eb-a498-a510fed19654",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hugs & Beats (the Instrumentals)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "21fa550e-5996-4977-a130-492a851536c7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1e2d756b-5a60-3c15-8fab-b0dcf70e49fe",
+        "count": 1,
+        "title": "Let Them Eat Sand",
+        "first-release-date": "2018-02-02",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Sole",
+            "artist": {
+              "id": "7bc3a2d0-7eed-4b42-ae96-7d68c644454d",
+              "name": "Sole",
+              "sort-name": "Sole",
+              "disambiguation": "US experimental hip hop artist Tim Holland, Anticon associated"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e95f2c82-8863-4563-bd88-0335c519fdc5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Let Them Eat Sand",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "political hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8ecd7513-de0c-4052-8d57-3c49fb3dce92",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "aac226f3-1e4f-4432-9c30-cc8c781b80b9",
+        "count": 1,
+        "title": "Haymatlos",
+        "first-release-date": "2010-08-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "No Call ‘Recently’",
+            "artist": {
+              "id": "c65a34a6-21a8-412e-94b2-6b991041081a",
+              "name": "No Call ‘Recently’",
+              "sort-name": "No Call ‘Recently’",
+              "aliases": [
+                {
+                  "sort-name": "NCR",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "NCR",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1cc6dd58-a093-4b34-bac7-8b535dbd05e1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Haymatlos",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "downtempo"
+          },
+          {
+            "count": 1,
+            "name": "spoken word"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6de3dcb4-d629-40f2-8674-c5f4329df5a5",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8a089d1c-fb3f-320a-98fc-c7572c3eb1a9",
+        "count": 1,
+        "title": "Their Dreams",
+        "first-release-date": "2017-04-10",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Spectateur",
+            "artist": {
+              "id": "be457082-f628-4a4a-9099-b7c612234f2e",
+              "name": "Spectateur",
+              "sort-name": "Spectateur"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bc5f7df7-8f10-4ca5-be34-a8d00a32f4c2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Their Dreams",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e568aa50-3455-419c-8bbc-a1d2c1a79ee8",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fcb2580d-4e29-3bda-afef-7edf76d2e13c",
+        "count": 1,
+        "title": "Sur la route de Saline",
+        "first-release-date": "2019-05-10",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Aguirre",
+            "artist": {
+              "id": "e9cf5da8-4623-4b9a-8291-df2dbbc906f0",
+              "name": "Aguirre",
+              "sort-name": "Aguirre",
+              "disambiguation": "Rappeur fr"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c3cb2653-aa17-45ad-b88a-72eb21bf51b2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Sur la route de Saline",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "punk"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1f52ac1a-302f-441e-a0fa-a80f79f08167",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "95776ec3-67b5-3c8f-a177-1679f204e38c",
+        "count": 1,
+        "title": "arcticameet",
+        "first-release-date": "2013-10-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "dobbro",
+            "artist": {
+              "id": "30f3aa66-f0d9-4415-b7dc-2255e00a79b3",
+              "name": "dobbro",
+              "sort-name": "dobbro",
+              "disambiguation": "hip-hop artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6f9e5680-10a9-4bbc-9d30-f02e6ffad32a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "arcticameet",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f9e27341-71ea-4c4c-9af4-07fa135faac9",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 78,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9cb5fbce-2fce-3fab-9514-0902be1145d6",
+        "count": 1,
+        "title": "Instrus 2.0",
+        "first-release-date": "2013-07-08",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Skread",
+            "artist": {
+              "id": "64a650d2-9b30-4d9b-bc09-e6a2612f60c7",
+              "name": "Skread",
+              "sort-name": "Skread",
+              "disambiguation": "French hip-hop producer",
+              "aliases": [
+                {
+                  "sort-name": "Matthieu Le Carpentier",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Matthieu Le Carpentier",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Skread",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Skread",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "86b3b670-0e0d-4513-96ed-b666d71514be",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Instrus 2.0",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e8be56a7-648f-4a67-b8b0-fd4ea40b00a7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 75,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "823ce377-3079-3b0f-a7eb-7265f578c86f",
+        "count": 1,
+        "title": "Miscible",
+        "first-release-date": "2017-03-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Ksanti",
+            "artist": {
+              "id": "864f04bb-07be-4695-87cd-71892813da10",
+              "name": "Ksanti",
+              "sort-name": "Ksanti",
+              "disambiguation": "French dub artist",
+              "aliases": [
+                {
+                  "sort-name": "Legros, Benjamin",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Benjamin Legros",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bdf7f157-bc8e-4aac-843f-57fd6baf2958",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Miscible",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "chillout"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "dub"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "dcd393c9-f2e9-4c17-89cc-f466ac1fd21c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 75,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "efa7b505-2be8-3b4e-aef3-1ac61c1f3930",
+        "count": 1,
+        "title": "Prelude To Machine",
+        "first-release-date": "2019-05-17",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Boogie Belgique",
+            "artist": {
+              "id": "b72fe485-8ccd-4998-9777-215ed91bc771",
+              "name": "Boogie Belgique",
+              "sort-name": "Boogie Belgique",
+              "disambiguation": "Belgian electronic music band and former solo project",
+              "aliases": [
+                {
+                  "sort-name": "Cromheecke, Oswald",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Oswald Cromheecke",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "109019d4-5fdc-47c1-a072-d76b02a70146",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Prelude To Machine",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "breakbeat"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "electro swing"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3dc84147-43d3-42d6-8a64-d300c825215f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 75,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "0eb6bac6-6caf-3607-b0e3-2a3112ccc2e9",
+        "count": 1,
+        "title": "Tangled",
+        "first-release-date": "2017-03-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "TonyModi",
+            "artist": {
+              "id": "df0c933e-9e81-48c2-a311-14bffbb29648",
+              "name": "TonyModi",
+              "sort-name": "TonyModi"
+            }
+          },
+          {
+            "name": "Kerensa Stephens",
+            "artist": {
+              "id": "cac75a8c-f36a-43c1-bbee-5ce1f5bd9c04",
+              "name": "Kerensa Stephens",
+              "sort-name": "Stephens, Kerensa"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "31504c5f-3414-4819-a10b-ba0e21f6f837",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tangled",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trance"
+          },
+          {
+            "count": 1,
+            "name": "chillout"
+          },
+          {
+            "count": 1,
+            "name": "ambient"
+          },
+          {
+            "count": 1,
+            "name": "lounge"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c20c83bb-7075-47d7-be59-1b7ce3f599b5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 75,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "86d91edb-044e-3850-bc3b-072e92533275",
+        "count": 1,
+        "title": "Triple Fat Lice",
+        "first-release-date": "2017-08-11",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Aesop Rock & Homeboy Sandman",
+            "artist": {
+              "id": "55f9d629-ca16-4cd6-97d7-9925d002d8ae",
+              "name": "Lice",
+              "sort-name": "Lice",
+              "disambiguation": "Aesop Rock & Homeboy Sandman",
+              "aliases": [
+                {
+                  "sort-name": "Aesop Rock & Homeboy Sandman",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Aesop Rock & Homeboy Sandman",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "645cc1f5-d0c8-4556-93c8-550334243852",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Triple Fat Lice",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "green on cover"
+          }
+        ]
+      },
+      {
+        "id": "8c1ea744-df5f-4244-9dc4-83600d1a49af",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 75,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91e4b11c-354d-376b-a714-ba22901a2270",
+        "count": 1,
+        "title": "april blue",
+        "first-release-date": "2017-04-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Navy Blue",
+            "artist": {
+              "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+              "name": "Navy Blue",
+              "sort-name": "Navy Blue",
+              "disambiguation": "US skateboarder & rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sage Elsesser",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Sage Elsesser",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "461c2d6e-4bfc-4537-a839-bb305cfa00bf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "april blue",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8fcb372c-8452-420e-976e-59b88ed8356c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 75,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91e4b11c-354d-376b-a714-ba22901a2270",
+        "count": 1,
+        "title": "forest green",
+        "first-release-date": "2018-03-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Navy Blue",
+            "artist": {
+              "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+              "name": "Navy Blue",
+              "sort-name": "Navy Blue",
+              "disambiguation": "US skateboarder & rapper",
+              "aliases": [
+                {
+                  "sort-name": "Sage Elsesser",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Sage Elsesser",
+                  "locale": "en",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "adf3eb5f-3f55-4164-b31e-0469001e5ea7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "forest green",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "8fa90592-327b-4a5f-81ea-06095ff0d8ff",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 74,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f3a3ad08-527b-38bc-b2f3-fbb56e9ddca6",
+        "count": 5,
+        "title": "Ei",
+        "first-release-date": "2014-05-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Khid",
+            "artist": {
+              "id": "515c9684-2fc1-4b0f-a069-1a9805df6d82",
+              "name": "Khid",
+              "sort-name": "Khid",
+              "disambiguation": "Finnish artist Kristo Laanti"
+            }
+          },
+          {
+            "name": "RPK",
+            "artist": {
+              "id": "a6763c48-369d-4269-b236-a553d542fb39",
+              "name": "RPK",
+              "sort-name": "RPK",
+              "disambiguation": "finnish rapper Roope Kinnunen"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "13eb2275-8297-4c1a-830d-a871a457858b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "EI (instrumentals)",
+            "status": "Official"
+          },
+          {
+            "id": "71b0eca8-61aa-4ca2-a41e-7d615ebf78dd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ei",
+            "status": "Official"
+          },
+          {
+            "id": "ace9f036-9ffd-4822-a2b8-618b76453cfd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ei",
+            "status": "Official"
+          },
+          {
+            "id": "bcb42aaa-f6bb-4bd8-86d3-259a19f115b2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ei",
+            "status": "Official"
+          },
+          {
+            "id": "f5fa5db6-635c-405f-9774-eadaf66bbbc9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ei",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "ambient"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b25e1358-5bdf-429b-a269-a4ca992757f5",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 74,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "71be19f1-8f23-370f-a0fd-ea5ea8c7467f",
+        "count": 1,
+        "title": "忘れられたたタコたたち",
+        "first-release-date": "2013-05-12",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "mononomonooto",
+            "artist": {
+              "id": "f4c851a7-0a9f-4d1b-92ae-46e0fa363bae",
+              "name": "mononomonooto",
+              "sort-name": "mononomonooto"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "17d209b1-06c2-4217-8fe0-3d3925561486",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "忘れられたたタコたたち",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "ambient"
+          },
+          {
+            "count": 1,
+            "name": "electronica"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "skweee"
+          }
+        ]
+      },
+      {
+        "id": "fff9c235-996c-4d27-8c27-d5a1770cef5a",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 74,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "69c2e79d-40a9-30fa-b409-e49b6deccde9",
+        "count": 1,
+        "title": "Brand new day",
+        "first-release-date": "2013-03-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "16pads",
+            "artist": {
+              "id": "f83588b9-c418-457d-bf1e-3e66a0af334f",
+              "name": "16pads",
+              "sort-name": "16pads"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2034f46a-f5e9-4871-9a85-8b8327371660",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Brand new day",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e5629758-ec7a-4390-ac66-8a3b567ffa8e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 74,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "17c7940c-23ca-3463-b196-ed51ba0154f4",
+        "count": 1,
+        "title": "For Other Tracks",
+        "first-release-date": "2014-08-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Vadim Vernay",
+            "artist": {
+              "id": "74f80996-5a21-4e88-9126-26ef62191581",
+              "name": "Vadim Vernay",
+              "sort-name": "Vernay, Vadim"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a12cd299-1a4b-4d79-9bed-cab13a00d512",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "For Other Tracks",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "jungle"
+          },
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      }
+    ]
+  }
+}

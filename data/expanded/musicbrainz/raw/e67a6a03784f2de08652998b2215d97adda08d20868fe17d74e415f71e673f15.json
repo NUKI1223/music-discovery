@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/b7a04cff-ded8-4d2b-8672-eefa3ca16f7e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b7a04cff-ded8-4d2b-8672-eefa3ca16f7e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:44.096865+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "first-release-date": "2017-07-19",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": null,
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "cdb00133-eaa7-489a-ad05-6ad012ad4f15",
+          "tags": [],
+          "genres": [],
+          "type": "Group",
+          "sort-name": "la Brise du Mammouth",
+          "disambiguation": "",
+          "name": "la Brise du Mammouth"
+        },
+        "name": "la Brise du Mammouth",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "la Brise du Mammouth",
+    "genres": [
+      {
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "name": "jazz rap",
+        "disambiguation": ""
+      }
+    ],
+    "id": "b7a04cff-ded8-4d2b-8672-eefa3ca16f7e",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ]
+  }
+}

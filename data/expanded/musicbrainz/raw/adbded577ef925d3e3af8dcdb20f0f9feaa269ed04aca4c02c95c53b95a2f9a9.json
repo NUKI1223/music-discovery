@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/ea018e9d-3ecb-45c1-a955-6771aeac570c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ea018e9d-3ecb-45c1-a955-6771aeac570c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:47.884011+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "SSIO",
+          "country": "DE",
+          "tags": [
+            {
+              "name": "german",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "name": "rap",
+              "count": 1
+            }
+          ],
+          "disambiguation": "German rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "SSIO",
+          "type": "Person",
+          "genres": [
+            {
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            }
+          ],
+          "id": "24234aaf-000f-44de-8f58-9d7964ac3e8f"
+        },
+        "joinphrase": "",
+        "name": "KanaKonda"
+      }
+    ],
+    "primary-type": "EP",
+    "first-release-date": "2006",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Spezial Material",
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "ea018e9d-3ecb-45c1-a955-6771aeac570c"
+  }
+}

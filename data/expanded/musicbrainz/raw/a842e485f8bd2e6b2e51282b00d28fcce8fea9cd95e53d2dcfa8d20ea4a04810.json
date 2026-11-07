@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/3046a5d6-1336-455a-8949-7e7eef96eaf9",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3046a5d6-1336-455a-8949-7e7eef96eaf9?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:12.866632+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "3046a5d6-1336-455a-8949-7e7eef96eaf9",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "type": "Person",
+          "sort-name": "Big Foot",
+          "id": "c8826c2a-0f4e-4629-8d83-45d65020f6a1",
+          "genres": [],
+          "country": "US",
+          "name": "Big Foot",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rapper Christopher Barr",
+          "tags": []
+        },
+        "joinphrase": "",
+        "name": "Big Foot"
+      }
+    ],
+    "title": "Black Lagoons",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": ""
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "1995"
+  }
+}

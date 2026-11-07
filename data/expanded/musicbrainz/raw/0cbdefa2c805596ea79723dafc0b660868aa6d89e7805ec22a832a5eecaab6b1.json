@@ -1,0 +1,98 @@
+{
+  "endpoint": "release-group/d3e8a029-7060-34bf-af69-efbb1fa26d43",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d3e8a029-7060-34bf-af69-efbb1fa26d43?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:17.255564+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2006",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 2,
+        "disambiguation": ""
+      },
+      {
+        "name": "instrumental",
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "disambiguation": "",
+        "count": 2
+      },
+      {
+        "disambiguation": "",
+        "count": 2,
+        "id": "32bea60c-e201-4241-8ed4-228636d34a97",
+        "name": "leftfield"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "Album",
+    "id": "d3e8a029-7060-34bf-af69-efbb1fa26d43",
+    "title": "Sci-Fu",
+    "artist-credit": [
+      {
+        "name": "Waxfactor",
+        "artist": {
+          "type": null,
+          "disambiguation": "",
+          "id": "4940a216-94d9-415e-8d81-97fb566b8319",
+          "country": null,
+          "genres": [],
+          "type-id": null,
+          "tags": [],
+          "name": "Waxfactor",
+          "sort-name": "Waxfactor"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract"
+      },
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "name": "instrumental"
+      },
+      {
+        "count": 2,
+        "name": "leftfield"
+      }
+    ]
+  }
+}

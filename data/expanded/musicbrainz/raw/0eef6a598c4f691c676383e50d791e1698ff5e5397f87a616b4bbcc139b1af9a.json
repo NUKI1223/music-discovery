@@ -1,0 +1,392 @@
+{
+  "endpoint": "release-group/4c2adca6-aadc-36cc-8a6d-c53a9da4dd4d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4c2adca6-aadc-36cc-8a6d-c53a9da4dd4d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:14.267346+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract"
+      },
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "aggressive"
+      },
+      {
+        "count": 1,
+        "name": "angry"
+      },
+      {
+        "name": "anti-authoritarian",
+        "count": 1
+      },
+      {
+        "name": "anti-religious",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "apocalyptic"
+      },
+      {
+        "name": "atmospheric",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "avant-garde"
+      },
+      {
+        "count": 1,
+        "name": "cold"
+      },
+      {
+        "count": 1,
+        "name": "complex"
+      },
+      {
+        "count": 1,
+        "name": "concept album"
+      },
+      {
+        "count": 1,
+        "name": "conscious"
+      },
+      {
+        "count": 1,
+        "name": "crackly"
+      },
+      {
+        "name": "cryptic",
+        "count": 1
+      },
+      {
+        "name": "dark",
+        "count": 1
+      },
+      {
+        "name": "dense",
+        "count": 1
+      },
+      {
+        "name": "depressive",
+        "count": 1
+      },
+      {
+        "name": "dissonant",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "disturbing"
+      },
+      {
+        "name": "dystopian",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "eclectic"
+      },
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "existential",
+        "count": 1
+      },
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "count": 2,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "heavy"
+      },
+      {
+        "count": 1,
+        "name": "hypnotic"
+      },
+      {
+        "count": 1,
+        "name": "industrial hip hop"
+      },
+      {
+        "name": "infernal",
+        "count": 1
+      },
+      {
+        "name": "introspective",
+        "count": 1
+      },
+      {
+        "name": "male vocalist",
+        "count": 1
+      },
+      {
+        "name": "misanthropic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "mysterious"
+      },
+      {
+        "count": 1,
+        "name": "nihilistic"
+      },
+      {
+        "count": 1,
+        "name": "nocturnal"
+      },
+      {
+        "count": 1,
+        "name": "noise"
+      },
+      {
+        "count": 1,
+        "name": "noisy"
+      },
+      {
+        "name": "ominous",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "passionate"
+      },
+      {
+        "count": 1,
+        "name": "pessimistic"
+      },
+      {
+        "name": "philosophical",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "piercing"
+      },
+      {
+        "count": 1,
+        "name": "poetic"
+      },
+      {
+        "name": "political",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "psychedelic"
+      },
+      {
+        "name": "raw",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "sampling"
+      },
+      {
+        "name": "scary",
+        "count": 1
+      },
+      {
+        "name": "serious",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "spiritual"
+      },
+      {
+        "name": "stream of consciousness",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "surreal"
+      },
+      {
+        "count": 1,
+        "name": "suspenseful"
+      },
+      {
+        "count": 1,
+        "name": "urban"
+      }
+    ],
+    "secondary-types": [],
+    "id": "4c2adca6-aadc-36cc-8a6d-c53a9da4dd4d",
+    "genres": [
+      {
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "id": "b1c0c2ad-e5ae-4bb6-a1be-d66e195fd2d7",
+        "disambiguation": "",
+        "name": "avant-garde"
+      },
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1,
+        "name": "electronic",
+        "disambiguation": ""
+      },
+      {
+        "name": "experimental",
+        "disambiguation": "",
+        "count": 1,
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+      },
+      {
+        "disambiguation": "",
+        "name": "experimental hip hop",
+        "count": 2,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      },
+      {
+        "disambiguation": "",
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222",
+        "disambiguation": "",
+        "name": "noise"
+      },
+      {
+        "disambiguation": "",
+        "name": "psychedelic",
+        "count": 1,
+        "id": "d698ece0-6fed-4262-b446-42c98b73b65a"
+      }
+    ],
+    "title": "From Filthy Tongue of Gods and Griots",
+    "rating": {
+      "votes-count": 2,
+      "value": 4
+    },
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "US",
+          "disambiguation": "American experimental hip hop group",
+          "name": "Dälek",
+          "type": "Group",
+          "genres": [
+            {
+              "name": "conscious hip hop",
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "id": "01ecf8e4-7f7a-4145-ae97-504d3109633d",
+              "name": "dark ambient",
+              "disambiguation": ""
+            },
+            {
+              "name": "experimental hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "count": 1,
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+              "name": "industrial hip hop",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "name": "noise",
+              "count": 1,
+              "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222"
+            },
+            {
+              "id": "aa92e307-b2bc-4802-8953-48b8c912fe9a",
+              "count": 1,
+              "name": "political hip hop",
+              "disambiguation": ""
+            }
+          ],
+          "sort-name": "Dälek",
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip-hop"
+            },
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "name": "dark ambient"
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "name": "experimental hip-hop",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "industrial hip hop"
+            },
+            {
+              "name": "noise",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "political hip hop"
+            }
+          ],
+          "id": "4f2c4842-f90f-476e-95d3-8e868ae4d745",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+        },
+        "name": "Dälek",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2002-08-05",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

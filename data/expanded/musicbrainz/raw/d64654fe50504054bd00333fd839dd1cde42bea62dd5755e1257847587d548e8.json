@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/231d5f0e-89ba-4aab-bbb0-c0c2815f0b20",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/231d5f0e-89ba-4aab-bbb0-c0c2815f0b20?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:37.246654+00:00",
+  "response": {
+    "title": "SLUDGE",
+    "genres": [
+      {
+        "count": 1,
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "name": "industrial hip hop"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2022-10-07",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Mag.Lo",
+        "artist": {
+          "id": "02520a99-be71-47a0-9dea-c4ee814b4899",
+          "genres": [
+            {
+              "disambiguation": "",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "name": "lo-fi hip hop",
+              "disambiguation": "",
+              "id": "d92aaf30-5941-4a65-b741-d9d48c80772a",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Mag.Lo",
+          "disambiguation": "Chris Martin",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip-hop"
+            },
+            {
+              "count": 1,
+              "name": "hip-hop/rap"
+            },
+            {
+              "name": "lo-fi hip hop",
+              "count": 1
+            }
+          ],
+          "country": "US",
+          "name": "Mag.Lo"
+        }
+      }
+    ],
+    "id": "231d5f0e-89ba-4aab-bbb0-c0c2815f0b20",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

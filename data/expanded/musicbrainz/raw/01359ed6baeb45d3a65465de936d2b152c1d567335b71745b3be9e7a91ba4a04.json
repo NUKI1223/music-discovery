@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/a0c82010-2868-4fd5-854f-46a46c8a2414",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a0c82010-2868-4fd5-854f-46a46c8a2414?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:26.354471+00:00",
+  "response": {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "title": "Past, Present, Future EP",
+    "id": "a0c82010-2868-4fd5-854f-46a46c8a2414",
+    "primary-type": "EP",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Thrust",
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Thrust",
+          "name": "Thrust",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "7dcd5ea8-f468-403d-b6dd-232778bd4f87",
+          "country": "CA",
+          "disambiguation": "Canadian rapper",
+          "type": "Person"
+        }
+      }
+    ],
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "1995"
+  }
+}

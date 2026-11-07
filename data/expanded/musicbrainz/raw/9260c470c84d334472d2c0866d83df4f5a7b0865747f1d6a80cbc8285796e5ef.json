@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/765519ef-afe1-432a-b04d-c96928269146",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/765519ef-afe1-432a-b04d-c96928269146?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:27.987307+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "id": "765519ef-afe1-432a-b04d-c96928269146",
+    "disambiguation": "",
+    "first-release-date": "2009-05-01",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "PsyClinic TactiX",
+          "tags": [],
+          "id": "828fea36-67a0-4948-a765-9786a9550627",
+          "genres": [],
+          "sort-name": "PsyClinic TactiX",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "GR",
+          "type": "Group",
+          "disambiguation": "Greek Hip Hop"
+        },
+        "name": "PsyClinic TactiX"
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "9c8ba153-740e-4b88-b7ff-31d004944c95",
+        "name": "nerdcore"
+      }
+    ],
+    "title": "InTo the clinic",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "nerdcore"
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "endpoint": "release-group/1b58d106-8e14-4510-b287-ed50fc34572e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1b58d106-8e14-4510-b287-ed50fc34572e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:35.189563+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "Voice of the Last Days",
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "experimental rock",
+        "count": 1
+      },
+      {
+        "name": "psychedelic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "psychedelic rock"
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "first-release-date": "2009-08-25",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "id": "c35ae4e5-d8c5-4e9d-80c4-b3416bd301f4",
+          "tags": [],
+          "name": "The Robotic Hands of God",
+          "disambiguation": "",
+          "type-id": null,
+          "type": null,
+          "country": null,
+          "sort-name": "Robotic Hands of God, The",
+          "genres": []
+        },
+        "name": "The Robotic Hands of God"
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7",
+        "name": "experimental rock"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "psychedelic",
+        "id": "d698ece0-6fed-4262-b446-42c98b73b65a"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "146ef761-5ad9-48b4-b0b3-483104f7da48",
+        "name": "psychedelic rock"
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "1b58d106-8e14-4510-b287-ed50fc34572e"
+  }
+}

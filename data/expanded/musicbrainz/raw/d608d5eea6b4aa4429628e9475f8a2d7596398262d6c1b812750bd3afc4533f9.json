@@ -1,0 +1,94 @@
+{
+  "endpoint": "release-group/fd2aec5c-3a0a-4c9c-b4dc-6dbec4be3df2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/fd2aec5c-3a0a-4c9c-b4dc-6dbec4be3df2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:45.179315+00:00",
+  "response": {
+    "id": "fd2aec5c-3a0a-4c9c-b4dc-6dbec4be3df2",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "black metal",
+        "id": "12568698-97cc-49a9-80ab-9c5e3fe4dd33",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "id": "eacfa027-2fad-413f-a2f1-80fa43674f0b",
+        "name": "death metal",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial metal",
+        "id": "d4df54b5-67b4-4fb7-8f73-79e71717a501"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "8cc9b280-230b-4a3a-b1e2-8acab0744dd3",
+        "name": "punk"
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "Traître Câlin",
+          "id": "4c0ccf62-4c4d-489c-989a-2d172310bc1f",
+          "tags": [],
+          "disambiguation": "",
+          "genres": [],
+          "sort-name": "Traître Câlin",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "FR",
+          "type": "Group"
+        },
+        "name": "Traître Câlin"
+      }
+    ],
+    "first-release-date": "2022-09-30",
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "black metal"
+      },
+      {
+        "count": 1,
+        "name": "death metal"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial metal"
+      },
+      {
+        "name": "punk",
+        "count": 1
+      }
+    ],
+    "title": "De La Ruine",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

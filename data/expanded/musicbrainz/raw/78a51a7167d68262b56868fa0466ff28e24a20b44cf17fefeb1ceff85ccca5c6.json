@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/82c42ec0-fe9c-43c4-b93b-afe021070f56",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/82c42ec0-fe9c-43c4-b93b-afe021070f56?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:55.460321+00:00",
+  "response": {
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Inverse",
+        "joinphrase": "",
+        "artist": {
+          "country": null,
+          "name": "Inverse",
+          "disambiguation": "hip hop duo",
+          "id": "9e9632ce-d3cd-4e1c-ae6c-7f9f6fe01141",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Inverse"
+        }
+      }
+    ],
+    "first-release-date": "2009-01-08",
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "id": "82c42ec0-fe9c-43c4-b93b-afe021070f56",
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      },
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "So True",
+    "disambiguation": ""
+  }
+}

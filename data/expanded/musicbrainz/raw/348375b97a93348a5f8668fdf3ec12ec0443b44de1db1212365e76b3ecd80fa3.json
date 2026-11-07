@@ -1,0 +1,184 @@
+{
+  "endpoint": "release-group/68821736-d4a0-3cf5-81e1-2db113cb1b54",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/68821736-d4a0-3cf5-81e1-2db113cb1b54?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:03.152168+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 2,
+      "value": 5
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2001-05-01",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 2
+      },
+      {
+        "count": 1,
+        "name": "instrumental"
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "US hip hop producer",
+          "type": "Person",
+          "country": "US",
+          "id": "39a973f2-0785-4ef6-90d9-551378864f89",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "boom bap",
+              "count": 2,
+              "disambiguation": "",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+            },
+            {
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": "",
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "count": 2,
+              "disambiguation": "",
+              "name": "east coast hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "name": "experimental hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 6,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+            },
+            {
+              "name": "jazz rap",
+              "disambiguation": "",
+              "count": 1,
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+            },
+            {
+              "name": "soul",
+              "id": "1b5e7b16-336b-473e-a364-5120413a9827",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "id": "cfe47781-460e-498a-92f5-399d68076727",
+              "disambiguation": "",
+              "count": 1,
+              "name": "turntablism"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "alternative hip hop",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "boom bap"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 1
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 2
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "count": 6,
+              "name": "hip hop"
+            },
+            {
+              "name": "hip-hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "instrumental hip hop"
+            },
+            {
+              "name": "instrumental hip-hop",
+              "count": 1
+            },
+            {
+              "name": "jazz rap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "soul"
+            },
+            {
+              "name": "turntablism",
+              "count": 1
+            }
+          ],
+          "sort-name": "Rock, Pete",
+          "name": "Pete Rock"
+        },
+        "joinphrase": "",
+        "name": "Pete Rock"
+      }
+    ],
+    "title": "PeteStrumentals",
+    "primary-type": "Album",
+    "id": "68821736-d4a0-3cf5-81e1-2db113cb1b54",
+    "secondary-types": [],
+    "genres": [
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 2,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "name": "instrumental"
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+      }
+    ],
+    "secondary-type-ids": []
+  }
+}

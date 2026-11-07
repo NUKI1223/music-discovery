@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/2fb8af74-d51c-47c1-8679-154d0fb753ce",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/2fb8af74-d51c-47c1-8679-154d0fb753ce?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:52.341252+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "count": 1
+      }
+    ],
+    "title": "guilt & sincerity",
+    "first-release-date": "2017-08-24",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Navy Blue",
+        "artist": {
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US skateboarder & rapper",
+          "name": "Navy Blue",
+          "country": "US",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            }
+          ],
+          "id": "304c731f-ea4f-407c-b4fc-65131b1b2b37",
+          "sort-name": "Navy Blue",
+          "type": "Person"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "id": "2fb8af74-d51c-47c1-8679-154d0fb753ce",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

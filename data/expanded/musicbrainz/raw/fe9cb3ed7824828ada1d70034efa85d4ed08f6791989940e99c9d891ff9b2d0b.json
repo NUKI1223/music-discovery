@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/36e5b0f9-96f4-338d-bb92-dd120dae56b6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/36e5b0f9-96f4-338d-bb92-dd120dae56b6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:55.238963+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "",
+          "country": "US",
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "The Dayton Family",
+          "id": "7ec3365c-87c3-4493-8c32-afe5e9aa957b",
+          "tags": [],
+          "sort-name": "Dayton Family, The",
+          "type": "Group"
+        },
+        "name": "The Dayton Family",
+        "joinphrase": ""
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "first-release-date": "2005-07-12",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "id": "36e5b0f9-96f4-338d-bb92-dd120dae56b6",
+    "title": "Family Feud",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

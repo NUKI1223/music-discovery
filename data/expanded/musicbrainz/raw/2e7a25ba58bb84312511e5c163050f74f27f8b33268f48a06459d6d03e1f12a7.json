@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/a7b1ed33-43c4-4671-bf81-ededb3e1626d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a7b1ed33-43c4-4671-bf81-ededb3e1626d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:52.206682+00:00",
+  "response": {
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Losco.",
+        "artist": {
+          "type": "Group",
+          "sort-name": "Losco",
+          "id": "b6ec16d0-8673-41b9-afd4-e40a6d08f97c",
+          "genres": [],
+          "country": "BE",
+          "name": "Losco",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "Belgian beatmakers, aka 'Loscobeats'",
+          "tags": []
+        }
+      }
+    ],
+    "title": "XXXX",
+    "genres": [
+      {
+        "name": "trap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "first-release-date": "2013-12-20",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "a7b1ed33-43c4-4671-bf81-ededb3e1626d",
+    "secondary-type-ids": [],
+    "secondary-types": []
+  }
+}

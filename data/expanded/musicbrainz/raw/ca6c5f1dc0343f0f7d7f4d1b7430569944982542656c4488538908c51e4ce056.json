@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/f3ab12b7-3fff-41d3-bffe-c5ae6b94410e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f3ab12b7-3fff-41d3-bffe-c5ae6b94410e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:00.489669+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "first-release-date": "2020-12-23",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "StropStrikkers",
+        "joinphrase": "",
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "country": null,
+          "id": "70d10edc-2447-4924-b6d2-e86c4c4bfc49",
+          "type": "Group",
+          "disambiguation": "",
+          "sort-name": "StropStrikkers",
+          "name": "StropStrikkers",
+          "tags": []
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "title": "Stofhappers (2005-2009)",
+    "primary-type": "Album",
+    "id": "f3ab12b7-3fff-41d3-bffe-c5ae6b94410e",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      }
+    ]
+  }
+}

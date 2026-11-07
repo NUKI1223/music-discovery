@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/31b3fbf9-1214-4d7f-a87e-277ffbfbd21d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/31b3fbf9-1214-4d7f-a87e-277ffbfbd21d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:50.146543+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2018-03-09",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "name": "experimental",
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "31b3fbf9-1214-4d7f-a87e-277ffbfbd21d",
+    "primary-type": "EP",
+    "title": "Tongues",
+    "tags": [
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "sort-name": "No Puls",
+          "name": "No Puls",
+          "tags": [],
+          "country": null,
+          "id": "3322a185-b57b-4d0a-8b44-8f642268707f",
+          "type": null,
+          "disambiguation": "",
+          "type-id": null,
+          "genres": []
+        },
+        "joinphrase": "",
+        "name": "no puls"
+      }
+    ]
+  }
+}

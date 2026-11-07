@@ -1,0 +1,80 @@
+{
+  "endpoint": "release-group/9fe7b864-9c8d-411a-a1ec-2524e7f227a7",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9fe7b864-9c8d-411a-a1ec-2524e7f227a7?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:24.777693+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "title": "Typhon",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2021-07-30",
+    "id": "9fe7b864-9c8d-411a-a1ec-2524e7f227a7",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Cr7z",
+        "artist": {
+          "country": "DE",
+          "disambiguation": "German rapper",
+          "name": "Cr7z",
+          "id": "5b489c65-20c7-4a40-b769-a2c0ff6212ce",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "Cr7z",
+          "type": "Person",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "rap"
+            }
+          ]
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": ""
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/522ca615-461c-4135-8dbd-6310fd6c390b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/522ca615-461c-4135-8dbd-6310fd6c390b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:23.764927+00:00",
+  "response": {
+    "first-release-date": "2004-05-05",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "Finnish rap artist",
+          "country": null,
+          "sort-name": "HEATH",
+          "type": "Person",
+          "name": "HEATH",
+          "genres": [],
+          "tags": [],
+          "id": "da30d0b9-1308-4646-a642-2db63ff77101",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "name": "HEATH"
+      }
+    ],
+    "id": "522ca615-461c-4135-8dbd-6310fd6c390b",
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "name": "trap"
+      }
+    ],
+    "title": "Sex With Cacodemon",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": ""
+  }
+}

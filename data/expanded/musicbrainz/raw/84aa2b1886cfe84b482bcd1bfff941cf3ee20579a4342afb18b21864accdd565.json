@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/d76e31db-753b-4bbf-a325-d503a99e2ce9",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d76e31db-753b-4bbf-a325-d503a99e2ce9?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:52.391873+00:00",
+  "response": {
+    "title": "死亡 (005) Silence",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2019-03-11",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": ""
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "BPMF",
+          "sort-name": "BPMF",
+          "type": "Person",
+          "country": null,
+          "disambiguation": "Rap fr",
+          "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "tags": []
+        },
+        "name": "BPMF"
+      }
+    ],
+    "id": "d76e31db-753b-4bbf-a325-d503a99e2ce9"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "endpoint": "release-group/04907c6c-77ef-4959-8770-8957d0409eb1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/04907c6c-77ef-4959-8770-8957d0409eb1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:15.970849+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "ambient"
+      },
+      {
+        "count": 1,
+        "name": "chillout"
+      },
+      {
+        "count": 1,
+        "name": "instrumental"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "FUTUREKINGS",
+        "artist": {
+          "type": "Group",
+          "disambiguation": "",
+          "id": "9961bddc-99cb-409b-a4a0-203da7fd325b",
+          "country": null,
+          "genres": [
+            {
+              "id": "608b0471-7531-4854-a348-e698c69cb699",
+              "count": 1,
+              "disambiguation": "",
+              "name": "ambient"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+              "name": "downtempo"
+            },
+            {
+              "name": "electronic",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "name": "ambient",
+              "count": 1
+            },
+            {
+              "name": "beat",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "downtempo"
+            },
+            {
+              "count": 1,
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "name": "FUTUREKINGS",
+          "sort-name": "FUTUREKINGS"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "name": "abstract hip hop"
+      },
+      {
+        "id": "608b0471-7531-4854-a348-e698c69cb699",
+        "count": 1,
+        "disambiguation": "",
+        "name": "ambient"
+      },
+      {
+        "name": "chillout",
+        "count": 1,
+        "disambiguation": "",
+        "id": "7232e5df-8466-421f-ad5a-ce2048e5522d"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "name": "instrumental"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "04907c6c-77ef-4959-8770-8957d0409eb1",
+    "primary-type": "EP",
+    "title": "Backwards Movies",
+    "first-release-date": "2015-05-19",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": ""
+  }
+}

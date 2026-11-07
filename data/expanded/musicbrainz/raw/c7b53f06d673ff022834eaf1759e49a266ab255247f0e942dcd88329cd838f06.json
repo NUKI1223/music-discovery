@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/3d847591-7975-4fd5-a0a9-15c02fcf76e0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3d847591-7975-4fd5-a0a9-15c02fcf76e0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:03.953333+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2013-05-24",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "3d847591-7975-4fd5-a0a9-15c02fcf76e0",
+    "primary-type": "Album",
+    "title": "Murmures Barbares",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "type": "Group",
+          "disambiguation": "",
+          "id": "ab40cede-1595-4d28-9080-862b11490fe7",
+          "country": "CH",
+          "tags": [],
+          "name": "Idal & Hook",
+          "sort-name": "Idal & Hook"
+        },
+        "name": "Idal & Hook"
+      }
+    ]
+  }
+}

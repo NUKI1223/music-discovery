@@ -1,0 +1,136 @@
+{
+  "endpoint": "release-group/3123dc28-72be-48ef-899c-277dbcb44b4b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3123dc28-72be-48ef-899c-277dbcb44b4b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:45.110037+00:00",
+  "response": {
+    "id": "3123dc28-72be-48ef-899c-277dbcb44b4b",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "downtempo",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "trip hop"
+      },
+      {
+        "count": 1,
+        "name": "wonky"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "cc38aba3-48ed-439a-83b9-f81a34a66598",
+        "name": "downtempo"
+      },
+      {
+        "name": "electronic",
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1
+      },
+      {
+        "name": "experimental",
+        "count": 1,
+        "disambiguation": "",
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+      },
+      {
+        "disambiguation": "",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1,
+        "name": "instrumental hip hop"
+      },
+      {
+        "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+        "disambiguation": "",
+        "count": 1,
+        "name": "trip hop"
+      },
+      {
+        "name": "wonky",
+        "count": 1,
+        "id": "449e7cdf-0d7e-46aa-852d-96d81078abf3",
+        "disambiguation": ""
+      }
+    ],
+    "title": "Science is My Girlfriend",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2008-03",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Neat Beats",
+        "joinphrase": "",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Neat Beats",
+          "id": "893b638d-b868-405a-8fd7-215842922833",
+          "genres": [
+            {
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "disambiguation": "",
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+              "name": "experimental"
+            },
+            {
+              "disambiguation": "",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "count": 1,
+              "name": "instrumental hip hop"
+            }
+          ],
+          "country": null,
+          "name": "Neat Beats",
+          "disambiguation": "producer",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "abstract hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "experimental"
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

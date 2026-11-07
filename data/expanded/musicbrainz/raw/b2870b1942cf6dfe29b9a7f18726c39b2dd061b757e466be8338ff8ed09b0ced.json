@@ -1,0 +1,124 @@
+{
+  "endpoint": "release-group/04edcd86-95b0-496a-b7f0-04303e6f2511",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/04edcd86-95b0-496a-b7f0-04303e6f2511?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:34.568758+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 1,
+              "name": "beatmaking"
+            },
+            {
+              "name": "beats",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "electronic"
+            },
+            {
+              "count": 2,
+              "name": "experimental electronic"
+            },
+            {
+              "name": "hip hop",
+              "count": 2
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "French abstract / hip hop / electronic beatmaker",
+          "name": "Al’Tarba",
+          "country": "FR",
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "disambiguation": "",
+              "name": "electronic"
+            },
+            {
+              "id": "3832a068-e169-40cb-9638-d0b04342f3a3",
+              "disambiguation": "",
+              "count": 2,
+              "name": "experimental electronic"
+            },
+            {
+              "name": "hip hop",
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            }
+          ],
+          "id": "19e7f2b3-8331-414c-906b-4869daa0eeba",
+          "sort-name": "Al’Tarba",
+          "type": "Person"
+        },
+        "name": "Al'Tarba",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2013-11-25",
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1
+      },
+      {
+        "name": "electronic",
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "title": "Ladies and Ladies",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "04edcd86-95b0-496a-b7f0-04303e6f2511"
+  }
+}

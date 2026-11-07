@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/8e42b39e-4385-4f67-8acc-f415a8bee287",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8e42b39e-4385-4f67-8acc-f415a8bee287?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:08.359059+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2020-09-11",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "genres": [
+      {
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "8e42b39e-4385-4f67-8acc-f415a8bee287",
+    "primary-type": "Album",
+    "title": "BEST HOUSE ON A BAD BLOCK",
+    "tags": [
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "name": "1 800 PAIN",
+          "sort-name": "1 800 PAIN",
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "type": "Group",
+          "id": "e1ceeab5-5320-4120-9d9b-ad8aae8b4882",
+          "country": null
+        },
+        "name": "1 800 PAIN"
+      }
+    ]
+  }
+}

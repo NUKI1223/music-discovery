@@ -1,0 +1,94 @@
+{
+  "endpoint": "release-group/5e83c736-8832-4a66-935f-561b0e3b6b91",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5e83c736-8832-4a66-935f-561b0e3b6b91?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:18.823969+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "MANIFESTO",
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "rap",
+        "count": 1
+      }
+    ],
+    "id": "5e83c736-8832-4a66-935f-561b0e3b6b91",
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 3
+            },
+            {
+              "count": 2,
+              "name": "rap"
+            },
+            {
+              "name": "trap",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 3,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "00447c0c-bc7e-4578-a206-31e95ac97571",
+          "country": null,
+          "disambiguation": "",
+          "type": "Person",
+          "sort-name": "Terror Reid",
+          "name": "Terror Reid"
+        },
+        "joinphrase": "",
+        "name": "Terror Reid"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2024-09-20"
+  }
+}

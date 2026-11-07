@@ -1,0 +1,132 @@
+{
+  "head": {
+    "vars": [
+      "album",
+      "mbid"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "a3136431-78ae-4a4e-845e-b0b39fd6f465"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17020851"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "dcdee807-7a10-44c6-8e33-36625d8579ba"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17042652"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "6a1c9684-18c6-4b43-bd15-6badbbdc0600"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17151420"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "a8ea0702-c21a-4cc7-b1cb-83da70007964"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q18713611"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "33456da2-86e1-4fd7-9784-c46b8f827cab"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q19835078"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q20814394"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "dd2012b3-3a21-4150-aff1-fcff86b409c9"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q24211156"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "80172a28-bd94-4c89-b0a4-343fb0f9f6c2"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q54087443"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "f1f6c7e2-7848-4554-b36c-2190e1d6bfb0"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5420445"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "360608f0-007c-49b3-90d7-8d2b81200e1f"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q55770592"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "1f6a40a7-cb65-446f-8824-db329f117fe0"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q63457342"
+        }
+      },
+      {
+        "mbid": {
+          "type": "literal",
+          "value": "aa0b4e86-358e-4c92-aecd-94f5f59233f7"
+        },
+        "album": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q7752003"
+        }
+      }
+    ]
+  }
+}

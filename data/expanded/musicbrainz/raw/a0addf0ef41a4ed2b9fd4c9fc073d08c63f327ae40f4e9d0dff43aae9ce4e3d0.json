@@ -1,0 +1,141 @@
+{
+  "endpoint": "release-group/4835042d-d79e-4c15-85ef-e5a30d31f398",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4835042d-d79e-4c15-85ef-e5a30d31f398?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:31.239687+00:00",
+  "response": {
+    "title": "Tears of Joy",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "abstract hip hop",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "name": "alternative hip hop"
+            },
+            {
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "name": "boom bap",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "conscious hip hop",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "east coast hip hop",
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 3
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "name": "jazz rap"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Homeboy Sandman",
+          "id": "65eaa552-1149-4b42-888e-6d6e4affdbff",
+          "tags": [
+            {
+              "name": "abstract hip hop",
+              "count": 1
+            },
+            {
+              "name": "alternative hip hop",
+              "count": 1
+            },
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 1
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 1
+            },
+            {
+              "count": 3,
+              "name": "hip hop"
+            },
+            {
+              "name": "jazz rap",
+              "count": 1
+            }
+          ],
+          "sort-name": "Homeboy Sandman",
+          "type": "Person",
+          "disambiguation": "",
+          "country": "US"
+        },
+        "name": "Homeboy Sandman",
+        "joinphrase": " & "
+      },
+      {
+        "joinphrase": "",
+        "name": "GUIDANCE",
+        "artist": {
+          "disambiguation": "alias for electronic producer Aether",
+          "country": null,
+          "tags": [],
+          "type": "Person",
+          "sort-name": "GUIDANCE",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "de0b9992-4435-4c8d-8269-91c9b21f1cf8",
+          "name": "GUIDANCE"
+        }
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "4835042d-d79e-4c15-85ef-e5a30d31f398",
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 1,
+      "value": 3.5
+    },
+    "first-release-date": "2025-10-03"
+  }
+}

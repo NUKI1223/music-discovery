@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/d435d05d-3bfd-4a41-86f5-f8d6e8969ffa",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d435d05d-3bfd-4a41-86f5-f8d6e8969ffa?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:17.074032+00:00",
+  "response": {
+    "id": "d435d05d-3bfd-4a41-86f5-f8d6e8969ffa",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "title": "Town’s Dead",
+    "first-release-date": "2021-05-28",
+    "rating": {
+      "value": 3,
+      "votes-count": 1
+    },
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Kojaque",
+        "artist": {
+          "sort-name": "Kojaque",
+          "type": "Person",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "id": "f1b7101e-c968-4843-ad08-9ef5b846c915",
+          "name": "Kojaque",
+          "country": "IE",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        }
+      }
+    ]
+  }
+}

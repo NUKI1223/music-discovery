@@ -1,0 +1,238 @@
+{
+  "endpoint": "release-group/6d1143c4-7e3c-4eec-ac2d-0ef4e29c7128",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6d1143c4-7e3c-4eec-ac2d-0ef4e29c7128?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:08.169756+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "abstract",
+              "count": 4
+            },
+            {
+              "name": "abstract hip hop",
+              "count": 1
+            },
+            {
+              "count": 2,
+              "name": "electronic"
+            },
+            {
+              "count": 1,
+              "name": "electronica"
+            },
+            {
+              "count": 3,
+              "name": "experimental"
+            },
+            {
+              "name": "fake",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "name": "hip-hop"
+            },
+            {
+              "name": "idm",
+              "count": 3
+            },
+            {
+              "name": "impro for vomir",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "indietronica"
+            },
+            {
+              "count": 1,
+              "name": "instrumental"
+            },
+            {
+              "name": "many singles",
+              "count": 2
+            },
+            {
+              "count": 3,
+              "name": "noise"
+            },
+            {
+              "count": 1,
+              "name": "psychedelic pop"
+            },
+            {
+              "name": "psychedelic rock",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "psychobilly"
+            },
+            {
+              "name": "rock n roll",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "troll"
+            },
+            {
+              "name": "velvet",
+              "count": 1
+            }
+          ],
+          "country": "US",
+          "name": "Zippy Kid",
+          "id": "6b656576-9504-432e-823d-8920139db2f0",
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c"
+            },
+            {
+              "name": "electronic",
+              "disambiguation": "",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "count": 2
+            },
+            {
+              "id": "53a3cea3-17af-4421-a07a-5824b540aeb5",
+              "disambiguation": "",
+              "count": 1,
+              "name": "electronica"
+            },
+            {
+              "count": 3,
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+              "disambiguation": "",
+              "name": "experimental"
+            },
+            {
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "id": "8eb583f1-4fd7-460c-8246-dcdccc0e3ef9",
+              "disambiguation": "",
+              "count": 3,
+              "name": "idm"
+            },
+            {
+              "count": 1,
+              "id": "9e7ae1de-d5f2-46a5-b105-11c7367dc70d",
+              "disambiguation": "",
+              "name": "indietronica"
+            },
+            {
+              "name": "instrumental",
+              "count": 1,
+              "disambiguation": "",
+              "id": "4ae63770-68af-4fae-b0f1-5e53f372c743"
+            },
+            {
+              "name": "noise",
+              "count": 3,
+              "disambiguation": "",
+              "id": "89c7c9b3-215e-482f-bce3-3219ffd0a222"
+            },
+            {
+              "disambiguation": "",
+              "id": "2aeb5340-c474-4677-b9a6-35ddac9b6a58",
+              "count": 1,
+              "name": "psychedelic pop"
+            },
+            {
+              "name": "psychedelic rock",
+              "id": "146ef761-5ad9-48b4-b0b3-483104f7da48",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "name": "psychobilly",
+              "count": 1,
+              "disambiguation": "",
+              "id": "8a14f570-7297-438d-996d-8797f9b8cfcc"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Zippy Kid"
+        },
+        "name": "Zippy Kid",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "title": "Комите́т госуда́рственной безопа́сности Сою́за Сове́тских Социалисти́ческих Респу́блик",
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "count": 1,
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "8eb583f1-4fd7-460c-8246-dcdccc0e3ef9",
+        "name": "idm"
+      },
+      {
+        "count": 1,
+        "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+        "disambiguation": "",
+        "name": "rock"
+      }
+    ],
+    "rating": {
+      "value": 3,
+      "votes-count": 2
+    },
+    "first-release-date": "2024-07-23",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "idm"
+      },
+      {
+        "name": "rock",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "6d1143c4-7e3c-4eec-ac2d-0ef4e29c7128",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

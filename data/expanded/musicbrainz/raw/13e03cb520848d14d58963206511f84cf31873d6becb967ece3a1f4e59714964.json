@@ -1,0 +1,450 @@
+{
+  "endpoint": "release-group/499c19c8-0dab-4824-884b-6191d145e95b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/499c19c8-0dab-4824-884b-6191d145e95b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:23.871580+00:00",
+  "response": {
+    "tags": [
+      {
+        "count": 1,
+        "name": "ageing"
+      },
+      {
+        "count": 1,
+        "name": "alcohol"
+      },
+      {
+        "name": "bittersweet",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "boastful"
+      },
+      {
+        "name": "car on cover",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "childhood"
+      },
+      {
+        "name": "christian",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "concept album"
+      },
+      {
+        "name": "conscious",
+        "count": 2
+      },
+      {
+        "name": "conscious hip hop",
+        "count": 5
+      },
+      {
+        "name": "contemporary rap",
+        "count": 1
+      },
+      {
+        "name": "crime",
+        "count": 1
+      },
+      {
+        "name": "domestic",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "drugs"
+      },
+      {
+        "name": "english",
+        "count": 1
+      },
+      {
+        "name": "existential",
+        "count": 1
+      },
+      {
+        "name": "family",
+        "count": 1
+      },
+      {
+        "name": "friendship",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "gangsta"
+      },
+      {
+        "count": 2,
+        "name": "gangsta rap"
+      },
+      {
+        "name": "grief",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "guns"
+      },
+      {
+        "name": "hardcore hip hop",
+        "count": 2
+      },
+      {
+        "name": "hardcore hip-hop",
+        "count": 1
+      },
+      {
+        "name": "hedonistic",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 9
+      },
+      {
+        "name": "homicide",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "introspective"
+      },
+      {
+        "count": 1,
+        "name": "male vocalist"
+      },
+      {
+        "count": 1,
+        "name": "money"
+      },
+      {
+        "name": "narrative",
+        "count": 1
+      },
+      {
+        "name": "passionate",
+        "count": 1
+      },
+      {
+        "name": "poetic",
+        "count": 1
+      },
+      {
+        "name": "pop rap",
+        "count": 1
+      },
+      {
+        "name": "poverty",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "rhythmic"
+      },
+      {
+        "count": 1,
+        "name": "sampling"
+      },
+      {
+        "name": "sentimental",
+        "count": 1
+      },
+      {
+        "name": "serious",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "sexual"
+      },
+      {
+        "name": "sombre",
+        "count": 1
+      },
+      {
+        "name": "suburban",
+        "count": 1
+      },
+      {
+        "name": "urban",
+        "count": 1
+      },
+      {
+        "name": "violence",
+        "count": 1
+      },
+      {
+        "name": "west coast hip hop",
+        "count": 6
+      },
+      {
+        "count": 1,
+        "name": "west coast hip-hop"
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "title": "good kid, m.A.A.d city",
+    "rating": {
+      "votes-count": 34,
+      "value": 4.25
+    },
+    "first-release-date": "2012-10-22",
+    "id": "499c19c8-0dab-4824-884b-6191d145e95b",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 5,
+        "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+        "name": "conscious hip hop"
+      },
+      {
+        "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c",
+        "name": "gangsta rap",
+        "disambiguation": "",
+        "count": 2
+      },
+      {
+        "count": 2,
+        "disambiguation": "",
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 9,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "pop rap",
+        "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237"
+      },
+      {
+        "disambiguation": "",
+        "count": 6,
+        "id": "149a3524-0fd3-4bdc-9876-0361dfee8908",
+        "name": "west coast hip hop"
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+          "name": "Kendrick Lamar",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "alternative hip hop",
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "disambiguation": "",
+              "count": 3
+            },
+            {
+              "count": 14,
+              "disambiguation": "",
+              "name": "conscious hip hop",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+            },
+            {
+              "name": "dance",
+              "id": "e5bba957-8c91-496a-a675-c6d0c6b51c33",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "disco",
+              "id": "a04d680b-b5c5-4f6a-87a3-f9f1ff98e3ea",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "name": "future bass",
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71"
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "name": "gangsta rap",
+              "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c"
+            },
+            {
+              "count": 7,
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "name": "hardcore hip hop"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 18
+            },
+            {
+              "name": "house",
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "name": "jazz",
+              "id": "a715278f-1580-409f-8078-4ffbc800e08b"
+            },
+            {
+              "disambiguation": "",
+              "count": 12,
+              "name": "jazz rap",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+            },
+            {
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "name": "pop",
+              "disambiguation": "",
+              "count": 5
+            },
+            {
+              "name": "pop rap",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "name": "r&b"
+            },
+            {
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap",
+              "count": 2,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 10,
+              "id": "149a3524-0fd3-4bdc-9876-0361dfee8908",
+              "name": "west coast hip hop"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Lamar, Kendrick",
+          "tags": [
+            {
+              "count": 2,
+              "name": "2010s"
+            },
+            {
+              "name": "2020s",
+              "count": 2
+            },
+            {
+              "name": "alternative hip hop",
+              "count": 3
+            },
+            {
+              "count": 14,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "name": "conscious rapper"
+            },
+            {
+              "name": "contemporary rap",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "dance"
+            },
+            {
+              "name": "disco",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "future bass"
+            },
+            {
+              "count": 2,
+              "name": "gangsta rap"
+            },
+            {
+              "count": 7,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 18,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "name": "house"
+            },
+            {
+              "name": "jazz",
+              "count": 2
+            },
+            {
+              "name": "jazz rap",
+              "count": 12
+            },
+            {
+              "name": "pop",
+              "count": 5
+            },
+            {
+              "name": "pop rap",
+              "count": 2
+            },
+            {
+              "name": "progressive rap",
+              "count": 2
+            },
+            {
+              "name": "r&b",
+              "count": 2
+            },
+            {
+              "count": 6,
+              "name": "rap"
+            },
+            {
+              "name": "trap",
+              "count": 2
+            },
+            {
+              "name": "west coast hip hop",
+              "count": 10
+            }
+          ],
+          "country": "US",
+          "disambiguation": ""
+        },
+        "name": "Kendrick Lamar"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": ""
+  }
+}

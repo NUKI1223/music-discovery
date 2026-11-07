@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/662a2622-318e-429b-91db-7cf7786dc72d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/662a2622-318e-429b-91db-7cf7786dc72d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:51.395934+00:00",
+  "response": {
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Mens Sana",
+          "disambiguation": "",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "count": 1,
+              "disambiguation": "",
+              "name": "jazz rap"
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Mens Sana",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "jazz rap"
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "e584e849-11a2-41c0-99ff-8746125ba856",
+          "country": "CH"
+        },
+        "name": "Mens Sana",
+        "joinphrase": ""
+      }
+    ],
+    "first-release-date": "2006",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "id": "662a2622-318e-429b-91db-7cf7786dc72d",
+    "secondary-types": [],
+    "genres": [
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "disambiguation": "",
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Disque de chevet",
+    "disambiguation": ""
+  }
+}

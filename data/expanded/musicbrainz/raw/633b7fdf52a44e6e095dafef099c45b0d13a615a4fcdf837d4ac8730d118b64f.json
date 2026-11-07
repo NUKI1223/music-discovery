@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/cc5338e0-aa11-4e68-8bd4-1f76873b8a19",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/cc5338e0-aa11-4e68-8bd4-1f76873b8a19?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:30.274973+00:00",
+  "response": {
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "cc5338e0-aa11-4e68-8bd4-1f76873b8a19",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "name": "BPMF",
+        "joinphrase": "",
+        "artist": {
+          "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+          "genres": [],
+          "type": "Person",
+          "sort-name": "BPMF",
+          "disambiguation": "Rap fr",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [],
+          "country": null,
+          "name": "BPMF"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "title": "白日夢 (003)",
+    "genres": [
+      {
+        "name": "boom bap",
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2018-04-30"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/5b9b0634-f72f-4fb2-a50a-b23a60fce215",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5b9b0634-f72f-4fb2-a50a-b23a60fce215?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:54.727860+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Structure/Foundation (What's The Plan)",
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "id": "5b9b0634-f72f-4fb2-a50a-b23a60fce215",
+    "artist-credit": [
+      {
+        "name": "Citizen Kane",
+        "joinphrase": "",
+        "artist": {
+          "id": "c12e900e-d88f-474d-8417-a366c2e49132",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "name": "boom bap"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "name": "hardcore hip hop"
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            }
+          ],
+          "name": "Citizen Kane",
+          "sort-name": "Citizen Kane",
+          "type": "Group",
+          "country": "CA",
+          "disambiguation": "Canadian hip-hop duo"
+        }
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "1996"
+  }
+}

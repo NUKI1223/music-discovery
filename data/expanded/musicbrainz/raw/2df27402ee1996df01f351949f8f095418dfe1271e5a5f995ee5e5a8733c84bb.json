@@ -1,0 +1,104 @@
+{
+  "endpoint": "release-group/a7f6bd6e-ad0a-4127-9834-b8a321362eb2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a7f6bd6e-ad0a-4127-9834-b8a321362eb2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:55.818820+00:00",
+  "response": {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "1999",
+    "tags": [
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "name": "electronica"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "instrumental",
+        "count": 1
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trip hop"
+      }
+    ],
+    "genres": [
+      {
+        "name": "electronic",
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "id": "53a3cea3-17af-4421-a07a-5824b540aeb5",
+        "disambiguation": "",
+        "name": "electronica"
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "instrumental",
+        "disambiguation": "",
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "count": 1
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1,
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "disambiguation": ""
+      },
+      {
+        "name": "trip hop",
+        "id": "45eb1d9c-588c-4dc8-9394-a14b7c8f02bc",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "id": "a7f6bd6e-ad0a-4127-9834-b8a321362eb2",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "81f23dd5-ae74-43ae-8fb5-d11adeeba75b",
+          "name": "Juhani",
+          "disambiguation": "",
+          "country": "FI",
+          "type": "Person",
+          "sort-name": "Juhani"
+        },
+        "name": "Juhani"
+      }
+    ],
+    "title": "Rajoitettu erä",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

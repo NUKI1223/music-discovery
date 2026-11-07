@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/68a5c650-0ba4-4504-8f15-715802ac16a1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/68a5c650-0ba4-4504-8f15-715802ac16a1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:16.113885+00:00",
+  "response": {
+    "title": "i tested myself",
+    "tags": [
+      {
+        "name": "electronic",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [],
+          "sort-name": "6ix",
+          "type": "Person",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "6ix",
+          "id": "c7e39beb-06d3-40a1-b31e-62aa2bdc8e9d",
+          "disambiguation": "US hip‐hop producer Arjun Ivatury",
+          "country": "US"
+        },
+        "name": "6ix",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2017-10-13",
+    "id": "68a5c650-0ba4-4504-8f15-715802ac16a1",
+    "genres": [
+      {
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      }
+    ]
+  }
+}

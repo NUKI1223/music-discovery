@@ -1,0 +1,79 @@
+{
+  "endpoint": "release-group/b1df60bb-5961-4af7-a860-d41d45e232c4",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b1df60bb-5961-4af7-a860-d41d45e232c4?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:37.731530+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "id": "b1df60bb-5961-4af7-a860-d41d45e232c4",
+    "first-release-date": "2020-07-05",
+    "disambiguation": "",
+    "genres": [
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "artist": {
+          "name": "Iceberg Theory",
+          "id": "64c81ea0-678d-452d-bc39-136455537cd4",
+          "tags": [],
+          "sort-name": "Iceberg Theory",
+          "genres": [],
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": null,
+          "disambiguation": ""
+        },
+        "name": "Iceberg Theory"
+      },
+      {
+        "artist": {
+          "id": "cd8a48ec-87a9-43b1-9514-4c5d058963ec",
+          "tags": [],
+          "name": "Bloodblixing",
+          "type-id": null,
+          "type": null,
+          "country": null,
+          "sort-name": "Bloodblixing",
+          "genres": [],
+          "disambiguation": ""
+        },
+        "name": "Bloodblixing",
+        "joinphrase": ""
+      }
+    ],
+    "title": "The Last Symbolist",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

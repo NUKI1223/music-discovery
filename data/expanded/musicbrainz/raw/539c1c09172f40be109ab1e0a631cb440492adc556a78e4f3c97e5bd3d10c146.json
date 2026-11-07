@@ -1,0 +1,3291 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"abstract hip hop\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22abstract+hip+hop%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2020-01-01+TO+2026-10-28%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:22.264767+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:22.071Z",
+    "count": 155,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "4835042d-d79e-4c15-85ef-e5a30d31f398",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "1551ce32-6469-46bb-9ab4-0a8e26005b0b",
+        "count": 1,
+        "title": "Tears of Joy",
+        "first-release-date": "2025-10-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Homeboy Sandman",
+            "artist": {
+              "id": "65eaa552-1149-4b42-888e-6d6e4affdbff",
+              "name": "Homeboy Sandman",
+              "sort-name": "Homeboy Sandman",
+              "aliases": [
+                {
+                  "sort-name": "Homeboy Sandman",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Homeboy Sandman",
+                  "locale": "en_US",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": "2007-08-31",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Del Villar II, Angel",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Angel Del Villar II",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "GUIDANCE",
+            "artist": {
+              "id": "de0b9992-4435-4c8d-8269-91c9b21f1cf8",
+              "name": "GUIDANCE",
+              "sort-name": "GUIDANCE",
+              "disambiguation": "alias for electronic producer Aether"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "528909b4-b788-4c65-9b4a-2127aaedadec",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tears of Joy",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ad6aa202-f0fc-44b2-b368-ba6de49cc609",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 86,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ce11f2b9-8009-3061-bb0f-5c3d3541a4e0",
+        "count": 1,
+        "title": "Constellations EP",
+        "first-release-date": "2022-10-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Mononome",
+            "artist": {
+              "id": "02a2123f-b901-4bed-9b33-ee114ed79018",
+              "name": "Mononome",
+              "sort-name": "Mononome",
+              "aliases": [
+                {
+                  "sort-name": "Michadasis, Filippos",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Filippos Michadasis",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "10726cc5-9f78-4f69-8e04-9e445af51d84",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Constellations EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "25ba5e8e-a7d6-43e5-b267-c2f52b9854ee",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 81,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "cd2fdac8-b90f-3f08-9c25-cdd8068b9c3c",
+        "count": 1,
+        "title": "Ailleurs",
+        "first-release-date": "2020-06-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Mazette",
+            "artist": {
+              "id": "62e732d4-549f-432b-b045-671af0df0ed5",
+              "name": "Mazette",
+              "sort-name": "Mazette"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "90014258-2c9f-4822-8007-63618c5e3733",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ailleurs",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f3694602-f134-41bc-a4cd-ae4e61478113",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 77,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6971aa3e-8b57-4c2e-85d9-ce552fb1a8e6",
+        "count": 1,
+        "title": "Doctor Destructo and the Big Bad Wolf",
+        "first-release-date": "2023-10-15",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "El Jeff",
+            "artist": {
+              "id": "3ed3dcce-e933-4227-b9cb-8614a11b78c5",
+              "name": "El Jeff",
+              "sort-name": "Jeff, El",
+              "disambiguation": "UK alternative rapper"
+            }
+          },
+          {
+            "name": "Dawolf",
+            "artist": {
+              "id": "f465be54-5f5f-4941-aa98-456011c350a9",
+              "name": "Dawolf",
+              "sort-name": "Dawolf",
+              "disambiguation": "US alternative rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d565134a-93b4-42f0-b89f-1753a9eaf75d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Doctor Destructo and the Big Bad Wolf",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "2cd9d25e-29ad-4c7b-8cf5-3bbb779fb922",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 77,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1881ea16-323f-40d1-ba47-942a98da3b71",
+        "count": 1,
+        "title": "the First Fist to Make Contact When We Dap",
+        "first-release-date": "2024-01-26",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "R.A.P. Ferreira",
+            "artist": {
+              "id": "38c740a4-f3bf-4c40-ad0c-5b73c8f24a12",
+              "name": "R.A.P. Ferreira",
+              "sort-name": "Ferreira, R.A.P.",
+              "aliases": [
+                {
+                  "sort-name": "Billiken, Crow",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Crow Billiken",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Fumitake Tamura",
+            "artist": {
+              "id": "5edebc27-5ae3-4e22-831a-18852377ebb8",
+              "name": "Fumitake Tamura",
+              "sort-name": "Tamura, Fumitake"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c5bdc4ef-9be8-4b99-b01f-fc69348cab86",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "the First Fist to Make Contact When We Dap",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d435d05d-3bfd-4a41-86f5-f8d6e8969ffa",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 77,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "27f47f18-e100-39c5-be61-a28f05d1566e",
+        "count": 2,
+        "title": "Town’s Dead",
+        "first-release-date": "2021-05-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Kojaque",
+            "artist": {
+              "id": "f1b7101e-c968-4843-ad08-9ef5b846c915",
+              "name": "Kojaque",
+              "sort-name": "Kojaque"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "dfa30da7-d4e9-4928-b373-88adfc6ea49f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Town's Dead",
+            "status": "Official"
+          },
+          {
+            "id": "ae4532df-6899-41a1-b8b6-9d5ee6a7b1a8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Town’s Dead",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "dc20bbac-b8a4-4ed4-8c29-4ea851a18489",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 77,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9c665b45-2e95-49e6-bef4-adb9dd4b0015",
+        "count": 1,
+        "title": "The Mocking Stars",
+        "first-release-date": "2025-11-06",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "LAUSSE THE CAT",
+            "artist": {
+              "id": "d261ed6f-11ca-4a35-bc26-e3d6fd1815b7",
+              "name": "LAUSSE THE CAT",
+              "sort-name": "LAUSSE THE CAT"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a5a288df-6fad-4f60-acfe-ab630861e842",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Mocking Stars",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "8c2d455e-aa05-463f-a1e8-d3f62883275a",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 77,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "72196176-f6cb-4c14-9feb-e088d8eaed70",
+        "count": 1,
+        "title": "I Guess U Had to Be There",
+        "first-release-date": "2026-03-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Elucid",
+            "artist": {
+              "id": "1206c904-9282-494d-b9c7-49e8fb201e69",
+              "name": "Elucid",
+              "sort-name": "Elucid",
+              "disambiguation": "US rapper",
+              "aliases": [
+                {
+                  "sort-name": "E L U C I D",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "E L U C I D",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Sebb Bash",
+            "artist": {
+              "id": "e34fef2d-2d3e-4847-b904-a6ec4c7e3f32",
+              "name": "Sebb Bash",
+              "sort-name": "Bash, Sebb"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "dc55f7af-0699-4410-8576-0358725dc98d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I Guess U Had to Be There",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c0b0010f-1aca-4b6b-a5ad-9a693267e2e3",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 77,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "6557c6a0-113a-4171-9fe0-d3fe75ebd352",
+        "count": 1,
+        "title": "Resonance Frequency",
+        "first-release-date": "2026-07-31",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Homeboy Sandman",
+            "artist": {
+              "id": "65eaa552-1149-4b42-888e-6d6e4affdbff",
+              "name": "Homeboy Sandman",
+              "sort-name": "Homeboy Sandman",
+              "aliases": [
+                {
+                  "sort-name": "Homeboy Sandman",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Homeboy Sandman",
+                  "locale": "en_US",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": "2007-08-31",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Del Villar II, Angel",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Angel Del Villar II",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Jack Splash",
+            "artist": {
+              "id": "952701d5-59d2-40c5-b7a1-0d7925d5e351",
+              "name": "Jack Splash",
+              "sort-name": "Splash, Jack",
+              "aliases": [
+                {
+                  "sort-name": "Kahane, Matt",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Matt Kahane",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Kahane, Matthew A.",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Matthew A. Kahane",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "cea68be5-95dc-4a55-a56f-43cdf522d953",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Resonance Frequency",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c399a8d9-68e7-4ea0-bf35-bd033c1cf89c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 77,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "80e10dcf-f54f-4e5d-bfaa-e29bfab4307a",
+        "count": 1,
+        "title": "корпускула",
+        "first-release-date": "2021-08-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "спуск в тсж",
+            "artist": {
+              "id": "cd38c745-011d-42d8-86a0-d5ece0e53c66",
+              "name": "спуск в тсж",
+              "sort-name": "спуск в тсж",
+              "disambiguation": "avant-garde hip-hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6fd42260-4b86-43fd-aef5-8ca56e7c530a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "корпускула",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "noise"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ae09f731-1842-4fb2-b8f1-b5ac8e5e739b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 77,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2cb0ae0a-3c27-3d91-b8fd-e590ecb38990",
+        "count": 2,
+        "title": "Heartspeak",
+        "first-release-date": "2021-06-10",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Grumpy",
+            "artist": {
+              "id": "f5e229b1-f5cb-4014-a532-5ae48db83dc0",
+              "name": "Grumpy",
+              "sort-name": "Grumpy",
+              "disambiguation": "beatmaker from La Rochelle, France"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a6817652-50cf-42df-8cf3-792e861b30c1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Heartspeak",
+            "status": "Official"
+          },
+          {
+            "id": "201519ad-2300-4064-901c-6ab4551c30cf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Heartspeak",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "downtempo"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "37ba8eb8-703b-4e55-a323-903dd3a17f89",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 73,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f0f712a5-3451-4687-b962-c42eab43c7b1",
+        "count": 1,
+        "title": "One More",
+        "first-release-date": "2022-11-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": ", ",
+            "name": "MIKE",
+            "artist": {
+              "id": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+              "name": "MIKE",
+              "sort-name": "MIKE",
+              "disambiguation": "New York rapper, founder of 10k",
+              "aliases": [
+                {
+                  "sort-name": "Bonema, Michael Jordan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael Jordan Bonema",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "joinphrase": " & ",
+            "name": "Wiki",
+            "artist": {
+              "id": "383b0514-362e-4aeb-9950-04a75fc0210c",
+              "name": "Wiki",
+              "sort-name": "Wiki",
+              "disambiguation": "rapper",
+              "aliases": [
+                {
+                  "sort-name": "Morales, Patrick",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Patrick Morales",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Alchemist",
+            "artist": {
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "sort-name": "Alchemist, The",
+              "disambiguation": "hip hop DJ & producer",
+              "aliases": [
+                {
+                  "sort-name": "Alchemist, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The Alchemist",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Alchemist",
+                  "name": "Alchemist",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b60da909-a822-4862-b941-01a8449cda2e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "One More",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "drumless"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "8096d872-4f06-4b8f-92be-18880dfe0710",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 73,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "3442560f-281c-39e3-a6b9-aa6ae25e90b7",
+        "count": 2,
+        "title": "The Recycling Bin",
+        "first-release-date": "2022-01-28",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Aesop Rock",
+            "artist": {
+              "id": "aba64937-3334-4c65-90a1-4e6b9d4d7ada",
+              "name": "Aesop Rock",
+              "sort-name": "Aesop Rock",
+              "disambiguation": "New York-based hip hop artist Ian Bavitz",
+              "aliases": [
+                {
+                  "sort-name": "AesopRock",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "AesopRock",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Aesop Roc",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Aesop Roc",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Aesop Rok",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Aesop Rok",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Esop Rock",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Esop Rock",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Asop Rock",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Asop Rock",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Aesop Rock",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Aesop Rock",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Aseop Rock",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Aseop Rock",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Bavitz",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Bavitz",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ian Matthias",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Ian Matthias",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Matthias Bavitz",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Matthias Bavitz",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ian Bavitz",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Ian Bavitz",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Bavitz, Ian Matthias",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ian Matthias Bavitz",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9005cc08-fbf2-4d2d-b198-fc6d5aec7c9e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Recycling Bin",
+            "status": "Official"
+          },
+          {
+            "id": "ff495adc-deb1-4aaf-8e85-1a754c3db942",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Recycling Bin",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "909bd585-d430-4e54-83d8-e7563635809b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 73,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ed3ab8e8-550c-3a63-a069-307324af6340",
+        "count": 2,
+        "title": "This Thing of Ours 2",
+        "first-release-date": "2021-10-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "The Alchemist",
+            "artist": {
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "sort-name": "Alchemist, The",
+              "disambiguation": "hip hop DJ & producer",
+              "aliases": [
+                {
+                  "sort-name": "Alchemist, The",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "The Alchemist",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Alchemist",
+                  "name": "Alchemist",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "50366cf8-acee-460d-ba71-f649a9786924",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "This Thing of Ours 2",
+            "status": "Official"
+          },
+          {
+            "id": "7d1aeb19-b7d5-4382-9331-f62b39be77a3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "This Thing of Ours 2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "drumless"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          }
+        ]
+      },
+      {
+        "id": "8b074e69-7e40-4d57-8c47-1bc48b753a06",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 72,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f40c50cd-2902-34f6-9e4c-71155b5c7721",
+        "count": 1,
+        "title": "HBD RIP",
+        "first-release-date": "2020-03-20",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": ", ",
+            "name": "Paperi T",
+            "artist": {
+              "id": "f77bd9ea-26a4-456f-9647-031a3972ccee",
+              "name": "Paperi T",
+              "sort-name": "Paperi T"
+            }
+          },
+          {
+            "name": "Khid",
+            "artist": {
+              "id": "515c9684-2fc1-4b0f-a069-1a9805df6d82",
+              "name": "Khid",
+              "sort-name": "Khid",
+              "disambiguation": "Finnish artist Kristo Laanti"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5cefa3ae-440b-4129-819f-c06674722b25",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HBD RIP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5e83c736-8832-4a66-935f-561b0e3b6b91",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 72,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fe8e69ff-1a45-3732-86f5-1d423cc1721a",
+        "count": 1,
+        "title": "MANIFESTO",
+        "first-release-date": "2024-09-20",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Terror Reid",
+            "artist": {
+              "id": "00447c0c-bc7e-4578-a206-31e95ac97571",
+              "name": "Terror Reid",
+              "sort-name": "Terror Reid"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "505d58b1-b00f-4e29-8e7b-ae269722c576",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "MANIFESTO",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rap"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "048bbe6a-273d-420a-b066-fab416c8b478",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 72,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "ed617a5b-60de-302b-a5f3-898eb1717d85",
+        "count": 2,
+        "title": "Le cabinet des curiosités, Vol. 1",
+        "first-release-date": "2021-07-02",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Al’tarba",
+            "artist": {
+              "id": "19e7f2b3-8331-414c-906b-4869daa0eeba",
+              "name": "Al’Tarba",
+              "sort-name": "Al’Tarba",
+              "disambiguation": "French abstract / hip hop / electronic beatmaker",
+              "aliases": [
+                {
+                  "sort-name": "AlTarba",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "AlTarba",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AL TARBA",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "AL TARBA",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rigaud, Jules",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jules Rigaud",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "43c030e6-73d4-4c66-8afb-54fdd27c8514",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cabinet des Curiosités (Vol.I)",
+            "status": "Official"
+          },
+          {
+            "id": "6e2257d2-5ac2-456f-9ac5-7f1b7b567b10",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Le cabinet des curiosités, Vol. 1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "e83ed419-9eb2-40ff-a756-03417d431456",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 70,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "80e10dcf-f54f-4e5d-bfaa-e29bfab4307a",
+        "count": 1,
+        "title": "девочка Маша расплавилась",
+        "first-release-date": "2023-04-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "спуск в тсж",
+            "artist": {
+              "id": "cd38c745-011d-42d8-86a0-d5ece0e53c66",
+              "name": "спуск в тсж",
+              "sort-name": "спуск в тсж",
+              "disambiguation": "avant-garde hip-hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "597e05df-c376-48bb-a00b-335fd92c2046",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "девочка Маша расплавилась",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "drum and bass"
+          },
+          {
+            "count": 1,
+            "name": "shoegaze"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "witch house"
+          }
+        ]
+      },
+      {
+        "id": "4b5854f1-a7ce-4e1e-b90d-65bc04591cbd",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 70,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5e637419-e7d3-41e7-83d7-16c479f1593e",
+        "count": 1,
+        "title": "METAMORPH",
+        "first-release-date": "2021-08-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "mary sue",
+            "artist": {
+              "id": "6fd96761-57f3-4fe4-8a7d-2ea767e290c1",
+              "name": "mary sue",
+              "sort-name": "mary sue",
+              "disambiguation": "Singapore‐based musician",
+              "aliases": [
+                {
+                  "sort-name": "Png, Sim",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Sim Png",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "TRISTANTHEEND",
+            "artist": {
+              "id": "a7798a6c-2ea6-42cb-9728-dcaa4c49f932",
+              "name": "TRISTANTHEEND",
+              "sort-name": "TRISTANTHEEND"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "dfe81654-2a97-4320-8074-17aae9cee194",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "METAMORPH",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "alternative hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "9c9158f5-a313-41cc-9dd6-e750987f0e55",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 70,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "de1b47fd-a2f7-4c06-90cd-0637f2a46a3e",
+        "count": 1,
+        "title": "Melody Makes Me Nauseous... ...3 in the Dirty",
+        "first-release-date": "2025-12-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "10Pieces",
+            "artist": {
+              "id": "74727f01-1245-41da-87f2-200923726da4",
+              "name": "10Pieces",
+              "sort-name": "10Pieces"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5179cdbc-cb6a-4081-9aca-a2bda703e0e5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Melody Makes Me Nauseous... ...3 in the Dirty",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "lo-fi hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6d1143c4-7e3c-4eec-ac2d-0ef4e29c7128",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "16140542-2370-34f7-81fc-6dba7513e42f",
+        "count": 1,
+        "title": "Комите́т госуда́рственной безопа́сности Сою́за Сове́тских Социалисти́ческих Респу́блик",
+        "first-release-date": "2024-07-23",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Zippy Kid",
+            "artist": {
+              "id": "6b656576-9504-432e-823d-8920139db2f0",
+              "name": "Zippy Kid",
+              "sort-name": "Zippy Kid",
+              "aliases": [
+                {
+                  "sort-name": "Pink Floyd",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Pink Floyd",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2023-02-07",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AZAP Klim Korochkin",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "AZAP Klim Korochkin",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "sHEcrIEZ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "sHEcrIEZ",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Troknyuk, Ruslan Vasilyevich",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ruslan Vasilyevich Troknyuk",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3f4e4289-02b7-4253-aa4d-fc385fded7f5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Комите́т госуда́рственной безопа́сности Сою́за Сове́тских Социалисти́ческих Респу́блик",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "0b7f50b7-994b-4631-a308-83681231f28c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "16140542-2370-34f7-81fc-6dba7513e42f",
+        "count": 1,
+        "title": "The Shadowed Sanctuary",
+        "first-release-date": "2024-01-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Zippy Kid",
+            "artist": {
+              "id": "6b656576-9504-432e-823d-8920139db2f0",
+              "name": "Zippy Kid",
+              "sort-name": "Zippy Kid",
+              "aliases": [
+                {
+                  "sort-name": "Pink Floyd",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Pink Floyd",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2023-02-07",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AZAP Klim Korochkin",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "AZAP Klim Korochkin",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "sHEcrIEZ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "sHEcrIEZ",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Troknyuk, Ruslan Vasilyevich",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ruslan Vasilyevich Troknyuk",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "65841351-4af9-49e8-9156-8007a6baed67",
+            "title": "The Shadowed Sanctuary"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "053c2b54-2410-4f0d-8cd7-86217ba37416",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "16140542-2370-34f7-81fc-6dba7513e42f",
+        "count": 1,
+        "title": "Moon-lingerie",
+        "first-release-date": "2024-01-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Zippy Kid",
+            "artist": {
+              "id": "6b656576-9504-432e-823d-8920139db2f0",
+              "name": "Zippy Kid",
+              "sort-name": "Zippy Kid",
+              "aliases": [
+                {
+                  "sort-name": "Pink Floyd",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Pink Floyd",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2023-02-07",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AZAP Klim Korochkin",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "AZAP Klim Korochkin",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "sHEcrIEZ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "sHEcrIEZ",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Troknyuk, Ruslan Vasilyevich",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ruslan Vasilyevich Troknyuk",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "08965afc-d2af-484a-b335-ceda05c566a2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Moon-lingerie",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ae1fb9f8-c81f-4504-85d0-00aaf1cd2830",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "3d3f0004-25a8-4000-bd9c-0da41ef55e8d",
+        "count": 1,
+        "title": "Zippy Kid",
+        "first-release-date": "2024-04-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Motörhead",
+            "artist": {
+              "id": "6b656576-9504-432e-823d-8920139db2f0",
+              "name": "Zippy Kid",
+              "sort-name": "Zippy Kid",
+              "aliases": [
+                {
+                  "sort-name": "Pink Floyd",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Pink Floyd",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2023-02-07",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AZAP Klim Korochkin",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "AZAP Klim Korochkin",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "sHEcrIEZ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "sHEcrIEZ",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Troknyuk, Ruslan Vasilyevich",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ruslan Vasilyevich Troknyuk",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "98e8e879-7d3c-4a2d-83b9-a644c649dc6d",
+            "title": "Zippy Kid"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6c8e03d2-817c-41f5-ad08-5afecc2e78a3",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "16140542-2370-34f7-81fc-6dba7513e42f",
+        "count": 1,
+        "title": "London's Big Noise",
+        "first-release-date": "2024-02-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Zippy Kid",
+            "artist": {
+              "id": "6b656576-9504-432e-823d-8920139db2f0",
+              "name": "Zippy Kid",
+              "sort-name": "Zippy Kid",
+              "aliases": [
+                {
+                  "sort-name": "Pink Floyd",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Pink Floyd",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2023-02-07",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AZAP Klim Korochkin",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "AZAP Klim Korochkin",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "sHEcrIEZ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "sHEcrIEZ",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Troknyuk, Ruslan Vasilyevich",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ruslan Vasilyevich Troknyuk",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "124c44aa-d7e1-4b2e-9683-168310eb0134",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "London's Big Noise",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c5e89f3a-e8eb-460f-9368-1765ee53df9c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "94441a37-0f13-4536-9a9a-f173749006aa",
+        "count": 1,
+        "title": "Brasscore Bonanza",
+        "first-release-date": "2024-07-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Weve's NoIsEy",
+            "artist": {
+              "id": "9915299a-405e-4c91-a5db-cc01ccdb4e17",
+              "name": "Weve's NoIsEy",
+              "sort-name": "Weve's NoIsEy"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0ca310ec-b56a-4583-9d1e-04b32d9f1ca5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Brasscore Bonanza",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "jungle"
+          },
+          {
+            "count": 1,
+            "name": "breakcore"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "mashcore"
+          }
+        ]
+      },
+      {
+        "id": "cb9a44ea-c065-4cdc-8b3e-dbfac4228ad5",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1e2d756b-5a60-3c15-8fab-b0dcf70e49fe",
+        "count": 1,
+        "title": "Worlds Not Yet Gone",
+        "first-release-date": "2020-04-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Sole",
+            "artist": {
+              "id": "7bc3a2d0-7eed-4b42-ae96-7d68c644454d",
+              "name": "Sole",
+              "sort-name": "Sole",
+              "disambiguation": "US experimental hip hop artist Tim Holland, Anticon associated"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4df442da-c79b-4601-8e06-083be64f6b57",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Worlds Not Yet Gone",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "3e8f18f1-3058-4db4-8776-7ee749204f78",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "7c7c58b1-00ee-3379-b1c9-1d2e47e1cd8e",
+        "count": 3,
+        "title": "Showbiz!",
+        "first-release-date": "2025-01-31",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "MIKE",
+            "artist": {
+              "id": "da943be1-5611-4bf9-ac4c-0eef1bc0c16b",
+              "name": "MIKE",
+              "sort-name": "MIKE",
+              "disambiguation": "New York rapper, founder of 10k",
+              "aliases": [
+                {
+                  "sort-name": "Bonema, Michael Jordan",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael Jordan Bonema",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f8e5913b-b17b-4ddd-9273-66d84ce3c960",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Showbiz!",
+            "status": "Official"
+          },
+          {
+            "id": "84515499-04ec-45ca-9695-edd0d5439851",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Showbiz! (Deluxe)",
+            "status": "Official"
+          },
+          {
+            "id": "2386f364-72de-43cc-b880-25c8360c201e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Showbiz!",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "east coast hip hop"
+          }
+        ]
+      },
+      {
+        "id": "8a4fcf74-81e2-459a-827a-5c1f798f0d5f",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "22c971f6-9530-3d20-bfde-5712f7b6ac46",
+        "count": 1,
+        "title": "It Feels Like I Always Knew You",
+        "first-release-date": "2025-01-31",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Pale Grey",
+            "artist": {
+              "id": "aa33b97a-d570-4db0-9b11-9b72ce833c8e",
+              "name": "Pale Grey",
+              "sort-name": "Pale Grey",
+              "disambiguation": "Belgian indietronica"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d567e56f-6801-4018-a8be-97ff2b237293",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It Feels Like I Always Knew You",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "pop"
+          },
+          {
+            "count": 1,
+            "name": "indie pop"
+          },
+          {
+            "count": 1,
+            "name": "indietronica"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c0a1359a-fa8a-4fb7-b2e2-ea9ba7919dec",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 68,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "80f0a769-be45-444a-aa8a-f0506c12e75d",
+        "count": 2,
+        "title": "All Portrait, No Chorus",
+        "first-release-date": "2025-01-10",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "doseone",
+            "artist": {
+              "id": "524bc397-a217-4605-94ce-08d5c584d294",
+              "name": "doseone",
+              "sort-name": "doseone",
+              "disambiguation": "US rapper, producer, poet and artist",
+              "aliases": [
+                {
+                  "sort-name": "Dose One",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Dose One",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Doseone the Lyricist",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Doseone the Lyricist",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Doseone",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Doseone",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Steel Tipped Dove",
+            "artist": {
+              "id": "8a3c423f-6282-4d4e-9cef-301a1611c131",
+              "name": "Steel Tipped Dove",
+              "sort-name": "Steel Tipped Dove",
+              "disambiguation": "producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "776c60eb-7617-4dba-99e2-39306d584477",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "All Portrait, No Chorus",
+            "status": "Official"
+          },
+          {
+            "id": "233525fb-3187-4be5-a06b-8bacc28f01c1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "All Portrait, No Chorus",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 0,
+            "name": "r&b"
+          },
+          {
+            "count": 1,
+            "name": "bookmark"
+          }
+        ]
+      },
+      {
+        "id": "7e3f6dc9-44b1-46af-bb2c-01f7018719b4",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 65,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "3a61553a-f304-33a9-a906-bbebd2791f92",
+        "count": 1,
+        "title": "Empirics",
+        "first-release-date": "2022-07-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Nugatory",
+            "artist": {
+              "id": "812b87a1-e26a-4439-83ca-ed9317993a5b",
+              "name": "Nugatory",
+              "sort-name": "Nugatory",
+              "aliases": [
+                {
+                  "sort-name": "Cote Watson",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Cote Watson",
+                  "locale": "en_US",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ec8242ca-abce-4b6f-b5ec-545227d8cd64",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Empirics",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "progressive rock"
+          },
+          {
+            "count": 2,
+            "name": "jazz"
+          },
+          {
+            "count": 2,
+            "name": "experimental"
+          },
+          {
+            "count": 2,
+            "name": "math rock"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip-hop"
+          },
+          {
+            "count": 2,
+            "name": "post-hardcore"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "science fiction"
+          }
+        ]
+      },
+      {
+        "id": "1e923a3f-2481-46fa-b323-2de6b252ae56",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 65,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "187b1ac1-cae6-4245-a328-505603357d54",
+        "count": 1,
+        "title": "We Never Stopped",
+        "first-release-date": "2024-02-09",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Spectateur",
+            "artist": {
+              "id": "be457082-f628-4a4a-9099-b7c612234f2e",
+              "name": "Spectateur",
+              "sort-name": "Spectateur"
+            }
+          },
+          {
+            "name": "LABØREAL",
+            "artist": {
+              "id": "aa147500-3131-4010-a2cc-1fb9cd66877f",
+              "name": "LaboreaL",
+              "sort-name": "LaboreaL",
+              "disambiguation": "French electronic artist",
+              "aliases": [
+                {
+                  "sort-name": "Robin, Maxime",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Maxime Robin",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "af3891ae-c82f-46fb-9a7e-c0c9aa336293",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "We Never Stopped",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "cf90b7a0-ee57-42ff-84be-c77629a6f758",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 64,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e433f78b-e843-3c5e-bb29-b195c35354f5",
+        "count": 1,
+        "title": "Ammonaria",
+        "first-release-date": "2024-10-07",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Shitao",
+            "artist": {
+              "id": "de1614f7-2cd0-4509-a60f-913e38e80851",
+              "name": "Shitao",
+              "sort-name": "Shitao",
+              "disambiguation": "French beatmaker/producer",
+              "aliases": [
+                {
+                  "sort-name": "Alloin, Fabien",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Fabien Alloin",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "35232277-9a16-4031-bcd8-bf03478ece36",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ammonaria",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "076fa0e4-4729-4c36-92ef-c09db9e01af5",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 64,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fd81e461-0f70-446b-8f95-c2fb8f69346c",
+        "count": 1,
+        "title": "To Live and Die on the Northside",
+        "first-release-date": "2022-04-15",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Sidney Phillips",
+            "artist": {
+              "id": "926044d1-73de-4eba-93a5-09c84c87a78b",
+              "name": "Sidney Phillips",
+              "sort-name": "Phillips, Sidney"
+            }
+          },
+          {
+            "name": "chazaiya",
+            "artist": {
+              "id": "59801a69-e7e9-486e-b374-1c39e78eabbf",
+              "name": "chazaiya",
+              "sort-name": "chazaiya"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "31fec9a1-eb06-46ac-841e-4337b03ac4be",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "To Live and Die on the Northside",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "5bc37712-af2d-437f-b8f0-ab2287654f64",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 64,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "cecdd94b-132d-3b67-b40b-60e2eba77a72",
+        "count": 1,
+        "title": "Griots",
+        "first-release-date": "2021-06-04",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Gerald Cleaver",
+            "artist": {
+              "id": "fd1a8050-2116-440f-ac57-7028b8b425ce",
+              "name": "Gerald Cleaver",
+              "sort-name": "Cleaver, Gerald"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "351e2fbc-66fa-4eca-9c23-4574a5c368ce",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Griots",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "techno"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6167bc10-c3f7-4708-b570-86edbd0704c5",
+        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+        "score": 64,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e433f78b-e843-3c5e-bb29-b195c35354f5",
+        "count": 1,
+        "title": "川上 富江 [Tomie tape]",
+        "first-release-date": "2021-11-04",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Soundtrack"
+        ],
+        "secondary-type-ids": [
+          "22a628ad-c082-3c4f-b1b6-d41665107b88"
+        ],
+        "artist-credit": [
+          {
+            "name": "Shitao",
+            "artist": {
+              "id": "de1614f7-2cd0-4509-a60f-913e38e80851",
+              "name": "Shitao",
+              "sort-name": "Shitao",
+              "disambiguation": "French beatmaker/producer",
+              "aliases": [
+                {
+                  "sort-name": "Alloin, Fabien",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Fabien Alloin",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "56d69490-0df0-4661-a6be-b23bc1154e1f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "川上 富江 [Tomie tape]",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "09a601f8-9c62-4b7f-9bff-4063c16e0afe",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 64,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "bac961b6-7a9b-3ed3-9c28-7bf566afd761",
+        "count": 3,
+        "title": "The Illusion of Being",
+        "first-release-date": "2025-05-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Yugen Blakrok",
+            "artist": {
+              "id": "aa79cc40-28ce-4625-9b58-8b3d2af8142f",
+              "name": "Yugen Blakrok",
+              "sort-name": "Blakrok, Yugen"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "45215986-2a0d-490b-9f02-d064e328e8c5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Illusion of Being",
+            "status": "Official"
+          },
+          {
+            "id": "08b4cf66-fc76-4cbc-8490-d3172b3b9cf4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Illusion of Being",
+            "status": "Official"
+          },
+          {
+            "id": "3e9901f3-74bb-4009-b78b-bdda098238cb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Illusion of Being",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          }
+        ]
+      },
+      {
+        "id": "b898437e-072f-42ac-9416-7fe903c34746",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 64,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "7612a27d-c231-34cd-a06d-b709268c82cf",
+        "count": 4,
+        "title": "Like a Ribbon",
+        "first-release-date": "2025-02-14",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "John Glacier",
+            "artist": {
+              "id": "34ebe14b-113c-4004-9625-77cb6b13b27d",
+              "name": "John Glacier",
+              "sort-name": "Glacier, John"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4f29c772-0db0-43da-b99c-0dbe7eb0f588",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Like a Ribbon",
+            "status": "Official"
+          },
+          {
+            "id": "e5cf2014-17c4-4faf-9993-ccc6029deb30",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Like a Ribbon",
+            "status": "Official"
+          },
+          {
+            "id": "59200955-2de6-4ad7-8b08-29643b7b6a05",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Like a Ribbon",
+            "status": "Official"
+          },
+          {
+            "id": "2d1538bc-9c60-4c1e-a361-785f3a199491",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Like a Ribbon",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "81099cb3-56c0-4311-9ff2-d9d18e42e80d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 64,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8511d76f-b833-40f3-8bb8-4a4558845626",
+        "count": 1,
+        "title": "shadowbox",
+        "first-release-date": "2024-08-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "MAVI",
+            "artist": {
+              "id": "175a1b69-7a19-4881-b1ca-fe6b84ff3a2d",
+              "name": "MAVI",
+              "sort-name": "MAVI",
+              "disambiguation": "rapper",
+              "aliases": [
+                {
+                  "sort-name": "Minder, Omavi Ammu",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Omavi Ammu Minder",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "adac7e45-ae34-41d4-bf5f-918dc9cdd60d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "shadowbox",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f0d65e07-618b-4e52-adb1-481e734ac926",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 64,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "54998f0e-a03a-33fe-b0d4-f4e400e7ceef",
+        "count": 1,
+        "title": "Neighborhood Gods Unlimited",
+        "first-release-date": "2025-07-11",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Open Mike Eagle",
+            "artist": {
+              "id": "4508a423-daaa-4d43-a839-aa1a9be88a9c",
+              "name": "Open Mike Eagle",
+              "sort-name": "Open Mike Eagle",
+              "disambiguation": "US rapper and comedian",
+              "aliases": [
+                {
+                  "sort-name": "Eagle, Michael W. II",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Michael W. Eagle II",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Open Mike Eagle",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Open Mike Eagle",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "022dfd53-90ff-449f-8bcb-167f0082a840",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Neighborhood Gods Unlimited",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 3,
+            "name": "hip hop"
+          },
+          {
+            "count": 2,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "a90b6d26-76b8-4fcd-be14-806931935141",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 63,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5f92689c-ea1f-35de-bcf9-2f1472d6ed4f",
+        "count": 1,
+        "title": "HOUSE",
+        "first-release-date": "2020-07-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Lupe Fiasco",
+            "artist": {
+              "id": "cf15719f-51f9-4db8-a15d-5eed9664ce69",
+              "name": "Lupe Fiasco",
+              "sort-name": "Fiasco, Lupe",
+              "aliases": [
+                {
+                  "sort-name": "Lupe The Gorilla",
+                  "name": "Lupe The Gorilla",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Kaelin Ellis",
+            "artist": {
+              "id": "97b28c41-3b4c-4081-85cb-b7defaf9f1b0",
+              "name": "Kaelin Ellis",
+              "sort-name": "Ellis, Kaelin"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "14a73457-ed87-4e8b-aea7-6a072d79b26f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HOUSE",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "jazz rap"
+          },
+          {
+            "count": 1,
+            "name": "conscious hip hop"
+          }
+        ]
+      },
+      {
+        "id": "c6ff2724-38a3-4fbe-a3db-d472d8f8e37e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "aee3d024-8d15-4ea0-81a0-fc69567ba94a",
+        "count": 1,
+        "title": "LAFANDAR",
+        "first-release-date": "2024-02-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Heems",
+            "artist": {
+              "id": "2d7b4a87-5c36-45dc-9fd6-fc52916cd69d",
+              "name": "Heems",
+              "sort-name": "Heems",
+              "disambiguation": "rapper from NYC"
+            }
+          },
+          {
+            "name": "Lapgan",
+            "artist": {
+              "id": "32b2a1ca-2411-4ab7-8613-fe4cf5336021",
+              "name": "Lapgan",
+              "sort-name": "Lapgan",
+              "disambiguation": "Chicago-based producer and beatmaker"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "90d02ae9-5367-447e-b91f-f3c7e4cce4d1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "LAFANDAR",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "east coast hip hop"
+          }
+        ]
+      },
+      {
+        "id": "9cfb47f9-dde7-445c-83fa-5362cf1d417e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2cd7e3dd-be78-4b68-9c87-bb8d759bac9d",
+        "count": 1,
+        "title": "AKJV",
+        "first-release-date": "2025-01-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "The Mountebanks",
+            "artist": {
+              "id": "ff8e31a8-2e7a-40ff-87ec-f2f616310520",
+              "name": "The Mountebanks",
+              "sort-name": "Mountebanks, The",
+              "disambiguation": "experimental hip hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9f317b73-779c-4592-97af-fd89969fe917",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "AKJV",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "cloud rap"
+          }
+        ]
+      },
+      {
+        "id": "e06d445b-66f7-4d0d-8d03-eb2f6e250df5",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c26a05b5-4b8d-44ab-b2a5-53be0f6710e7",
+        "count": 1,
+        "title": "#wings",
+        "first-release-date": "2025-06-11",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "ayowitty",
+            "artist": {
+              "id": "e2426224-f7f7-4310-b8ce-e4e0b1a66144",
+              "name": "ayowitty",
+              "sort-name": "ayowitty"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "527fc371-2ffe-4cf9-9f6b-ccd174a7ae11",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "#wings",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "glitch"
+          },
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hyperpop"
+          }
+        ]
+      },
+      {
+        "id": "b3c3823b-f311-436d-ab75-e2b5b4b479af",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "2dea684f-2587-38af-b515-729268837946",
+        "count": 1,
+        "title": "The Last Untamed Frontier",
+        "first-release-date": "2020-04-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Roger Molls",
+            "artist": {
+              "id": "43b221c9-e0f0-44af-93a9-a1e9df45e5d8",
+              "name": "Roger Molls",
+              "sort-name": "Molls, Roger",
+              "disambiguation": "French beatmaker"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d1a3b9a3-101d-464f-a2f6-b12058d635f1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Last Untamed Frontier",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "breakbeat"
+          },
+          {
+            "count": 1,
+            "name": "soul"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "d68b493f-1b05-47a4-bcd4-79009fefec20",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "16140542-2370-34f7-81fc-6dba7513e42f",
+        "count": 1,
+        "title": "Hip-hop beat for Drake",
+        "first-release-date": "2022-12-30",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Zippy Kid",
+            "artist": {
+              "id": "6b656576-9504-432e-823d-8920139db2f0",
+              "name": "Zippy Kid",
+              "sort-name": "Zippy Kid",
+              "aliases": [
+                {
+                  "sort-name": "Pink Floyd",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Pink Floyd",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": "2023-02-07",
+                  "end-date": null
+                },
+                {
+                  "sort-name": "AZAP Klim Korochkin",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "AZAP Klim Korochkin",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "sHEcrIEZ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "sHEcrIEZ",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Troknyuk, Ruslan Vasilyevich",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ruslan Vasilyevich Troknyuk",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d1f80ad3-736d-48f3-a450-8fcd5a1c5d46",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hip-hop beat for Drake",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental electronic"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      },
+      {
+        "id": "ef097192-f060-473d-ab36-b5276356fc22",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e433f78b-e843-3c5e-bb29-b195c35354f5",
+        "count": 1,
+        "title": "Memory to push back the past (2008-2022 part.2)",
+        "first-release-date": "2022-09-06",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "Shitao",
+            "artist": {
+              "id": "de1614f7-2cd0-4509-a60f-913e38e80851",
+              "name": "Shitao",
+              "sort-name": "Shitao",
+              "disambiguation": "French beatmaker/producer",
+              "aliases": [
+                {
+                  "sort-name": "Alloin, Fabien",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Fabien Alloin",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a2656584-c3b3-4e37-a789-98879735c435",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Memory to push back the past (2008-2022 part.2)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "1e6504ef-f91d-4680-9f47-c2dba66d9e1e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e433f78b-e843-3c5e-bb29-b195c35354f5",
+        "count": 1,
+        "title": "Child's Head With Flowers",
+        "first-release-date": "2022-03-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Shitao",
+            "artist": {
+              "id": "de1614f7-2cd0-4509-a60f-913e38e80851",
+              "name": "Shitao",
+              "sort-name": "Shitao",
+              "disambiguation": "French beatmaker/producer",
+              "aliases": [
+                {
+                  "sort-name": "Alloin, Fabien",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Fabien Alloin",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d92585df-e49f-4e8f-9d9c-06096c753a84",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Child's Head With Flowers",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "26188dae-28d7-4d77-8f3e-15485eaaab85",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "43012e60-5957-43da-9671-8dd765d8d8db",
+        "count": 1,
+        "title": "Inauditorium",
+        "first-release-date": "2022-05-27",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Lunar Forest",
+            "artist": {
+              "id": "ddb19b7f-5314-4d57-aad8-183052ab27a8",
+              "name": "Lunar Forest",
+              "sort-name": "Lunar Forest"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a1f6c5f6-05cc-47d1-bc7a-135b40b1863c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Inauditorium",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "plunderphonics"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f4584690-cf2c-449a-9f1a-cbf5f8f71f51",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 61,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fe83e045-a910-315e-b2fa-7d90c38d3ed6",
+        "count": 3,
+        "title": "Soul Food 3",
+        "first-release-date": "2023-01-20",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Kognitif",
+            "artist": {
+              "id": "d85ffa71-21c6-48ca-9c95-3d60585273ee",
+              "name": "Kognitif",
+              "sort-name": "Kognitif",
+              "disambiguation": "French trip-hop producer",
+              "aliases": [
+                {
+                  "sort-name": "Capra, Cyril",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Cyril Capra",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "09f610b6-d248-4d72-9146-466beb28631e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Soul Food 3",
+            "status": "Official"
+          },
+          {
+            "id": "5c876568-1dcf-4824-bf48-9f418309bfb8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Soul Food 3",
+            "status": "Official"
+          },
+          {
+            "id": "3a30008d-8a70-4a91-bb20-789d79a3fe5d",
+            "title": "Soul Food 3"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "breakbeat"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          }
+        ]
+      }
+    ]
+  }
+}

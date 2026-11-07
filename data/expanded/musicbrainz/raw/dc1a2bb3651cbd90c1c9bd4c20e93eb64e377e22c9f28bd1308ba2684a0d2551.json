@@ -1,0 +1,109 @@
+{
+  "endpoint": "release-group/8af0c6b5-4061-4873-84ef-b3263522608e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8af0c6b5-4061-4873-84ef-b3263522608e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:20.882930+00:00",
+  "response": {
+    "tags": [
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      },
+      {
+        "count": 1,
+        "name": "jazz-funk"
+      },
+      {
+        "name": "psychedelic",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Louis Mackey",
+        "joinphrase": " feat. ",
+        "artist": {
+          "name": "Louis Mackey",
+          "sort-name": "Mackey, Louis",
+          "tags": [],
+          "id": "7160fde7-9383-49ae-8b63-35f875ed7a30",
+          "country": "US",
+          "type": "Person",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": []
+        }
+      },
+      {
+        "artist": {
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "",
+          "country": "US",
+          "id": "eb5bae67-f316-4a7a-8340-2c51a685d4fe",
+          "tags": [],
+          "name": "Thirtyseven",
+          "sort-name": "Thirtyseven"
+        },
+        "joinphrase": "",
+        "name": "Thirtyseven"
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "name": "experimental"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "name": "jazz rap"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "id": "f3c43ae8-839a-4523-b295-cfa4eba6c911",
+        "name": "jazz-funk"
+      },
+      {
+        "id": "d698ece0-6fed-4262-b446-42c98b73b65a",
+        "count": 1,
+        "disambiguation": "",
+        "name": "psychedelic"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type": "EP",
+    "id": "8af0c6b5-4061-4873-84ef-b3263522608e",
+    "title": "Yesterday, Tomorrow and You",
+    "first-release-date": "2015-03-31",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": ""
+  }
+}

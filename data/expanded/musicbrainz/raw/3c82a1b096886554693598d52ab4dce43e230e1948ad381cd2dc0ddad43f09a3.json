@@ -1,0 +1,74 @@
+{
+  "endpoint": "release-group/e0de49a6-39e0-4d71-8b16-ffb1255dac40",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e0de49a6-39e0-4d71-8b16-ffb1255dac40?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:34.078651+00:00",
+  "response": {
+    "id": "e0de49a6-39e0-4d71-8b16-ffb1255dac40",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "funk"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "funk",
+        "id": "fe4ba6a1-9873-4fd0-a12b-a70c81818514",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "instrumental hip hop",
+        "count": 1,
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+      }
+    ],
+    "title": "Sticks and Stones",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "Caveman",
+        "joinphrase": "",
+        "artist": {
+          "country": null,
+          "disambiguation": "a.k.a CAV3, Caveman, Cave",
+          "name": "DJ Cave",
+          "type": "Person",
+          "sort-name": "DJ Cave",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "9d756367-f4c9-4502-b58c-ffd559e70002",
+          "tags": []
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2003",
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

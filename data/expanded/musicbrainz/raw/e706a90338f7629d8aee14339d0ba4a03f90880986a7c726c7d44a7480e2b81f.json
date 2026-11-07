@@ -1,0 +1,2503 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"boom bap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2020-01-01 TO 2026-10-28]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22boom+bap%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2020-01-01+TO+2026-10-28%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:44.162505+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:44.073Z",
+    "count": 2936,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "3996195d-b605-4741-81b5-7fc9388e057f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ca3c70c6-5f04-3065-94a5-3b5e7861b93f",
+        "count": 1,
+        "title": "Early Morning Music",
+        "first-release-date": "2020-05-11",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "The SOULution",
+            "artist": {
+              "id": "50f73d1b-56b0-4cb2-b5d5-181f34fdb4ff",
+              "name": "The SOULution",
+              "sort-name": "The SOULution",
+              "disambiguation": "Beatmaker"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d208e295-1a3b-40ff-abfd-39876d398541",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Early Morning Music",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "8ed0f1ac-50fd-405b-9b8a-061e443f606f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ccb4fe11-55ec-41ac-b6aa-e106b39ea0cf",
+        "count": 1,
+        "title": "Τελευταία Ἐποχή",
+        "first-release-date": "2020-04-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Nikola Magkart",
+            "artist": {
+              "id": "3802e85a-67b6-4067-8cec-d8324a49b8dd",
+              "name": "Nikola Magkart",
+              "sort-name": "Magkart, Nikola"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "40a68a35-8212-4272-b692-41a621cbb7f2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Τελευταία Ἐποχή",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "ac4f9415-5b5d-47be-a0fe-8dd45518c6fa",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4f91e10d-084d-3901-bff1-b1bf7a0eb5ae",
+        "count": 1,
+        "title": "Insufficient Fare",
+        "first-release-date": "2021-06-04",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Dech and Musi",
+            "artist": {
+              "id": "4a55d0ee-0f72-4a87-9732-89b54d1234e0",
+              "name": "Dech and Musi",
+              "sort-name": "Dech and Musi"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d428864d-e82d-4c8b-8b6f-1a51a40ac8c8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Insufficient Fare",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "22ff52cc-c073-40ad-b9d1-9e71cbcb14d0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "a028735c-3abe-382a-adf2-69dbad133f4c",
+        "count": 1,
+        "title": "Bellringer",
+        "first-release-date": "2022-04-22",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "LINQUA FRANQA",
+            "artist": {
+              "id": "0e241904-11f7-4a38-9ef8-1ba28ea8f2b8",
+              "name": "LINQUA FRANQA",
+              "sort-name": "LINQUA FRANQA"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a0ee67e6-ef76-4be6-ad42-bd5fe029d684",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bellringer",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "16193909-8cd5-4221-9cef-9cab68ea3b47",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "93055d17-08bb-3c96-8b53-80f12d4eacf0",
+        "count": 1,
+        "title": "Griselda X DJ Chosen1 Tape",
+        "first-release-date": "2020-08-21",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "DJ Chosen1",
+            "artist": {
+              "id": "1f3d315f-cc32-4a70-8e5b-8b3237a0878a",
+              "name": "DJ Chosen1",
+              "sort-name": "Chosen1, DJ"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1ff27a7b-4765-4b1b-9e29-a24e28afe5fd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Griselda X DJ Chosen1 Tape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "169848d3-57fd-435d-ab2c-61cb27875fad",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "7d78c5b1-43b5-3ac4-8c2a-452a3ea37381",
+        "count": 1,
+        "title": "\"So Fine\" Beats vol. 1",
+        "first-release-date": "2020-04-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "P-Ro",
+            "artist": {
+              "id": "f40224a0-f150-4a91-904f-ae577fa5d5d2",
+              "name": "P-Ro",
+              "sort-name": "P-Ro",
+              "disambiguation": "US Rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1340fed4-8acb-44ae-a73c-83a372bc4491",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "\"So Fine\" Beats vol. 1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "10173045-1bbb-443a-9e23-4e85f79e736a",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "87bdee2a-dfc6-408e-a1d0-c5db0717b68c",
+        "count": 1,
+        "title": "Charlietape",
+        "first-release-date": "2023-04-28",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Charlie Smarts",
+            "artist": {
+              "id": "b753ea7c-42ff-483e-9096-2c06f50f928e",
+              "name": "Charlie Smarts",
+              "sort-name": "Smarts, Charlie",
+              "aliases": [
+                {
+                  "sort-name": "Thompson, Alex",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Alex Thompson",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Charlie Smarts",
+                  "name": "Charlie.Smarts",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "DJ Ill Digitz",
+            "artist": {
+              "id": "4e1e2632-422b-43fb-8c1e-b9580d8d46bc",
+              "name": "DJ Ill Digitz",
+              "sort-name": "Ill Digitz, DJ"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e00a2acf-54b2-4bdf-8852-353f39941d72",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Charlietape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "6e4af384-78f5-434c-83f1-9d1e13525833",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4c38102a-f90b-4540-b133-dbf05b4060b4",
+        "count": 1,
+        "title": "Hell’s Road",
+        "first-release-date": "2022-09-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Hell Razah",
+            "artist": {
+              "id": "dee1055d-2e42-455c-a94e-37c7e86dedf4",
+              "name": "Hell Razah",
+              "sort-name": "Hell Razah",
+              "aliases": [
+                {
+                  "sort-name": "Hell Raza",
+                  "name": "Hell Raza",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hellrazah",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Hellrazah",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "RoadsArt",
+            "artist": {
+              "id": "77c443ef-ba10-43d4-aa15-da913f48cd83",
+              "name": "RoadsArt",
+              "sort-name": "RoadsArt",
+              "disambiguation": "hip hop producer/engineer",
+              "aliases": [
+                {
+                  "sort-name": "Bonnell, Robert",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Robert Bonnell",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e327fe1c-b022-439b-860a-af452bcafc1e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hell’s Road",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "1763a0c4-2511-4c13-a210-35442c9abb06",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "dacc04ac-68e0-3d3a-a3a0-2682e8533688",
+        "count": 1,
+        "title": "Walk by Faith & Not by Sight",
+        "first-release-date": "2022-03-04",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Camoflauge Monk",
+            "artist": {
+              "id": "9d49a3e9-ec37-43ff-9496-68e8942ea99b",
+              "name": "Camoflauge Monk",
+              "sort-name": "Camoflauge Monk"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "758f0c7e-f058-459b-b7f9-d50b2ecfdbaa",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Walk by Faith & Not by Sight",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "1eddb4bf-da65-4d95-bc02-a83184fe9150",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "25a3a9ce-f392-47c8-b73e-86e7e5373bcf",
+        "count": 1,
+        "title": "Crude Humor",
+        "first-release-date": "2022-11-25",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Saffron",
+            "artist": {
+              "id": "996ef545-98da-4f92-ae4c-bf3afc449608",
+              "name": "Saffron",
+              "sort-name": "Saffron",
+              "disambiguation": "Star Fetchers OST producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b3a547df-5734-4cd9-a8cb-500ab292fe1c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Crude Humor",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "2f6f94bc-cb78-4bbe-830c-c0237d389ec7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "4c38102a-f90b-4540-b133-dbf05b4060b4",
+        "count": 1,
+        "title": "Renaissance Art",
+        "first-release-date": "2023-02-24",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Hell Razah",
+            "artist": {
+              "id": "dee1055d-2e42-455c-a94e-37c7e86dedf4",
+              "name": "Hell Razah",
+              "sort-name": "Hell Razah",
+              "aliases": [
+                {
+                  "sort-name": "Hell Raza",
+                  "name": "Hell Raza",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Hellrazah",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Hellrazah",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "RoadsArt",
+            "artist": {
+              "id": "77c443ef-ba10-43d4-aa15-da913f48cd83",
+              "name": "RoadsArt",
+              "sort-name": "RoadsArt",
+              "disambiguation": "hip hop producer/engineer",
+              "aliases": [
+                {
+                  "sort-name": "Bonnell, Robert",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Robert Bonnell",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2b54291c-0838-4748-b61a-a01d4055005e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Renaissance Art",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "807dcf9b-3c68-4b8d-baff-925900fea699",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1f0109da-4f0d-403b-87d6-71b6c9234c9d",
+        "count": 1,
+        "title": "Lucrative Times",
+        "first-release-date": "2020-05-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "iEarn Fist",
+            "artist": {
+              "id": "e6d5c11e-feeb-45a0-977c-80d9c4b99d31",
+              "name": "iEarn Fist",
+              "sort-name": "Fist, iEarn"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "46d0b70f-cb17-4d88-b36f-2f8fdd518ea3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lucrative Times",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "a36a988b-aa80-412d-8fac-952d728d6880",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "25a3a9ce-f392-47c8-b73e-86e7e5373bcf",
+        "count": 1,
+        "title": "Scuba",
+        "first-release-date": "2022-03-26",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Saffron",
+            "artist": {
+              "id": "996ef545-98da-4f92-ae4c-bf3afc449608",
+              "name": "Saffron",
+              "sort-name": "Saffron",
+              "disambiguation": "Star Fetchers OST producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "cdefc405-a04b-4205-8cb5-e751ddea01cb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scuba",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "f3ab12b7-3fff-41d3-bffe-c5ae6b94410e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f0ef269c-7f56-36de-a24f-150b4085af7a",
+        "count": 1,
+        "title": "Stofhappers (2005-2009)",
+        "first-release-date": "2020-12-23",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "StropStrikkers",
+            "artist": {
+              "id": "70d10edc-2447-4924-b6d2-e86c4c4bfc49",
+              "name": "StropStrikkers",
+              "sort-name": "StropStrikkers"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bb917683-a9f0-4362-b869-404fa0e703d4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Stofhappers (2005-2009)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "db4f41d6-7486-4a60-96d9-737375a63171",
+        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "25a3a9ce-f392-47c8-b73e-86e7e5373bcf",
+        "count": 1,
+        "title": "Star Fetchers: Episode 1 Demo OST",
+        "first-release-date": "2023-04-14",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Soundtrack"
+        ],
+        "secondary-type-ids": [
+          "22a628ad-c082-3c4f-b1b6-d41665107b88"
+        ],
+        "artist-credit": [
+          {
+            "name": "Saffron",
+            "artist": {
+              "id": "996ef545-98da-4f92-ae4c-bf3afc449608",
+              "name": "Saffron",
+              "sort-name": "Saffron",
+              "disambiguation": "Star Fetchers OST producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c5272f18-3117-4b1f-bc89-fe646d19b929",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Star Fetchers: Episode 1 Demo OST",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "339e8549-45a8-4812-ba96-28d482228c5e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "25a3a9ce-f392-47c8-b73e-86e7e5373bcf",
+        "count": 1,
+        "title": "Sounds of Violence",
+        "first-release-date": "2021-10-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Saffron",
+            "artist": {
+              "id": "996ef545-98da-4f92-ae4c-bf3afc449608",
+              "name": "Saffron",
+              "sort-name": "Saffron",
+              "disambiguation": "Star Fetchers OST producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7b0fac6f-a594-498a-99db-f56e8ad6a15a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Sounds of Violence",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "0f368ee5-1904-42d8-a1af-8a20fa8c6523",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "89e19e12-7311-394e-9b63-35fdb25eb421",
+        "count": 1,
+        "title": "The New Militia",
+        "first-release-date": "2020-09-04",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Ankhlejohn",
+            "artist": {
+              "id": "bc1c42c7-627e-4486-a4f6-8961b24ce224",
+              "name": "ANKHLEJOHN",
+              "sort-name": "ANKHLEJOHN",
+              "disambiguation": "hip hop",
+              "aliases": [
+                {
+                  "sort-name": "Ankhle John",
+                  "name": "Ankhle John",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9a4bb8c1-9ea5-4f6f-8a5e-eb3b32807324",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The New Militia",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "23f3048a-9ac7-4a96-9d50-64bf1f6e5268",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "090b3228-cc0e-348d-ac0b-d02b85a4b1e0",
+        "count": 1,
+        "title": "Authentic Left Overs",
+        "first-release-date": "2020-03-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Concrete Click",
+            "artist": {
+              "id": "db0109b9-b050-4cf7-86e8-8327ecaed468",
+              "name": "Concrete Click",
+              "sort-name": "Concrete Click"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "be89e5fc-00b5-4a75-b409-97b9edeab3c9",
+            "title": "Authentic Left Overs"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "ce5a8c25-057e-440f-919a-6b183fb092e4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "aac8785b-7fe6-3172-a75d-564ec831a51f",
+        "count": 1,
+        "title": "Laty",
+        "first-release-date": "2021-04-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Laty",
+            "artist": {
+              "id": "32aef2b0-695b-4f1e-a278-fcfc9e21e2b1",
+              "name": "Laty",
+              "sort-name": "Laty"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "993277ca-60ba-41f6-89a9-b14e8335b318",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Laty",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "531e16c4-64b5-4582-a6ce-742ccb16f982",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "66335515-7ad6-3326-b5cd-8353347a34c8",
+        "count": 1,
+        "title": "Old Titan Project",
+        "first-release-date": "2020-09-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "超高 Titan",
+            "artist": {
+              "id": "1ae92d16-e54e-461d-b7e6-f862654a0a1b",
+              "name": "超高 Titan",
+              "sort-name": "Super High Titan",
+              "disambiguation": "Vaporwave"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "73cf60cf-ab8f-4949-8227-f3a75fe7d245",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Old Titan Project",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "vaporwave"
+          }
+        ]
+      },
+      {
+        "id": "d9f09011-036c-4970-927c-d9421d9f57c1",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "339b0211-96e2-3d9b-823c-670984b1f434",
+        "count": 1,
+        "title": "Une autre fin du monde est possible",
+        "first-release-date": "2020-05-11",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "L'1consolable",
+            "artist": {
+              "id": "9e32c164-ef8a-4c81-9e2b-22d5417ec678",
+              "name": "L’1consolable",
+              "sort-name": "1consolable, L’",
+              "disambiguation": "French hip hop singer"
+            }
+          },
+          {
+            "name": "B.B.Z Darney",
+            "artist": {
+              "id": "f46b6730-254c-496f-97df-950815ccbda7",
+              "name": "B.B.Z Darney",
+              "sort-name": "B.B.Z Darney"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "32250a95-fa0d-4899-9446-802f9f7985d8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Une autre fin du monde est possible",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "a4f5455f-7ac2-4e40-965c-d0beef0532d5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "39cf72ec-a209-3064-acfb-202f5c3665f2",
+        "count": 3,
+        "title": "The Demos",
+        "first-release-date": "2020-04-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Organized Konfusion",
+            "artist": {
+              "id": "cd3f07e8-7047-418c-a325-d2028ee1b8a0",
+              "name": "Organized Konfusion",
+              "sort-name": "Organized Konfusion",
+              "disambiguation": "US alternative hip hop duo from Queens, NYC"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f1d931bb-12ac-44a2-ae91-8fe1d6483f07",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Demos",
+            "status": "Official"
+          },
+          {
+            "id": "d35173b4-eaa6-4113-9279-8d79298e7eb8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Demos",
+            "status": "Official"
+          },
+          {
+            "id": "aed8ea8b-2dbb-4d45-b6a7-70b686a08e21",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Demos",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "2ca0e9cf-749c-4060-a316-b0897e244461",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b084bf36-db04-30ed-abbe-2eb608178ecd",
+        "count": 1,
+        "title": "Bounces",
+        "first-release-date": "2020-08-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "seb says",
+            "artist": {
+              "id": "23bdaf4f-300b-405f-a469-6905cbc866a2",
+              "name": "seb says",
+              "sort-name": "seb says"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "95487857-f575-4978-af86-2d1488f223ef",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bounces",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "a91c606f-41e2-4389-bd94-87f8e51e60a7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "66335515-7ad6-3326-b5cd-8353347a34c8",
+        "count": 1,
+        "title": "Full Blast",
+        "first-release-date": "2021-07-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "超高 Titan",
+            "artist": {
+              "id": "1ae92d16-e54e-461d-b7e6-f862654a0a1b",
+              "name": "超高 Titan",
+              "sort-name": "Super High Titan",
+              "disambiguation": "Vaporwave"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7d8899d6-5d36-4611-8585-393bdd9c83a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Full Blast",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "vaporwave"
+          }
+        ]
+      },
+      {
+        "id": "7047a2c1-ea21-4d58-aa58-8cdfb583d32f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "67a344b2-39b2-3a5f-b3cf-4684e0de42b2",
+        "count": 1,
+        "title": "Heaven Sent",
+        "first-release-date": "2020-10-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " / ",
+            "name": "超高 Titan",
+            "artist": {
+              "id": "1ae92d16-e54e-461d-b7e6-f862654a0a1b",
+              "name": "超高 Titan",
+              "sort-name": "Super High Titan",
+              "disambiguation": "Vaporwave"
+            }
+          },
+          {
+            "name": "Soundtrip Utopia",
+            "artist": {
+              "id": "8c9186f1-4041-4652-9178-2582458fc285",
+              "name": "Soundtrip Utopia",
+              "sort-name": "Soundtrip Utopia"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "abe8b35e-d2d1-4a0b-a1d0-c9ab79e3cb27",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Heaven Sent",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "vaporwave"
+          }
+        ]
+      },
+      {
+        "id": "c2bcce86-5471-4d61-9891-a381f3fc44b2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "66335515-7ad6-3326-b5cd-8353347a34c8",
+        "count": 1,
+        "title": "Christmas in Cereal City",
+        "first-release-date": "2020-12-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "超高 Titan",
+            "artist": {
+              "id": "1ae92d16-e54e-461d-b7e6-f862654a0a1b",
+              "name": "超高 Titan",
+              "sort-name": "Super High Titan",
+              "disambiguation": "Vaporwave"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "66b8b535-a4ae-48dd-a0a6-eb6ccb16ab5d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Christmas in Cereal City",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "vaporwave"
+          }
+        ]
+      },
+      {
+        "id": "9135b0da-46a7-4bc8-9f55-2d5d0ae4f515",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5d1d0875-e532-3bb8-8fcc-f5055dd00ce4",
+        "count": 2,
+        "title": "Back4More",
+        "first-release-date": "2021-03-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": ", ",
+            "name": "BlabberMouf",
+            "artist": {
+              "id": "4d08c2e5-cbf0-42b6-9383-52d2180c26f4",
+              "name": "BlabberMouf",
+              "sort-name": "BlabberMouf",
+              "disambiguation": "Dutch rapper",
+              "aliases": [
+                {
+                  "sort-name": "Widdershoven, Ruben",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ruben Widdershoven",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "joinphrase": " & ",
+            "name": "EllMatic",
+            "artist": {
+              "id": "11eb0194-8c61-415c-98c3-d533890a0583",
+              "name": "EllMatic",
+              "sort-name": "EllMatic"
+            }
+          },
+          {
+            "name": "MpDrees24",
+            "artist": {
+              "id": "62658c26-cb1f-4684-8523-4d3b6c59dfd1",
+              "name": "MpDrees24",
+              "sort-name": "MpDrees24"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "020c7888-c43e-43f9-a4b8-9e15f78834f5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Back4More",
+            "status": "Official"
+          },
+          {
+            "id": "c34f8f39-63bb-48e3-b5e6-d84d3270ba9b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Back4More",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "07430256-5318-4723-bdd4-a23e1f6a6b4e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "0dcc8868-fd83-3a47-981d-f291f00d5073",
+        "count": 1,
+        "title": "Return Flight",
+        "first-release-date": "2021-08-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Boom Bap Project",
+            "artist": {
+              "id": "d01f30e6-cc21-41a3-9157-89b702f77f0f",
+              "name": "Boom Bap Project",
+              "sort-name": "Boom Bap Project"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2749e989-7dc1-470b-8d84-84f8bab04369",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Return Flight",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "bce3b87a-eaa5-4438-96bd-3d71885ec144",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7ad86b75-3e17-3562-a720-92ab521fea3b",
+        "count": 1,
+        "title": "The Producer Project EP",
+        "first-release-date": "2020",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Shazam X",
+            "artist": {
+              "id": "b38d45cf-fa65-4e96-a314-15e9ceac1aaf",
+              "name": "Shazam X",
+              "sort-name": "Shazam X"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bf511a30-180a-4e1b-989f-ba132f337cad",
+            "title": "The Producer Project EP"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "d7fe784a-2fcb-43eb-9844-0c5836145aaa",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d69ef76d-926b-3c49-a62e-762668fed34a",
+        "count": 1,
+        "title": "Self 7xve 2",
+        "first-release-date": "2022-04-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "7xvethegenius",
+            "artist": {
+              "id": "0bc9d241-556f-4bba-8ea7-e0bb7d2c7e19",
+              "name": "7xvethegenius",
+              "sort-name": "7xvethegenius",
+              "disambiguation": "American rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7ec0258d-6456-4340-9c43-cb12b05523c7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Self 7xve 2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "0a6272eb-b601-4a0b-b359-695038ae5403",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "98efcbd3-75a8-3044-af04-0bdb78d70e06",
+        "count": 1,
+        "title": "Dooley-O Presents The Meccanizm",
+        "first-release-date": "2021",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " Presents ",
+            "name": "Dooley-O",
+            "artist": {
+              "id": "34cdd6ad-df1d-4b19-9b4d-399791e7cde6",
+              "name": "Dooley O",
+              "sort-name": "Dooley O",
+              "aliases": [
+                {
+                  "sort-name": "Dooley-O",
+                  "name": "Dooley-O",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "The Meccanizm",
+            "artist": {
+              "id": "2baf81b6-7f55-48cd-a888-304e7e1c1abf",
+              "name": "Meccanizms",
+              "sort-name": "Meccanizms"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ee29deb7-42d0-40eb-9f85-0324fe4e6824",
+            "title": "Dooley-O Presents The Meccanizm"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "2355ad13-52c2-4b8e-91ef-4654075fd310",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b59f276d-f7a7-415d-a677-39e7cf8b6177",
+        "count": 2,
+        "title": "White Girl Wasted",
+        "first-release-date": "2022-09-09",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "White Girl Wasted",
+            "artist": {
+              "id": "6a700bd8-e778-4019-a5d1-fb9d2662ed82",
+              "name": "White Girl Wasted",
+              "sort-name": "White Girl Wasted",
+              "disambiguation": "hip hop duo SonnyJim & The Purist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "51a2b2a4-4a07-43b3-9156-88ae08cc8d63",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "White Girl Wasted",
+            "status": "Official"
+          },
+          {
+            "id": "261e15a5-7d32-4224-bf4c-7ed5f9c6ab11",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "White Girl Wasted",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "2387411b-7b01-458f-b0d8-7f584735d403",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "02228349-d18d-4a83-86d3-52c492e99ff9",
+        "count": 1,
+        "title": "safe here.",
+        "first-release-date": "2025-03-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "berightback.",
+            "artist": {
+              "id": "66e14c44-c726-4d6a-88ae-261bf0330653",
+              "name": "berightback.",
+              "sort-name": "berightback.",
+              "disambiguation": "lo‐fi beatmaker",
+              "aliases": [
+                {
+                  "sort-name": "Lizana Catalán, David",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "David Lizana Catalán",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "336b7c4c-ab35-4d07-b738-950f43a5c9af",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "safe here.",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "d167c342-4d4a-43ce-a6f7-e8f44b96462c",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "57624640-da98-306d-8090-3d9ac132010e",
+        "count": 1,
+        "title": "Tongue Fu",
+        "first-release-date": "2023",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Nejma Nefertiti",
+            "artist": {
+              "id": "341d914a-cada-487b-bdb9-a2f039f87644",
+              "name": "Nejma Nefertiti",
+              "sort-name": "Nejma Nefertiti",
+              "aliases": [
+                {
+                  "sort-name": "Nejam Nefertiti",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Nejam Nefertiti",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "990046f9-c90d-46ac-8d72-834aead4b328",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tongue Fu",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "06a27e96-da6c-439e-b3e0-1f0b9b79c152",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7eb76d3f-f19a-3d52-ae68-d1fe06cfc369",
+        "count": 1,
+        "title": "Hoof Prints, Vol.4",
+        "first-release-date": "2025-03-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Moose Funk Squad",
+            "artist": {
+              "id": "3ca44838-39dd-4d2d-8eea-b0bad87d5b7f",
+              "name": "Moose Funk Squad",
+              "sort-name": "Moose Funk Squad"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a96c01ba-df02-4cfe-b2cc-fd32d02ab0c6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hoof Prints, Vol.4",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "d53975ba-f520-48f1-9295-93badf8b84f7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "80c85596-c51e-4a1d-a8c7-1d801db090f0",
+        "count": 1,
+        "title": "one more time",
+        "first-release-date": "2024-10-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "duskbunny",
+            "artist": {
+              "id": "3dd8776f-f2d9-4209-82c8-91f169f1cba7",
+              "name": "duskbunny",
+              "sort-name": "duskbunny",
+              "aliases": [
+                {
+                  "sort-name": "Wyatt, Jody",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jody Wyatt",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "42157712-56e2-40a7-87c4-95310017a78f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "one more time",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "c18b0411-5947-44d4-bc8e-ceedba2b9601",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "af6306de-8f17-4258-853b-307dcd3a037d",
+        "count": 1,
+        "title": "Frames of Phrasing",
+        "first-release-date": "2025-04-18",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Clouken",
+            "artist": {
+              "id": "444dc436-dc4c-467b-afca-a3d7b2b46650",
+              "name": "Clouken",
+              "sort-name": "Clouken"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "af5025f1-f742-4a57-8da8-07940418dbb2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Frames of Phrasing",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "a63ee9de-4347-4a65-9286-68424a82e043",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "531877a0-01ea-4387-a5a2-e8de0e70b9b4",
+        "count": 1,
+        "title": "Classic Thoughts",
+        "first-release-date": "2025-06-20",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "LONSSO",
+            "artist": {
+              "id": "24a1e023-30fc-4669-ab06-0dc155b07b1f",
+              "name": "LONSSO",
+              "sort-name": "LONSSO",
+              "aliases": [
+                {
+                  "sort-name": "García, Mario Alonso",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Mario Alonso García",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ab59d7ab-059e-49b2-b6ee-9e3b4ee78057",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Classic Thoughts",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "1af27d83-dfed-4987-a16e-da3af8ed0464",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f636e045-2719-37ce-9d3a-44dd5209d156",
+        "count": 1,
+        "title": "Blast Masta Blab",
+        "first-release-date": "2020-12-04",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "BlabberMouf",
+            "artist": {
+              "id": "4d08c2e5-cbf0-42b6-9383-52d2180c26f4",
+              "name": "BlabberMouf",
+              "sort-name": "BlabberMouf",
+              "disambiguation": "Dutch rapper",
+              "aliases": [
+                {
+                  "sort-name": "Widdershoven, Ruben",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ruben Widdershoven",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7a857392-fc5f-49f5-aa49-5a1de981f579",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blast Masta Blab",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "dabe3634-a68a-4b70-b496-540c7b8b8469",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "1eb3afef-8039-4e24-bc8e-6d976fb9446f",
+        "count": 1,
+        "title": "Childhood winds",
+        "first-release-date": "2024-11-29",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Best Pulse",
+            "artist": {
+              "id": "d9211654-b466-46a4-bc45-49810d8e3262",
+              "name": "Best Pulse",
+              "sort-name": "Best Pulse",
+              "aliases": [
+                {
+                  "sort-name": "Garcia Fernandez, Victor Manuel",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Victor Manuel Garcia Fernandez",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "42907108-b179-41a3-9868-a1b127be5a16",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Childhood winds",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "lo-fi"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "d87048fd-d466-4288-b30e-95122964ee31",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c20a8786-daba-4d0f-ba8b-88257a89f1e7",
+        "count": 1,
+        "title": "Around The World",
+        "first-release-date": "2022",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": ", ",
+            "name": "Risskant",
+            "artist": {
+              "id": "c23e2806-d0be-4012-97ff-8e3858b49b93",
+              "name": "Risskant",
+              "sort-name": "Risskant",
+              "disambiguation": "Rene Rissema aka Risskant de Woordvoerder"
+            }
+          },
+          {
+            "joinphrase": ", ",
+            "name": "Sythe",
+            "artist": {
+              "id": "7d0368ea-8401-4265-8182-3ddb71f1376f",
+              "name": "Chronic Sythe",
+              "sort-name": "Chronic Sythe",
+              "disambiguation": "rapper"
+            }
+          },
+          {
+            "name": "Young Zee",
+            "artist": {
+              "id": "09a23d06-ca74-409f-9665-46122318b0ae",
+              "name": "Young Zee",
+              "sort-name": "Young Zee",
+              "aliases": [
+                {
+                  "sort-name": "Young Zee",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Young Zee",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "D. Battle",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "D. Battle",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Battle, Dewayne",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Dewayne Battle",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "abbfb03f-8351-4c30-b540-248e9b301a2e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Around The World",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "a58219c5-fe97-4307-adeb-63c2a1ec3fae",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "34967b8d-f65b-31a3-9ec6-0c3a2a55bb7c",
+        "count": 3,
+        "title": "Hip Hop 50, Vol. 1",
+        "first-release-date": "2022-07-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "DJ Premier",
+            "artist": {
+              "id": "084e06f5-3c82-4b71-bd94-dd69e7bd515e",
+              "name": "DJ Premier",
+              "sort-name": "Premier, DJ",
+              "disambiguation": "US hip hop producer & DJ",
+              "aliases": [
+                {
+                  "sort-name": "Chris Edward Martin",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Chris Edward Martin",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Chris E. Martin",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Chris E. Martin",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "C. Martin",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "C. Martin",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Chris Martin",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Chris Martin",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Premier, DJ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "DJ Premier",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Premiere",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Premiere",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Martin, Christopher Edward",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Christopher Edward Martin",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Premo",
+                  "name": "Premo",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Primo",
+                  "name": "Primo",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "DJ Premiers",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "DJ Premiers",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "148161fa-120e-444f-b36e-881340792742",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hip Hop 50, Vol. 1",
+            "status": "Official"
+          },
+          {
+            "id": "2ab9f329-afdb-4e9a-aefc-55ded1d4072f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hip Hop 50, Vol. 1",
+            "status": "Official"
+          },
+          {
+            "id": "76280479-5d85-416e-a6a4-56a4a5ec4956",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hip Hop 50, Vol. 1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "2edffd68-7dd0-4877-aa8a-0e6c13c6e098",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c1cd1272-0030-3077-9bd5-838daca21766",
+        "count": 1,
+        "title": "Gotta Have Love EP",
+        "first-release-date": "2021",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "The Last Emperor",
+            "artist": {
+              "id": "2457c103-07ba-4cc1-9f7b-73ab1b0af93f",
+              "name": "The Last Emperor",
+              "sort-name": "Last Emperor, The",
+              "aliases": [
+                {
+                  "sort-name": "Last Emperor",
+                  "name": "Last Emperor",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "284132da-d8e9-42e4-a7b3-ceb7d73c909e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Gotta Have Love EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "8f38181b-cf14-4acf-8550-26f0e05ec021",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "264030da-09d0-3630-a5d8-07b19e189585",
+        "count": 1,
+        "title": "PLASTIC RANDOM EP",
+        "first-release-date": "2022-01-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "200038",
+            "artist": {
+              "id": "9f9478dc-abc1-4f38-885f-5dca8e2d9060",
+              "name": "200038",
+              "sort-name": "200038",
+              "disambiguation": "Italian experimental hip hop project"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "17377f9a-7e84-4021-8dfb-edde931818f0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "PLASTIC RANDOM EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "f238ee60-18c0-4ce0-b37f-698fef2ec4ac",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7dbae540-3207-3010-9c50-fee74522064b",
+        "count": 1,
+        "title": "Einer muss es tun",
+        "first-release-date": "2021-05-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Julez",
+            "artist": {
+              "id": "c7e8ba5f-eb56-4eab-ada0-df001fb3316d",
+              "name": "Julez",
+              "sort-name": "Julez",
+              "disambiguation": "German Rapper"
+            }
+          },
+          {
+            "name": "SkiDs",
+            "artist": {
+              "id": "86ba18e9-a517-4a8b-93e1-3d05fe33aa84",
+              "name": "SkiDs",
+              "sort-name": "SkiDs",
+              "disambiguation": "German hip hop producer",
+              "aliases": [
+                {
+                  "sort-name": "Laubner, Nikolas",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Nikolas Laubner",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ba58c3ac-3e65-445f-982c-797016e08c1a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Einer muss es tun",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "1f88351d-b635-48b5-acce-22e8452aff62",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f5429e0e-81dc-3530-8b54-bba3b6bace04",
+        "count": 1,
+        "title": "L'homme vide",
+        "first-release-date": "2022-02-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Bonkar Jones",
+            "artist": {
+              "id": "e5f41632-fdf8-4cb5-98ff-e426d87f072a",
+              "name": "Bonkar Jones",
+              "sort-name": "Bonkar Jones",
+              "disambiguation": "Rappeur et beatmaker français"
+            }
+          },
+          {
+            "name": "La Vilerie",
+            "artist": {
+              "id": "16343c26-2cb2-4953-a41d-5863e78eae50",
+              "name": "La Vilerie",
+              "sort-name": "La Vilerie",
+              "disambiguation": "Beatmaker"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bacc9e41-2c7e-4e85-b050-7ddf23a19cfb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "L'homme vide",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "3426cb6a-4d1d-454e-89bb-04d28f589952",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "149cda52-fefc-389d-a6bc-d7a468b0c22a",
+        "count": 1,
+        "title": "Transmigration",
+        "first-release-date": "2021-11-20",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Lekrytur",
+            "artist": {
+              "id": "b328d0d3-8cfd-4ff1-8e39-fc34a1319839",
+              "name": "Lekrytur",
+              "sort-name": "Lekrytur",
+              "disambiguation": "Rappeur fr"
+            }
+          },
+          {
+            "name": "La Vilerie",
+            "artist": {
+              "id": "16343c26-2cb2-4953-a41d-5863e78eae50",
+              "name": "La Vilerie",
+              "sort-name": "La Vilerie",
+              "disambiguation": "Beatmaker"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f6d7a7e4-ff37-4286-90fe-2a5942cccbac",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Transmigration",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "c1f725b1-8bf8-48f3-b1cc-ffa7e8849ce7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "07402127-f211-420c-a419-742d38e350a7",
+        "count": 1,
+        "title": "177",
+        "first-release-date": "2023-04-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "$aymon Rother$",
+            "artist": {
+              "id": "76c22f68-e60f-4279-a220-df600c14ba64",
+              "name": "$aymon Rother$",
+              "sort-name": "Rother, Saymon",
+              "aliases": [
+                {
+                  "sort-name": "Rother, Saymon",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Saymon Rother",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rother, Saymon de Assis",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Saymon de Assis Rother",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Rother$, $aymon",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "$aymon Rother$",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Saymon Rother",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Saymon Rother",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ca6a28cd-4254-4efa-a1c8-46ab0ed6c5e7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "177",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          },
+          {
+            "count": 1,
+            "name": "stoner rap"
+          }
+        ]
+      },
+      {
+        "id": "fe985255-333f-484b-ac8f-e61403df7172",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 82,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "c4fc78e6-e382-3777-b3d2-18918aa8ef01",
+        "count": 1,
+        "title": "Jorun PMC",
+        "first-release-date": "2020-05-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Jorun PMC",
+            "artist": {
+              "id": "e43dd747-4156-4133-bc62-e55002b390d1",
+              "name": "Jorun PMC",
+              "sort-name": "Jorun Bombay & Phill Most Chill",
+              "disambiguation": "Hip Hop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "26c10255-346d-465f-8e56-a72ecad13a6f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Jorun PMC",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "breaks"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "9aa38018-ece9-4a96-8bee-150eb22e2fae",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 82,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "92984e2e-c07a-30f3-a424-f174191331ec",
+        "count": 1,
+        "title": "4 Dilla Vol. 1-5",
+        "first-release-date": "2020-05-06",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "Cookin' Soul",
+            "artist": {
+              "id": "cb15675b-24a4-4092-8554-61f03b6017d8",
+              "name": "Cookin’ Soul",
+              "sort-name": "Cookin’ Soul",
+              "disambiguation": "Spanish hip hop producer, formerly trio/duo"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bb65a8c6-0d70-49ed-b6fc-de92e8650427",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "4 Dilla Vol. 1-5",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      }
+    ]
+  }
+}

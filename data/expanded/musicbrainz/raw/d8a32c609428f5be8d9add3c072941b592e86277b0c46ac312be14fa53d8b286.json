@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/4784331c-b0d7-4af1-9271-a5fe27a04c06",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4784331c-b0d7-4af1-9271-a5fe27a04c06?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:35.659873+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2013-11-21",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "secondary-types": [],
+    "id": "4784331c-b0d7-4af1-9271-a5fe27a04c06",
+    "primary-type": "Album",
+    "title": "Kiss My Versatility",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "FrivolousShara",
+          "sort-name": "FrivolousShara",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "country": null,
+          "id": "5fc280e7-a352-408b-ad9c-d82a4c1dadda",
+          "disambiguation": "",
+          "type": "Person"
+        },
+        "name": "FrivolousShara"
+      }
+    ]
+  }
+}

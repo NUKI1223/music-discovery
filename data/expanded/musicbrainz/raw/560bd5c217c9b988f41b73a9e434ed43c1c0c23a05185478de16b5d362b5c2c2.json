@@ -1,0 +1,104 @@
+{
+  "endpoint": "release-group/e147eff0-e662-4e76-8626-1acb20e91d3b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e147eff0-e662-4e76-8626-1acb20e91d3b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:03.600083+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "RU",
+          "disambiguation": "",
+          "sort-name": "On Yun",
+          "type": "Group",
+          "tags": [
+            {
+              "count": 2,
+              "name": "abstract hip hop"
+            },
+            {
+              "name": "alternative hip hop",
+              "count": 2
+            },
+            {
+              "name": "hip hop",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "name": "indie hip hop"
+            },
+            {
+              "name": "post rap",
+              "count": 2
+            }
+          ],
+          "name": "Он Юн",
+          "id": "034f67a1-30b5-4525-a46e-c26b0cc00655",
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "name": "alternative hip hop",
+              "count": 2,
+              "disambiguation": ""
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 2
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+        },
+        "name": "Он Юн",
+        "joinphrase": ""
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "first-release-date": "2012-01-09",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "id": "e147eff0-e662-4e76-8626-1acb20e91d3b",
+    "title": "Гетто Гарбо",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

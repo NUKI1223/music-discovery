@@ -1,0 +1,2141 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"boom bap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22boom+bap%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2010-01-01+TO+2019-12-31%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:43.911515+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:43.826Z",
+    "count": 1640,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "9fa86e65-1326-4401-9378-c65e3d775135",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ad2b4c8a-b751-3b04-b6f3-30b32d39a20f",
+        "count": 1,
+        "title": "Authenticated",
+        "first-release-date": "2016-07-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Frosty",
+            "artist": {
+              "id": "a104684f-d074-48de-bda4-5db2576b8cd7",
+              "name": "Frosty",
+              "sort-name": "Frosty",
+              "disambiguation": "San Diego rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c8697b54-2f48-4252-a7f0-4abe293fce35",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Authenticated",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "38eb119a-aee4-4d6f-819f-a1a5d419c43a",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "470a558a-0c44-39ae-bd49-7397ba569c2c",
+        "count": 1,
+        "title": "Gasol Sauce",
+        "first-release-date": "2018-06-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Sauce Heist",
+            "artist": {
+              "id": "0ba20ae9-7bb7-485f-8dcb-438dee1e9588",
+              "name": "Sauce Heist",
+              "sort-name": "Sauce Heist",
+              "disambiguation": "US Rapper"
+            }
+          },
+          {
+            "name": "Jamal Gasol",
+            "artist": {
+              "id": "5b88b4d7-53df-49c1-a16a-968d421b85e9",
+              "name": "Jamal Gasol",
+              "sort-name": "Jamal Gasol",
+              "disambiguation": "US rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7bca6173-0dfb-4060-b9e7-6d933f5ef58e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Gasol Sauce",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "d76e31db-753b-4bbf-a325-d503a99e2ce9",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91664ed1-1982-39f4-a010-e77d5877fe7d",
+        "count": 1,
+        "title": "死亡 (005) Silence",
+        "first-release-date": "2019-03-11",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "BPMF",
+            "artist": {
+              "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+              "name": "BPMF",
+              "sort-name": "BPMF",
+              "disambiguation": "Rap fr"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "fbfdae47-fa8a-450b-a20d-794508663588",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "死亡 (005) Silence",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "ab883788-675e-4abe-a019-f85a55ce9d35",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91664ed1-1982-39f4-a010-e77d5877fe7d",
+        "count": 1,
+        "title": "人生(006) Music!",
+        "first-release-date": "2019-05-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "BPMF",
+            "artist": {
+              "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+              "name": "BPMF",
+              "sort-name": "BPMF",
+              "disambiguation": "Rap fr"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "42f7ea13-5079-49b1-8e96-4e957ef3359b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "人生(006) Music!",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "2ae771a4-7d56-4ee9-87cd-e2b8702afbaa",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91664ed1-1982-39f4-a010-e77d5877fe7d",
+        "count": 1,
+        "title": "遇見的人們 (002)",
+        "first-release-date": "2017-11-20",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "BPMF",
+            "artist": {
+              "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+              "name": "BPMF",
+              "sort-name": "BPMF",
+              "disambiguation": "Rap fr"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ba463b5b-8dfa-450a-82de-e3961e022201",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "遇見的人們 (002)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "cc5338e0-aa11-4e68-8bd4-1f76873b8a19",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91664ed1-1982-39f4-a010-e77d5877fe7d",
+        "count": 1,
+        "title": "白日夢 (003)",
+        "first-release-date": "2018-04-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "BPMF",
+            "artist": {
+              "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+              "name": "BPMF",
+              "sort-name": "BPMF",
+              "disambiguation": "Rap fr"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f86b5e95-42f8-4e01-bc88-3d2c7a177469",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "白日夢 (003)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "53d7a860-c533-4c69-a720-73812cf590a6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91664ed1-1982-39f4-a010-e77d5877fe7d",
+        "count": 1,
+        "title": "噩夢 (004)",
+        "first-release-date": "2018-05-31",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "BPMF",
+            "artist": {
+              "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+              "name": "BPMF",
+              "sort-name": "BPMF",
+              "disambiguation": "Rap fr"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c82fec31-30ef-413c-8198-4eb8660546d6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "噩夢 (004)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "7fc17fda-494d-4518-8abc-e520b38f9ee0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "f19e48b3-fc2c-3296-ac8c-9b3cd4d35e57",
+        "count": 1,
+        "title": "Mon échappée belle",
+        "first-release-date": "2013-03-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Raistlin",
+            "artist": {
+              "id": "e550fa4c-ddfe-4fe2-b923-41af8ff3d389",
+              "name": "Raistlin",
+              "sort-name": "Raistlin",
+              "disambiguation": "Rappeur, beatmaker français"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8de5f448-daf2-485b-b0e0-7ff33d3f8806",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mon échappée belle",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "7e50a18c-c855-44b6-a5d3-13665cae1401",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d675a669-72ed-3121-8051-cbdb27e6c5bc",
+        "count": 1,
+        "title": "Boom Bap and Beyond EP",
+        "first-release-date": "2010-12-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Retrospek",
+            "artist": {
+              "id": "b517b6b4-2a70-486a-9767-ad2e0707e7be",
+              "name": "Retrospek",
+              "sort-name": "Retrospek"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "43fa0e5b-13ad-4b37-b90d-f0151a8b20d5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Boom Bap and Beyond EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "fad9abc5-1889-4008-bb62-c13ed6efa3c6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "91664ed1-1982-39f4-a010-e77d5877fe7d",
+        "count": 1,
+        "title": "人生倒影 (001)",
+        "first-release-date": "2017-03-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "BPMF",
+            "artist": {
+              "id": "ed136ca7-e0aa-458d-afa7-7af47ae8478b",
+              "name": "BPMF",
+              "sort-name": "BPMF",
+              "disambiguation": "Rap fr"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9dca2a0b-45d4-4bd9-b839-9d8c4b49e2d7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "人生倒影 (001)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "45baeddc-6f2f-4ce6-83ad-0254ce3bfb99",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "dfbc26b8-01d2-3034-8437-700d76f9b2ca",
+        "count": 1,
+        "title": "La Amenaza Roja",
+        "first-release-date": "2012-03-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Bolche",
+            "artist": {
+              "id": "390f0031-b035-4b99-936c-151137d8a8fa",
+              "name": "Bolche",
+              "sort-name": "Bolche"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1e8a8a86-851d-436c-a793-fbe1aa48ce6e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "La Amenaza Roja",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "4eaa7b85-63cc-40a2-99d2-1f65a8771216",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "315295ca-06c6-31d1-8a11-0f1733fdf562",
+        "count": 1,
+        "title": "The Bitter Old Man EP",
+        "first-release-date": "2014-02-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Meni & Deve",
+            "artist": {
+              "id": "c4586e6a-5249-438d-83ea-761526e7d0d7",
+              "name": "Meni & Deve",
+              "sort-name": "Meni & Deve"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f606b755-05fc-4633-bf12-197b132e7754",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Bitter Old Man EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "e6cf4724-667e-4099-96f0-05232a8d1fdc",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "cd8d5050-d8ad-3fae-acf1-250d916ca7fd",
+        "count": 1,
+        "title": "3x3",
+        "first-release-date": "2018-10-05",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Pawz One",
+            "artist": {
+              "id": "d7fdd852-2991-4015-9bc3-9e66f69197c0",
+              "name": "Pawz One",
+              "sort-name": "Pawz One",
+              "disambiguation": "Los-Angeles-based rapper Robert Perez",
+              "aliases": [
+                {
+                  "sort-name": "Perez, Robert",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Robert Perez",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Pawz 1",
+                  "name": "Pawz 1",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bf95fbc1-b603-4ec0-a50d-8542b0dd367f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "3x3",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "67944b88-b46d-4d4e-a80e-7ee639d82804",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e0369b89-0bea-3a9a-b66a-e8e7d97a2af7",
+        "count": 1,
+        "title": "Sleepwalker",
+        "first-release-date": "2013-12-31",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Edo Lee",
+            "artist": {
+              "id": "58ce884c-395b-419a-9bd3-633f0601f0a1",
+              "name": "Edo Lee",
+              "sort-name": "Lee, Edo",
+              "aliases": [
+                {
+                  "sort-name": "Ξdo Lee",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Ξdo Lee",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9dbc18a2-951c-41c8-aed1-6171b606fbbf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Sleepwalker",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "31852e7a-7801-431a-b384-9db079fce816",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e0369b89-0bea-3a9a-b66a-e8e7d97a2af7",
+        "count": 1,
+        "title": "Waking Nights",
+        "first-release-date": "2014-03-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Edo Lee",
+            "artist": {
+              "id": "58ce884c-395b-419a-9bd3-633f0601f0a1",
+              "name": "Edo Lee",
+              "sort-name": "Lee, Edo",
+              "aliases": [
+                {
+                  "sort-name": "Ξdo Lee",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Ξdo Lee",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2941caf5-4d29-463d-a828-78bb00817f54",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Waking Nights",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "4e3698f0-a07c-4b20-bc4d-7963dcc889d7",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a8fdbc3c-5eed-3d9b-ae67-4fe5021c12a5",
+        "count": 1,
+        "title": "Stabil EP",
+        "first-release-date": "2016-05-29",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "TESK",
+            "artist": {
+              "id": "596a1dcf-704d-45fc-a167-93aed95a033d",
+              "name": "TESK",
+              "sort-name": "TESK",
+              "disambiguation": "instrumental hip hop artist",
+              "aliases": [
+                {
+                  "sort-name": "Scheurer, Nikolas",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Nikolas Scheurer",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Altmannsberger, Nikolas",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Nikolas Altmannsberger",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c84683c4-b388-437a-a2ac-77833ff83a4c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Stabil EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "b4ff9ef0-e543-4a57-9732-c8353bb1ca9a",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 92,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "4ae2d6aa-3dd8-3928-b219-308d7412b98c",
+        "count": 1,
+        "title": "Blodtørstig",
+        "first-release-date": "2014-05-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Blodsport",
+            "artist": {
+              "id": "d45683ee-33dd-47bb-9eee-c16e1a3e6c91",
+              "name": "Blodsport",
+              "sort-name": "Blodsport"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c214226f-c4f0-493c-b6d9-46a980dd228a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blodtørstig",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "181ccd22-d646-465b-a53e-4d25ab905102",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 92,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b251517b-2cc1-3bbd-a0fc-2a5d56e5415b",
+        "count": 1,
+        "title": "The Stoned Ape",
+        "first-release-date": "2016-08-18",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Anu322",
+            "artist": {
+              "id": "1d2c0b46-a57e-4f33-803e-259521d5d14d",
+              "name": "Anu322",
+              "sort-name": "Anu322"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4a8ffe11-2901-4369-99b8-a9c35e6dbb6d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Stoned Ape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "turntablism"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "4ce6f90a-e1c5-458b-b629-1dd50736b873",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 92,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "74f86219-d44b-3ca4-9a6f-b891e4ddd22e",
+        "count": 1,
+        "title": "Blod på papiret",
+        "first-release-date": "2013-03-27",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Makaber",
+            "artist": {
+              "id": "af890af8-1c07-4b6f-a8c9-235aaf2e01dd",
+              "name": "Makaber",
+              "sort-name": "Makaber"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "894364e9-cb12-4906-b2e0-64bbc36304a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blod på papiret",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "horrorcore"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "91c9021b-f671-46e1-ae0b-908eacd8914b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 92,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e60775d8-f00e-3a21-b8dd-7ddecfa39dc7",
+        "count": 1,
+        "title": "Pearly Gates",
+        "first-release-date": "2016-12-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Raw Saïtama",
+            "artist": {
+              "id": "92294bc7-2f27-468e-ad93-1f95f2904bb2",
+              "name": "Raw Saïtama",
+              "sort-name": "Raw Saïtama",
+              "disambiguation": "Beatmaker"
+            }
+          },
+          {
+            "name": "Milez Grimez",
+            "artist": {
+              "id": "86b6f589-4938-44ae-9605-dfe3209ab21e",
+              "name": "Milez Grimez",
+              "sort-name": "Grimez, Milez",
+              "disambiguation": "US rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ae9a717c-8bc4-489f-9bc5-d7fe4d7f9a78",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pearly Gates",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "ea07af18-9773-4ea0-96d4-d8dde4c273a2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 92,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "2fc1a134-9f69-3128-9586-0fb190a2f639",
+        "count": 1,
+        "title": "trippl",
+        "first-release-date": "2014-06-30",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "greyfish",
+            "artist": {
+              "id": "0ac90d0b-0168-4d11-9896-fc9130e7ba96",
+              "name": "greyfish",
+              "sort-name": "greyfish"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e5486025-9592-47e0-8805-8da4f1de5f46",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "trippl",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "0ac26748-10c2-4c67-baa0-0be49f1487f6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 92,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5e340b1c-c57f-3b63-b92e-ff45ea3eac90",
+        "count": 1,
+        "title": "Basement Bumps",
+        "first-release-date": "2016-09-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "FLOOR BABA",
+            "artist": {
+              "id": "1006728a-2d33-424f-b41d-32fbf278e7e4",
+              "name": "FLOOR BABA",
+              "sort-name": "FLOOR BABA",
+              "aliases": [
+                {
+                  "sort-name": "Martin, Jesse",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jesse Martin",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "67c5bcbd-d3f3-4d50-aea9-8a948490e53c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Basement Bumps",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "12551d5f-792d-4d71-b4de-6de922cc427a",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "612e4f6d-80f5-3ac0-8e57-677af1caa83d",
+        "count": 1,
+        "title": "Breaking ThroughThe Boundaries",
+        "first-release-date": "2015-01-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " feat. ",
+            "name": "Ty Da Tyrant",
+            "artist": {
+              "id": "f0e67752-d036-484e-9f71-6869b285c281",
+              "name": "Ty Da Tyrant",
+              "sort-name": "Ty Da Tyrant"
+            }
+          },
+          {
+            "joinphrase": " & ",
+            "name": "DJ Trickalome",
+            "artist": {
+              "id": "87571538-c54c-423c-96cc-ab71379d7019",
+              "name": "DJ Trickalome",
+              "sort-name": "Trickalome, DJ"
+            }
+          },
+          {
+            "name": "DuGGi Beats",
+            "artist": {
+              "id": "1fbad771-cc49-464b-b211-fd0d4bec75e1",
+              "name": "DuGGi Beats",
+              "sort-name": "DuGGi Beats"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7ee1da88-3283-4cc6-9000-d19b78b4a36d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breaking ThroughThe Boundaries",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "ed7c0b59-0f16-4d46-8fac-abbaa3021dcc",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "923302b4-092c-349d-a9fd-7d02e0adbede",
+        "count": 2,
+        "title": "Case",
+        "first-release-date": "2017-11-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "The Cancel",
+            "artist": {
+              "id": "71d9dec2-82dd-4e74-9614-513ddec900d8",
+              "name": "The Cancel",
+              "sort-name": "Cancel, The"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "150ded66-0898-4c4b-92cb-bffaaeb96138",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Case",
+            "status": "Official"
+          },
+          {
+            "id": "32f24bab-9046-470b-b65c-cb34a9333069",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Case",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "41aca4c9-e70e-46ea-8edf-a4ad8444a10e",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "21a9de3c-9164-358d-8a17-a4786927aa74",
+        "count": 1,
+        "title": "Babakunin \"Arbeit mein Kryptonit\" Remixed",
+        "first-release-date": "2016-08-29",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "AMK",
+            "artist": {
+              "id": "d5ad42b2-ba96-4b66-a9c8-17997e9d76f0",
+              "name": "AMK",
+              "sort-name": "AMK",
+              "disambiguation": "german hiphop"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8aa82d29-d183-41e8-844f-4fc1c2e26f41",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Babakunin \"Arbeit mein Kryptonit\" Remixed",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "c8730879-c532-462b-94fc-4a0021b4daf7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9535a30a-c46f-3730-8815-09e8e0e6fa2a",
+        "count": 2,
+        "title": "Hold Det Realt",
+        "first-release-date": "2016-10-14",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Gatas Parlament",
+            "artist": {
+              "id": "a1c8f63e-0792-4623-968f-e68eb2911394",
+              "name": "Gatas Parlament",
+              "sort-name": "Gatas Parlament"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "bb4b86de-20e1-406e-918b-1617ad2a00b2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hold Det Realt",
+            "status": "Official"
+          },
+          {
+            "id": "a7fb2a9d-7cd2-4e37-b300-b77addb74db6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hold Det Realt",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "4b57ea38-4313-4153-a4b0-f6f4cb7aabfa",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "8d93dd22-08f0-3a4a-ba4c-fb530e62e20d",
+        "count": 1,
+        "title": "Blesstrumentals: Boom Bap Hip Hop Beats",
+        "first-release-date": "2014-09-29",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Blesst Beats",
+            "artist": {
+              "id": "9381856f-aadf-4d01-a103-e27623f9a52b",
+              "name": "Blesst Beats",
+              "sort-name": "Blesst Beats"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "52059aee-0fa0-4602-b242-c1eff9d3735c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blesstrumentals: Boom Bap Hip Hop Beats",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "5476e59b-77c1-4c5a-8f3a-558b17c1f83c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "77291896-91c0-40fa-90f4-c9a4876ccec7",
+        "count": 1,
+        "title": "Honest Expression",
+        "first-release-date": "2016-07-04",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "JakeGHNM",
+            "artist": {
+              "id": "aeb31373-96c0-4e3a-b12b-b3156ab8699f",
+              "name": "JakeGHNM",
+              "sort-name": "JakeGHNM"
+            }
+          },
+          {
+            "name": "BubbleWild",
+            "artist": {
+              "id": "8e724d4e-d025-40f8-b394-51f2c591d5bc",
+              "name": "BubbleWild",
+              "sort-name": "BubbleWild"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "267292ab-708c-4b05-9d9b-95d6a6c51d00",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Honest Expression",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "79664dc0-7da1-4873-80a4-229c2f323341",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "410fac46-629e-389b-a1b0-ab6029dac2c6",
+        "count": 1,
+        "title": "Της απρόσωπης γενιάς",
+        "first-release-date": "2016-01-24",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Mαύρο Α",
+            "artist": {
+              "id": "faa51c84-7bab-48a0-8c91-77fa44f68bc2",
+              "name": "Mαύρο Α",
+              "sort-name": "Mauro A"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ed4ed2e7-96d1-41e7-a4c9-21e50f4c65e1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Της απρόσωπης γενιάς",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "8659c042-15c7-4978-b829-8a2c5ae52078",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fc78226e-ff15-39ac-9ff8-0a0c6b6f002c",
+        "count": 1,
+        "title": "KidsBackThen",
+        "first-release-date": "2019-07-12",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Dyzzi",
+            "artist": {
+              "id": "c475c90a-8d89-4f6f-8f01-f5bc54d53319",
+              "name": "Dyzzi",
+              "sort-name": "Dyzzi",
+              "disambiguation": "rapper us"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "56bb87e4-8150-42d8-9faf-65f183956d6d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "KidsBackThen",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "7610c6ed-d7f5-4bf7-bf8b-d1eeb0f9ccf2",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "a028735c-3abe-382a-adf2-69dbad133f4c",
+        "count": 1,
+        "title": "Lingua Franca",
+        "first-release-date": "2017-02-18",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "LINQUA FRANQA",
+            "artist": {
+              "id": "0e241904-11f7-4a38-9ef8-1ba28ea8f2b8",
+              "name": "LINQUA FRANQA",
+              "sort-name": "LINQUA FRANQA"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "fa944c37-6d02-45cf-8c04-ed4a28e6921e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lingua Franca",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "a8d02209-2431-41d1-bf1f-e947d4024fc3",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "fc78226e-ff15-39ac-9ff8-0a0c6b6f002c",
+        "count": 1,
+        "title": "Same Clothes as Yesterday",
+        "first-release-date": "2018-10-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Dyzzi",
+            "artist": {
+              "id": "c475c90a-8d89-4f6f-8f01-f5bc54d53319",
+              "name": "Dyzzi",
+              "sort-name": "Dyzzi",
+              "disambiguation": "rapper us"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f7ffa9b8-317c-4f8b-8c56-b5da6742434a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Same Clothes as Yesterday",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "158cb604-08be-4940-98b9-a83fba668f9d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "83f600c2-9734-3c01-a831-716be55ba5be",
+        "count": 1,
+        "title": "S. C .O. T. T. I. E.",
+        "first-release-date": "2019-03-22",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Scottie Spitten",
+            "artist": {
+              "id": "b17681bc-50e0-4796-8101-c211235f3e9a",
+              "name": "Scottie Spitten",
+              "sort-name": "Spitten, Scottie"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "cf804c56-12cb-4a49-a357-50b80ef4ffee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "S. C .O. T. T. I. E.",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "00662718-b629-4d6f-8258-2140d7984138",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "7d78c5b1-43b5-3ac4-8c2a-452a3ea37381",
+        "count": 1,
+        "title": "American Graffiti",
+        "first-release-date": "2011-07-16",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "P-Ro",
+            "artist": {
+              "id": "f40224a0-f150-4a91-904f-ae577fa5d5d2",
+              "name": "P-Ro",
+              "sort-name": "P-Ro",
+              "disambiguation": "US Rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c628a08a-d412-4156-b8bb-3d7cbe729307",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "American Graffiti",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "68d533e6-5d29-417a-9efb-12d5fbcf09a4",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "f19e48b3-fc2c-3296-ac8c-9b3cd4d35e57",
+        "count": 1,
+        "title": "Upgrade the Grit Vol.1",
+        "first-release-date": "2014-05-15",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Raistlin",
+            "artist": {
+              "id": "e550fa4c-ddfe-4fe2-b923-41af8ff3d389",
+              "name": "Raistlin",
+              "sort-name": "Raistlin",
+              "disambiguation": "Rappeur, beatmaker français"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5da1a227-d884-469b-8407-803cfb4dc0d1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Upgrade the Grit Vol.1",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "1254ac79-31a1-4742-ad6c-d418534c8d0c",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "e0369b89-0bea-3a9a-b66a-e8e7d97a2af7",
+        "count": 1,
+        "title": "The Archive",
+        "first-release-date": "2014-07-04",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Edo Lee",
+            "artist": {
+              "id": "58ce884c-395b-419a-9bd3-633f0601f0a1",
+              "name": "Edo Lee",
+              "sort-name": "Lee, Edo",
+              "aliases": [
+                {
+                  "sort-name": "Ξdo Lee",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Ξdo Lee",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ac119e95-e65c-481e-8881-4e4e1240c165",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Archive",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "1071cc70-2125-49d7-b07a-2c6a9b2dce9d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d856021d-1881-3291-a387-f00fbcd3a24e",
+        "count": 1,
+        "title": "No Way Hozay",
+        "first-release-date": "2012-09-02",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Hozay",
+            "artist": {
+              "id": "82e16c8b-a8d3-4f7e-b3ea-bc7472ab4039",
+              "name": "Hozay",
+              "sort-name": "Hozay"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9b37cb3f-eb80-4a0d-aa35-91463c97f9a0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Way Hozay",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "02432b99-fa3c-4c4f-ad3a-c363595646c3",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "5693ed0f-1ec6-475a-a4df-f35b7272947f",
+        "count": 2,
+        "title": "Thank You Have a Nice Day",
+        "first-release-date": "2019-11-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Nick Mitdemkopf",
+            "artist": {
+              "id": "98c7fe11-9edb-415a-b6fb-4d4c82bd4a51",
+              "name": "Nick Mitdemkopf",
+              "sort-name": "Nick Mitdemkopf",
+              "disambiguation": "German rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e2987852-3025-4fe6-a6b6-ccdb4aab9bb0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Thank You Have a Nice Day",
+            "status": "Official"
+          },
+          {
+            "id": "50efc5d0-d778-4438-a16b-37b5ce8cd8ff",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Thank You Have a Nice Day",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "4be4b72f-727b-4681-8ea0-2eee2bc69eb3",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d856021d-1881-3291-a387-f00fbcd3a24e",
+        "count": 1,
+        "title": "THE RHYME CELLAR",
+        "first-release-date": "2015-09-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Hozay",
+            "artist": {
+              "id": "82e16c8b-a8d3-4f7e-b3ea-bc7472ab4039",
+              "name": "Hozay",
+              "sort-name": "Hozay"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "cdf574e4-fe7e-4f67-ad95-f136a0429be3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "THE RHYME CELLAR",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "ff4994c1-d03f-4c14-a2fc-9b4114415374",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "d807a5a1-9d0b-317c-b062-60ce4d4a2dbf",
+        "count": 1,
+        "title": "Café GoorMand",
+        "first-release-date": "2015-03-05",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "GooMar",
+            "artist": {
+              "id": "74b1d602-2d5f-4d55-91d4-fbff5c15e4fb",
+              "name": "GooMar",
+              "sort-name": "GooMar"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5a8c4b35-7605-47c0-bd11-2bb5ff1d7a48",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Café GoorMand",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "1d05a826-8f22-49db-b6ee-91a65ec1ef60",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "409c588f-c687-4139-9c24-558f1b67e74c",
+        "count": 1,
+        "title": "double oo tape",
+        "first-release-date": "2017-03-19",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "oofoe",
+            "artist": {
+              "id": "4974300a-5b59-474c-a503-53274b498c4b",
+              "name": "oofoe",
+              "sort-name": "oofoe",
+              "aliases": [
+                {
+                  "sort-name": "Roselieb, Toni",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Toni Roselieb",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "45b51d6e-f94e-4b66-b8e3-95f171c6fc65",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "double oo tape",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "5d62db05-9790-4232-bffd-5e9c1d0f3683",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "076e9587-af18-350a-85d7-bcd624fffb0b",
+        "count": 1,
+        "title": "Demande à la poussière",
+        "first-release-date": "2011-06-30",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "La Dernière Mesure",
+            "artist": {
+              "id": "5a44a498-9032-4f90-94e8-7c6a0afc0971",
+              "name": "La Dernière Mesure",
+              "sort-name": "Dernière Mesure, La"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "803cbc8c-84d1-48dd-964d-b67a89f0b5c5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Demande à la poussière",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "9e6217c7-aaea-4bd5-a1e1-0031b566ff39",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "89e19e12-7311-394e-9b63-35fdb25eb421",
+        "count": 1,
+        "title": "Reign Supreme",
+        "first-release-date": "2019-08-17",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Ankhlejohn",
+            "artist": {
+              "id": "bc1c42c7-627e-4486-a4f6-8961b24ce224",
+              "name": "ANKHLEJOHN",
+              "sort-name": "ANKHLEJOHN",
+              "disambiguation": "hip hop",
+              "aliases": [
+                {
+                  "sort-name": "Ankhle John",
+                  "name": "Ankhle John",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d8926cc4-975b-4a61-872f-7e3d815f9aa1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Reign Supreme",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "38294915-9e37-4b01-8777-3f8ef7f0a6d8",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "bdab4d83-63e6-3b42-b993-82f99ac83d7c",
+        "count": 1,
+        "title": "Datteln mit Speck",
+        "first-release-date": "2016-10-28",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Dennis Real",
+            "artist": {
+              "id": "d97f29f9-a993-477b-bbb9-abc67c7ec3ff",
+              "name": "Dennis Real",
+              "sort-name": "Dennis Real",
+              "disambiguation": "German rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c4cdca9d-bbe0-4532-b769-5b352d937f5b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Datteln mit Speck",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "41bcfb90-7c42-41ed-b6a4-13d1918aa00d",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "255d03a1-ce5d-3699-852a-de2c17266b4d",
+        "count": 1,
+        "title": "Immonde, Nuisible & Hostile",
+        "first-release-date": "2014-09-03",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "FL‐How",
+            "artist": {
+              "id": "aeea961d-e490-4d49-8f19-8d593cdb2146",
+              "name": "FL‐How",
+              "sort-name": "FL‐How",
+              "disambiguation": "Dernier Rempart",
+              "aliases": [
+                {
+                  "sort-name": "Plume, La",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "La Plume",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "FLHow aka La Plume",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "FLHow aka La Plume",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "FL-How Aka La Plume",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "FL-How Aka La Plume",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "La Plume (Dernier Rempart)",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "La Plume (Dernier Rempart)",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c2b12ea7-c449-47e5-8b77-7525bb0198f1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Immonde, Nuisible & Hostile",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "07ed4246-dea1-4551-a907-b2e533937d87",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "3ffae324-3686-3db8-bac5-9824e5f48600",
+        "count": 1,
+        "title": "Désert Lunaire",
+        "first-release-date": "2017-08-09",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Damlif",
+            "artist": {
+              "id": "353698f1-2c30-4f9b-bd30-3d0728363954",
+              "name": "Damlif",
+              "sort-name": "Damlif",
+              "disambiguation": "French rapper, 75 session"
+            }
+          },
+          {
+            "name": "Foko",
+            "artist": {
+              "id": "0c2c4499-7c6d-4221-93a6-2421679c24a2",
+              "name": "Foko",
+              "sort-name": "Foko"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "521672af-8fe6-488c-ba6e-b24dd7e49aad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Désert Lunaire",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "67bb59a8-144a-4da9-9bc0-f137bf39a765",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 90,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "1a4d6257-28b4-3381-95fc-4e32f6072231",
+        "count": 1,
+        "title": "Samo Samo",
+        "first-release-date": "2018-08-20",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "eloQuent",
+            "artist": {
+              "id": "4839cc3a-721c-43ed-819f-da8dfe9d380c",
+              "name": "Eloquent",
+              "sort-name": "Eloquent",
+              "disambiguation": "German rapper",
+              "aliases": [
+                {
+                  "sort-name": "Eloquent",
+                  "name": "Eloquent",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "elo",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "elo",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "026ef03f-8554-4d20-a2fa-f3edc1c3be99",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Samo Samo",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "e698dc04-6e0a-461f-9912-6628ecfbb45e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "31b3022b-c257-3d88-af06-91f5b0dbc6d7",
+        "count": 1,
+        "title": "At Last EP",
+        "first-release-date": "2010",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Eternia",
+            "artist": {
+              "id": "ac6a74a4-a48d-4e3d-9dec-13abc060abb1",
+              "name": "Eternia",
+              "sort-name": "Eternia",
+              "disambiguation": "canadian hip hop"
+            }
+          },
+          {
+            "name": "MoSS",
+            "artist": {
+              "id": "3232eed2-bd2d-41b9-9391-d28b6afb685f",
+              "name": "MoSS",
+              "sort-name": "MoSS",
+              "disambiguation": "hip hop producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4e1f450a-1972-4ebe-b0ac-342fae96a5fa",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "At Last EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "cf192ecc-2d0a-427c-a383-c4fd8f618431",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a4dd4a2c-7c70-3ae9-9864-d559b98b250a",
+        "count": 1,
+        "title": "Divided Soul",
+        "first-release-date": "2015-02-18",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Nutso",
+            "artist": {
+              "id": "8011b90a-30cb-46b6-b342-1c7e06d3170e",
+              "name": "Nutso",
+              "sort-name": "Nutso",
+              "disambiguation": "US rapper formerly Nut-Rageous",
+              "aliases": [
+                {
+                  "sort-name": "Nutso",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Nutso",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Nut Rageous",
+                  "name": "Nut Rageous",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Nutrageous",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Nutrageous",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lopez, Antonio E.",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Antonio E. Lopez",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Nut‐Rageous",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Nut‐Rageous",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": "2010"
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "72bb5204-b367-45c2-9101-086a7a1d5b1f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Divided Soul",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      },
+      {
+        "id": "6b6bf087-59d3-425a-86b9-9f9f7fc53c32",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 85,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ffd449a4-8fe6-30e3-ab5e-7d88820e7a50",
+        "count": 1,
+        "title": "Momentum",
+        "first-release-date": "2016-02-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Q‐Unique",
+            "artist": {
+              "id": "7add01c9-2953-47cb-aae5-98d79d1281b4",
+              "name": "Q‐Unique",
+              "sort-name": "Q‐Unique"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5504464e-e083-4d5e-9eee-16a5df3659ed",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Momentum",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "boom bap"
+          }
+        ]
+      }
+    ]
+  }
+}

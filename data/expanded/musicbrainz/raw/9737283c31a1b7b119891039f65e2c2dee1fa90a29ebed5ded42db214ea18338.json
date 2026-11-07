@@ -1,0 +1,136 @@
+{
+  "endpoint": "release-group/8f7c6f94-9687-4836-8ee8-b674ae01f758",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8f7c6f94-9687-4836-8ee8-b674ae01f758?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:39.595085+00:00",
+  "response": {
+    "secondary-types": [],
+    "id": "8f7c6f94-9687-4836-8ee8-b674ae01f758",
+    "tags": [
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "illbient"
+      }
+    ],
+    "genres": [
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "count": 1,
+        "disambiguation": "",
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop",
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "name": "illbient",
+        "count": 1,
+        "id": "da52c9d1-73f2-456e-a0d0-94bd854cb338"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "HedNod Six",
+    "disambiguation": "",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "GB",
+          "name": "Mick Harris",
+          "disambiguation": "ex Napalm Death drummer",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "3e52449a-fa44-4fbc-918d-5d6b27e96d94",
+          "tags": [
+            {
+              "count": 1,
+              "name": "dark ambient"
+            },
+            {
+              "name": "electronic",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "electronica"
+            },
+            {
+              "count": 1,
+              "name": "experimental electronic"
+            },
+            {
+              "name": "illbient",
+              "count": 1
+            },
+            {
+              "name": "techno",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "name": "dark ambient",
+              "disambiguation": "",
+              "count": 1,
+              "id": "01ecf8e4-7f7a-4145-ae97-504d3109633d"
+            },
+            {
+              "count": 1,
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "name": "electronic",
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "id": "53a3cea3-17af-4421-a07a-5824b540aeb5",
+              "disambiguation": "",
+              "name": "electronica"
+            },
+            {
+              "disambiguation": "",
+              "name": "experimental electronic",
+              "id": "3832a068-e169-40cb-9638-d0b04342f3a3",
+              "count": 1
+            },
+            {
+              "name": "illbient",
+              "disambiguation": "",
+              "count": 1,
+              "id": "da52c9d1-73f2-456e-a0d0-94bd854cb338"
+            },
+            {
+              "count": 1,
+              "id": "41fe3260-fcc1-450b-bd5a-803886c56912",
+              "disambiguation": "",
+              "name": "techno"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Harris, Mick"
+        },
+        "joinphrase": "",
+        "name": "Mick Harris"
+      }
+    ],
+    "first-release-date": "2021-02-05",
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

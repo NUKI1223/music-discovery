@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/7387cfe8-330b-4ca2-9220-567132336f6b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7387cfe8-330b-4ca2-9220-567132336f6b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:29.181211+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "1995",
+    "title": "The Cenubites",
+    "primary-type": "EP",
+    "id": "7387cfe8-330b-4ca2-9220-567132336f6b",
+    "secondary-types": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "The Cenobites",
+        "joinphrase": "",
+        "artist": {
+          "country": "US",
+          "id": "96418420-5713-4762-93f7-05d377bd6086",
+          "disambiguation": "90s NY rap duo, Kool Keith & Godfather Don",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "name": "horrorcore",
+              "disambiguation": "",
+              "count": 1,
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e"
+            },
+            {
+              "name": "jazz rap",
+              "count": 1,
+              "disambiguation": "",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+            }
+          ],
+          "name": "The Cenobites",
+          "sort-name": "Cenobites, The",
+          "tags": [
+            {
+              "count": 1,
+              "name": "horrorcore"
+            },
+            {
+              "count": 1,
+              "name": "jazz rap"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

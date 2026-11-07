@@ -1,0 +1,286 @@
+{
+  "endpoint": "release-group/f9fa654e-4df2-4b67-87ac-a3b9f0bae66c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f9fa654e-4df2-4b67-87ac-a3b9f0bae66c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:09.963947+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "DILLA",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "beats"
+            },
+            {
+              "name": "experimental",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "count": 6,
+              "name": "hip hop"
+            },
+            {
+              "count": 3,
+              "name": "hip-hop"
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 5
+            },
+            {
+              "count": 2,
+              "name": "soul"
+            }
+          ],
+          "name": "J Dilla",
+          "sort-name": "J Dilla",
+          "genres": [
+            {
+              "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+              "count": 2,
+              "disambiguation": "",
+              "name": "experimental"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 6
+            },
+            {
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+              "count": 5,
+              "disambiguation": "",
+              "name": "instrumental hip hop"
+            },
+            {
+              "name": "soul",
+              "id": "1b5e7b16-336b-473e-a364-5120413a9827",
+              "disambiguation": "",
+              "count": 2
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "disambiguation": "US producer and rapper aka Jay Dee",
+          "id": "cbcbb22c-3a8d-46af-b4ba-09c98f0d7931",
+          "country": "US"
+        },
+        "joinphrase": " "
+      },
+      {
+        "name": "GHOST",
+        "joinphrase": " ",
+        "artist": {
+          "id": "3b39abeb-0064-4eed-9ddd-ee47a45c54cb",
+          "country": "US",
+          "type": "Person",
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c"
+            },
+            {
+              "name": "boom bap",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "count": 2,
+              "disambiguation": "",
+              "name": "east coast hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "disambiguation": "",
+              "count": 2,
+              "name": "pop rap"
+            }
+          ],
+          "sort-name": "Ghostface Killah",
+          "name": "Ghostface Killah",
+          "tags": [
+            {
+              "name": "abstract hip hop",
+              "count": 1
+            },
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "name": "pop rap"
+            }
+          ]
+        }
+      },
+      {
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 5,
+              "name": "east coast hip hop"
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "count": 5,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "producer"
+            },
+            {
+              "name": "rapper",
+              "count": 1
+            },
+            {
+              "name": "underground hip hop",
+              "count": 2
+            }
+          ],
+          "sort-name": "MF DOOM",
+          "name": "MF DOOM",
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 5,
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "name": "east coast hip hop"
+            },
+            {
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 5,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "name": "underground hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "type": "Person",
+          "country": "US",
+          "id": "188711ed-c99b-439c-844a-ca831f63a727"
+        },
+        "joinphrase": "",
+        "name": "DOOM"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 2
+      }
+    ],
+    "title": "Sniperlite",
+    "id": "f9fa654e-4df2-4b67-87ac-a3b9f0bae66c",
+    "primary-type": "EP",
+    "secondary-types": [],
+    "genres": [
+      {
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "name": "hardcore hip hop"
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 2,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "secondary-type-ids": [],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "2008-10-01",
+    "disambiguation": ""
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "endpoint": "release-group/8b9d0bfa-9790-481a-8b62-3b3234248529",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/8b9d0bfa-9790-481a-8b62-3b3234248529?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:42.904801+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2023-06-02",
+    "id": "8b9d0bfa-9790-481a-8b62-3b3234248529",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic"
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial",
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb"
+      },
+      {
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "d4df54b5-67b4-4fb7-8f73-79e71717a501",
+        "name": "industrial metal",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "metal",
+        "id": "cc28f5aa-5e19-487c-88e1-e56b022f1fdd",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "name": "Twitch",
+          "id": "1cac3f93-abb3-45b5-b96f-3f2115dfb7ad",
+          "tags": [],
+          "sort-name": "Twitch",
+          "type": "Group",
+          "disambiguation": "Canadian industrial hip hop",
+          "country": "CA"
+        },
+        "name": "Twitch",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "industrial"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "industrial metal"
+      },
+      {
+        "name": "metal",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "title": "FUCK YOUR POP!"
+  }
+}

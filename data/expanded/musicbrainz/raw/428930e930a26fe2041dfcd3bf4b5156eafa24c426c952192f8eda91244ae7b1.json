@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/cffb7c5d-d50f-4113-ae04-fa4eda4adefb",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/cffb7c5d-d50f-4113-ae04-fa4eda4adefb?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:38.570914+00:00",
+  "response": {
+    "first-release-date": "2015-01-26",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "name": "psychedelic"
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [],
+          "sort-name": "Dizraeli and the Small Gods",
+          "name": "Dizraeli and the Small Gods",
+          "type": "Group",
+          "disambiguation": "",
+          "id": "47789e07-45fa-4eed-8416-4421fa0fa941",
+          "country": "GB",
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+        },
+        "joinphrase": "",
+        "name": "Dizraeli & The Small Gods"
+      }
+    ],
+    "id": "cffb7c5d-d50f-4113-ae04-fa4eda4adefb",
+    "primary-type": "EP",
+    "title": "The Depths (Single)",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "id": "d698ece0-6fed-4262-b446-42c98b73b65a",
+        "disambiguation": "",
+        "count": 1,
+        "name": "psychedelic"
+      }
+    ],
+    "secondary-types": []
+  }
+}

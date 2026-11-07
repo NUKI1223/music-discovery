@@ -1,0 +1,138 @@
+{
+  "endpoint": "release-group/d153c847-3cc5-436e-ae44-dfab8333db02",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/d153c847-3cc5-436e-ae44-dfab8333db02?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:29.578119+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "id": "d153c847-3cc5-436e-ae44-dfab8333db02",
+    "disambiguation": "",
+    "first-release-date": "2020-04-07",
+    "artist-credit": [
+      {
+        "name": "Lil Squeaky",
+        "artist": {
+          "disambiguation": "Finnish-American rapper based in Espoo",
+          "sort-name": "Lil Squeaky",
+          "genres": [
+            {
+              "name": "comedy",
+              "id": "119ecf69-7d87-4f63-bc83-2959a0111a55",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "name": "pop",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "60e21d01-ce21-4127-86b7-aada79558dab",
+              "name": "pop punk"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "name": "pop rap"
+            },
+            {
+              "name": "r&b",
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "trap",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": "FI",
+          "name": "Lil Squeaky",
+          "tags": [
+            {
+              "count": 1,
+              "name": "comedy"
+            },
+            {
+              "name": "comedy rap",
+              "count": 1
+            },
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "name": "pop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "pop punk"
+            },
+            {
+              "name": "pop rap",
+              "count": 1
+            },
+            {
+              "name": "r&b",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            }
+          ],
+          "id": "f44b37e7-2ae3-4207-a4a3-3f7d548b2c29"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "name": "trap"
+      }
+    ],
+    "title": "Squeaky 4 President",
+    "tags": [
+      {
+        "count": 1,
+        "name": "comedy rap"
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      },
+      {
+        "count": 1,
+        "name": "trap rap"
+      }
+    ],
+    "secondary-types": [],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

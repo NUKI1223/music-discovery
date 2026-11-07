@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/98057de7-40be-4ca3-ad4e-21bcc7b5e872",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/98057de7-40be-4ca3-ad4e-21bcc7b5e872?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:28.844932+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "country": null,
+          "name": "Jake Biz",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": [],
+          "type": "Person",
+          "sort-name": "Jake Biz",
+          "id": "30a8357e-7c55-4ef4-853e-a27f4086b14c",
+          "genres": []
+        },
+        "name": "Jake Biz",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      }
+    ],
+    "title": "Commercial Hell",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2012-05-18",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "98057de7-40be-4ca3-ad4e-21bcc7b5e872",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

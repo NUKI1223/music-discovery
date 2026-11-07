@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/ef3a0566-7b40-4e60-a600-f971dc76c7b6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/ef3a0566-7b40-4e60-a600-f971dc76c7b6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:48.173106+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "title": "One Too Many",
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "underground hip hop"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2005-07-08",
+    "disambiguation": "",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "The Wolfman",
+        "artist": {
+          "name": "The Wolfman",
+          "id": "38be5121-4d82-4c6e-87ec-0835574340c1",
+          "tags": [],
+          "disambiguation": "Omaha based lyricist.",
+          "sort-name": "The Wolfman",
+          "genres": [],
+          "type": "Person",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "country": null
+        }
+      }
+    ],
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+        "name": "underground hip hop"
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "ef3a0566-7b40-4e60-a600-f971dc76c7b6"
+  }
+}

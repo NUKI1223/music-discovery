@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/89c1416f-7ee3-4be8-b105-9d007812c482",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/89c1416f-7ee3-4be8-b105-9d007812c482?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:34.892993+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "1996",
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "name": "Broadway",
+        "joinphrase": "",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "country": null,
+          "id": "c8d876c2-a9ee-4203-a09d-cfa796b13129",
+          "type": "Person",
+          "disambiguation": "Dion Barnes aka Dion Broad",
+          "sort-name": "Broadway",
+          "name": "Broadway",
+          "tags": []
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1,
+        "disambiguation": "",
+        "name": "boom bap"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "title": "Must Stay Paid",
+    "id": "89c1416f-7ee3-4be8-b105-9d007812c482",
+    "primary-type": "EP"
+  }
+}

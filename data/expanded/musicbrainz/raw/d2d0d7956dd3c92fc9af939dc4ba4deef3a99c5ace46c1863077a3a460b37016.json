@@ -1,0 +1,106 @@
+{
+  "endpoint": "release-group/6d02575d-56a6-4187-a22b-b8bef9ff8dc9",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6d02575d-56a6-4187-a22b-b8bef9ff8dc9?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:15.838368+00:00",
+  "response": {
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "id": "c05574a5-3535-467d-a1bc-d88598b3d0fe",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            },
+            {
+              "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+              "disambiguation": "",
+              "count": 1,
+              "name": "jazz"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "name": "jazz rap"
+            }
+          ],
+          "type": "Group",
+          "sort-name": "12mé & Raph",
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "jazz"
+            },
+            {
+              "name": "jazz rap",
+              "count": 1
+            }
+          ],
+          "country": "FR",
+          "name": "12mé & Raph"
+        },
+        "joinphrase": "",
+        "name": "12mé & Raph"
+      }
+    ],
+    "first-release-date": "2006-05-06",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "count": 2,
+        "disambiguation": "",
+        "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+        "name": "jazz"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+      }
+    ],
+    "title": "Headfones 0.1",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "count": 2,
+        "name": "hip hop"
+      },
+      {
+        "count": 2,
+        "name": "jazz"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "6d02575d-56a6-4187-a22b-b8bef9ff8dc9"
+  }
+}

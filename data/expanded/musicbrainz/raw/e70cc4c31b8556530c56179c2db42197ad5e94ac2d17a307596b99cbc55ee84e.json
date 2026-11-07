@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/607c327a-9964-4ce6-8341-bff037891344",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/607c327a-9964-4ce6-8341-bff037891344?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:03.897417+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Tiffany",
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2018-04-12",
+    "disambiguation": "",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Ufo361",
+        "artist": {
+          "sort-name": "Ufo361",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+              "name": "cloud rap"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "country": "DE",
+          "disambiguation": "",
+          "name": "Ufo361",
+          "tags": [
+            {
+              "name": "cloud rap",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            }
+          ],
+          "id": "80e8e55c-6e9b-470f-844b-48e618fb6e56"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "607c327a-9964-4ce6-8341-bff037891344"
+  }
+}

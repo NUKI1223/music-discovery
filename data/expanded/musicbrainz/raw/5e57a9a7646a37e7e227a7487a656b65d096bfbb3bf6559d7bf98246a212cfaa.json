@@ -1,0 +1,134 @@
+{
+  "endpoint": "release-group/7a43ca30-d86b-4639-b13f-b983b77c5185",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7a43ca30-d86b-4639-b13f-b983b77c5185?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:39.169987+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "7a43ca30-d86b-4639-b13f-b983b77c5185",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "dub"
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      }
+    ],
+    "first-release-date": "2014-01-10",
+    "rating": {
+      "value": 4,
+      "votes-count": 1
+    },
+    "title": "For the Love of Money",
+    "genres": [
+      {
+        "id": "c72a5d45-75a8-4b35-9f48-67e49eb4b5e5",
+        "disambiguation": "",
+        "count": 1,
+        "name": "dub"
+      },
+      {
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial hip hop"
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "tags": [
+            {
+              "count": 2,
+              "name": "dub"
+            },
+            {
+              "name": "electronic",
+              "count": 2
+            },
+            {
+              "name": "electronica",
+              "count": 1
+            },
+            {
+              "name": "funk",
+              "count": 2
+            },
+            {
+              "count": 2,
+              "name": "hip-hop"
+            },
+            {
+              "count": 2,
+              "name": "industrial"
+            },
+            {
+              "name": "industrial dub",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "industrial hip hop"
+            }
+          ],
+          "country": "US",
+          "name": "Tackhead",
+          "id": "aa04539d-f6e1-4e9b-bee8-d36a99b56c29",
+          "genres": [
+            {
+              "name": "dub",
+              "id": "c72a5d45-75a8-4b35-9f48-67e49eb4b5e5",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "name": "electronic",
+              "count": 2,
+              "disambiguation": "",
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+            },
+            {
+              "disambiguation": "",
+              "id": "53a3cea3-17af-4421-a07a-5824b540aeb5",
+              "count": 1,
+              "name": "electronica"
+            },
+            {
+              "disambiguation": "",
+              "id": "fe4ba6a1-9873-4fd0-a12b-a70c81818514",
+              "count": 2,
+              "name": "funk"
+            },
+            {
+              "count": 2,
+              "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+              "disambiguation": "",
+              "name": "industrial"
+            },
+            {
+              "name": "industrial hip hop",
+              "id": "5f216b90-4ed2-4297-a243-d623db4c8235",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Tackhead"
+        },
+        "joinphrase": "",
+        "name": "Tackhead"
+      }
+    ]
+  }
+}

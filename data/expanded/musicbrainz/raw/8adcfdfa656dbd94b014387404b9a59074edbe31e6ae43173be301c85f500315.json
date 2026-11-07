@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/62796e94-42b2-45a9-9204-9bce565a5a13",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/62796e94-42b2-45a9-9204-9bce565a5a13?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:01.646204+00:00",
+  "response": {
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "name": "Djamhellvice",
+        "artist": {
+          "disambiguation": "",
+          "country": null,
+          "genres": [],
+          "type-id": null,
+          "name": "Djamhellvice",
+          "id": "2ce21808-783b-4952-b09f-eba1d512a08f",
+          "tags": [],
+          "sort-name": "Djamhellvice",
+          "type": null
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "boom bap",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      },
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "id": "62796e94-42b2-45a9-9204-9bce565a5a13",
+    "first-release-date": "2012-04-02",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "title": "Preface",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      },
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ]
+  }
+}

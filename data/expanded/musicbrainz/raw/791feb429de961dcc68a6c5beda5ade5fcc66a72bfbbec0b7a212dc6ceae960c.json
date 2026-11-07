@@ -1,0 +1,77 @@
+{
+  "endpoint": "release-group/121b7910-d028-376b-a700-910c07ef19d1",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/121b7910-d028-376b-a700-910c07ef19d1?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:40.756496+00:00",
+  "response": {
+    "title": "This World and the Sadvipra Diversion",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2004-06-29",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1,
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "disambiguation": ""
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      }
+    ],
+    "id": "121b7910-d028-376b-a700-910c07ef19d1",
+    "artist-credit": [
+      {
+        "artist": {
+          "type": "Person",
+          "sort-name": "Trillion",
+          "disambiguation": "NZ artist Jody Lloyd",
+          "country": "NZ",
+          "name": "Trillion",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "9cbfe45b-d012-4c69-b491-34e1a47e1d13",
+          "tags": [
+            {
+              "count": 1,
+              "name": "_edit"
+            },
+            {
+              "name": "aotearoa",
+              "count": 1
+            },
+            {
+              "name": "new zealand",
+              "count": 1
+            }
+          ],
+          "genres": []
+        },
+        "joinphrase": "",
+        "name": "Trillion"
+      }
+    ]
+  }
+}

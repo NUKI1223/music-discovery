@@ -1,0 +1,79 @@
+{
+  "endpoint": "release-group/f3694602-f134-41bc-a4cd-ae4e61478113",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f3694602-f134-41bc-a4cd-ae4e61478113?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:12.176422+00:00",
+  "response": {
+    "primary-type": "Album",
+    "id": "f3694602-f134-41bc-a4cd-ae4e61478113",
+    "title": "Doctor Destructo and the Big Bad Wolf",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c"
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "joinphrase": " & ",
+        "artist": {
+          "sort-name": "Jeff, El",
+          "name": "El Jeff",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "3ed3dcce-e933-4227-b9cb-8614a11b78c5",
+          "country": "GB",
+          "disambiguation": "UK alternative rapper",
+          "type": "Person"
+        },
+        "name": "El Jeff"
+      },
+      {
+        "name": "Dawolf",
+        "joinphrase": "",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "f465be54-5f5f-4941-aa98-456011c350a9",
+          "country": "US",
+          "disambiguation": "US alternative rapper",
+          "type": "Person",
+          "name": "Dawolf",
+          "sort-name": "Dawolf",
+          "tags": []
+        }
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2023-10-15",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

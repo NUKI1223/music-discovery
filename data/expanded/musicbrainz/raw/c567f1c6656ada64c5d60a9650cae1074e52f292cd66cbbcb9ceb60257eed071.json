@@ -1,0 +1,106 @@
+{
+  "endpoint": "release-group/9eeefd33-9e9d-46bc-a326-cd3e46604ba5",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9eeefd33-9e9d-46bc-a326-cd3e46604ba5?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:44.663557+00:00",
+  "response": {
+    "title": "16 (La maledizione di vitruvio)",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1
+      },
+      {
+        "name": "horrorcore",
+        "count": 1,
+        "disambiguation": "",
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e"
+      }
+    ],
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2019-06-03",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Trunchell, Etc.",
+        "joinphrase": "",
+        "artist": {
+          "country": "IT",
+          "name": "Trunchell, Etc.",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "horrorcore"
+            },
+            {
+              "name": "rapcore",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Trunchell, Etc.",
+          "id": "01a57d77-df6b-433f-9275-8b0b8279f6fd",
+          "genres": [
+            {
+              "name": "hardcore hip hop",
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            },
+            {
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+              "disambiguation": "",
+              "count": 1,
+              "name": "horrorcore"
+            },
+            {
+              "name": "rapcore",
+              "disambiguation": "",
+              "id": "2cd7891d-c012-45f1-b1a1-86e34793f7fa",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ],
+    "id": "9eeefd33-9e9d-46bc-a326-cd3e46604ba5",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "horrorcore",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/5007db09-84d6-438c-8302-e9ccc693e521",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5007db09-84d6-438c-8302-e9ccc693e521?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:00.655695+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "V for Venom",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      }
+    ],
+    "first-release-date": "2017-11-15",
+    "disambiguation": "",
+    "genres": [
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "Nepalese-born, Belgium-based rapper",
+          "sort-name": "Amazumi",
+          "genres": [],
+          "country": "BE",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "name": "Amazumi",
+          "tags": [],
+          "id": "d23ddbd3-8f12-4cc4-95d3-840045d00a77"
+        },
+        "name": "AMAZUMI",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "5007db09-84d6-438c-8302-e9ccc693e521"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "endpoint": "release-group/90a2a015-5473-403a-b3c9-74ecc996952f",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/90a2a015-5473-403a-b3c9-74ecc996952f?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:22.954005+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2015",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "90a2a015-5473-403a-b3c9-74ecc996952f",
+    "primary-type": "Album",
+    "title": "Cosmic Pianiments Frasco",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "genres": [
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Sweet William",
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "jazz rap"
+            }
+          ],
+          "sort-name": "Sweet William",
+          "name": "Sweet William",
+          "type": null,
+          "disambiguation": "Japanese hip hop producer",
+          "id": "7587f84a-9b6a-4f65-9d6b-cf77959f8a9a",
+          "country": null,
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "name": "jazz rap",
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "type-id": null
+        }
+      }
+    ]
+  }
+}

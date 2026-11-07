@@ -1,0 +1,1851 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "arid:f9133036-ab3d-4e97-bd11-7a2c98ad148a AND (primarytype:album OR primarytype:ep)",
+    "fmt": "json",
+    "limit": 100,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=arid%3Af9133036-ab3d-4e97-bd11-7a2c98ad148a+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29&fmt=json&limit=100&offset=0",
+  "captured_at": "2026-10-28T12:17:05.304898+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:05.230Z",
+    "count": 17,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "4e03e609-41e3-4e75-99e0-420dec21f1f5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "24461c2f-1965-4976-bcba-028c3c1c5fcb",
+        "count": 1,
+        "title": "Orange Military",
+        "first-release-date": "2012-01-28",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "NASA",
+            "artist": {
+              "id": "c24d17ce-5d8a-44f5-b99c-57a73d9912a0",
+              "name": "Uncommon Nasa",
+              "sort-name": "Uncommon Nasa",
+              "disambiguation": "US rapper Paul Loverro, a.k.a. Nasa",
+              "aliases": [
+                {
+                  "sort-name": "Loverro, Paul",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Paul Loverro",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "NASA",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "NASA",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Warlock, Adam",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Adam Warlock",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Loverro, Paul",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Paul Loverro",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "05c43e9e-d78d-4632-97f5-4062c17c8060",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Orange Military",
+            "status": "Official"
+          }
+        ]
+      },
+      {
+        "id": "d5d08921-9397-49f6-a881-03788bb8daba",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 1,
+        "title": "Death Grips",
+        "first-release-date": "2011-03-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "535e7f74-4e68-4b65-ada8-a731d0f2f0f0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Death Grips",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "electro"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "electro-industrial"
+          },
+          {
+            "count": 1,
+            "name": "avant-garde"
+          },
+          {
+            "count": 1,
+            "name": "noise rock"
+          },
+          {
+            "count": 1,
+            "name": "rap rock"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "2bb37665-1595-433d-8288-0d09cf6492c5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 5,
+        "title": "Steroids (Crouching Tiger Hidden Gabber Megamix)",
+        "first-release-date": "2017-05-22",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "1cada29d-cc83-4bee-81bb-24d927cb5eec",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Steroids (Crouching Tiger Hidden Gabber Megamix)",
+            "status": "Bootleg"
+          },
+          {
+            "id": "49a30ee2-6874-4973-a9e7-413bbaaef6d9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Steroids (Crouching Tiger Hidden Gabber)",
+            "status": "Official"
+          },
+          {
+            "id": "79fb8f38-37b8-4608-ba9b-a8077db56efb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Steroids (Crouching Tiger Hidden Gabber Megamix)",
+            "status": "Official"
+          },
+          {
+            "id": "e17d316b-b006-48c6-ba9b-a5f27420dee8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Steroids (Crouching Tiger Hidden Gabber Megamix)",
+            "status": "Official"
+          },
+          {
+            "id": "d8b49b42-1e24-47d8-9dd8-647eebf238ca",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Steroids (Crouching Tiger Hidden Gabber Megamix)",
+            "status": "Bootleg"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "digital hardcore"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch"
+          },
+          {
+            "count": 1,
+            "name": "electro-industrial"
+          },
+          {
+            "count": 2,
+            "name": "gabber"
+          },
+          {
+            "count": 1,
+            "name": "trip hop"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "footwork"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "acidcore"
+          },
+          {
+            "count": 1,
+            "name": "deathchant hardcore"
+          }
+        ]
+      },
+      {
+        "id": "1a3bc18a-6d50-4a40-ad99-559740b2d29e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 3,
+        "title": "Gmail and the Restraining Orders",
+        "first-release-date": "2019-06-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c17dbde2-b812-4f89-8596-e3b0fb21fafb",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Gmail and the Restraining Orders",
+            "status": "Bootleg"
+          },
+          {
+            "id": "27f6641f-354c-447b-abb0-c56c5f6cc1f3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Gmail and the Restraining Orders",
+            "status": "Official"
+          },
+          {
+            "id": "cf458f1f-ff79-43c0-b0f1-010c971f12d8",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Gmail and the Restraining Orders",
+            "status": "Bootleg"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "digital hardcore"
+          },
+          {
+            "count": 4,
+            "name": "noise"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 2,
+            "name": "glitch"
+          },
+          {
+            "count": 2,
+            "name": "sound collage"
+          },
+          {
+            "count": 1,
+            "name": "drill and bass"
+          },
+          {
+            "count": 2,
+            "name": "noisecore"
+          },
+          {
+            "count": 2,
+            "name": "free improvisation"
+          },
+          {
+            "count": 1,
+            "name": "brutal prog"
+          },
+          {
+            "count": 1,
+            "name": "synth punk"
+          }
+        ]
+      },
+      {
+        "id": "944ffccb-56e1-4365-9f14-28dd1426583c",
+        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 1,
+        "title": "DxDG",
+        "first-release-date": "2013-04-04",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Live"
+        ],
+        "secondary-type-ids": [
+          "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+        ],
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "a334f0bd-8816-44dc-839d-c99d776e59e9",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "DxDG",
+            "status": "Bootleg"
+          }
+        ]
+      },
+      {
+        "id": "87873f67-c9d1-4ac0-8917-c0a1c1ae102d",
+        "type-id": "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 1,
+        "title": "Fashion Week / Interview 2016",
+        "first-release-date": "2016-11-26",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Compilation",
+          "Soundtrack",
+          "Interview"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+          "22a628ad-c082-3c4f-b1b6-d41665107b88",
+          "12af3f5e-ce2a-3941-8b93-d482884031e5"
+        ],
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7c60483a-b6e5-4326-aada-88bed06fdbeb",
+            "title": "Fashion Week / Interview 2016"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "industrial"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "breakbeat"
+          }
+        ]
+      },
+      {
+        "id": "973818c2-5eee-40de-893f-48706991758a",
+        "type-id": "12af3f5e-ce2a-3941-8b93-d482884031e5",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 2,
+        "title": "Interview 2016",
+        "first-release-date": "2016-03-22",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Interview"
+        ],
+        "secondary-type-ids": [
+          "12af3f5e-ce2a-3941-8b93-d482884031e5"
+        ],
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "4adc5941-a4c4-438c-9fa0-299658487d2c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Interview 2016",
+            "status": "Official"
+          },
+          {
+            "id": "23f60d55-fdf6-47fe-b7e6-5bf20ea707a7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Interview 2016",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          }
+        ]
+      },
+      {
+        "id": "beb4582f-43c5-474a-ba1a-1c5a016d1d0f",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 1,
+        "title": "Fashion Leaks - The Lost Tapes",
+        "first-release-date": "2018",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8b9657d0-e1b9-462f-a323-dc0cf38356c3",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Fashion Leaks - The Lost Tapes",
+            "status": "Bootleg"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "industrial"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "breakbeat"
+          }
+        ]
+      },
+      {
+        "id": "a3136431-78ae-4a4e-845e-b0b39fd6f465",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 4,
+        "title": "Government Plates",
+        "first-release-date": "2013-11-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f2481174-50db-4e80-9b3c-befd0897e76d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Government Plates (stems)",
+            "status": "Official"
+          },
+          {
+            "id": "847650f3-7405-4073-8414-e49d9d59a8cc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Government Plates",
+            "status": "Official"
+          },
+          {
+            "id": "0741c3a3-c41e-42b0-ae2e-f69e4bdf1410",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Government Plates",
+            "status": "Official"
+          },
+          {
+            "id": "108b9c77-cdca-4160-8c95-f08ce9f42153",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Government Plates",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "electro-industrial"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "wonky"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "footwork"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 1,
+            "name": "deconstructed club"
+          }
+        ]
+      },
+      {
+        "id": "31b64b24-f7e1-4b20-b200-1d4de92993f6",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 2,
+        "title": "Niggas on the Moon",
+        "disambiguation": "The Powers That B Disc 1",
+        "first-release-date": "2014-06-08",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "03982ae2-8f8f-4ee1-8394-874312440ba1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Niggas on the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "8e65b9de-3b2b-489a-8182-ec4b261faa64",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Niggas on the Moon",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "sound collage"
+          },
+          {
+            "count": 2,
+            "name": "glitch hop"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "wonky"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "footwork"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "6a1c9684-18c6-4b43-bd15-6badbbdc0600",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 10,
+        "title": "The Powers That B",
+        "first-release-date": "2015-02-10",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "edf66db5-d4ee-499c-8bf2-a5576f4fc02b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Powers That B",
+            "status": "Official"
+          },
+          {
+            "id": "1232e525-c091-4b29-93dd-09e1f6607bb1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Powers That B",
+            "status": "Official"
+          },
+          {
+            "id": "41f57402-d094-4452-8bd4-d0229a9a5f0f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Powers That B",
+            "status": "Official"
+          },
+          {
+            "id": "61574244-a701-4158-8271-7898acb12e9e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Powers That B",
+            "status": "Official"
+          },
+          {
+            "id": "0647901e-6c21-412b-9d12-c8cb451af822",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Powers That B",
+            "status": "Official"
+          },
+          {
+            "id": "7522dfa9-6ac7-45ab-a210-05ec5556746f",
+            "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+            "title": "Jenny Death",
+            "status": "Pseudo-Release"
+          },
+          {
+            "id": "da110479-bb85-41a2-a2ac-b837249f340e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Powers That B",
+            "status": "Official"
+          },
+          {
+            "id": "d26f52fa-4cdb-4a1c-8367-6eaf7132a5eb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Powers That B",
+            "status": "Official"
+          },
+          {
+            "id": "c3cbb4f7-2637-4172-8fd9-ce3ef1b1b5fd",
+            "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+            "title": "Jenny Death",
+            "status": "Pseudo-Release"
+          },
+          {
+            "id": "dd51a819-8f48-4c05-a83e-a62089118f18",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Powers That B",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 0,
+            "name": "rock"
+          },
+          {
+            "count": 0,
+            "name": "electronic"
+          },
+          {
+            "count": 0,
+            "name": "alternative rock"
+          },
+          {
+            "count": 1,
+            "name": "digital hardcore"
+          },
+          {
+            "count": 0,
+            "name": "industrial"
+          },
+          {
+            "count": 1,
+            "name": "industrial rock"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "idm"
+          },
+          {
+            "count": 0,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental rock"
+          },
+          {
+            "count": 1,
+            "name": "electro-industrial"
+          },
+          {
+            "count": 0,
+            "name": "post-industrial"
+          },
+          {
+            "count": 1,
+            "name": "noise rock"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "footwork"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 0,
+            "name": "double album"
+          }
+        ]
+      },
+      {
+        "id": "aa0b4e86-358e-4c92-aecd-94f5f59233f7",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 9,
+        "title": "The Money Store",
+        "first-release-date": "2012-04-13",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "82b3a467-4db4-44ab-b972-dd35ea300348",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Money Store",
+            "status": "Official"
+          },
+          {
+            "id": "af52ffd5-95ef-4621-b5b7-3b3ae3995cc1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Money Store",
+            "status": "Official"
+          },
+          {
+            "id": "34edc300-e930-4e14-9f98-75daad62698f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Money Store",
+            "status": "Official"
+          },
+          {
+            "id": "105a65c7-417b-403d-9877-adad240fe5ac",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Money Store",
+            "status": "Official"
+          },
+          {
+            "id": "4b32d1f3-9640-44c9-ae7b-8ab7f6eb92a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Money Store",
+            "status": "Official"
+          },
+          {
+            "id": "1cd7c764-28bb-4df1-af3f-6c0b6bf5e95c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Money Store",
+            "status": "Official"
+          },
+          {
+            "id": "067b7172-5aca-485d-bb9d-ba479fd2694d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Money Store (Instrumentals)",
+            "status": "Official"
+          },
+          {
+            "id": "3686162c-6a36-47ce-b6fe-18a4bb41a0ca",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Money Store",
+            "status": "Official"
+          },
+          {
+            "id": "015ba8a6-97a9-4ad4-9ca4-382031177452",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "The Money Store",
+            "status": "Promotion"
+          }
+        ],
+        "tags": [
+          {
+            "count": 0,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "industrial"
+          },
+          {
+            "count": 2,
+            "name": "experimental"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "electro-industrial"
+          },
+          {
+            "count": 0,
+            "name": "post-industrial"
+          },
+          {
+            "count": -1,
+            "name": "alternative pop"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 4,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 0,
+            "name": "nsfw cover art"
+          }
+        ]
+      },
+      {
+        "id": "dd2012b3-3a21-4150-aff1-fcff86b409c9",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 5,
+        "title": "Bottomless Pit",
+        "first-release-date": "2016-05-06",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d9b292e3-199c-4052-814f-b63db4f5e92c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bottomless Pit",
+            "status": "Official"
+          },
+          {
+            "id": "c5887c6e-3225-4b14-872b-8d1aa9d0867f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bottomless Pit",
+            "status": "Official"
+          },
+          {
+            "id": "4fc331f7-ffcf-43c6-87a1-c7d367fb9141",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bottomless Pit",
+            "status": "Official"
+          },
+          {
+            "id": "9306d7b4-e470-43d5-aa46-04ecd50a9711",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bottomless Pit (stems)",
+            "status": "Official"
+          },
+          {
+            "id": "54ce8d8b-b48e-4edb-9839-2ff36ec61c8f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bottomless Pit",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 3,
+            "name": "digital hardcore"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 3,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "electro-industrial"
+          },
+          {
+            "count": 3,
+            "name": "noise rock"
+          },
+          {
+            "count": 2,
+            "name": "glitch hop"
+          },
+          {
+            "count": 3,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 4,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 4,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "synth punk"
+          },
+          {
+            "count": 2,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "80172a28-bd94-4c89-b0a4-343fb0f9f6c2",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 3,
+        "title": "Year of the Snitch",
+        "first-release-date": "2018-06-22",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d4aeb9ee-285d-4bbb-8d2d-11005df53f3b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Year of the Snitch",
+            "status": "Official"
+          },
+          {
+            "id": "d92b2734-f2b9-4337-b3f5-1bb8d4e27cd0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Year of the Snitch",
+            "status": "Official"
+          },
+          {
+            "id": "4900bbf8-3a39-457e-b648-7d03c7a6c6af",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Year of the Snitch",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "rock"
+          },
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "digital hardcore"
+          },
+          {
+            "count": 2,
+            "name": "noise"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "experimental rock"
+          },
+          {
+            "count": 1,
+            "name": "electro-industrial"
+          },
+          {
+            "count": 1,
+            "name": "noise rock"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 3,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "synth punk"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "f1f6c7e2-7848-4554-b36c-2190e1d6bfb0",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 7,
+        "title": "Exmilitary",
+        "first-release-date": "2011-04-25",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "dc3ce500-edbe-4729-8179-940a1f27a463",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Exmilitary",
+            "status": "Official"
+          },
+          {
+            "id": "fc8c25cd-555f-43a3-8162-5b7aafc37bf2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Exmilitary",
+            "status": "Official"
+          },
+          {
+            "id": "315d90f8-fb24-405d-8131-61a8a70cd3a8",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Ex Military",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "c70a7417-e2e4-43b3-8eb5-9d4c10254421",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Exmilitary",
+            "status": "Official"
+          },
+          {
+            "id": "11cbbe3c-d39d-452e-bd7b-e9fa5bb2f6bd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Exmilitary",
+            "status": "Official"
+          },
+          {
+            "id": "291eccc2-4a6e-4eaa-85c2-1413324a2921",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ex Military",
+            "status": "Official"
+          },
+          {
+            "id": "abe27dbd-4a41-435c-9cf9-08147b1d064a",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Ex Military",
+            "status": "Bootleg"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "rock"
+          },
+          {
+            "count": 0,
+            "name": "electronic"
+          },
+          {
+            "count": 0,
+            "name": "rap"
+          },
+          {
+            "count": 2,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "rap rock"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 2,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "hardcore hip hop"
+          }
+        ]
+      },
+      {
+        "id": "a8ea0702-c21a-4cc7-b1cb-83da70007964",
+        "type-id": "22a628ad-c082-3c4f-b1b6-d41665107b88",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 2,
+        "title": "Fashion Week",
+        "first-release-date": "2015-01-04",
+        "primary-type": "Album",
+        "secondary-types": [
+          "Soundtrack"
+        ],
+        "secondary-type-ids": [
+          "22a628ad-c082-3c4f-b1b6-d41665107b88"
+        ],
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "47b0640b-f3e8-448a-8bef-37f3ffad7c48",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fashion Week",
+            "status": "Official"
+          },
+          {
+            "id": "1b50a49d-b05b-4163-902a-3f850c93feca",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fashion Week (instrumentals)",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "instrumental"
+          },
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "electro"
+          },
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "electro-industrial"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 1,
+            "name": "wonky"
+          },
+          {
+            "count": 1,
+            "name": "instrumental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "deconstructed club"
+          }
+        ]
+      },
+      {
+        "id": "dcdee807-7a10-44c6-8e33-36625d8579ba",
+        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "score": 89,
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "artist-credit-id": "9d1c9b24-cb57-3714-bac5-687b03a2a990",
+        "count": 11,
+        "title": "No Love Deep Web",
+        "first-release-date": "2012-10-01",
+        "primary-type": "Album",
+        "artist-credit": [
+          {
+            "name": "Death Grips",
+            "artist": {
+              "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+              "name": "Death Grips",
+              "sort-name": "Death Grips",
+              "aliases": [
+                {
+                  "sort-name": "dthgrps",
+                  "name": "dthgrps",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3634c372-4ce6-4fbe-a8c7-135a0866a437",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          },
+          {
+            "id": "83c769d3-d739-4cd0-85c1-603628d61d96",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          },
+          {
+            "id": "3addd122-b36f-4d3d-a984-b898dfc9690b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          },
+          {
+            "id": "06a1a88e-265a-4d47-8bde-bd0063e59753",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          },
+          {
+            "id": "556450eb-47db-49b2-91a3-78d95db9d253",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          },
+          {
+            "id": "cf1bf745-b34a-49ef-9ad8-8df723d118a6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web (stems)",
+            "status": "Official"
+          },
+          {
+            "id": "160cbe00-88a3-4b2f-9b2d-8ce132aa54a5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          },
+          {
+            "id": "7021e281-41a3-4dee-98ca-7ad851f1e970",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          },
+          {
+            "id": "43741800-80f0-462b-a37a-424224fdd289",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          },
+          {
+            "id": "a520f1a3-c8c5-4828-9505-45e5ca88eaf7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          },
+          {
+            "id": "e282fb4a-0d43-435b-9743-32e0ba3a7792",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "No Love Deep Web",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 2,
+            "name": "electronic"
+          },
+          {
+            "count": 2,
+            "name": "experimental"
+          },
+          {
+            "count": 2,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract"
+          },
+          {
+            "count": 0,
+            "name": "nude cover"
+          },
+          {
+            "count": 1,
+            "name": "glitch hop"
+          },
+          {
+            "count": 5,
+            "name": "experimental hip hop"
+          },
+          {
+            "count": 1,
+            "name": "underground hip hop"
+          },
+          {
+            "count": 1,
+            "name": "abstract hip hop"
+          },
+          {
+            "count": 1,
+            "name": "industrial hip hop"
+          },
+          {
+            "count": 1,
+            "name": "footwork"
+          },
+          {
+            "count": 3,
+            "name": "hardcore hip hop"
+          },
+          {
+            "count": 0,
+            "name": "nsfw"
+          },
+          {
+            "count": 0,
+            "name": "nsfw cover art"
+          },
+          {
+            "count": 1,
+            "name": "peniscore"
+          },
+          {
+            "count": 1,
+            "name": "left-field rap"
+          }
+        ]
+      }
+    ]
+  }
+}

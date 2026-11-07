@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/3d95cbc5-97a9-4b53-9a1a-7da3399ba446",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3d95cbc5-97a9-4b53-9a1a-7da3399ba446?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:52.864434+00:00",
+  "response": {
+    "first-release-date": "2024-05-17",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [],
+          "sort-name": "Haze, Kwiatek",
+          "name": "Kwiatek Haze",
+          "type": "Person",
+          "disambiguation": "Dominik Kwiatkowski",
+          "country": null,
+          "id": "09fe601a-d3d0-4537-844c-195487996284",
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "name": "Kwiatek Haze"
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "primary-type": "EP",
+    "id": "3d95cbc5-97a9-4b53-9a1a-7da3399ba446",
+    "title": "ODA SUPLEMENT",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      },
+      {
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": []
+  }
+}

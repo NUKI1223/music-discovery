@@ -1,0 +1,90 @@
+{
+  "endpoint": "release-group/788b96f6-8303-45ba-a2f1-35a1f051d669",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/788b96f6-8303-45ba-a2f1-35a1f051d669?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:02.935817+00:00",
+  "response": {
+    "title": "I'm Only Doing This Because I Love You",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "primary-type": "EP",
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "disambiguation": "",
+          "country": null,
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+              "name": "cloud rap",
+              "count": 1,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "r&b",
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3"
+            },
+            {
+              "name": "trap",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "disambiguation": "",
+              "count": 1
+            }
+          ],
+          "id": "40647069-f2a6-4ea9-9937-4a0e31382413",
+          "name": "Dynected",
+          "tags": [
+            {
+              "count": 1,
+              "name": "cloud rap"
+            },
+            {
+              "name": "r&b",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Dynected"
+        },
+        "name": "Dynected",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "id": "788b96f6-8303-45ba-a2f1-35a1f051d669",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "trap",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    },
+    "first-release-date": "2026-01-01"
+  }
+}

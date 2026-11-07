@@ -1,0 +1,108 @@
+{
+  "endpoint": "release-group/7f78dd96-e9b8-4299-95a1-863ae769aab4",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7f78dd96-e9b8-4299-95a1-863ae769aab4?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:49.061894+00:00",
+  "response": {
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "title": "Paris L.A. Bruxelles",
+    "genres": [
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "id": "7f78dd96-e9b8-4299-95a1-863ae769aab4",
+    "first-release-date": "2017-09-21",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "hip hop DJ & producer",
+          "country": "US",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "9e4c8b90-75d8-4dc9-a5a8-0d09285773dd",
+              "name": "drumless hip hop"
+            },
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 5,
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 2,
+              "name": "instrumental hip hop",
+              "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "name": "underground hip hop",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd"
+            }
+          ],
+          "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+          "name": "The Alchemist",
+          "tags": [
+            {
+              "count": 1,
+              "name": "drumless hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 5
+            },
+            {
+              "count": 1,
+              "name": "hip-hop"
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 2
+            },
+            {
+              "count": 3,
+              "name": "producer"
+            },
+            {
+              "name": "underground hip hop",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Alchemist, The"
+        },
+        "name": "The Alchemist"
+      }
+    ]
+  }
+}

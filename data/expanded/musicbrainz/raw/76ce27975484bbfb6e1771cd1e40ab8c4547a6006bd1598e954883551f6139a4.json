@@ -1,0 +1,66 @@
+{
+  "endpoint": "release-group/e6cf4724-667e-4099-96f0-05232a8d1fdc",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e6cf4724-667e-4099-96f0-05232a8d1fdc?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:25.159360+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "3x3",
+    "genres": [
+      {
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "count": 1,
+        "disambiguation": "",
+        "name": "boom bap"
+      }
+    ],
+    "secondary-types": [],
+    "id": "e6cf4724-667e-4099-96f0-05232a8d1fdc",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "first-release-date": "2018-10-05",
+    "artist-credit": [
+      {
+        "name": "Pawz One",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "Los-Angeles-based rapper Robert Perez",
+          "name": "Pawz One",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "d7fdd852-2991-4015-9bc3-9e66f69197c0",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Pawz One",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1
+            }
+          ],
+          "country": "US"
+        }
+      }
+    ],
+    "primary-type": "EP"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "endpoint": "release-group/0831955f-99be-49ac-9b26-e90d230e59cd",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0831955f-99be-49ac-9b26-e90d230e59cd?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:50.704229+00:00",
+  "response": {
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "first-release-date": "2022-04-15",
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "punk"
+      }
+    ],
+    "genres": [
+      {
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "name": "punk",
+        "id": "8cc9b280-230b-4a3a-b1e2-8acab0744dd3",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "id": "0831955f-99be-49ac-9b26-e90d230e59cd",
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Monsieur Saï",
+          "country": "FR",
+          "disambiguation": "The MC, als performing as group under same name",
+          "sort-name": "Saï, Monsieur",
+          "type": "Person",
+          "genres": [],
+          "tags": [],
+          "id": "e6bc04ef-28ed-4c43-97af-219d22f8b096",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+        },
+        "joinphrase": " & ",
+        "name": "Monsieur Saï"
+      },
+      {
+        "name": "Mitron Skovronski",
+        "artist": {
+          "id": "5f0daf58-c751-4574-8f16-228bf44f2f60",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "tags": [],
+          "sort-name": "Mitron Skovronski",
+          "type": "Person",
+          "country": null,
+          "disambiguation": "French music maker (from Le Mans, France)",
+          "name": "Mitron Skovronski"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "title": "Tank",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

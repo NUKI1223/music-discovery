@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/f5421786-d85b-41eb-835d-212031efe4d8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f5421786-d85b-41eb-835d-212031efe4d8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:04.473596+00:00",
+  "response": {
+    "primary-type": "Album",
+    "id": "f5421786-d85b-41eb-835d-212031efe4d8",
+    "title": "Sonar",
+    "genres": [
+      {
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "count": 1,
+        "disambiguation": "",
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "experimental rock",
+        "count": 1,
+        "disambiguation": "",
+        "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "experimental hip hop"
+      },
+      {
+        "name": "experimental rock",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Mark Berga",
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Shipititez tha Viruz",
+          "name": "Shipititez tha Viruz",
+          "tags": [],
+          "country": "US",
+          "id": "4a4b44f9-d3ee-4006-8347-d640ba0f3e82",
+          "type": "Person",
+          "disambiguation": "Shipititez",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": []
+        }
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2006-01-01",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    }
+  }
+}

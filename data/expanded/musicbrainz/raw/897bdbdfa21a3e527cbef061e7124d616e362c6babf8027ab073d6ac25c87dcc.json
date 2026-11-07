@@ -1,0 +1,244 @@
+{
+  "endpoint": "release-group/6c1c3dc2-8518-429e-b773-1753e513a4fe",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/6c1c3dc2-8518-429e-b773-1753e513a4fe?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:18:18.340611+00:00",
+  "response": {
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [
+            {
+              "count": 3,
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "disambiguation": "",
+              "name": "alternative hip hop"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 14,
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+            },
+            {
+              "count": 1,
+              "id": "e5bba957-8c91-496a-a675-c6d0c6b51c33",
+              "disambiguation": "",
+              "name": "dance"
+            },
+            {
+              "count": 1,
+              "id": "a04d680b-b5c5-4f6a-87a3-f9f1ff98e3ea",
+              "disambiguation": "",
+              "name": "disco"
+            },
+            {
+              "name": "future bass",
+              "disambiguation": "",
+              "id": "e254f865-58ea-4483-9b2f-1bc65febcd71",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c",
+              "count": 2,
+              "name": "gangsta rap"
+            },
+            {
+              "count": 7,
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "disambiguation": "",
+              "name": "hardcore hip hop"
+            },
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "count": 18,
+              "name": "hip hop"
+            },
+            {
+              "count": 2,
+              "disambiguation": "",
+              "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+              "name": "house"
+            },
+            {
+              "name": "jazz",
+              "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+              "disambiguation": "",
+              "count": 2
+            },
+            {
+              "name": "jazz rap",
+              "count": 12,
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "disambiguation": ""
+            },
+            {
+              "count": 5,
+              "disambiguation": "",
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "name": "pop"
+            },
+            {
+              "name": "pop rap",
+              "disambiguation": "",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "count": 2
+            },
+            {
+              "name": "r&b",
+              "count": 2,
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "disambiguation": ""
+            },
+            {
+              "name": "trap",
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "count": 2
+            },
+            {
+              "disambiguation": "",
+              "id": "149a3524-0fd3-4bdc-9876-0361dfee8908",
+              "count": 10,
+              "name": "west coast hip hop"
+            }
+          ],
+          "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+          "sort-name": "Lamar, Kendrick",
+          "type": "Person",
+          "tags": [
+            {
+              "count": 2,
+              "name": "2010s"
+            },
+            {
+              "count": 2,
+              "name": "2020s"
+            },
+            {
+              "count": 3,
+              "name": "alternative hip hop"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 14
+            },
+            {
+              "name": "conscious rapper",
+              "count": 1
+            },
+            {
+              "name": "contemporary rap",
+              "count": 2
+            },
+            {
+              "name": "dance",
+              "count": 1
+            },
+            {
+              "name": "disco",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "future bass"
+            },
+            {
+              "count": 2,
+              "name": "gangsta rap"
+            },
+            {
+              "count": 7,
+              "name": "hardcore hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 18
+            },
+            {
+              "count": 2,
+              "name": "house"
+            },
+            {
+              "name": "jazz",
+              "count": 2
+            },
+            {
+              "count": 12,
+              "name": "jazz rap"
+            },
+            {
+              "name": "pop",
+              "count": 5
+            },
+            {
+              "count": 2,
+              "name": "pop rap"
+            },
+            {
+              "name": "progressive rap",
+              "count": 2
+            },
+            {
+              "name": "r&b",
+              "count": 2
+            },
+            {
+              "name": "rap",
+              "count": 6
+            },
+            {
+              "name": "trap",
+              "count": 2
+            },
+            {
+              "count": 10,
+              "name": "west coast hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "",
+          "name": "Kendrick Lamar",
+          "country": "US"
+        },
+        "name": "Kendrick Lamar",
+        "joinphrase": ""
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2011",
+    "title": "Compton State of Mind",
+    "genres": [
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "id": "6c1c3dc2-8518-429e-b773-1753e513a4fe"
+  }
+}

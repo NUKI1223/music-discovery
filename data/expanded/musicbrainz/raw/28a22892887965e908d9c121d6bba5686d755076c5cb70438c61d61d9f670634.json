@@ -1,0 +1,58 @@
+{
+  "endpoint": "release-group/4103d04e-0f4e-4806-9219-5b6dd415f362",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/4103d04e-0f4e-4806-9219-5b6dd415f362?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:07.189174+00:00",
+  "response": {
+    "disambiguation": "",
+    "first-release-date": "2012-12-10",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    },
+    "genres": [
+      {
+        "name": "instrumental hip hop",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "id": "4103d04e-0f4e-4806-9219-5b6dd415f362",
+    "primary-type": "EP",
+    "title": "THE DYNAMITE JOINT",
+    "artist-credit": [
+      {
+        "name": "Mo. Three",
+        "artist": {
+          "name": "Mo. Three",
+          "sort-name": "Mo. Three",
+          "tags": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "e419c150-92d3-4786-af1d-7bb71a0e9bf1",
+          "country": "US",
+          "type": "Person",
+          "disambiguation": ""
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ]
+  }
+}

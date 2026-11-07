@@ -1,0 +1,70 @@
+{
+  "endpoint": "release-group/3cc0af7c-7d72-4a5a-9772-a8182d65b1d4",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/3cc0af7c-7d72-4a5a-9772-a8182d65b1d4?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:22.623701+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "Nitro",
+        "joinphrase": "",
+        "artist": {
+          "type": "Person",
+          "disambiguation": "Italian rapper",
+          "id": "824c59f0-9ae2-4197-a7b6-2da485ee8386",
+          "country": "IT",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "rap",
+              "count": 1
+            }
+          ],
+          "name": "Nitro",
+          "sort-name": "Nitro"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      }
+    ],
+    "title": "No Comment",
+    "id": "3cc0af7c-7d72-4a5a-9772-a8182d65b1d4",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2018-01-12",
+    "disambiguation": ""
+  }
+}

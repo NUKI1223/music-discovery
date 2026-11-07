@@ -1,0 +1,90 @@
+{
+  "endpoint": "release-group/9ac14e92-cba3-4970-89e3-a82a47acb5e3",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/9ac14e92-cba3-4970-89e3-a82a47acb5e3?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:38.476738+00:00",
+  "response": {
+    "title": "CrownsDown",
+    "id": "9ac14e92-cba3-4970-89e3-a82a47acb5e3",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Themselves",
+        "artist": {
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [
+            {
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "id": "0af8e9c1-b9a4-4fb9-92a2-c4feb3b7c999",
+          "country": "US",
+          "type": "Group",
+          "disambiguation": "",
+          "name": "Themselves",
+          "sort-name": "Themselves",
+          "tags": [
+            {
+              "name": "american",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ]
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2009-10-20"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "endpoint": "release-group/31fbb6ac-ef84-49e4-ab1d-95f93e7a64a7",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/31fbb6ac-ef84-49e4-ab1d-95f93e7a64a7?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:50.316225+00:00",
+  "response": {
+    "disambiguation": "",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "Absolut Horror",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1,
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": ""
+      },
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "name": "horrorcore",
+        "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "horrorcore"
+      }
+    ],
+    "id": "31fbb6ac-ef84-49e4-ab1d-95f93e7a64a7",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "b57db116-5947-462e-aa7b-3dd1ecb5be45",
+          "tags": [
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hardcore hip hop"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "count": 5,
+              "name": "horrorcore"
+            },
+            {
+              "name": "pornocore",
+              "count": 2
+            },
+            {
+              "count": 1,
+              "name": "underground hip hop"
+            }
+          ],
+          "genres": [
+            {
+              "count": 1,
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "disambiguation": "",
+              "name": "boom bap"
+            },
+            {
+              "disambiguation": "",
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "count": 1,
+              "name": "east coast hip hop"
+            },
+            {
+              "name": "hardcore hip hop",
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "count": 5,
+              "id": "66d01f06-21dc-4216-ac63-c5efb7b6338e",
+              "name": "horrorcore"
+            },
+            {
+              "name": "underground hip hop",
+              "disambiguation": "",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Necro",
+          "disambiguation": "US rapper/producer",
+          "country": "US",
+          "name": "Necro"
+        },
+        "name": "Necro"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "first-release-date": "2023"
+  }
+}

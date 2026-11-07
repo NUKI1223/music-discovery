@@ -1,0 +1,102 @@
+{
+  "endpoint": "release-group/327eec92-804d-300e-b231-a4a42fc3332c",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/327eec92-804d-300e-b231-a4a42fc3332c?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:21:45.382436+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "1998-10-20",
+    "id": "327eec92-804d-300e-b231-a4a42fc3332c",
+    "genres": [
+      {
+        "disambiguation": "",
+        "count": 2,
+        "name": "dub",
+        "id": "c72a5d45-75a8-4b35-9f48-67e49eb4b5e5"
+      },
+      {
+        "count": 2,
+        "disambiguation": "",
+        "name": "electronic",
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "count": 2,
+        "disambiguation": "",
+        "id": "060beed7-e597-4c42-8e25-5bf8bd5dd3cb",
+        "name": "industrial"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "industrial hip hop",
+        "id": "5f216b90-4ed2-4297-a243-d623db4c8235"
+      }
+    ],
+    "artist-credit": [
+      {
+        "name": "Ice",
+        "artist": {
+          "name": "Ice",
+          "id": "6a01a985-6cb0-448c-a884-45ad5645ddd3",
+          "genres": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "sort-name": "Ice",
+          "type": "Group",
+          "tags": [],
+          "country": "GB",
+          "disambiguation": "UK dub group"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 2,
+        "name": "abstract"
+      },
+      {
+        "count": 2,
+        "name": "dub"
+      },
+      {
+        "name": "electronic",
+        "count": 2
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "hip-hop"
+      },
+      {
+        "name": "industrial",
+        "count": 2
+      },
+      {
+        "name": "industrial hip hop",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "title": "Bad Blood"
+  }
+}

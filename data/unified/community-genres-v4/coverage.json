@@ -1,0 +1,3567 @@
+{
+  "before_releases": 45635,
+  "after_releases": 45643,
+  "before_genres": 408,
+  "after_genres": 463,
+  "new_genres": [
+    "acid-jazz",
+    "adult-contemporary",
+    "ambient-dub",
+    "andean-new-age",
+    "anti-folk",
+    "atmospheric-drum-and-bass",
+    "big-beat",
+    "brostep",
+    "bubblegum-bass",
+    "ccm",
+    "celtic-new-age",
+    "chicago-drill",
+    "christian-liturgical-music",
+    "christian-rock",
+    "coldwave",
+    "comedy-rap",
+    "contemporary-country",
+    "country-gospel",
+    "country-soul",
+    "crossover-thrash",
+    "death-industrial",
+    "deathgrind",
+    "deep-soul",
+    "detroit-trap",
+    "digicore",
+    "ebm",
+    "electro-house",
+    "electronic-dance-music",
+    "folk-punk",
+    "glam-metal",
+    "hymns",
+    "industrial-techno",
+    "latin-electronic",
+    "latin-rock",
+    "math-pop",
+    "melodic-metalcore",
+    "minimal-wave",
+    "neoclassical-new-age",
+    "post-britpop",
+    "power-electronics",
+    "praise-and-worship",
+    "progressive-metalcore",
+    "progressive-soul",
+    "raw-black-metal",
+    "riot-grrrl",
+    "samba-jazz",
+    "shibuya-kei",
+    "ska-punk",
+    "southern-gospel",
+    "tech-house",
+    "teen-pop",
+    "trap-metal",
+    "urban-contemporary-gospel",
+    "witch-house",
+    "yacht-rock"
+  ],
+  "new_releases": 8,
+  "releases_with_added_genres": 2403,
+  "newly_classified_releases": 557,
+  "new_genres_with_candidates": 54,
+  "without_primary_genre": 6035,
+  "with_vibes": 6205,
+  "with_ordered_vibes": 53,
+  "coverage_before": {
+    "abstract": {
+      "direct": 485,
+      "including_subgenres": 485
+    },
+    "acid-house": {
+      "direct": 30,
+      "including_subgenres": 30
+    },
+    "acid-rock": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "acid-techno": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "acoustic-rock": {
+      "direct": 82,
+      "including_subgenres": 82
+    },
+    "african-music": {
+      "direct": 0,
+      "including_subgenres": 124
+    },
+    "afro-cuban-jazz": {
+      "direct": 14,
+      "including_subgenres": 14
+    },
+    "afro-samba": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "afrobeat": {
+      "direct": 76,
+      "including_subgenres": 76
+    },
+    "afrobeats": {
+      "direct": 48,
+      "including_subgenres": 48
+    },
+    "alt-country": {
+      "direct": 397,
+      "including_subgenres": 397
+    },
+    "alt-pop": {
+      "direct": 426,
+      "including_subgenres": 426
+    },
+    "alternative-dance": {
+      "direct": 198,
+      "including_subgenres": 198
+    },
+    "alternative-hip-hop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "alternative-metal": {
+      "direct": 508,
+      "including_subgenres": 508
+    },
+    "alternative-rnb": {
+      "direct": 684,
+      "including_subgenres": 684
+    },
+    "alternative-rock": {
+      "direct": 2085,
+      "including_subgenres": 2085
+    },
+    "ambient": {
+      "direct": 669,
+      "including_subgenres": 1207
+    },
+    "ambient-house": {
+      "direct": 35,
+      "including_subgenres": 35
+    },
+    "ambient-pop": {
+      "direct": 309,
+      "including_subgenres": 309
+    },
+    "ambient-techno": {
+      "direct": 102,
+      "including_subgenres": 102
+    },
+    "american-primitivism": {
+      "direct": 44,
+      "including_subgenres": 44
+    },
+    "americana": {
+      "direct": 438,
+      "including_subgenres": 438
+    },
+    "anarcho-punk": {
+      "direct": 23,
+      "including_subgenres": 23
+    },
+    "aor": {
+      "direct": 119,
+      "including_subgenres": 119
+    },
+    "art-pop": {
+      "direct": 1449,
+      "including_subgenres": 1449
+    },
+    "art-punk": {
+      "direct": 228,
+      "including_subgenres": 228
+    },
+    "art-rock": {
+      "direct": 665,
+      "including_subgenres": 665
+    },
+    "atmospheric-black-metal": {
+      "direct": 113,
+      "including_subgenres": 113
+    },
+    "atmospheric-sludge-metal": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "avant-folk": {
+      "direct": 138,
+      "including_subgenres": 138
+    },
+    "avant-garde-jazz": {
+      "direct": 204,
+      "including_subgenres": 204
+    },
+    "avant-garde-metal": {
+      "direct": 136,
+      "including_subgenres": 136
+    },
+    "avant-prog": {
+      "direct": 64,
+      "including_subgenres": 64
+    },
+    "baroque": {
+      "direct": 22,
+      "including_subgenres": 22
+    },
+    "baroque-pop": {
+      "direct": 240,
+      "including_subgenres": 240
+    },
+    "bebop": {
+      "direct": 21,
+      "including_subgenres": 21
+    },
+    "bedroom-pop": {
+      "direct": 194,
+      "including_subgenres": 194
+    },
+    "berlin-school": {
+      "direct": 19,
+      "including_subgenres": 19
+    },
+    "big-band": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "bit-music": {
+      "direct": 23,
+      "including_subgenres": 23
+    },
+    "black-metal": {
+      "direct": 220,
+      "including_subgenres": 263
+    },
+    "blackened-death-metal": {
+      "direct": 21,
+      "including_subgenres": 21
+    },
+    "blackgaze": {
+      "direct": 44,
+      "including_subgenres": 44
+    },
+    "blue-eyed-soul": {
+      "direct": 103,
+      "including_subgenres": 103
+    },
+    "bluegrass": {
+      "direct": 31,
+      "including_subgenres": 31
+    },
+    "blues": {
+      "direct": 84,
+      "including_subgenres": 617
+    },
+    "blues-rock": {
+      "direct": 454,
+      "including_subgenres": 454
+    },
+    "bolero": {
+      "direct": 19,
+      "including_subgenres": 19
+    },
+    "boogie": {
+      "direct": 21,
+      "including_subgenres": 21
+    },
+    "boom-bap": {
+      "direct": 532,
+      "including_subgenres": 532
+    },
+    "bossa-nova": {
+      "direct": 73,
+      "including_subgenres": 73
+    },
+    "bounce": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "brazilian-music": {
+      "direct": 0,
+      "including_subgenres": 368
+    },
+    "breakbeat": {
+      "direct": 57,
+      "including_subgenres": 57
+    },
+    "breakcore": {
+      "direct": 48,
+      "including_subgenres": 48
+    },
+    "britcore": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "british-folk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "british-folk-rock": {
+      "direct": 6,
+      "including_subgenres": 6
+    },
+    "britpop": {
+      "direct": 134,
+      "including_subgenres": 134
+    },
+    "brutal-death-metal": {
+      "direct": 65,
+      "including_subgenres": 65
+    },
+    "c-pop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "canterbury-scene": {
+      "direct": 46,
+      "including_subgenres": 46
+    },
+    "celtic-folk": {
+      "direct": 15,
+      "including_subgenres": 15
+    },
+    "chamber-folk": {
+      "direct": 207,
+      "including_subgenres": 207
+    },
+    "chamber-jazz": {
+      "direct": 46,
+      "including_subgenres": 46
+    },
+    "chamber-music": {
+      "direct": 74,
+      "including_subgenres": 74
+    },
+    "chamber-music-pop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "chamber-pop": {
+      "direct": 420,
+      "including_subgenres": 420
+    },
+    "chanson": {
+      "direct": 74,
+      "including_subgenres": 74
+    },
+    "chanson-a-texte": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "chicago-blues": {
+      "direct": 19,
+      "including_subgenres": 19
+    },
+    "chillwave": {
+      "direct": 86,
+      "including_subgenres": 86
+    },
+    "chipmunk-soul": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "chopped-and-screwed": {
+      "direct": 11,
+      "including_subgenres": 11
+    },
+    "choral": {
+      "direct": 17,
+      "including_subgenres": 17
+    },
+    "cinematic-classical": {
+      "direct": 175,
+      "including_subgenres": 175
+    },
+    "city-pop": {
+      "direct": 88,
+      "including_subgenres": 88
+    },
+    "classical": {
+      "direct": 31,
+      "including_subgenres": 634
+    },
+    "cloud-rap": {
+      "direct": 439,
+      "including_subgenres": 439
+    },
+    "comedy-rock": {
+      "direct": 67,
+      "including_subgenres": 67
+    },
+    "concerto": {
+      "direct": 3,
+      "including_subgenres": 3
+    },
+    "conscious-hip-hop": {
+      "direct": 605,
+      "including_subgenres": 605
+    },
+    "contemporary-classical": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "contemporary-folk": {
+      "direct": 352,
+      "including_subgenres": 352
+    },
+    "contemporary-rnb": {
+      "direct": 1145,
+      "including_subgenres": 1145
+    },
+    "cool-jazz": {
+      "direct": 93,
+      "including_subgenres": 93
+    },
+    "country": {
+      "direct": 264,
+      "including_subgenres": 1309
+    },
+    "country-blues": {
+      "direct": 8,
+      "including_subgenres": 8
+    },
+    "country-folk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "country-pop": {
+      "direct": 179,
+      "including_subgenres": 179
+    },
+    "country-rock": {
+      "direct": 185,
+      "including_subgenres": 185
+    },
+    "crunk": {
+      "direct": 11,
+      "including_subgenres": 11
+    },
+    "crust-punk": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "cumbia": {
+      "direct": 11,
+      "including_subgenres": 11
+    },
+    "dance-pop": {
+      "direct": 904,
+      "including_subgenres": 904
+    },
+    "dance-punk": {
+      "direct": 164,
+      "including_subgenres": 164
+    },
+    "dancehall": {
+      "direct": 42,
+      "including_subgenres": 42
+    },
+    "dark-ambient": {
+      "direct": 110,
+      "including_subgenres": 110
+    },
+    "dark-cabaret": {
+      "direct": 25,
+      "including_subgenres": 25
+    },
+    "dark-jazz": {
+      "direct": 17,
+      "including_subgenres": 17
+    },
+    "darkwave": {
+      "direct": 91,
+      "including_subgenres": 118
+    },
+    "death-doom-metal": {
+      "direct": 42,
+      "including_subgenres": 42
+    },
+    "death-metal": {
+      "direct": 271,
+      "including_subgenres": 271
+    },
+    "deathcore": {
+      "direct": 102,
+      "including_subgenres": 102
+    },
+    "deconstructed-club": {
+      "direct": 96,
+      "including_subgenres": 96
+    },
+    "deep-house": {
+      "direct": 105,
+      "including_subgenres": 105
+    },
+    "delta-blues": {
+      "direct": 7,
+      "including_subgenres": 7
+    },
+    "depressive-black-metal": {
+      "direct": 35,
+      "including_subgenres": 35
+    },
+    "detroit-techno": {
+      "direct": 13,
+      "including_subgenres": 13
+    },
+    "digital-hardcore": {
+      "direct": 36,
+      "including_subgenres": 36
+    },
+    "disco": {
+      "direct": 123,
+      "including_subgenres": 260
+    },
+    "djent": {
+      "direct": 84,
+      "including_subgenres": 84
+    },
+    "doom-metal": {
+      "direct": 157,
+      "including_subgenres": 157
+    },
+    "downtempo": {
+      "direct": 264,
+      "including_subgenres": 264
+    },
+    "dream-pop": {
+      "direct": 747,
+      "including_subgenres": 747
+    },
+    "drift-phonk": {
+      "direct": 1,
+      "including_subgenres": 1
+    },
+    "drill": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "drill-and-bass": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "drone": {
+      "direct": 275,
+      "including_subgenres": 275
+    },
+    "drone-metal": {
+      "direct": 69,
+      "including_subgenres": 69
+    },
+    "drum-and-bass": {
+      "direct": 53,
+      "including_subgenres": 53
+    },
+    "drumless": {
+      "direct": 93,
+      "including_subgenres": 93
+    },
+    "dub": {
+      "direct": 74,
+      "including_subgenres": 74
+    },
+    "dub-techno": {
+      "direct": 26,
+      "including_subgenres": 26
+    },
+    "dubstep": {
+      "direct": 71,
+      "including_subgenres": 71
+    },
+    "east-coast-hip-hop": {
+      "direct": 1095,
+      "including_subgenres": 1095
+    },
+    "easy-listening": {
+      "direct": 23,
+      "including_subgenres": 23
+    },
+    "ecm-jazz": {
+      "direct": 30,
+      "including_subgenres": 30
+    },
+    "electric-blues": {
+      "direct": 36,
+      "including_subgenres": 36
+    },
+    "electro": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "electro-disco": {
+      "direct": 51,
+      "including_subgenres": 51
+    },
+    "electro-funk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "electro-industrial": {
+      "direct": 94,
+      "including_subgenres": 94
+    },
+    "electroacoustic": {
+      "direct": 57,
+      "including_subgenres": 57
+    },
+    "electroclash": {
+      "direct": 83,
+      "including_subgenres": 83
+    },
+    "electronic": {
+      "direct": 793,
+      "including_subgenres": 7294
+    },
+    "electronic-trap": {
+      "direct": 63,
+      "including_subgenres": 63
+    },
+    "electropop": {
+      "direct": 938,
+      "including_subgenres": 938
+    },
+    "emo": {
+      "direct": 220,
+      "including_subgenres": 220
+    },
+    "emo-pop": {
+      "direct": 147,
+      "including_subgenres": 147
+    },
+    "emo-rap": {
+      "direct": 155,
+      "including_subgenres": 155
+    },
+    "ethereal-wave": {
+      "direct": 74,
+      "including_subgenres": 74
+    },
+    "experimental": {
+      "direct": 581,
+      "including_subgenres": 581
+    },
+    "experimental-music": {
+      "direct": 241,
+      "including_subgenres": 1127
+    },
+    "experimental-rock": {
+      "direct": 571,
+      "including_subgenres": 571
+    },
+    "field-recording": {
+      "direct": 41,
+      "including_subgenres": 41
+    },
+    "film-score": {
+      "direct": 21,
+      "including_subgenres": 21
+    },
+    "flamenco": {
+      "direct": 8,
+      "including_subgenres": 8
+    },
+    "flashcore": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "folk": {
+      "direct": 408,
+      "including_subgenres": 3134
+    },
+    "folk-metal": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "folk-pop": {
+      "direct": 349,
+      "including_subgenres": 349
+    },
+    "folk-rock": {
+      "direct": 613,
+      "including_subgenres": 613
+    },
+    "folktronica": {
+      "direct": 131,
+      "including_subgenres": 131
+    },
+    "footwork": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "freak-folk": {
+      "direct": 33,
+      "including_subgenres": 33
+    },
+    "free-improvisation": {
+      "direct": 65,
+      "including_subgenres": 65
+    },
+    "free-jazz": {
+      "direct": 100,
+      "including_subgenres": 100
+    },
+    "french-hip-hop": {
+      "direct": 36,
+      "including_subgenres": 36
+    },
+    "french-house": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "funeral-doom-metal": {
+      "direct": 14,
+      "including_subgenres": 14
+    },
+    "funk": {
+      "direct": 290,
+      "including_subgenres": 977
+    },
+    "funk-metal": {
+      "direct": 38,
+      "including_subgenres": 38
+    },
+    "funk-rock": {
+      "direct": 114,
+      "including_subgenres": 114
+    },
+    "future-bass": {
+      "direct": 68,
+      "including_subgenres": 68
+    },
+    "future-garage": {
+      "direct": 76,
+      "including_subgenres": 76
+    },
+    "g-funk": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "gangsta-rap": {
+      "direct": 546,
+      "including_subgenres": 546
+    },
+    "garage-punk": {
+      "direct": 148,
+      "including_subgenres": 148
+    },
+    "garage-rock": {
+      "direct": 338,
+      "including_subgenres": 338
+    },
+    "garage-rock-revival": {
+      "direct": 105,
+      "including_subgenres": 105
+    },
+    "german-hip-hop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "glam-rock": {
+      "direct": 161,
+      "including_subgenres": 161
+    },
+    "glitch": {
+      "direct": 93,
+      "including_subgenres": 93
+    },
+    "glitch-hop": {
+      "direct": 90,
+      "including_subgenres": 90
+    },
+    "glitch-pop": {
+      "direct": 165,
+      "including_subgenres": 165
+    },
+    "gospel": {
+      "direct": 43,
+      "including_subgenres": 43
+    },
+    "gothic-metal": {
+      "direct": 82,
+      "including_subgenres": 82
+    },
+    "gothic-rock": {
+      "direct": 153,
+      "including_subgenres": 153
+    },
+    "grime": {
+      "direct": 57,
+      "including_subgenres": 57
+    },
+    "grindcore": {
+      "direct": 80,
+      "including_subgenres": 80
+    },
+    "groove-metal": {
+      "direct": 118,
+      "including_subgenres": 118
+    },
+    "grunge": {
+      "direct": 124,
+      "including_subgenres": 124
+    },
+    "hard-bop": {
+      "direct": 189,
+      "including_subgenres": 189
+    },
+    "hard-rock": {
+      "direct": 912,
+      "including_subgenres": 912
+    },
+    "hardcore": {
+      "direct": 668,
+      "including_subgenres": 668
+    },
+    "hardcore-punk": {
+      "direct": 255,
+      "including_subgenres": 255
+    },
+    "harsh-noise": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "heartland-rock": {
+      "direct": 114,
+      "including_subgenres": 114
+    },
+    "heavy-metal": {
+      "direct": 402,
+      "including_subgenres": 402
+    },
+    "heavy-psych": {
+      "direct": 92,
+      "including_subgenres": 92
+    },
+    "hip-hop": {
+      "direct": 848,
+      "including_subgenres": 5535
+    },
+    "hip-house": {
+      "direct": 57,
+      "including_subgenres": 57
+    },
+    "honky-tonk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "horrorcore": {
+      "direct": 84,
+      "including_subgenres": 84
+    },
+    "house": {
+      "direct": 163,
+      "including_subgenres": 396
+    },
+    "hyperpop": {
+      "direct": 88,
+      "including_subgenres": 88
+    },
+    "hypnagogic-pop": {
+      "direct": 119,
+      "including_subgenres": 119
+    },
+    "idm": {
+      "direct": 288,
+      "including_subgenres": 288
+    },
+    "illbient": {
+      "direct": 16,
+      "including_subgenres": 16
+    },
+    "impressionism": {
+      "direct": 9,
+      "including_subgenres": 9
+    },
+    "indie-folk": {
+      "direct": 709,
+      "including_subgenres": 709
+    },
+    "indie-pop": {
+      "direct": 1935,
+      "including_subgenres": 1935
+    },
+    "indie-rock": {
+      "direct": 2936,
+      "including_subgenres": 2936
+    },
+    "indietronica": {
+      "direct": 500,
+      "including_subgenres": 500
+    },
+    "industrial": {
+      "direct": 96,
+      "including_subgenres": 96
+    },
+    "industrial-hip-hop": {
+      "direct": 146,
+      "including_subgenres": 146
+    },
+    "industrial-metal": {
+      "direct": 142,
+      "including_subgenres": 142
+    },
+    "industrial-rock": {
+      "direct": 160,
+      "including_subgenres": 160
+    },
+    "instrumental-hip-hop": {
+      "direct": 185,
+      "including_subgenres": 185
+    },
+    "j-pop": {
+      "direct": 124,
+      "including_subgenres": 124
+    },
+    "j-rock": {
+      "direct": 100,
+      "including_subgenres": 100
+    },
+    "jam-band": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "jangle-pop": {
+      "direct": 243,
+      "including_subgenres": 243
+    },
+    "jangle-rock": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "japanese-hip-hop": {
+      "direct": 10,
+      "including_subgenres": 10
+    },
+    "jazz": {
+      "direct": 161,
+      "including_subgenres": 2278
+    },
+    "jazz-funk": {
+      "direct": 150,
+      "including_subgenres": 150
+    },
+    "jazz-fusion": {
+      "direct": 332,
+      "including_subgenres": 332
+    },
+    "jazz-manouche": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "jazz-pop": {
+      "direct": 111,
+      "including_subgenres": 111
+    },
+    "jazz-rap": {
+      "direct": 370,
+      "including_subgenres": 370
+    },
+    "jazz-rock": {
+      "direct": 209,
+      "including_subgenres": 209
+    },
+    "jazz-standards": {
+      "direct": 94,
+      "including_subgenres": 94
+    },
+    "juke": {
+      "direct": 8,
+      "including_subgenres": 8
+    },
+    "jungle": {
+      "direct": 22,
+      "including_subgenres": 22
+    },
+    "k-pop": {
+      "direct": 489,
+      "including_subgenres": 489
+    },
+    "krautrock": {
+      "direct": 123,
+      "including_subgenres": 123
+    },
+    "latin": {
+      "direct": 0,
+      "including_subgenres": 565
+    },
+    "latin-hip-hop": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "latin-jazz": {
+      "direct": 25,
+      "including_subgenres": 25
+    },
+    "latin-pop": {
+      "direct": 91,
+      "including_subgenres": 91
+    },
+    "lounge": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "lowercase": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "math-rock": {
+      "direct": 182,
+      "including_subgenres": 182
+    },
+    "mathcore": {
+      "direct": 80,
+      "including_subgenres": 80
+    },
+    "melodic-black-metal": {
+      "direct": 49,
+      "including_subgenres": 49
+    },
+    "melodic-death-metal": {
+      "direct": 138,
+      "including_subgenres": 138
+    },
+    "melodic-hardcore": {
+      "direct": 62,
+      "including_subgenres": 62
+    },
+    "memphis-rap": {
+      "direct": 81,
+      "including_subgenres": 81
+    },
+    "metal": {
+      "direct": 28,
+      "including_subgenres": 3619
+    },
+    "metalcore": {
+      "direct": 331,
+      "including_subgenres": 331
+    },
+    "microhouse": {
+      "direct": 51,
+      "including_subgenres": 51
+    },
+    "midwest-emo": {
+      "direct": 149,
+      "including_subgenres": 149
+    },
+    "midwest-hip-hop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "minimal-synth": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "minimal-techno": {
+      "direct": 54,
+      "including_subgenres": 54
+    },
+    "minimalism": {
+      "direct": 79,
+      "including_subgenres": 79
+    },
+    "modal-jazz": {
+      "direct": 50,
+      "including_subgenres": 50
+    },
+    "modern-classical": {
+      "direct": 230,
+      "including_subgenres": 230
+    },
+    "mpb": {
+      "direct": 263,
+      "including_subgenres": 263
+    },
+    "musique-concrete": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "neo-prog": {
+      "direct": 7,
+      "including_subgenres": 7
+    },
+    "neo-psychedelia": {
+      "direct": 867,
+      "including_subgenres": 867
+    },
+    "neo-soul": {
+      "direct": 447,
+      "including_subgenres": 447
+    },
+    "neoclassical-darkwave": {
+      "direct": 29,
+      "including_subgenres": 29
+    },
+    "neoclassicism": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "neofolk": {
+      "direct": 36,
+      "including_subgenres": 36
+    },
+    "new-age": {
+      "direct": 104,
+      "including_subgenres": 104
+    },
+    "new-jack-swing": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "new-rave": {
+      "direct": 46,
+      "including_subgenres": 46
+    },
+    "new-wave": {
+      "direct": 552,
+      "including_subgenres": 552
+    },
+    "no-wave": {
+      "direct": 41,
+      "including_subgenres": 41
+    },
+    "noise": {
+      "direct": 95,
+      "including_subgenres": 95
+    },
+    "noise-pop": {
+      "direct": 336,
+      "including_subgenres": 336
+    },
+    "noise-rock": {
+      "direct": 512,
+      "including_subgenres": 512
+    },
+    "northern-soul": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "nu-disco": {
+      "direct": 110,
+      "including_subgenres": 110
+    },
+    "nu-jazz": {
+      "direct": 96,
+      "including_subgenres": 96
+    },
+    "nu-metal": {
+      "direct": 190,
+      "including_subgenres": 190
+    },
+    "opera": {
+      "direct": 14,
+      "including_subgenres": 14
+    },
+    "orchestral": {
+      "direct": 39,
+      "including_subgenres": 39
+    },
+    "outlaw-country": {
+      "direct": 38,
+      "including_subgenres": 38
+    },
+    "outsider-house": {
+      "direct": 26,
+      "including_subgenres": 26
+    },
+    "p-funk": {
+      "direct": 16,
+      "including_subgenres": 16
+    },
+    "phonk": {
+      "direct": 4,
+      "including_subgenres": 4
+    },
+    "piano-blues": {
+      "direct": 4,
+      "including_subgenres": 4
+    },
+    "piano-rock": {
+      "direct": 136,
+      "including_subgenres": 136
+    },
+    "plugg": {
+      "direct": 71,
+      "including_subgenres": 71
+    },
+    "plunderphonics": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "political-hip-hop": {
+      "direct": 69,
+      "including_subgenres": 69
+    },
+    "pop": {
+      "direct": 619,
+      "including_subgenres": 13481
+    },
+    "pop-punk": {
+      "direct": 408,
+      "including_subgenres": 408
+    },
+    "pop-rap": {
+      "direct": 1256,
+      "including_subgenres": 1256
+    },
+    "pop-rock": {
+      "direct": 2058,
+      "including_subgenres": 2058
+    },
+    "pop-soul": {
+      "direct": 358,
+      "including_subgenres": 358
+    },
+    "post-bop": {
+      "direct": 183,
+      "including_subgenres": 183
+    },
+    "post-grunge": {
+      "direct": 144,
+      "including_subgenres": 144
+    },
+    "post-hardcore": {
+      "direct": 679,
+      "including_subgenres": 679
+    },
+    "post-industrial": {
+      "direct": 156,
+      "including_subgenres": 156
+    },
+    "post-metal": {
+      "direct": 130,
+      "including_subgenres": 130
+    },
+    "post-minimalism": {
+      "direct": 55,
+      "including_subgenres": 55
+    },
+    "post-punk": {
+      "direct": 899,
+      "including_subgenres": 899
+    },
+    "post-punk-revival": {
+      "direct": 188,
+      "including_subgenres": 188
+    },
+    "post-rock": {
+      "direct": 524,
+      "including_subgenres": 524
+    },
+    "power-metal": {
+      "direct": 107,
+      "including_subgenres": 107
+    },
+    "power-pop": {
+      "direct": 485,
+      "including_subgenres": 485
+    },
+    "progressive-country": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "progressive-electronic": {
+      "direct": 194,
+      "including_subgenres": 194
+    },
+    "progressive-folk": {
+      "direct": 95,
+      "including_subgenres": 95
+    },
+    "progressive-house": {
+      "direct": 47,
+      "including_subgenres": 47
+    },
+    "progressive-metal": {
+      "direct": 378,
+      "including_subgenres": 378
+    },
+    "progressive-pop": {
+      "direct": 259,
+      "including_subgenres": 259
+    },
+    "progressive-rock": {
+      "direct": 618,
+      "including_subgenres": 618
+    },
+    "psychedelic-folk": {
+      "direct": 247,
+      "including_subgenres": 247
+    },
+    "psychedelic-funk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "psychedelic-pop": {
+      "direct": 430,
+      "including_subgenres": 430
+    },
+    "psychedelic-rock": {
+      "direct": 741,
+      "including_subgenres": 741
+    },
+    "psychedelic-soul": {
+      "direct": 149,
+      "including_subgenres": 149
+    },
+    "punk": {
+      "direct": 33,
+      "including_subgenres": 3778
+    },
+    "punk-blues": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "punk-rock": {
+      "direct": 375,
+      "including_subgenres": 375
+    },
+    "rage": {
+      "direct": 103,
+      "including_subgenres": 103
+    },
+    "rap-metal": {
+      "direct": 38,
+      "including_subgenres": 38
+    },
+    "rap-rock": {
+      "direct": 133,
+      "including_subgenres": 133
+    },
+    "reggae": {
+      "direct": 66,
+      "including_subgenres": 236
+    },
+    "reggae-pop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "reggaeton": {
+      "direct": 41,
+      "including_subgenres": 41
+    },
+    "religious-music": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "rnb": {
+      "direct": 140,
+      "including_subgenres": 2907
+    },
+    "rock": {
+      "direct": 177,
+      "including_subgenres": 18288
+    },
+    "rock-and-roll": {
+      "direct": 101,
+      "including_subgenres": 101
+    },
+    "rock-in-opposition": {
+      "direct": 3,
+      "including_subgenres": 3
+    },
+    "rock-opera": {
+      "direct": 73,
+      "including_subgenres": 73
+    },
+    "rockabilly": {
+      "direct": 47,
+      "including_subgenres": 47
+    },
+    "rocksteady": {
+      "direct": 1,
+      "including_subgenres": 1
+    },
+    "romantic-classical": {
+      "direct": 15,
+      "including_subgenres": 15
+    },
+    "roots-reggae": {
+      "direct": 62,
+      "including_subgenres": 62
+    },
+    "roots-rock": {
+      "direct": 105,
+      "including_subgenres": 105
+    },
+    "salsa": {
+      "direct": 24,
+      "including_subgenres": 24
+    },
+    "samba": {
+      "direct": 92,
+      "including_subgenres": 92
+    },
+    "samba-cancao": {
+      "direct": 3,
+      "including_subgenres": 3
+    },
+    "samba-rock": {
+      "direct": 15,
+      "including_subgenres": 15
+    },
+    "screamo": {
+      "direct": 86,
+      "including_subgenres": 86
+    },
+    "sequencer-and-tracker": {
+      "direct": 35,
+      "including_subgenres": 35
+    },
+    "serialism": {
+      "direct": 3,
+      "including_subgenres": 3
+    },
+    "shoegaze": {
+      "direct": 454,
+      "including_subgenres": 493
+    },
+    "show-tunes": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "singer-songwriter": {
+      "direct": 2643,
+      "including_subgenres": 2643
+    },
+    "ska": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "skate-punk": {
+      "direct": 85,
+      "including_subgenres": 85
+    },
+    "slacker-rock": {
+      "direct": 248,
+      "including_subgenres": 248
+    },
+    "slowcore": {
+      "direct": 224,
+      "including_subgenres": 224
+    },
+    "sludge-metal": {
+      "direct": 199,
+      "including_subgenres": 199
+    },
+    "smooth-jazz": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "smooth-soul": {
+      "direct": 145,
+      "including_subgenres": 145
+    },
+    "soft-rock": {
+      "direct": 189,
+      "including_subgenres": 189
+    },
+    "solo-piano": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "sonata": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "sophisti-pop": {
+      "direct": 194,
+      "including_subgenres": 194
+    },
+    "soul": {
+      "direct": 401,
+      "including_subgenres": 401
+    },
+    "soul-jazz": {
+      "direct": 65,
+      "including_subgenres": 65
+    },
+    "sound-art": {
+      "direct": 4,
+      "including_subgenres": 4
+    },
+    "sound-collage": {
+      "direct": 107,
+      "including_subgenres": 107
+    },
+    "soundtrack": {
+      "direct": 14,
+      "including_subgenres": 234
+    },
+    "southern-hip-hop": {
+      "direct": 948,
+      "including_subgenres": 948
+    },
+    "southern-rock": {
+      "direct": 99,
+      "including_subgenres": 99
+    },
+    "southern-soul": {
+      "direct": 73,
+      "including_subgenres": 73
+    },
+    "space-ambient": {
+      "direct": 29,
+      "including_subgenres": 29
+    },
+    "space-rock": {
+      "direct": 89,
+      "including_subgenres": 89
+    },
+    "space-rock-revival": {
+      "direct": 63,
+      "including_subgenres": 63
+    },
+    "speed-metal": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "spiritual-jazz": {
+      "direct": 106,
+      "including_subgenres": 106
+    },
+    "spoken-word": {
+      "direct": 117,
+      "including_subgenres": 117
+    },
+    "stoner-metal": {
+      "direct": 111,
+      "including_subgenres": 111
+    },
+    "stoner-rock": {
+      "direct": 99,
+      "including_subgenres": 99
+    },
+    "string-quartet": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "sunshine-pop": {
+      "direct": 61,
+      "including_subgenres": 61
+    },
+    "surf-rock": {
+      "direct": 38,
+      "including_subgenres": 38
+    },
+    "swing": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "symphonic-black-metal": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "symphonic-metal": {
+      "direct": 72,
+      "including_subgenres": 72
+    },
+    "symphonic-prog": {
+      "direct": 85,
+      "including_subgenres": 85
+    },
+    "symphonic-rock": {
+      "direct": 27,
+      "including_subgenres": 27
+    },
+    "symphony": {
+      "direct": 14,
+      "including_subgenres": 14
+    },
+    "synth-funk": {
+      "direct": 147,
+      "including_subgenres": 147
+    },
+    "synth-punk": {
+      "direct": 79,
+      "including_subgenres": 79
+    },
+    "synthpop": {
+      "direct": 1192,
+      "including_subgenres": 1192
+    },
+    "synthwave": {
+      "direct": 55,
+      "including_subgenres": 55
+    },
+    "tango": {
+      "direct": 6,
+      "including_subgenres": 6
+    },
+    "tape-music": {
+      "direct": 53,
+      "including_subgenres": 53
+    },
+    "technical-death-metal": {
+      "direct": 107,
+      "including_subgenres": 107
+    },
+    "technical-thrash-metal": {
+      "direct": 25,
+      "including_subgenres": 25
+    },
+    "techno": {
+      "direct": 94,
+      "including_subgenres": 287
+    },
+    "third-stream": {
+      "direct": 35,
+      "including_subgenres": 35
+    },
+    "thrash-metal": {
+      "direct": 273,
+      "including_subgenres": 273
+    },
+    "traditional-folk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "traditional-pop": {
+      "direct": 65,
+      "including_subgenres": 65
+    },
+    "trance": {
+      "direct": 27,
+      "including_subgenres": 27
+    },
+    "trap": {
+      "direct": 1235,
+      "including_subgenres": 1235
+    },
+    "tribal-ambient": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "trip-hop": {
+      "direct": 222,
+      "including_subgenres": 222
+    },
+    "tropicalia": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "turntablism": {
+      "direct": 29,
+      "including_subgenres": 29
+    },
+    "twee-pop": {
+      "direct": 135,
+      "including_subgenres": 135
+    },
+    "uk-bass": {
+      "direct": 127,
+      "including_subgenres": 127
+    },
+    "uk-drill": {
+      "direct": 19,
+      "including_subgenres": 19
+    },
+    "uk-garage": {
+      "direct": 30,
+      "including_subgenres": 30
+    },
+    "uk-hip-hop": {
+      "direct": 186,
+      "including_subgenres": 186
+    },
+    "underground-hip-hop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "vaporwave": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "video-game-music": {
+      "direct": 6,
+      "including_subgenres": 6
+    },
+    "vocal-jazz": {
+      "direct": 192,
+      "including_subgenres": 192
+    },
+    "west-coast-hip-hop": {
+      "direct": 510,
+      "including_subgenres": 510
+    },
+    "wonky": {
+      "direct": 96,
+      "including_subgenres": 96
+    },
+    "zeuhl": {
+      "direct": 20,
+      "including_subgenres": 20
+    },
+    "zolo": {
+      "direct": 23,
+      "including_subgenres": 23
+    }
+  },
+  "coverage_after": {
+    "abstract": {
+      "direct": 485,
+      "including_subgenres": 485
+    },
+    "acid-house": {
+      "direct": 30,
+      "including_subgenres": 30
+    },
+    "acid-jazz": {
+      "direct": 24,
+      "including_subgenres": 24
+    },
+    "acid-rock": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "acid-techno": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "acoustic-rock": {
+      "direct": 82,
+      "including_subgenres": 82
+    },
+    "adult-contemporary": {
+      "direct": 186,
+      "including_subgenres": 186
+    },
+    "african-music": {
+      "direct": 0,
+      "including_subgenres": 124
+    },
+    "afro-cuban-jazz": {
+      "direct": 14,
+      "including_subgenres": 14
+    },
+    "afro-samba": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "afrobeat": {
+      "direct": 76,
+      "including_subgenres": 76
+    },
+    "afrobeats": {
+      "direct": 48,
+      "including_subgenres": 48
+    },
+    "alt-country": {
+      "direct": 397,
+      "including_subgenres": 397
+    },
+    "alt-pop": {
+      "direct": 426,
+      "including_subgenres": 426
+    },
+    "alternative-dance": {
+      "direct": 198,
+      "including_subgenres": 198
+    },
+    "alternative-hip-hop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "alternative-metal": {
+      "direct": 508,
+      "including_subgenres": 508
+    },
+    "alternative-rnb": {
+      "direct": 685,
+      "including_subgenres": 685
+    },
+    "alternative-rock": {
+      "direct": 2085,
+      "including_subgenres": 2123
+    },
+    "ambient": {
+      "direct": 670,
+      "including_subgenres": 1226
+    },
+    "ambient-dub": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "ambient-house": {
+      "direct": 35,
+      "including_subgenres": 35
+    },
+    "ambient-pop": {
+      "direct": 309,
+      "including_subgenres": 309
+    },
+    "ambient-techno": {
+      "direct": 102,
+      "including_subgenres": 102
+    },
+    "american-primitivism": {
+      "direct": 44,
+      "including_subgenres": 44
+    },
+    "americana": {
+      "direct": 438,
+      "including_subgenres": 438
+    },
+    "anarcho-punk": {
+      "direct": 23,
+      "including_subgenres": 23
+    },
+    "andean-new-age": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "anti-folk": {
+      "direct": 41,
+      "including_subgenres": 41
+    },
+    "aor": {
+      "direct": 119,
+      "including_subgenres": 119
+    },
+    "art-pop": {
+      "direct": 1449,
+      "including_subgenres": 1449
+    },
+    "art-punk": {
+      "direct": 228,
+      "including_subgenres": 228
+    },
+    "art-rock": {
+      "direct": 665,
+      "including_subgenres": 665
+    },
+    "atmospheric-black-metal": {
+      "direct": 113,
+      "including_subgenres": 113
+    },
+    "atmospheric-drum-and-bass": {
+      "direct": 35,
+      "including_subgenres": 35
+    },
+    "atmospheric-sludge-metal": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "avant-folk": {
+      "direct": 138,
+      "including_subgenres": 138
+    },
+    "avant-garde-jazz": {
+      "direct": 204,
+      "including_subgenres": 204
+    },
+    "avant-garde-metal": {
+      "direct": 136,
+      "including_subgenres": 136
+    },
+    "avant-prog": {
+      "direct": 64,
+      "including_subgenres": 64
+    },
+    "baroque": {
+      "direct": 22,
+      "including_subgenres": 22
+    },
+    "baroque-pop": {
+      "direct": 240,
+      "including_subgenres": 240
+    },
+    "bebop": {
+      "direct": 21,
+      "including_subgenres": 21
+    },
+    "bedroom-pop": {
+      "direct": 194,
+      "including_subgenres": 194
+    },
+    "berlin-school": {
+      "direct": 19,
+      "including_subgenres": 19
+    },
+    "big-band": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "big-beat": {
+      "direct": 29,
+      "including_subgenres": 29
+    },
+    "bit-music": {
+      "direct": 23,
+      "including_subgenres": 23
+    },
+    "black-metal": {
+      "direct": 220,
+      "including_subgenres": 286
+    },
+    "blackened-death-metal": {
+      "direct": 21,
+      "including_subgenres": 21
+    },
+    "blackgaze": {
+      "direct": 44,
+      "including_subgenres": 44
+    },
+    "blue-eyed-soul": {
+      "direct": 103,
+      "including_subgenres": 103
+    },
+    "bluegrass": {
+      "direct": 31,
+      "including_subgenres": 31
+    },
+    "blues": {
+      "direct": 84,
+      "including_subgenres": 617
+    },
+    "blues-rock": {
+      "direct": 454,
+      "including_subgenres": 454
+    },
+    "bolero": {
+      "direct": 19,
+      "including_subgenres": 19
+    },
+    "boogie": {
+      "direct": 21,
+      "including_subgenres": 21
+    },
+    "boom-bap": {
+      "direct": 532,
+      "including_subgenres": 532
+    },
+    "bossa-nova": {
+      "direct": 73,
+      "including_subgenres": 73
+    },
+    "bounce": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "brazilian-music": {
+      "direct": 0,
+      "including_subgenres": 379
+    },
+    "breakbeat": {
+      "direct": 57,
+      "including_subgenres": 78
+    },
+    "breakcore": {
+      "direct": 48,
+      "including_subgenres": 48
+    },
+    "britcore": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "british-folk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "british-folk-rock": {
+      "direct": 6,
+      "including_subgenres": 6
+    },
+    "britpop": {
+      "direct": 134,
+      "including_subgenres": 134
+    },
+    "brostep": {
+      "direct": 33,
+      "including_subgenres": 33
+    },
+    "brutal-death-metal": {
+      "direct": 65,
+      "including_subgenres": 65
+    },
+    "bubblegum-bass": {
+      "direct": 51,
+      "including_subgenres": 51
+    },
+    "c-pop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "canterbury-scene": {
+      "direct": 46,
+      "including_subgenres": 46
+    },
+    "ccm": {
+      "direct": 1,
+      "including_subgenres": 1
+    },
+    "celtic-folk": {
+      "direct": 15,
+      "including_subgenres": 15
+    },
+    "celtic-new-age": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "chamber-folk": {
+      "direct": 207,
+      "including_subgenres": 207
+    },
+    "chamber-jazz": {
+      "direct": 46,
+      "including_subgenres": 46
+    },
+    "chamber-music": {
+      "direct": 74,
+      "including_subgenres": 74
+    },
+    "chamber-music-pop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "chamber-pop": {
+      "direct": 420,
+      "including_subgenres": 420
+    },
+    "chanson": {
+      "direct": 74,
+      "including_subgenres": 74
+    },
+    "chanson-a-texte": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "chicago-blues": {
+      "direct": 19,
+      "including_subgenres": 19
+    },
+    "chicago-drill": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "chillwave": {
+      "direct": 86,
+      "including_subgenres": 86
+    },
+    "chipmunk-soul": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "chopped-and-screwed": {
+      "direct": 11,
+      "including_subgenres": 11
+    },
+    "choral": {
+      "direct": 17,
+      "including_subgenres": 17
+    },
+    "christian-liturgical-music": {
+      "direct": 6,
+      "including_subgenres": 6
+    },
+    "christian-rock": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "cinematic-classical": {
+      "direct": 175,
+      "including_subgenres": 175
+    },
+    "city-pop": {
+      "direct": 88,
+      "including_subgenres": 88
+    },
+    "classical": {
+      "direct": 31,
+      "including_subgenres": 634
+    },
+    "cloud-rap": {
+      "direct": 439,
+      "including_subgenres": 439
+    },
+    "coldwave": {
+      "direct": 29,
+      "including_subgenres": 29
+    },
+    "comedy-rap": {
+      "direct": 68,
+      "including_subgenres": 68
+    },
+    "comedy-rock": {
+      "direct": 67,
+      "including_subgenres": 67
+    },
+    "concerto": {
+      "direct": 3,
+      "including_subgenres": 3
+    },
+    "conscious-hip-hop": {
+      "direct": 605,
+      "including_subgenres": 605
+    },
+    "contemporary-classical": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "contemporary-country": {
+      "direct": 191,
+      "including_subgenres": 191
+    },
+    "contemporary-folk": {
+      "direct": 353,
+      "including_subgenres": 394
+    },
+    "contemporary-rnb": {
+      "direct": 1145,
+      "including_subgenres": 1145
+    },
+    "cool-jazz": {
+      "direct": 93,
+      "including_subgenres": 93
+    },
+    "country": {
+      "direct": 264,
+      "including_subgenres": 1456
+    },
+    "country-blues": {
+      "direct": 8,
+      "including_subgenres": 8
+    },
+    "country-folk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "country-gospel": {
+      "direct": 3,
+      "including_subgenres": 3
+    },
+    "country-pop": {
+      "direct": 179,
+      "including_subgenres": 179
+    },
+    "country-rock": {
+      "direct": 185,
+      "including_subgenres": 185
+    },
+    "country-soul": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "crossover-thrash": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "crunk": {
+      "direct": 11,
+      "including_subgenres": 11
+    },
+    "crust-punk": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "cumbia": {
+      "direct": 11,
+      "including_subgenres": 11
+    },
+    "dance-pop": {
+      "direct": 904,
+      "including_subgenres": 904
+    },
+    "dance-punk": {
+      "direct": 164,
+      "including_subgenres": 164
+    },
+    "dancehall": {
+      "direct": 42,
+      "including_subgenres": 42
+    },
+    "dark-ambient": {
+      "direct": 110,
+      "including_subgenres": 110
+    },
+    "dark-cabaret": {
+      "direct": 25,
+      "including_subgenres": 25
+    },
+    "dark-jazz": {
+      "direct": 17,
+      "including_subgenres": 17
+    },
+    "darkwave": {
+      "direct": 91,
+      "including_subgenres": 118
+    },
+    "death-doom-metal": {
+      "direct": 42,
+      "including_subgenres": 42
+    },
+    "death-industrial": {
+      "direct": 21,
+      "including_subgenres": 21
+    },
+    "death-metal": {
+      "direct": 271,
+      "including_subgenres": 307
+    },
+    "deathcore": {
+      "direct": 102,
+      "including_subgenres": 102
+    },
+    "deathgrind": {
+      "direct": 42,
+      "including_subgenres": 42
+    },
+    "deconstructed-club": {
+      "direct": 96,
+      "including_subgenres": 96
+    },
+    "deep-house": {
+      "direct": 105,
+      "including_subgenres": 105
+    },
+    "deep-soul": {
+      "direct": 22,
+      "including_subgenres": 22
+    },
+    "delta-blues": {
+      "direct": 7,
+      "including_subgenres": 7
+    },
+    "depressive-black-metal": {
+      "direct": 35,
+      "including_subgenres": 35
+    },
+    "detroit-techno": {
+      "direct": 13,
+      "including_subgenres": 13
+    },
+    "detroit-trap": {
+      "direct": 30,
+      "including_subgenres": 30
+    },
+    "digicore": {
+      "direct": 49,
+      "including_subgenres": 49
+    },
+    "digital-hardcore": {
+      "direct": 36,
+      "including_subgenres": 36
+    },
+    "disco": {
+      "direct": 123,
+      "including_subgenres": 260
+    },
+    "djent": {
+      "direct": 84,
+      "including_subgenres": 84
+    },
+    "doom-metal": {
+      "direct": 157,
+      "including_subgenres": 157
+    },
+    "downtempo": {
+      "direct": 264,
+      "including_subgenres": 264
+    },
+    "dream-pop": {
+      "direct": 747,
+      "including_subgenres": 747
+    },
+    "drift-phonk": {
+      "direct": 1,
+      "including_subgenres": 1
+    },
+    "drill": {
+      "direct": 37,
+      "including_subgenres": 68
+    },
+    "drill-and-bass": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "drone": {
+      "direct": 275,
+      "including_subgenres": 275
+    },
+    "drone-metal": {
+      "direct": 69,
+      "including_subgenres": 69
+    },
+    "drum-and-bass": {
+      "direct": 53,
+      "including_subgenres": 88
+    },
+    "drumless": {
+      "direct": 93,
+      "including_subgenres": 93
+    },
+    "dub": {
+      "direct": 74,
+      "including_subgenres": 108
+    },
+    "dub-techno": {
+      "direct": 26,
+      "including_subgenres": 26
+    },
+    "dubstep": {
+      "direct": 71,
+      "including_subgenres": 102
+    },
+    "east-coast-hip-hop": {
+      "direct": 1095,
+      "including_subgenres": 1095
+    },
+    "easy-listening": {
+      "direct": 23,
+      "including_subgenres": 207
+    },
+    "ebm": {
+      "direct": 41,
+      "including_subgenres": 41
+    },
+    "ecm-jazz": {
+      "direct": 30,
+      "including_subgenres": 30
+    },
+    "electric-blues": {
+      "direct": 36,
+      "including_subgenres": 36
+    },
+    "electro": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "electro-disco": {
+      "direct": 51,
+      "including_subgenres": 51
+    },
+    "electro-funk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "electro-house": {
+      "direct": 117,
+      "including_subgenres": 117
+    },
+    "electro-industrial": {
+      "direct": 94,
+      "including_subgenres": 94
+    },
+    "electroacoustic": {
+      "direct": 57,
+      "including_subgenres": 57
+    },
+    "electroclash": {
+      "direct": 83,
+      "including_subgenres": 83
+    },
+    "electronic": {
+      "direct": 793,
+      "including_subgenres": 7522
+    },
+    "electronic-dance-music": {
+      "direct": 101,
+      "including_subgenres": 146
+    },
+    "electronic-trap": {
+      "direct": 63,
+      "including_subgenres": 63
+    },
+    "electropop": {
+      "direct": 938,
+      "including_subgenres": 938
+    },
+    "emo": {
+      "direct": 220,
+      "including_subgenres": 220
+    },
+    "emo-pop": {
+      "direct": 147,
+      "including_subgenres": 147
+    },
+    "emo-rap": {
+      "direct": 155,
+      "including_subgenres": 155
+    },
+    "ethereal-wave": {
+      "direct": 74,
+      "including_subgenres": 74
+    },
+    "experimental": {
+      "direct": 581,
+      "including_subgenres": 581
+    },
+    "experimental-music": {
+      "direct": 241,
+      "including_subgenres": 1213
+    },
+    "experimental-rock": {
+      "direct": 571,
+      "including_subgenres": 571
+    },
+    "field-recording": {
+      "direct": 41,
+      "including_subgenres": 41
+    },
+    "film-score": {
+      "direct": 21,
+      "including_subgenres": 21
+    },
+    "flamenco": {
+      "direct": 8,
+      "including_subgenres": 8
+    },
+    "flashcore": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "folk": {
+      "direct": 408,
+      "including_subgenres": 3197
+    },
+    "folk-metal": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "folk-pop": {
+      "direct": 349,
+      "including_subgenres": 349
+    },
+    "folk-punk": {
+      "direct": 45,
+      "including_subgenres": 45
+    },
+    "folk-rock": {
+      "direct": 613,
+      "including_subgenres": 613
+    },
+    "folktronica": {
+      "direct": 131,
+      "including_subgenres": 131
+    },
+    "footwork": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "freak-folk": {
+      "direct": 33,
+      "including_subgenres": 33
+    },
+    "free-improvisation": {
+      "direct": 65,
+      "including_subgenres": 65
+    },
+    "free-jazz": {
+      "direct": 100,
+      "including_subgenres": 100
+    },
+    "french-hip-hop": {
+      "direct": 36,
+      "including_subgenres": 36
+    },
+    "french-house": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "funeral-doom-metal": {
+      "direct": 14,
+      "including_subgenres": 14
+    },
+    "funk": {
+      "direct": 290,
+      "including_subgenres": 977
+    },
+    "funk-metal": {
+      "direct": 38,
+      "including_subgenres": 38
+    },
+    "funk-rock": {
+      "direct": 114,
+      "including_subgenres": 114
+    },
+    "future-bass": {
+      "direct": 68,
+      "including_subgenres": 68
+    },
+    "future-garage": {
+      "direct": 76,
+      "including_subgenres": 76
+    },
+    "g-funk": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "gangsta-rap": {
+      "direct": 546,
+      "including_subgenres": 546
+    },
+    "garage-punk": {
+      "direct": 148,
+      "including_subgenres": 148
+    },
+    "garage-rock": {
+      "direct": 338,
+      "including_subgenres": 338
+    },
+    "garage-rock-revival": {
+      "direct": 105,
+      "including_subgenres": 105
+    },
+    "german-hip-hop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "glam-metal": {
+      "direct": 78,
+      "including_subgenres": 78
+    },
+    "glam-rock": {
+      "direct": 161,
+      "including_subgenres": 161
+    },
+    "glitch": {
+      "direct": 93,
+      "including_subgenres": 93
+    },
+    "glitch-hop": {
+      "direct": 90,
+      "including_subgenres": 90
+    },
+    "glitch-pop": {
+      "direct": 165,
+      "including_subgenres": 165
+    },
+    "gospel": {
+      "direct": 45,
+      "including_subgenres": 50
+    },
+    "gothic-metal": {
+      "direct": 82,
+      "including_subgenres": 82
+    },
+    "gothic-rock": {
+      "direct": 153,
+      "including_subgenres": 153
+    },
+    "grime": {
+      "direct": 57,
+      "including_subgenres": 57
+    },
+    "grindcore": {
+      "direct": 80,
+      "including_subgenres": 113
+    },
+    "groove-metal": {
+      "direct": 118,
+      "including_subgenres": 118
+    },
+    "grunge": {
+      "direct": 124,
+      "including_subgenres": 124
+    },
+    "hard-bop": {
+      "direct": 189,
+      "including_subgenres": 189
+    },
+    "hard-rock": {
+      "direct": 912,
+      "including_subgenres": 912
+    },
+    "hardcore": {
+      "direct": 668,
+      "including_subgenres": 722
+    },
+    "hardcore-punk": {
+      "direct": 255,
+      "including_subgenres": 286
+    },
+    "harsh-noise": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "heartland-rock": {
+      "direct": 114,
+      "including_subgenres": 114
+    },
+    "heavy-metal": {
+      "direct": 402,
+      "including_subgenres": 454
+    },
+    "heavy-psych": {
+      "direct": 92,
+      "including_subgenres": 92
+    },
+    "hip-hop": {
+      "direct": 848,
+      "including_subgenres": 5608
+    },
+    "hip-house": {
+      "direct": 57,
+      "including_subgenres": 57
+    },
+    "honky-tonk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "horrorcore": {
+      "direct": 84,
+      "including_subgenres": 84
+    },
+    "house": {
+      "direct": 163,
+      "including_subgenres": 526
+    },
+    "hymns": {
+      "direct": 4,
+      "including_subgenres": 4
+    },
+    "hyperpop": {
+      "direct": 88,
+      "including_subgenres": 88
+    },
+    "hypnagogic-pop": {
+      "direct": 119,
+      "including_subgenres": 119
+    },
+    "idm": {
+      "direct": 288,
+      "including_subgenres": 288
+    },
+    "illbient": {
+      "direct": 16,
+      "including_subgenres": 16
+    },
+    "impressionism": {
+      "direct": 9,
+      "including_subgenres": 9
+    },
+    "indie-folk": {
+      "direct": 709,
+      "including_subgenres": 709
+    },
+    "indie-pop": {
+      "direct": 1936,
+      "including_subgenres": 1936
+    },
+    "indie-rock": {
+      "direct": 2936,
+      "including_subgenres": 2936
+    },
+    "indietronica": {
+      "direct": 500,
+      "including_subgenres": 500
+    },
+    "industrial": {
+      "direct": 96,
+      "including_subgenres": 114
+    },
+    "industrial-hip-hop": {
+      "direct": 146,
+      "including_subgenres": 146
+    },
+    "industrial-metal": {
+      "direct": 142,
+      "including_subgenres": 142
+    },
+    "industrial-rock": {
+      "direct": 160,
+      "including_subgenres": 160
+    },
+    "industrial-techno": {
+      "direct": 19,
+      "including_subgenres": 19
+    },
+    "instrumental-hip-hop": {
+      "direct": 185,
+      "including_subgenres": 185
+    },
+    "j-pop": {
+      "direct": 124,
+      "including_subgenres": 124
+    },
+    "j-rock": {
+      "direct": 100,
+      "including_subgenres": 100
+    },
+    "jam-band": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "jangle-pop": {
+      "direct": 243,
+      "including_subgenres": 243
+    },
+    "jangle-rock": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "japanese-hip-hop": {
+      "direct": 10,
+      "including_subgenres": 10
+    },
+    "jazz": {
+      "direct": 161,
+      "including_subgenres": 2310
+    },
+    "jazz-funk": {
+      "direct": 150,
+      "including_subgenres": 150
+    },
+    "jazz-fusion": {
+      "direct": 332,
+      "including_subgenres": 332
+    },
+    "jazz-manouche": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "jazz-pop": {
+      "direct": 111,
+      "including_subgenres": 111
+    },
+    "jazz-rap": {
+      "direct": 370,
+      "including_subgenres": 370
+    },
+    "jazz-rock": {
+      "direct": 209,
+      "including_subgenres": 209
+    },
+    "jazz-standards": {
+      "direct": 94,
+      "including_subgenres": 94
+    },
+    "juke": {
+      "direct": 8,
+      "including_subgenres": 8
+    },
+    "jungle": {
+      "direct": 22,
+      "including_subgenres": 22
+    },
+    "k-pop": {
+      "direct": 489,
+      "including_subgenres": 489
+    },
+    "krautrock": {
+      "direct": 123,
+      "including_subgenres": 123
+    },
+    "latin": {
+      "direct": 0,
+      "including_subgenres": 644
+    },
+    "latin-electronic": {
+      "direct": 27,
+      "including_subgenres": 27
+    },
+    "latin-hip-hop": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "latin-jazz": {
+      "direct": 25,
+      "including_subgenres": 25
+    },
+    "latin-pop": {
+      "direct": 91,
+      "including_subgenres": 91
+    },
+    "latin-rock": {
+      "direct": 26,
+      "including_subgenres": 26
+    },
+    "lounge": {
+      "direct": 32,
+      "including_subgenres": 32
+    },
+    "lowercase": {
+      "direct": 2,
+      "including_subgenres": 2
+    },
+    "math-pop": {
+      "direct": 55,
+      "including_subgenres": 55
+    },
+    "math-rock": {
+      "direct": 182,
+      "including_subgenres": 182
+    },
+    "mathcore": {
+      "direct": 80,
+      "including_subgenres": 80
+    },
+    "melodic-black-metal": {
+      "direct": 49,
+      "including_subgenres": 49
+    },
+    "melodic-death-metal": {
+      "direct": 138,
+      "including_subgenres": 138
+    },
+    "melodic-hardcore": {
+      "direct": 62,
+      "including_subgenres": 62
+    },
+    "melodic-metalcore": {
+      "direct": 100,
+      "including_subgenres": 100
+    },
+    "memphis-rap": {
+      "direct": 81,
+      "including_subgenres": 81
+    },
+    "metal": {
+      "direct": 28,
+      "including_subgenres": 3753
+    },
+    "metalcore": {
+      "direct": 331,
+      "including_subgenres": 409
+    },
+    "microhouse": {
+      "direct": 51,
+      "including_subgenres": 51
+    },
+    "midwest-emo": {
+      "direct": 149,
+      "including_subgenres": 149
+    },
+    "midwest-hip-hop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "minimal-synth": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "minimal-techno": {
+      "direct": 54,
+      "including_subgenres": 54
+    },
+    "minimal-wave": {
+      "direct": 43,
+      "including_subgenres": 43
+    },
+    "minimalism": {
+      "direct": 79,
+      "including_subgenres": 79
+    },
+    "modal-jazz": {
+      "direct": 50,
+      "including_subgenres": 50
+    },
+    "modern-classical": {
+      "direct": 230,
+      "including_subgenres": 230
+    },
+    "mpb": {
+      "direct": 263,
+      "including_subgenres": 263
+    },
+    "musique-concrete": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "neo-prog": {
+      "direct": 7,
+      "including_subgenres": 7
+    },
+    "neo-psychedelia": {
+      "direct": 867,
+      "including_subgenres": 867
+    },
+    "neo-soul": {
+      "direct": 447,
+      "including_subgenres": 447
+    },
+    "neoclassical-darkwave": {
+      "direct": 29,
+      "including_subgenres": 29
+    },
+    "neoclassical-new-age": {
+      "direct": 18,
+      "including_subgenres": 18
+    },
+    "neoclassicism": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "neofolk": {
+      "direct": 36,
+      "including_subgenres": 36
+    },
+    "new-age": {
+      "direct": 106,
+      "including_subgenres": 118
+    },
+    "new-jack-swing": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "new-rave": {
+      "direct": 46,
+      "including_subgenres": 46
+    },
+    "new-wave": {
+      "direct": 552,
+      "including_subgenres": 552
+    },
+    "no-wave": {
+      "direct": 41,
+      "including_subgenres": 41
+    },
+    "noise": {
+      "direct": 95,
+      "including_subgenres": 123
+    },
+    "noise-pop": {
+      "direct": 336,
+      "including_subgenres": 336
+    },
+    "noise-rock": {
+      "direct": 512,
+      "including_subgenres": 512
+    },
+    "northern-soul": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "nu-disco": {
+      "direct": 110,
+      "including_subgenres": 110
+    },
+    "nu-jazz": {
+      "direct": 96,
+      "including_subgenres": 96
+    },
+    "nu-metal": {
+      "direct": 190,
+      "including_subgenres": 190
+    },
+    "opera": {
+      "direct": 14,
+      "including_subgenres": 14
+    },
+    "orchestral": {
+      "direct": 39,
+      "including_subgenres": 39
+    },
+    "outlaw-country": {
+      "direct": 38,
+      "including_subgenres": 38
+    },
+    "outsider-house": {
+      "direct": 26,
+      "including_subgenres": 26
+    },
+    "p-funk": {
+      "direct": 16,
+      "including_subgenres": 16
+    },
+    "phonk": {
+      "direct": 4,
+      "including_subgenres": 4
+    },
+    "piano-blues": {
+      "direct": 4,
+      "including_subgenres": 4
+    },
+    "piano-rock": {
+      "direct": 136,
+      "including_subgenres": 136
+    },
+    "plugg": {
+      "direct": 71,
+      "including_subgenres": 71
+    },
+    "plunderphonics": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "political-hip-hop": {
+      "direct": 69,
+      "including_subgenres": 69
+    },
+    "pop": {
+      "direct": 619,
+      "including_subgenres": 13619
+    },
+    "pop-punk": {
+      "direct": 408,
+      "including_subgenres": 408
+    },
+    "pop-rap": {
+      "direct": 1256,
+      "including_subgenres": 1256
+    },
+    "pop-rock": {
+      "direct": 2058,
+      "including_subgenres": 2058
+    },
+    "pop-soul": {
+      "direct": 358,
+      "including_subgenres": 358
+    },
+    "post-bop": {
+      "direct": 183,
+      "including_subgenres": 183
+    },
+    "post-britpop": {
+      "direct": 62,
+      "including_subgenres": 62
+    },
+    "post-grunge": {
+      "direct": 144,
+      "including_subgenres": 144
+    },
+    "post-hardcore": {
+      "direct": 679,
+      "including_subgenres": 679
+    },
+    "post-industrial": {
+      "direct": 156,
+      "including_subgenres": 240
+    },
+    "post-metal": {
+      "direct": 130,
+      "including_subgenres": 130
+    },
+    "post-minimalism": {
+      "direct": 55,
+      "including_subgenres": 55
+    },
+    "post-punk": {
+      "direct": 899,
+      "including_subgenres": 911
+    },
+    "post-punk-revival": {
+      "direct": 188,
+      "including_subgenres": 188
+    },
+    "post-rock": {
+      "direct": 524,
+      "including_subgenres": 524
+    },
+    "power-electronics": {
+      "direct": 33,
+      "including_subgenres": 33
+    },
+    "power-metal": {
+      "direct": 107,
+      "including_subgenres": 107
+    },
+    "power-pop": {
+      "direct": 485,
+      "including_subgenres": 485
+    },
+    "praise-and-worship": {
+      "direct": 1,
+      "including_subgenres": 1
+    },
+    "progressive-country": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "progressive-electronic": {
+      "direct": 194,
+      "including_subgenres": 194
+    },
+    "progressive-folk": {
+      "direct": 95,
+      "including_subgenres": 95
+    },
+    "progressive-house": {
+      "direct": 47,
+      "including_subgenres": 47
+    },
+    "progressive-metal": {
+      "direct": 378,
+      "including_subgenres": 378
+    },
+    "progressive-metalcore": {
+      "direct": 45,
+      "including_subgenres": 45
+    },
+    "progressive-pop": {
+      "direct": 259,
+      "including_subgenres": 259
+    },
+    "progressive-rock": {
+      "direct": 618,
+      "including_subgenres": 618
+    },
+    "progressive-soul": {
+      "direct": 39,
+      "including_subgenres": 39
+    },
+    "psychedelic-folk": {
+      "direct": 247,
+      "including_subgenres": 247
+    },
+    "psychedelic-funk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "psychedelic-pop": {
+      "direct": 430,
+      "including_subgenres": 430
+    },
+    "psychedelic-rock": {
+      "direct": 741,
+      "including_subgenres": 741
+    },
+    "psychedelic-soul": {
+      "direct": 149,
+      "including_subgenres": 149
+    },
+    "punk": {
+      "direct": 33,
+      "including_subgenres": 3986
+    },
+    "punk-blues": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "punk-rock": {
+      "direct": 375,
+      "including_subgenres": 400
+    },
+    "rage": {
+      "direct": 103,
+      "including_subgenres": 103
+    },
+    "rap-metal": {
+      "direct": 38,
+      "including_subgenres": 38
+    },
+    "rap-rock": {
+      "direct": 133,
+      "including_subgenres": 133
+    },
+    "raw-black-metal": {
+      "direct": 49,
+      "including_subgenres": 49
+    },
+    "reggae": {
+      "direct": 67,
+      "including_subgenres": 334
+    },
+    "reggae-pop": {
+      "direct": 43,
+      "including_subgenres": 43
+    },
+    "reggaeton": {
+      "direct": 83,
+      "including_subgenres": 83
+    },
+    "religious-music": {
+      "direct": 0,
+      "including_subgenres": 46
+    },
+    "riot-grrrl": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "rnb": {
+      "direct": 140,
+      "including_subgenres": 2939
+    },
+    "rock": {
+      "direct": 177,
+      "including_subgenres": 18466
+    },
+    "rock-and-roll": {
+      "direct": 101,
+      "including_subgenres": 101
+    },
+    "rock-in-opposition": {
+      "direct": 3,
+      "including_subgenres": 3
+    },
+    "rock-opera": {
+      "direct": 73,
+      "including_subgenres": 73
+    },
+    "rockabilly": {
+      "direct": 47,
+      "including_subgenres": 47
+    },
+    "rocksteady": {
+      "direct": 1,
+      "including_subgenres": 1
+    },
+    "romantic-classical": {
+      "direct": 15,
+      "including_subgenres": 15
+    },
+    "roots-reggae": {
+      "direct": 62,
+      "including_subgenres": 62
+    },
+    "roots-rock": {
+      "direct": 105,
+      "including_subgenres": 105
+    },
+    "salsa": {
+      "direct": 24,
+      "including_subgenres": 24
+    },
+    "samba": {
+      "direct": 92,
+      "including_subgenres": 119
+    },
+    "samba-cancao": {
+      "direct": 3,
+      "including_subgenres": 3
+    },
+    "samba-jazz": {
+      "direct": 30,
+      "including_subgenres": 30
+    },
+    "samba-rock": {
+      "direct": 15,
+      "including_subgenres": 15
+    },
+    "screamo": {
+      "direct": 86,
+      "including_subgenres": 86
+    },
+    "sequencer-and-tracker": {
+      "direct": 35,
+      "including_subgenres": 35
+    },
+    "serialism": {
+      "direct": 3,
+      "including_subgenres": 3
+    },
+    "shibuya-kei": {
+      "direct": 46,
+      "including_subgenres": 46
+    },
+    "shoegaze": {
+      "direct": 454,
+      "including_subgenres": 493
+    },
+    "show-tunes": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "singer-songwriter": {
+      "direct": 2644,
+      "including_subgenres": 2644
+    },
+    "ska": {
+      "direct": 28,
+      "including_subgenres": 68
+    },
+    "ska-punk": {
+      "direct": 43,
+      "including_subgenres": 43
+    },
+    "skate-punk": {
+      "direct": 85,
+      "including_subgenres": 85
+    },
+    "slacker-rock": {
+      "direct": 248,
+      "including_subgenres": 248
+    },
+    "slowcore": {
+      "direct": 224,
+      "including_subgenres": 224
+    },
+    "sludge-metal": {
+      "direct": 199,
+      "including_subgenres": 199
+    },
+    "smooth-jazz": {
+      "direct": 40,
+      "including_subgenres": 40
+    },
+    "smooth-soul": {
+      "direct": 145,
+      "including_subgenres": 145
+    },
+    "soft-rock": {
+      "direct": 189,
+      "including_subgenres": 228
+    },
+    "solo-piano": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "sonata": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "sophisti-pop": {
+      "direct": 194,
+      "including_subgenres": 194
+    },
+    "soul": {
+      "direct": 401,
+      "including_subgenres": 465
+    },
+    "soul-jazz": {
+      "direct": 65,
+      "including_subgenres": 65
+    },
+    "sound-art": {
+      "direct": 4,
+      "including_subgenres": 4
+    },
+    "sound-collage": {
+      "direct": 107,
+      "including_subgenres": 107
+    },
+    "soundtrack": {
+      "direct": 14,
+      "including_subgenres": 234
+    },
+    "southern-gospel": {
+      "direct": 1,
+      "including_subgenres": 1
+    },
+    "southern-hip-hop": {
+      "direct": 948,
+      "including_subgenres": 948
+    },
+    "southern-rock": {
+      "direct": 99,
+      "including_subgenres": 99
+    },
+    "southern-soul": {
+      "direct": 73,
+      "including_subgenres": 73
+    },
+    "space-ambient": {
+      "direct": 29,
+      "including_subgenres": 29
+    },
+    "space-rock": {
+      "direct": 89,
+      "including_subgenres": 89
+    },
+    "space-rock-revival": {
+      "direct": 63,
+      "including_subgenres": 63
+    },
+    "speed-metal": {
+      "direct": 37,
+      "including_subgenres": 37
+    },
+    "spiritual-jazz": {
+      "direct": 106,
+      "including_subgenres": 106
+    },
+    "spoken-word": {
+      "direct": 117,
+      "including_subgenres": 117
+    },
+    "stoner-metal": {
+      "direct": 111,
+      "including_subgenres": 111
+    },
+    "stoner-rock": {
+      "direct": 99,
+      "including_subgenres": 99
+    },
+    "string-quartet": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "sunshine-pop": {
+      "direct": 61,
+      "including_subgenres": 61
+    },
+    "surf-rock": {
+      "direct": 38,
+      "including_subgenres": 38
+    },
+    "swing": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "symphonic-black-metal": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "symphonic-metal": {
+      "direct": 72,
+      "including_subgenres": 72
+    },
+    "symphonic-prog": {
+      "direct": 85,
+      "including_subgenres": 85
+    },
+    "symphonic-rock": {
+      "direct": 27,
+      "including_subgenres": 27
+    },
+    "symphony": {
+      "direct": 14,
+      "including_subgenres": 14
+    },
+    "synth-funk": {
+      "direct": 147,
+      "including_subgenres": 147
+    },
+    "synth-punk": {
+      "direct": 79,
+      "including_subgenres": 79
+    },
+    "synthpop": {
+      "direct": 1192,
+      "including_subgenres": 1192
+    },
+    "synthwave": {
+      "direct": 55,
+      "including_subgenres": 55
+    },
+    "tango": {
+      "direct": 6,
+      "including_subgenres": 6
+    },
+    "tape-music": {
+      "direct": 53,
+      "including_subgenres": 53
+    },
+    "tech-house": {
+      "direct": 70,
+      "including_subgenres": 70
+    },
+    "technical-death-metal": {
+      "direct": 107,
+      "including_subgenres": 107
+    },
+    "technical-thrash-metal": {
+      "direct": 25,
+      "including_subgenres": 25
+    },
+    "techno": {
+      "direct": 94,
+      "including_subgenres": 298
+    },
+    "teen-pop": {
+      "direct": 86,
+      "including_subgenres": 86
+    },
+    "third-stream": {
+      "direct": 35,
+      "including_subgenres": 35
+    },
+    "thrash-metal": {
+      "direct": 273,
+      "including_subgenres": 301
+    },
+    "traditional-folk": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "traditional-pop": {
+      "direct": 65,
+      "including_subgenres": 65
+    },
+    "trance": {
+      "direct": 27,
+      "including_subgenres": 27
+    },
+    "trap": {
+      "direct": 1259,
+      "including_subgenres": 1324
+    },
+    "trap-metal": {
+      "direct": 69,
+      "including_subgenres": 69
+    },
+    "tribal-ambient": {
+      "direct": 34,
+      "including_subgenres": 34
+    },
+    "trip-hop": {
+      "direct": 222,
+      "including_subgenres": 222
+    },
+    "tropicalia": {
+      "direct": 28,
+      "including_subgenres": 28
+    },
+    "turntablism": {
+      "direct": 29,
+      "including_subgenres": 29
+    },
+    "twee-pop": {
+      "direct": 135,
+      "including_subgenres": 135
+    },
+    "uk-bass": {
+      "direct": 127,
+      "including_subgenres": 127
+    },
+    "uk-drill": {
+      "direct": 19,
+      "including_subgenres": 19
+    },
+    "uk-garage": {
+      "direct": 30,
+      "including_subgenres": 30
+    },
+    "uk-hip-hop": {
+      "direct": 186,
+      "including_subgenres": 186
+    },
+    "underground-hip-hop": {
+      "direct": 0,
+      "including_subgenres": 0
+    },
+    "urban-contemporary-gospel": {
+      "direct": 1,
+      "including_subgenres": 1
+    },
+    "vaporwave": {
+      "direct": 60,
+      "including_subgenres": 60
+    },
+    "video-game-music": {
+      "direct": 6,
+      "including_subgenres": 6
+    },
+    "vocal-jazz": {
+      "direct": 192,
+      "including_subgenres": 192
+    },
+    "west-coast-hip-hop": {
+      "direct": 510,
+      "including_subgenres": 510
+    },
+    "witch-house": {
+      "direct": 44,
+      "including_subgenres": 44
+    },
+    "wonky": {
+      "direct": 96,
+      "including_subgenres": 96
+    },
+    "yacht-rock": {
+      "direct": 53,
+      "including_subgenres": 53
+    },
+    "zeuhl": {
+      "direct": 20,
+      "including_subgenres": 20
+    },
+    "zolo": {
+      "direct": 23,
+      "including_subgenres": 23
+    }
+  },
+  "integrity": {
+    "all_previous_release_ids_preserved": true,
+    "all_previous_artist_ids_preserved": true,
+    "previous_genre_names_and_parents_preserved": true,
+    "source_facts_preserved": true,
+    "checked_previous_metadata_rows": 64243,
+    "old_vibe_order_unchanged": true,
+    "previous_observations_preserved": true
+  }
+}

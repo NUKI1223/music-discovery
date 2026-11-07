@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/31852e7a-7801-431a-b384-9db079fce816",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/31852e7a-7801-431a-b384-9db079fce816?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:38.069368+00:00",
+  "response": {
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "first-release-date": "2014-03-15",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [],
+          "id": "58ce884c-395b-419a-9bd3-633f0601f0a1",
+          "country": null,
+          "disambiguation": "",
+          "type": "Person",
+          "sort-name": "Lee, Edo",
+          "name": "Edo Lee",
+          "tags": []
+        },
+        "joinphrase": "",
+        "name": "Edo Lee"
+      }
+    ],
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "boom bap",
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a"
+      }
+    ],
+    "title": "Waking Nights",
+    "primary-type": "EP",
+    "id": "31852e7a-7801-431a-b384-9db079fce816"
+  }
+}

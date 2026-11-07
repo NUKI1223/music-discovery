@@ -1,0 +1,146 @@
+{
+  "endpoint": "release-group/b16397ae-3c6f-451f-a6cc-e24daf89045d",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/b16397ae-3c6f-451f-a6cc-e24daf89045d?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:46.661117+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Genesis Owusu",
+          "country": "AU",
+          "tags": [
+            {
+              "name": "alternative hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "alternative r&b"
+            },
+            {
+              "count": 1,
+              "name": "funk"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "pop"
+            },
+            {
+              "name": "r&b",
+              "count": 1
+            },
+            {
+              "name": "synth-pop",
+              "count": 1
+            }
+          ],
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "Owusu, Genesis",
+          "type": "Person",
+          "genres": [
+            {
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "disambiguation": "",
+              "count": 1,
+              "name": "alternative hip hop"
+            },
+            {
+              "name": "alternative r&b",
+              "id": "4e03fb35-d571-4111-824d-88c9f8a3d0c9",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "name": "funk",
+              "count": 1,
+              "disambiguation": "",
+              "id": "fe4ba6a1-9873-4fd0-a12b-a70c81818514"
+            },
+            {
+              "count": 2,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "name": "pop",
+              "count": 1,
+              "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+              "disambiguation": ""
+            },
+            {
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "disambiguation": "",
+              "count": 1,
+              "name": "r&b"
+            },
+            {
+              "name": "synth-pop",
+              "count": 1,
+              "disambiguation": "",
+              "id": "988e91a3-3341-416d-b7f8-7dbef6848dac"
+            }
+          ],
+          "id": "632258cb-4ab5-4f2d-be29-bcc641a275eb"
+        },
+        "name": "Genesis Owusu",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "EP",
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "name": "jazz rap"
+      }
+    ],
+    "title": "Cardrive EP",
+    "first-release-date": "2017-06-16",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "id": "b16397ae-3c6f-451f-a6cc-e24daf89045d",
+    "secondary-type-ids": [],
+    "secondary-types": []
+  }
+}

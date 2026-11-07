@@ -1,0 +1,7 @@
+{
+  "minimum_labels": 60,
+  "minimum_minority": 15,
+  "seed": 17,
+  "taxonomy_version": "community-taxonomy-v1+6e4b3bae01a2",
+  "feature_version": "genre-tags-v1"
+}

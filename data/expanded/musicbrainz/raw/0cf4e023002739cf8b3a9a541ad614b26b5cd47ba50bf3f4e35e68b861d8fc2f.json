@@ -1,0 +1,84 @@
+{
+  "endpoint": "release-group/c31f9561-eb3e-4dd0-9b1b-fde5317df6ac",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c31f9561-eb3e-4dd0-9b1b-fde5317df6ac?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:59.476167+00:00",
+  "response": {
+    "id": "c31f9561-eb3e-4dd0-9b1b-fde5317df6ac",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "4ae63770-68af-4fae-b0f1-5e53f372c743",
+        "name": "instrumental"
+      },
+      {
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4",
+        "name": "instrumental hip hop",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "name": "latin",
+        "id": "7369bb8b-3399-4180-8cb2-4e37e0e7b0e7",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Big Quarters",
+          "id": "4a9093dc-54d0-4e21-8f2d-f75f5594bfab",
+          "tags": [],
+          "sort-name": "Big Quarters",
+          "genres": [],
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "US",
+          "disambiguation": ""
+        },
+        "name": "Big Quarters",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "disambiguation": "",
+    "first-release-date": "2009-10-10",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "instrumental"
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "latin"
+      }
+    ],
+    "secondary-types": [],
+    "title": "Zip Disks Break II",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc"
+  }
+}

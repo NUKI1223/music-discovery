@@ -1,0 +1,193 @@
+{
+  "endpoint": "release-group/c405b73b-586a-41fa-b44a-fe9e0264f281",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c405b73b-586a-41fa-b44a-fe9e0264f281?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:12.681175+00:00",
+  "response": {
+    "first-release-date": "2025-03-24",
+    "artist-credit": [
+      {
+        "name": "heavensouls",
+        "joinphrase": " x ",
+        "artist": {
+          "country": "US",
+          "disambiguation": "",
+          "name": "heavensouls",
+          "id": "de15ecbf-aee4-42e5-97c6-b538087a87dd",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "ambient pop"
+            },
+            {
+              "name": "drone metal",
+              "count": 1
+            },
+            {
+              "name": "electronic",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "glitch",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "hypnagogic pop"
+            },
+            {
+              "name": "lo-fi",
+              "count": 1
+            },
+            {
+              "name": "sound art",
+              "count": 1
+            }
+          ],
+          "sort-name": "heavensouls",
+          "type": "Person",
+          "genres": [
+            {
+              "count": 1,
+              "id": "2cdcecfe-3e7c-4055-ab34-78eceabe4d9b",
+              "name": "ambient pop",
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "id": "9e5374b1-1f09-4c27-827a-d4e6aff4cc29",
+              "disambiguation": "",
+              "name": "drone metal"
+            },
+            {
+              "count": 1,
+              "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+              "name": "electronic",
+              "disambiguation": ""
+            },
+            {
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+              "count": 1,
+              "name": "experimental hip hop",
+              "disambiguation": ""
+            },
+            {
+              "id": "18b010d7-7d85-4445-a4a8-1889a4688308",
+              "count": 1,
+              "name": "glitch",
+              "disambiguation": ""
+            },
+            {
+              "id": "c0dccaaa-171d-4355-b5c6-10ae392c1087",
+              "count": 1,
+              "name": "hypnagogic pop",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "name": "lo-fi",
+              "id": "65e2f3ad-e0bd-4627-bd83-cba7c8b6d011",
+              "count": 1
+            },
+            {
+              "name": "sound art",
+              "disambiguation": "",
+              "id": "1ec74b4b-4f9f-4aa4-9a46-b840382f3a59",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "name": "stickerbush",
+        "joinphrase": "",
+        "artist": {
+          "disambiguation": "Electronic",
+          "name": "Stickerbush",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "5c317922-83f0-40f2-a947-fa5d9d1446c0",
+          "tags": [
+            {
+              "name": "experimental hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "glitch hop"
+            },
+            {
+              "name": "idm",
+              "count": 1
+            },
+            {
+              "name": "sound collage",
+              "count": 1
+            }
+          ],
+          "type": "Person",
+          "genres": [
+            {
+              "name": "experimental hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "name": "glitch hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "aa3215ae-28e6-4993-908e-ed3807e1ce54"
+            },
+            {
+              "name": "idm",
+              "disambiguation": "",
+              "count": 1,
+              "id": "8eb583f1-4fd7-460c-8246-dcdccc0e3ef9"
+            },
+            {
+              "name": "sound collage",
+              "disambiguation": "",
+              "count": 1,
+              "id": "dd5ad210-043c-4af3-86bd-91bedd9ca827"
+            }
+          ],
+          "sort-name": "Stickerbush",
+          "country": "US"
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "experimental hip hop",
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "count": 1
+      }
+    ],
+    "tags": [
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      }
+    ],
+    "id": "c405b73b-586a-41fa-b44a-fe9e0264f281",
+    "secondary-types": [],
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "darkskin niggas with lightskin problems"
+  }
+}

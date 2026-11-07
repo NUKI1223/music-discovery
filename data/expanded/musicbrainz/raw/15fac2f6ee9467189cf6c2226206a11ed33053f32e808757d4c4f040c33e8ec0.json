@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/f77f9896-20f2-4550-99df-f93ff422c945",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/f77f9896-20f2-4550-99df-f93ff422c945?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:47.447195+00:00",
+  "response": {
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "King Orgasmus One",
+        "joinphrase": "",
+        "artist": {
+          "country": "DE",
+          "disambiguation": "",
+          "name": "King Orgasmus One",
+          "type": "Person",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "name": "hip hop",
+              "disambiguation": ""
+            }
+          ],
+          "sort-name": "King Orgasmus One",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "786b89d8-c94f-42d6-a50e-08ebc08e7961"
+        }
+      }
+    ],
+    "first-release-date": "2014-10-01",
+    "secondary-type-ids": [],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "id": "f77f9896-20f2-4550-99df-f93ff422c945",
+    "genres": [
+      {
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "count": 1,
+        "disambiguation": "",
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 1,
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "name": "hip hop"
+      }
+    ],
+    "title": "Fuck Love",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": ""
+  }
+}

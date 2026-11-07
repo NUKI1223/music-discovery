@@ -1,0 +1,2493 @@
+{
+  "endpoint": "release-group/",
+  "params": {
+    "query": "tag:\"trap\" AND (primarytype:album OR primarytype:ep) AND firstreleasedate:[2010-01-01 TO 2019-12-31]",
+    "fmt": "json",
+    "limit": 50,
+    "offset": 0
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/?query=tag%3A%22trap%22+AND+%28primarytype%3Aalbum+OR+primarytype%3Aep%29+AND+firstreleasedate%3A%5B2010-01-01+TO+2019-12-31%5D&fmt=json&limit=50&offset=0",
+  "captured_at": "2026-10-28T12:17:48.500680+00:00",
+  "response": {
+    "created": "2026-10-28T12:17:48.413Z",
+    "count": 3016,
+    "offset": 0,
+    "release-groups": [
+      {
+        "id": "41c48c80-9515-430a-8c55-abf16a9f7517",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 100,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b9d75e05-7e2c-3e1c-a97d-7f0229586a39",
+        "count": 2,
+        "title": "ŤɌ∆Ҏ ᶊῌῗ† 1/5",
+        "first-release-date": "2012-01-04",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "ƱZ",
+            "artist": {
+              "id": "17a338f2-a8b4-4d81-ba6b-f8baeb04d30f",
+              "name": "UZ",
+              "sort-name": "UZ",
+              "disambiguation": "UZ",
+              "aliases": [
+                {
+                  "sort-name": "ƱZ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "ƱZ",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "UZ",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "UZ",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "︻╦╤─ ƱZ ─╤╦︻",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "︻╦╤─ ƱZ ─╤╦︻",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "00efc1fb-cd77-48b3-9e95-2a8df5362ed9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Trap Shit V1/5",
+            "status": "Official"
+          },
+          {
+            "id": "504fd64f-b0d9-4aa9-acce-a1077617bc8b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ŤɌ∆Ҏ ᶊῌῗ† 1/5",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "trap edm"
+          }
+        ]
+      },
+      {
+        "id": "0a6aa76c-492c-4ad6-a57a-4b0a89a85195",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9155b94e-adca-3426-adb7-1f7eb0e7c66a",
+        "count": 1,
+        "title": "Candy",
+        "first-release-date": "2014-12-21",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Losco",
+            "artist": {
+              "id": "b6ec16d0-8673-41b9-afd4-e40a6d08f97c",
+              "name": "Losco",
+              "sort-name": "Losco",
+              "disambiguation": "Belgian beatmakers, aka 'Loscobeats'",
+              "aliases": [
+                {
+                  "sort-name": "Losco.",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Losco.",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Losco Beats",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Losco Beats",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Loscobeats",
+                  "name": "Loscobeats",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "36c02d05-873c-4641-90bb-9d19b5736a7d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Candy",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "70d05617-2f79-4f02-895a-6635e0e6cec6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9425d7df-9e51-3bd6-8451-710b243e82e5",
+        "count": 1,
+        "title": "Lieb's oder lass es",
+        "first-release-date": "2013-07-12",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " feat. ",
+            "name": "Genetikk",
+            "artist": {
+              "id": "7dd16bd5-3ca3-4026-9ffd-c3fe1ccfedf6",
+              "name": "Genetikk",
+              "sort-name": "Genetikk"
+            }
+          },
+          {
+            "name": "Sido",
+            "artist": {
+              "id": "3caf69c1-fdd8-44bc-b0a5-8af3ad8a47cd",
+              "name": "Sido",
+              "sort-name": "Sido",
+              "disambiguation": "German rapper",
+              "aliases": [
+                {
+                  "sort-name": "Siggi",
+                  "name": "Siggi",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "207617ad-b82b-4115-85c8-304354416c5b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Lieb's oder lass es",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "1ad8a8f8-a787-482e-94dd-5c3de73f23e3",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "df0de538-cad1-3708-b94e-b6d5351ca2d0",
+        "count": 1,
+        "title": "Pírdula",
+        "first-release-date": "2016-05-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Bejo",
+            "artist": {
+              "id": "634d4044-77e3-4d92-813a-ae63734f4378",
+              "name": "Bejo",
+              "sort-name": "Bejo",
+              "disambiguation": "Spanish rapper",
+              "aliases": [
+                {
+                  "sort-name": "Jiménez Mérida, Borja",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Borja Jiménez Mérida",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "100b1e39-dfab-4528-9728-46ea4ef6b815",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pírdula",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "607c327a-9964-4ce6-8341-bff037891344",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "bc604bcc-928d-366d-9c14-db1a18565aa3",
+        "count": 1,
+        "title": "Tiffany",
+        "first-release-date": "2018-04-12",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Ufo361",
+            "artist": {
+              "id": "80e8e55c-6e9b-470f-844b-48e618fb6e56",
+              "name": "Ufo361",
+              "sort-name": "Ufo361",
+              "aliases": [
+                {
+                  "sort-name": "Bayraktar, Ufuk",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Ufuk Bayraktar",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Ufo 361",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Ufo 361",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "3d3c2a52-9f74-4b03-a43a-64c1b41f5db5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tiffany",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "a347358e-d74c-4cff-9e0b-a35c5e7ed6c9",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "088627b7-906a-30cc-b761-5a4cb081ed10",
+        "count": 3,
+        "title": "Diggoo",
+        "first-release-date": "2010",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jumal x10 Lavis",
+            "artist": {
+              "id": "a8fa7329-85c7-404a-9e54-058589466972",
+              "name": "Lavis",
+              "sort-name": "Lavis",
+              "disambiguation": "Finnish rap artist",
+              "aliases": [
+                {
+                  "sort-name": "Lavis, Jumal x10",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jumal x10 Lavis",
+                  "locale": "fi",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lavis, Jumal Olo",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jumal Olo Lavis",
+                  "locale": "fi",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "22e791ce-62ae-4306-ac5f-04fb33724f56",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Diggoo",
+            "status": "Official"
+          },
+          {
+            "id": "92d751cb-57ed-4d84-a5f3-8aa86c5a9c61",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Diggoo",
+            "status": "Official"
+          },
+          {
+            "id": "443c4597-f271-4560-af08-5c3dc3bafab2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Diggoo EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "d7776874-a2b1-4738-8827-10112b0aacc0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9d7a6b53-e529-3945-a038-bcf705f16118",
+        "count": 1,
+        "title": "Enkeleiden alistajat",
+        "first-release-date": "2015-09-17",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " X ",
+            "name": "Lavis",
+            "artist": {
+              "id": "a8fa7329-85c7-404a-9e54-058589466972",
+              "name": "Lavis",
+              "sort-name": "Lavis",
+              "disambiguation": "Finnish rap artist",
+              "aliases": [
+                {
+                  "sort-name": "Lavis, Jumal x10",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jumal x10 Lavis",
+                  "locale": "fi",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lavis, Jumal Olo",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jumal Olo Lavis",
+                  "locale": "fi",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          },
+          {
+            "name": "Keemoh",
+            "artist": {
+              "id": "b5e99f6f-b5f6-443e-8f6d-99c48cb6a03c",
+              "name": "Keemoh",
+              "sort-name": "Keemoh",
+              "disambiguation": "Finnish artist Kimmo Kautiainen"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0c80cda5-1c8f-4e56-9718-c3e8b50be164",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Enkeleiden alistajat",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "bb578e9a-2fb5-4d58-b483-ef84f3b4e965",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6a3e12b6-911f-3191-bd55-82f0cc917fb0",
+        "count": 1,
+        "title": "God Di Kam",
+        "first-release-date": "2019-01-10",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jovi",
+            "artist": {
+              "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+              "name": "Jovi",
+              "sort-name": "Jovi",
+              "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+              "aliases": [
+                {
+                  "sort-name": "Le Monstre",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Le Monstre",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d1d2034f-0246-43c7-a33e-ae1a3e4974c5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "God Di Kam",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "62ad28da-bd4a-43ba-a345-af67accfef90",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e569902a-6677-3f38-90c3-e7bbd5b8f8c6",
+        "count": 1,
+        "title": "4B0082",
+        "first-release-date": "2019-02-14",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Indigo",
+            "artist": {
+              "id": "f639ea6d-4b4a-4a72-a197-f036e3f646ad",
+              "name": "Indigo",
+              "sort-name": "Indigo",
+              "disambiguation": "Czech Rapper"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "840a770b-b7ac-4086-b0ab-040e9f313725",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "4B0082",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "8e3915b3-5df7-42c5-bebb-621840a08ebb",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6a3e12b6-911f-3191-bd55-82f0cc917fb0",
+        "count": 1,
+        "title": "Puta Madre",
+        "first-release-date": "2016-01-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jovi",
+            "artist": {
+              "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+              "name": "Jovi",
+              "sort-name": "Jovi",
+              "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+              "aliases": [
+                {
+                  "sort-name": "Le Monstre",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Le Monstre",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "445f2ab7-8376-459d-80aa-ff060a4fe92e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Puta Madre",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "b86da12d-4a1b-4558-a596-f5c76d4ad7d4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c739c7ce-d34f-3e91-8be8-e33cb4f8b2db",
+        "count": 1,
+        "title": "Keskel metsää ep",
+        "first-release-date": "2018-01-28",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jumal Velho",
+            "artist": {
+              "id": "ea2b4c06-93e4-4b73-96b8-1c4d111f053f",
+              "name": "Jumal Velho",
+              "sort-name": "Jumal Velho",
+              "disambiguation": "Finnish hardstyle artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "167b023e-93bc-4494-a3cd-0a12d02a374c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Keskel metsää ep",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "0a4a96e9-66dc-4537-b8e5-d1c3f169a2d6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9387bc01-5f62-336a-a4ef-267b88cbb0f7",
+        "count": 1,
+        "title": "TIGRE PEUT ETRE",
+        "first-release-date": "2018-01-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "GUY",
+            "artist": {
+              "id": "b049c5ad-5c90-46af-b3a5-f76f0f2d7c35",
+              "name": "Dae Booche",
+              "sort-name": "Dae Booche",
+              "disambiguation": "French electronic",
+              "aliases": [
+                {
+                  "sort-name": "Vincent, Théo",
+                  "name": "Théo Vincent",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ad4ea0e8-4b22-4c75-b6a9-f809f82ec98b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "TIGRE PEUT ETRE",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "9101cc00-dca1-42f9-b98b-1972b4118ea0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ebc9550e-c7cf-395e-81e1-39caaa749315",
+        "count": 1,
+        "title": "Pastels EP",
+        "first-release-date": "2016-10-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Palette",
+            "artist": {
+              "id": "c2bb3d3c-a015-43fa-948d-663d2229e61e",
+              "name": "Palette",
+              "sort-name": "Palette",
+              "disambiguation": "Producer from Brisbane, Australia"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9ba6f201-a395-44a2-8736-429e65fe974b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pastels EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "9ad91140-fe12-40c1-8e68-d74e2c524209",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c739c7ce-d34f-3e91-8be8-e33cb4f8b2db",
+        "count": 3,
+        "title": "Velhografia",
+        "first-release-date": "2010",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Compilation"
+        ],
+        "secondary-type-ids": [
+          "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+        ],
+        "artist-credit": [
+          {
+            "name": "Jumal Velho",
+            "artist": {
+              "id": "ea2b4c06-93e4-4b73-96b8-1c4d111f053f",
+              "name": "Jumal Velho",
+              "sort-name": "Jumal Velho",
+              "disambiguation": "Finnish hardstyle artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ba1d483e-4f29-453e-9555-75df035d2142",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Velhobiisit",
+            "status": "Official"
+          },
+          {
+            "id": "f347367a-d8c9-4806-b3a1-b79655716f11",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Velhografia",
+            "status": "Official"
+          },
+          {
+            "id": "89a01ea6-c7b5-4ebe-a315-a4cb49b2e39f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Vanhat",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "52bcd116-fbfe-4b3c-ae5a-e95998226dbc",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6a3e12b6-911f-3191-bd55-82f0cc917fb0",
+        "count": 1,
+        "title": "Yajé Vol. 1: Black",
+        "first-release-date": "2017-08-27",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jovi",
+            "artist": {
+              "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+              "name": "Jovi",
+              "sort-name": "Jovi",
+              "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+              "aliases": [
+                {
+                  "sort-name": "Le Monstre",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Le Monstre",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0c8668fe-6082-47d3-adb2-1fb677eb81f3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Yajé Vol. 1: Black",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "8bf2a978-0df7-4883-9eec-328e8bfd2f0b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6a3e12b6-911f-3191-bd55-82f0cc917fb0",
+        "count": 1,
+        "title": "Bad Music",
+        "first-release-date": "2016-03-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Jovi",
+            "artist": {
+              "id": "405da592-9b1d-41e1-8847-2a6568268f5b",
+              "name": "Jovi",
+              "sort-name": "Jovi",
+              "disambiguation": "Cameroonian rapper Ndukong Godlove Nfor",
+              "aliases": [
+                {
+                  "sort-name": "Le Monstre",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Le Monstre",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9d96510d-de89-4229-bce3-2cc162fb18b2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Bad Music",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "2119f6d3-d11e-4c38-b5ed-c4b2a1076129",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "92f43b3f-2733-3696-be82-e1f73aa8eb69",
+        "count": 1,
+        "title": "Wish You Were Fentanyl...",
+        "first-release-date": "2019-08-06",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "NV$TY PX$H aka BIG OUNCE",
+            "artist": {
+              "id": "756675fd-49a4-4f86-b077-a2b135afdade",
+              "name": "NV$TY PX$H aka BIG OUNCE",
+              "sort-name": "NV$TY PX$H aka BIG OUNCE",
+              "disambiguation": "Hip-Hop/Rap/Trap"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "86cca91c-f574-4d28-869a-5244e7bebfee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Wish You Were Fentanyl...",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "a7b1ed33-43c4-4671-bf81-ededb3e1626d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7476bb94-af6e-3b3a-94db-c711486760d5",
+        "count": 1,
+        "title": "XXXX",
+        "first-release-date": "2013-12-20",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Losco.",
+            "artist": {
+              "id": "b6ec16d0-8673-41b9-afd4-e40a6d08f97c",
+              "name": "Losco",
+              "sort-name": "Losco",
+              "disambiguation": "Belgian beatmakers, aka 'Loscobeats'",
+              "aliases": [
+                {
+                  "sort-name": "Losco.",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Losco.",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Losco Beats",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Losco Beats",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Loscobeats",
+                  "name": "Loscobeats",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "9e59196f-cbbd-4bc3-a22b-c20f32e1b129",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "XXXX",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "89bde17e-302d-43e3-95d1-924057e8cb8b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "39cbab1f-0c05-3995-9e07-e31e27f0d7f3",
+        "count": 1,
+        "title": "SAKURA",
+        "first-release-date": "2019-06-08",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "joinphrase": " & ",
+            "name": "Akashi",
+            "artist": {
+              "id": "b2ddd836-8b2e-4613-9618-c1817a9accb0",
+              "name": "Akashi",
+              "sort-name": "Akashi",
+              "disambiguation": "rapper fr"
+            }
+          },
+          {
+            "name": "Nanto",
+            "artist": {
+              "id": "70799102-3465-4301-9a88-e1d4dc69c530",
+              "name": "Nanto",
+              "sort-name": "Nanto",
+              "disambiguation": "rapper fr"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "ef1d2b9e-10a4-47ec-bdc6-850ef3bd4e19",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "SAKURA",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "5f8f9f31-49d4-44e3-953e-3004c982d6ed",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "9572dc0a-d432-3268-860d-5c43ccf2d8f1",
+        "count": 1,
+        "title": "Tigre peut-être",
+        "first-release-date": "2018-01-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "GUY",
+            "artist": {
+              "id": "9a3b15aa-f09b-4152-a540-dd03ecb842c8",
+              "name": "GUY",
+              "sort-name": "GUY",
+              "disambiguation": "Théo Vincent, Harmeny Records artist"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d8b086d4-e56c-4a89-a6b7-1bbd06dc4a08",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tigre peut-être",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "f1ad6bc4-a3c2-4543-b108-42d206db9038",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "018378d7-44c4-359a-a0c3-32dc4b54eaad",
+        "count": 1,
+        "title": "Next Level",
+        "first-release-date": "2013-02-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Wolf-e-Wolf",
+            "artist": {
+              "id": "485cc855-23d6-4c04-b288-c62b8c06138a",
+              "name": "Wolf-e-Wolf",
+              "sort-name": "Wolf-e-Wolf"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "52d1adee-884c-4a61-a6d8-bb11fc286b60",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Next Level",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "eb8fda7e-b1c4-4d0d-9138-78956c924f1a",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "018378d7-44c4-359a-a0c3-32dc4b54eaad",
+        "count": 1,
+        "title": "Jungle Vision",
+        "first-release-date": "2013-09-03",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Wolf-e-Wolf",
+            "artist": {
+              "id": "485cc855-23d6-4c04-b288-c62b8c06138a",
+              "name": "Wolf-e-Wolf",
+              "sort-name": "Wolf-e-Wolf"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "c6b953db-9ddb-4bfd-9e13-b56ebd9aa96a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Jungle Vision",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "8ebcd8e1-22c9-4586-9487-8efb418cb37e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5e1edeb0-7758-3056-b9ce-f477a563d974",
+        "count": 1,
+        "title": "Drives & Thighs",
+        "first-release-date": "2014-06-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Fortune",
+            "artist": {
+              "id": "8a3a8d96-907e-472f-ab72-3d9d3ea7b789",
+              "name": "Fortune",
+              "sort-name": "Fortune",
+              "disambiguation": "Producer, FlowFi"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d45424d7-e028-4d3d-9645-d738d1686acf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Drives & Thighs",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "297ecbec-f806-453b-992f-4266c2dc3df2",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ea12b5d2-5ed0-3dce-afac-85ef83029190",
+        "count": 1,
+        "title": "Yoshimitsu",
+        "first-release-date": "2014-08-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Majin Bu",
+            "artist": {
+              "id": "d1b78d2a-70aa-4ea5-b88d-e9e78484e6d0",
+              "name": "Majin Bu",
+              "sort-name": "Majin Bu"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "82d46ecf-ea1d-468e-9232-d2086a258a25",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Yoshimitsu",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "549f2467-a30c-4655-861e-28764448faa5",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ea12b5d2-5ed0-3dce-afac-85ef83029190",
+        "count": 1,
+        "title": "Pause",
+        "first-release-date": "2014-06-24",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Majin Bu",
+            "artist": {
+              "id": "d1b78d2a-70aa-4ea5-b88d-e9e78484e6d0",
+              "name": "Majin Bu",
+              "sort-name": "Majin Bu"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f8eb5b67-73b1-4188-abd6-b841e168eacb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pause",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "7daeb84c-a9b4-4f74-a7e7-6303b4a95cf4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "49421c41-4d3e-3559-bd60-253423b31845",
+        "count": 1,
+        "title": "On va tous mûrir",
+        "first-release-date": "2013-07-23",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Deux Lyricists",
+            "artist": {
+              "id": "84622180-f304-4c6e-b851-b3b9ccc11b07",
+              "name": "Deux Lyricists",
+              "sort-name": "Deux Lyricists",
+              "disambiguation": "Hip hop de Grenoble"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5a53d68f-f422-4b06-998c-a197ecaa2207",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "On va tous mûrir",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "346d219d-dc07-4c82-becc-2c0893435c77",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 98,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "16b85376-691b-4710-b1ce-7fd5a057e1d1",
+        "count": 1,
+        "title": "Infamous",
+        "first-release-date": "2019-08-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "It’s Dynamite",
+            "artist": {
+              "id": "cf0a33ce-b16a-47c3-840c-0479a6315416",
+              "name": "It’s Dynamite",
+              "sort-name": "It’s Dynamite",
+              "disambiguation": "producer/engineer",
+              "aliases": [
+                {
+                  "sort-name": "Dynamite",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Dynamite",
+                  "locale": "en_US",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "다이너마이트",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "다이너마이트",
+                  "locale": "ko_KR",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Dinamita",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Dinamita",
+                  "locale": "es_MX",
+                  "type": "Artist name",
+                  "primary": true,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "C'est de la dynamite",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "C'est de la dynamite",
+                  "locale": "fr_FR",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Sejour Arthur",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Arthur Sejour",
+                  "locale": "en_US",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0abae21a-3bbd-475b-9d4c-57c203392341",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Infamous",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "eb6b110d-d4cf-4387-94de-ad8e6d083ec0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 95,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8c188300-5d1e-38ac-ac4e-125961c9a69f",
+        "count": 1,
+        "title": "Faded",
+        "first-release-date": "2014-07-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Gent & Jawns",
+            "artist": {
+              "id": "2d587c2f-05d5-4401-b0ae-e3bbadc173d3",
+              "name": "Gent & Jawns",
+              "sort-name": "Gent & Jawns",
+              "disambiguation": "Billy the Gent & Long Jawns",
+              "aliases": [
+                {
+                  "sort-name": "Billy the Gent & Long Jawns",
+                  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                  "name": "Billy the Gent & Long Jawns",
+                  "locale": null,
+                  "type": "Search hint",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "beb337e1-6f45-4fe9-8a05-f51523c8f1a3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Faded",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "dance"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "trap edm"
+          }
+        ]
+      },
+      {
+        "id": "3fb77137-e069-45dc-a78a-7a61ec5f5898",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 94,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "685d5b8e-71d4-3743-ab78-ccb1c0949d6e",
+        "count": 2,
+        "title": "The Uncaged Remixes",
+        "first-release-date": "2014-11-17",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Remix"
+        ],
+        "secondary-type-ids": [
+          "0c60f497-ff81-3818-befd-abfc84a4858b"
+        ],
+        "artist-credit": [
+          {
+            "name": "Pegboard Nerds",
+            "artist": {
+              "id": "c729681b-c5c1-4509-a6d1-f916c51aefd7",
+              "name": "Pegboard Nerds",
+              "sort-name": "Pegboard Nerds",
+              "aliases": [
+                {
+                  "sort-name": "PegboardsNerd",
+                  "name": "PegboardsNerd",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "33efef05-5c43-435e-abfa-2ea255d8c836",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Uncaged Remixes",
+            "status": "Official"
+          },
+          {
+            "id": "49634159-faee-4b59-9653-6e629a9f85c8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Uncaged Remixes",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "twerk"
+          },
+          {
+            "count": 1,
+            "name": "hybrid trap"
+          },
+          {
+            "count": 1,
+            "name": "festival trap"
+          }
+        ]
+      },
+      {
+        "id": "68f72c3d-9e10-4eef-8016-eb96dcad5cdb",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 91,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "0e671868-79c3-3ab2-99b2-ea0b54a16018",
+        "count": 1,
+        "title": "Rihanna’s Baby Daddy",
+        "first-release-date": "2018-09-02",
+        "primary-type": "EP",
+        "secondary-types": [
+          "Mixtape/Street"
+        ],
+        "secondary-type-ids": [
+          "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+        ],
+        "artist-credit": [
+          {
+            "name": "Vampire Money",
+            "artist": {
+              "id": "cc298cc8-4fbc-4b40-86bd-e90326c787c5",
+              "name": "Vampire Money",
+              "sort-name": "Vampire Money",
+              "aliases": [
+                {
+                  "sort-name": "Vamp Money",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Vamp Money",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "fec3289d-8c67-445f-9123-473c8e05087c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Rihanna’s Baby Daddy",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "hip hop"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "dark trap"
+          }
+        ]
+      },
+      {
+        "id": "80326443-ca0f-4def-8033-4cc78d7652c6",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "bcbc2bdc-8975-3bea-9fcc-46cbebd0be8f",
+        "count": 1,
+        "title": "Endless Fog EP",
+        "first-release-date": "2012-05-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kings",
+            "artist": {
+              "id": "48bfb48b-2081-48c6-8686-918ca08151e5",
+              "name": "Kings",
+              "sort-name": "Kings",
+              "disambiguation": "UK trap producer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f7f0a6ae-6e0a-4cc0-9791-d5645c867d09",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Endless Fog EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "experimental"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "77918f86-277b-4d93-ab89-2f5a30a643e8",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "303c7c14-f407-34c2-b064-d38c59edcab9",
+        "count": 1,
+        "title": "Breathe",
+        "first-release-date": "2014-03-31",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Baer",
+            "artist": {
+              "id": "8592cc36-c591-4596-aac0-bfba7857f9cd",
+              "name": "Baer",
+              "sort-name": "Baer",
+              "disambiguation": "Bassplayer in Early Grobschnitt",
+              "aliases": [
+                {
+                  "sort-name": "Bär",
+                  "name": "Bär",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0845af09-673b-4d2c-82f4-30fbcd37f94c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breathe",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "95de3b2a-e3b7-4fd0-871d-594f8d178321",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "7059a270-7251-3379-b8c1-5b3270028cf4",
+        "count": 1,
+        "title": "Gold Trap",
+        "first-release-date": "2013-01-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Stooki Sound",
+            "artist": {
+              "id": "1e863f07-d65d-497f-8e96-5aa96d2be941",
+              "name": "Stooki Sound",
+              "sort-name": "Stooki Sound",
+              "disambiguation": "UK EDM/trap producers/DJs duo"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "58518bdf-c17f-493a-bcff-5df9ac07768a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Gold Trap",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "fe78797a-23fb-4f0a-a1ae-b469a303f81b",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "0c94f304-3e47-3590-ad0d-5a8d7110fd97",
+        "count": 2,
+        "title": "HiLion",
+        "first-release-date": "2011-03-01",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Big Chocolate",
+            "artist": {
+              "id": "ccebdfd2-92a6-42d9-9337-41bc8dd1f9f3",
+              "name": "Big Chocolate",
+              "sort-name": "Big Chocolate",
+              "disambiguation": "US dubstep producer Cameron Argon"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "d8d1573f-4799-424d-98cc-feb050e5ace6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Hilion",
+            "status": "Official"
+          },
+          {
+            "id": "e4c16432-d80c-4f3f-baab-691ede5ce74c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HiLion",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "7ae74d93-61f1-4749-9821-64e5967c9e5d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "c847de09-4bd8-376b-9717-8e0fa43f5879",
+        "count": 1,
+        "title": "Rogue",
+        "first-release-date": "2016-08-31",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Afro Sam",
+            "artist": {
+              "id": "310dbfd3-c157-41e9-ba06-f0eabddc8426",
+              "name": "Afro Sam",
+              "sort-name": "Afro Sam"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "f5f0775d-3374-4fe5-bc6d-7295cfba7a9f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Rogue",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "grime"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "ad48a552-8c39-4733-9e57-faccf485b952",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "15e5fb84-e07b-3d04-a8c2-d94a467f6865",
+        "count": 1,
+        "title": "Yoga",
+        "first-release-date": "2018-01-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Schlaasss",
+            "artist": {
+              "id": "d991ca43-d33f-486c-8f3b-c9bef9feb82f",
+              "name": "Schlaasss",
+              "sort-name": "Schlaasss",
+              "disambiguation": "French punk rap"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "5c0899ff-c2fc-47f7-a50d-9b1f679a5c02",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Yoga",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "punk"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "48439cf8-26f3-4701-b337-53cb714c3d23",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "a613ffca-37f6-3b3f-8fdc-de487cd26a06",
+        "count": 1,
+        "title": "Tales From the South",
+        "first-release-date": "2018-02-27",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Absolute Terror",
+            "artist": {
+              "id": "99da779e-13d8-445f-a6e9-8718bf1e628b",
+              "name": "Absolute Terror",
+              "sort-name": "Absolute Terror"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "cb16d5c0-fa30-4c29-b36f-3cc7aa50c212",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Tales From the South",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "trap"
+          },
+          {
+            "count": 1,
+            "name": "phonk"
+          }
+        ]
+      },
+      {
+        "id": "c0c10fd2-36d6-4213-b623-7156232870b0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "d364336c-fe77-3056-965f-63aa0ec91102",
+        "count": 1,
+        "title": "Luna",
+        "first-release-date": "2016-10-16",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Inkyz",
+            "artist": {
+              "id": "3d88bc5b-5904-4a63-ab4e-5192827b38c5",
+              "name": "Inkyz",
+              "sort-name": "Inkyz"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "70daa855-ca42-4eef-9245-c621acc2b70d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Luna",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "797643f3-57d8-4762-b450-a34be803a794",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "ed53b2a3-0a22-35d4-8dcf-5531787dd60e",
+        "count": 2,
+        "title": "Ai640",
+        "first-release-date": "2015-09-06",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Landon Tewers",
+            "artist": {
+              "id": "224e7503-fefa-4db8-9afd-4a724990d95e",
+              "name": "Landon Tewers",
+              "sort-name": "Landon Tewers",
+              "aliases": [
+                {
+                  "sort-name": "Ai640",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Ai640",
+                  "locale": null,
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "8e2729e8-256c-4883-b39f-421786fc2ad6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ai640",
+            "status": "Official"
+          },
+          {
+            "id": "3c27875a-2446-4f6a-af5d-72e63647533d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ai640",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "metal"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "0362d970-632a-4b40-993e-9156d8676704",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5ab7ba5d-6e25-37fd-8ac9-725ae59c88e5",
+        "count": 1,
+        "title": "Glass",
+        "first-release-date": "2019-01-11",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "døves",
+            "artist": {
+              "id": "f5d3b70b-8fe7-4a68-91ad-a9e45f678082",
+              "name": "døves",
+              "sort-name": "døves",
+              "disambiguation": "cloud/emo rapper and producer from Los Angeles"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e34a0a06-0c33-434a-b517-d913fbdc6091",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Glass",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "emo"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "27d298cd-23c0-4256-9218-77e9e766c62d",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5ab7ba5d-6e25-37fd-8ac9-725ae59c88e5",
+        "count": 1,
+        "title": "ep2",
+        "first-release-date": "2017-01-25",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "døves",
+            "artist": {
+              "id": "f5d3b70b-8fe7-4a68-91ad-a9e45f678082",
+              "name": "døves",
+              "sort-name": "døves",
+              "disambiguation": "cloud/emo rapper and producer from Los Angeles"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "65cbdcb1-3828-4da7-930a-72976edad8f4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ep2",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "emo"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "a0966d7d-60c7-4b73-b09c-846733d265b4",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6178b0d9-8b3e-371d-92e2-6ec6a597bb1b",
+        "count": 1,
+        "title": "Maniac EP",
+        "first-release-date": "2018-07-13",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "PEEKABOO",
+            "artist": {
+              "id": "c37cb509-b7fd-4212-a6fb-163535eba4c1",
+              "name": "PEEKABOO",
+              "sort-name": "PEEKABOO",
+              "disambiguation": "dubstep producer Matthew Lucas",
+              "aliases": [
+                {
+                  "sort-name": "Lucas, Matthew Austin",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Matthew Austin Lucas",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0f1bfe70-339b-4230-809d-939d264361f9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Maniac EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "dubstep"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "d8710827-3597-4996-9fbf-b3a8017096e0",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6b18d4b0-151e-3bc8-8e0d-a142d3c031d0",
+        "count": 1,
+        "title": "Shell",
+        "first-release-date": "2013-03-07",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Aztek",
+            "artist": {
+              "id": "a6410f17-0a5b-47d1-936f-f0ef8bb9c4b9",
+              "name": "Aztek",
+              "sort-name": "Aztek",
+              "disambiguation": "Chicago electronic producer Mark Stiegel",
+              "aliases": [
+                {
+                  "sort-name": "Stiegel, Mark",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Mark Stiegel",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "7179797b-3de6-44cc-9b0e-951ef39298ce",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Shell",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "3722289f-e485-454c-8c4f-62fa5a8a8610",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "5565bf75-8716-3c45-ba51-b0a5606e8146",
+        "count": 1,
+        "title": "Poseidon EP",
+        "first-release-date": "2016-11-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Champagne Drip",
+            "artist": {
+              "id": "f5d9c469-cf44-47e8-8bef-be402ea45dfa",
+              "name": "Champagne Drip",
+              "sort-name": "Champagne Drip"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "e16eeaff-a08b-41cb-b22c-7c97f7e6801a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Poseidon EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "035b4965-8f77-4d8c-846d-756510aa756f",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "b05c4a05-3a53-3c0f-8a99-a43e2a2aab60",
+        "count": 1,
+        "title": "Spaces EP",
+        "first-release-date": "2018-02-22",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "HOUNDTRACK",
+            "artist": {
+              "id": "3959adaf-4888-4ba2-8963-cfd70b9fc1d9",
+              "name": "HOUNDTRACK",
+              "sort-name": "HOUNDTRACK",
+              "aliases": [
+                {
+                  "sort-name": "Korchinski, Scott",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Scott Korchinski",
+                  "locale": null,
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b615f4f8-5ccd-4348-9964-779a30accd17",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Spaces EP",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "dffbb977-d558-4576-a415-8b2dbfca7b3a",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "e76a61d8-6dfb-332f-a313-72cd759adf75",
+        "count": 1,
+        "title": "Vicious",
+        "first-release-date": "2015-06-10",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Aryay",
+            "artist": {
+              "id": "04009762-d776-4f8b-807f-53e9f730f5e0",
+              "name": "Aryay",
+              "sort-name": "Aryay",
+              "disambiguation": "DJ, producer, singer, composer"
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "0637b1fa-5f19-418b-8a41-4b367c569ac6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Vicious",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "0b0442ea-c08b-4b37-ab2a-23ad9949a2cc",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "6b18d4b0-151e-3bc8-8e0d-a142d3c031d0",
+        "count": 1,
+        "title": "Shower Music",
+        "first-release-date": "2013-07-26",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Aztek",
+            "artist": {
+              "id": "a6410f17-0a5b-47d1-936f-f0ef8bb9c4b9",
+              "name": "Aztek",
+              "sort-name": "Aztek",
+              "disambiguation": "Chicago electronic producer Mark Stiegel",
+              "aliases": [
+                {
+                  "sort-name": "Stiegel, Mark",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Mark Stiegel",
+                  "locale": "en",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "b773ca6e-fa77-4f32-b460-48086edfb918",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Shower Music",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "0adeadd3-824b-4c97-9a01-56569c5f036e",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "dda51f2b-ae37-3339-9b91-4ec968fe797b",
+        "count": 1,
+        "title": "Alchemy",
+        "first-release-date": "2017-09-15",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Kareful",
+            "artist": {
+              "id": "05f13bab-f4bf-454d-9c9f-50551474fe0b",
+              "name": "Kareful",
+              "sort-name": "Kareful",
+              "disambiguation": "UK phonk producer/label owner",
+              "aliases": [
+                {
+                  "sort-name": "Leigh‐Kaufman, Jude",
+                  "name": "Jude Leigh‐Kaufman",
+                  "locale": null,
+                  "type": null,
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Leigh-Kaufman, Jude",
+                  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                  "name": "Jude Leigh-Kaufman",
+                  "locale": "en_GB",
+                  "type": "Legal name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "2804f444-d86c-4ad4-b1a6-00b152f04c99",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Alchemy",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "electronic"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "8ef5c517-84e6-4cca-8779-34a7d187ab23",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "8f2cadab-3b47-326d-9237-c8160044247b",
+        "count": 1,
+        "title": "Takas saarel",
+        "first-release-date": "2014-10-19",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "Lavis",
+            "artist": {
+              "id": "a8fa7329-85c7-404a-9e54-058589466972",
+              "name": "Lavis",
+              "sort-name": "Lavis",
+              "disambiguation": "Finnish rap artist",
+              "aliases": [
+                {
+                  "sort-name": "Lavis, Jumal x10",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jumal x10 Lavis",
+                  "locale": "fi",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lavis, Jumal Olo",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jumal Olo Lavis",
+                  "locale": "fi",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "09760c8e-ef9a-4359-805f-d5b7ae0fb067",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Takas saarel",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "edm"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      },
+      {
+        "id": "512377fd-1d0a-4c87-82af-fb1b546a1a39",
+        "type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "score": 90,
+        "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+        "artist-credit-id": "258ae702-7cca-3c33-a7aa-8922cd2b21cc",
+        "count": 2,
+        "title": "dööd",
+        "first-release-date": "2012",
+        "primary-type": "EP",
+        "artist-credit": [
+          {
+            "name": "LAViS",
+            "artist": {
+              "id": "a8fa7329-85c7-404a-9e54-058589466972",
+              "name": "Lavis",
+              "sort-name": "Lavis",
+              "disambiguation": "Finnish rap artist",
+              "aliases": [
+                {
+                  "sort-name": "Lavis, Jumal x10",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jumal x10 Lavis",
+                  "locale": "fi",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                },
+                {
+                  "sort-name": "Lavis, Jumal Olo",
+                  "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                  "name": "Jumal Olo Lavis",
+                  "locale": "fi",
+                  "type": "Artist name",
+                  "primary": null,
+                  "begin-date": null,
+                  "end-date": null
+                }
+              ]
+            }
+          }
+        ],
+        "releases": [
+          {
+            "id": "6920056d-7326-40d1-b2b5-d4df3517c459",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "dööd",
+            "status": "Official"
+          },
+          {
+            "id": "13a631bf-b987-4ed6-8fa6-980a24931b61",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "dööd",
+            "status": "Official"
+          }
+        ],
+        "tags": [
+          {
+            "count": 1,
+            "name": "edm"
+          },
+          {
+            "count": 1,
+            "name": "trap"
+          }
+        ]
+      }
+    ]
+  }
+}

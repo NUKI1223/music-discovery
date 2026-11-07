@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/339e8549-45a8-4812-ba96-28d482228c5e",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/339e8549-45a8-4812-ba96-28d482228c5e?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:16.547348+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "disambiguation": "",
+    "title": "Sounds of Violence",
+    "id": "339e8549-45a8-4812-ba96-28d482228c5e",
+    "artist-credit": [
+      {
+        "name": "Saffron",
+        "artist": {
+          "tags": [],
+          "genres": [],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "996ef545-98da-4f92-ae4c-bf3afc449608",
+          "name": "Saffron",
+          "country": "US",
+          "disambiguation": "Star Fetchers OST producer",
+          "type": "Person",
+          "sort-name": "Saffron"
+        },
+        "joinphrase": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "name": "boom bap"
+      }
+    ],
+    "first-release-date": "2021-10-13",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

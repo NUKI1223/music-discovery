@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/1d2c9150-3dde-4f88-b5a6-48d882ea6c9b",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1d2c9150-3dde-4f88-b5a6-48d882ea6c9b?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:03.717537+00:00",
+  "response": {
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Pilooski",
+        "joinphrase": "",
+        "artist": {
+          "sort-name": "Pilooski",
+          "type": "Person",
+          "genres": [
+            {
+              "name": "drum and bass",
+              "disambiguation": "",
+              "id": "462f9321-6103-49c9-b6db-96219bce6f62",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "id": "4b0a0ccc-4123-4b85-9723-7b030b28548a",
+          "name": "Pilooski",
+          "country": "FR",
+          "tags": [
+            {
+              "count": 1,
+              "name": "drum and bass"
+            },
+            {
+              "name": "hip hop",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": ""
+        }
+      }
+    ],
+    "first-release-date": "2002-09-21",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "disambiguation": "",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "instrumental hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "24695813-4a26-4872-bc95-b3378e0ae1b4"
+      }
+    ],
+    "title": "Système Piloo",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "count": 1,
+        "name": "instrumental hip hop"
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "id": "1d2c9150-3dde-4f88-b5a6-48d882ea6c9b"
+  }
+}

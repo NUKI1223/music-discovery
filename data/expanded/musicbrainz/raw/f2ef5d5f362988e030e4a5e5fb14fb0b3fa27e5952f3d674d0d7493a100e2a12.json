@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/61a88d8a-49da-3215-90e6-d9baa5d42dc0",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/61a88d8a-49da-3215-90e6-d9baa5d42dc0?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:10.261522+00:00",
+  "response": {
+    "rating": {
+      "votes-count": 1,
+      "value": 4
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 3,
+        "name": "hip hop"
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "title": "The New World Order",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "61a88d8a-49da-3215-90e6-d9baa5d42dc0",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 3
+      },
+      {
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "country": "US",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "count": 3,
+              "disambiguation": ""
+            }
+          ],
+          "sort-name": "Poor Righteous Teachers",
+          "disambiguation": "",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 3
+            }
+          ],
+          "id": "b46cb508-b3be-4f6d-beac-a168127444b1",
+          "name": "Poor Righteous Teachers"
+        },
+        "name": "Poor Righteous Teachers"
+      }
+    ],
+    "first-release-date": "1996-10-01",
+    "disambiguation": ""
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "endpoint": "release-group/c0b0010f-1aca-4b6b-a5ad-9a693267e2e3",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c0b0010f-1aca-4b6b-a5ad-9a693267e2e3?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:23:54.214688+00:00",
+  "response": {
+    "first-release-date": "2026-07-31",
+    "secondary-types": [],
+    "secondary-type-ids": [],
+    "artist-credit": [
+      {
+        "name": "Homeboy Sandman",
+        "artist": {
+          "name": "Homeboy Sandman",
+          "disambiguation": "",
+          "country": "US",
+          "type": "Person",
+          "sort-name": "Homeboy Sandman",
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip hop"
+            },
+            {
+              "count": 1,
+              "name": "alternative hip hop"
+            },
+            {
+              "name": "boom bap",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "name": "east coast hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 3
+            },
+            {
+              "count": 1,
+              "name": "jazz rap"
+            }
+          ],
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "count": 1,
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "id": "924943cd-73c8-45c0-96eb-74f2a15e5d6e",
+              "disambiguation": "",
+              "name": "alternative hip hop"
+            },
+            {
+              "disambiguation": "",
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "count": 1,
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "disambiguation": "",
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "disambiguation": "",
+              "name": "east coast hip hop"
+            },
+            {
+              "count": 3,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+              "disambiguation": "",
+              "name": "jazz rap"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "65eaa552-1149-4b42-888e-6d6e4affdbff"
+        },
+        "joinphrase": " & "
+      },
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "name": "soul",
+              "count": 1
+            }
+          ],
+          "genres": [
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "1b5e7b16-336b-473e-a364-5120413a9827",
+              "name": "soul"
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "952701d5-59d2-40c5-b7a1-0d7925d5e351",
+          "name": "Jack Splash",
+          "country": "US",
+          "disambiguation": "",
+          "type": "Person",
+          "sort-name": "Splash, Jack"
+        },
+        "name": "Jack Splash"
+      }
+    ],
+    "id": "c0b0010f-1aca-4b6b-a5ad-9a693267e2e3",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip hop"
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "genres": [
+      {
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "title": "Resonance Frequency",
+    "primary-type": "Album",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "rating": {
+      "votes-count": 1,
+      "value": 3
+    },
+    "disambiguation": ""
+  }
+}

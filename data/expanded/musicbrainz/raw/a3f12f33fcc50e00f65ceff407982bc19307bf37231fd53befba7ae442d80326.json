@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/c569ad74-82ca-4388-9257-bc9ea8338fd6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/c569ad74-82ca-4388-9257-bc9ea8338fd6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:04.970898+00:00",
+  "response": {
+    "id": "c569ad74-82ca-4388-9257-bc9ea8338fd6",
+    "primary-type": "EP",
+    "title": "End of An Era Split EP",
+    "genres": [
+      {
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "name": "John The TXT-2-SPEECH",
+          "sort-name": "John The TXT-2-SPEECH",
+          "tags": [],
+          "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f",
+          "genres": [],
+          "id": "d33ce4f4-fa02-43a8-9f0b-cefcb22eaf8c",
+          "country": null,
+          "type": "Character",
+          "disambiguation": ""
+        },
+        "name": "John The TXT-2-SPEECH"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "disambiguation": "",
+    "first-release-date": "2020-04-20",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "endpoint": "release-group/704526af-3eaa-3aca-8cd8-c51f7c92c261",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/704526af-3eaa-3aca-8cd8-c51f7c92c261?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:17.573141+00:00",
+  "response": {
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "title": "MC Circulaire",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "secondary-types": [],
+    "tags": [
+      {
+        "count": 1,
+        "name": "hardcore hip hop"
+      },
+      {
+        "count": 1,
+        "name": "hip hop"
+      }
+    ],
+    "first-release-date": "2007",
+    "disambiguation": "",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "count": 1,
+        "disambiguation": ""
+      }
+    ],
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "id": "b3bffaad-7c05-41c3-8ae7-fac68b8a8687",
+          "name": "MC Circulaire",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "country": "FR",
+          "genres": [
+            {
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "count": 1,
+              "disambiguation": ""
+            }
+          ],
+          "sort-name": "Circulaire, MC",
+          "disambiguation": ""
+        },
+        "name": "MC Circulaire"
+      }
+    ],
+    "secondary-type-ids": [],
+    "id": "704526af-3eaa-3aca-8cd8-c51f7c92c261"
+  }
+}

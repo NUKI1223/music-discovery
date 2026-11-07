@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/7e50a18c-c855-44b6-a5d3-13665cae1401",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/7e50a18c-c855-44b6-a5d3-13665cae1401?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:14.811087+00:00",
+  "response": {
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "name": "boom bap"
+      }
+    ],
+    "title": "Boom Bap and Beyond EP",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2010-12-16",
+    "artist-credit": [
+      {
+        "artist": {
+          "tags": [],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "disambiguation": "",
+          "name": "Retrospek",
+          "country": "US",
+          "genres": [],
+          "id": "b517b6b4-2a70-486a-9767-ad2e0707e7be",
+          "sort-name": "Retrospek",
+          "type": "Group"
+        },
+        "joinphrase": "",
+        "name": "Retrospek"
+      }
+    ],
+    "primary-type": "EP",
+    "id": "7e50a18c-c855-44b6-a5d3-13665cae1401",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "boom bap"
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+  }
+}

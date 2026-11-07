@@ -1,0 +1,156 @@
+{
+  "endpoint": "release-group/06c64699-67be-4d81-b657-6f366e29fb41",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/06c64699-67be-4d81-b657-6f366e29fb41?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:29:02.501983+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "Sole",
+        "artist": {
+          "country": "US",
+          "disambiguation": "US experimental hip hop artist Tim Holland, Anticon associated",
+          "type": "Person",
+          "sort-name": "Sole",
+          "tags": [
+            {
+              "name": "abstract hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "boom bap"
+            },
+            {
+              "name": "conscious hip hop",
+              "count": 1
+            },
+            {
+              "name": "east coast hip hop",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "name": "experimental hip hop"
+            },
+            {
+              "name": "underground hip hop",
+              "count": 1
+            }
+          ],
+          "id": "7bc3a2d0-7eed-4b42-ae96-7d68c644454d",
+          "name": "Sole",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "name": "abstract hip hop",
+              "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+              "disambiguation": "",
+              "count": 1
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+              "name": "boom bap"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "conscious hip hop",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "1bafab01-c092-47bc-84ee-a6b503b3cb86",
+              "name": "east coast hip hop"
+            },
+            {
+              "disambiguation": "",
+              "count": 1,
+              "name": "experimental hip hop",
+              "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+            },
+            {
+              "name": "underground hip hop",
+              "id": "03a8749c-93e6-4b71-8204-b33de116d8fd",
+              "disambiguation": "",
+              "count": 1
+            }
+          ]
+        },
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2008-03-22",
+    "id": "06c64699-67be-4d81-b657-6f366e29fb41",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "abstract hip hop",
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c"
+      },
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "name": "electronic",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99",
+        "name": "experimental"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "experimental hip hop",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de"
+      },
+      {
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "disambiguation": "",
+        "count": 2
+      }
+    ],
+    "title": "Desert Eagle",
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "experimental",
+        "count": 1
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 2
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album"
+  }
+}

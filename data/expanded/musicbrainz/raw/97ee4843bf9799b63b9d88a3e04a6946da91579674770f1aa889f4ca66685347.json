@@ -1,0 +1,74 @@
+{
+  "endpoint": "release-group/0a735d96-d268-43c5-971d-80c97071b086",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/0a735d96-d268-43c5-971d-80c97071b086?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:43.114564+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "artist": {
+          "name": "Conexión Musical",
+          "sort-name": "Conexión Musical",
+          "tags": [],
+          "country": null,
+          "id": "a34432b8-6ea2-42b6-a2cc-399d7f6e7a4b",
+          "disambiguation": "",
+          "type": "Group",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": []
+        },
+        "joinphrase": "",
+        "name": "Conexión Musical"
+      }
+    ],
+    "tags": [
+      {
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "name": "experimental hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+        "disambiguation": "",
+        "count": 1,
+        "name": "electronic"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "13a4ac4a-8291-4a03-ab7b-311dec6457de",
+        "name": "experimental hip hop"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      }
+    ],
+    "secondary-types": [],
+    "id": "0a735d96-d268-43c5-971d-80c97071b086",
+    "primary-type": "Album",
+    "title": "Windstill",
+    "first-release-date": "2008",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "disambiguation": ""
+  }
+}

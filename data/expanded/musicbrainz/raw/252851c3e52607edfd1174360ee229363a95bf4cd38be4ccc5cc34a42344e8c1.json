@@ -1,0 +1,147 @@
+{
+  "endpoint": "release-group/bd88dbb3-14c9-41c4-b97a-1ac4cdb0c898",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/bd88dbb3-14c9-41c4-b97a-1ac4cdb0c898?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:30:23.295719+00:00",
+  "response": {
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "US",
+          "disambiguation": "US hip-hop mixtape DJ",
+          "name": "DJ Scream",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "id": "aed82b29-d6d5-4508-8940-068a60e52f24",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "type": "Person",
+          "sort-name": "Scream, DJ",
+          "genres": [
+            {
+              "disambiguation": "",
+              "name": "hip hop",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ]
+        },
+        "name": "DJ Scream",
+        "joinphrase": " & "
+      },
+      {
+        "artist": {
+          "name": "Gucci Mane",
+          "disambiguation": "US rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "36494952-f434-45d8-a958-8b4acdbcf8a8",
+          "tags": [
+            {
+              "name": "crunk",
+              "count": 1
+            },
+            {
+              "name": "dirty south",
+              "count": 1
+            },
+            {
+              "count": 8,
+              "name": "hip hop"
+            },
+            {
+              "name": "southern hip hop",
+              "count": 2
+            },
+            {
+              "name": "trap",
+              "count": 7
+            }
+          ],
+          "sort-name": "Gucci Mane",
+          "type": "Person",
+          "genres": [
+            {
+              "name": "crunk",
+              "disambiguation": "",
+              "id": "44c375ed-1041-4aa7-a2a0-05fb28135da3",
+              "count": 1
+            },
+            {
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641",
+              "count": 1,
+              "disambiguation": "",
+              "name": "dirty south"
+            },
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 8,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "count": 2,
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "disambiguation": "",
+              "name": "southern hip hop"
+            },
+            {
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "count": 7,
+              "name": "trap",
+              "disambiguation": ""
+            }
+          ],
+          "country": "US"
+        },
+        "joinphrase": "",
+        "name": "Gucci Mane"
+      }
+    ],
+    "primary-type": "Album",
+    "first-release-date": "2009-10-17",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "The Cold War: Great Brrritain",
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "id": "bd88dbb3-14c9-41c4-b97a-1ac4cdb0c898",
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      },
+      {
+        "name": "trap",
+        "disambiguation": "",
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ]
+  }
+}

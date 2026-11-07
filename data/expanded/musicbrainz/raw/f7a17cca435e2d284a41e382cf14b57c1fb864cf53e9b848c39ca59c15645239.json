@@ -1,0 +1,86 @@
+{
+  "endpoint": "release-group/780e97c4-8150-463c-82a0-45b9f5427c8a",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/780e97c4-8150-463c-82a0-45b9f5427c8a?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:23.144835+00:00",
+  "response": {
+    "genres": [
+      {
+        "name": "hip hop",
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "count": 1
+      },
+      {
+        "disambiguation": "",
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8",
+        "count": 1
+      }
+    ],
+    "secondary-types": [],
+    "id": "780e97c4-8150-463c-82a0-45b9f5427c8a",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "name": "jazz rap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "title": "Paid in Soul",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "first-release-date": "2008-02-25",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "Hasta Siempre",
+        "artist": {
+          "country": "FR",
+          "sort-name": "Hasta Siempre",
+          "type": "Group",
+          "genres": [
+            {
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "name": "jazz rap",
+              "disambiguation": "",
+              "count": 1,
+              "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+            }
+          ],
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 1
+            },
+            {
+              "name": "jazz rap",
+              "count": 1
+            }
+          ],
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "id": "a38621ff-10fa-40cd-a9e2-15b6fc8304c9",
+          "name": "Hasta Siempre",
+          "disambiguation": "Saint-Étienne French 2000s hip hop soul group"
+        }
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "secondary-type-ids": []
+  }
+}

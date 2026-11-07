@@ -1,0 +1,187 @@
+{
+  "endpoint": "release-group/01730d1e-f235-4050-b23c-ca96009e42c2",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/01730d1e-f235-4050-b23c-ca96009e42c2?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:27:39.391636+00:00",
+  "response": {
+    "disambiguation": "",
+    "tags": [
+      {
+        "name": "hip hop",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "01730d1e-f235-4050-b23c-ca96009e42c2",
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "artist-credit": [
+      {
+        "artist": {
+          "genres": [
+            {
+              "name": "dirty south",
+              "count": 1,
+              "disambiguation": "",
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641"
+            },
+            {
+              "name": "gangsta rap",
+              "count": 1,
+              "id": "bc8c2f79-dcea-43f3-962b-f0663868d42c",
+              "disambiguation": ""
+            },
+            {
+              "count": 3,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "disambiguation": "",
+              "name": "hip hop"
+            },
+            {
+              "name": "memphis rap",
+              "count": 1,
+              "disambiguation": "",
+              "id": "2f38ceb3-0ed0-475d-9ebd-bee14a2ca28e"
+            },
+            {
+              "name": "southern hip hop",
+              "count": 1,
+              "id": "7abbbbea-21ea-4167-bcea-48147bf642b8",
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "name": "trap"
+            }
+          ],
+          "id": "b02ec63e-e78d-43e5-a594-462e95036e8d",
+          "sort-name": "Yo Gotti",
+          "type": "Person",
+          "tags": [
+            {
+              "name": "dirty south",
+              "count": 1
+            },
+            {
+              "name": "gangsta rap",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 3
+            },
+            {
+              "count": 1,
+              "name": "memphis rap"
+            },
+            {
+              "count": 1,
+              "name": "southern hip hop"
+            },
+            {
+              "count": 1,
+              "name": "trap"
+            }
+          ],
+          "disambiguation": "",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "name": "Yo Gotti",
+          "country": "US"
+        },
+        "joinphrase": " Hosted By ",
+        "name": "Yo Gotti"
+      },
+      {
+        "artist": {
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "disambiguation": "US rap mixtape DJ Tyree Cinque Simmons",
+          "tags": [
+            {
+              "count": 1,
+              "name": "crunk"
+            },
+            {
+              "count": 1,
+              "name": "dirty south"
+            },
+            {
+              "name": "hip hop",
+              "count": 3
+            },
+            {
+              "count": 1,
+              "name": "r&b"
+            }
+          ],
+          "country": "US",
+          "name": "DJ Drama",
+          "id": "de23d637-20df-4b15-ae63-263dd5a34f10",
+          "genres": [
+            {
+              "name": "crunk",
+              "count": 1,
+              "id": "44c375ed-1041-4aa7-a2a0-05fb28135da3",
+              "disambiguation": ""
+            },
+            {
+              "count": 1,
+              "id": "4f9a1d5e-ee21-474a-b9a2-720ace91a641",
+              "disambiguation": "",
+              "name": "dirty south"
+            },
+            {
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 3,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "31be54b2-4d0c-42df-aa44-c496c7b4c3c3",
+              "name": "r&b"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Drama, DJ"
+        },
+        "name": "DJ Drama",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop"
+      },
+      {
+        "disambiguation": "",
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "title": "CM2",
+    "first-release-date": "2009-04-07",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    }
+  }
+}

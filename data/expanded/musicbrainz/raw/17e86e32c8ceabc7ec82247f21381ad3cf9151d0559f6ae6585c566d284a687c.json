@@ -1,0 +1,66 @@
+{
+  "endpoint": "release-group/a347358e-d74c-4cff-9e0b-a35c5e7ed6c9",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a347358e-d74c-4cff-9e0b-a35c5e7ed6c9?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:34.480817+00:00",
+  "response": {
+    "genres": [
+      {
+        "disambiguation": "",
+        "name": "trap",
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "id": "a347358e-d74c-4cff-9e0b-a35c5e7ed6c9",
+    "secondary-types": [],
+    "tags": [
+      {
+        "name": "trap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "title": "Diggoo",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2010",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "FI",
+          "name": "Lavis",
+          "disambiguation": "Finnish rap artist",
+          "id": "a8fa7329-85c7-404a-9e54-058589466972",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "tags": [
+            {
+              "count": 1,
+              "name": "hip hop"
+            }
+          ],
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Lavis"
+        },
+        "name": "Jumal x10 Lavis",
+        "joinphrase": ""
+      }
+    ],
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": []
+  }
+}

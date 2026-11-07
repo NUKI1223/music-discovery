@@ -1,0 +1,116 @@
+{
+  "endpoint": "release-group/5f5359b0-3ce2-433e-82df-7eba00c82845",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5f5359b0-3ce2-433e-82df-7eba00c82845?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:25:12.068532+00:00",
+  "response": {
+    "first-release-date": "2015-05-25",
+    "artist-credit": [
+      {
+        "name": "Kaz Bałagane",
+        "joinphrase": "",
+        "artist": {
+          "country": "PL",
+          "name": "Kaz Bałagane",
+          "disambiguation": "polish MC and music producer",
+          "sort-name": "Kaz Bałagane",
+          "type": "Person",
+          "genres": [
+            {
+              "name": "conscious hip hop",
+              "disambiguation": "",
+              "id": "c0e73bb6-37a4-485e-aaea-11c63b40c9f3",
+              "count": 1
+            },
+            {
+              "count": 1,
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "name": "hip hop",
+              "disambiguation": ""
+            },
+            {
+              "disambiguation": "",
+              "name": "pop rap",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "count": 1
+            },
+            {
+              "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+              "count": 1,
+              "disambiguation": "",
+              "name": "trap"
+            }
+          ],
+          "tags": [
+            {
+              "count": 1,
+              "name": "conscious hip hop"
+            },
+            {
+              "count": 1,
+              "name": "hip hop"
+            },
+            {
+              "count": 1,
+              "name": "pop rap"
+            },
+            {
+              "name": "trap",
+              "count": 1
+            }
+          ],
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "b95f828d-8805-4460-ba8e-5f9ff883d7a2"
+        }
+      }
+    ],
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "secondary-type-ids": [],
+    "genres": [
+      {
+        "id": "e009a9c2-c20c-40d9-9bb6-4e098676ea9c",
+        "count": 1,
+        "name": "abstract hip hop",
+        "disambiguation": ""
+      },
+      {
+        "count": 1,
+        "id": "2346fb3e-8546-4119-a929-601db8e0a733",
+        "name": "cloud rap",
+        "disambiguation": ""
+      },
+      {
+        "disambiguation": "",
+        "name": "trap",
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f"
+      }
+    ],
+    "tags": [
+      {
+        "name": "abstract hip hop",
+        "count": 1
+      },
+      {
+        "name": "cloud rap",
+        "count": 1
+      },
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "secondary-types": [],
+    "id": "5f5359b0-3ce2-433e-82df-7eba00c82845",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Lot022"
+  }
+}

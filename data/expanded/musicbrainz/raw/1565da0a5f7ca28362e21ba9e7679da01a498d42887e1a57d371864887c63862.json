@@ -1,0 +1,64 @@
+{
+  "endpoint": "release-group/69b4013d-606d-4847-a4fe-ff8fcdfd1d62",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/69b4013d-606d-4847-a4fe-ff8fcdfd1d62?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:28:43.071258+00:00",
+  "response": {
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      },
+      {
+        "name": "hip hop",
+        "count": 1
+      }
+    ],
+    "title": "Fenix",
+    "id": "69b4013d-606d-4847-a4fe-ff8fcdfd1d62",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+        "disambiguation": "",
+        "count": 1
+      },
+      {
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+        "name": "hip hop",
+        "disambiguation": "",
+        "count": 1
+      }
+    ],
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "first-release-date": "2021-06-08",
+    "secondary-types": [],
+    "disambiguation": "",
+    "artist-credit": [
+      {
+        "artist": {
+          "country": "DE",
+          "disambiguation": "",
+          "type": "Person",
+          "sort-name": "Sentino",
+          "tags": [],
+          "id": "f62fb41f-51e8-4eed-b91b-67d3369bce8e",
+          "name": "Sentino",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": []
+        },
+        "name": "Sentino",
+        "joinphrase": ""
+      }
+    ],
+    "secondary-type-ids": []
+  }
+}

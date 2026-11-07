@@ -1,0 +1,22 @@
+{
+  "agents": [
+    {
+      "name": "architecture_data / Euler",
+      "role": "Data acquisition and provenance",
+      "task": "Implement conservative release identity matching and review dataset conflicts",
+      "log": "~/.codex/sessions/2026/10/28/rollout-2026-10-28T15-54-25-01a18225-9d22-7b23-80bc-119e5aa3f5fa.jsonl"
+    },
+    {
+      "name": "ml_rl_design / Bacon",
+      "role": "ML, RL and independent features",
+      "task": "Build versioned community genre taxonomy and review unified ranking eligibility",
+      "log": "~/.codex/sessions/2026/10/28/rollout-2026-10-28T15-54-42-01a18225-e055-7712-b1c6-63c565a8e8ec.jsonl"
+    },
+    {
+      "name": "harness_evals / Singer",
+      "role": "Harness, evaluation and terminal visibility",
+      "task": "Build provisional entity matching reference and evals; document unified catalogue and integration status",
+      "log": "~/.codex/sessions/2026/10/28/rollout-2026-10-28T15-54-55-01a18226-137b-7832-9ccc-3cd6a499ffd3.jsonl"
+    }
+  ]
+}

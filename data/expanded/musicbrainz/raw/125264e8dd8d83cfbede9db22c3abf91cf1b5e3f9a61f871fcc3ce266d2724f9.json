@@ -1,0 +1,94 @@
+{
+  "endpoint": "release-group/5978dd8b-e354-49ff-b433-4dd11050e5c8",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/5978dd8b-e354-49ff-b433-4dd11050e5c8?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:24:10.422109+00:00",
+  "response": {
+    "title": "Truly Yours",
+    "primary-type": "EP",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "tags": [
+      {
+        "count": 1,
+        "name": "hip hop"
+      },
+      {
+        "count": 1,
+        "name": "jazz rap"
+      },
+      {
+        "name": "pop rap",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "secondary-types": [
+      "Mixtape/Street"
+    ],
+    "secondary-type-ids": [
+      "15c1b1f5-d893-3375-a1db-e180c5ae15ed"
+    ],
+    "artist-credit": [
+      {
+        "joinphrase": "",
+        "name": "J. Cole",
+        "artist": {
+          "id": "875203e1-8e58-4b86-8dcb-7190faf411c5",
+          "name": "J. Cole",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "genres": [
+            {
+              "count": 9,
+              "disambiguation": "",
+              "name": "hip hop",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            }
+          ],
+          "type": "Person",
+          "sort-name": "Cole, J.",
+          "tags": [
+            {
+              "name": "hip hop",
+              "count": 9
+            },
+            {
+              "name": "rap",
+              "count": 3
+            }
+          ],
+          "country": "US",
+          "disambiguation": "US rapper & producer"
+        }
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "disambiguation": "",
+        "name": "hip hop",
+        "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+      },
+      {
+        "disambiguation": "",
+        "count": 1,
+        "name": "jazz rap",
+        "id": "6061fb1b-d733-4643-a3d4-940c9a5e2ab8"
+      },
+      {
+        "count": 1,
+        "disambiguation": "",
+        "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+        "name": "pop rap"
+      }
+    ],
+    "id": "5978dd8b-e354-49ff-b433-4dd11050e5c8",
+    "first-release-date": "2013-02-12",
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "endpoint": "release-group/e929f05a-77ff-41e2-ba91-3c2d066a3c54",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/e929f05a-77ff-41e2-ba91-3c2d066a3c54?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:19:42.825303+00:00",
+  "response": {
+    "artist-credit": [
+      {
+        "name": "Son of Noise",
+        "joinphrase": "",
+        "artist": {
+          "country": "GB",
+          "name": "Son of Noise",
+          "disambiguation": "British hip hop band",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "name": "britcore",
+              "count": 1
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Son of Noise",
+          "id": "2cfe0dbd-c108-4831-88d3-dc762e826891",
+          "genres": [
+            {
+              "count": 1,
+              "id": "dfb59d7b-c690-4de7-a189-efe944ab60db",
+              "disambiguation": "",
+              "name": "britcore"
+            }
+          ]
+        }
+      }
+    ],
+    "primary-type": "Album",
+    "genres": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1,
+        "disambiguation": "",
+        "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90"
+      }
+    ],
+    "title": "The Resurrection",
+    "first-release-date": "2021-08-16",
+    "rating": {
+      "value": 5,
+      "votes-count": 1
+    },
+    "tags": [
+      {
+        "name": "hardcore hip hop",
+        "count": 1
+      }
+    ],
+    "disambiguation": "",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "id": "e929f05a-77ff-41e2-ba91-3c2d066a3c54",
+    "secondary-types": [],
+    "secondary-type-ids": []
+  }
+}

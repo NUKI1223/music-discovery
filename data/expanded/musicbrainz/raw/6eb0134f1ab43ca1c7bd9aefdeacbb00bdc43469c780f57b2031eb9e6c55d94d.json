@@ -1,0 +1,56 @@
+{
+  "endpoint": "release-group/1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:22:14.881423+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "artist-credit": [
+      {
+        "name": "Lab Waste",
+        "joinphrase": "",
+        "artist": {
+          "tags": [
+            {
+              "count": 1,
+              "name": "abstract hip-hop"
+            }
+          ],
+          "id": "11565c2b-7fca-461b-bd19-312575066c06",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "genres": [],
+          "type": "Group",
+          "sort-name": "Lab Waste",
+          "disambiguation": "",
+          "name": "Lab Waste",
+          "country": null
+        }
+      }
+    ],
+    "first-release-date": "2005",
+    "title": "Zwarte Achtegrond",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "disambiguation": "",
+    "secondary-types": [],
+    "id": "1ec93d36-3a0e-3d81-b2c1-c7a67e329ed3",
+    "tags": [
+      {
+        "count": 1,
+        "name": "abstract hip-hop"
+      },
+      {
+        "count": 2,
+        "name": "hip hop rap"
+      }
+    ],
+    "genres": []
+  }
+}

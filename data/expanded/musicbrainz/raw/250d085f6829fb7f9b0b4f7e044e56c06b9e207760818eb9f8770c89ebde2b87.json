@@ -1,0 +1,54 @@
+{
+  "endpoint": "release-group/a36a988b-aa80-412d-8fac-952d728d6880",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/a36a988b-aa80-412d-8fac-952d728d6880?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:26:26.266214+00:00",
+  "response": {
+    "id": "a36a988b-aa80-412d-8fac-952d728d6880",
+    "artist-credit": [
+      {
+        "name": "Saffron",
+        "artist": {
+          "type": "Person",
+          "sort-name": "Saffron",
+          "disambiguation": "Star Fetchers OST producer",
+          "country": "US",
+          "name": "Saffron",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "id": "996ef545-98da-4f92-ae4c-bf3afc449608",
+          "tags": [],
+          "genres": []
+        },
+        "joinphrase": ""
+      }
+    ],
+    "genres": [
+      {
+        "count": 1,
+        "id": "d8048b43-9edb-4e1a-aa88-bb91fa847d4a",
+        "disambiguation": "",
+        "name": "boom bap"
+      }
+    ],
+    "tags": [
+      {
+        "name": "boom bap",
+        "count": 1
+      }
+    ],
+    "first-release-date": "2022-03-26",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "primary-type": "Album",
+    "disambiguation": "",
+    "rating": {
+      "value": null,
+      "votes-count": 0
+    },
+    "title": "Scuba"
+  }
+}

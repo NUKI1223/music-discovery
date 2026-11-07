@@ -1,0 +1,43 @@
+{
+  "started_at": "2026-10-28T12:31:28.961672+00:00",
+  "phase": "complete",
+  "lookups_done": 520,
+  "network_requests_this_run": 37,
+  "errors": [],
+  "first_started_at": "2026-10-28T12:16:53.887204+00:00",
+  "updated_at": "2026-10-28T12:32:31.020840+00:00",
+  "artist_searches_done": 5,
+  "favorites": {
+    "Death Grips": {
+      "id": "f9133036-ab3d-4e97-bd11-7a2c98ad148a",
+      "canonical_name": "Death Grips"
+    },
+    "Kendrick Lamar": {
+      "id": "381086ea-f511-4aba-bdf9-71c753dc5077",
+      "canonical_name": "Kendrick Lamar"
+    },
+    "Denzel Curry": {
+      "id": "5f95440d-7737-4a36-9bcf-c05337f7129b",
+      "canonical_name": "Denzel Curry"
+    },
+    "JPEGMAFIA": {
+      "id": "c42e60f4-4520-4954-b6e4-82bbdf532c11",
+      "canonical_name": "JPEGMAFIA"
+    },
+    "Kanye West": {
+      "id": "164f0d73-1234-4e2c-8743-d77bf2191051",
+      "canonical_name": "Ye"
+    }
+  },
+  "query_count": 29,
+  "queries_done": 29,
+  "raw_candidate_count": 1380,
+  "selected_release_count": 520,
+  "successful_lookups": 520,
+  "release_count": 520,
+  "artist_count": 409,
+  "snapshot_id": "musicbrainz-expanded-734966342ead63ce",
+  "ratings_with_value": 109,
+  "known_vote_counts": 520,
+  "g0_status": "limited"
+}

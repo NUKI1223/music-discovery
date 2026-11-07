@@ -1,0 +1,129 @@
+{
+  "endpoint": "release-group/70d05617-2f79-4f02-895a-6635e0e6cec6",
+  "params": {
+    "inc": "genres+tags+ratings+artist-credits",
+    "fmt": "json"
+  },
+  "url": "https://musicbrainz.org/ws/2/release-group/70d05617-2f79-4f02-895a-6635e0e6cec6?inc=genres%2Btags%2Bratings%2Bartist-credits&fmt=json",
+  "captured_at": "2026-10-28T12:20:57.855937+00:00",
+  "response": {
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "id": "70d05617-2f79-4f02-895a-6635e0e6cec6",
+    "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf",
+    "disambiguation": "",
+    "tags": [
+      {
+        "count": 1,
+        "name": "trap"
+      }
+    ],
+    "first-release-date": "2013-07-12",
+    "rating": {
+      "votes-count": 0,
+      "value": null
+    },
+    "genres": [
+      {
+        "count": 1,
+        "id": "9a339aa8-a0e5-450c-95a7-b11517bb508f",
+        "disambiguation": "",
+        "name": "trap"
+      }
+    ],
+    "title": "Lieb's oder lass es",
+    "primary-type": "EP",
+    "artist-credit": [
+      {
+        "name": "Genetikk",
+        "joinphrase": " feat. ",
+        "artist": {
+          "disambiguation": "",
+          "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+          "tags": [
+            {
+              "count": 1,
+              "name": "german"
+            },
+            {
+              "count": 2,
+              "name": "hip hop"
+            }
+          ],
+          "country": "DE",
+          "name": "Genetikk",
+          "id": "7dd16bd5-3ca3-4026-9ffd-c3fe1ccfedf6",
+          "genres": [
+            {
+              "name": "hip hop",
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+              "count": 2
+            }
+          ],
+          "type": "Group",
+          "sort-name": "Genetikk"
+        }
+      },
+      {
+        "artist": {
+          "name": "Sido",
+          "country": "DE",
+          "tags": [
+            {
+              "count": 1,
+              "name": "bilder"
+            },
+            {
+              "name": "german",
+              "count": 4
+            },
+            {
+              "name": "hardcore hip hop",
+              "count": 1
+            },
+            {
+              "name": "hip hop",
+              "count": 4
+            },
+            {
+              "count": 1,
+              "name": "pop rap"
+            },
+            {
+              "name": "rap",
+              "count": 2
+            }
+          ],
+          "disambiguation": "German rapper",
+          "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+          "sort-name": "Sido",
+          "type": "Person",
+          "genres": [
+            {
+              "count": 1,
+              "disambiguation": "",
+              "id": "12b013ff-cf03-4fa0-8e1b-c9b7f5d27f90",
+              "name": "hardcore hip hop"
+            },
+            {
+              "name": "hip hop",
+              "count": 4,
+              "disambiguation": "",
+              "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c"
+            },
+            {
+              "name": "pop rap",
+              "disambiguation": "",
+              "id": "da2fc3b4-b97d-491a-ac0f-8a731bee7237",
+              "count": 1
+            }
+          ],
+          "id": "3caf69c1-fdd8-44bc-b0a5-8af3ad8a47cd"
+        },
+        "joinphrase": "",
+        "name": "Sido"
+      }
+    ]
+  }
+}
