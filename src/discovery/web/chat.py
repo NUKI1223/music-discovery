@@ -161,12 +161,16 @@ def get_chat(store: Store, chat_id: str, *, limit: int | None = None,
         has_newer = bool(newest and conn.execute("SELECT 1 FROM web_messages WHERE chat_id=? AND seq>? LIMIT 1", (chat_id,newest)).fetchone())
     messages = [Message.model_validate_json(record[1]) for record in records]
     events = store.feedback()
-    listened = {event.release_id for event in events if event.kind in {"known", "listened_like", "listened_dislike"}}
-    feedback = {event.release_id: event.kind for event in events
-                if event.kind in {"known", "save_for_later", "listened_like", "listened_dislike"}}
+    listened = {event.release_id for event in events
+                if event.kind in {"known", "listened_like", "listened_mixed", "listened_dislike"}}
+    feedback = {event.release_id: event for event in events
+                if event.kind in {"known", "save_for_later", "listened_like", "listened_mixed", "listened_dislike"}}
     for message in messages:
         for card in message.cards:
-            card.feedback = feedback.get(card.release_id)
+            latest = feedback.get(card.release_id)
+            card.feedback = latest.kind if latest else None
+            card.score = latest.score if latest else None
+            card.review = latest.review if latest else None
             card.listened = card.release_id in listened
     return ChatDetail(**_chat(row).model_dump(), messages=messages, memory=memory,
                       has_older=has_older, has_newer=has_newer, oldest_seq=oldest, newest_seq=newest)
@@ -356,13 +360,21 @@ def model_messages(detail: ChatDetail, body: MessageRequest, catalog: Catalog, c
                         -len(artist.name), artist.id))[:20]
     reference_genres = {gid for artist in mentioned for gid in artist.genre_ids
                         if gid in selected_genres}
-    vocabulary = sorted(catalog.genres, key=lambda genre: (
+    ranked_genres = sorted(catalog.genres, key=lambda genre: (
         genre.id not in {detail.filters.genre_scope_id, *detail.filters.locked_subgenre_ids},
         not any(word.casefold() in body.text.casefold()
                 for word in [genre.id, genre.name, *genre.aliases]),
         genre.id not in reference_genres,
         bool(genre.parent_ids) if detail.filters.genre_scope_id == ALL_GENRES else False,
-        genre.id not in selected_genres, genre.id))[:30]
+        genre.id not in selected_genres, genre.id))
+    vocabulary, remaining = ranked_genres[:30], ranked_genres[30:]
+
+    def bare_id_is_clear(genre) -> bool:
+        return re.sub(r"[^a-z0-9]+", "", genre.name.casefold()) == re.sub(r"[^a-z0-9]+", "", genre.id.casefold())
+    # Genres beyond the prioritized 30 still reach the model: with a name only when the
+    # bare id would mislead (e.g. "hardcore" is "Hardcore hip-hop"), otherwise as a bare id.
+    vocabulary += [genre for genre in remaining if not bare_id_is_clear(genre)]
+    other_genre_ids = [genre.id for genre in remaining if bare_id_is_clear(genre)]
     descriptor_counts = Counter(d for r in catalog.releases
                                 if detail.filters.genre_scope_id == ALL_GENRES or set(r.genre_ids) & selected_genres
                                 for d in source_descriptors(r))
@@ -372,6 +384,7 @@ def model_messages(detail: ChatDetail, body: MessageRequest, catalog: Catalog, c
     context = {
         "filters": detail.filters.model_dump(),
         "genre_vocabulary": [{"id": ALL_GENRES, "name": "Все жанры / unrestricted"}, *[{"id": genre.id, "name": genre.name[:80]} for genre in vocabulary]],
+        "other_genre_ids": other_genre_ids,
         "mentioned_artists": [{"id": artist.id, "name": artist.name[:80],
                                "genre_ids": sorted(set(artist.genre_ids) & selected_genres)[:12]}
                               for artist in mentioned],
@@ -398,6 +411,10 @@ def model_messages(detail: ChatDetail, body: MessageRequest, catalog: Catalog, c
         "source_descriptors across the catalog; do not impose genre locks just to recommend. "
         "Explicit requests for all genres / свободный жанр / без привязки к жанру propose 'all' "
         "and clear locked_subgenre_ids. A change from or to a pinned genre still needs UI confirmation. "
+        "other_genre_ids are further valid catalog genre IDs (each ID is the genre's English name "
+        "in kebab-case) with the same standing as genre_vocabulary; a genre the user names in any "
+        "language (for example Russian) must be matched to these IDs before treating it as unknown "
+        "or unsupported. "
         "Keep current filters unless explicitly changed. Genre, subgenre, obscurity and "
         "exclude_known_artists changes need UI confirmation. Support count 1-5, novelty modes "
         "close/explore/surprise, obscurity prefer/require. Never record ratings from text. "
@@ -454,6 +471,10 @@ def model_messages(detail: ChatDetail, body: MessageRequest, catalog: Catalog, c
             system["content"] = instruction + json.dumps(context, ensure_ascii=False)
         elif len(context["source_descriptors"]) > 12:
             context["source_descriptors"] = context["source_descriptors"][:12]
+            system["content"] = instruction + json.dumps(context, ensure_ascii=False)
+        elif context["other_genre_ids"]:
+            others = context["other_genre_ids"]
+            context["other_genre_ids"] = others[:len(others) // 2] if len(others) > 20 else []
             system["content"] = instruction + json.dumps(context, ensure_ascii=False)
         elif len(context["genre_vocabulary"]) > 5:
             context["genre_vocabulary"] = context["genre_vocabulary"][:len(context["genre_vocabulary"]) // 2]
@@ -780,15 +801,17 @@ def save_feedback(body: FeedbackRequest, store: Store = Depends(get_store)):
         row = conn.execute("SELECT payload FROM feedback WHERE id=?", (body.feedback_id,)).fetchone()
         if row:
             previous = Feedback.model_validate_json(row[0])
-            if (previous.decision_id, previous.release_id, previous.kind) != (
-                body.decision_id, body.release_id, body.kind
+            if (previous.decision_id, previous.release_id, previous.kind,
+                    previous.score, previous.review) != (
+                body.decision_id, body.release_id, body.kind, body.score, body.review
             ):
                 raise HTTPException(409, "Идентификатор оценки уже использован.")
             if conn.execute("SELECT 1 FROM revoked_feedback WHERE id=?", (body.feedback_id,)).fetchone():
                 raise HTTPException(409, "Эта отметка была сброшена. Обновите страницу перед новой оценкой.")
             return Ok()
         feedback = Feedback(id=body.feedback_id, decision_id=body.decision_id,
-                            release_id=body.release_id, kind=body.kind)
+                            release_id=body.release_id, kind=body.kind,
+                            score=body.score, review=body.review)
         conn.execute("INSERT INTO feedback(id,decision_id,payload) VALUES (?,?,?)",
                      (feedback.id, feedback.decision_id, feedback.model_dump_json()))
     return Ok()

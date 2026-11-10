@@ -1,8 +1,8 @@
 """Public API contracts. Exported to docs/web-openapi.json before implementation."""
 
-from typing import Literal
+from typing import Literal, Self
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 from discovery.contracts import ArtistPopularityLabel, RequestIntent
 
@@ -102,7 +102,10 @@ class ReleaseCard(Model):
     warnings: list[str]
     links: list[SourceLink]
     historical_ratings: list[HistoricalRating]
-    feedback: Literal["known", "save_for_later", "listened_like", "listened_dislike"] | None = None
+    feedback: Literal["known", "save_for_later", "listened_like", "listened_mixed",
+                      "listened_dislike"] | None = None
+    score: int | None = None
+    review: str | None = None
     listened: bool = False
     chats: list[CollectionChat] = Field(default_factory=list)
     saved_at: str | None = None
@@ -164,7 +167,21 @@ class FeedbackRequest(Model):
     feedback_id: str = Field(min_length=8, max_length=80, pattern=r"^[A-Za-z0-9_-]+$")
     decision_id: str
     release_id: str
-    kind: Literal["known", "save_for_later", "listened_like", "listened_dislike"]
+    kind: Literal["known", "save_for_later", "listened_like", "listened_mixed", "listened_dislike"]
+    score: int | None = Field(default=None, ge=0, le=100)
+    review: str | None = Field(default=None, max_length=4000)
+
+    @field_validator("review")
+    @classmethod
+    def trim_review(cls, value: str | None) -> str | None:
+        return (value.strip() or None) if value is not None else None
+
+    @model_validator(mode="after")
+    def listened_only(self) -> Self:
+        if ((self.score is not None or self.review is not None)
+                and self.kind not in {"listened_like", "listened_mixed", "listened_dislike"}):
+            raise ValueError("score and review are allowed only for listened feedback")
+        return self
 
 
 class Ok(Model):

@@ -3,8 +3,8 @@ import { api, type Card, type Schema } from './api'
 import { ConfirmDialog } from './ConfirmDialog'
 import { ReleaseCard } from './ReleaseCard'
 
-export type CollectionFilters = { query: string, status: string, chat: string, genre: string, sort: string, aoty: string, rym: string }
-export const initialCollectionFilters: CollectionFilters = { query: '', status: 'all', chat: '', genre: '', sort: 'recent', aoty: '', rym: '' }
+export type CollectionFilters = { query: string, status: string, chat: string, genre: string, sort: string, aoty: string, rym: string, score: string }
+export const initialCollectionFilters: CollectionFilters = { query: '', status: 'all', chat: '', genre: '', sort: 'recent', aoty: '', rym: '', score: '' }
 const normalize = (value: string) => value.toLocaleLowerCase('ru').replaceAll('ё', 'е').trim()
 // Normalize within each source's own scale; never combine AOTY and RYM ratings.
 export function sourceRating(card: Card, source: string): number | null {
@@ -22,19 +22,21 @@ export function selectCollection(cards: Card[], filters: CollectionFilters): Car
       && (!filters.chat || (filters.chat === 'unlinked' ? !card.chats?.length : card.chats?.some(chat => chat.id === filters.chat)))
       && (!filters.genre || (filters.genre === 'unknown' ? !card.genres.length : card.genres.includes(filters.genre)))
       && (!filters.aoty || (aoty !== null && aoty >= Number(filters.aoty)))
+      && (!filters.score || (card.score != null && card.score >= Number(filters.score)))
       && (!filters.rym || (rym !== null && rym >= Number(filters.rym)))
   })
   return selected.sort((a, b) => {
     if (filters.sort === 'title') return a.title.localeCompare(b.title, 'ru', { numeric: true })
     if (filters.sort === 'artist') return a.artists.join(', ').localeCompare(b.artists.join(', '), 'ru')
     if (filters.sort === 'aoty' || filters.sort === 'rym') return (sourceRating(b, filters.sort.toUpperCase()) ?? -1) - (sourceRating(a, filters.sort.toUpperCase()) ?? -1)
+    if (filters.sort === 'score') return (b.score ?? -1) - (a.score ?? -1)
     if (filters.sort === 'year') return (b.year ?? -1) - (a.year ?? -1)
     return (b.saved_at ?? '').localeCompare(a.saved_at ?? '')
   })
 }
 
 export function Collection({ cards, onFeedback, onReset, onOpenChat, onDiscover }: {
-  cards: Card[], onFeedback: (id: string, kind: Schema['FeedbackRequest']['kind']) => void,
+  cards: Card[], onFeedback: (id: string, kind: Schema['FeedbackRequest']['kind'], score: number | null, review: string | null) => void,
   onReset: (id: string | undefined, forget: boolean) => void, onOpenChat: (id: string) => void, onDiscover: () => void,
 }) {
   const [filters, setFilters] = useState(initialCollectionFilters)
@@ -71,15 +73,16 @@ export function Collection({ cards, onFeedback, onReset, onOpenChat, onDiscover 
     <div className="collection-search-row">
       <label className="collection-search">Поиск по коллекции<input type="search" placeholder="Альбом или исполнитель" value={filters.query} onChange={event => change('query', event.target.value)} /></label>
     </div><details className="collection-options"><summary>Фильтры и группировка</summary><div className="collection-toolbar">
-      <label>Показать<select aria-label="Показать" value={filters.status} onChange={event => change('status', event.target.value)}><option value="all">Все релизы</option><option value="listened">Прослушанные</option><option value="save_for_later">Послушать позже</option><option value="listened_like">Понравилось</option><option value="listened_dislike">Не понравилось</option><option value="known">Уже знаю</option></select></label>
-      <label>Сортировка<select aria-label="Сортировка" value={filters.sort} onChange={event => change('sort', event.target.value)}><option value="recent">Сначала недавно отмеченные</option><option value="title">Название: А–Я</option><option value="artist">Исполнитель: А–Я</option><option value="aoty">Оценка AOTY: выше сначала</option><option value="rym">Оценка RYM: выше сначала</option><option value="year">Год: новые сначала</option></select></label>
+      <label>Показать<select aria-label="Показать" value={filters.status} onChange={event => change('status', event.target.value)}><option value="all">Все релизы</option><option value="listened">Прослушанные</option><option value="save_for_later">Послушать позже</option><option value="listened_like">Понравилось</option><option value="listened_mixed">Смешанные впечатления</option><option value="listened_dislike">Не понравилось</option><option value="known">Уже знаю</option></select></label>
+      <label>Сортировка<select aria-label="Сортировка" value={filters.sort} onChange={event => change('sort', event.target.value)}><option value="recent">Сначала недавно отмеченные</option><option value="title">Название: А–Я</option><option value="artist">Исполнитель: А–Я</option><option value="aoty">Оценка AOTY: выше сначала</option><option value="rym">Оценка RYM: выше сначала</option><option value="score">Моя оценка: выше сначала</option><option value="year">Год: новые сначала</option></select></label>
 
       <label>Чат<select aria-label="Чат" value={filters.chat} onChange={event => change('chat', event.target.value)}><option value="">Все чаты</option>{chats.map(chat => <option key={chat.id} value={chat.id}>{chat.title}</option>)}<option value="unlinked">Без чата</option></select></label>
       <label>Жанр<select aria-label="Жанр" value={filters.genre} onChange={event => change('genre', event.target.value)}><option value="">Все жанры</option>{genres.map(genre => <option key={genre}>{genre}</option>)}<option value="unknown">Жанр не указан</option></select></label>
       <label>Группировать<select aria-label="Группировать" value={groupBy} onChange={event => { setGroupBy(event.target.value); setLimit(24) }}><option value="none">Единым списком</option><option value="chat">По чатам</option><option value="genre">По жанрам</option></select></label>
       <label>AOTY от (из 100)<input type="number" min="0" max="100" step="1" value={filters.aoty} onChange={event => change('aoty', event.target.value)} placeholder="Любая оценка" /></label>
       <label>RYM от (из 5)<input type="number" min="0" max="5" step="0.1" value={filters.rym} onChange={event => change('rym', event.target.value)} placeholder="Любая оценка" /></label>
-    </div><p className="muted">Оценки исторические. При сортировке альбомы без оценки идут в конце; при заданном минимуме — скрываются. Один альбом может относиться к нескольким чатам или жанрам.</p></details>
+      <label>Моя оценка от (из 100)<input type="number" min="0" max="100" step="1" value={filters.score} onChange={event => change('score', event.target.value)} placeholder="Любая оценка" /></label>
+    </div><p className="muted">AOTY и RYM — исторические оценки других слушателей, «Моя оценка» — ваша собственная. При сортировке альбомы без оценки идут в конце; при заданном минимуме — скрываются. Один альбом может относиться к нескольким чатам или жанрам.</p></details>
     <div className="collection-results"><span role="status">Найдено: {selected.length} из {cards.length}</span><button className="text-button" onClick={resetFilters}>Сбросить фильтры</button></div>
     {[...groups].map(([id, group]) => <section className="collection-group" key={id} aria-label={group.title || 'Альбомы коллекции'}><h2 className={group.title ? 'collection-group-title' : 'sr-only'}>{groupBy === 'chat' && chats.some(chat => chat.id === id && !chat.deleted) ? <button className="text-button" onClick={() => onOpenChat(id)} title="Открыть чат">{group.title}</button> : group.title || 'Альбомы коллекции'}</h2><div className="collection-grid">{group.cards.map(card => <div className="collection-entry" data-release-id={card.release_id} key={card.release_id}>
       {groupBy !== 'chat' && <div className="collection-origins"><span>Из чатов:</span>{card.chats?.length ? card.chats.map(origin => origin.deleted ? <span key={origin.id}>Удалённый чат</span> : <button key={origin.id} className="text-button" onClick={() => onOpenChat(origin.id)}>{origin.title}</button>) : <span>Без чата</span>}</div>}

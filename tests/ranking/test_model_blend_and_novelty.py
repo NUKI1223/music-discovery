@@ -44,7 +44,7 @@ def scored(mode="explore", model=None):
 
 
 def test_ranker_version_is_bumped():
-    assert RANKER_VERSION.startswith("baseline-v6")
+    assert RANKER_VERSION.startswith("baseline-v7")
 
 
 @pytest.mark.parametrize("mode", ["close", "explore", "surprise"])

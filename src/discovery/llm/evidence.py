@@ -63,8 +63,13 @@ def render_claims(catalog: Catalog, release_ids: list[str], claims: list[Claim])
         else:
             index = int(claim.evidence_id.rsplit(':', 2)[1])
             observation = releases[claim.release_id].observations[index]
-            sentence = (f'{observation.source}: {claim.value} оценок '
-                        f'на {observation.observed_at.date().isoformat()}; это не число всех слушателей.')
+            observed = observation.observed_at.date().isoformat()
+            if observation.source == 'listenbrainz':
+                sentence = (f'Слушателей в ListenBrainz: {claim.value} на {observed}; '
+                            'это пользователи одного сервиса, а не вся аудитория.')
+            else:
+                sentence = (f'{observation.source}: {claim.value} оценок '
+                            f'на {observed}; это не число всех слушателей.')
         if sentence not in rendered[claim.release_id]:
             rendered[claim.release_id].append(sentence)
     return rendered

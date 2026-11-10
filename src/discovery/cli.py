@@ -7,7 +7,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-from discovery.catalog import load_catalog
+from discovery.catalog.listenbrainz import load_with_listeners
 from discovery.config import DEFAULT_CATALOG, load_project_env
 from discovery.contracts import RequestIntent
 from discovery.service import discovery_metrics, recommend
@@ -32,7 +32,9 @@ def training_records(store: Store, *, cutoff: datetime | None = None) -> list[di
             familiar[key] = True
         elif event.familiar_before_recommendation is not None:
             familiar[key] = event.familiar_before_recommendation
-        if event.kind in {"listened_like", "listened_dislike"}:
+        if event.kind == "listened_mixed":
+            latest.pop(event.release_id, None)  # neutral: supersedes any earlier label
+        elif event.kind in {"listened_like", "listened_dislike"}:
             latest[event.release_id] = event
     rows = []
     fixture_by_catalog: dict[str, bool] = {}
@@ -88,7 +90,7 @@ def main() -> None:
     args = parser.parse_args()
     try:
         if args.command == "recommend":
-            catalog = load_catalog(args.catalog)
+            catalog = load_with_listeners(args.catalog)
             store = Store(database_path(args.db, catalog))
             artifact = None
             if args.model:
@@ -121,7 +123,7 @@ def main() -> None:
             from discovery.agent_preview import agent_preview
             from discovery.llm import BudgetLedger, LLMError, OpenRouterClient, OpenRouterSettings
 
-            catalog = load_catalog(args.catalog)
+            catalog = load_with_listeners(args.catalog)
             store = Store(database_path(args.db, catalog))
             client = None
             try:

@@ -28,3 +28,20 @@ def test_sample_committed_once_and_delayed_feedback_trains_only_selected_slot(tm
     assert learned.policy_details["reward_labels"] == 10
     assert len(learned.policy_details["reward_event_ids"]) == 10
     assert learned.policy_details["chosen_probability"] > 0
+
+
+def test_mixed_in_other_decision_supersedes_bandit_like_label(tmp_path):
+    from discovery.service import _reward_scores
+    catalog = fixture_catalog()
+    store = Store(tmp_path / "history.db")
+    request = RequestIntent(genre_scope_id="scope-a", mode="surprise")
+    profile = UserProfile(seed_artist_ids_by_genre={"scope-a": ["artist-scope-a-0"]})
+    first = recommend(store, catalog, request, profile, as_of=AS_OF, use_bandit=True)
+    rid = first.policy_details["selected_release_id"]
+    store.append_feedback(Feedback(id="like", decision_id=first.id, release_id=rid, kind="listened_like"))
+    assert _reward_scores(store, catalog, request, profile, AS_OF)[1]["reward_labels"] == 1
+    other = recommend(store, catalog, request, profile, as_of=AS_OF)  # no bandit
+    assert not other.policy_details.get("enabled")
+    assert rid in {i.release_id for i in other.result.items}
+    store.append_feedback(Feedback(id="mixed", decision_id=other.id, release_id=rid, kind="listened_mixed"))
+    assert _reward_scores(store, catalog, request, profile, AS_OF)[1]["reward_labels"] == 0

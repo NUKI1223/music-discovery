@@ -302,9 +302,11 @@ class Feedback(Contract):
     id: str
     decision_id: str
     release_id: str
-    kind: Literal["known", "save_for_later", "listened_like", "listened_dislike",
-                  "wrong_genre", "not_now", "familiarity"]
+    kind: Literal["known", "save_for_later", "listened_like", "listened_mixed",
+                  "listened_dislike", "wrong_genre", "not_now", "familiarity"]
     familiar_before_recommendation: bool | None = None
+    score: int | None = Field(default=None, ge=0, le=100)
+    review: str | None = Field(default=None, max_length=4000)
     occurred_at: datetime = Field(default_factory=utcnow)
     recorded_at: datetime = Field(default_factory=utcnow)
 
@@ -312,6 +314,9 @@ class Feedback(Contract):
     def aware_dates(self) -> Self:
         if self.occurred_at.tzinfo is None or self.recorded_at.tzinfo is None:
             raise ValueError("feedback timestamps must include a timezone")
+        if ((self.score is not None or self.review is not None)
+                and self.kind not in {"listened_like", "listened_mixed", "listened_dislike"}):
+            raise ValueError("score and review are allowed only for listened feedback")
         if self.kind == "known" and self.familiar_before_recommendation is False:
             raise ValueError("known release cannot be unfamiliar before this recommendation")
         return self

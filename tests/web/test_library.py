@@ -189,3 +189,72 @@ def test_import_keeps_hidden_albums_and_revoked_marks(tmp_path):
         assert dest.feedback() == source.feedback()
         assert dest.profile() == source.profile()
         assert collection_cards(dest) == []
+
+
+def rate(client, card, kind, feedback_id=None, **extra):
+    payload = {'feedback_id': feedback_id or uuid4().hex, 'decision_id': card['decision_id'],
+               'release_id': card['release_id'], 'kind': kind, **extra}
+    return client.post('/api/feedback', json=payload)
+
+
+def test_mixed_rating_with_score_and_review_in_collection_and_chat(library):
+    client, store, _, _ = library
+    chat, cards = selection(client)
+    assert rate(client, cards[0], 'listened_like').status_code == 200
+    assert rate(client, cards[0], 'listened_mixed', score=60, review='  Местами сильно  ').status_code == 200
+    entry = client.get('/api/collection').json()[0]
+    assert (entry['feedback'], entry['score'], entry['review'], entry['listened']) == (
+        'listened_mixed', 60, 'Местами сильно', True)
+    profile = store.profile()
+    assert cards[0]['release_id'] in profile.known_release_ids
+    assert not profile.liked_release_ids_by_genre.get('hip-hop')
+    assert not profile.disliked_release_ids_by_genre.get('hip-hop')
+    shown = client.get(f"/api/chats/{chat['id']}").json()['messages'][-1]['cards'][0]
+    assert (shown['feedback'], shown['score'], shown['review']) == ('listened_mixed', 60, 'Местами сильно')
+
+
+def test_edit_replaces_score_and_review_and_event_without_score_clears_it(library):
+    client, _, _, _ = library
+    _, cards = selection(client)
+    rate(client, cards[0], 'listened_mixed', score=40, review='первая')
+    rate(client, cards[0], 'listened_mixed', score=70, review='вторая')
+    entry = client.get('/api/collection').json()[0]
+    assert (entry['score'], entry['review']) == (70, 'вторая')
+    rate(client, cards[0], 'listened_mixed')
+    entry = client.get('/api/collection').json()[0]
+    assert (entry['feedback'], entry['score'], entry['review']) == ('listened_mixed', None, None)
+
+
+def test_feedback_idempotency_includes_score_and_review(library):
+    client, store, _, _ = library
+    _, cards = selection(client)
+    assert rate(client, cards[0], 'listened_like', 'same-key-1', score=80, review='ок').status_code == 200
+    assert rate(client, cards[0], 'listened_like', 'same-key-1', score=80, review='ок').status_code == 200
+    assert len(store.feedback()) == 1
+    assert rate(client, cards[0], 'listened_like', 'same-key-1', score=81, review='ок').status_code == 409
+    assert rate(client, cards[0], 'listened_like', 'same-key-1', score=80, review='иначе').status_code == 409
+    assert rate(client, cards[0], 'listened_like', 'same-key-1', score=80).status_code == 409
+
+
+@pytest.mark.parametrize('extra', [{'score': -1}, {'score': 101}, {'review': 'я' * 4001}])
+def test_feedback_rejects_out_of_range_score_and_long_review(library, extra):
+    client, store, _, _ = library
+    _, cards = selection(client)
+    assert rate(client, cards[0], 'listened_mixed', **extra).status_code == 422
+    assert store.feedback() == []
+
+
+@pytest.mark.parametrize('kind', ['known', 'save_for_later'])
+@pytest.mark.parametrize('extra', [{'score': 50}, {'review': 'текст'}])
+def test_score_and_review_rejected_for_non_listened_kinds(library, kind, extra):
+    client, store, _, _ = library
+    _, cards = selection(client)
+    assert rate(client, cards[0], kind, **extra).status_code == 422
+    assert store.feedback() == []
+
+
+def test_blank_review_becomes_none(library):
+    client, store, _, _ = library
+    _, cards = selection(client)
+    assert rate(client, cards[0], 'listened_mixed', score=10, review='   ').status_code == 200
+    assert store.feedback()[0].review is None

@@ -67,3 +67,12 @@ def test_catalog_loaded_once_per_hash(tmp_path, monkeypatch):
     monkeypatch.setattr(Store, "get_catalog", lambda self, key: calls.append(key) or original(self, key))
     assert len(training_records(store)) == 5
     assert len(calls) == 1
+
+
+def test_mixed_supersedes_earlier_label_and_never_creates_one(tmp_path):
+    store = make_store(tmp_path, [("listened_like", False, None), ("listened_mixed", False, None)])
+    # r0 rated like, then mixed in the same decision: the stale label must go.
+    later = T0 + timedelta(days=5)
+    store.append_feedback(Feedback(id="mixed-after", decision_id="d0", release_id="r0",
+                                   kind="listened_mixed", score=50, occurred_at=later, recorded_at=later))
+    assert training_records(store) == []

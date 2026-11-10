@@ -595,7 +595,17 @@ export interface components {
              * Feedback
              * @default null
              */
-            feedback: ("known" | "save_for_later" | "listened_like" | "listened_dislike") | null;
+            feedback: ("known" | "save_for_later" | "listened_like" | "listened_mixed" | "listened_dislike") | null;
+            /**
+             * Score
+             * @default null
+             */
+            score: number | null;
+            /**
+             * Review
+             * @default null
+             */
+            review: string | null;
             /**
              * Listened
              * @default false
@@ -706,7 +716,17 @@ export interface components {
              * Kind
              * @enum {string}
              */
-            kind: "known" | "save_for_later" | "listened_like" | "listened_dislike";
+            kind: "known" | "save_for_later" | "listened_like" | "listened_mixed" | "listened_dislike";
+            /**
+             * Score
+             * @default null
+             */
+            score: number | null;
+            /**
+             * Review
+             * @default null
+             */
+            review: string | null;
         };
     };
     responses: never;

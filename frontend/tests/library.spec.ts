@@ -1,6 +1,7 @@
 import { expect, test, type Page } from '@playwright/test'
 import { initialCollectionFilters, selectCollection } from '../src/Collection'
 import type { Card } from '../src/api'
+import { requestRecommendations } from './helpers'
 
 async function expectUniqueReleases(page: Page, count: number) {
   await expect.poll(() => page.locator('.collection-entry').evaluateAll(nodes => new Set(nodes.map(node => node.getAttribute('data-release-id'))).size)).toBe(count)
@@ -32,7 +33,7 @@ async function setup(page: Page) {
   return { sets, headers }
 }
 
-const base: Card = { release_id: 'one', decision_id: 'd', title: 'Alpha', artists: ['Артём'], genres: ['Jazz'], year: 2020, explanation: [], warnings: [], links: [], historical_ratings: [], feedback: 'known', listened: true, chats: [{ id: 'chat-1', title: 'Джаз', deleted: false }], saved_at: '2026-01-01' }
+const base: Card = { release_id: 'one', decision_id: 'd', title: 'Alpha', artists: ['Артём'], genres: ['Jazz'], year: 2020, explanation: [], warnings: [], links: [], historical_ratings: [], feedback: 'known', listened: true, chats: [{ id: 'chat-1', title: 'Джаз', deleted: false }], saved_at: '2026-01-01', score: null, review: null }
 test('collection filtering intersects search, chat, genre, status and independent source ratings', () => {
   const cards: Card[] = [base,
     { ...base, release_id: 'two', title: 'Beta', genres: ['Rock'], historical_ratings: [{ source: 'AOTY', rating: 90, scale: 100, count: 10 }, { source: 'RYM', rating: 2, scale: 5, count: 20 }] },
@@ -47,6 +48,20 @@ test('collection filtering intersects search, chat, genre, status and independen
   expect(ids({ query: 'unknown' })).toEqual([])
   expect(ids({ sort: 'year' })).toEqual(['one', 'two', 'three'])
   expect(ids({ sort: 'title' })).toEqual(['one', 'two', 'three'])
+})
+
+test('own score and mixed status filter and sort the collection', () => {
+  const cards: Card[] = [
+    { ...base, release_id: 'a', feedback: 'listened_like', score: 80, saved_at: '2026-01-01' },
+    { ...base, release_id: 'b', feedback: 'listened_mixed', score: 55, saved_at: '2026-01-02' },
+    { ...base, release_id: 'c', feedback: 'listened_mixed', score: null, saved_at: '2026-01-03' },
+    { ...base, release_id: 'd', feedback: 'listened_dislike', score: 0, saved_at: '2026-01-04' }]
+  const ids = (filters: Partial<typeof initialCollectionFilters>) => selectCollection(cards, { ...initialCollectionFilters, ...filters }).map(c => c.release_id)
+  expect(ids({ status: 'listened_mixed' })).toEqual(['c', 'b'])
+  expect(ids({ score: '60' })).toEqual(['a'])
+  expect(ids({ score: '0' })).toEqual(['d', 'b', 'a']) // no score is not zero; zero is a real score
+  expect(ids({ sort: 'score' })).toEqual(['a', 'b', 'd', 'c'])
+  expect(ids({ status: 'listened_mixed', sort: 'score' })).toEqual(['b', 'c'])
 })
 
 test('search, combined filters, chat grouping and navigation work on real collection', async ({ page }) => {
@@ -165,4 +180,134 @@ test('mobile library has no overflow and a failed delete keeps data and allows r
   await page.getByRole('dialog').getByRole('button', { name: 'Убрать из коллекции', exact: true }).click()
   await expectUniqueReleases(page, 0)
   await page.screenshot({ path: 'test-results/library-mobile.png', fullPage: true })
+})
+
+const cardOf = (page: Page) => page.locator('.release-card').first()
+const mixedButton = (page: Page) => cardOf(page).getByRole('button', { name: 'Прослушал — смешанно', exact: true })
+
+test('mixed rating with score and review is saved, survives reload and a change of kind, and works in the collection', async ({ page }) => {
+  await setup(page)
+  await page.getByRole('button', { name: 'Новый чат' }).click()
+  await requestRecommendations(page)
+  const card = cardOf(page)
+  const title = (await card.getByRole('heading').first().textContent())!
+  await expect(card.locator('button[aria-pressed]')).toHaveText(['Уже знаю', 'Послушать позже', 'Прослушал — нравится', 'Прослушал — смешанно', 'Прослушал — не нравится'])
+  await expect(card.getByText('Добавить оценку и рецензию')).toHaveCount(0)
+  await mixedButton(page).click()
+  await expect(mixedButton(page)).toHaveAttribute('aria-pressed', 'true')
+  await expect(card.getByText('В прослушанных')).toBeVisible()
+  const details = card.locator('details.my-rating')
+  await expect(details).not.toHaveAttribute('open', '')
+  await details.getByText('Добавить оценку и рецензию').click()
+  await card.getByLabel('Балл от 0 до 100 (необязательно)').fill('64')
+  await card.getByLabel('Рецензия (необязательно)').fill('Сложно: половина треков зашла.')
+  await card.getByRole('button', { name: 'Сохранить', exact: true }).click()
+  await expect(card.getByRole('status').filter({ hasText: 'Сохранено' })).toBeVisible()
+  await expect(card.getByText('Моя оценка: 64 из 100')).toBeVisible()
+  await page.reload()
+  const again = page.locator('.release-card').filter({ has: page.getByRole('heading', { name: title, exact: true }) }).first()
+  await expect(again.getByRole('button', { name: 'Прослушал — смешанно', exact: true })).toHaveAttribute('aria-pressed', 'true')
+  await expect(again.getByText('Моя оценка: 64 из 100')).toBeVisible()
+  await again.getByText('Моя оценка: 64 из 100').click()
+  await expect(again.getByLabel('Балл от 0 до 100 (необязательно)')).toHaveValue('64')
+  await expect(again.getByLabel('Рецензия (необязательно)')).toHaveValue('Сложно: половина треков зашла.')
+  await again.getByRole('button', { name: 'Прослушал — нравится', exact: true }).click()
+  await expect(again.getByRole('button', { name: 'Прослушал — нравится', exact: true })).toHaveAttribute('aria-pressed', 'true')
+  await page.reload()
+  await page.getByRole('button', { name: 'Моя коллекция' }).click()
+  const entry = page.locator('.collection-entry').filter({ has: page.getByRole('heading', { name: title, exact: true }) })
+  await expect(entry.getByRole('button', { name: 'Прослушал — нравится', exact: true })).toHaveAttribute('aria-pressed', 'true')
+  await expect(entry.getByText('Моя оценка: 64 из 100')).toBeVisible()
+  await entry.getByText('Моя оценка: 64 из 100').click()
+  await expect(entry.getByLabel('Рецензия (необязательно)')).toHaveValue('Сложно: половина треков зашла.')
+  await entry.getByRole('button', { name: 'Прослушал — смешанно', exact: true }).click()
+  await expect(entry.getByRole('button', { name: 'Прослушал — смешанно', exact: true })).toHaveAttribute('aria-pressed', 'true')
+  await page.getByText('Фильтры и группировка', { exact: true }).click()
+  await page.getByLabel('Показать', { exact: true }).selectOption('listened_mixed')
+  await expect(page.locator('.collection-entry')).toHaveCount(1)
+  await page.getByLabel('Показать', { exact: true }).selectOption('all')
+  await page.getByLabel('Сортировка').selectOption('score')
+  await expect(page.locator('.collection-entry').first().getByRole('heading', { name: title, exact: true })).toBeVisible()
+  await page.getByLabel('Моя оценка от (из 100)').fill('70')
+  await expect(page.getByRole('heading', { name: 'Ничего не найдено' })).toBeVisible()
+  await page.getByLabel('Моя оценка от (из 100)').fill('60')
+  await expect(page.locator('.collection-entry')).toHaveCount(1)
+})
+
+test('a score out of range shows an error and sends no request; known/later send no score', async ({ page }) => {
+  await setup(page)
+  await page.getByRole('button', { name: 'Новый чат' }).click()
+  await requestRecommendations(page)
+  const card = cardOf(page)
+  await mixedButton(page).click()
+  await expect(mixedButton(page)).toHaveAttribute('aria-pressed', 'true')
+  await card.getByText('Добавить оценку и рецензию').click()
+  const posts: any[] = []
+  page.on('request', request => { if (request.url().endsWith('/api/feedback') && request.method() === 'POST') posts.push(request.postDataJSON()) })
+  await card.getByLabel('Балл от 0 до 100 (необязательно)').fill('150')
+  await card.getByRole('button', { name: 'Сохранить', exact: true }).click()
+  await expect(card.getByRole('alert')).toHaveText('Балл — целое число от 0 до 100')
+  expect(posts).toHaveLength(0)
+  await card.getByLabel('Балл от 0 до 100 (необязательно)').fill('70')
+  await card.getByRole('button', { name: 'Послушать позже', exact: true }).click()
+  await expect(card.getByRole('button', { name: 'Послушать позже', exact: true })).toHaveAttribute('aria-pressed', 'true')
+  expect(posts).toHaveLength(1)
+  expect(posts[0].kind).toBe('save_for_later')
+  expect(posts[0].score ?? null).toBeNull()
+  expect(posts[0].review ?? null).toBeNull()
+  await expect(card.getByLabel('Балл от 0 до 100 (необязательно)')).toHaveCount(0)
+})
+
+test('mobile card with the rating block open has no horizontal scroll at 375px', async ({ page }) => {
+  await setup(page)
+  await page.setViewportSize({ width: 375, height: 800 })
+  await page.getByRole('button', { name: 'Открыть меню' }).click()
+  await page.getByRole('button', { name: 'Новый чат' }).click()
+  await requestRecommendations(page)
+  const card = cardOf(page)
+  await mixedButton(page).click()
+  await expect(mixedButton(page)).toHaveAttribute('aria-pressed', 'true')
+  await card.getByText('Добавить оценку и рецензию').click()
+  await card.getByLabel('Рецензия (необязательно)').fill('Очень длинная рецензия '.repeat(40))
+  await expect(card.getByLabel('Балл от 0 до 100 (необязательно)')).toBeVisible()
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+  expect(await card.evaluate(node => node.scrollWidth <= node.clientWidth)).toBe(true)
+  for (const button of await card.locator('.feedback-buttons button').all()) expect((await button.boundingBox())!.height).toBeGreaterThanOrEqual(44)
+  await page.screenshot({ path: 'test-results/rating-mobile.png', fullPage: true })
+})
+
+test('forgetting a rated album clears the draft: a later rating sends no old score or review', async ({ page }) => {
+  await setup(page)
+  await page.getByRole('button', { name: 'Новый чат' }).click()
+  await requestRecommendations(page)
+  const card = cardOf(page)
+  const title = (await card.getByRole('heading').first().textContent())!
+  await mixedButton(page).click()
+  await expect(mixedButton(page)).toHaveAttribute('aria-pressed', 'true')
+  await card.getByText('Добавить оценку и рецензию').click()
+  await card.getByLabel('Балл от 0 до 100 (необязательно)').fill('64')
+  await card.getByLabel('Рецензия (необязательно)').fill('Старая рецензия')
+  await card.getByRole('button', { name: 'Сохранить', exact: true }).click()
+  await expect(card.getByText('Моя оценка: 64 из 100')).toBeVisible()
+  await page.getByRole('button', { name: 'Моя коллекция' }).click()
+  const entry = page.locator('.collection-entry').filter({ has: page.getByRole('heading', { name: title, exact: true }) })
+  await entry.getByRole('button', { name: 'Убрать из коллекции', exact: true }).click()
+  await page.getByLabel('Удалить из памяти').check()
+  await page.getByRole('button', { name: 'Удалить и забыть', exact: true }).click()
+  await expect(page.locator('.collection-entry').filter({ has: page.getByRole('heading', { name: title, exact: true }) })).toHaveCount(0)
+  await page.locator('.chat-history-row button[title]').first().click()
+  const again = page.locator('.release-card').filter({ has: page.getByRole('heading', { name: title, exact: true }) }).first()
+  await expect(again.locator('button[aria-pressed="true"]')).toHaveCount(0)
+  await expect(again.locator('details.my-rating')).toHaveCount(0)
+  const posts: any[] = []
+  page.on('request', request => { if (request.url().endsWith('/api/feedback') && request.method() === 'POST') posts.push(request.postDataJSON()) })
+  await again.getByRole('button', { name: 'Прослушал — нравится', exact: true }).click()
+  await expect(again.getByRole('button', { name: 'Прослушал — нравится', exact: true })).toHaveAttribute('aria-pressed', 'true')
+  expect(posts).toHaveLength(1)
+  expect(posts[0].score ?? null).toBeNull()
+  expect(posts[0].review ?? null).toBeNull()
+  await expect(again.getByText('Добавить оценку и рецензию')).toBeVisible()
+  await again.getByText('Добавить оценку и рецензию').click()
+  await expect(again.getByLabel('Балл от 0 до 100 (необязательно)')).toHaveValue('')
+  await expect(again.getByLabel('Рецензия (необязательно)')).toHaveValue('')
 })

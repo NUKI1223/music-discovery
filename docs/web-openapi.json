@@ -3463,6 +3463,7 @@
                   "known",
                   "save_for_later",
                   "listened_like",
+                  "listened_mixed",
                   "listened_dislike"
                 ],
                 "type": "string"
@@ -3473,6 +3474,30 @@
             ],
             "default": null,
             "title": "Feedback"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Score"
+          },
+          "review": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Review"
           },
           "listened": {
             "default": false,
@@ -3713,10 +3738,38 @@
               "known",
               "save_for_later",
               "listened_like",
+              "listened_mixed",
               "listened_dislike"
             ],
             "title": "Kind",
             "type": "string"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "maximum": 100,
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Score"
+          },
+          "review": {
+            "anyOf": [
+              {
+                "maxLength": 4000,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Review"
           }
         },
         "required": [

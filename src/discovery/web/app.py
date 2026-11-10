@@ -13,7 +13,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from discovery.catalog.io import load_catalog
+from discovery.catalog.listenbrainz import load_with_listeners
 from discovery.config import DEFAULT_CATALOG, PROJECT_ROOT, load_project_env
 from discovery.contracts import Catalog
 from discovery.llm.budget import BudgetLedger
@@ -54,7 +54,7 @@ def create_app(data_dir: Path | None = None, catalog: Catalog | None = None,
         catalog_path = Path(os.environ.get("DISCOVERY_CATALOG", DEFAULT_CATALOG))
         if not catalog_path.is_absolute():
             catalog_path = PROJECT_ROOT / catalog_path
-        catalog = load_catalog(catalog_path)
+        catalog = load_with_listeners(catalog_path)
     app.state.catalog = catalog
     app.state.artwork_cache = artwork.ArtworkCache(app.state.data_dir / "artwork.sqlite3")
     # Artwork can wait on slow external hosts. Never occupy the shared API worker

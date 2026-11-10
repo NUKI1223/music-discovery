@@ -601,3 +601,89 @@ def test_free_feedback_persists_and_is_excluded_in_another_scoped_chat(store, ca
     other = handle_message(reopened, local, MessageRequest(message_id="local-after-free", apply_filters=True), catalog)
     assert card.release_id not in {c.release_id for c in other.cards}
     assert card.release_id in reopened.profile().known_release_ids
+
+
+def genre_catalog():
+    """More than 30 genres: 4 top-level, the rest sub-genres, with some non-derivable names."""
+    genres = [Genre(id="rock", name="Rock"), Genre(id="jazz", name="Jazz"),
+              Genre(id="hardcore", name="Hardcore hip-hop", parent_ids=["rock"]),
+              Genre(id="rnb", name="R&B", parent_ids=["rock"])]
+    genres += [Genre(id=f"aaa-style-{i:02d}", name=f"Aaa Style {i:02d}", parent_ids=["rock"]) for i in range(35)]
+    genres.append(Genre(id="gothic-rock", name="Gothic Rock", parent_ids=["rock"]))
+    genres.append(Genre(id="zzz-metal", name="Zzz Metal", parent_ids=["rock"]))
+    return Catalog(snapshot_id="genres-test", genres=genres,
+                   artists=[Artist(id="a0", name="Artist 0", genre_ids=["rock"])],
+                   releases=[Release(id="r0", title="Album 0", artist_ids=["a0"], genre_ids=["rock"], year=2020)])
+
+
+def genre_context(store, tmp_path, text, limits=None, scope="all"):
+    catalog = genre_catalog()
+    ident = chat(store, catalog, Filters(genre_scope_id=scope)).id
+    body = MessageRequest(message_id=f"genre-message-{ident}", text=text)
+    claim_message(store, ident, body)
+    client = Provider(tmp_path, []).factory()
+    if limits:
+        client.settings = client.settings.__class__(**{**client.settings.__dict__, **limits})
+    messages = model_messages(get_chat(store, ident), body, catalog, client)
+    system = messages[0]["content"]
+    context = json.loads('{"filters":' + system.split('{"filters":', 1)[1])
+    return catalog, client, messages, system, context
+
+
+def test_russian_request_still_offers_late_subgenre_and_covers_catalog_once(store, tmp_path):
+    catalog, _, _, _, context = genre_context(store, tmp_path, "Хочу какой нибудь готичный рок")
+    assert "gothic-rock" in context["other_genre_ids"]
+    listed = [g["id"] for g in context["genre_vocabulary"] if g["id"] != "all"] + context["other_genre_ids"]
+    assert len(listed) == len(set(listed))
+    assert set(listed) == {g.id for g in catalog.genres}
+
+
+def test_non_derivable_genre_names_are_sent_with_names(store, tmp_path):
+    _, _, _, _, context = genre_context(store, tmp_path, "Хочу что-нибудь")
+    names = {g["id"]: g["name"] for g in context["genre_vocabulary"]}
+    assert names["hardcore"] == "Hardcore hip-hop" and names["rnb"] == "R&B"
+    assert "hardcore" not in context["other_genre_ids"] and "rnb" not in context["other_genre_ids"]
+    assert "aaa-style-34" in context["other_genre_ids"]
+
+
+def test_english_named_genre_stays_prioritized(store, tmp_path):
+    _, _, _, _, context = genre_context(store, tmp_path, "something like zzz metal please")
+    ids = [g["id"] for g in context["genre_vocabulary"]]
+    assert "zzz-metal" in ids[:6]
+    assert "zzz-metal" not in context["other_genre_ids"]
+
+
+def test_instruction_mentions_other_genre_ids(store, tmp_path):
+    _, _, _, system, _ = genre_context(store, tmp_path, "Привет")
+    assert "other_genre_ids" in system.split('{"filters":', 1)[0]
+
+
+def test_tight_limit_trims_other_genre_ids_before_vocabulary(store, tmp_path):
+    from discovery.llm.context import fits_input
+    _, _, _, _, full = genre_context(store, tmp_path, "Привет")
+    # Tighten the token limit until the first trimming of the genre lists happens.
+    for limit in range(8192, 1000, -25):
+        _, client, messages, _, context = genre_context(store, tmp_path, "Привет", {"max_input_tokens": limit})
+        assert fits_input({"messages": messages}, client.settings)
+        if context["other_genre_ids"] != full["other_genre_ids"]:
+            break
+    assert full["other_genre_ids"] and len(context["other_genre_ids"]) < len(full["other_genre_ids"])
+    assert context["genre_vocabulary"] == full["genre_vocabulary"]
+    assert context["other_genre_ids"] == full["other_genre_ids"][:len(context["other_genre_ids"])]
+
+
+def test_review_text_never_reaches_model_messages(store, catalog, tmp_path):
+    ident = chat(store, catalog).id
+    card = handle_message(store, ident, MessageRequest(message_id="message-1", apply_filters=True), catalog).cards[0]
+    secret = "СЕКРЕТНАЯ-РЕЦЕНЗИЯ-12345"
+    save_feedback(FeedbackRequest(feedback_id="feedback-1", decision_id=card.decision_id,
+                                  release_id=card.release_id, kind="listened_mixed",
+                                  score=33, review=secret), store)
+    detail = get_chat(store, ident)
+    assert detail.messages[-1].cards[0].review == secret
+    body = MessageRequest(message_id="message-2", text="Ещё что-нибудь")
+    claim_message(store, ident, body)
+    provider = Provider(tmp_path, [])
+    messages = model_messages(get_chat(store, ident), body, catalog, provider.factory(),
+                              references=detail.messages[-1].cards, last_cards=detail.messages[-1].cards)
+    assert secret not in json.dumps(messages, ensure_ascii=False)

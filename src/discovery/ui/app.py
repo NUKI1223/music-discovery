@@ -231,9 +231,10 @@ if decision and decision.catalog_hash == current_catalog_hash:
                                                    key=f"save-familiarity-{decision.id}-{release.id}"):
                 if record(decision.id, release.id, "familiarity", fam_value):
                     st.success("Ответ сохранён.")
-            columns = st.columns(4)
+            columns = st.columns(5)
             options = [("Уже знаю", "known"), ("Послушать позже", "save_for_later"),
                        ("Прослушал: нравится", "listened_like"),
+                       ("Прослушал: смешанно", "listened_mixed"),
                        ("Прослушал: не нравится", "listened_dislike")]
             for column, (button_label, kind) in zip(columns, options):
                 if column.button(button_label, key=f"{decision.id}-{release.id}-{kind}"):

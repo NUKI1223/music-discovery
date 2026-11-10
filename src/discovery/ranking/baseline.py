@@ -1,4 +1,5 @@
 """Transparent baseline. Unknown popularity never becomes evidence of rarity."""
+from bisect import bisect_right
 from collections import Counter
 from datetime import date
 from math import ceil, fsum
@@ -17,10 +18,13 @@ from .source_descriptors import SOUND_POLICY_VERSION, descriptor_weights
 
 MIN_COHORT = 30
 FEATURE_VERSION = "genre-tags-v2-artist-frequency"
-RANKER_VERSION = "baseline-v6-model-correction"
+RANKER_VERSION = "baseline-v7-artist-peak-popularity"
 # A promoted model only nudges the baseline: score += MODEL_WEIGHT * (p - 0.5).
 MODEL_WEIGHT = .3
 MAX_OBSERVATION_AGE_DAYS = 90
+# Compilation placeholders are not real artists: they never share a popularity peak.
+COLLECTIVE_ARTIST_NAMES = frozenset({"various artists", "[unknown artist]", "[unknown]", "[anonymous]",
+                                     "[traditional]", "[no artist]"})
 MODE_NOVELTY_TARGET = {"close": .35, "explore": .65, "surprise": .9}
 EXPLORATION_NOVELTY_BOUNDS = {"close": (.5, .8), "explore": (.5, 1.0), "surprise": (.5, 1.0)}
 
@@ -91,27 +95,100 @@ def _anchors(catalog: Catalog, profile: UserProfile, scope: str,
     return anchors, "artist_prior" if anchors else "unavailable"
 
 
+def _fresh_count(observation, as_of: date) -> int | None:
+    """Count of a latest observation if it is usable (not future, not stale, has a count)."""
+    if (observation is not None and observation.rating_count is not None
+            and 0 <= (as_of-observation.observed_at.date()).days <= MAX_OBSERVATION_AGE_DAYS):
+        return observation.rating_count
+    return None
+
+
+def _latest_by_source(release, as_of: date) -> dict:
+    latest = {}
+    for o in sorted(release.observations, key=lambda o: o.observed_at):
+        if o.observed_at.date() <= as_of:
+            latest[o.source] = o
+    return latest
+
+
 def _popularity(catalog: Catalog, scope: str, as_of: date) -> dict[str, dict]:
-    """Deterministic source/cohort choice, shared independently of user exclusions."""
+    """Deterministic source/cohort choice, shared independently of user exclusions.
+
+    Cohort membership is genre group + age group + own fresh count of the chosen source. Counts are compared as
+    effective counts: max(own count, peak fresh count of the same source over all catalog releases of any of the
+    release's artists), so a rarely-attributed release of a well-known artist does not look rare. `rating_count`
+    stays the release's own count; `artist_peak_count` is the effective one (None without a fresh own count).
+    The source is the alphabetically first one with a fresh count (any latest source if none is fresh). Collective
+    "artists" (Various Artists, [unknown artist], ...) get no peak, so their effective count is the own count.
+    An own count of 0 means unknown, so it is never rarity-eligible.
+    """
     allowed = catalog.scope_ids(scope)
     scoped = [r for r in catalog.releases if scope == ALL_GENRES or set(r.genre_ids) & allowed]
-    observations = {}
-    for r in scoped:
-        latest = {}
-        for o in sorted(r.observations, key=lambda o: o.observed_at):
-            if o.observed_at.date() <= as_of:
-                latest[o.source] = o
-        observations[r.id] = latest
+    observations = {r.id: _latest_by_source(r, as_of) for r in scoped}
+    peak: dict[str, dict[str, int]] = {}  # source -> artist id -> max fresh count over the whole catalog
+    scoped_ids = set(observations)
+    collective = {a.id for a in catalog.artists if a.name.strip().casefold() in COLLECTIVE_ARTIST_NAMES}
+    for r in catalog.releases:
+        if not r.observations:
+            continue
+        for source, o in (observations[r.id] if r.id in scoped_ids else _latest_by_source(r, as_of)).items():
+            count = _fresh_count(o, as_of)
+            if count is not None:
+                by_artist = peak.setdefault(source, {})
+                for artist_id in r.artist_ids:
+                    if artist_id not in collective and count > by_artist.get(artist_id, -1):
+                        by_artist[artist_id] = count
+    parents = {g.id: g.parent_ids for g in catalog.genres}
+    descendants: dict[str, frozenset[str] | set[str]] = {}
+
+    def desc(group: str):
+        if group not in descendants:
+            descendants[group] = catalog.descendant_ids(group)
+        return descendants[group]
+
+    ages = [_age(r.year, as_of) for r in scoped]
+    effective: dict[str, list] = {}  # source -> per scoped position effective count (None: not a member)
+    genre_index: dict[tuple[str, str], dict[str, list[int]]] = {}  # (source, age) -> genre -> positions
+    cohorts: dict[tuple[str, str, str], tuple[list[int], list[int]]] = {}  # key -> (positions, sorted counts)
+    priors: dict[tuple[str, str, str], float | None] = {}
+
+    def source_index(source: str) -> list:
+        if source not in effective:
+            by_artist = peak.get(source, {})
+            counts = []
+            for pos, r in enumerate(scoped):
+                own = _fresh_count(observations[r.id].get(source), as_of)
+                if own is None:
+                    counts.append(None)
+                    continue
+                counts.append(max([own, *(by_artist.get(a, own) for a in r.artist_ids if a not in collective)]))
+                if ages[pos] is not None:
+                    index = genre_index.setdefault((source, ages[pos]), {})
+                    for g in set(r.genre_ids):
+                        index.setdefault(g, []).append(pos)
+            effective[source] = counts
+        return effective[source]
+
+    def cohort(source: str, group: str, age: str):
+        key = (source, group, age)
+        if key not in cohorts:
+            counts = source_index(source)
+            index = genre_index.get((source, age), {})
+            positions = sorted({pos for g in desc(group) for pos in index.get(g, ())})
+            cohorts[key] = (positions, sorted(counts[pos] for pos in positions))
+        return cohorts[key]
+
     output = {}
-    for r in scoped:
+    for position, r in enumerate(scoped):
         own = observations[r.id]
         # Stable source preference; never choose the source yielding the lowest percentile.
-        source = sorted(own)[0] if own else None
+        fresh = [s for s in own if _fresh_count(own[s], as_of) is not None]
+        source = min(fresh) if fresh else min(own) if own else None
         observation = own.get(source)
-        value = {"rarity": None, "quality": None, "rating_count": None,
+        value = {"rarity": None, "quality": None, "rating_count": None, "artist_peak_count": None,
                  "popularity_source": source, "cohort_id": None, "cohort_size": 0,
                  "rarity_eligible": 0.0}
-        age = _age(r.year, as_of)
+        age = ages[position]
         if observation is None:
             output[r.id] = value
             continue
@@ -119,11 +196,15 @@ def _popularity(catalog: Catalog, scope: str, as_of: date) -> dict[str, dict]:
             output[r.id] = value
             continue
         value["rating_count"] = observation.rating_count
-        if observation.rating_count is None or age is None:
+        if observation.rating_count is None:
+            output[r.id] = value
+            continue
+        own_effective = source_index(source)[position]
+        value["artist_peak_count"] = own_effective
+        if age is None:
             output[r.id] = value
             continue
         # Most specific direct tag first, then ancestors, finally requested scope.
-        parents = {g.id: g.parent_ids for g in catalog.genres}
         groups = set(r.genre_ids) & allowed
         pending = list(groups)
         while pending:
@@ -134,27 +215,25 @@ def _popularity(catalog: Catalog, scope: str, as_of: date) -> dict[str, dict]:
                     pending.append(parent)
         if scope != ALL_GENRES:
             groups.add(scope)
-        group_order = sorted(groups, key=lambda g: (len(catalog.descendant_ids(g)), g))
+        group_order = sorted(groups, key=lambda g: (len(desc(g)), g))
         for group in group_order:
-            members = catalog.descendant_ids(group)
-            cohort = []
-            for candidate in scoped:
-                other = observations[candidate.id].get(source)
-                if (set(candidate.genre_ids) & members and _age(candidate.year, as_of) == age
-                    and other is not None and other.rating_count is not None
-                    and 0 <= (as_of-other.observed_at.date()).days <= MAX_OBSERVATION_AGE_DAYS):
-                    cohort.append(other)
-            if len(cohort) < MIN_COHORT:
+            positions, counts = cohort(source, group, age)
+            if len(positions) < MIN_COHORT:
                 continue
             # Conservative tie handling: an equal-count cohort is not all "rare".
-            percentile = sum(o.rating_count <= observation.rating_count for o in cohort)/len(cohort)
-            value.update(rarity=1-percentile, rarity_eligible=float(percentile <= .4),
-                         cohort_id=f"{source}:{group}:{age}", cohort_size=len(cohort))
-            rated = [o.rating/o.rating_scale for o in cohort if o.rating is not None]
-            if observation.rating is not None and rated:
-                prior = sum(rated)/len(rated)
-                n = observation.rating_count
-                value["quality"] = (n*(observation.rating/observation.rating_scale)+20*prior)/(n+20)
+            percentile = bisect_right(counts, own_effective)/len(counts)
+            eligible = percentile <= .4 and observation.rating_count > 0  # 0 means unknown
+            value.update(rarity=1-percentile, rarity_eligible=float(eligible),
+                         cohort_id=f"{source}:{group}:{age}", cohort_size=len(positions))
+            if observation.rating is not None:
+                key = (source, group, age)
+                if key not in priors:
+                    rated = [o.rating/o.rating_scale for pos in positions
+                             if (o := observations[scoped[pos].id][source]).rating is not None]
+                    priors[key] = sum(rated)/len(rated) if rated else None
+                if priors[key] is not None:
+                    n = observation.rating_count
+                    value["quality"] = (n*(observation.rating/observation.rating_scale)+20*priors[key])/(n+20)
             break
         output[r.id] = value
     return output

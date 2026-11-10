@@ -140,9 +140,9 @@ def collection_cards(store: Store, catalog: Catalog | None = None) -> list[Relea
     latest = {}
     events = store.feedback()
     visible = store.collection_release_ids()
-    listened = {event.release_id for event in events if event.kind in {"known", "listened_like", "listened_dislike"}}
+    listened = {event.release_id for event in events if event.kind in {"known", "listened_like", "listened_mixed", "listened_dislike"}}
     for feedback in events:
-        if feedback.release_id in visible and feedback.kind in {"known", "save_for_later", "listened_like", "listened_dislike"}:
+        if feedback.release_id in visible and feedback.kind in {"known", "save_for_later", "listened_like", "listened_mixed", "listened_dislike"}:
             latest[feedback.release_id] = feedback
     if not latest:
         return []
@@ -174,7 +174,8 @@ def collection_cards(store: Store, catalog: Catalog | None = None) -> list[Relea
             decisions[decision.id] = decision_cards(snapshot, decision)
         card = next(card for card in decisions[feedback.decision_id]
                     if card.release_id == feedback.release_id)
-        result.append(card.model_copy(update={"feedback": feedback.kind, "listened": card.release_id in listened,
+        result.append(card.model_copy(update={"feedback": feedback.kind, "score": feedback.score,
+                                              "review": feedback.review, "listened": card.release_id in listened,
                                               "saved_at": feedback.recorded_at.isoformat(),
                                               "chats": origins.get(card.release_id, [])}))
     return result

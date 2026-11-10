@@ -20,10 +20,14 @@ def _reward_scores(store: Store, catalog: Catalog, request: RequestIntent,
     for event in store.feedback():
         decision = decisions[event.decision_id]
         details = decision.policy_details
-        if (decision.request.genre_scope_id == request.genre_scope_id
-            and decision.feature_version == FEATURE_VERSION and details.get("enabled")
-            and details.get("selected_release_id") == event.release_id
-            and event.kind in {"listened_like", "listened_dislike"}):
+        if event.kind == "listened_mixed":
+            # Neutral and decision-independent: it supersedes any earlier label of the release.
+            for key in [k for k in latest if k[1] == event.release_id]:
+                del latest[key]
+        elif (decision.request.genre_scope_id == request.genre_scope_id
+              and decision.feature_version == FEATURE_VERSION and details.get("enabled")
+              and details.get("selected_release_id") == event.release_id
+              and event.kind in {"listened_like", "listened_dislike"}):
             latest[event.decision_id, event.release_id] = event
     events = sorted(latest.values(), key=lambda event: event.recorded_at)
     if len(events) < 10 or len({e.kind for e in events}) < 2:
@@ -99,7 +103,10 @@ def discovery_metrics(store: Store) -> dict:
     familiarity = {}
     for event in store.feedback():
         key = event.decision_id, event.release_id
-        if event.kind in {"listened_like", "listened_dislike"}:
+        if event.kind == "listened_mixed":
+            for stale in [k for k in latest_rating if k[1] == event.release_id]:
+                del latest_rating[stale]
+        elif event.kind in {"listened_like", "listened_dislike"}:
             latest_rating[key] = event.kind == "listened_like"
         if event.kind == "known":
             familiarity[key] = True

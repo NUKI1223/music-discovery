@@ -245,7 +245,7 @@ class Store:
     def _collection_release_ids(conn) -> set[str]:
         return {row[0] for row in conn.execute("""SELECT DISTINCT json_extract(f.payload,'$.release_id')
             FROM feedback f WHERE f.id NOT IN (SELECT id FROM revoked_feedback)
-            AND json_extract(f.payload,'$.kind') IN ('known','save_for_later','listened_like','listened_dislike')
+            AND json_extract(f.payload,'$.kind') IN ('known','save_for_later','listened_like','listened_mixed','listened_dislike')
             AND NOT EXISTS (SELECT 1 FROM hidden_collection h
                 WHERE h.release_id=json_extract(f.payload,'$.release_id') AND h.through_seq>=f.seq)""")}
 
@@ -322,18 +322,21 @@ class Store:
         events = self.feedback()
         for event in events:
             scope = scopes[event.decision_id]
-            if event.kind in {"known", "listened_like", "listened_dislike"}:
+            if event.kind in {"known", "listened_like", "listened_mixed", "listened_dislike"}:
                 known.add(event.release_id)
             if event.familiar_before_recommendation is True:
                 known.add(event.release_id)
-            if event.kind in {"listened_like", "listened_dislike"}:
+            if event.kind in {"listened_like", "listened_mixed", "listened_dislike"}:
                 latest[scope, event.release_id] = event.kind
         for (scope, rid), kind in latest.items():
             likes = set(profile.liked_release_ids_by_genre.get(scope, []))
             dislikes = set(profile.disliked_release_ids_by_genre.get(scope, []))
             likes.discard(rid)
             dislikes.discard(rid)
-            (likes if kind == "listened_like" else dislikes).add(rid)
+            if kind == "listened_like":
+                likes.add(rid)
+            elif kind == "listened_dislike":
+                dislikes.add(rid)
             profile.liked_release_ids_by_genre[scope] = sorted(likes)
             profile.disliked_release_ids_by_genre[scope] = sorted(dislikes)
         profile.known_release_ids = sorted(known)

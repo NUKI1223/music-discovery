@@ -179,11 +179,11 @@ function Workspace({ session, onLogout }: { session: Schema['Session'], onLogout
     } catch (error) { setError(messageOf(error)); if (request) setRetry(request); setFilterStatus(request ? 'Настройки применены. Проверьте результат тем же запросом.' : '') }
     finally { lock.current = false; setBusy(false) }
   }
-  function feedback(id: string, kind: Schema['FeedbackRequest']['kind']) { const update = (card: Card) => card.release_id === id ? { ...card, feedback: kind, saved_at: new Date().toISOString(), listened: card.listened || ['known', 'listened_like', 'listened_dislike'].includes(kind) } : card; setCollection(current => current.map(update)); setChat(current => current ? { ...current, messages: current.messages.map(message => ({ ...message, cards: message.cards?.map(update) })) } : current) }
+  function feedback(id: string, kind: Schema['FeedbackRequest']['kind'], score: number | null, review: string | null) { const rated = kind.startsWith('listened_'); const update = (card: Card) => card.release_id === id ? { ...card, feedback: kind, score: rated ? score : null, review: rated ? review : null, saved_at: new Date().toISOString(), listened: card.listened || ['known', 'listened_like', 'listened_mixed', 'listened_dislike'].includes(kind) } : card; setCollection(current => current.map(update)); setChat(current => current ? { ...current, messages: current.messages.map(message => ({ ...message, cards: message.cards?.map(update) })) } : current) }
   function resetCollection(id: string | undefined, forget: boolean) {
     setCollection(current => id ? current.filter(card => card.release_id !== id) : [])
     const ids = new Set(id ? [id] : collection.map(card => card.release_id))
-    if (forget) setChat(current => current ? { ...current, messages: current.messages.map(message => ({ ...message, cards: message.cards?.map(card => ids.has(card.release_id) ? { ...card, feedback: null, listened: false } : card) })) } : current)
+    if (forget) setChat(current => current ? { ...current, messages: current.messages.map(message => ({ ...message, cards: message.cards?.map(card => ids.has(card.release_id) ? { ...card, feedback: null, score: null, review: null, listened: false } : card) })) } : current)
   }
   async function deleteChat() {
     if (!deletingChat) return

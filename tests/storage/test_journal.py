@@ -117,3 +117,68 @@ def test_concurrent_duplicate_feedback_is_idempotent(tmp_path):
         results = list(pool.map(store.append_feedback, [event, event]))
     assert sorted(results) == [False, True]
     assert len(store.feedback()) == 1
+
+
+def test_mixed_rating_is_neutral_known_and_supersedes_binary_labels(tmp_path):
+    store = Store(tmp_path / "state.db")
+    decision = committed(store)
+
+    def add(name, kind, **extra):
+        store.append_feedback(Feedback(id=name, decision_id=decision.id, release_id="r", kind=kind, **extra))
+
+    add("like", "listened_like")
+    assert store.profile().liked_release_ids_by_genre["g"] == ["r"]
+    add("mixed", "listened_mixed", score=55, review="Есть и хорошее, и слабое")
+    profile = store.profile()
+    assert profile.liked_release_ids_by_genre["g"] == []
+    assert profile.disliked_release_ids_by_genre["g"] == []
+    assert profile.known_release_ids == ["r"]
+    assert "r" in store.collection_release_ids()
+    add("like-again", "listened_like")
+    assert store.profile().liked_release_ids_by_genre["g"] == ["r"]
+    add("dislike", "listened_dislike")
+    add("mixed-2", "listened_mixed")
+    profile = store.profile()
+    assert profile.liked_release_ids_by_genre["g"] == [] and profile.disliked_release_ids_by_genre["g"] == []
+
+
+def test_mixed_alone_creates_no_label_and_no_reward(tmp_path):
+    store = Store(tmp_path / "state.db")
+    decision = committed(store)
+    store.append_feedback(Feedback(id="mixed", decision_id=decision.id, release_id="r",
+                                   kind="listened_mixed", familiar_before_recommendation=False))
+    profile = store.profile()
+    assert not profile.liked_release_ids_by_genre.get("g") and not profile.disliked_release_ids_by_genre.get("g")
+    assert discovery_metrics(store)["by_genre"]["g"]["discovery_rate"] in (0, None)
+
+
+def test_later_mixed_removes_earlier_rating_from_metrics(tmp_path):
+    store = Store(tmp_path / "state.db")
+    decision = committed(store)
+    store.append_feedback(Feedback(id="like", decision_id=decision.id, release_id="r",
+                                   kind="listened_like", familiar_before_recommendation=False))
+    assert discovery_metrics(store)["by_genre"]["g"]["discovery_rate"] == 1
+    store.append_feedback(Feedback(id="mixed", decision_id=decision.id, release_id="r",
+                                   kind="listened_mixed"))
+    assert discovery_metrics(store)["by_genre"]["g"]["discovery_rate"] != 1
+
+
+def test_feedback_contract_score_review_rules_and_old_payloads():
+    from pydantic import ValidationError
+    old = Feedback.model_validate_json(
+        '{"id":"x","decision_id":"d","release_id":"r","kind":"listened_like"}')
+    assert old.score is None and old.review is None
+    for kind in ("listened_like", "listened_mixed", "listened_dislike"):
+        event = Feedback(id="x", decision_id="d", release_id="r", kind=kind, score=0, review="ok")
+        assert event.score == 0
+        assert Feedback(id="x", decision_id="d", release_id="r", kind=kind, score=100).score == 100
+    for bad in ({"score": -1}, {"score": 101}, {"review": "я" * 4001}):
+        with pytest.raises(ValidationError):
+            Feedback(id="x", decision_id="d", release_id="r", kind="listened_mixed", **bad)
+    assert len(Feedback(id="x", decision_id="d", release_id="r", kind="listened_mixed",
+                        review="я" * 4000).review) == 4000
+    for kind in ("known", "save_for_later"):
+        with pytest.raises(ValidationError):
+            Feedback(id="x", decision_id="d", release_id="r", kind=kind, score=5)
+        with pytest.raises(ValidationError):
+            Feedback(id="x", decision_id="d", release_id="r", kind=kind, review="текст")
