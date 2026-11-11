@@ -86,3 +86,17 @@ def test_browser_contract_real_responses(tmp_path):
         client.headers["X-CSRF-Token"] = session["csrf_token"]
         validate(client.post("/api/auth/password", json={"current_password": creds["password"],
             "new_password": "contract-new-password-123"}), "/api/auth/password", "post")
+
+
+def test_app_page_is_revalidated_by_browsers(tmp_path):
+    import pytest
+
+    app = create_app(data_dir=tmp_path, catalog=make_demo_catalog(),
+                     allowed_origins={"http://testserver"})
+    with TestClient(app) as client:
+        for path in ("/", "/collection"):
+            response = client.get(path)
+            if response.status_code == 503:
+                pytest.skip("frontend/dist/index.html is not built")
+            assert response.status_code == 200
+            assert response.headers["Cache-Control"] == "no-cache"

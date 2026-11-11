@@ -126,7 +126,7 @@ def create_app(data_dir: Path | None = None, catalog: Catalog | None = None,
         if path.startswith("api/"):
             return JSONResponse(status_code=404, content={"detail": "Не найдено."})
         if (dist / "index.html").is_file():
-            return FileResponse(dist / "index.html")
+            return FileResponse(dist / "index.html", headers={"Cache-Control": "no-cache"})
         return JSONResponse(status_code=503, content={"detail": "Сначала соберите интерфейс: cd frontend && npm ci && npm run build"})
 
     # Serve the agreed artifact used by generated browser types and contract tests.
