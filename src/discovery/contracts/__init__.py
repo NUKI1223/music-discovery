@@ -303,7 +303,7 @@ class Feedback(Contract):
     decision_id: str
     release_id: str
     kind: Literal["known", "save_for_later", "listened_like", "listened_mixed",
-                  "listened_dislike", "wrong_genre", "not_now", "familiarity"]
+                  "listened_dislike", "wrong_genre", "not_now", "familiarity", "off_request"]
     familiar_before_recommendation: bool | None = None
     score: int | None = Field(default=None, ge=0, le=100)
     review: str | None = Field(default=None, max_length=4000)

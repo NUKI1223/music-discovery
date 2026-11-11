@@ -343,6 +343,28 @@ class Store:
         profile.version = digest(profile.model_dump_json() + "|".join(e.id for e in events))[:16]
         return profile
 
+    def off_request_release_ids(self, genre_scope_id: str, locked_subgenre_ids: list[str]) -> set[str]:
+        """Releases the account marked 'off request' for a genre request like this one.
+
+        A mark is a context (genre scope, locked subgenres) of the decision it was
+        made in; any later known/saved/listened event on the release clears its marks.
+        """
+        with self.connection() as conn:
+            requests = {row[0]: (row[1], frozenset(json.loads(row[2] or "[]"))) for row in conn.execute(
+                "SELECT id, json_extract(payload,'$.request.genre_scope_id'), "
+                "json_extract(payload,'$.request.locked_subgenre_ids') FROM decisions")}
+        contexts: dict[str, list[tuple[str, frozenset[str]]]] = {}
+        for event in self.feedback():
+            if event.kind == "off_request":
+                contexts.setdefault(event.release_id, []).append(requests[event.decision_id])
+            elif event.kind in {"known", "save_for_later", "listened_like", "listened_mixed",
+                                "listened_dislike"}:
+                contexts.pop(event.release_id, None)
+        locked = set(locked_subgenre_ids)
+        return {rid for rid, items in contexts.items()
+                if any(scope == genre_scope_id and (not marked or (locked and locked <= marked))
+                       for scope, marked in items)}
+
     def export(self) -> dict:
         with self.connection() as conn:
             catalogs = [json.loads(r[0]) for r in conn.execute("SELECT payload FROM catalogs")]

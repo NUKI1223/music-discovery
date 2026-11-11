@@ -258,3 +258,53 @@ def test_blank_review_becomes_none(library):
     _, cards = selection(client)
     assert rate(client, cards[0], 'listened_mixed', score=10, review='   ').status_code == 200
     assert store.feedback()[0].review is None
+
+
+def test_off_request_is_accepted_but_rejects_score_and_review(library):
+    client, store, _, _ = library
+    _, cards = selection(client)
+    assert rate(client, cards[0], 'off_request', score=50).status_code == 422
+    assert rate(client, cards[0], 'off_request', review='текст').status_code == 422
+    assert store.feedback() == []
+    assert rate(client, cards[0], 'off_request').status_code == 200
+    assert [event.kind for event in store.feedback()] == ['off_request']
+
+
+def test_off_request_is_not_taste_collection_or_listened_and_hides_release_in_new_chat(library):
+    client, store, _, _ = library
+    chat, cards = selection(client)
+    liked, target = cards[0], cards[1]
+    rate(client, liked, 'listened_like')
+    before = store.profile()
+    assert rate(client, target, 'off_request').status_code == 200
+    after = store.profile()
+    assert target['release_id'] not in after.known_release_ids
+    assert after.liked_release_ids_by_genre == before.liked_release_ids_by_genre
+    assert after.disliked_release_ids_by_genre == before.disliked_release_ids_by_genre
+    shown = {card['release_id']: card for card in
+             client.get(f"/api/chats/{chat['id']}").json()['messages'][-1]['cards']}[target['release_id']]
+    assert (shown['feedback'], shown['listened'], shown['score'], shown['review']) == ('off_request', False, None, None)
+    assert target['release_id'] not in {entry['release_id'] for entry in client.get('/api/collection').json()}
+    _, fresh = selection(client, title='Новый чат')
+    assert target['release_id'] not in {card['release_id'] for card in fresh}
+
+
+def test_off_request_can_be_withdrawn_by_a_later_rating(library):
+    client, _, _, _ = library
+    _, cards = selection(client)
+    target = cards[0]
+    rate(client, target, 'off_request')
+    rate(client, target, 'save_for_later')
+    _, fresh = selection(client, title='Новый чат')
+    # Saved-for-later is not "known": the release may come back to a new chat.
+    assert target['release_id'] in {card['release_id'] for card in fresh}
+    assert client.get('/api/collection').json()[0]['feedback'] == 'save_for_later'
+
+
+def test_off_request_keeps_earlier_collection_state(library):
+    client, _, _, _ = library
+    _, cards = selection(client)
+    rate(client, cards[0], 'listened_like')
+    rate(client, cards[0], 'off_request')
+    entry = client.get('/api/collection').json()[0]
+    assert entry['release_id'] == cards[0]['release_id']

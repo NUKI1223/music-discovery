@@ -103,7 +103,7 @@ class ReleaseCard(Model):
     links: list[SourceLink]
     historical_ratings: list[HistoricalRating]
     feedback: Literal["known", "save_for_later", "listened_like", "listened_mixed",
-                      "listened_dislike"] | None = None
+                      "listened_dislike", "off_request"] | None = None
     score: int | None = None
     review: str | None = None
     listened: bool = False
@@ -167,7 +167,8 @@ class FeedbackRequest(Model):
     feedback_id: str = Field(min_length=8, max_length=80, pattern=r"^[A-Za-z0-9_-]+$")
     decision_id: str
     release_id: str
-    kind: Literal["known", "save_for_later", "listened_like", "listened_mixed", "listened_dislike"]
+    kind: Literal["known", "save_for_later", "listened_like", "listened_mixed", "listened_dislike",
+                  "off_request"]
     score: int | None = Field(default=None, ge=0, le=100)
     review: str | None = Field(default=None, max_length=4000)
 

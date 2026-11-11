@@ -76,3 +76,12 @@ def test_mixed_supersedes_earlier_label_and_never_creates_one(tmp_path):
     store.append_feedback(Feedback(id="mixed-after", decision_id="d0", release_id="r0",
                                    kind="listened_mixed", score=50, occurred_at=later, recorded_at=later))
     assert training_records(store) == []
+
+
+def test_off_request_never_creates_a_label_and_keeps_an_earlier_one(tmp_path):
+    store = make_store(tmp_path, [("off_request", False, None), ("listened_like", False, None)])
+    assert {r["release_id"]: r["label"] for r in training_records(store)} == {"r1": 1}
+    later = T0 + timedelta(days=5)
+    store.append_feedback(Feedback(id="off-after", decision_id="d1", release_id="r1",
+                                   kind="off_request", occurred_at=later, recorded_at=later))
+    assert {r["release_id"]: r["label"] for r in training_records(store)} == {"r1": 1}

@@ -3464,7 +3464,8 @@
                   "save_for_later",
                   "listened_like",
                   "listened_mixed",
-                  "listened_dislike"
+                  "listened_dislike",
+                  "off_request"
                 ],
                 "type": "string"
               },
@@ -3739,7 +3740,8 @@
               "save_for_later",
               "listened_like",
               "listened_mixed",
-              "listened_dislike"
+              "listened_dislike",
+              "off_request"
             ],
             "title": "Kind",
             "type": "string"

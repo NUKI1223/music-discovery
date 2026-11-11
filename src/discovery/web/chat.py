@@ -164,7 +164,8 @@ def get_chat(store: Store, chat_id: str, *, limit: int | None = None,
     listened = {event.release_id for event in events
                 if event.kind in {"known", "listened_like", "listened_mixed", "listened_dislike"}}
     feedback = {event.release_id: event for event in events
-                if event.kind in {"known", "save_for_later", "listened_like", "listened_mixed", "listened_dislike"}}
+                if event.kind in {"known", "save_for_later", "listened_like", "listened_mixed",
+                                  "listened_dislike", "off_request"}}
     for message in messages:
         for card in message.cards:
             latest = feedback.get(card.release_id)
@@ -694,7 +695,9 @@ def handle_message(store: Store, chat_id: str, body: MessageRequest, catalog: Ca
             profile = store.profile()
             excluded_artists = sorted(set(filters.excluded_artist_ids) | set(
                 known_artist_ids(store, catalog, profile) if filters.exclude_known_artists else []))
-            intent = filters.intent(count=count, excluded_release_ids=sorted(shown),
+            intent = filters.intent(count=count, excluded_release_ids=sorted(
+                                        shown | store.off_request_release_ids(
+                                            filters.genre_scope_id, filters.locked_subgenre_ids)),
                                     excluded_artist_ids=excluded_artists)
             decision = recommend(store, catalog, intent, profile=profile,
                                  request_id="web-" + message.id, artifact=artifact)

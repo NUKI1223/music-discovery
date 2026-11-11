@@ -595,7 +595,7 @@ export interface components {
              * Feedback
              * @default null
              */
-            feedback: ("known" | "save_for_later" | "listened_like" | "listened_mixed" | "listened_dislike") | null;
+            feedback: ("known" | "save_for_later" | "listened_like" | "listened_mixed" | "listened_dislike" | "off_request") | null;
             /**
              * Score
              * @default null
@@ -716,7 +716,7 @@ export interface components {
              * Kind
              * @enum {string}
              */
-            kind: "known" | "save_for_later" | "listened_like" | "listened_mixed" | "listened_dislike";
+            kind: "known" | "save_for_later" | "listened_like" | "listened_mixed" | "listened_dislike" | "off_request";
             /**
              * Score
              * @default null
